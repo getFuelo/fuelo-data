@@ -14,9 +14,16 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  refresh:
+  # One job per country so the Actions UI shows per-source status. A failing
+  # country is independently visible and re-runnable; healthy ones still ship.
+  fetch:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        country: [es, fr, ad]
+    name: fetch (${{ matrix.country }})
     steps:
       - uses: actions/checkout@v4
 
@@ -27,15 +34,40 @@ jobs:
       - name: Install deps
         run: pip install requests
 
-      - name: Fetch station data
-        run: python scripts/fetch.py
+      - name: Fetch ${{ matrix.country }}
+        run: python scripts/fetch.py ${{ matrix.country }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: stations-${{ matrix.country }}
+          path: stations-${{ matrix.country }}.json
+          if-no-files-found: error
+          retention-days: 1
+
+  # Single commit step. Runs even when some fetch jobs failed: it only commits
+  # whatever artifacts were uploaded, preserving the previous snapshot for any
+  # country that's currently broken.
+  commit:
+    needs: fetch
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download successful artifacts
+        uses: actions/download-artifact@v4
+        with:
+          merge-multiple: true
+          path: .
 
       - name: Commit & push if changed
         run: |
           git config user.name "fuelo-data bot"
           git config user.email "bot@fuelo.app"
           if git diff --quiet -- stations-*.json; then
-            echo "No changes."
+            echo "No data changes."
             exit 0
           fi
           git add stations-*.json

@@ -17,6 +17,8 @@ from pathlib import Path
 from typing import Any
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parent.parent
 BRAND_TYPOS: dict[str, str] = {
@@ -25,8 +27,38 @@ BRAND_TYPOS: dict[str, str] = {
     if not k.startswith("_")
 }
 
-UA = "fuelo-data-cron/1.0 (+https://github.com/getFuelo/fuelo-data)"
+# Browser-like UA — some endpoints (notably Spain's Ministry) appear to drop
+# connections from obvious bot agents. The +URL stays so server admins can
+# trace the traffic.
+UA = (
+    "Mozilla/5.0 (compatible; fuelo-data/1.0; +https://github.com/getFuelo/fuelo-data)"
+)
 TIMEOUT = 120
+
+
+def make_session() -> requests.Session:
+    """Session with sensible retries: 4 attempts, exponential backoff, retries on
+    connection errors and 5xx responses. The Spain endpoint occasionally resets
+    the TCP connection — once usually works after a short wait."""
+    s = requests.Session()
+    retries = Retry(
+        total=4,
+        connect=4,
+        read=4,
+        status=4,
+        backoff_factor=2.0,  # 2s, 4s, 8s, 16s
+        status_forcelist=(500, 502, 503, 504),
+        allowed_methods=frozenset(["GET", "HEAD"]),
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retries, pool_connections=4, pool_maxsize=4)
+    s.mount("http://", adapter)
+    s.mount("https://", adapter)
+    s.headers.update({"User-Agent": UA})
+    return s
+
+
+SESSION = make_session()
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -66,7 +98,7 @@ ES_URL = (
 
 def fetch_es() -> list[dict[str, Any]]:
     t = time.time()
-    res = requests.get(ES_URL, timeout=TIMEOUT, headers={"User-Agent": UA})
+    res = SESSION.get(ES_URL, timeout=TIMEOUT)
     res.raise_for_status()
     payload = res.json()
     raw = payload.get("ListaEESSPrecio", []) or []
@@ -112,7 +144,7 @@ FR_URL = (
 
 def fetch_fr() -> list[dict[str, Any]]:
     t = time.time()
-    res = requests.get(FR_URL, timeout=TIMEOUT, headers={"User-Agent": UA, "Accept": "application/json"})
+    res = SESSION.get(FR_URL, timeout=TIMEOUT, headers={"Accept": "application/json"})
     res.raise_for_status()
     arr = res.json()
     out: list[dict[str, Any]] = []
@@ -202,7 +234,7 @@ def _title_case(s: str) -> str:
 
 def fetch_ad() -> list[dict[str, Any]]:
     t = time.time()
-    res = requests.get(AD_URL, timeout=TIMEOUT, headers={"User-Agent": UA})
+    res = SESSION.get(AD_URL, timeout=TIMEOUT)
     res.raise_for_status()
     features = res.json().get("features", []) or []
 
@@ -274,14 +306,27 @@ def write(country: str, stations: list[dict[str, Any]]) -> None:
     print(f"      -> {path.name} ({size_kb:,.0f} KB)")
 
 
+FETCHERS = {"es": fetch_es, "fr": fetch_fr, "ad": fetch_ad}
+
+
 def main() -> int:
-    failures = 0
-    for country, fetcher in (("es", fetch_es), ("ad", fetch_ad), ("fr", fetch_fr)):
+    """CLI: `python scripts/fetch.py [country ...]`. With no args, runs all
+    three (useful for local validation). With args, runs only the requested
+    countries — used by the per-country GitHub Actions matrix jobs so each
+    country has its own visibility, retry, and pass/fail status."""
+    countries = [c.lower() for c in sys.argv[1:]] or list(FETCHERS.keys())
+    failures: list[str] = []
+    for country in countries:
+        fetcher = FETCHERS.get(country)
+        if not fetcher:
+            print(f"[{country}] unknown country (expected one of {list(FETCHERS)})", file=sys.stderr)
+            failures.append(country)
+            continue
         try:
             write(country, fetcher())
         except Exception as e:  # noqa: BLE001
             print(f"[{country}] FAILED: {e}", file=sys.stderr)
-            failures += 1
+            failures.append(country)
     return 1 if failures else 0
 
 

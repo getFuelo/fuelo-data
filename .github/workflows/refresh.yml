@@ -1,0 +1,43 @@
+name: Refresh station data
+
+on:
+  schedule:
+    # Every 6 hours at minute 5 (offset so we don't compete for runner capacity).
+    - cron: "5 */6 * * *"
+  workflow_dispatch: {}  # manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Fetch station data
+        run: python scripts/fetch.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "fuelo-data bot"
+          git config user.email "bot@fuelo.app"
+          if git diff --quiet -- stations-*.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git add stations-*.json
+          git commit -m "data: refresh stations $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

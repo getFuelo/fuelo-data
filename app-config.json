@@ -1,6 +1,6 @@
 {
   "_comment": "Force-update + recommended-update policy for the Fuelo mobile app. Edit minimum_version when a release becomes mandatory (older versions then show a blocking modal). update_url is the destination — Play Store, App Store, or Firebase App Distribution tester URL while in beta. message_es is shown to the user.",
-  "minimum_version": "1.0.1",
-  "update_url": "https://appdistribution.firebase.google.com/testerapps/1:871515278131:android:4b4ac6b003766934340c46",
-  "message_es": "Test del mecanismo de actualización forzada. Si ves esta pantalla, el sistema funciona."
+  "minimum_version": "0.0.0",
+  "update_url": null,
+  "message_es": "Esta versión de Fuelo ya no es compatible. Actualízala para seguir usándola."
 }

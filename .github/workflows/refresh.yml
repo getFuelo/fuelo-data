@@ -56,20 +56,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Download successful artifacts
         uses: actions/download-artifact@v4
         with:
           merge-multiple: true
           path: .
 
+      # Append today's per-fuel aggregate row to history-<c>.json (stdlib only).
+      - name: Append price history
+        run: python scripts/append_today.py
+
       - name: Commit & push if changed
         run: |
           git config user.name "fuelo-data bot"
           git config user.email "bot@fuelo.app"
-          if git diff --quiet -- stations-*.json; then
+          if git diff --quiet -- stations-*.json history-*.json; then
             echo "No data changes."
             exit 0
           fi
-          git add stations-*.json
-          git commit -m "data: refresh stations $(date -u +%Y-%m-%dT%H:%MZ)"
+          git add stations-*.json history-*.json
+          git commit -m "data: refresh stations + history $(date -u +%Y-%m-%dT%H:%MZ)"
           git push

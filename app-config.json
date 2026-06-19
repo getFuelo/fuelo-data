@@ -1,6 +1,8 @@
 {
-  "_comment": "Force-update + recommended-update policy for the Fuelo mobile app. Edit minimum_version when a release becomes mandatory (older versions then show a blocking modal). update_url is the destination — Play Store, App Store, or Firebase App Distribution tester URL while in beta. message_es is shown to the user.",
+  "_comment": "Update policy for the Fuelo mobile app. minimum_version triggers a blocking modal (older clients are locked out). latest_version triggers a dismissible soft-update banner (older clients are nagged once per version). update_url is the destination — Play Store, App Store, or Firebase App Distribution tester URL while in beta. message_es is shown for the blocking modal; soft_update_message_es for the banner.",
   "minimum_version": "0.0.0",
+  "latest_version": "1.2.0",
   "update_url": null,
-  "message_es": "Esta versión de Fuelo ya no es compatible. Actualízala para seguir usándola."
+  "message_es": "Esta versión de Fuelo ya no es compatible. Actualízala para seguir usándola.",
+  "soft_update_message_es": "Hay una nueva versión de Fuelo con mejoras."
 }

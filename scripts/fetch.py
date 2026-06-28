@@ -292,6 +292,114 @@ def fetch_ad() -> list[dict[str, Any]]:
     return out
 
 
+# ── Portugal (DGEG precoscombustiveis) ───────────────────────────────────────
+
+PT_URL = "https://precoscombustiveis.dgeg.gov.pt/api/PrecoComb/PesquisarPostos"
+PT_PAGE = 1000
+
+# Map DGEG fuel names → our keys. One value per key per station; the tuple's
+# second element is a priority (lower wins) so the standard grade beats the
+# "especial" fallback when both exist. Road fuels only — colorido (agricultural),
+# heating oil, biodiesel, 2-stroke mix and CNG/LNG are intentionally excluded.
+PT_FUEL_MAP = {
+    "Gasóleo simples": ("diesel", 0),
+    "Gasóleo especial": ("dieselPremium", 0),
+    "Gasolina simples 95": ("gasoline95", 0),
+    "Gasolina especial 95": ("gasoline95", 1),
+    "Gasolina 98": ("gasoline98", 0),
+    "Gasolina especial 98": ("gasoline98", 1),
+    "GPL Auto": ("lpg", 0),
+}
+
+
+def parse_price_pt(s: Any) -> float | None:
+    """DGEG prices look like '1,749 €' or '0,810 €/litro' — comma decimal."""
+    if not s:
+        return None
+    txt = str(s).split("€")[0].strip().replace(",", ".")
+    try:
+        v = float(txt)
+    except (TypeError, ValueError):
+        return None
+    return v if v == v and 0 < v < 100 else None
+
+
+def fetch_pt() -> list[dict[str, Any]]:
+    t = time.time()
+    # PesquisarPostos returns one row per (station, fuel), price-sorted and
+    # paginated, so we page through everything and aggregate by station Id.
+    by_id: dict[Any, dict[str, Any]] = {}
+    n = 1
+    while True:
+        res = SESSION.get(
+            PT_URL, params={"pagina": n, "qtdPorPagina": PT_PAGE}, timeout=TIMEOUT
+        )
+        res.raise_for_status()
+        arr = res.json().get("resultado") or []
+        if not arr:
+            break
+        for r in arr:
+            mapped = PT_FUEL_MAP.get(r.get("Combustivel"))
+            if not mapped:
+                continue
+            price = parse_price_pt(r.get("Preco"))
+            if price is None:
+                continue
+            lat = r.get("Latitude")
+            lng = r.get("Longitude")
+            if (
+                not isinstance(lat, (int, float))
+                or not isinstance(lng, (int, float))
+                or (lat == 0 and lng == 0)
+            ):
+                continue
+            key, prio = mapped
+            sid = r.get("Id")
+            acc = by_id.get(sid)
+            if not acc:
+                acc = {
+                    "id": sid,
+                    "lat": float(lat),
+                    "lng": float(lng),
+                    "brand_raw": (r.get("Marca") or "").strip(),
+                    "address": (r.get("Morada") or "").strip(),
+                    "city": (r.get("Localidade") or r.get("Municipio") or "").strip(),
+                    "province": (r.get("Distrito") or "").strip(),
+                    "prices": {},  # key -> (price, prio)
+                }
+                by_id[sid] = acc
+            prev = acc["prices"].get(key)
+            if prev is None or prio < prev[1]:
+                acc["prices"][key] = (price, prio)
+        if len(arr) < PT_PAGE:
+            break
+        n += 1
+        if n > 60:  # safety stop
+            break
+
+    out: list[dict[str, Any]] = []
+    for acc in by_id.values():
+        prices = {k: p for k, (p, _) in acc["prices"].items()}
+        if not prices:
+            continue
+        out.append(
+            {
+                "id": f"PT-{acc['id']}",
+                "country": "PT",
+                "brand": canonicalize_brand(acc["brand_raw"]) or "Sin marca",
+                "address": acc["address"],
+                "city": acc["city"],
+                "province": acc["province"],
+                "schedule": "",
+                "lat": acc["lat"],
+                "lng": acc["lng"],
+                "prices": prices,
+            }
+        )
+    print(f"[pt] {len(out):,} stations in {time.time() - t:.1f}s")
+    return out
+
+
 # ── Output ───────────────────────────────────────────────────────────────────
 
 def write(country: str, stations: list[dict[str, Any]]) -> None:
@@ -306,7 +414,7 @@ def write(country: str, stations: list[dict[str, Any]]) -> None:
     print(f"      -> {path.name} ({size_kb:,.0f} KB)")
 
 
-FETCHERS = {"es": fetch_es, "fr": fetch_fr, "ad": fetch_ad}
+FETCHERS = {"es": fetch_es, "fr": fetch_fr, "ad": fetch_ad, "pt": fetch_pt}
 
 
 def main() -> int:

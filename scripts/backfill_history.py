@@ -83,6 +83,6 @@ def spread_report(result):
 
 
 if __name__ == "__main__":
-    countries = sys.argv[1:] or ["es", "fr", "ad"]
+    countries = sys.argv[1:] or ["es", "fr", "ad", "pt"]
     for c in countries:
         spread_report(backfill(c))

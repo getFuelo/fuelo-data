@@ -45,7 +45,7 @@ def append(country, date):
 
 
 if __name__ == "__main__":
-    countries = sys.argv[1:] or ["es", "fr", "ad"]
+    countries = sys.argv[1:] or ["es", "fr", "ad", "pt"]
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     for c in countries:
         append(c, today)

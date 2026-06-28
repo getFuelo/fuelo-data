@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        country: [es, fr, ad]
+        country: [es, fr, ad, pt]
     name: fetch (${{ matrix.country }})
     steps:
       - uses: actions/checkout@v4

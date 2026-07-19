@@ -2,6 +2,7 @@
   "generated": "2026-07-17",
   "schema": 1,
   "currency": "EUR",
+  "complete": true,
   "tolls": [
     {
       "id": "ad-envalira",

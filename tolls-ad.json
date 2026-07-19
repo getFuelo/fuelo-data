@@ -1,0 +1,24 @@
+{
+  "generated": "2026-07-17",
+  "schema": 1,
+  "currency": "EUR",
+  "tolls": [
+    {
+      "id": "ad-envalira",
+      "country": "ad",
+      "name": "Túnel d'Envalira",
+      "road": "CG-2",
+      "operator": "SETAP 2000 (Túnel d'Envalira)",
+      "lat": 42.5405,
+      "lng": 1.71,
+      "model": "fixed",
+      "vehicle_class": "light",
+      "price": 8.1,
+      "price_high": null,
+      "variable": false,
+      "source": "https://tuneldenvalira.com/en/rates",
+      "verified": "2026-07-17",
+      "notes": "Single toll tunnel Grau Roig <-> Pas de la Casa on CG-2; only tolled road in Andorra. 2026 light-vehicle (Tipus 1) tariff EUR 8.10 (was 7.90, +2.5%). A 50% discount exists for Pas de la Casa residents/workers and Andorran transport firms - NOT applied (default = non-resident). Coordinate approx = west (Grau Roig) portal / toll plaza; refine from OSM barrier=toll_booth."
+    }
+  ]
+}

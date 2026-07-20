@@ -155,11 +155,13 @@ PDF extraction that works here: `curl -sL <url> -o x.pdf && pdftotext -layout x.
   (benefits are after-the-fact refunds).
 
 ## Coordinate note
-Tunnel/plaza coords here are **approximate** (portal or plaza, hand-placed) and
-flagged in each `notes`. To refine: OSM `barrier=toll_booth` via Overpass, e.g.
-`node["barrier"="toll_booth"](area.<iso>);out;`. Good enough for segment matching;
-tighten when the app integration lands. (OSM toll-booth tagging is solid — PT alone
-had 409 nodes; ES/FR autoroute networks are densely mapped.)
+All coords are **OSM `barrier=toll_booth` nodes**, audited 2026-07-19 against a full
+ES+AD Overpass pull (727 booths): every entry sits at its nearest booth. Lesson:
+hand-placed "approximate" coords broke matching in production — `es-cadi` was ~9.7 km
+off and the Cadí tunnel showed as "Peaje no identificado" on a real Andorra→BCN
+route. When adding entries, re-run the audit: pull `node["barrier"="toll_booth"]`
+for the country and set each coord to the nearest booth. (PT alone had 409 nodes;
+ES/AD have 727.)
 
 ## Coverage / pending (NOT yet in the JSON — with how to get each)
 
@@ -226,6 +228,11 @@ country.** Partial coverage = a wrong total on some route = broken trust. The ap
 gate the toll UI on `complete === true` per country.
 
 ## Change log
+- **2026-07-19** — coordinate audit: all 35 entries re-coordinated to nearest OSM
+  `barrier=toll_booth` (full ES+AD Overpass pull, 727 booths). `es-cadi` had been
+  ~9.7 km off → Cadí showed as "Peaje no identificado" on a real Andorra→BCN route.
+  `tolls-ad.json` gained `complete: true` (gate convention). App `tollCache` bumped
+  to CACHE_VERSION 2 to invalidate stale-coord caches.
 - **2026-07-18 (b)** — ES completed: added AP-15 (Audenasa, BON 258), Gipuzkoa Bidegi
   (AP-8/AP-1/AP-636, official 2026 PDF) and Bizkaia Interbiak (AP-8/Supersur/Artxanda,
   DF 147/2025) → 34 entries, flipped `complete: true`. State-list re-check vs the

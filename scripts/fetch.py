@@ -91,7 +91,9 @@ def prices_dict(items: dict[str, float | None]) -> dict[str, float]:
 # ── Spain (Ministerio para la Transición Ecológica) ──────────────────────────
 
 ES_URL = (
-    "https://sedeaplicaciones.minetur.gob.es"
+    # Current endpoint published in the Ministry's API catalogue. The old
+    # sedeaplicaciones.minetur.gob.es host intermittently resets connections.
+    "https://energia.serviciosmin.gob.es"
     "/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/"
 )
 
@@ -101,7 +103,9 @@ def fetch_es() -> list[dict[str, Any]]:
     res = SESSION.get(ES_URL, timeout=TIMEOUT)
     res.raise_for_status()
     payload = res.json()
-    raw = payload.get("ListaEESSPrecio", []) or []
+    raw = payload.get("ListaEESSPrecio") if isinstance(payload, dict) else None
+    if not isinstance(raw, list) or not raw:
+        raise ValueError("Spain API returned no station list; preserving previous snapshot")
     out: list[dict[str, Any]] = []
     for r in raw:
         lat = parse_decimal_es(r.get("Latitud"))
@@ -130,6 +134,8 @@ def fetch_es() -> list[dict[str, Any]]:
                 ),
             }
         )
+    if not out:
+        raise ValueError("Spain API returned no valid stations; preserving previous snapshot")
     print(f"[es] {len(out):,} stations in {time.time() - t:.1f}s")
     return out
 

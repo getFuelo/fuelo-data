@@ -152,3 +152,16 @@ if (ROOT/'pricing-candidates/ag55-extra-lanes').exists():
  for path in sorted((ROOT/'pricing-candidates/ag55-extra-lanes').glob('*-request.json')):
   req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
  (out/'ag55/extra-lanes.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
+
+# Complete public-city journeys exercise free portions of mixed toll maneuvers.
+corridor = ROOT/'audit/2026-09-16/networks/cadi/andorra-barcelona.json'
+if corridor.exists():
+ import shutil
+ target=out/'cadi';target.mkdir(exist_ok=True)
+ shutil.copy(corridor,target/'andorra-barcelona.json')
+ shutil.copy(ROOT/'pricing-candidates/cadi.json',target/'catalog.json')
+ shutil.copy(ROOT/'tolls-ad.json',target/'andorra-catalog.json')
+ catalog=json.loads((ROOT/'pricing-candidates/cadi.json').read_text())
+ autema=json.loads((ROOT/'pricing-candidates/autema.json').read_text())
+ catalog['pricing']+=autema['pricing'];catalog['tolls']+=autema['tolls']
+ (target/'corridor-catalog.json').write_text(json.dumps(catalog,separators=(',',':'))+'\n')

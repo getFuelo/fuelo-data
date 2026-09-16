@@ -1,8 +1,8 @@
 {
   "catalogOrdersChecked": 2,
   "complete": false,
-  "total": 1488,
-  "passed": 1488,
+  "total": 1491,
+  "passed": 1491,
   "safelyUnavailable": 8,
   "unresolvedPassages": [],
   "failures": [],
@@ -177,6 +177,10 @@
     },
     "m12-v2": {
       "passed": 7,
+      "failed": 0
+    },
+    "cadi-whole-journey": {
+      "passed": 3,
       "failed": 0
     }
   }

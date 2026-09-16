@@ -8,7 +8,9 @@ old cheaper-common-case convention. Historical details remain in Git history.
 
 ## Current publication status
 
-- Local branch `feat/toll-catalog-audit`; no push/CDN publication in this task.
+- Branch `feat/toll-catalog-audit`: repository PR and merge authorized on
+  2026-09-16. The experimental national catalog remains a candidate; merging
+  does not certify or enable it for production.
 - Spain `complete: false`: missing individual plazas/gantries and OD rules,
   time/calendar rules, and incorrect coordinate associations prevent certification.
 - Andorra retains coverage of its only toll tunnel; general type-1 fare EUR8.10.

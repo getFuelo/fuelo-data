@@ -159,3 +159,19 @@ is a separate zero-price regression. Night/peak variations remain distinct.
 Twelve AP-6/AP-51 combined routes are retained for integration; they are not yet
 certified by the isolated-system tests. Shared settlement and the remaining
 access/avoidance work keep all three candidates and Spain disabled.
+
+### Shared AP-6 / AP-51 settlement (2026-09-16)
+
+All 30 published directed journeys pass retained Valhalla geometry checks at
+normal, night and summer-peak times. Schema 4 associates one financial OD charge
+with its displayed roads, without inventing a per-road price split. Road marker
+crossings are cached independently of departure-time repricing. Adanero–Ávila
+night is the published 570 cents, not the 575-cent sum of local rows. Villacastín
+SC-SG-13 town access is outside the interchange; internal ramp movements do not
+close the financial journey. Other public approaches, AP-61 integration,
+frequent-user eligibility, lane and avoidance validation remain pending.
+
+974 tests / 49 suites and TypeScript pass; 63 candidate JSON files pass integrity.
+Spain remains disabled and release validation still fails as intended. AP-68
+reference validity now stops at the documented concession end, 2026-11-10.
+All changes remain local.

@@ -26,7 +26,7 @@ def check():
         d=json.loads(path.read_text());count+=1
         require(d.get('complete') is False,f'{path.name}: development data cannot be complete')
         amounts(d,path.name)
-        if d.get('schema') not in (2,3):
+        if d.get('schema') not in (2,3,4):
             require(d.get('kind')=='tariff-reference',f'{path.name}: unknown candidate kind')
             require(bool(d.get('source')),f'{path.name}: missing tariff source')
             continue
@@ -39,10 +39,26 @@ def check():
                     for child in value:no_extended_fields(child)
             no_extended_fields(d)
         toll_ids={t['id'] for t in d['tolls']}; nets=d['pricing']
-        require({n['tollId'] for n in nets}==toll_ids,f'{path.name}: missing pricing network')
+        require({id for n in nets for id in ([r['tollId'] for r in n['sharedRoads']] if n.get('sharedRoads') else [n['tollId']])}==toll_ids,f'{path.name}: missing pricing network')
         require(len({n['id'] for n in nets})==len(nets),f'{path.name}: duplicate networks')
         for n in nets:
             prefix=path.name+':'+n['id'];gates=n['gates'];ids=[g['id'] for g in gates]
+            roads=n.get('sharedRoads',[]);road_ids=[r['tollId'] for r in roads]
+            if roads:
+                require(d['schema']==4 and len(roads)>=2 and len(set(road_ids))==len(road_ids) and n['tollId'] in road_ids,prefix+': invalid shared roads')
+                require(n['pricing']['kind']=='od',prefix+': shared roads require OD settlement')
+                for road in roads:
+                    marker_ids=[g['id'] for g in road['gates']]
+                    require(bool(marker_ids) and len(set(marker_ids))==len(marker_ids),prefix+': invalid road markers')
+                    require('avoidanceGateIds' not in road or bool(road['avoidanceGateIds']) and set(road['avoidanceGateIds'])<=set(marker_ids),prefix+': invalid road avoidance')
+                    for g in road['gates']:
+                        require(len(g['line'])==2 and g['line'][0]!=g['line'][1],prefix+': invalid road cross-section')
+                        require(g['direction'] in ('both','positive','negative'),prefix+': invalid road direction')
+                        for p in g['line']:
+                            require(all(math.isfinite(p[k]) for k in ('lat','lng')) and abs(p['lat'])<=90 and abs(p['lng'])<=180,prefix+': invalid road coordinate')
+            for fare in n['pricing'].get('fares',[]) if n['pricing']['kind']=='od' else []:
+                assigned=fare.get('roadIds')
+                require(bool(assigned) and len(set(assigned))==len(assigned) and set(assigned)<=set(road_ids) if roads else assigned is None,prefix+': invalid fare roads')
             require(bool(gates) and len(set(ids))==len(ids),prefix+': invalid gate identities')
             require(bool(n.get('coverageWays')),prefix+': missing road coverage')
             require(bool(n.get('evidence',{}).get('tariffSources')),prefix+': missing provenance')
@@ -82,7 +98,7 @@ if __name__=='__main__':
         for row in status['entries']:
             if row.get('ready') is not True:errors.append(row['catalogId']+': not ready for release.')
         country=json.loads((ROOT/'tolls-es.json').read_text())
-        if country.get('complete') is not True or country.get('schema') not in (2,3):
+        if country.get('complete') is not True or country.get('schema') not in (2,3,4):
             errors.append('Served Spain catalog is not a complete supported pricing dataset.')
         errors.extend(status['nationalBlockers'])
         errors.extend(row['catalogId']+': '+b for row in status['entries'] for b in row['blockers'])

@@ -5,7 +5,7 @@
   "currency": "EUR",
   "vehicle_class": "light",
   "validFrom": "2026-01-01",
-  "validThrough": "2026-12-31",
+  "validThrough": "2026-11-10",
   "timeZone": "Europe/Madrid",
   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-68,-bilbao---zaragoza-2026.pdf",
   "sha256": "6884ebdeb726fafd78435176409e23536f5c26a7edea6ee31998891f3baf2ede",
@@ -3496,5 +3496,7 @@
     "Published names preserved, including source typos, pending explicit alias mapping.",
     "Do not add joint AP-6 journey rows to a separately quoted AP-6 journey.",
     "Unlisted pairs are unknown; free sections require separate evidence."
-  ]
+  ],
+  "validitySource": "https://www.boe.es/boe/dias/2026/09/11/pdfs/BOE-A-2026-19039.pdf",
+  "validityNote": "Concession ends 2026-11-10; no tariff assumption after that date. This decree concerns heavy-vehicle discounts, not new light-vehicle amounts."
 }

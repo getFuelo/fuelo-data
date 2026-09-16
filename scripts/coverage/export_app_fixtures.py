@@ -93,3 +93,11 @@ if (ROOT/'pricing-candidates/ap9.json').exists():
 if (ROOT/'audit/2026-09-16/networks/ap61/free-n603/ORTIGOSA--OTERO.json').exists():
  import shutil
  shutil.copy(ROOT/'audit/2026-09-16/networks/ap61/free-n603/ORTIGOSA--OTERO.json',out/'ap61/free-n603.json')
+
+if (ROOT/'pricing-candidates/iberpistas.json').exists():
+ import shutil
+ target=out/'iberpistas';target.mkdir(exist_ok=True)
+ shutil.copy(ROOT/'pricing-candidates/iberpistas.json',target/'catalog.json');rows=[]
+ for path in sorted((ROOT/'pricing-candidates/iberpistas-routes').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (target/'cases.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')

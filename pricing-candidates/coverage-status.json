@@ -15,11 +15,12 @@
         "pricing-candidates/ap6-tariffs.json"
       ],
       "geometryCandidates": [
-        "pricing-candidates/ap6.json"
+        "pricing-candidates/ap6.json",
+        "pricing-candidates/iberpistas.json"
       ],
       "ready": false,
       "blockers": [
-        "Shared settlement with AP-51/AP-61 and connecting tariff boundaries remain open.",
+        "AP-6/AP-51 shared settlement passes all 30 published directed journeys; remaining public approaches and AP-61 integration are not certified.",
         "Reversible tunnel lane operational state, all public approaches, complete free access and avoidance remain open."
       ]
     },
@@ -29,11 +30,12 @@
         "pricing-candidates/ap51-tariffs.json"
       ],
       "geometryCandidates": [
-        "pricing-candidates/ap51.json"
+        "pricing-candidates/ap51.json",
+        "pricing-candidates/iberpistas.json"
       ],
       "ready": false,
       "blockers": [
-        "Published joint AP-6 journeys are fetched but not yet validated as a combined settlement.",
+        "AP-6/AP-51 shared settlement passes all 30 published directed journeys; remaining public approaches and AP-61 integration are not certified.",
         "All public approaches, habitual-user eligibility and avoidance remain open."
       ]
     },
@@ -102,7 +104,8 @@
       "geometryCandidates": [],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Current tariff validity ends with the concession on 2026-11-10; post-concession charges/free status require new evidence."
       ]
     },
     {

@@ -1,0 +1,108 @@
+{
+  "probeLocations": {
+    "VILLALBA": {
+      "entry": {
+        "lat": 40.6921377,
+        "lng": -4.1234517
+      },
+      "exit": {
+        "lat": 40.6921219,
+        "lng": -4.1236227
+      }
+    },
+    "VILLALBA-reversible": {
+      "entry": {
+        "lat": 40.6923286,
+        "lng": -4.1211822
+      },
+      "exit": {
+        "lat": 40.6923286,
+        "lng": -4.1211822
+      }
+    },
+    "SAN RAFAEL": {
+      "entry": {
+        "lat": 40.7272656,
+        "lng": -4.1968452
+      },
+      "exit": {
+        "lat": 40.7275687,
+        "lng": -4.1965897
+      }
+    },
+    "VILLACASTIN": {
+      "entry": {
+        "lat": 40.7770509,
+        "lng": -4.4220799
+      },
+      "exit": {
+        "lat": 40.7770509,
+        "lng": -4.4220799
+      }
+    },
+    "VILLACASTIN-sur": {
+      "entry": {
+        "lat": 40.772981,
+        "lng": -4.4255976
+      }
+    },
+    "ADANERO": {
+      "entry": {
+        "lat": 40.8908952,
+        "lng": -4.5748485
+      },
+      "exit": {
+        "lat": 40.8909117,
+        "lng": -4.5746651
+      }
+    },
+    "AP6": {
+      "entry": {
+        "lat": 40.77247,
+        "lng": -4.4219325
+      },
+      "exit": {
+        "lat": 40.7731314,
+        "lng": -4.4189939
+      }
+    },
+    "VICOLOZANO": {
+      "entry": {
+        "lat": 40.6806843,
+        "lng": -4.6313835
+      },
+      "exit": {
+        "lat": 40.6806843,
+        "lng": -4.6313835
+      }
+    },
+    "AVILA": {
+      "entry": {
+        "lat": 40.6756307,
+        "lng": -4.6412646
+      },
+      "exit": {
+        "lat": 40.6757392,
+        "lng": -4.641361
+      }
+    }
+  },
+  "townCuts": [
+    {
+      "role": "entry",
+      "way": 101211843,
+      "version": 6,
+      "node": 1168433136,
+      "outsideNode": 1168432984
+    },
+    {
+      "role": "exit",
+      "way": 39041139,
+      "version": 9,
+      "node": 1168433374,
+      "outsideNode": 1168432984
+    }
+  ],
+  "status": "candidate_pending_all_public_approaches",
+  "source": "../../spain-graph/provenance.json"
+}

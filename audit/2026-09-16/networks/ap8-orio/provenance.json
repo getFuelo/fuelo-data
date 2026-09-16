@@ -1,0 +1,29 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-ap8-orio",
+      "reviewGroup": "osm-review-529263709",
+      "mergedReviewGroups": [
+        "osm-review-529263709",
+        "osm-review-1272979614",
+        "osm-review-13437323993"
+      ],
+      "booths": [
+        529263709,
+        13437323974,
+        1272979614,
+        13437323993
+      ],
+      "laneWays": [
+        1465069264,
+        1465069266,
+        1465069267,
+        1465069269
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 10,
+  "reviewStatus": "candidate_pending_routes"
+}

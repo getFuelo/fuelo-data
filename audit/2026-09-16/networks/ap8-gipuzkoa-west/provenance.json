@@ -1,0 +1,202 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "EIBAR",
+      "reviewGroup": "osm-review-6929503",
+      "booths": [
+        6929503
+      ],
+      "entryWay": 45856790,
+      "version": 6,
+      "entryBooth": 6929503,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 43.19052503164326,
+          "lng": -2.4494184954016176
+        },
+        {
+          "lat": 43.19059036835674,
+          "lng": -2.4495363045983827
+        }
+      ]
+    },
+    {
+      "zone": "ELGOIBAR",
+      "reviewGroup": "osm-review-834673",
+      "booths": [
+        834673,
+        13672788699,
+        13672788700,
+        13672799201,
+        13672799202
+      ],
+      "entryWay": 1491970945,
+      "version": 1,
+      "entryBooth": 13672799202,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 43.230582159295395,
+          "lng": -2.4019453552753744
+        },
+        {
+          "lat": 43.230546601477734,
+          "lng": -2.4023227140118553
+        }
+      ]
+    },
+    {
+      "zone": "ITZIAR",
+      "reviewGroup": "osm-review-27013967",
+      "booths": [
+        27013967,
+        7511727738
+      ],
+      "entryWay": 4413851,
+      "version": 16,
+      "entryBooth": 7511727738,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 43.284122438783704,
+          "lng": -2.32844676736441
+        },
+        {
+          "lat": 43.283953661216295,
+          "lng": -2.3284487326355903
+        }
+      ]
+    },
+    {
+      "zone": "ZUMAIA",
+      "reviewGroup": "osm-review-27015741",
+      "booths": [
+        27015741,
+        27015759
+      ],
+      "entryWay": 4713139,
+      "version": 10,
+      "entryBooth": 27015759,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 43.26756031184636,
+          "lng": -2.272856694955364
+        },
+        {
+          "lat": 43.267489988153635,
+          "lng": -2.2726055050446394
+        }
+      ]
+    },
+    {
+      "zone": "ZARAUTZ-OESTE",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 25310914,
+      "version": 10,
+      "node": 275715018,
+      "outsideNode": 275714506
+    },
+    {
+      "zone": "ZARAUTZ-OESTE",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 25310915,
+      "version": 9,
+      "node": 275714819,
+      "outsideNode": 275714943
+    },
+    {
+      "zone": "DONOSTIA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 419083804,
+      "version": 13,
+      "node": 275715010,
+      "outsideNode": 275705785
+    },
+    {
+      "zone": "DONOSTIA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 4493086,
+      "version": 58,
+      "node": 275715013,
+      "outsideNode": 2349925522
+    }
+  ],
+  "probeLocations": {
+    "EIBAR": {
+      "entry": {
+        "lat": 43.1902283,
+        "lng": -2.4510703
+      },
+      "exit": {
+        "lat": 43.1902283,
+        "lng": -2.4510703
+      }
+    },
+    "ELGOIBAR": {
+      "entry": {
+        "lat": 43.2294986,
+        "lng": -2.4018652
+      },
+      "exit": {
+        "lat": 43.2293557,
+        "lng": -2.4018796
+      }
+    },
+    "ITZIAR": {
+      "entry": {
+        "lat": 43.2828533,
+        "lng": -2.3283257
+      },
+      "exit": {
+        "lat": 43.2828533,
+        "lng": -2.3283257
+      }
+    },
+    "ZUMAIA": {
+      "entry": {
+        "lat": 43.2684846,
+        "lng": -2.2719676
+      },
+      "exit": {
+        "lat": 43.2684555,
+        "lng": -2.2718219
+      }
+    },
+    "ZARAUTZ-OESTE": {
+      "entry": {
+        "lat": 43.2817526,
+        "lng": -2.1566986
+      },
+      "exit": {
+        "lat": 43.278859,
+        "lng": -2.1547271
+      }
+    },
+    "DONOSTIA": {
+      "entry": {
+        "lat": 43.279391,
+        "lng": -2.1571069
+      },
+      "exit": {
+        "lat": 43.2793221,
+        "lng": -2.1573914
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "DONOSTIA",
+    "EIBAR",
+    "ELGOIBAR",
+    "ITZIAR",
+    "ZARAUTZ-OESTE",
+    "ZUMAIA"
+  ],
+  "status": "candidate_pending_real_routes"
+}

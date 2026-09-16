@@ -1,0 +1,31 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.2828533,
+        "lon": -2.3283257
+      },
+      {
+        "lat": 43.2293557,
+        "lon": -2.4018796
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 163,
+  "expectedRoadIds": [
+    "es-ap8-gipuzkoa"
+  ],
+  "source": [
+    "https://www.arabat.eus/es/ap-1/tarifas-ap-1/"
+  ],
+  "reusedFrom": "pricing-candidates/ap8-gipuzkoa-west-routes/ITZIAR--ELGOIBAR.json"
+}

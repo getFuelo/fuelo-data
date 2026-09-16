@@ -58,7 +58,7 @@ if (ROOT/'pricing-candidates/ap53.json').exists():
    request=json.loads(path.read_text());terminal_cases.append({'name':path.stem.removesuffix('-request'),'expectedCents':request['expectedCents'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
   (target/'terminals.json').write_text(json.dumps(terminal_cases,separators=(',',':'),ensure_ascii=False)+'\n')
 
-for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57','r3','r5','r4','ap9-frontera','ap9-centro','ap9-sur','ap9-ferrol','ap9-norte','ap51','ap6','ap61','ap68','ap1-closed']:
+for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57','r3','r5','r4','ap9-frontera','ap9-centro','ap9-sur','ap9-ferrol','ap9-norte','ap51','ap6','ap61','ap68','ap1-closed','ap8-gipuzkoa-west','ap8-bizkaia','ap8-gipuzkoa-east']:
  if not (ROOT/f'pricing-candidates/{family}.json').exists():continue
  import shutil
  target=out/family;target.mkdir(exist_ok=True);catalog=json.loads((ROOT/f'pricing-candidates/{family}.json').read_text());shutil.copy(ROOT/f'pricing-candidates/{family}.json',target/'catalog.json');rows=[]
@@ -107,3 +107,23 @@ if (ROOT/'pricing-candidates/ap68-public-approaches').exists():
  for path in sorted((ROOT/'pricing-candidates/ap68-public-approaches').glob('*-request.json')):
   req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
  (out/'ap68/public-approaches.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')
+
+# Joint AP-8/AP-1 prices include all participating roads exactly once.
+if (ROOT/'pricing-candidates/ap8-ap1-shared.json').exists():
+ import shutil
+ target=out/'ap8-ap1-shared';target.mkdir(exist_ok=True)
+ shutil.copy(ROOT/'pricing-candidates/ap8-ap1-shared.json',target/'catalog.json');rows=[]
+ for path in sorted((ROOT/'pricing-candidates/ap8-ap1-shared-routes').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (target/'cases.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')
+ free=ROOT/'audit/2026-09-16/networks/ap8-ap1-shared/free-local/ERMUA--EIBAR.json'
+ if free.exists():shutil.copy(free,target/'free-local.json')
+
+local=[]
+for family in ['ap8-orio','ap8-zarautz-east']:
+ if not (ROOT/f'pricing-candidates/{family}.json').exists():continue
+ rows=[]
+ for path in sorted((ROOT/f'pricing-candidates/{family}-routes').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ local.append({'family':family,'catalog':json.loads((ROOT/f'pricing-candidates/{family}.json').read_text()),'lanes':json.loads((ROOT/f'audit/2026-09-16/networks/{family}/lane-probes.json').read_text()),'routes':rows})
+if local:(out/'ap8-local-ramps.json').write_text(json.dumps(local,separators=(',',':'))+'\n')

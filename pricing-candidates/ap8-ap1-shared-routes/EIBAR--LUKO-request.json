@@ -1,0 +1,32 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.1902283,
+        "lon": -2.4510703
+      },
+      {
+        "lat": 42.9297411,
+        "lon": -2.6470546
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 879,
+  "expectedRoadIds": [
+    "es-ap1-gipuzkoa",
+    "es-ap8-gipuzkoa"
+  ],
+  "source": [
+    "https://www.arabat.eus/es/ap-1/tarifas-ap-1/"
+  ],
+  "reusedFrom": null
+}

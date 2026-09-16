@@ -1,0 +1,31 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.0945175,
+        "lon": -2.4296915
+      },
+      {
+        "lat": 42.9147042,
+        "lon": -2.6984261
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 756,
+  "expectedRoadIds": [
+    "es-ap1-gipuzkoa"
+  ],
+  "source": [
+    "https://www.arabat.eus/es/ap-1/tarifas-ap-1/"
+  ],
+  "reusedFrom": "pricing-candidates/ap1-closed-routes/BERGARA-SUR--ETXABARRI.json"
+}

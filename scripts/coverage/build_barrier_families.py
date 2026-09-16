@@ -8,6 +8,13 @@ import collections,gzip,json,math
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];SOURCE=ROOT/'audit/2026-09-16/spain-graph'
 FAMILIES={
+ 'ap8-orio':{'ref':'AP-8','coverageRefs':['AP-8','AP-1;AP-8','AP-8;AP-1'],'lat':[43.27,43.29],'lng':[-2.12,-2.10],
+  'parent':'es-ap8-gipuzkoa','tariffFamily':'ap8-east','tariffOD':['Orio','Donostia - SS M/O / Astigarraga / Hernani'],
+  'mergeGroups':{'osm-review-529263709':['osm-review-1272979614','osm-review-13437323993']},
+  'groups':[('osm-review-529263709','es-ap8-orio','Orio',219)]},
+ 'ap8-zarautz-east':{'ref':'AP-8','coverageRefs':['AP-8','AP-1;AP-8','AP-8;AP-1'],'lat':[43.27,43.29],'lng':[-2.158,-2.15],
+  'parent':'es-ap8-gipuzkoa','tariffFamily':'ap8-east','tariffOD':['Zarautz E','Donostia - SS M/O / Astigarraga / Hernani'],
+  'groups':[('osm-review-275715087','es-ap8-zarautz-east','Zarautz Este',280)]},
  'ag55-pastoriza':{'ref':'AG-55','coverageRefs':['AG-55','AC-15'],'lat':[43.308,43.355],'lng':[-8.50,-8.43],
   'parent':'es-ag55','tariffFamily':'ag55','tariffOD':['A Coruña','Arteixo'],'groups':[
   ('osm-review-1125611755','es-ag55-pastoriza','Pastoriza',55)]},
@@ -50,6 +57,10 @@ def main():
   for n in w['nodes']:at[n].add(w['id'])
  legacy={t['id']:t for t in json.loads((ROOT/'tolls-es.json').read_text())['tolls']}
  for family,spec in FAMILIES.items():
+  groups={g['id']:g for g in review['groups']}
+  for primary,others in spec.get('mergeGroups',{}).items():
+   ids=list(dict.fromkeys(n for gid in [primary]+others for n in groups[gid]['pointIds']))
+   groups[primary]={**groups[primary],'pointIds':ids,'lat':sum(points[n]['lat'] for n in ids)/len(ids),'lng':sum(points[n]['lng'] for n in ids)/len(ids),'mergedReviewGroups':[primary]+others}
   inside=lambda w:all(spec['lat'][0]<=nodes[str(n)][0]<=spec['lat'][1] and spec.get('lng',[-180,180])[0]<=nodes[str(n)][1]<=spec.get('lng',[-180,180])[1] for n in w['nodes'])
   tariff_reference=json.loads((ROOT/f"pricing-candidates/{spec.get('tariffFamily',family)}-tariffs.json").read_text()) if spec.get('parent') else None
   selected={w['id'] for w in ways.values() if w['tags'].get('ref') in spec.get('coverageRefs',[spec['ref']]) and inside(w)}
@@ -94,7 +105,7 @@ def main():
    tolls.append(toll)
    gate={'id':id+'-plaza','line':line,'direction':'both'};networks.append({'id':id,'tollId':id,'validFrom':'2026-01-01','validThrough':'2026-12-31','timeZone':'Europe/Madrid','gates':[gate],'pricing':{'kind':'gates','fares':{gate['id']:tariff}},'coverageWays':coverage,'evidence':{'checked':'2026-09-16','tariffSources':[toll['source']],'geometrySource':'https://www.openstreetmap.org/copyright'}})
    if tariff_reference and tariff_reference.get('discountSource'):networks[-1]['evidence']['tariffSources'].append(tariff_reference['discountSource']['url'])
-   evidence.append({'network':id,'reviewGroup':groupid,'booths':group['pointIds'],'laneWays':sorted(lane_ways),'method':'Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings.'})
+   evidence.append({'network':id,'reviewGroup':groupid,**({'mergedReviewGroups':group['mergedReviewGroups']} if group.get('mergedReviewGroups') else {}),'booths':group['pointIds'],'laneWays':sorted(lane_ways),'method':'Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings.'})
    for booth in booths:
     incoming=[];outgoing=[]
     for wid in booth['incidentWays']:

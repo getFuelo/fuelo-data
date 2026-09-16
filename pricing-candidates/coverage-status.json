@@ -522,12 +522,28 @@
         "pricing-candidates/ap8-ap1-full-tariffs.json",
         "pricing-candidates/ap8-east-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap8-gipuzkoa-west.json",
+        "pricing-candidates/ap8-ap1-shared.json",
+        "pricing-candidates/ap8-gipuzkoa-east.json",
+        "pricing-candidates/ap8-orio.json",
+        "pricing-candidates/ap8-zarautz-east.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Eastern Gipuzkoa tariff references imported, including conditional Oñaurre; physical mapping and joint AP-8/AP-1 settlement remain open."
-      ]
+        "Eastern general rows pass twelve journeys, and Orio/Zarautz east pass six source lanes and six real traversals. Combined full AP-8 corridor, local free approaches and conditional Oñaurre remain open.",
+        "Every public approach, alternate lane, special same-zone tariff and discount eligibility require further verification.",
+        "Selective avoidance and national release integration remain open."
+      ],
+      "validatedCorpus": {
+        "nativeDirectedJourneys": 28,
+        "jointDirectedJourneys": 260,
+        "jointFreeLocalAlternatives": 1,
+        "sharedFareAndRoadMarkersChecked": true,
+        "easternDirectedJourneys": 12,
+        "localRampSourceLanes": 6,
+        "localRampRealTraversals": 6
+      }
     },
     {
       "catalogId": "es-ap1-gipuzkoa",
@@ -536,13 +552,20 @@
         "pricing-candidates/ap8-ap1-full-tariffs.json"
       ],
       "geometryCandidates": [
-        "pricing-candidates/ap1-closed.json"
+        "pricing-candidates/ap1-closed.json",
+        "pricing-candidates/ap8-ap1-shared.json"
       ],
       "ready": false,
       "blockers": [
-        "Twenty internal Bergara Sur–Etxabarri directed journeys are mapped; northern AP-8/AP-1 shared settlement and Bergara Norte remain open.",
-        "All public access/lane, discount and avoidance checks remain open."
-      ]
+        "Every public approach, alternate lane, special same-zone tariff and discount eligibility require further verification.",
+        "Selective avoidance and national release integration remain open."
+      ],
+      "validatedCorpus": {
+        "nativeDirectedJourneys": 20,
+        "jointDirectedJourneys": 260,
+        "jointFreeLocalAlternatives": 1,
+        "sharedFareAndRoadMarkersChecked": true
+      }
     },
     {
       "catalogId": "es-ap636",
@@ -573,12 +596,21 @@
         "pricing-candidates/ap8-ap1-joint-tariffs.json",
         "pricing-candidates/ap8-ap1-full-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap8-bizkaia.json",
+        "pricing-candidates/ap8-ap1-shared.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Eastern Gipuzkoa tariff references imported, including conditional Oñaurre; physical mapping and joint AP-8/AP-1 settlement remain open."
-      ]
+        "Every public approach, alternate lane, special same-zone tariff and discount eligibility require further verification.",
+        "Selective avoidance and national release integration remain open."
+      ],
+      "validatedCorpus": {
+        "nativeDirectedJourneys": 20,
+        "jointDirectedJourneys": 260,
+        "jointFreeLocalAlternatives": 1,
+        "sharedFareAndRoadMarkersChecked": true
+      }
     },
     {
       "catalogId": "es-supersur",

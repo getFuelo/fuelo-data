@@ -1,0 +1,31 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.176623,
+        "lon": -2.5125323
+      },
+      {
+        "lat": 43.1902283,
+        "lon": -2.4510703
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedRoadIds": [],
+  "source": [
+    "https://www.arabat.eus/es/ap-1/tarifas-ap-1/"
+  ],
+  "reusedFrom": null,
+  "requestedPublishedCents": 122,
+  "expectedActualCents": 0,
+  "notes": "Unconstrained route remains on local roads without crossing a financial gate. Paid AP-8 journey tested separately with a through point."
+}

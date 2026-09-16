@@ -90,3 +90,30 @@ Artxanda's real plazas have now been mapped; their old catalog coordinate remain
 an audit finding rather than the coordinate used by the development candidate.
 The production ES catalog has not been promoted. Vallcarca has a retained real
 Valhalla geometry disagreement requiring resolution before activation.
+
+
+### AP-8/AP-1 checkpoint — 2026-09-16
+
+Bizkaia now has 20 published directed journeys, including the explicit zero
+Iurreta–Abadiño row from Arabat (Bidegi's blank cell was not treated as zero).
+Western Gipuzkoa adds 28 directed journeys. Itziar's N-634-D/service approaches
+are explicitly covered; geometry tolerances were not widened. Ermua's initial
+inside-plaza probes are retained separately from the corrected public access.
+
+The schema-4 joint AP-8/AP-1 candidate settles all 260 published directed
+non-self physical-zone journeys once, with separate road markers, including
+Bergara Norte and Bizkaia–Gipuzkoa–AP-1 crossings. Published joint fares govern;
+regional prices are not added. The unconstrained Ermua–Eibar local route costs
+zero; the 122-cent motorway movement has its own through-point probe.
+
+Eastern Gipuzkoa adds 12 directed general-price journeys. Oiartzun's west-facing
+plaza and east-facing motorway ramps are distinct financial accesses. The
+public GI-2132 approach is retained from the same PBF, alongside rejected
+inside-plaza probes. Orio and Zarautz Este each charge once on both directions:
+six source-lane probes and six real traversals. Oñaurre remains conditional-only
+reference data, not an invented cash fare. Full east/west corridor integration,
+all public/free approaches, rebates, selective avoidance and Supersur are open.
+
+Validation: full app suite 1,785 tests / 55 suites passed, plus 14 new local-ramp
+tests; TypeScript passes. All 73 candidate JSON files pass offline integrity.
+Spain and all 35 manifest entries remain disabled. Local changes only.

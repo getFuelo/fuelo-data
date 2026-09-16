@@ -195,5 +195,13 @@
       }
     }
   },
+  "canonicalProbeZones": [
+    "Ajalvir",
+    "Alcalá",
+    "Cabanillas",
+    "Guadalajara Norte",
+    "Meco",
+    "NII-Taracena"
+  ],
   "status": "candidate_pending_real_routes"
 }

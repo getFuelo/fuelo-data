@@ -200,5 +200,13 @@
       }
     }
   },
+  "canonicalProbeZones": [
+    "A Ramallosa",
+    "Baiona",
+    "Gondomar",
+    "Nigrán",
+    "Vigo",
+    "Vincios"
+  ],
   "status": "candidate_pending_real_routes"
 }

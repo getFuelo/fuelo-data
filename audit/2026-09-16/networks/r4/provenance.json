@@ -1,0 +1,750 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "M50",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 60650660,
+      "version": 5,
+      "node": 248050952,
+      "outsideNode": 248050933
+    },
+    {
+      "zone": "M50",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 60583180,
+      "version": 7,
+      "node": 52735534,
+      "outsideNode": 2139030765
+    },
+    {
+      "zone": "Pinto",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1469456051,
+      "version": 1,
+      "node": 1429085343,
+      "outsideNode": 568607936
+    },
+    {
+      "zone": "Pinto",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 129545735,
+      "version": 5,
+      "node": 358897474,
+      "outsideNode": 568607955
+    },
+    {
+      "zone": "Valdemoro",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 30146972,
+      "version": 11,
+      "node": 1302707072,
+      "outsideNode": 4566582019
+    },
+    {
+      "zone": "Valdemoro",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 28491481,
+      "version": 8,
+      "node": 1302707006,
+      "outsideNode": 332212871
+    },
+    {
+      "zone": "Valdemoro-madrid",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 30146954,
+      "version": 5,
+      "node": 313012137,
+      "outsideNode": 313012135
+    },
+    {
+      "zone": "Valdemoro-madrid",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 264632448,
+      "version": 3,
+      "node": 335621746,
+      "outsideNode": 332212810
+    },
+    {
+      "zone": "Sesena",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 123603113,
+      "version": 3,
+      "node": 312808585,
+      "outsideNode": 1212248291
+    },
+    {
+      "zone": "Sesena",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 123603097,
+      "version": 3,
+      "node": 1212248281,
+      "outsideNode": 1212248341
+    },
+    {
+      "zone": "Villaseca",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1392211207,
+      "version": 1,
+      "node": 1017729830,
+      "outsideNode": 2139030596
+    },
+    {
+      "zone": "Villaseca",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1392211207,
+      "version": 1,
+      "node": 1017729830,
+      "outsideNode": 2139030596,
+      "reverseSourceDirection": true
+    },
+    {
+      "zone": "Aranjuez",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 230997897,
+      "version": 4,
+      "node": 2394196254,
+      "outsideNode": 1104563380
+    },
+    {
+      "zone": "Aranjuez",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 230997901,
+      "version": 4,
+      "node": 2394196230,
+      "outsideNode": 4561534258
+    },
+    {
+      "zone": "Ontigola",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 95218761,
+      "version": 4,
+      "node": 1017729680,
+      "outsideNode": 1104563747
+    },
+    {
+      "zone": "Ontigola",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 95218761,
+      "version": 4,
+      "node": 1017729680,
+      "outsideNode": 1104563747,
+      "reverseSourceDirection": true
+    },
+    {
+      "zone": "Ocana",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 95990409,
+      "version": 8,
+      "node": 52736430,
+      "outsideNode": 1112125088
+    },
+    {
+      "zone": "Ocana",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 95218782,
+      "version": 10,
+      "node": 8856675185,
+      "outsideNode": 8856675174
+    }
+  ],
+  "probeLocations": {
+    "M50": {
+      "entry": {
+        "lat": 40.266578,
+        "lng": -3.7221161
+      },
+      "exit": {
+        "lat": 40.2534052,
+        "lng": -3.7355839
+      }
+    },
+    "Pinto": {
+      "entry": {
+        "lat": 40.2434322,
+        "lng": -3.7329394
+      },
+      "exit": {
+        "lat": 40.243419,
+        "lng": -3.7326431
+      }
+    },
+    "Valdemoro": {
+      "entry": {
+        "lat": 40.1809904,
+        "lng": -3.7099641
+      },
+      "exit": {
+        "lat": 40.1825713,
+        "lng": -3.7091153
+      }
+    },
+    "Valdemoro-madrid": {
+      "entry": {
+        "lat": 40.1828566,
+        "lng": -3.7098389
+      },
+      "exit": {
+        "lat": 40.1812866,
+        "lng": -3.7106861
+      }
+    },
+    "Sesena": {
+      "entry": {
+        "lat": 40.1052138,
+        "lng": -3.6660559
+      },
+      "exit": {
+        "lat": 40.1051281,
+        "lng": -3.6663252
+      }
+    },
+    "Villaseca": {
+      "entry": {
+        "lat": 40.0421128,
+        "lng": -3.664854
+      },
+      "exit": {
+        "lat": 40.0421128,
+        "lng": -3.664854
+      }
+    },
+    "Aranjuez": {
+      "entry": {
+        "lat": 40.0212376,
+        "lng": -3.6488532
+      },
+      "exit": {
+        "lat": 40.0210415,
+        "lng": -3.6489936
+      }
+    },
+    "Ontigola": {
+      "entry": {
+        "lat": 39.9936358,
+        "lng": -3.6066333
+      },
+      "exit": {
+        "lat": 39.9936358,
+        "lng": -3.6066333
+      }
+    },
+    "Ocana": {
+      "entry": {
+        "lat": 39.9407235,
+        "lng": -3.5371759
+      },
+      "exit": {
+        "lat": 39.9597899,
+        "lng": -3.5698507
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "Aranjuez",
+    "M50",
+    "Ocana",
+    "Ontigola",
+    "Pinto",
+    "Sesena",
+    "Valdemoro",
+    "Villaseca"
+  ],
+  "probeJourneys": {
+    "M50--Pinto": {
+      "entry": {
+        "lat": 40.266578,
+        "lng": -3.7221161
+      },
+      "exit": {
+        "lat": 40.243419,
+        "lng": -3.7326431
+      },
+      "expectedGates": [
+        "M50-entry",
+        "Pinto-exit"
+      ]
+    },
+    "M50--Valdemoro": {
+      "entry": {
+        "lat": 40.266578,
+        "lng": -3.7221161
+      },
+      "exit": {
+        "lat": 40.1812866,
+        "lng": -3.7106861
+      },
+      "expectedGates": [
+        "M50-entry",
+        "Valdemoro-madrid-exit"
+      ]
+    },
+    "M50--Sesena": {
+      "entry": {
+        "lat": 40.266578,
+        "lng": -3.7221161
+      },
+      "exit": {
+        "lat": 40.1051281,
+        "lng": -3.6663252
+      },
+      "expectedGates": [
+        "M50-entry",
+        "Sesena-exit"
+      ]
+    },
+    "M50--Villaseca": {
+      "entry": {
+        "lat": 40.266578,
+        "lng": -3.7221161
+      },
+      "exit": {
+        "lat": 40.0421128,
+        "lng": -3.664854
+      },
+      "expectedGates": [
+        "M50-entry",
+        "Villaseca-exit"
+      ]
+    },
+    "M50--Aranjuez": {
+      "entry": {
+        "lat": 40.266578,
+        "lng": -3.7221161
+      },
+      "exit": {
+        "lat": 40.0210415,
+        "lng": -3.6489936
+      },
+      "expectedGates": [
+        "M50-entry",
+        "Aranjuez-exit"
+      ]
+    },
+    "M50--Ocana": {
+      "entry": {
+        "lat": 40.266578,
+        "lng": -3.7221161
+      },
+      "exit": {
+        "lat": 39.9597899,
+        "lng": -3.5698507
+      },
+      "expectedGates": [
+        "M50-entry",
+        "Ocana-exit"
+      ]
+    },
+    "Pinto--M50": {
+      "entry": {
+        "lat": 40.2434322,
+        "lng": -3.7329394
+      },
+      "exit": {
+        "lat": 40.2534052,
+        "lng": -3.7355839
+      },
+      "expectedGates": [
+        "Pinto-entry",
+        "M50-exit"
+      ]
+    },
+    "Pinto--Valdemoro": {
+      "entry": {
+        "lat": 40.2434322,
+        "lng": -3.7329394
+      },
+      "exit": {
+        "lat": 40.1812866,
+        "lng": -3.7106861
+      },
+      "expectedGates": [
+        "Pinto-entry",
+        "Valdemoro-madrid-exit"
+      ]
+    },
+    "Pinto--Sesena": {
+      "entry": {
+        "lat": 40.2434322,
+        "lng": -3.7329394
+      },
+      "exit": {
+        "lat": 40.1051281,
+        "lng": -3.6663252
+      },
+      "expectedGates": [
+        "Pinto-entry",
+        "Sesena-exit"
+      ]
+    },
+    "Pinto--Villaseca": {
+      "entry": {
+        "lat": 40.2434322,
+        "lng": -3.7329394
+      },
+      "exit": {
+        "lat": 40.0421128,
+        "lng": -3.664854
+      },
+      "expectedGates": [
+        "Pinto-entry",
+        "Villaseca-exit"
+      ]
+    },
+    "Pinto--Aranjuez": {
+      "entry": {
+        "lat": 40.2434322,
+        "lng": -3.7329394
+      },
+      "exit": {
+        "lat": 40.0210415,
+        "lng": -3.6489936
+      },
+      "expectedGates": [
+        "Pinto-entry",
+        "Aranjuez-exit"
+      ]
+    },
+    "Pinto--Ocana": {
+      "entry": {
+        "lat": 40.2434322,
+        "lng": -3.7329394
+      },
+      "exit": {
+        "lat": 39.9597899,
+        "lng": -3.5698507
+      },
+      "expectedGates": [
+        "Pinto-entry",
+        "Ocana-exit"
+      ]
+    },
+    "Valdemoro--M50": {
+      "entry": {
+        "lat": 40.1828566,
+        "lng": -3.7098389
+      },
+      "exit": {
+        "lat": 40.2534052,
+        "lng": -3.7355839
+      },
+      "expectedGates": [
+        "Valdemoro-madrid-entry",
+        "M50-exit"
+      ]
+    },
+    "Valdemoro--Pinto": {
+      "entry": {
+        "lat": 40.1828566,
+        "lng": -3.7098389
+      },
+      "exit": {
+        "lat": 40.243419,
+        "lng": -3.7326431
+      },
+      "expectedGates": [
+        "Valdemoro-madrid-entry",
+        "Pinto-exit"
+      ]
+    },
+    "Valdemoro--Sesena": {
+      "entry": {
+        "lat": 40.1809904,
+        "lng": -3.7099641
+      },
+      "exit": {
+        "lat": 40.1051281,
+        "lng": -3.6663252
+      },
+      "expectedGates": [
+        "Valdemoro-entry",
+        "Sesena-exit"
+      ]
+    },
+    "Valdemoro--Villaseca": {
+      "entry": {
+        "lat": 40.1809904,
+        "lng": -3.7099641
+      },
+      "exit": {
+        "lat": 40.0421128,
+        "lng": -3.664854
+      },
+      "expectedGates": [
+        "Valdemoro-entry",
+        "Villaseca-exit"
+      ]
+    },
+    "Valdemoro--Aranjuez": {
+      "entry": {
+        "lat": 40.1809904,
+        "lng": -3.7099641
+      },
+      "exit": {
+        "lat": 40.0210415,
+        "lng": -3.6489936
+      },
+      "expectedGates": [
+        "Valdemoro-entry",
+        "Aranjuez-exit"
+      ]
+    },
+    "Valdemoro--Ocana": {
+      "entry": {
+        "lat": 40.1809904,
+        "lng": -3.7099641
+      },
+      "exit": {
+        "lat": 39.9597899,
+        "lng": -3.5698507
+      },
+      "expectedGates": [
+        "Valdemoro-entry",
+        "Ocana-exit"
+      ]
+    },
+    "Sesena--M50": {
+      "entry": {
+        "lat": 40.1052138,
+        "lng": -3.6660559
+      },
+      "exit": {
+        "lat": 40.2534052,
+        "lng": -3.7355839
+      },
+      "expectedGates": [
+        "Sesena-entry",
+        "M50-exit"
+      ]
+    },
+    "Sesena--Pinto": {
+      "entry": {
+        "lat": 40.1052138,
+        "lng": -3.6660559
+      },
+      "exit": {
+        "lat": 40.243419,
+        "lng": -3.7326431
+      },
+      "expectedGates": [
+        "Sesena-entry",
+        "Pinto-exit"
+      ]
+    },
+    "Sesena--Valdemoro": {
+      "entry": {
+        "lat": 40.1052138,
+        "lng": -3.6660559
+      },
+      "exit": {
+        "lat": 40.1825713,
+        "lng": -3.7091153
+      },
+      "expectedGates": [
+        "Sesena-entry",
+        "Valdemoro-exit"
+      ]
+    },
+    "Villaseca--M50": {
+      "entry": {
+        "lat": 40.0421128,
+        "lng": -3.664854
+      },
+      "exit": {
+        "lat": 40.2534052,
+        "lng": -3.7355839
+      },
+      "expectedGates": [
+        "Villaseca-entry",
+        "M50-exit"
+      ]
+    },
+    "Villaseca--Pinto": {
+      "entry": {
+        "lat": 40.0421128,
+        "lng": -3.664854
+      },
+      "exit": {
+        "lat": 40.243419,
+        "lng": -3.7326431
+      },
+      "expectedGates": [
+        "Villaseca-entry",
+        "Pinto-exit"
+      ]
+    },
+    "Villaseca--Valdemoro": {
+      "entry": {
+        "lat": 40.0421128,
+        "lng": -3.664854
+      },
+      "exit": {
+        "lat": 40.1825713,
+        "lng": -3.7091153
+      },
+      "expectedGates": [
+        "Villaseca-entry",
+        "Valdemoro-exit"
+      ]
+    },
+    "Aranjuez--M50": {
+      "entry": {
+        "lat": 40.0212376,
+        "lng": -3.6488532
+      },
+      "exit": {
+        "lat": 40.2534052,
+        "lng": -3.7355839
+      },
+      "expectedGates": [
+        "Aranjuez-entry",
+        "M50-exit"
+      ]
+    },
+    "Aranjuez--Pinto": {
+      "entry": {
+        "lat": 40.0212376,
+        "lng": -3.6488532
+      },
+      "exit": {
+        "lat": 40.243419,
+        "lng": -3.7326431
+      },
+      "expectedGates": [
+        "Aranjuez-entry",
+        "Pinto-exit"
+      ]
+    },
+    "Aranjuez--Valdemoro": {
+      "entry": {
+        "lat": 40.0212376,
+        "lng": -3.6488532
+      },
+      "exit": {
+        "lat": 40.1825713,
+        "lng": -3.7091153
+      },
+      "expectedGates": [
+        "Aranjuez-entry",
+        "Valdemoro-exit"
+      ]
+    },
+    "Aranjuez--Ocana": {
+      "entry": {
+        "lat": 40.0212376,
+        "lng": -3.6488532
+      },
+      "exit": {
+        "lat": 39.9597899,
+        "lng": -3.5698507
+      },
+      "expectedGates": [
+        "Aranjuez-entry",
+        "Ocana-exit"
+      ]
+    },
+    "Ontigola--Ocana": {
+      "entry": {
+        "lat": 39.9936358,
+        "lng": -3.6066333
+      },
+      "exit": {
+        "lat": 39.9597899,
+        "lng": -3.5698507
+      },
+      "expectedGates": [
+        "Ontigola-entry",
+        "Ocana-exit"
+      ]
+    },
+    "Ocana--M50": {
+      "entry": {
+        "lat": 39.9407235,
+        "lng": -3.5371759
+      },
+      "exit": {
+        "lat": 40.2534052,
+        "lng": -3.7355839
+      },
+      "expectedGates": [
+        "Ocana-entry",
+        "M50-exit"
+      ]
+    },
+    "Ocana--Pinto": {
+      "entry": {
+        "lat": 39.9407235,
+        "lng": -3.5371759
+      },
+      "exit": {
+        "lat": 40.243419,
+        "lng": -3.7326431
+      },
+      "expectedGates": [
+        "Ocana-entry",
+        "Pinto-exit"
+      ]
+    },
+    "Ocana--Valdemoro": {
+      "entry": {
+        "lat": 39.9407235,
+        "lng": -3.5371759
+      },
+      "exit": {
+        "lat": 40.1825713,
+        "lng": -3.7091153
+      },
+      "expectedGates": [
+        "Ocana-entry",
+        "Valdemoro-exit"
+      ]
+    },
+    "Ocana--Aranjuez": {
+      "entry": {
+        "lat": 39.9407235,
+        "lng": -3.5371759
+      },
+      "exit": {
+        "lat": 40.0210415,
+        "lng": -3.6489936
+      },
+      "expectedGates": [
+        "Ocana-entry",
+        "Aranjuez-exit"
+      ]
+    },
+    "Ocana--Ontigola": {
+      "entry": {
+        "lat": 39.9407235,
+        "lng": -3.5371759
+      },
+      "exit": {
+        "lat": 39.9936358,
+        "lng": -3.6066333
+      },
+      "expectedGates": [
+        "Ocana-entry",
+        "Ontigola-exit"
+      ]
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

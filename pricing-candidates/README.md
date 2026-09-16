@@ -134,3 +134,11 @@ four source-backed exempt AC-15 directions; combined trips are invariant under
 network order. AG-57 adds 24 directed OD routes with separate Ramallosa ramp
 gates. Both preserve unknown Via-T return history as bounded prices. All remain
 disabled pending the explicit access, avoidance and national release worklist.
+
+### R-3 / R-4 / R-5 route mapping (2026-09-16)
+
+86 published paid OD directions and two source-backed R-3 free directions now
+match their expected gates and general/Via-T/night prices. Close-ramp false
+crossings are corrected without widening matching tolerance. Original failing
+probes are retained. Access, avoidance and national-release work remains open;
+these three candidates remain disabled.

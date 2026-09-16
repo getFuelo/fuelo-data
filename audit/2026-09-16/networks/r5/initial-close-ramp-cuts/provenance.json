@@ -1,0 +1,606 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "M40-M45",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 28667979,
+      "version": 14,
+      "node": 5639764807,
+      "outsideNode": 309904844
+    },
+    {
+      "zone": "M40-M45",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 28667978,
+      "version": 10,
+      "node": 359398385,
+      "outsideNode": 315055133
+    },
+    {
+      "zone": "M50-M506",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 251386749,
+      "version": 3,
+      "node": 357901802,
+      "outsideNode": 2576106216
+    },
+    {
+      "zone": "M50-M506",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 31955005,
+      "version": 17,
+      "node": 357900886,
+      "outsideNode": 2576106197
+    },
+    {
+      "zone": "M50-M506-madrid",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 251386747,
+      "version": 3,
+      "node": 2576106232,
+      "outsideNode": 2576106228
+    },
+    {
+      "zone": "M50-M506-madrid",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 31955044,
+      "version": 15,
+      "node": 2576106202,
+      "outsideNode": 2576106208
+    },
+    {
+      "zone": "AP41",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 56760304,
+      "version": 9,
+      "node": 710552978,
+      "outsideNode": 413519748
+    },
+    {
+      "zone": "AP41",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 31958539,
+      "version": 9,
+      "node": 413519744,
+      "outsideNode": 357977728
+    },
+    {
+      "zone": "AP41-madrid",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 31958590,
+      "version": 12,
+      "node": 707148363,
+      "outsideNode": 357979463
+    },
+    {
+      "zone": "AP41-madrid",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 28068194,
+      "version": 27,
+      "node": 357979278,
+      "outsideNode": 308205283
+    },
+    {
+      "zone": "M413",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 31978403,
+      "version": 17,
+      "node": 710550207,
+      "outsideNode": 1898701321
+    },
+    {
+      "zone": "M413",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 31978399,
+      "version": 14,
+      "node": 710550239,
+      "outsideNode": 568802571
+    },
+    {
+      "zone": "M404",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 32061815,
+      "version": 6,
+      "node": 359942994,
+      "outsideNode": 359942889
+    },
+    {
+      "zone": "M404",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 32061802,
+      "version": 8,
+      "node": 1310956582,
+      "outsideNode": 359942850
+    },
+    {
+      "zone": "A5",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 25413968,
+      "version": 44,
+      "node": 276977630,
+      "outsideNode": 257315465
+    },
+    {
+      "zone": "A5",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1222741339,
+      "version": 3,
+      "node": 360300187,
+      "outsideNode": 409820704
+    }
+  ],
+  "probeLocations": {
+    "M40-M45": {
+      "entry": {
+        "lat": 40.3539098,
+        "lng": -3.7698607
+      },
+      "exit": {
+        "lat": 40.3537251,
+        "lng": -3.7698121
+      }
+    },
+    "M50-M506": {
+      "entry": {
+        "lat": 40.3067677,
+        "lng": -3.8382364
+      },
+      "exit": {
+        "lat": 40.3061987,
+        "lng": -3.8386071
+      }
+    },
+    "M50-M506-madrid": {
+      "entry": {
+        "lat": 40.3239073,
+        "lng": -3.8174433
+      },
+      "exit": {
+        "lat": 40.3274683,
+        "lng": -3.8162408
+      }
+    },
+    "AP41": {
+      "entry": {
+        "lat": 40.2713084,
+        "lng": -3.8929884
+      },
+      "exit": {
+        "lat": 40.2669981,
+        "lng": -3.8891931
+      }
+    },
+    "AP41-madrid": {
+      "entry": {
+        "lat": 40.2694699,
+        "lng": -3.8868879
+      },
+      "exit": {
+        "lat": 40.2747735,
+        "lng": -3.8848742
+      }
+    },
+    "M413": {
+      "entry": {
+        "lat": 40.2595839,
+        "lng": -3.9058806
+      },
+      "exit": {
+        "lat": 40.2594162,
+        "lng": -3.9056128
+      }
+    },
+    "M404": {
+      "entry": {
+        "lat": 40.2656955,
+        "lng": -4.0077313
+      },
+      "exit": {
+        "lat": 40.2679045,
+        "lng": -4.007161
+      }
+    },
+    "A5": {
+      "entry": {
+        "lat": 40.2595137,
+        "lng": -4.0451971
+      },
+      "exit": {
+        "lat": 40.2674826,
+        "lng": -4.0369238
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "A5",
+    "AP41",
+    "M40-M45",
+    "M404",
+    "M413",
+    "M50-M506"
+  ],
+  "probeJourneys": {
+    "M40-M45--M50-M506": {
+      "entry": {
+        "lat": 40.3539098,
+        "lng": -3.7698607
+      },
+      "exit": {
+        "lat": 40.3274683,
+        "lng": -3.8162408
+      },
+      "expectedGates": [
+        "M40-M45-entry",
+        "M50-M506-madrid-exit"
+      ]
+    },
+    "M40-M45--AP41": {
+      "entry": {
+        "lat": 40.3539098,
+        "lng": -3.7698607
+      },
+      "exit": {
+        "lat": 40.2747735,
+        "lng": -3.8848742
+      },
+      "expectedGates": [
+        "M40-M45-entry",
+        "AP41-madrid-exit"
+      ]
+    },
+    "M40-M45--M413": {
+      "entry": {
+        "lat": 40.3539098,
+        "lng": -3.7698607
+      },
+      "exit": {
+        "lat": 40.2594162,
+        "lng": -3.9056128
+      },
+      "expectedGates": [
+        "M40-M45-entry",
+        "M413-exit"
+      ]
+    },
+    "M40-M45--M404": {
+      "entry": {
+        "lat": 40.3539098,
+        "lng": -3.7698607
+      },
+      "exit": {
+        "lat": 40.2679045,
+        "lng": -4.007161
+      },
+      "expectedGates": [
+        "M40-M45-entry",
+        "M404-exit"
+      ]
+    },
+    "M40-M45--A5": {
+      "entry": {
+        "lat": 40.3539098,
+        "lng": -3.7698607
+      },
+      "exit": {
+        "lat": 40.2674826,
+        "lng": -4.0369238
+      },
+      "expectedGates": [
+        "M40-M45-entry",
+        "A5-exit"
+      ]
+    },
+    "M50-M506--M40-M45": {
+      "entry": {
+        "lat": 40.3239073,
+        "lng": -3.8174433
+      },
+      "exit": {
+        "lat": 40.3537251,
+        "lng": -3.7698121
+      },
+      "expectedGates": [
+        "M50-M506-madrid-entry",
+        "M40-M45-exit"
+      ]
+    },
+    "M50-M506--M413": {
+      "entry": {
+        "lat": 40.3067677,
+        "lng": -3.8382364
+      },
+      "exit": {
+        "lat": 40.2594162,
+        "lng": -3.9056128
+      },
+      "expectedGates": [
+        "M50-M506-entry",
+        "M413-exit"
+      ]
+    },
+    "M50-M506--M404": {
+      "entry": {
+        "lat": 40.3067677,
+        "lng": -3.8382364
+      },
+      "exit": {
+        "lat": 40.2679045,
+        "lng": -4.007161
+      },
+      "expectedGates": [
+        "M50-M506-entry",
+        "M404-exit"
+      ]
+    },
+    "M50-M506--A5": {
+      "entry": {
+        "lat": 40.3067677,
+        "lng": -3.8382364
+      },
+      "exit": {
+        "lat": 40.2674826,
+        "lng": -4.0369238
+      },
+      "expectedGates": [
+        "M50-M506-entry",
+        "A5-exit"
+      ]
+    },
+    "AP41--M40-M45": {
+      "entry": {
+        "lat": 40.2694699,
+        "lng": -3.8868879
+      },
+      "exit": {
+        "lat": 40.3537251,
+        "lng": -3.7698121
+      },
+      "expectedGates": [
+        "AP41-madrid-entry",
+        "M40-M45-exit"
+      ]
+    },
+    "AP41--M413": {
+      "entry": {
+        "lat": 40.2713084,
+        "lng": -3.8929884
+      },
+      "exit": {
+        "lat": 40.2594162,
+        "lng": -3.9056128
+      },
+      "expectedGates": [
+        "AP41-entry",
+        "M413-exit"
+      ]
+    },
+    "AP41--M404": {
+      "entry": {
+        "lat": 40.2713084,
+        "lng": -3.8929884
+      },
+      "exit": {
+        "lat": 40.2679045,
+        "lng": -4.007161
+      },
+      "expectedGates": [
+        "AP41-entry",
+        "M404-exit"
+      ]
+    },
+    "AP41--A5": {
+      "entry": {
+        "lat": 40.2713084,
+        "lng": -3.8929884
+      },
+      "exit": {
+        "lat": 40.2674826,
+        "lng": -4.0369238
+      },
+      "expectedGates": [
+        "AP41-entry",
+        "A5-exit"
+      ]
+    },
+    "M413--M40-M45": {
+      "entry": {
+        "lat": 40.2595839,
+        "lng": -3.9058806
+      },
+      "exit": {
+        "lat": 40.3537251,
+        "lng": -3.7698121
+      },
+      "expectedGates": [
+        "M413-entry",
+        "M40-M45-exit"
+      ]
+    },
+    "M413--M50-M506": {
+      "entry": {
+        "lat": 40.2595839,
+        "lng": -3.9058806
+      },
+      "exit": {
+        "lat": 40.3061987,
+        "lng": -3.8386071
+      },
+      "expectedGates": [
+        "M413-entry",
+        "M50-M506-exit"
+      ]
+    },
+    "M413--AP41": {
+      "entry": {
+        "lat": 40.2595839,
+        "lng": -3.9058806
+      },
+      "exit": {
+        "lat": 40.2669981,
+        "lng": -3.8891931
+      },
+      "expectedGates": [
+        "M413-entry",
+        "AP41-exit"
+      ]
+    },
+    "M413--M404": {
+      "entry": {
+        "lat": 40.2595839,
+        "lng": -3.9058806
+      },
+      "exit": {
+        "lat": 40.2679045,
+        "lng": -4.007161
+      },
+      "expectedGates": [
+        "M413-entry",
+        "M404-exit"
+      ]
+    },
+    "M413--A5": {
+      "entry": {
+        "lat": 40.2595839,
+        "lng": -3.9058806
+      },
+      "exit": {
+        "lat": 40.2674826,
+        "lng": -4.0369238
+      },
+      "expectedGates": [
+        "M413-entry",
+        "A5-exit"
+      ]
+    },
+    "M404--M40-M45": {
+      "entry": {
+        "lat": 40.2656955,
+        "lng": -4.0077313
+      },
+      "exit": {
+        "lat": 40.3537251,
+        "lng": -3.7698121
+      },
+      "expectedGates": [
+        "M404-entry",
+        "M40-M45-exit"
+      ]
+    },
+    "M404--M50-M506": {
+      "entry": {
+        "lat": 40.2656955,
+        "lng": -4.0077313
+      },
+      "exit": {
+        "lat": 40.3061987,
+        "lng": -3.8386071
+      },
+      "expectedGates": [
+        "M404-entry",
+        "M50-M506-exit"
+      ]
+    },
+    "M404--AP41": {
+      "entry": {
+        "lat": 40.2656955,
+        "lng": -4.0077313
+      },
+      "exit": {
+        "lat": 40.2669981,
+        "lng": -3.8891931
+      },
+      "expectedGates": [
+        "M404-entry",
+        "AP41-exit"
+      ]
+    },
+    "M404--M413": {
+      "entry": {
+        "lat": 40.2656955,
+        "lng": -4.0077313
+      },
+      "exit": {
+        "lat": 40.2594162,
+        "lng": -3.9056128
+      },
+      "expectedGates": [
+        "M404-entry",
+        "M413-exit"
+      ]
+    },
+    "A5--M40-M45": {
+      "entry": {
+        "lat": 40.2595137,
+        "lng": -4.0451971
+      },
+      "exit": {
+        "lat": 40.3537251,
+        "lng": -3.7698121
+      },
+      "expectedGates": [
+        "A5-entry",
+        "M40-M45-exit"
+      ]
+    },
+    "A5--M50-M506": {
+      "entry": {
+        "lat": 40.2595137,
+        "lng": -4.0451971
+      },
+      "exit": {
+        "lat": 40.3061987,
+        "lng": -3.8386071
+      },
+      "expectedGates": [
+        "A5-entry",
+        "M50-M506-exit"
+      ]
+    },
+    "A5--AP41": {
+      "entry": {
+        "lat": 40.2595137,
+        "lng": -4.0451971
+      },
+      "exit": {
+        "lat": 40.2669981,
+        "lng": -3.8891931
+      },
+      "expectedGates": [
+        "A5-entry",
+        "AP41-exit"
+      ]
+    },
+    "A5--M413": {
+      "entry": {
+        "lat": 40.2595137,
+        "lng": -4.0451971
+      },
+      "exit": {
+        "lat": 40.2594162,
+        "lng": -3.9056128
+      },
+      "expectedGates": [
+        "A5-entry",
+        "M413-exit"
+      ]
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

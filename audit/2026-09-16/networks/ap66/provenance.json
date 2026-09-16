@@ -126,5 +126,11 @@
       }
     }
   },
+  "canonicalProbeZones": [
+    "CAMPOMANES",
+    "LA MAGDALENA",
+    "LEON",
+    "OBLANCA"
+  ],
   "status": "candidate_pending_real_routes"
 }

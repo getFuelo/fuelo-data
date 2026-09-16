@@ -58,7 +58,7 @@ if (ROOT/'pricing-candidates/ap53.json').exists():
    request=json.loads(path.read_text());terminal_cases.append({'name':path.stem.removesuffix('-request'),'expectedCents':request['expectedCents'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
   (target/'terminals.json').write_text(json.dumps(terminal_cases,separators=(',',':'),ensure_ascii=False)+'\n')
 
-for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57']:
+for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57','r3','r5','r4']:
  if not (ROOT/f'pricing-candidates/{family}.json').exists():continue
  import shutil
  target=out/family;target.mkdir(exist_ok=True);catalog=json.loads((ROOT/f'pricing-candidates/{family}.json').read_text());shutil.copy(ROOT/f'pricing-candidates/{family}.json',target/'catalog.json');rows=[]

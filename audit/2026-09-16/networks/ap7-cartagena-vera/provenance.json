@@ -292,5 +292,16 @@
       }
     }
   },
+  "canonicalProbeZones": [
+    "Cabo Cope",
+    "Cartagena",
+    "Cuevas del Almanzora",
+    "Las Palas",
+    "Mazarrón",
+    "Pulpí",
+    "Ramonete",
+    "Vera",
+    "Águilas"
+  ],
   "status": "candidate_pending_real_routes"
 }

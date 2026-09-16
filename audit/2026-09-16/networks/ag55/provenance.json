@@ -117,5 +117,11 @@
       }
     }
   },
+  "canonicalProbeZones": [
+    "Arteixo",
+    "Carballo",
+    "Laracha",
+    "Paiosaco"
+  ],
   "status": "candidate_pending_real_routes"
 }

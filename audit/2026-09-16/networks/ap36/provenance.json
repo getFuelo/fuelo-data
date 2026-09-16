@@ -195,5 +195,13 @@
       }
     }
   },
+  "canonicalProbeZones": [
+    "Lateral Corral Almaguer",
+    "Mota Cuervo",
+    "Pedernoso",
+    "Quintanar Orden",
+    "Troncal Corral Almaguer",
+    "Troncal San Clemente"
+  ],
   "status": "candidate_pending_real_routes"
 }

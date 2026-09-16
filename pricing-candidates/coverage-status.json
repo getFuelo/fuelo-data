@@ -233,33 +233,63 @@
       "tariffArtifacts": [
         "pricing-candidates/r3-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/r3.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Exhaustive public-approach/all-lane, free-corridor, repeated journey, partial boundary and avoidance verification remains open.",
+        "Combined adjacent-network settlement and country integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "publishedDirectedPaidPairs": 26,
+        "sourceBackedFreeDirections": 2,
+        "physicalDirectedGates": 18,
+        "expandedPhysicalGateFares": 64,
+        "generalViaTAndNightChecks": true
+      }
     },
     {
       "catalogId": "es-r4",
       "tariffArtifacts": [
         "pricing-candidates/r4-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/r4.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Exhaustive public-approach/all-lane, free-corridor, repeated journey, partial boundary and avoidance verification remains open.",
+        "Combined adjacent-network settlement and country integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "publishedDirectedPaidPairs": 34,
+        "sourceBackedFreeDirections": 0,
+        "physicalDirectedGates": 18,
+        "expandedPhysicalGateFares": 46,
+        "generalViaTAndNightChecks": true
+      }
     },
     {
       "catalogId": "es-r5",
       "tariffArtifacts": [
         "pricing-candidates/r5-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/r5.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Exhaustive public-approach/all-lane, free-corridor, repeated journey, partial boundary and avoidance verification remains open.",
+        "Combined adjacent-network settlement and country integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "publishedDirectedPaidPairs": 26,
+        "sourceBackedFreeDirections": 0,
+        "physicalDirectedGates": 16,
+        "expandedPhysicalGateFares": 42,
+        "generalViaTAndNightChecks": true
+      }
     },
     {
       "catalogId": "es-m12",

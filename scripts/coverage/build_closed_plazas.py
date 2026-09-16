@@ -9,7 +9,49 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 # zone, booth group, source entry way, entry booth, reversed source direction,
 # outside entry node, outside exit node. Published zone names are preserved.
-SPECS = {'ag57': {'ref':'AG-57','additionalRefs':['AG-57N'], 'bbox':[42.105,-8.805,42.165,-8.70],
+SPECS = {'r4': {'ref':'R-4','bbox':[39.935,-3.77,40.28,-3.53], 'expectedDirectedFares':34,
+    'tariffZoneAliases':{'M-50':'M50','Pinto-Parla':'Pinto','Valdemoro':'Valdemoro','Seseña':'Sesena','Villaseca Sagra (CM-4001)':'Villaseca','Aranjuez':'Aranjuez','Ontígola':'Ontigola','Ocaña / A-40':'Ocana'},
+    'zoneAliases':{'Valdemoro-madrid':'Valdemoro'},'reverseSideSuffix':'-madrid',
+    'orderedZones':['M50','Pinto','Valdemoro','Sesena','Villaseca','Aranjuez','Ontigola','Ocana'],'accesses':[],
+    'logicalAccesses':[
+      ('M50',(60650660,248050952,248050933),(60583180,52735534,2139030765)),
+      ('Pinto',(1469456051,1429085343,568607936),(129545735,358897474,568607955)),
+      ('Valdemoro',(30146972,1302707072,4566582019),(28491481,1302707006,332212871)),
+      ('Valdemoro-madrid',(30146954,313012137,313012135),(264632448,335621746,332212810)),
+      ('Sesena',(123603113,312808585,1212248291),(123603097,1212248281,1212248341)),
+      ('Villaseca',(1392211207,1017729830,2139030596),(1392211207,1017729830,2139030596,True)),
+      ('Aranjuez',(230997897,2394196254,1104563380),(230997901,2394196230,4561534258)),
+      ('Ontigola',(95218761,1017729680,1104563747),(95218761,1017729680,1104563747,True)),
+      ('Ocana',(95990409,52736430,1112125088),(95218782,8856675185,8856675174)),
+    ]}, 'r5' : {'ref':'R-5','bbox':[40.25,-4.05,40.365,-3.73], 'expectedDirectedFares':26,
+    'extraCoverageWays':[31958590,28068194,56760006],
+    'tariffZoneAliases':{'M-40 / M-45':'M40-M45','M-50 / M-506 Móstoles/Fuenlabrada':'M50-M506','AP-41 Madrid-Toledo':'AP41','M-413 Arroyomolinos/Moraleja':'M413','M-404 El Álamo/Navalcarnero':'M404','Conexión A-5':'A5'},
+    'zoneAliases':{'M50-M506-madrid':'M50-M506','AP41-madrid':'AP41'},'reverseSideSuffix':'-madrid',
+    'orderedZones':['M40-M45','M50-M506','AP41','M413','M404','A5'],'accesses':[],
+    'logicalAccesses':[
+      ('M40-M45',(28667979,5639764807,309904844),(28667978,359398385,315055133)),
+      ('M50-M506',(251386749,357901802,2576106216),(31955005,2576106197,357900887)),
+      ('M50-M506-madrid',(251386747,2576106232,2576106228),(251386748,412246539,5700590514)),
+      ('AP41',(56760304,710552978,413519748),(31958539,413519744,357977728)),
+      ('AP41-madrid',(31958590,707148363,357979463),(28068194,357979278,308205283)),
+      ('M413',(31978403,710550207,1898701321),(31978399,710550239,568802571)),
+      ('M404',(32061815,359942994,359942889),(32061802,1310956582,359942850)),
+      ('A5',(25413968,276977630,257315465),(1222741339,360300187,409820704)),
+    ]}, 'r3' : {'freePairs':[('M50','M208','https://ayto-velilla.es/la-direccion-general-de-carreteras-incluira-la-m-208-en-su-tramo-proximo-a-la-calle-frascuelo-en-los-planes-de-accion-contra-el-ruido/')], 'ref':'R-3','additionalRefs':['Salida M 300'],'bbox':[40.25,-3.65,40.43,-3.37], 'expectedDirectedFares':26,
+    'tariffZoneAliases':{'Madrid / M-40 / M-602':'M40','M-45':'M45','M-50':'M50','M-208 Mejorada/Velilla':'M208','M-300 Arganda/Loeches':'M300','Conexión A-3':'A3'},
+    'zoneAliases':{'M45-oeste':'M45','M50-oeste':'M50','M208-oeste':'M208'},
+    'orderedZones':['M40','M45','M50','M208','M300','A3'],'accesses':[],
+    'logicalAccesses':[
+      ('M40',(31165865,261208545,346866638),(23725720,256922957,256923202)),
+      ('M45',(368920339,346858786,346861003),(1223180452,346868255,3714255231)),
+      ('M45-oeste',(520247005,256922949,256922947),(35471377,346864447,5071076888)),
+      ('M50',(312603283,1080662618,352685028),(1223186515,307862077,352684824)),
+      ('M50-oeste',(312603278,1080662438,1080662368),(31512165,5313450724,415935675)),
+      ('M208',(36072206,304009292,421419554),(36072236,1119321167,421419575)),
+      ('M208-oeste',(36072258,1119321139,421419795),(36072228,421419533,304009286)),
+      ('M300',(550110519,261612896,306085166),(365558631,304176122,3519117173)),
+      ('A3',(35804478,307863152,418628022),(368926230,5313504556,304010236)),
+    ]}, 'ag57' : {'ref':'AG-57','additionalRefs':['AG-57N'], 'bbox':[42.105,-8.805,42.165,-8.70],
     'bidirectionalRows':True,'expectedDirectedFares':24,
     'zoneAliases':{'A Ramallosa-sur':'A Ramallosa'},'accesses':[],
     'logicalAccesses':[
@@ -97,6 +139,7 @@ for family, spec in SPECS.items():
         if not added:
             break
     selected.update(spec.get('freeApproachWays',[]))
+    selected.update(spec.get('extraCoverageWays',[]))
     # Arteixo public slip roads belong to the independent Pastoriza section.
     # Duplicating them in the closed system invents missing OD context on
     # exempt port movements and makes the result depend on catalog order.
@@ -136,7 +179,9 @@ for family, spec in SPECS.items():
             reverse = len(cut)>3 and cut[3]
             way = ways[wid]
             i = way['nodes'].index(node)
-            a, center, b = [point(n) for n in way['nodes'][i-1:i+2]]
+            # At an endpoint use the adjoining source segment's tangent.
+            # This allows a cut before a fork without crossing a nearby trunk.
+            a, center, b = [point(way['nodes'][j]) for j in (max(0,i-1),i,min(len(way['nodes'])-1,i+1))]
             cos = math.cos(math.radians(center['lat']))
             dx, dy = (b['lng']-a['lng'])*cos, b['lat']-a['lat']
             length = math.hypot(dx, dy)
@@ -153,11 +198,14 @@ for family, spec in SPECS.items():
     for row in refs['ods']:
         if spec.get('filterFareZones') and not all(row[k] in spec['filterFareZones'] for k in ('from','to')):
             continue
-        pairs = [(row['from'], row['to'])]
+        normalize = lambda zone: spec.get('tariffZoneAliases',{}).get(zone,zone)
+        pairs = [(normalize(row['from']), normalize(row['to']))]
         if row.get('bidirectional') or spec.get('bidirectionalRows'):
-            pairs.append((row['to'], row['from']))
+            pairs.append((normalize(row['to']), normalize(row['from'])))
         fares.extend({'from': a+'-entry', 'to': b+'-exit', 'tariff': row['tariff']} for a,b in pairs)
     assert len(fares) == spec.get('expectedDirectedFares',len(locations)*(len(locations)-1))
+    for a,b,source in spec.get('freePairs',[]):
+        fares.extend({'from':origin+'-entry','to':destination+'-exit','tariff':{'baseCents':0,'bands':[]}} for origin,destination in [(a,b),(b,a)])
     canonical_fares = list(fares)
     aliases = spec.get('zoneAliases',{})
     for fare in canonical_fares:
@@ -169,7 +217,7 @@ for family, spec in SPECS.items():
            'pricing': {'kind': 'od', 'chargedAt': 'exit', 'entries': [g['id'] for g in gates if g['id'].endswith('-entry')],
                        'exits': [g['id'] for g in gates if g['id'].endswith('-exit')], 'fares': fares},
            'coverageWays': [{'id': str(wid), 'version': ways[wid]['version'], 'line': [point(n) for n in ways[wid]['nodes']]} for wid in sorted(selected)],
-           'evidence': {'checked': '2026-09-16', 'tariffSources': [refs['source']]+([refs['discountSource']['url']] if refs.get('discountSource') else []), 'geometrySource': 'https://www.openstreetmap.org/copyright'}}
+           'evidence': {'checked': '2026-09-16', 'tariffSources': [refs['source']]+([refs['discountSource']['url']] if refs.get('discountSource') else [])+[p[2] for p in spec.get('freePairs',[])], 'geometrySource': 'https://www.openstreetmap.org/copyright'}}
     if family == 'ap66':
         net['avoidanceGateIds'] = [g['id'] for g in gates if g['id'].endswith('-entry')]
     if family == 'r2':
@@ -189,5 +237,14 @@ for family, spec in SPECS.items():
     (ROOT / f'pricing-candidates/{family}.json').write_text(json.dumps(doc, ensure_ascii=False, indent=2)+'\n')
     out = ROOT / f'audit/2026-09-16/networks/{family}'
     out.mkdir(exist_ok=True)
-    (out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2)+'\n')
+    journeys = {}
+    if spec.get('orderedZones'):
+        order = spec['orderedZones']
+        suffix = spec.get('reverseSideSuffix','-oeste')
+        for fare in canonical_fares:
+            a,b = fare['from'].removesuffix('-entry'),fare['to'].removesuffix('-exit')
+            entry = a+suffix if order.index(b)<order.index(a) and a+suffix in locations else a
+            exit = b+suffix if order.index(a)<order.index(b) and b+suffix in locations else b
+            journeys[a+'--'+b] = {'entry':locations[entry]['entry'],'exit':locations[exit]['exit'], 'expectedGates':[entry+'-entry',exit+'-exit']}
+    (out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'canonicalProbeZones':sorted({f['from'].removesuffix('-entry') for f in canonical_fares}), **({'probeJourneys':journeys} if journeys else {}), 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2)+'\n')
     print(family, len(gates), 'gates', len(fares), 'OD fares', len(selected), 'ways')

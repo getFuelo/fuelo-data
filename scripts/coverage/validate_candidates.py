@@ -26,7 +26,7 @@ def check():
         d=json.loads(path.read_text());count+=1
         require(d.get('complete') is False,f'{path.name}: development data cannot be complete')
         amounts(d,path.name)
-        if d.get('schema') not in (2,3,4):
+        if d.get('schema') not in (2,3,4,5):
             require(d.get('kind')=='tariff-reference',f'{path.name}: unknown candidate kind')
             require(bool(d.get('source')),f'{path.name}: missing tariff source')
             continue
@@ -39,13 +39,20 @@ def check():
                     for child in value:no_extended_fields(child)
             no_extended_fields(d)
         toll_ids={t['id'] for t in d['tolls']}; nets=d['pricing']
+        if 'unresolvedPassages' in d:
+            passages=d['unresolvedPassages'];require(d['schema']==5 and bool(passages),path.name+': unresolved passages require schema 5')
+            require(len({p['id'] for p in passages})==len(passages),path.name+': duplicate unresolved passages')
+            for passage in passages:
+                require(passage['tollId'] in toll_ids and passage['source'].startswith('https://') and passage['checked']<=d['generated'],path.name+': invalid unresolved passage provenance')
+                line=passage['line'];require(len(line)==2 and 0<math.hypot(line[1]['lat']-line[0]['lat'],line[1]['lng']-line[0]['lng'])<=.003,path.name+': invalid unresolved cut')
+                require(all(math.isfinite(p[k]) and abs(p[k])<=(90 if k=='lat' else 180) for p in line for k in ('lat','lng')),path.name+': invalid unresolved coordinate')
         require({id for n in nets for id in ([r['tollId'] for r in n['sharedRoads']] if n.get('sharedRoads') else [n['tollId']])}==toll_ids,f'{path.name}: missing pricing network')
         require(len({n['id'] for n in nets})==len(nets),f'{path.name}: duplicate networks')
         for n in nets:
             prefix=path.name+':'+n['id'];gates=n['gates'];ids=[g['id'] for g in gates]
             roads=n.get('sharedRoads',[]);road_ids=[r['tollId'] for r in roads]
             if roads:
-                require(d['schema']==4 and len(roads)>=2 and len(set(road_ids))==len(road_ids) and n['tollId'] in road_ids,prefix+': invalid shared roads')
+                require(d['schema']>=4 and len(roads)>=2 and len(set(road_ids))==len(road_ids) and n['tollId'] in road_ids,prefix+': invalid shared roads')
                 require(n['pricing']['kind']=='od',prefix+': shared roads require OD settlement')
                 for road in roads:
                     marker_ids=[g['id'] for g in road['gates']]
@@ -98,8 +105,9 @@ if __name__=='__main__':
         for row in status['entries']:
             if row.get('ready') is not True:errors.append(row['catalogId']+': not ready for release.')
         country=json.loads((ROOT/'tolls-es.json').read_text())
-        if country.get('complete') is not True or country.get('schema') not in (2,3,4):
+        if country.get('complete') is not True or country.get('schema') not in (2,3,4,5):
             errors.append('Served Spain catalog is not a complete supported pricing dataset.')
+        if country.get('unresolvedPassages'):errors.append('Served Spain catalog still contains unresolved toll passages.')
         errors.extend(status['nationalBlockers'])
         errors.extend(row['catalogId']+': '+b for row in status['entries'] for b in row['blockers'])
     if errors:

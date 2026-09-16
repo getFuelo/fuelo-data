@@ -1,22 +1,19 @@
 {
   "catalogOrdersChecked": 2,
   "complete": false,
-  "total": 1459,
-  "passed": 1458,
-  "failures": [
+  "total": 1488,
+  "passed": 1488,
+  "safelyUnavailable": 9,
+  "unresolvedPassages": [
     {
       "family": "c32",
       "name": "es-c32-vallcarca",
-      "expectedCents": 842,
-      "order": "forward",
-      "actual": {
-        "status": "quoted",
-        "minCents": 0,
-        "maxCents": 0
-      },
-      "events": []
+      "referenceCents": 842,
+      "reason": "unverified_toll_passage",
+      "source": "audit/2026-09-16/networks/c32/valhalla-mismatch.json"
     }
   ],
+  "failures": [],
   "byFamily": {
     "ap41": {
       "passed": 56,
@@ -43,7 +40,7 @@
       "failed": 0
     },
     "ag55": {
-      "passed": 20,
+      "passed": 21,
       "failed": 0
     },
     "ag57": {
@@ -126,8 +123,8 @@
       "passed": 261,
       "failed": 0
     },
-    "iberpistas": {
-      "passed": 30,
+    "iberpistas-ap61": {
+      "passed": 58,
       "failed": 0
     },
     "autema": {
@@ -135,8 +132,8 @@
       "failed": 0
     },
     "c32": {
-      "passed": 3,
-      "failed": 1
+      "passed": 4,
+      "failed": 0
     },
     "ap15": {
       "passed": 4,

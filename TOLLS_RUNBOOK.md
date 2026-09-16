@@ -88,3 +88,29 @@ references; the new app will not present them as verified route totals.
 Run the offline catalog validator and the app's schema/route/tariff tests before
 any future publication. Device validation and explicit release remain separate.
 No CDN update is part of this checkpoint.
+
+## Schema 5: unresolved physical passages
+
+Schema 5 preserves schema-4 shared settlements and adds optional country-level
+`unresolvedPassages`: each has a unique `id`, known `tollId`, finite two-point
+`line`, HTTPS `source` and `checked` date. A passage is an uncertainty guard,
+not a fee, an exemption, an access restriction or an avoidance instruction.
+Crossing/touching it invalidates the route quote even when routing reports no
+tolls. Legacy clients must reject schema 5 rather than ignore these guards.
+
+The development Spain assembly includes the unclassified Vallcarca bypass.
+Its cut is generated from way 265459454/v9 and retained under
+`audit/2026-09-16/networks/c32/unresolved-passages.json`; paid source lanes are
+regression-tested separately. Publication remains blocked until the condition
+is resolved. Neither the guard nor a passing behavior test certifies that the
+bypass is legal, free or subject to the normal plaza tariff.
+
+## Current local validation checkpoint (2026-09-16)
+
+See `audit/2026-09-16/integration-validation.json` for the current hashes and
+results: 1,998 distinct app tests, TypeScript, 76 candidate integrity checks, and
+1,488 national integration cases in both catalog orders. Nine integration
+cases deliberately return unavailable. The command still exits nonzero because
+Vallcarca's physical passage remains unverified. All 35 readiness entries remain
+false. Device acceptance and performance measurement have not been performed.
+These results supersede the earlier checkpoint counts, not the open blockers.

@@ -1,0 +1,37 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.2659922,
+        "lon": -8.5386472
+      },
+      {
+        "lat": 43.2761996,
+        "lon": -8.5273796,
+        "type": "through",
+        "radius": 2
+      },
+      {
+        "lat": 43.2790707,
+        "lon": -8.5263536
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 75,
+  "sourceWay": 257088583,
+  "sourceWayVersion": 5,
+  "booth": 14073595984,
+  "expectedGates": [
+    "Paiosaco-entry",
+    "Arteixo-exit"
+  ]
+}

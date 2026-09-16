@@ -16,13 +16,18 @@
       ],
       "geometryCandidates": [
         "pricing-candidates/ap6.json",
-        "pricing-candidates/iberpistas.json"
+        "pricing-candidates/iberpistas.json",
+        "pricing-candidates/iberpistas-ap61.json"
       ],
       "ready": false,
       "blockers": [
-        "AP-6/AP-51 shared settlement passes all 30 published directed journeys; remaining public approaches and AP-61 integration are not certified.",
+        "AP-6/AP-51/AP-61 shared settlement passes 58 published public journeys. Remaining public approaches and unlisted cross-branch tariffs are not certified.",
         "Reversible tunnel lane operational state, all public approaches, complete free access and avoidance remain open."
-      ]
+      ],
+      "validatedCorpus": {
+        "jointPublicJourneys": 58,
+        "internalBoundarySafetyCases": 8
+      }
     },
     {
       "catalogId": "es-ap51",
@@ -31,13 +36,18 @@
       ],
       "geometryCandidates": [
         "pricing-candidates/ap51.json",
-        "pricing-candidates/iberpistas.json"
+        "pricing-candidates/iberpistas.json",
+        "pricing-candidates/iberpistas-ap61.json"
       ],
       "ready": false,
       "blockers": [
-        "AP-6/AP-51 shared settlement passes all 30 published directed journeys; remaining public approaches and AP-61 integration are not certified.",
+        "AP-6/AP-51/AP-61 shared settlement passes 58 published public journeys. Remaining public approaches and unlisted cross-branch tariffs are not certified.",
         "All public approaches, habitual-user eligibility and avoidance remain open."
-      ]
+      ],
+      "validatedCorpus": {
+        "jointPublicJourneys": 58,
+        "internalBoundarySafetyCases": 8
+      }
     },
     {
       "catalogId": "es-ap61",
@@ -45,13 +55,18 @@
         "pricing-candidates/ap61-tariffs.json"
       ],
       "geometryCandidates": [
-        "pricing-candidates/ap61.json"
+        "pricing-candidates/ap61.json",
+        "pricing-candidates/iberpistas-ap61.json"
       ],
       "ready": false,
       "blockers": [
-        "San Rafael access and combined Villalba journeys still require mapping.",
+        "All published Villalba/San Rafael joint rows and local public journeys pass. Other cross-branch journeys have no mapped published total; do not derive one by summing unrelated rows.",
         "All public approaches, habitual-user eligibility and avoidance remain open."
-      ]
+      ],
+      "validatedCorpus": {
+        "jointPublicJourneys": 58,
+        "internalBoundarySafetyCases": 8
+      }
     },
     {
       "catalogId": "es-ap53",
@@ -462,7 +477,8 @@
       "ready": false,
       "blockers": [
         "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open.",
-        "Vallcarca trace uses unclassified bypass way 265459454; access/payment conditions unresolved. See audit/2026-09-16/networks/c32/valhalla-mismatch.json."
+        "Vallcarca trace uses unclassified bypass way 265459454; access/payment conditions unresolved. See audit/2026-09-16/networks/c32/valhalla-mismatch.json.",
+        "Schema-5 unresolved-passage guard prevents a zero quote on the Vallcarca bypass; access/payment conditions still require external confirmation."
       ]
     },
     {
@@ -673,11 +689,13 @@
     "report": "audit/2026-09-16/spain-integration-results.json",
     "releaseCertified": false,
     "scope": "Combined retained reference routes; not exhaustive national inventory, access, eligibility or avoidance certification.",
-    "retainedRoutes": 1459,
+    "retainedRoutes": 1488,
     "catalogOrdersChecked": 2,
-    "passed": 1458,
+    "passed": 1488,
     "unresolved": [
       "es-c32-vallcarca"
-    ]
+    ],
+    "safelyUnavailable": 9,
+    "schema": 5
   }
 }

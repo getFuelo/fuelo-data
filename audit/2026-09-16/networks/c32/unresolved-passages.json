@@ -1,0 +1,43 @@
+{
+  "passages": [
+    {
+      "id": "es-c32-vallcarca-unconfirmed-bypass",
+      "tollId": "es-c32-castelldefels-vendrell",
+      "line": [
+        {
+          "lat": 41.24428648642092,
+          "lng": 1.8525572845287226
+        },
+        {
+          "lat": 41.244428913579085,
+          "lng": 1.8525845154712772
+        }
+      ],
+      "source": "https://www.openstreetmap.org/way/265459454/history",
+      "checked": "2026-09-16"
+    }
+  ],
+  "evidence": {
+    "source": "../../spain-graph/provenance.json",
+    "way": 265459454,
+    "version": 9,
+    "node": 12766694619,
+    "halfWidthMeters": 8,
+    "probeGeometry": [
+      {
+        "lat": 41.2444189,
+        "lng": 1.8520648
+      },
+      {
+        "lat": 41.2443577,
+        "lng": 1.8525709
+      },
+      {
+        "lat": 41.2443441,
+        "lng": 1.8527568
+      }
+    ],
+    "review": "valhalla-mismatch.json",
+    "status": "unresolved; do not infer permitted traffic, exemption or a fee"
+  }
+}

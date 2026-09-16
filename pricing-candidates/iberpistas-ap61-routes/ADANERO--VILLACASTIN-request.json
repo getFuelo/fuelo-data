@@ -1,0 +1,40 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.8908952,
+        "lon": -4.5748485
+      },
+      {
+        "lat": 40.7770509,
+        "lon": -4.4220799
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "sourceTariff": {
+    "baseCents": 465,
+    "bands": []
+  },
+  "expectedRoadIds": [
+    "es-ap6"
+  ],
+  "expectedGates": [
+    "ADANERO-entry",
+    "VILLACASTIN-exit"
+  ],
+  "source": [
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf"
+  ],
+  "reusedFrom": "pricing-candidates/iberpistas-routes/ADANERO--VILLACASTIN.json"
+}

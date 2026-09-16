@@ -1,8 +1,7 @@
 {
   "complete": false,
   "sources": [
-    "pricing-candidates/iberpistas.json",
-    "pricing-candidates/ap61.json",
+    "pricing-candidates/iberpistas-ap61.json",
     "pricing-candidates/ap9.json",
     "pricing-candidates/ap68.json",
     "pricing-candidates/ap8-ap1-shared.json",
@@ -37,7 +36,7 @@
     "pricing-candidates/r5.json",
     "pricing-candidates/vallvidrera.json"
   ],
-  "networks": 57,
+  "networks": 56,
   "roads": 35,
   "roadNormalization": {
     "ap15": "es-ap15",
@@ -51,5 +50,6 @@
     "ap7-alicante-cartagena": "es-ap7-alicante-cartagena",
     "ap7-estepona-guadiaro": "es-ap7-estepona-guadiaro",
     "ap7-malaga-estepona": "es-ap7-malaga-estepona"
-  }
+  },
+  "unresolvedPassagesSource": "audit/2026-09-16/networks/c32/unresolved-passages.json"
 }

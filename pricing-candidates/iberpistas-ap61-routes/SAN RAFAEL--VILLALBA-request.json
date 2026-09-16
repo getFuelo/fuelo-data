@@ -1,0 +1,40 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.7272656,
+        "lon": -4.1968452
+      },
+      {
+        "lat": 40.6921219,
+        "lon": -4.1236227
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "sourceTariff": {
+    "baseCents": 565,
+    "bands": []
+  },
+  "expectedRoadIds": [
+    "es-ap6"
+  ],
+  "expectedGates": [
+    "SAN RAFAEL-entry",
+    "VILLALBA-exit"
+  ],
+  "source": [
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf"
+  ],
+  "reusedFrom": "pricing-candidates/ap6-routes/SAN RAFAEL--VILLALBA.json"
+}

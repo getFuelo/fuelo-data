@@ -151,6 +151,8 @@ SPECS = {'ap61': {'probeViaNodes':{'ORTIGOSA--OTERO':[29212569]},'ref':'AP-61','
         ('Baiona',(167096006,107983618,1784981675),(1101960216,13069962968,1784981676)),
     ]}, 'ag55' : {'ref':'AG-55','bbox':[43.20,-8.68,43.322,-8.47],
     'excludeCoverageWays':[795695668,795695678],
+    # Ref-less northbound cash lane at Paiosaco/Arteixo, alongside the mapped mainline.
+    'extraCoverageWays':[257088583],
     'filterFareZones':['Arteixo','Paiosaco','Laracha','Carballo'],'bidirectionalRows':True,'accesses':[],
     'logicalAccesses':[
         ('Arteixo',(769028620,285118382,285118318),(1465177144,285172019,285172032)),

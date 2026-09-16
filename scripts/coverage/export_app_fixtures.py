@@ -133,3 +133,22 @@ if (ROOT/'pricing-candidates/supersur.json').exists():
  for path in sorted((ROOT/'audit/2026-09-16/networks/supersur/unconstrained-alternatives').glob('*-request.json')):
   req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
  (out/'supersur/alternatives.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
+
+# Expanded AP-6/AP-51/AP-61 public/joint financial journeys.
+if (ROOT/'pricing-candidates/iberpistas-ap61.json').exists():
+ import shutil
+ target=out/'iberpistas-ap61';target.mkdir(exist_ok=True)
+ shutil.copy(ROOT/'pricing-candidates/iberpistas-ap61.json',target/'catalog.json');rows=[]
+ for path in sorted((ROOT/'pricing-candidates/iberpistas-ap61-routes').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (target/'cases.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')
+
+if (ROOT/'audit/2026-09-16/networks/c32/unresolved-passages.json').exists():
+ import shutil
+ shutil.copy(ROOT/'audit/2026-09-16/networks/c32/unresolved-passages.json',out/'unresolved-passages.json')
+
+if (ROOT/'pricing-candidates/ag55-extra-lanes').exists():
+ rows=[]
+ for path in sorted((ROOT/'pricing-candidates/ag55-extra-lanes').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (out/'ag55/extra-lanes.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')

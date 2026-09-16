@@ -2,39 +2,35 @@
   "checked": "2026-09-16",
   "complete": false,
   "regression": {
-    "tests": 1904,
-    "passed": 1904,
-    "suites": 59,
-    "method": "Full 1896-test run followed by the corrected Leon and R5/AP41 suites. Latest result per test identity; eight R5 integration cases were added afterward.",
+    "tests": 1998,
+    "passed": 1998,
+    "suites": 61,
+    "method": "Full 1997-test / 61-suite run, followed by the AG-55 23-test suite with one added cash-lane regression; latest result per test identity.",
     "focusedReruns": [
-      63,
-      126
+      23
     ]
   },
   "typescript": "passed",
   "candidateIntegrity": {
-    "checkedFiles": 75,
+    "checkedFiles": 76,
     "passed": true
   },
   "nationalIntegration": {
     "catalogOrdersChecked": 2,
     "complete": false,
-    "total": 1459,
-    "passed": 1458,
-    "failures": [
+    "total": 1488,
+    "passed": 1488,
+    "safelyUnavailable": 9,
+    "unresolvedPassages": [
       {
         "family": "c32",
         "name": "es-c32-vallcarca",
-        "expectedCents": 842,
-        "order": "forward",
-        "actual": {
-          "status": "quoted",
-          "minCents": 0,
-          "maxCents": 0
-        },
-        "events": []
+        "referenceCents": 842,
+        "reason": "unverified_toll_passage",
+        "source": "audit/2026-09-16/networks/c32/valhalla-mismatch.json"
       }
     ],
+    "failures": [],
     "byFamily": {
       "ap41": {
         "passed": 56,
@@ -61,7 +57,7 @@
         "failed": 0
       },
       "ag55": {
-        "passed": 20,
+        "passed": 21,
         "failed": 0
       },
       "ag57": {
@@ -144,8 +140,8 @@
         "passed": 261,
         "failed": 0
       },
-      "iberpistas": {
-        "passed": 30,
+      "iberpistas-ap61": {
+        "passed": 58,
         "failed": 0
       },
       "autema": {
@@ -153,8 +149,8 @@
         "failed": 0
       },
       "c32": {
-        "passed": 3,
-        "failed": 1
+        "passed": 4,
+        "failed": 0
       },
       "ap15": {
         "passed": 4,
@@ -219,8 +215,10 @@
     "ap9-ferrol": "671c9079a1ec493d5e08f104473de453598e3ef31c389cd45126db4bcb80d42d",
     "ap9-norte": "dff1683f6cfff6898f486c3e8d9a86ec57bf0f3d5415d4acd6b1f67e7bd10cf8",
     "supersur": "336cbedb927310a430783f9972d925f3316b275f5af387bd10cf0a0973d35cc8",
-    "spain-integration": "98bbd8bc51d1bd2d1e9b67b987b59c2983ea45f6fbd38f2e9c18e8c3bfcb3900"
+    "spain-integration": "9a62cfb0e0f9d2898d9ac38735a92e1418ff4d1ca923a08b13ca4ae97c46694a",
+    "iberpistas-ap61": "6ee75a4cc49978b5f2cd009e799d05bc17e33ea079eb55d68098332c90fa1acd",
+    "ag55": "7fb6e184aa3351b6ee680de4de04d5f5612282febcadae92ad575d7c74193c20"
   },
-  "runtimeSha256": "a24b3d0d2fa681e29bef33a3c0cc4a48ea652be38403fb7b8d806f3d8902bf3c",
-  "release": "blocked; incomplete national inventory/access/eligibility/avoidance review and unresolved Vallcarca bypass; no push"
+  "runtimeSha256": "3f64f3708d16eccfa151086cb12c59dbd44f12658a6c0b2fb9f8f9eb16912b33",
+  "release": "blocked; incomplete national inventory/access/eligibility/avoidance review and unresolved Vallcarca payment/access conditions; device validation pending; no push"
 }

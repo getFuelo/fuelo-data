@@ -39,7 +39,10 @@ FAMILIES={
   ('osm-review-141831078','es-c16-sant-vicenc-c55','Ramal Sant Vicenç–C55',490),
   ('osm-review-150686870','es-c16-terrassa-manresa','Manresa troncal',976),
   ('osm-review-255558497','es-c16-sant-cugat-terrassa','Les Fonts',319)]},
- 'c32':{'ref':'C-32','lat':[41.15,41.40],'groups':[
+ 'c32':{'ref':'C-32','lat':[41.15,41.40],
+  # Official MT-14042-A2 drawing 2.3 identifies the outer paid Via 1.
+  # OSM lacks a toll tag/booth; use its existing geometry, not imagery tracing.
+  'additionalPaidLanes':{'es-c32-vallcarca':[(265459454,12766694619)]},'groups':[
   ('osm-review-279743006','es-c32-vallcarca','Vallcarca troncal',842),
   ('osm-review-332289114','es-c32-cubelles-acceso','Cubelles acceso',269),
   ('osm-review-981187977','es-c32-calafell-acceso','Calafell acceso',79),
@@ -67,6 +70,8 @@ def main():
   for groupid, *_ in spec['groups']:
    for nid in groups[groupid]['pointIds']:
     selected.update(wid for wid in points[nid]['incidentWays'] if inside(ways[wid]))
+  for lane_list in spec.get('additionalPaidLanes',{}).values():
+   selected.update(wid for wid,_ in lane_list)
   frontier=set(selected)
   for _ in range(12):
    added=set()
@@ -88,6 +93,9 @@ def main():
    assert angles,(family,name,'no connected mapped lane')
    theta=math.atan2(sum(math.sin(2*a) for a in angles),sum(math.cos(2*a) for a in angles))/2;px=-math.sin(theta);py=math.cos(theta)
    values=[(p['lng']-center['lng'])*cos*px+(p['lat']-center['lat'])*py for p in booths]
+   extra_lanes=spec.get('additionalPaidLanes',{}).get(id,[])
+   for wid,nid in extra_lanes:
+    lat,lng=nodes[str(nid)];values.append((lng-center['lng'])*cos*px+(lat-center['lat'])*py);lane_ways.add(wid)
    line=[{'lat':center['lat']+v*py,'lng':center['lng']+v*px/cos} for v in [min(values)-8/111195,max(values)+8/111195]]
    old=legacy[id] if id in legacy else legacy[spec.get('parent','es-c32-castelldefels-vendrell' if family=='c32' else 'es-ap15')]
    if spec.get('tariffOD'):
@@ -106,6 +114,10 @@ def main():
    gate={'id':id+'-plaza','line':line,'direction':'both'};networks.append({'id':id,'tollId':id,'validFrom':'2026-01-01','validThrough':'2026-12-31','timeZone':'Europe/Madrid','gates':[gate],'pricing':{'kind':'gates','fares':{gate['id']:tariff}},'coverageWays':coverage,'evidence':{'checked':'2026-09-16','tariffSources':[toll['source']],'geometrySource':'https://www.openstreetmap.org/copyright'}})
    if tariff_reference and tariff_reference.get('discountSource'):networks[-1]['evidence']['tariffSources'].append(tariff_reference['discountSource']['url'])
    evidence.append({'network':id,'reviewGroup':groupid,**({'mergedReviewGroups':group['mergedReviewGroups']} if group.get('mergedReviewGroups') else {}),'booths':group['pointIds'],'laneWays':sorted(lane_ways),'method':'Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings.'})
+   if extra_lanes:
+    evidence[-1]['additionalPaidLanes']=[{'way':wid,'version':ways[wid]['version'],'sourceNode':nid,'review':'valhalla-mismatch.json'} for wid,nid in extra_lanes]
+    for wid,nid in extra_lanes:
+     probes.append({'network':id,'booth':nid,'way':str(wid),'versions':[ways[wid]['version']],'traversedWays':[{'id':wid,'version':ways[wid]['version']}],'geometry':[{'lat':nodes[str(n)][0],'lng':nodes[str(n)][1]} for n in ways[wid]['nodes']]})
    for booth in booths:
     incoming=[];outgoing=[]
     for wid in booth['incidentWays']:

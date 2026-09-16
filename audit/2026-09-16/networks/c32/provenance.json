@@ -46,9 +46,18 @@
         265459440,
         265459441,
         265459445,
-        265459449
+        265459449,
+        265459454
       ],
-      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings.",
+      "additionalPaidLanes": [
+        {
+          "way": 265459454,
+          "version": 9,
+          "sourceNode": 12766694619,
+          "review": "valhalla-mismatch.json"
+        }
+      ]
     },
     {
       "network": "es-c32-cubelles-acceso",
@@ -135,6 +144,6 @@
       "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
     }
   ],
-  "coverageWayCount": 376,
+  "coverageWayCount": 377,
   "reviewStatus": "candidate_pending_routes"
 }

@@ -3,16 +3,8 @@
   "complete": false,
   "total": 1488,
   "passed": 1488,
-  "safelyUnavailable": 9,
-  "unresolvedPassages": [
-    {
-      "family": "c32",
-      "name": "es-c32-vallcarca",
-      "referenceCents": 842,
-      "reason": "unverified_toll_passage",
-      "source": "audit/2026-09-16/networks/c32/valhalla-mismatch.json"
-    }
-  ],
+  "safelyUnavailable": 8,
+  "unresolvedPassages": [],
   "failures": [],
   "byFamily": {
     "ap41": {

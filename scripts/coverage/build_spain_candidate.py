@@ -19,8 +19,9 @@ for family in FAMILIES:
   assert n['tollId'] in tolls,(family,n['tollId'])
   pricing.append(n)
 assert len({n['id'] for n in pricing})==len(pricing)
-unresolved=json.loads((ROOT/'audit/2026-09-16/networks/c32/unresolved-passages.json').read_text())['passages']
-doc={'schema':5,'unresolvedPassages':unresolved,'generated':'2026-09-16','currency':'EUR','complete':False,'tolls':list(tolls.values()),'pricing':pricing,'notes_global':'Disabled Spanish integration candidate. Assembly does not certify source inventory, tariffs, access coverage or avoidance. © OpenStreetMap contributors.'}
+review=json.loads((ROOT/'audit/2026-09-16/networks/c32/valhalla-mismatch.json').read_text())
+unresolved=[] if review['status']=='resolved_missing_paid_lane' else json.loads((ROOT/'audit/2026-09-16/networks/c32/unresolved-passages.json').read_text())['passages']
+doc={'schema':5,**({'unresolvedPassages':unresolved} if unresolved else {}),'generated':'2026-09-16','currency':'EUR','complete':False,'tolls':list(tolls.values()),'pricing':pricing,'notes_global':'Disabled Spanish integration candidate. Assembly does not certify source inventory, tariffs, access coverage or avoidance. © OpenStreetMap contributors.'}
 (ROOT/'pricing-candidates/spain-integration.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n')
-(ROOT/'audit/2026-09-16/spain-integration-sources.json').write_text(json.dumps({'complete':False,'sources':sources,'networks':len(pricing),'roads':len(tolls),'roadNormalization':PARENTS,'unresolvedPassagesSource':'audit/2026-09-16/networks/c32/unresolved-passages.json'},indent=2)+'\n')
+(ROOT/'audit/2026-09-16/spain-integration-sources.json').write_text(json.dumps({'complete':False,'sources':sources,'networks':len(pricing),'roads':len(tolls),'roadNormalization':PARENTS,'passageReview':'audit/2026-09-16/networks/c32/valhalla-mismatch.json','unresolvedPassagesSource':'audit/2026-09-16/networks/c32/unresolved-passages.json' if unresolved else None},indent=2)+'\n')
 print(len(pricing),'settlement networks;',len(tolls),'catalog roads; release disabled')

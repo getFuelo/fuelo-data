@@ -38,6 +38,6 @@
       }
     ],
     "review": "valhalla-mismatch.json",
-    "status": "unresolved; do not infer permitted traffic, exemption or a fee"
+    "status": "historical regression fixture; resolved as paid Via 1 in valhalla-mismatch.json; not emitted in the current national candidate"
   }
 }

@@ -43,7 +43,6 @@ for (const [family, file] of [['ap61','free-n603'],['ap8-ap1-shared','free-local
 // Isolated AP-61 connection probes start/end inside the combined toll system.
 // Preserve them as partial-journey safety checks, not complete-journey prices.
 for (const c of cases) if (c.family === 'ap61' && c.name.split('--').includes('AP6')) c.expectedUnavailable = c.name.startsWith('AP6--') ? 'missing_entry' : 'missing_exit';
-for (const c of cases) if (c.family === 'c32' && c.name === 'es-c32-vallcarca') { c.expectedUnavailable = 'unverified_toll_passage'; c.externalBlocker = true; }
 const catalogs = [catalog, {...catalog, pricing: [...catalog.pricing].reverse()}];
 const report = {catalogOrdersChecked: 2, complete: false, total: cases.length, passed: 0, safelyUnavailable: 0, unresolvedPassages: [], failures: [], byFamily: {}};
 for (const c of cases) {

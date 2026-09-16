@@ -2,12 +2,13 @@
   "checked": "2026-09-16",
   "complete": false,
   "regression": {
-    "tests": 1998,
-    "passed": 1998,
+    "tests": 2000,
+    "passed": 2000,
     "suites": 61,
-    "method": "Full 1997-test / 61-suite run, followed by the AG-55 23-test suite with one added cash-lane regression; latest result per test identity.",
+    "method": "Full 1997-test run, then latest AG-55 and Vallcarca affected suites. Counts replace complete suite results, including renamed tests.",
     "focusedReruns": [
-      23
+      23,
+      194
     ]
   },
   "typescript": "passed",
@@ -20,16 +21,8 @@
     "complete": false,
     "total": 1488,
     "passed": 1488,
-    "safelyUnavailable": 9,
-    "unresolvedPassages": [
-      {
-        "family": "c32",
-        "name": "es-c32-vallcarca",
-        "referenceCents": 842,
-        "reason": "unverified_toll_passage",
-        "source": "audit/2026-09-16/networks/c32/valhalla-mismatch.json"
-      }
-    ],
+    "safelyUnavailable": 8,
+    "unresolvedPassages": [],
     "failures": [],
     "byFamily": {
       "ap41": {
@@ -215,10 +208,11 @@
     "ap9-ferrol": "671c9079a1ec493d5e08f104473de453598e3ef31c389cd45126db4bcb80d42d",
     "ap9-norte": "dff1683f6cfff6898f486c3e8d9a86ec57bf0f3d5415d4acd6b1f67e7bd10cf8",
     "supersur": "336cbedb927310a430783f9972d925f3316b275f5af387bd10cf0a0973d35cc8",
-    "spain-integration": "9a62cfb0e0f9d2898d9ac38735a92e1418ff4d1ca923a08b13ca4ae97c46694a",
+    "spain-integration": "9af365b9e31a9a0868c3bce538e9baf2446ddb31b5ed86e2989219f1c60a1177",
     "iberpistas-ap61": "6ee75a4cc49978b5f2cd009e799d05bc17e33ea079eb55d68098332c90fa1acd",
-    "ag55": "7fb6e184aa3351b6ee680de4de04d5f5612282febcadae92ad575d7c74193c20"
+    "ag55": "7fb6e184aa3351b6ee680de4de04d5f5612282febcadae92ad575d7c74193c20",
+    "c32": "bc8e138cbf287b7a52df60d6b0b16d42befaef872b037fd5bc4111c65edead50"
   },
   "runtimeSha256": "3f64f3708d16eccfa151086cb12c59dbd44f12658a6c0b2fb9f8f9eb16912b33",
-  "release": "blocked; incomplete national inventory/access/eligibility/avoidance review and unresolved Vallcarca payment/access conditions; device validation pending; no push"
+  "release": "blocked by remaining national inventory/access/eligibility/avoidance review and pending device validation; Vallcarca lane resolved; no push"
 }

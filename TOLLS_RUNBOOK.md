@@ -114,3 +114,27 @@ cases deliberately return unavailable. The command still exits nonzero because
 Vallcarca's physical passage remains unverified. All 35 readiness entries remain
 false. Device acceptance and performance measurement have not been performed.
 These results supersede the earlier checkpoint counts, not the open blockers.
+
+
+### Vallcarca resolution (2026-09-16; supersedes unresolved-passage notes above)
+
+The outer carriageway is Via 1 AALT in Generalitat project MT-14042-A2,
+June 2019, drawing 2.3, PDF page 370. It has separate toll equipment outside
+the canopy. July 2026 Street View corroborates the exclusive Via-T sign and
+barrier. The operator explains that the circular T denotes exclusive Via-T
+payment. It is a paid plaza lane, not a free bypass or an unknown exemption.
+See `audit/2026-09-16/networks/c32/valhalla-mismatch.json` in the data repository
+for source links and the official PDF hash. No Google geometry was traced.
+
+The existing OSM way 265459454/v9 is included in the same plaza crossing plane,
+extended only to cover that physical lane. All existing mapped lane crossings
+remain single charges. The retained Valhalla toll=false trace now quotes the
+published general 842 cents once. Payment-device lane guidance is not added;
+conditional customer discounts must not be inferred from the chosen lane.
+
+The national candidate no longer emits the historical Vallcarca uncertainty
+cut; generic schema-5 guard regressions remain. National integration: 1,488/1,488
+pass in both orders, eight partial-journey safeguards, no unresolved passage in
+this retained corpus, exit 0. Focused regressions: 194 passed. All 76 catalog
+integrity checks and TypeScript pass. Spain readiness remains false pending
+the other documented coverage checks and device acceptance. No push or OSM edit.

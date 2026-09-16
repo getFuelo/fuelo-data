@@ -476,9 +476,10 @@
       ],
       "ready": false,
       "blockers": [
-        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open.",
-        "Vallcarca trace uses unclassified bypass way 265459454; access/payment conditions unresolved. See audit/2026-09-16/networks/c32/valhalla-mismatch.json.",
-        "Schema-5 unresolved-passage guard prevents a zero quote on the Vallcarca bypass; access/payment conditions still require external confirmation."
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ],
+      "resolvedFindings": [
+        "Vallcarca outer Via 1 is a paid plaza lane; official drawing MT-14042-A2 2.3 and current sign review resolve missing OSM toll tag. Retained route charges 842 cents once despite provider toll=false."
       ]
     },
     {
@@ -692,10 +693,8 @@
     "retainedRoutes": 1488,
     "catalogOrdersChecked": 2,
     "passed": 1488,
-    "unresolved": [
-      "es-c32-vallcarca"
-    ],
-    "safelyUnavailable": 9,
+    "unresolved": [],
+    "safelyUnavailable": 8,
     "schema": 5
   }
 }

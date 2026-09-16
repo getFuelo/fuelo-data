@@ -1,0 +1,71 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.326773,
+        "lon": -8.4617882,
+        "heading": 221
+      },
+      {
+        "lat": 43.3267103,
+        "lon": -8.4618636,
+        "heading": 222,
+        "type": "through"
+      },
+      {
+        "lat": 43.3101637,
+        "lon": -8.4758227,
+        "heading": 162
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ag55-pastoriza",
+  "network": "es-ag55-pastoriza",
+  "expectedCents": 55,
+  "sourceProbe": {
+    "network": "es-ag55-pastoriza",
+    "booth": 1125611904,
+    "way": "589614587/589614587",
+    "versions": [
+      4,
+      4
+    ],
+    "traversedWays": [
+      {
+        "id": 589614587,
+        "version": 4
+      },
+      {
+        "id": 589614588,
+        "version": 4
+      },
+      {
+        "id": 795695668,
+        "version": 3
+      },
+      {
+        "id": 795695670,
+        "version": 2
+      },
+      {
+        "id": 795695675,
+        "version": 2
+      },
+      {
+        "id": 795695681,
+        "version": 2
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

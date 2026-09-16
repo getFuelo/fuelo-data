@@ -104,6 +104,200 @@
       "category": "parking",
       "source": "https://www.aena.es/es/tenerife-sur/parking/parking-del-aeropuerto.html",
       "reason": "Retained point on airport parking access way 235094323; Aena describes the general parking ticket and exit barrier."
+    },
+    {
+      "id": "monte-igueldo",
+      "nodes": [
+        309316957,
+        309316961
+      ],
+      "category": "facility_admission",
+      "source": "https://www.monteigueldo.es/faq",
+      "reason": "Road entrances on Paseo de Igueldo and Paseo del Faro. Operator confirms admission is per person and parking during the visit is included."
+    },
+    {
+      "id": "cuelgamuros",
+      "nodes": [
+        292266631
+      ],
+      "category": "facility_admission",
+      "source": "https://tickets.patrimonionacional.es/es/tickets/valle-cuelgamuros",
+      "reason": "Entrance road from M-600 to the Valle de Cuelgamuros monument; admission to the site, not a public through-road toll."
+    },
+    {
+      "id": "puerto-colon",
+      "nodes": [
+        313503669,
+        1484652559
+      ],
+      "category": "parking",
+      "source": "https://puertocolon.com/servicios/",
+      "reason": "One-way entrance and exit roads of Puerto Colon parking; official port services list the car park."
+    },
+    {
+      "id": "tenerife-norte-express",
+      "nodes": [
+        1658380851,
+        11559677442
+      ],
+      "category": "parking",
+      "source": "https://www.aena.es/doc/detalleprensa/220903-np-aeropuerto-tenerife-norte-cll-pone-en-marcha-aparcamiento-expres-en-vial-terminal-.docx.pdf",
+      "reason": "Terminal express parking entry and exit ways 444969324 and 1243693352; operator documents parking barriers and duration-based charging."
+    },
+    {
+      "id": "warner-parking",
+      "nodes": [
+        308526087
+      ],
+      "category": "parking",
+      "source": "https://www.parquewarner.com/antes-de-tu-visita/promociones-y-descuentos/oferta-parking",
+      "reason": "Camino de la Warner vehicle entrance to the theme park parking area; parking is a separately sold service."
+    },
+    {
+      "id": "timanfaya",
+      "nodes": [
+        380643551,
+        1514305765
+      ],
+      "category": "facility_admission",
+      "source": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/guia-timanfaya_tcm30-67887.pdf",
+      "reason": "LZ-602 customers-only approach to Montanas del Fuego; national park guide identifies the barrier as the visitor admission control."
+    },
+    {
+      "id": "a8-muskiz-hgv",
+      "nodes": [
+        12912137407,
+        12912137408
+      ],
+      "category": "heavy_goods_only",
+      "source": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu",
+      "reason": "Gantry ways 31983032 and 595891581 are the A-8 at Muskiz, inside the Basurto–El Haya heavy-goods canon. This is not the AP-8 passenger-car toll road."
+    },
+    {
+      "id": "pinar-rozas-parking",
+      "nodes": [
+        1599119762,
+        1634699410
+      ],
+      "category": "parking",
+      "source": "https://www.crtm.es/media/xzlcdr00/plano_zonal_cercanias_pinardelasrozas.pdf",
+      "reason": "Entry and exit of the station park-and-ride, accessed from Avenida de los Bomberos. Official station map identifies the car park."
+    },
+    {
+      "id": "poveda-parking",
+      "nodes": [
+        11134320975
+      ],
+      "category": "parking",
+      "source": "https://boletin.dguadalajara.es/boletin/pdf/BOP150520230092.pdf",
+      "reason": "Puente de Poveda approach to the Alto Tajo municipal parking areas. The ordinance establishes a parking service fee; it is not a through-road toll."
+    },
+    {
+      "id": "illetes-parking",
+      "nodes": [
+        5196286628
+      ],
+      "category": "parking",
+      "source": "https://www.formentera.es/wp-content/uploads/2022/09/Manual-Turista-ES.pdf",
+      "reason": "Cami de Ses Illetes parking access; official tourism guide identifies vehicle parking fees and separate pedestrian access."
+    },
+    {
+      "id": "santa-trega-admission",
+      "nodes": [
+        3509728312
+      ],
+      "category": "facility_admission",
+      "source": "https://www.aguarda.es/wp-content/uploads/bsk-pdf-manager/2021/09/taxas-13-museos-e-monumentos.pdf",
+      "reason": "Municipal monument admission control at Monte Santa Trega. The ordinance covers access to the site and museum. Full source extract also confirms this node is not attached to a road way."
+    },
+    {
+      "id": "gredos-parking",
+      "nodes": [
+        5682928298
+      ],
+      "category": "parking",
+      "source": "https://www.hoyosdelespino.net/parque-regional-y-plataforma-de-gredos/180-plataforma-de-gredos-y-aparcamiento",
+      "reason": "Access control to the Plataforma de Gredos car park, on the former AV-931 dead-end access road."
+    },
+    {
+      "id": "mercadona-parking",
+      "nodes": [
+        6866566678
+      ],
+      "category": "parking",
+      "source": "https://www.openstreetmap.org/way/553090279",
+      "reason": "Same retained source way is named Mercadona parking and contains parking facility node 5339323754; a one-way supermarket parking access."
+    },
+    {
+      "id": "madrid-private-parking",
+      "nodes": [
+        11434681629
+      ],
+      "category": "parking",
+      "source": "https://www.openstreetmap.org/way/1232649292",
+      "reason": "Same one-way service road contains private parking entrance node 11434681631. Exact retained node tags are in access-review-ways.json; not inferred from the nearby hospital name."
+    },
+    {
+      "id": "san-antonio-admission",
+      "nodes": [
+        317987018
+      ],
+      "category": "facility_admission",
+      "source": "https://lapalmabiosfera.es/comunidad/centro-de-visitantes-volcan-de-san-antonio/",
+      "reason": "Source road Calle Los Volcanes enters the Volcan San Antonio visitor centre; source booth explicitly charges per person. This is admission, not a public through-road toll."
+    },
+    {
+      "id": "abando-parking",
+      "nodes": [
+        3196925975
+      ],
+      "category": "parking",
+      "source": "https://www.saba.es/ca/parking-bilbao",
+      "reason": "The booth lies inside retained parking area 161870398, Parking Estacion de Abando, operated by Saba/Adif. Live OSM evidence and retrieval hash: access-context/3196925975.json."
+    },
+    {
+      "id": "madrid-private-parking-exit",
+      "nodes": [
+        11434681632
+      ],
+      "category": "parking",
+      "source": "https://www.openstreetmap.org/way/1232649293",
+      "reason": "Exit lane joins exactly the same endpoints as entrance way 1232649292, whose private parking entrance node is 11434681631. Retained map: access-context/11434681632.osm."
+    },
+    {
+      "id": "mercasantander",
+      "nodes": [
+        8380303594,
+        8380303597
+      ],
+      "category": "facility_admission",
+      "source": "https://www.mercasantander.es/",
+      "reason": "Vehicle access roads within named commercial facility area 246437343 Mercasantander, rather than a public through-road toll. Retained map: access-context/8380303594.osm."
+    },
+    {
+      "id": "n240-hgv-alternative-accesses",
+      "nodes": [
+        314269167,
+        12045940592,
+        12045940598
+      ],
+      "category": "heavy_goods_only",
+      "source": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu",
+      "supportingSources": [
+        "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/PPU/PPU-canon-eusk.pdf",
+        "https://www.bizkaia.eus/home2/Archivos/DPTO10/Temas/Pdf/Catalogo_NF_5-21_cas.pdf",
+        "https://baliabideak.bizkaia.eus/impacto_ambiental/EAE/2019/EAE-19-03/PGOU%20Lemoa%20Estudios%20previos_diagnostico.pdf"
+      ],
+      "reason": "Source incident roads identify BI-3526 at Lemoa Estaziño Auzoa, BI-3543 (former BI-2543) at Dima and BI-3542 at Otxandio. The operator explicitly lists these alternative accesses in its N-240 PPU heavy-goods schedule. Official road catalog establishes the BI-2543/BI-3543 alias; Lemoa plan establishes the BI-3526 Estaziño connection. This is not a passenger-car toll and is not an inference from hgv tags alone."
+    },
+    {
+      "id": "sant-felip-monument",
+      "nodes": [
+        678441809
+      ],
+      "category": "facility_admission",
+      "source": "https://www.consorciomilitarmenorca.com/es/que-hacer-en-menorca/visitar-castillo-san-felipe-menorca/",
+      "reason": "Mapped Cf2 approach terminates at the Castell de Sant Felip monument. The operator sells per-person guided monument visits, rather than public through-road passage."
     }
   ]
 }

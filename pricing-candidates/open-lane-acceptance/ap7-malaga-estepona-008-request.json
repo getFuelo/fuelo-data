@@ -1,0 +1,51 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 36.4996761,
+        "lon": -5.0058411,
+        "heading": 266
+      },
+      {
+        "lat": 36.4996054,
+        "lon": -5.0073624,
+        "heading": 275,
+        "type": "through"
+      },
+      {
+        "lat": 36.4995515,
+        "lon": -5.0094451,
+        "heading": 259
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap7-malaga-estepona",
+  "network": "es-ap7-san-pedro-troncal",
+  "expectedCents": 625,
+  "sourceProbe": {
+    "network": "es-ap7-san-pedro-troncal",
+    "booth": 5667807552,
+    "way": "594349476/594349476",
+    "versions": [
+      4,
+      4
+    ],
+    "traversedWays": [
+      {
+        "id": 594349476,
+        "version": 4
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

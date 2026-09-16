@@ -22,7 +22,7 @@ for (const group of read(path.join(fixtures, 'ap8-local-ramps.json'))) {
  for (const row of group.routes) cases.push({...row, family: group.family, expected: row.expectedGeneralCents});
 }
 // Supplemental public approaches, whole corridors and retained avoidance paths.
-for (const [family, file] of [['ap53','terminals'],['ag55','port'],['ag55','extra-lanes'],['r2','full'],['ap68','public-approaches']]) {
+for (const [family, file] of [['ap53','terminals'],['ap53','public'],['ag55','port'],['ag55','extra-lanes'],['r2','full'],['ap68','public-approaches']]) {
  for (const row of read(path.join(fixtures, family, file + '.json'))) cases.push({...row, family, name: file + '/' + row.name, expected: row.expectedCents});
 }
 for (const family of ['ap53','ap66','ap71','r2','vallvidrera']) {
@@ -52,6 +52,17 @@ for (const name of ['cadi-south-general','cadi-south-avoided','cadi-north-genera
  cases.push({family:'general-acceptance', name, expected:request.expectedCents, response:read(base + '.json')});
 }
 const catalogs = [catalog, {...catalog, pricing: [...catalog.pricing].reverse()}];
+for (const file of fs.readdirSync(path.join(root, 'pricing-candidates/ap68-service-area')).filter(f => f.endsWith('-request.json'))) {
+ const name = file.replace('-request.json', '');
+ const request = read(path.join(root, 'pricing-candidates/ap68-service-area', file));
+ cases.push({family:'ap68-service-area', name, expected:request.expectedCents, response:read(path.join(root, 'pricing-candidates/ap68-service-area', name + '.json'))});
+}
+for (const file of fs.readdirSync(path.join(root, 'pricing-candidates/open-lane-acceptance')).filter(f => f.endsWith('-request.json'))) {
+ const name = file.replace('-request.json', '');
+ const request = read(path.join(root, 'pricing-candidates/open-lane-acceptance', file));
+ cases.push({family:'open-lane/' + request.family, name, expected:request.expectedCents, expectedNetwork:request.network,
+  response:read(path.join(root, 'pricing-candidates/open-lane-acceptance', name + '.json'))});
+}
 const report = {catalogOrdersChecked: 2, complete: false, total: cases.length, passed: 0, safelyUnavailable: 0, unresolvedPassages: [], failures: [], byFamily: {}};
 for (const c of cases) {
  if (!Number.isInteger(c.expected)) throw Error(`Missing independent expectation: ${c.family}/${c.name}`);
@@ -59,8 +70,9 @@ for (const c of cases) {
  const route = {geometry: decodePolyline6(leg.shape), durationMin: trip.summary.time / 60, distanceKm: trip.summary.length, hasTolls: trip.summary.has_toll, degraded: false, tollSegments: leg.maneuvers.filter(m => m.toll).map(m => ({beginIdx: m.begin_shape_index, endIdx: m.end_shape_index}))};
  const results = catalogs.map(file => auditMappedRoute(route, file, '2026-09-16T10:00:00Z'));
  const matches = result => c.expectedUnavailable ? result.quote.status === 'unavailable' && result.quote.reasons.includes(c.expectedUnavailable) : result.quote.status === 'quoted' && result.quote.minCents === c.expected && result.quote.maxCents === c.expected;
- const ok = results.every(matches);
- const result = results.find(result => !matches(result));
+ const matchesExpected = result => matches(result) && (!c.expectedNetwork || (result.events.length === 1 && result.events[0].networkId === c.expectedNetwork));
+ const ok = results.every(matchesExpected);
+ const result = results.find(result => !matchesExpected(result));
  const counts = report.byFamily[c.family] ??= {passed: 0, failed: 0};
  if (ok) {report.passed++; counts.passed++; if (c.expectedUnavailable) report.safelyUnavailable++; if (c.externalBlocker) report.unresolvedPassages.push({family:c.family,name:c.name,referenceCents:c.expected,reason:c.expectedUnavailable,source:'audit/2026-09-16/networks/c32/valhalla-mismatch.json'});} else {
   counts.failed++;

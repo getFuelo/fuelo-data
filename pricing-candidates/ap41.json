@@ -12329,7 +12329,17 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_ap41_2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "R5-entry",
+        "Toledo-entry",
+        "Serranillos-entry",
+        "Carranque-entry",
+        "Illescas-entry",
+        "Numancia-entry",
+        "Villaluenga-entry",
+        "Villaseca-entry"
+      ]
     }
   ],
   "notes_global": "Disabled AP-41 OD candidate; source-backed cash/Via-T/day/night matrix. Geometry and all approaches require route validation. © OpenStreetMap contributors."

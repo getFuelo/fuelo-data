@@ -1,0 +1,27 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.8805,
+        "lon": -8.5457
+      },
+      {
+        "lat": 42.6978,
+        "lon": -8.2454
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 435,
+  "source": "https://acega.es/tarifas/",
+  "publishedJourney": "Santiago–Silleda",
+  "scope": "Public city endpoints; app-generated exclusions."
+}

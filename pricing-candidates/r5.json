@@ -14803,7 +14803,17 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r5_2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "M40-M45-entry",
+        "M50-M506-entry",
+        "M50-M506-madrid-entry",
+        "AP41-entry",
+        "AP41-madrid-entry",
+        "M413-entry",
+        "M404-entry",
+        "A5-entry"
+      ]
     }
   ],
   "notes_global": "Disabled closed-system candidate. Explicit source-way access associations and published OD rows; route checks are required separately. © OpenStreetMap contributors."

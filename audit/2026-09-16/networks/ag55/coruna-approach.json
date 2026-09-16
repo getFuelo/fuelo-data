@@ -1,0 +1,64 @@
+{
+  "source": "https://api.openstreetmap.org/api/0.6/map?bbox=-8.442,43.342,-8.430,43.347",
+  "sha256": "9bf28bd0f8a8deffaaa08389dbaf92fb940ffc4a084d402ad16d3521a2cf1181",
+  "method": "Cover the AC-552 continuation of Valhalla's mixed Pastoriza maneuver.\n\nThe fixed plaza remains the only payment trigger. These are exact public\nAC-552 source ways, not the parallel V-1.4 flyover selected by a nearest-road\nsearch against the major-road-only extract. No tolerance change is required.\n",
+  "ways": [
+    {
+      "id": "166714261",
+      "version": "9",
+      "tags": {
+        "destination": "Polígono industrial Agrela-Bens;Avenida de Arteixo;Porto;Centro cidade",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "60",
+        "name": "Estrada dos Baños de Arteixo",
+        "name:es": "Carretera Baños de Arteixo",
+        "name:gl": "Estrada dos Baños de Arteixo",
+        "oneway": "yes",
+        "ref": "AC-552",
+        "short_name": "Estrada Baños de Arteixo",
+        "source": "PNOA",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "id": "622799668",
+      "version": "6",
+      "tags": {
+        "destination:lanes": "Polígono industrial Agrela-Bens;Avenida de Arteixo;Porto;Centro cidade|Polígono industrial Agrela-Bens;Avenida de Arteixo;Porto;Centro cidade|Riazor-Orzán;Zona comercial Marineda City;AC-14;Aeroporto;A-6 E-70 Lugo",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "80",
+        "name": "Estrada dos Baños de Arteixo",
+        "name:es": "Carretera Baños de Arteixo",
+        "name:gl": "Estrada dos Baños de Arteixo",
+        "oneway": "yes",
+        "ref": "AC-552",
+        "short_name": "Estrada Baños de Arteixo",
+        "source": "PNOA",
+        "surface": "asphalt",
+        "turn:lanes": "none|through|slight_right"
+      }
+    },
+    {
+      "id": "622799669",
+      "version": "4",
+      "tags": {
+        "destination": "Polígono industrial Agrela-Bens;Avenida de Arteixo;Porto;Centro cidade",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "name": "Estrada dos Baños de Arteixo",
+        "name:es": "Carretera Baños de Arteixo",
+        "name:gl": "Estrada dos Baños de Arteixo",
+        "oneway": "yes",
+        "ref": "AC-552",
+        "short_name": "Estrada Baños de Arteixo",
+        "source": "PNOA",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

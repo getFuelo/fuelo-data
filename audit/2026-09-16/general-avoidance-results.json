@@ -1,0 +1,247 @@
+{
+  "complete": false,
+  "scope": "Public-endpoint selective avoidance; totals are diagnostic, not an independent fare oracle.",
+  "cases": [
+    {
+      "name": "ag55-public-forward",
+      "family": "ag55",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 33.325
+    },
+    {
+      "name": "ag55-public-reverse",
+      "family": "ag55",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 33.35
+    },
+    {
+      "name": "ag57-public-forward",
+      "family": "ag57",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 24.466
+    },
+    {
+      "name": "ag57-public-reverse",
+      "family": "ag57",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 25.214
+    },
+    {
+      "name": "ap36-public-forward",
+      "family": "ap36",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 178.116
+    },
+    {
+      "name": "ap36-public-reverse",
+      "family": "ap36",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 178.45
+    },
+    {
+      "name": "ap41-public-forward",
+      "family": "ap41",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 72.426
+    },
+    {
+      "name": "ap41-public-reverse",
+      "family": "ap41",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 73.001
+    },
+    {
+      "name": "ap7-cartagena-vera-public-forward",
+      "family": "ap7-cartagena-vera",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 157.902
+    },
+    {
+      "name": "ap7-cartagena-vera-public-reverse",
+      "family": "ap7-cartagena-vera",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 157.318
+    },
+    {
+      "name": "ap8-gipuzkoa-east-public-forward",
+      "family": "ap8-gipuzkoa-east",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 20.772
+    },
+    {
+      "name": "ap8-gipuzkoa-east-public-reverse",
+      "family": "ap8-gipuzkoa-east",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 20.575
+    },
+    {
+      "name": "r3-public-forward",
+      "family": "r3",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 35.124
+    },
+    {
+      "name": "r3-public-reverse",
+      "family": "r3",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 30.539
+    },
+    {
+      "name": "r4-public-forward",
+      "family": "r4",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 65.868
+    },
+    {
+      "name": "r4-public-reverse",
+      "family": "r4",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 66.025
+    },
+    {
+      "name": "r5-public-forward",
+      "family": "r5",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 36.56
+    },
+    {
+      "name": "r5-public-reverse",
+      "family": "r5",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "distanceKm": 33.714
+    },
+    {
+      "name": "supersur-public-forward",
+      "family": "supersur",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 105,
+        "maxCents": 105
+      },
+      "distanceKm": 26.929
+    },
+    {
+      "name": "supersur-public-reverse",
+      "family": "supersur",
+      "excludedFenceCrossings": 0,
+      "targetPricingEvents": 0,
+      "quote": {
+        "status": "quoted",
+        "minCents": 105,
+        "maxCents": 105
+      },
+      "distanceKm": 27.207
+    }
+  ],
+  "failures": []
+}

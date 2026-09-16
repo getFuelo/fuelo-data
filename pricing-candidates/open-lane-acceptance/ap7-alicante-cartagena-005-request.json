@@ -1,0 +1,51 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 37.929458,
+        "lon": -0.7391409,
+        "heading": 185
+      },
+      {
+        "lat": 37.9258879,
+        "lon": -0.7373344,
+        "heading": 51,
+        "type": "through"
+      },
+      {
+        "lat": 37.9264176,
+        "lon": -0.7365312,
+        "heading": 69
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap7-alicante-cartagena",
+  "network": "es-ap7-zenia-acceso",
+  "expectedCents": 510,
+  "sourceProbe": {
+    "network": "es-ap7-zenia-acceso",
+    "booth": 297701581,
+    "way": "27134433/27134433",
+    "versions": [
+      13,
+      13
+    ],
+    "traversedWays": [
+      {
+        "id": 27134433,
+        "version": 13
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

@@ -1,0 +1,71 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 41.6501167,
+        "lon": 1.8626918,
+        "heading": 31
+      },
+      {
+        "lat": 41.6517124,
+        "lon": 1.864764,
+        "heading": 53,
+        "type": "through"
+      },
+      {
+        "lat": 41.7086715,
+        "lon": 1.8595037,
+        "heading": 338
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "autema",
+  "network": "es-c16-terrassa-manresa",
+  "expectedCents": 976,
+  "sourceProbe": {
+    "network": "es-c16-terrassa-manresa",
+    "booth": 150688616,
+    "way": "427346301/427346301",
+    "versions": [
+      5,
+      5
+    ],
+    "traversedWays": [
+      {
+        "id": 189802401,
+        "version": 11
+      },
+      {
+        "id": 189802402,
+        "version": 8
+      },
+      {
+        "id": 191901011,
+        "version": 14
+      },
+      {
+        "id": 427346301,
+        "version": 5
+      },
+      {
+        "id": 1210082653,
+        "version": 3
+      },
+      {
+        "id": 1210082654,
+        "version": 4
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

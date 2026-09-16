@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 36.3774338,
+        "lon": -5.2641376,
+        "heading": 226
+      },
+      {
+        "lat": 36.3770358,
+        "lon": -5.2645199,
+        "heading": 214,
+        "type": "through"
+      },
+      {
+        "lat": 36.2972445,
+        "lon": -5.2841445,
+        "heading": 235
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap7-estepona-guadiaro",
+  "network": "es-ap7-manilva-troncal",
+  "expectedCents": 405,
+  "sourceProbe": {
+    "network": "es-ap7-manilva-troncal",
+    "booth": 6128263643,
+    "way": "653952215/653952215",
+    "versions": [
+      10,
+      10
+    ],
+    "traversedWays": [
+      {
+        "id": 26589858,
+        "version": 25
+      },
+      {
+        "id": 29986437,
+        "version": 16
+      },
+      {
+        "id": 653952214,
+        "version": 5
+      },
+      {
+        "id": 653952215,
+        "version": 10
+      },
+      {
+        "id": 653965175,
+        "version": 4
+      },
+      {
+        "id": 653965176,
+        "version": 4
+      },
+      {
+        "id": 1149078968,
+        "version": 3
+      },
+      {
+        "id": 1330136426,
+        "version": 1
+      },
+      {
+        "id": 1330136427,
+        "version": 1
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

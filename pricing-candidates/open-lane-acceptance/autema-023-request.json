@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 41.5176482,
+        "lon": 2.029674,
+        "heading": 118
+      },
+      {
+        "lat": 41.5175587,
+        "lon": 2.029898,
+        "heading": 119,
+        "type": "through"
+      },
+      {
+        "lat": 41.5104868,
+        "lon": 2.0480289,
+        "heading": 158
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "autema",
+  "network": "es-c16-sant-cugat-terrassa",
+  "expectedCents": 319,
+  "sourceProbe": {
+    "network": "es-c16-sant-cugat-terrassa",
+    "booth": 7034570661,
+    "way": "752846708/752846708",
+    "versions": [
+      3,
+      3
+    ],
+    "traversedWays": [
+      {
+        "id": 52834023,
+        "version": 8
+      },
+      {
+        "id": 52834024,
+        "version": 6
+      },
+      {
+        "id": 52834028,
+        "version": 7
+      },
+      {
+        "id": 52834029,
+        "version": 6
+      },
+      {
+        "id": 52834033,
+        "version": 5
+      },
+      {
+        "id": 52834034,
+        "version": 6
+      },
+      {
+        "id": 738663022,
+        "version": 4
+      },
+      {
+        "id": 752846708,
+        "version": 3
+      },
+      {
+        "id": 752846709,
+        "version": 3
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

@@ -46823,6 +46823,16 @@
               ],
               "direction": "negative"
             }
+          ],
+          "avoidanceGateIds": [
+            "EIBAR-entry",
+            "ELGOIBAR-entry",
+            "ITZIAR-entry",
+            "ZUMAIA-entry",
+            "ZARAUTZ-OESTE-entry",
+            "DONOSTIA-entry",
+            "GIPUZKOA-mainline-east",
+            "GIPUZKOA-mainline-west"
           ]
         },
         {
@@ -46996,6 +47006,14 @@
               ],
               "direction": "positive"
             }
+          ],
+          "avoidanceGateIds": [
+            "BERGARA-SUR-entry",
+            "ARRASATE-entry",
+            "ESKORIATZA-entry",
+            "LUKO-entry",
+            "ETXABARRI-entry",
+            "BERGARA-NORTE-entry"
           ]
         }
       ]

@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.7119461,
+        "lon": -1.6261813,
+        "heading": 222
+      },
+      {
+        "lat": 42.7102581,
+        "lon": -1.6283104,
+        "heading": 224,
+        "type": "through"
+      },
+      {
+        "lat": 42.5627849,
+        "lon": -1.6424015,
+        "heading": 187
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap15",
+  "network": "es-ap15-oriz-tiebas",
+  "expectedCents": 455,
+  "sourceProbe": {
+    "network": "es-ap15-oriz-tiebas",
+    "booth": 12410412771,
+    "way": "1341649101/1341649101",
+    "versions": [
+      3,
+      3
+    ],
+    "traversedWays": [
+      {
+        "id": 22733749,
+        "version": 14
+      },
+      {
+        "id": 25510736,
+        "version": 11
+      },
+      {
+        "id": 25510737,
+        "version": 29
+      },
+      {
+        "id": 28499065,
+        "version": 10
+      },
+      {
+        "id": 28499066,
+        "version": 17
+      },
+      {
+        "id": 28516835,
+        "version": 9
+      },
+      {
+        "id": 28516836,
+        "version": 13
+      },
+      {
+        "id": 435053354,
+        "version": 11
+      },
+      {
+        "id": 1341649101,
+        "version": 3
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

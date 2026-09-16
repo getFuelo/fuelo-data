@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.331149,
+        "lon": -1.7260401,
+        "heading": 360
+      },
+      {
+        "lat": 42.3312042,
+        "lon": -1.7260402,
+        "heading": 360,
+        "type": "through"
+      },
+      {
+        "lat": 42.5070849,
+        "lon": -1.6726497,
+        "heading": 37
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap15",
+  "network": "es-ap15-marcilla-tronco",
+  "expectedCents": 685,
+  "sourceProbe": {
+    "network": "es-ap15-marcilla-tronco",
+    "booth": 197738053,
+    "way": "461206175/461206175",
+    "versions": [
+      6,
+      6
+    ],
+    "traversedWays": [
+      {
+        "id": 19101780,
+        "version": 18
+      },
+      {
+        "id": 24306258,
+        "version": 60
+      },
+      {
+        "id": 91613834,
+        "version": 9
+      },
+      {
+        "id": 91613977,
+        "version": 11
+      },
+      {
+        "id": 461206175,
+        "version": 6
+      },
+      {
+        "id": 1065869966,
+        "version": 5
+      },
+      {
+        "id": 1460087548,
+        "version": 2
+      },
+      {
+        "id": 1499394425,
+        "version": 1
+      },
+      {
+        "id": 1499394426,
+        "version": 1
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

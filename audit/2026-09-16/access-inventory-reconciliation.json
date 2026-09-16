@@ -3,20 +3,20 @@
   "complete": false,
   "scope": "Light passenger car public-road tolls; exact source-linked nodes are not lane/route certificates. Tourist access fees remain open unless specifically evidenced.",
   "counts": {
-    "catalog_road_linked": 223,
+    "catalog_road_linked": 226,
     "source_linked": 382,
-    "scope_excluded": 78,
-    "catalog_geometry_linked": 43,
-    "needs_review": 39
+    "scope_excluded": 107,
+    "catalog_geometry_linked": 41,
+    "needs_review": 9
   },
   "groupCounts": {
-    "inventory_reconciled": 263,
-    "needs_review": 31
+    "inventory_reconciled": 286,
+    "needs_review": 8
   },
   "sources": [
     {
       "path": "pricing-candidates/spain-integration.json",
-      "sha256": "c29339431d5cd8b649f40bcdabfeecee8e97d58c427a4ef970e587437c8d1be9"
+      "sha256": "3a9de9c6ac933cf401225a60f9924284a7204106a33cf5429d4d6f746409edc8"
     },
     {
       "path": "audit/2026-09-16/networks/ag55/provenance.json",
@@ -79,6 +79,10 @@
       "sha256": "e72e5d0691d80a1e83d351368b356e317f97b69258a8ce35b83f7b905d9b0e11"
     },
     {
+      "path": "audit/2026-09-16/networks/ap68/service-area-settlement.json",
+      "sha256": "90270af7141ab708a5e7566659eadd160801f3d4fc0826d43238c17058c4e9ee"
+    },
+    {
       "path": "audit/2026-09-16/networks/ap7-alicante-cartagena/provenance.json",
       "sha256": "c90496dfeb2dccd2bed59597ea280738fc9e623592eb0e5f38a53223b75c2097"
     },
@@ -108,7 +112,7 @@
     },
     {
       "path": "audit/2026-09-16/networks/ap8-gipuzkoa-east/provenance.json",
-      "sha256": "e3ecbe06c8c66fccf4a3c5f462416f1325a8b79447273ee9427d0632768aedeb"
+      "sha256": "01f952a9eeb427a818e315398fcf9c2e014a68d8cde7591859aff2c2448d3f9e"
     },
     {
       "path": "audit/2026-09-16/networks/ap8-gipuzkoa-west/provenance.json",
@@ -192,7 +196,7 @@
     },
     {
       "path": "audit/2026-09-16/networks/supersur/provenance.json",
-      "sha256": "a8564ed686f506d9f33220d10248a56416e3e24d7f84470fb83a6a1faab2e5ff"
+      "sha256": "f2946a6c4dd15c6dca8ba56bbc127a3ed3f7ae6dca690ea9296e7d49989abd2d"
     },
     {
       "path": "audit/2026-09-16/networks/vallvidrera/provenance.json",
@@ -200,7 +204,11 @@
     },
     {
       "path": "audit/2026-09-16/access-scope-decisions.json",
-      "sha256": "c9ae6f637c58aea8282658c92ece5bcbc00e4f5690048e153828cec1a7ddbbc2"
+      "sha256": "ac1322eb6415d250d78bb6ccc0d174b374800a740db892dc7419a3f8b168c52c"
+    },
+    {
+      "path": "audit/2026-09-16/access-review-ways.json",
+      "sha256": "7511ce7f37630beae47153ac563354a9543f94f3a375e87c133fba0d4341fc59"
     },
     {
       "path": "audit/2026-09-16/spain-graph/graph.json.gz",
@@ -5750,11 +5758,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://tickets.patrimonionacional.es/es/tickets/valle-cuelgamuros",
+        "decision": "cuelgamuros",
+        "reason": "Entrance road from M-600 to the Valle de Cuelgamuros monument; admission to the site, not a public through-road toll."
+      }
     },
     {
       "region": "spain",
@@ -6688,11 +6701,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.parquewarner.com/antes-de-tu-visita/promociones-y-descuentos/oferta-parking",
+        "decision": "warner-parking",
+        "reason": "Camino de la Warner vehicle entrance to the theme park parking area; parking is a separately sold service."
+      }
     },
     {
       "region": "spain",
@@ -6752,11 +6770,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://www.monteigueldo.es/faq",
+        "decision": "monte-igueldo",
+        "reason": "Road entrances on Paseo de Igueldo and Paseo del Faro. Operator confirms admission is per person and parking during the visit is included."
+      }
     },
     {
       "region": "spain",
@@ -6798,11 +6821,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://www.monteigueldo.es/faq",
+        "decision": "monte-igueldo",
+        "reason": "Road entrances on Paseo de Igueldo and Paseo del Faro. Operator confirms admission is per person and parking during the visit is included."
+      }
     },
     {
       "region": "spain",
@@ -6889,12 +6917,30 @@
       "tags": {
         "highway": "toll_gantry"
       },
-      "incidentWays": [],
-      "status": "needs_review",
+      "incidentWays": [
+        {
+          "id": 1384412819,
+          "version": 1,
+          "tags": {
+            "cycleway:both": "no",
+            "highway": "primary",
+            "lanes": "2",
+            "oneway": "no",
+            "ref": "BI-3526",
+            "surface": "asphalt"
+          }
+        }
+      ],
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "heavy_goods_only",
+        "basis": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu",
+        "decision": "n240-hgv-alternative-accesses",
+        "reason": "Source incident roads identify BI-3526 at Lemoa Estaziño Auzoa, BI-3543 (former BI-2543) at Dima and BI-3542 at Otxandio. The operator explicitly lists these alternative accesses in its N-240 PPU heavy-goods schedule. Official road catalog establishes the BI-2543/BI-3543 alias; Lemoa plan establishes the BI-3526 Estaziño connection. This is not a passenger-car toll and is not an inference from hgv tags alone."
+      }
     },
     {
       "region": "spain",
@@ -9612,11 +9658,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://www.consorciomilitarmenorca.com/es/que-hacer-en-menorca/visitar-castillo-san-felipe-menorca/",
+        "decision": "sant-felip-monument",
+        "reason": "Mapped Cf2 approach terminates at the Castell de Sant Felip monument. The operator sells per-person guided monument visits, rather than public through-road passage."
+      }
     },
     {
       "region": "spain",
@@ -11073,22 +11124,9 @@
           }
         }
       ],
-      "status": "source_linked",
-      "catalogSourceEvidence": [
-        "audit/2026-09-16/networks/supersur/provenance.json"
-      ],
-      "catalogGeometryEvidence": [
-        {
-          "network": "es-supersur",
-          "gate": "SANTURTZI-entry",
-          "way": 84818858
-        },
-        {
-          "network": "es-supersur",
-          "gate": "SANTURTZI-entry",
-          "way": 598929190
-        }
-      ],
+      "status": "catalog_road_linked",
+      "catalogSourceEvidence": [],
+      "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [
         "es-supersur"
       ],
@@ -13960,11 +13998,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.crtm.es/media/xzlcdr00/plano_zonal_cercanias_pinardelasrozas.pdf",
+        "decision": "pinar-rozas-parking",
+        "reason": "Entry and exit of the station park-and-ride, accessed from Avenida de los Bomberos. Official station map identifies the car park."
+      }
     },
     {
       "region": "spain",
@@ -13988,11 +14031,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.crtm.es/media/xzlcdr00/plano_zonal_cercanias_pinardelasrozas.pdf",
+        "decision": "pinar-rozas-parking",
+        "reason": "Entry and exit of the station park-and-ride, accessed from Avenida de los Bomberos. Official station map identifies the car park."
+      }
     },
     {
       "region": "spain",
@@ -14017,15 +14065,9 @@
           }
         }
       ],
-      "status": "catalog_geometry_linked",
+      "status": "catalog_road_linked",
       "catalogSourceEvidence": [],
-      "catalogGeometryEvidence": [
-        {
-          "network": "es-ap8-gipuzkoa-east",
-          "gate": "OIARTZUN-exit",
-          "way": 173622832
-        }
-      ],
+      "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [
         "es-ap8-gipuzkoa-east"
       ],
@@ -20260,11 +20302,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.saba.es/ca/parking-bilbao",
+        "decision": "abando-parking",
+        "reason": "The booth lies inside retained parking area 161870398, Parking Estacion de Abando, operated by Saba/Adif. Live OSM evidence and retrieval hash: access-context/3196925975.json."
+      }
     },
     {
       "region": "spain",
@@ -20285,10 +20332,25 @@
           }
         }
       ],
-      "status": "needs_review",
-      "catalogSourceEvidence": [],
-      "catalogGeometryEvidence": [],
-      "catalogRoadEvidence": [],
+      "status": "source_linked",
+      "catalogSourceEvidence": [
+        "audit/2026-09-16/networks/ap68/service-area-settlement.json"
+      ],
+      "catalogGeometryEvidence": [
+        {
+          "network": "es-ap68",
+          "gate": "SERVICE-RETURN-exit",
+          "way": 231764143
+        },
+        {
+          "network": "es-ap68",
+          "gate": "SERVICE-RETURN-entry",
+          "way": 231764143
+        }
+      ],
+      "catalogRoadEvidence": [
+        "es-ap68"
+      ],
       "scopeEvidence": null
     },
     {
@@ -20789,11 +20851,16 @@
         "name": "Castro Santa Trega - 1€ por pessoa"
       },
       "incidentWays": [],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://www.aguarda.es/wp-content/uploads/bsk-pdf-manager/2021/09/taxas-13-museos-e-monumentos.pdf",
+        "decision": "santa-trega-admission",
+        "reason": "Municipal monument admission control at Monte Santa Trega. The ordinance covers access to the site and museum. Full source extract also confirms this node is not attached to a road way."
+      }
     },
     {
       "region": "spain",
@@ -22716,11 +22783,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.formentera.es/wp-content/uploads/2022/09/Manual-Turista-ES.pdf",
+        "decision": "illetes-parking",
+        "reason": "Cami de Ses Illetes parking access; official tourism guide identifies vehicle parking fees and separate pedestrian access."
+      }
     },
     {
       "region": "spain",
@@ -23375,11 +23447,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.hoyosdelespino.net/parque-regional-y-plataforma-de-gredos/180-plataforma-de-gredos-y-aparcamiento",
+        "decision": "gredos-parking",
+        "reason": "Access control to the Plataforma de Gredos car park, on the former AV-931 dead-end access road."
+      }
     },
     {
       "region": "spain",
@@ -23954,11 +24031,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.openstreetmap.org/way/553090279",
+        "decision": "mercadona-parking",
+        "reason": "Same retained source way is named Mercadona parking and contains parking facility node 5339323754; a one-way supermarket parking access."
+      }
     },
     {
       "region": "spain",
@@ -24318,11 +24400,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://www.mercasantander.es/",
+        "decision": "mercasantander",
+        "reason": "Vehicle access roads within named commercial facility area 246437343 Mercasantander, rather than a public through-road toll. Retained map: access-context/8380303594.osm."
+      }
     },
     {
       "region": "spain",
@@ -24344,11 +24431,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://www.mercasantander.es/",
+        "decision": "mercasantander",
+        "reason": "Vehicle access roads within named commercial facility area 246437343 Mercasantander, rather than a public through-road toll. Retained map: access-context/8380303594.osm."
+      }
     },
     {
       "region": "spain",
@@ -26066,11 +26158,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://boletin.dguadalajara.es/boletin/pdf/BOP150520230092.pdf",
+        "decision": "poveda-parking",
+        "reason": "Puente de Poveda approach to the Alto Tajo municipal parking areas. The ordinance establishes a parking service fee; it is not a through-road toll."
+      }
     },
     {
       "region": "spain",
@@ -26092,11 +26189,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.openstreetmap.org/way/1232649292",
+        "decision": "madrid-private-parking",
+        "reason": "Same one-way service road contains private parking entrance node 11434681631. Exact retained node tags are in access-review-ways.json; not inferred from the nearby hospital name."
+      }
     },
     {
       "region": "spain",
@@ -26118,11 +26220,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.openstreetmap.org/way/1232649293",
+        "decision": "madrid-private-parking-exit",
+        "reason": "Exit lane joins exactly the same endpoints as entrance way 1232649292, whose private parking entrance node is 11434681631. Retained map: access-context/11434681632.osm."
+      }
     },
     {
       "region": "spain",
@@ -26433,12 +26540,32 @@
       "tags": {
         "highway": "toll_gantry"
       },
-      "incidentWays": [],
-      "status": "needs_review",
+      "incidentWays": [
+        {
+          "id": 115916354,
+          "version": 7,
+          "tags": {
+            "cycleway:both": "no",
+            "highway": "tertiary",
+            "old_ref": "BI-2543",
+            "ref": "BI-3543",
+            "ref:colour": "yellow",
+            "ref:colour_tx": "black",
+            "surface": "asphalt",
+            "toll:hgv": "yes"
+          }
+        }
+      ],
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "heavy_goods_only",
+        "basis": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu",
+        "decision": "n240-hgv-alternative-accesses",
+        "reason": "Source incident roads identify BI-3526 at Lemoa Estaziño Auzoa, BI-3543 (former BI-2543) at Dima and BI-3542 at Otxandio. The operator explicitly lists these alternative accesses in its N-240 PPU heavy-goods schedule. Official road catalog establishes the BI-2543/BI-3543 alias; Lemoa plan establishes the BI-3526 Estaziño connection. This is not a passenger-car toll and is not an inference from hgv tags alone."
+      }
     },
     {
       "region": "spain",
@@ -26553,12 +26680,30 @@
       "tags": {
         "highway": "toll_gantry"
       },
-      "incidentWays": [],
-      "status": "needs_review",
+      "incidentWays": [
+        {
+          "id": 197188503,
+          "version": 7,
+          "tags": {
+            "highway": "tertiary",
+            "name": "Altzusta auzoa",
+            "ref": "BI-3542",
+            "ref:colour": "yellow",
+            "ref:colour_tx": "black",
+            "toll:hgv": "yes"
+          }
+        }
+      ],
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "heavy_goods_only",
+        "basis": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu",
+        "decision": "n240-hgv-alternative-accesses",
+        "reason": "Source incident roads identify BI-3526 at Lemoa Estaziño Auzoa, BI-3543 (former BI-2543) at Dima and BI-3542 at Otxandio. The operator explicitly lists these alternative accesses in its N-240 PPU heavy-goods schedule. Official road catalog establishes the BI-2543/BI-3543 alias; Lemoa plan establishes the BI-3526 Estaziño connection. This is not a passenger-car toll and is not an inference from hgv tags alone."
+      }
     },
     {
       "region": "spain",
@@ -28733,11 +28878,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "heavy_goods_only",
+        "basis": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu",
+        "decision": "a8-muskiz-hgv",
+        "reason": "Gantry ways 31983032 and 595891581 are the A-8 at Muskiz, inside the Basurto–El Haya heavy-goods canon. This is not the AP-8 passenger-car toll road."
+      }
     },
     {
       "region": "spain",
@@ -28770,11 +28920,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "heavy_goods_only",
+        "basis": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu",
+        "decision": "a8-muskiz-hgv",
+        "reason": "Gantry ways 31983032 and 595891581 are the A-8 at Muskiz, inside the Basurto–El Haya heavy-goods canon. This is not the AP-8 passenger-car toll road."
+      }
     },
     {
       "region": "spain",
@@ -29423,15 +29578,9 @@
           }
         }
       ],
-      "status": "catalog_geometry_linked",
+      "status": "catalog_road_linked",
       "catalogSourceEvidence": [],
-      "catalogGeometryEvidence": [
-        {
-          "network": "es-ap8-gipuzkoa-east",
-          "gate": "OIARTZUN-exit",
-          "way": 27329271
-        }
-      ],
+      "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [
         "es-ap8-gipuzkoa-east"
       ],
@@ -31438,11 +31587,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://puertocolon.com/servicios/",
+        "decision": "puerto-colon",
+        "reason": "One-way entrance and exit roads of Puerto Colon parking; official port services list the car park."
+      }
     },
     {
       "region": "canary-islands",
@@ -31482,11 +31636,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://lapalmabiosfera.es/comunidad/centro-de-visitantes-volcan-de-san-antonio/",
+        "decision": "san-antonio-admission",
+        "reason": "Source road Calle Los Volcanes enters the Volcan San Antonio visitor centre; source booth explicitly charges per person. This is admission, not a public through-road toll."
+      }
     },
     {
       "region": "canary-islands",
@@ -31538,11 +31697,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/guia-timanfaya_tcm30-67887.pdf",
+        "decision": "timanfaya",
+        "reason": "LZ-602 customers-only approach to Montanas del Fuego; national park guide identifies the barrier as the visitor admission control."
+      }
     },
     {
       "region": "canary-islands",
@@ -31564,11 +31728,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://puertocolon.com/servicios/",
+        "decision": "puerto-colon",
+        "reason": "One-way entrance and exit roads of Puerto Colon parking; official port services list the car park."
+      }
     },
     {
       "region": "canary-islands",
@@ -31599,11 +31768,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "facility_admission",
+        "basis": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/guia-timanfaya_tcm30-67887.pdf",
+        "decision": "timanfaya",
+        "reason": "LZ-602 customers-only approach to Montanas del Fuego; national park guide identifies the barrier as the visitor admission control."
+      }
     },
     {
       "region": "canary-islands",
@@ -31625,11 +31799,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.aena.es/doc/detalleprensa/220903-np-aeropuerto-tenerife-norte-cll-pone-en-marcha-aparcamiento-expres-en-vial-terminal-.docx.pdf",
+        "decision": "tenerife-norte-express",
+        "reason": "Terminal express parking entry and exit ways 444969324 and 1243693352; operator documents parking barriers and duration-based charging."
+      }
     },
     {
       "region": "canary-islands",
@@ -31650,11 +31829,16 @@
           }
         }
       ],
-      "status": "needs_review",
+      "status": "scope_excluded",
       "catalogSourceEvidence": [],
       "catalogGeometryEvidence": [],
       "catalogRoadEvidence": [],
-      "scopeEvidence": null
+      "scopeEvidence": {
+        "category": "parking",
+        "basis": "https://www.aena.es/doc/detalleprensa/220903-np-aeropuerto-tenerife-norte-cll-pone-en-marcha-aparcamiento-expres-en-vial-terminal-.docx.pdf",
+        "decision": "tenerife-norte-express",
+        "reason": "Terminal express parking entry and exit ways 444969324 and 1243693352; operator documents parking barriers and duration-based charging."
+      }
     },
     {
       "region": "canary-islands",
@@ -33539,11 +33723,11 @@
       "names": [],
       "lat": 40.6505711,
       "lng": -4.1021672,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -33774,11 +33958,11 @@
       "names": [],
       "lat": 40.2345222,
       "lng": -3.5974912,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -33808,11 +33992,11 @@
       "names": [],
       "lat": 43.3183546,
       "lng": -2.0117258,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -33825,11 +34009,11 @@
       "names": [],
       "lat": 43.3213278,
       "lng": -2.0083547,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -33883,11 +34067,11 @@
       "names": [],
       "lat": 43.2067199,
       "lng": -2.7774315,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -34721,11 +34905,11 @@
       "names": [],
       "lat": 39.8683147,
       "lng": 4.2995608,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -35058,7 +35242,7 @@
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "source_linked": 1
+        "catalog_road_linked": 1
       },
       "routePricingCertified": false
     },
@@ -35743,11 +35927,11 @@
       "names": [],
       "lat": 40.5217209,
       "lng": -3.8832851,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -35760,11 +35944,11 @@
       "names": [],
       "lat": 40.5218032,
       "lng": -3.8831983,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -35789,8 +35973,7 @@
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "catalog_geometry_linked": 2,
-        "catalog_road_linked": 4
+        "catalog_road_linked": 6
       },
       "routePricingCertified": false
     },
@@ -36208,11 +36391,11 @@
       "names": [],
       "lat": 43.257933,
       "lng": -2.9288207,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -36227,11 +36410,11 @@
       "names": [],
       "lat": 43.1902753,
       "lng": -2.8965796,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "source_linked": 1
       },
       "routePricingCertified": false
     },
@@ -36326,11 +36509,11 @@
       ],
       "lat": 41.8965345,
       "lng": -8.8659788,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -36511,11 +36694,11 @@
       "names": [],
       "lat": 38.7425843,
       "lng": 1.4335991,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -36585,11 +36768,11 @@
       ],
       "lat": 40.3054,
       "lng": -5.206075,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -36687,11 +36870,11 @@
       "names": [],
       "lat": 36.506616,
       "lng": -4.6764111,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -36704,11 +36887,11 @@
       "names": [],
       "lat": 43.4407586,
       "lng": -3.8653864,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -36721,11 +36904,11 @@
       "names": [],
       "lat": 43.4408335,
       "lng": -3.8655089,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -37148,11 +37331,11 @@
       "names": [],
       "lat": 40.666154,
       "lng": -2.0195523,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -37165,11 +37348,11 @@
       "names": [],
       "lat": 40.4826218,
       "lng": -3.6875669,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -37182,11 +37365,11 @@
       "names": [],
       "lat": 40.4826355,
       "lng": -3.6876061,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -37320,11 +37503,11 @@
       "names": [],
       "lat": 43.1588033,
       "lng": -2.7716285,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -37388,11 +37571,11 @@
       "names": [],
       "lat": 43.0515874,
       "lng": -2.6986317,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -37492,11 +37675,11 @@
       "names": [],
       "lat": 43.3429203,
       "lng": -3.1415694,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },
@@ -37509,11 +37692,11 @@
       "names": [],
       "lat": 43.3430417,
       "lng": -3.1415632,
-      "reviewStatus": "needs_review",
+      "reviewStatus": "inventory_reconciled",
       "entryExitRole": "unassigned",
       "tariffRow": "unassigned",
       "pointStatusCounts": {
-        "needs_review": 1
+        "scope_excluded": 1
       },
       "routePricingCertified": false
     },

@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.8658617,
+        "lon": -1.747329,
+        "heading": 342
+      },
+      {
+        "lat": 42.8677515,
+        "lon": -1.7481513,
+        "heading": 342,
+        "type": "through"
+      },
+      {
+        "lat": 42.8984997,
+        "lon": -1.8025319,
+        "heading": 263
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap15",
+  "network": "es-ap15-sarasa",
+  "expectedCents": 265,
+  "sourceProbe": {
+    "network": "es-ap15-sarasa",
+    "booth": 27364134,
+    "way": "164372045/164372045",
+    "versions": [
+      9,
+      9
+    ],
+    "traversedWays": [
+      {
+        "id": 19123074,
+        "version": 30
+      },
+      {
+        "id": 23365879,
+        "version": 15
+      },
+      {
+        "id": 24028427,
+        "version": 10
+      },
+      {
+        "id": 24028428,
+        "version": 18
+      },
+      {
+        "id": 137894917,
+        "version": 9
+      },
+      {
+        "id": 137894932,
+        "version": 10
+      },
+      {
+        "id": 164372045,
+        "version": 9
+      },
+      {
+        "id": 164372046,
+        "version": 9
+      },
+      {
+        "id": 1493384835,
+        "version": 1
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

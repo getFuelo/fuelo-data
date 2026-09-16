@@ -1,0 +1,87 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.3314942,
+        "lon": -1.7232263,
+        "heading": 186
+      },
+      {
+        "lat": 42.3313815,
+        "lon": -1.7232429,
+        "heading": 187,
+        "type": "through"
+      },
+      {
+        "lat": 42.3186795,
+        "lon": -1.72399,
+        "heading": 195
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap15",
+  "network": "es-ap15-marcilla-enlace",
+  "expectedCents": 345,
+  "sourceProbe": {
+    "network": "es-ap15-marcilla-enlace",
+    "booth": 195885934,
+    "way": "1393855222/706641841",
+    "versions": [
+      2,
+      4
+    ],
+    "traversedWays": [
+      {
+        "id": 4447842,
+        "version": 13
+      },
+      {
+        "id": 4447844,
+        "version": 17
+      },
+      {
+        "id": 29882094,
+        "version": 7
+      },
+      {
+        "id": 84670250,
+        "version": 5
+      },
+      {
+        "id": 402680283,
+        "version": 6
+      },
+      {
+        "id": 402680284,
+        "version": 8
+      },
+      {
+        "id": 706641840,
+        "version": 6
+      },
+      {
+        "id": 706641841,
+        "version": 4
+      },
+      {
+        "id": 769137262,
+        "version": 7
+      },
+      {
+        "id": 1393855222,
+        "version": 2
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

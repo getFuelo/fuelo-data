@@ -1,0 +1,51 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.8689656,
+        "lon": -1.7493027,
+        "heading": 162
+      },
+      {
+        "lat": 42.8676263,
+        "lon": -1.7487244,
+        "heading": 159,
+        "type": "through"
+      },
+      {
+        "lat": 42.8655679,
+        "lon": -1.747539,
+        "heading": 165
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap15",
+  "network": "es-ap15-sarasa",
+  "expectedCents": 265,
+  "sourceProbe": {
+    "network": "es-ap15-sarasa",
+    "booth": 938352,
+    "way": "164372663/164372663",
+    "versions": [
+      10,
+      10
+    ],
+    "traversedWays": [
+      {
+        "id": 164372663,
+        "version": 10
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

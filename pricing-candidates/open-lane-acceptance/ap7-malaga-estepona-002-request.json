@@ -1,0 +1,51 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 36.5029505,
+        "lon": -4.7195717,
+        "heading": 168
+      },
+      {
+        "lat": 36.5025792,
+        "lon": -4.7195575,
+        "heading": 183,
+        "type": "through"
+      },
+      {
+        "lat": 36.5022513,
+        "lon": -4.7196114,
+        "heading": 201
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap7-malaga-estepona",
+  "network": "es-ap7-calahonda-acceso",
+  "expectedCents": 575,
+  "sourceProbe": {
+    "network": "es-ap7-calahonda-acceso",
+    "booth": 14144724369,
+    "way": "1341092986/1341092986",
+    "versions": [
+      3,
+      3
+    ],
+    "traversedWays": [
+      {
+        "id": 1341092986,
+        "version": 3
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

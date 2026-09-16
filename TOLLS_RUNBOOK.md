@@ -168,3 +168,65 @@ the other documented coverage checks and device acceptance. No push or OSM edit.
 - Access reconciliation currently leaves 39 point records to review across the
   mainland/Balearic and Canary extracts. Reconciled source/road links are NOT
   exhaustive access/route certification. Spain remains incomplete.
+
+### AP-68 service-area and AP-53 urban acceptance
+
+AP-68 now prices the published Bilbao–Arrigorriaga service area–Bilbao return
+at 235 cents. The physical booth settles the outbound journey and a downstream
+logical cut opens the already-paid continuation to Bilbao. No generic same-origin
+fare is added; unknown entries still fail closed. Run `build_ap68_service_area.py`
+after `build_closed_plazas.py`, before country assembly. Its retained local graph
+contains the source road, booth and versions. Public A-8 approach geometry is
+marked free only on the three reviewed source ways.
+
+Public Santiago–Silleda routes now verify 435 cents, or zero with exact app
+exclusions, in both directions. National integration passes 1,502/1,502 cases
+in both catalog orders; eight intentionally partial journeys remain unavailable.
+AP-68 regressions: 467 passed. AP-53 regressions: 54 passed. TypeScript and
+76 candidate integrity checks pass. No release, push or device install.
+
+Access review now retains all incident ways (including local roads) and their
+node tags, rather than relying on the major-road extract alone. The current
+report has 13 remaining unclassified points; linked points do not by themselves
+certify a route total. Spain remains incomplete.
+
+Cadí general-fare network acceptance is now closed: source-backed single plaza,
+both public paid/avoided directions, GIV-4034 approach, partial travel after the
+plaza, missing provider flag, and repeated-crossing composition. The last three
+are pricing regressions over retained geometry, not new live driving trials.
+`fixedNetworkBoundaries.test.ts`: ten checks pass for Cadí and AP-46. Spain
+publication remains blocked by other network/inventory entries.
+
+## Public avoidance checkpoint — 2026-09-16
+
+- 145 additional retained provider lane traversals pass against the assembled
+  candidate, including exactly one expected financial event per open barrier.
+- 20 public-endpoint selective-avoidance responses cover ten systems in both
+  directions. Exclusions now call the app's `roadAvoidanceLines` against the
+  assembled catalog: AG-55 includes Pastoriza; Gipuzkoa includes shared AP-8/AP-1
+  boundaries and independent open plazas. Regional fences alone are insufficient.
+- Santurtzi entry moved after its western ramp merge. Oiartzun AP-8 exit moved
+  before the local-road merge, preserving all twelve published eastern journeys.
+- The GI-20 entry is explicitly mapped but has no fabricated OD fares. A route
+  requiring that unsupported fare must remain unavailable. This is still an
+  eastern-corridor pricing blocker, even though the public avoidance cases pass.
+- AP-68 Bilbao service-area return closes at its physical booth for 235 cents,
+  then opens an already-paid zero-additional continuation; no generic self fare.
+- Inventory now has nine unclassified source points. Country readiness remains
+  false; these changes do not satisfy every other road's release checklist.
+
+After rebuilding base candidates, run the postprocessors in this order:
+
+```sh
+python3 scripts/coverage/build_ap68_service_area.py
+python3 scripts/coverage/build_reviewed_terminal_cuts.py
+python3 scripts/coverage/build_pastoriza_urban_approach.py
+python3 scripts/coverage/build_general_avoidance.py
+python3 scripts/coverage/build_spain_candidate.py
+python3 scripts/coverage/export_app_fixtures.py /path/to/app
+```
+
+Run `audit_general_avoidance.cjs /path/to/app` separately from the independent
+published-fare integration audit. Its route totals are diagnostic; its assertions
+are full-road exclusion, no target pricing events, and available pricing of the
+result. Avoiding Supersur can legitimately retain a different AP-68 charge.

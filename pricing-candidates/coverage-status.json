@@ -86,7 +86,7 @@
       ],
       "ready": false,
       "blockers": [
-        "Complete remaining northern access/Tras do Eixo boundary and all-lane approach corpus.",
+        "Public Santiago paid approaches now pass; retain remaining Tras do Eixo partial-boundary and alternate-lane checks.",
         "Country inventory and release integration remain incomplete."
       ],
       "validatedCorpus": {
@@ -96,8 +96,12 @@
         "southernTerminalAccessRoutes": 20,
         "realAvoidanceCases": 4,
         "missingEntryRegression": true,
-        "viaTUnknownHistory": "Explicit 0..general range; no invented enrollment/trip history."
-      }
+        "viaTUnknownHistory": "Explicit 0..general range; no invented enrollment/trip history.",
+        "publicSantiagoSilledaPaidAndAvoided": 4
+      },
+      "resolvedFindings": [
+        "Santiago city ↔ Silleda city: 435 cents normally, 0 with the app exclusion polygons, in both directions."
+      ]
     },
     {
       "catalogId": "es-ap66",
@@ -129,10 +133,20 @@
       ],
       "ready": false,
       "blockers": [
-        "Ordinary OD geometry mapped; special service-area turnaround tariff, all lane/public/free access checks, avoidance remain open.",
+        "Complete remaining public/free approach and avoidance checks; 462 ordinary directed probes and the 235-cent Bilbao service-area return pass.",
         "One committed Alagón 272 reverse endpoint produces a Gallur loop; do not certify that loop as the direct 335-cent journey.",
         "Current tariff validity ends with the concession on 2026-11-10; post-concession charges/free status require new evidence."
-      ]
+      ],
+      "resolvedFindings": [
+        "Published 235-cent Bilbao–service area–Bilbao return is modeled with its physical booth and a zero additional-charge continuation; no generic same-origin fare.",
+        "Alagon public destination uses the published 285-cent exit; the forced reverse 272 endpoint is separately tested as two journeys."
+      ],
+      "validatedCorpus": {
+        "ordinaryDirectedProbes": 462,
+        "publicAlagonApproaches": 1,
+        "serviceAreaReturn": 1,
+        "expiryEnforced": "2026-11-10"
+      }
     },
     {
       "catalogId": "es-ap71",
@@ -211,7 +225,8 @@
       "validatedCorpus": {
         "realPlazaTraversals": 4,
         "individualSourceLaneTraversals": 15,
-        "generalSummerEasterTariffs": true
+        "generalSummerEasterTariffs": true,
+        "retainedProviderLaneTraversals": 15
       }
     },
     {
@@ -230,7 +245,8 @@
       "validatedCorpus": {
         "realPlazaTraversals": 2,
         "individualSourceLaneTraversals": 20,
-        "generalSummerEasterTariffs": true
+        "generalSummerEasterTariffs": true,
+        "retainedProviderLaneTraversals": 20
       }
     },
     {
@@ -249,7 +265,8 @@
       "validatedCorpus": {
         "realPlazaTraversals": 3,
         "individualSourceLaneTraversals": 6,
-        "generalSummerEasterTariffs": true
+        "generalSummerEasterTariffs": true,
+        "retainedProviderLaneTraversals": 6
       }
     },
     {
@@ -276,7 +293,8 @@
         "individualOpenLaneTraversals": 4,
         "combinedWholeJourneys": 4,
         "avoidedDirectedZonePairs": 30,
-        "freePairGeometryPreservedDirections": 2
+        "freePairGeometryPreservedDirections": 2,
+        "retainedProviderLaneTraversals": 4
       }
     },
     {
@@ -297,7 +315,12 @@
         "sourceBackedFreeDirections": 2,
         "physicalDirectedGates": 18,
         "expandedPhysicalGateFares": 64,
-        "generalViaTAndNightChecks": true
+        "generalViaTAndNightChecks": true,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
       }
     },
     {
@@ -318,7 +341,12 @@
         "sourceBackedFreeDirections": 0,
         "physicalDirectedGates": 18,
         "expandedPhysicalGateFares": 46,
-        "generalViaTAndNightChecks": true
+        "generalViaTAndNightChecks": true,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
       }
     },
     {
@@ -340,7 +368,12 @@
         "physicalDirectedGates": 16,
         "expandedPhysicalGateFares": 42,
         "generalViaTAndNightChecks": true,
-        "r5Ap41CoverageOwnershipReviewed": true
+        "r5Ap41CoverageOwnershipReviewed": true,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
       }
     },
     {
@@ -372,7 +405,12 @@
       "validatedCorpus": {
         "generalDirectedZonePairs": 72,
         "viaTTariffs": true,
-        "nightExemption": true
+        "nightExemption": true,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
       }
     },
     {
@@ -391,7 +429,12 @@
       "validatedCorpus": {
         "generalDirectedZonePairs": 30,
         "viaTTariffs": true,
-        "nightExemption": true
+        "nightExemption": true,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
       }
     },
     {
@@ -411,7 +454,12 @@
         "generalDirectedZonePairs": 56,
         "dayNightTariffs": true,
         "viaTTariffs": true,
-        "r5Ap41CoverageOwnershipReviewed": true
+        "r5Ap41CoverageOwnershipReviewed": true,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
       }
     },
     {
@@ -422,10 +470,8 @@
       "geometryCandidates": [
         "pricing-candidates/cadi.json"
       ],
-      "ready": false,
-      "blockers": [
-        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
-      ],
+      "ready": true,
+      "blockers": [],
       "resolvedFindings": [
         "Public Puigcerdà–Berga tests found and fixed GIV-4034 approach way 372179846; both directions quote 1456 cents and both exclusions quote zero."
       ],
@@ -433,8 +479,24 @@
         "publicPaidDirections": 2,
         "publicAvoidedDirections": 2,
         "originalPlazaDirections": 2,
-        "wholeAndorraBarcelonaJourneys": true
-      }
+        "wholeAndorraBarcelonaJourneys": true,
+        "postPlazaPartialDirections": 2,
+        "missingProviderFlagDirections": 2,
+        "repeatedCrossingComposition": 1
+      },
+      "scope": "General light passenger-car fare at the single Cadi plaza, with currently retained source geometry. Country publication still requires the national release gates.",
+      "acceptanceEvidence": [
+        "audit/2026-09-16/networks/cadi/provenance.json",
+        "audit/2026-09-16/networks/cadi/northern-approach.json",
+        "audit/2026-09-16/networks/cadi/exclusion-polygons.json",
+        "audit/2026-09-16/spain-integration-results.json",
+        "app:src/lib/__tests__/cadiGeneralAcceptance.test.ts",
+        "app:src/lib/__tests__/fixedNetworkBoundaries.test.ts"
+      ],
+      "limitations": [
+        "Repeated-crossing test composes retained geometry; it does not certify a navigable turnaround at the splice.",
+        "Runtime uncovered geometry and stale tariffs remain unavailable. This does not enable ES before the remaining networks pass."
+      ]
     },
     {
       "catalogId": "es-vallvidrera",
@@ -467,7 +529,10 @@
       "ready": false,
       "blockers": [
         "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
-      ]
+      ],
+      "validatedCorpus": {
+        "retainedProviderLaneTraversals": 25
+      }
     },
     {
       "catalogId": "es-c16-terrassa-manresa",
@@ -480,7 +545,10 @@
       "ready": false,
       "blockers": [
         "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
-      ]
+      ],
+      "validatedCorpus": {
+        "retainedProviderLaneTraversals": 25
+      }
     },
     {
       "catalogId": "es-c32-castelldefels-vendrell",
@@ -496,7 +564,10 @@
       ],
       "resolvedFindings": [
         "Vallcarca outer Via 1 is a paid plaza lane; official drawing MT-14042-A2 2.3 and current sign review resolve missing OSM toll tag. Retained route charges 842 cents once despite provider toll=false."
-      ]
+      ],
+      "validatedCorpus": {
+        "retainedProviderLaneTraversals": 49
+      }
     },
     {
       "catalogId": "es-ag55",
@@ -519,7 +590,13 @@
         "individualPastorizaLaneTraversals": 2,
         "portExemptDirections": 4,
         "combinedWholeJourneys": 2,
-        "viaTUnknownHistoryAndRoundingIntervals": true
+        "viaTUnknownHistoryAndRoundingIntervals": true,
+        "retainedProviderLaneTraversals": 2,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
       }
     },
     {
@@ -539,7 +616,12 @@
         "generalDirectedZonePairs": 24,
         "physicalDirectedGates": 14,
         "expandedPhysicalGateFares": 32,
-        "viaTUnknownHistoryAndRoundingIntervals": true
+        "viaTUnknownHistoryAndRoundingIntervals": true,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
       }
     },
     {
@@ -553,7 +635,10 @@
       "ready": false,
       "blockers": [
         "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
-      ]
+      ],
+      "validatedCorpus": {
+        "retainedProviderLaneTraversals": 24
+      }
     },
     {
       "catalogId": "es-ap8-gipuzkoa",
@@ -573,7 +658,8 @@
       "blockers": [
         "Eastern general rows pass twelve journeys, and Orio/Zarautz east pass six source lanes and six real traversals. Combined full AP-8 corridor, local free approaches and conditional Oñaurre remain open.",
         "Every public approach, alternate lane, special same-zone general tariff require further verification.",
-        "Selective avoidance and national release integration remain open."
+        "Selective avoidance and national release integration remain open.",
+        "GI-20 distinct entry is mapped for avoidance, but general OD fares/remaining eastbound terminal context are not certified; do not alias it to the second-ring entry."
       ],
       "validatedCorpus": {
         "nativeDirectedJourneys": 28,
@@ -582,8 +668,16 @@
         "sharedFareAndRoadMarkersChecked": true,
         "easternDirectedJourneys": 12,
         "localRampSourceLanes": 6,
-        "localRampRealTraversals": 6
-      }
+        "localRampRealTraversals": 6,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
+      },
+      "resolvedFindings": [
+        "Oiartzun exit isolated from public local-road merge; original 12 priced journeys and public free bypass preserved."
+      ]
     },
     {
       "catalogId": "es-ap1-gipuzkoa",
@@ -668,7 +762,12 @@
       "validatedCorpus": {
         "directedGeneralJourneys": 16,
         "retainedUnconstrainedAlternatives": 3,
-        "nightGeneralTariffChecked": true
+        "nightGeneralTariffChecked": true,
+        "publicSelectiveAvoidance": {
+          "directions": 2,
+          "report": "audit/2026-09-16/general-avoidance-results.json",
+          "wholeRoadFences": true
+        }
       }
     },
     {
@@ -695,7 +794,10 @@
       "ready": false,
       "blockers": [
         "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
-      ]
+      ],
+      "validatedCorpus": {
+        "retainedProviderLaneTraversals": 25
+      }
     }
   ],
   "integrationAudit": {
@@ -743,16 +845,20 @@
     "report": "audit/2026-09-16/access-inventory-reconciliation.json",
     "points": 765,
     "pointStatusCounts": {
-      "catalog_road_linked": 223,
+      "catalog_road_linked": 226,
       "source_linked": 382,
-      "scope_excluded": 78,
-      "catalog_geometry_linked": 43,
-      "needs_review": 39
+      "scope_excluded": 107,
+      "catalog_geometry_linked": 41,
+      "needs_review": 9
     },
     "groups": {
-      "inventory_reconciled": 263,
-      "needs_review": 31
+      "inventory_reconciled": 282,
+      "needs_review": 12
     },
-    "pricingCertified": false
+    "pricingCertified": false,
+    "groupStatusCounts": {
+      "inventory_reconciled": 286,
+      "needs_review": 8
+    }
   }
 }

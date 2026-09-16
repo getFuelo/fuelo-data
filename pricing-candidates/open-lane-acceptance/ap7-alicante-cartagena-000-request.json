@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 37.9985264,
+        "lon": -0.7728879,
+        "heading": 327
+      },
+      {
+        "lat": 38.0086453,
+        "lon": -0.7825072,
+        "heading": 330,
+        "type": "through"
+      },
+      {
+        "lat": 38.0836976,
+        "lon": -0.7625047,
+        "heading": 324
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap7-alicante-cartagena",
+  "network": "es-ap7-montesinos-troncal",
+  "expectedCents": 510,
+  "sourceProbe": {
+    "network": "es-ap7-montesinos-troncal",
+    "booth": 721015144,
+    "way": "548771391/548771391",
+    "versions": [
+      6,
+      6
+    ],
+    "traversedWays": [
+      {
+        "id": 23032353,
+        "version": 16
+      },
+      {
+        "id": 27595582,
+        "version": 12
+      },
+      {
+        "id": 27595583,
+        "version": 10
+      },
+      {
+        "id": 62232804,
+        "version": 9
+      },
+      {
+        "id": 122726850,
+        "version": 9
+      },
+      {
+        "id": 122726853,
+        "version": 8
+      },
+      {
+        "id": 129951636,
+        "version": 6
+      },
+      {
+        "id": 358308143,
+        "version": 6
+      },
+      {
+        "id": 548771391,
+        "version": 6
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

@@ -82,7 +82,7 @@ def main():
             way_networks[str(way['id'])].append(network)
     # Shared systems retain provenance in both their component and assembled
     # networks. References are evidence links only, not certification.
-    for file in sorted((AUDIT / 'networks').glob('*/provenance.json')):
+    for file in sorted([*(AUDIT / 'networks').glob('*/provenance.json'), AUDIT / 'networks/ap68/service-area-settlement.json']):
         rel = str(file.relative_to(ROOT))
         sources.append({'path': rel, 'sha256': hashlib.sha256(file.read_bytes()).hexdigest()})
         for node in source_nodes(json.loads(file.read_text())):
@@ -93,13 +93,22 @@ def main():
     overrides = {node: decision for decision in decisions['decisions'] for node in decision['nodes']}
     assert len(overrides) == sum(len(d['nodes']) for d in decisions['decisions']), 'Duplicate node scope decisions'
     rows = []
+    supplemental_file = AUDIT / 'access-review-ways.json'
+    supplemental = json.loads(supplemental_file.read_text())
+    sources.append({'path': str(supplemental_file.relative_to(ROOT)), 'sha256': hashlib.sha256(supplemental_file.read_bytes()).hexdigest()})
     groups = json.loads((AUDIT / 'spain-graph/access-review.json').read_text())['groups']
     for region in ('spain', 'canary-islands'):
         file = AUDIT / (region + '-graph') / 'graph.json.gz'
         sources.append({'path': str(file.relative_to(ROOT)), 'sha256': hashlib.sha256(file.read_bytes()).hexdigest()})
         graph = json.loads(gzip.decompress(file.read_bytes()))
+        extra = next(r for r in supplemental if r['region'] == region)
+        # Replace bounded-extract records with full-PBF incident ways. Polygon
+        # boundaries can share a booth node but are not drivable approaches.
+        all_ways = {w['id']: w for w in graph['ways']}
+        all_ways.update({w['id']: w for w in extra['ways'] if 'highway' in w['tags']})
+        graph['nodes'].update(extra['nodes'])
         incident = collections.defaultdict(list)
-        for way in graph['ways']:
+        for way in all_ways.values():
             for node in way['nodes']:
                 incident[node].append(way)
         for point in graph['points']:

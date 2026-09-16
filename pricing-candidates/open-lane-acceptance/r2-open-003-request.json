@@ -1,0 +1,59 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.5026744,
+        "lon": -3.6080392,
+        "heading": 66
+      },
+      {
+        "lat": 40.5032429,
+        "lon": -3.6063181,
+        "heading": 66,
+        "type": "through"
+      },
+      {
+        "lat": 40.5036939,
+        "lon": -3.6052166,
+        "heading": 62
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "r2-open",
+  "network": "es-r2-aeropuerto",
+  "expectedCents": 60,
+  "sourceProbe": {
+    "network": "es-r2-aeropuerto",
+    "booth": 353332736,
+    "way": "288354815/288354815",
+    "versions": [
+      5,
+      5
+    ],
+    "traversedWays": [
+      {
+        "id": 288354815,
+        "version": 5
+      },
+      {
+        "id": 492438429,
+        "version": 3
+      },
+      {
+        "id": 492438430,
+        "version": 3
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

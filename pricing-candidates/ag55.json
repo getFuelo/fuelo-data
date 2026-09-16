@@ -5712,7 +5712,13 @@
           "https://www.xunta.gal/dog/Publicados/2025/20251231/AnuncioG0765-291225-0001_es.html"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "Arteixo-entry",
+        "Paiosaco-entry",
+        "Laracha-entry",
+        "Carballo-entry"
+      ]
     }
   ],
   "notes_global": "Disabled closed-system candidate. Explicit source-way access associations and published OD rows; route checks are required separately. © OpenStreetMap contributors."

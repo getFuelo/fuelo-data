@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.5313121,
+        "lon": -3.5865594,
+        "heading": 58
+      },
+      {
+        "lat": 40.5313551,
+        "lon": -3.5864675,
+        "heading": 58,
+        "type": "through"
+      },
+      {
+        "lat": 40.5438086,
+        "lon": -3.5557341,
+        "heading": 81
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "r2-open",
+  "network": "es-r2-alcobendas",
+  "expectedCents": 60,
+  "sourceProbe": {
+    "network": "es-r2-alcobendas",
+    "booth": 353914976,
+    "way": "491676657/491676657",
+    "versions": [
+      3,
+      3
+    ],
+    "traversedWays": [
+      {
+        "id": 29254866,
+        "version": 15
+      },
+      {
+        "id": 31643811,
+        "version": 6
+      },
+      {
+        "id": 31643818,
+        "version": 13
+      },
+      {
+        "id": 288354658,
+        "version": 7
+      },
+      {
+        "id": 491676657,
+        "version": 3
+      },
+      {
+        "id": 491676660,
+        "version": 3
+      },
+      {
+        "id": 555460245,
+        "version": 3
+      },
+      {
+        "id": 555460246,
+        "version": 3
+      },
+      {
+        "id": 1352156492,
+        "version": 2
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

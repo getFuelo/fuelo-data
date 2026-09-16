@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 37.9085976,
+        "lon": -0.7598423,
+        "heading": 40
+      },
+      {
+        "lat": 37.9205053,
+        "lon": -0.7416002,
+        "heading": 31,
+        "type": "through"
+      },
+      {
+        "lat": 37.9692766,
+        "lon": -0.7444897,
+        "heading": 335
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap7-alicante-cartagena",
+  "network": "es-ap7-zenia-troncal",
+  "expectedCents": 510,
+  "sourceProbe": {
+    "network": "es-ap7-zenia-troncal",
+    "booth": 297700579,
+    "way": "122752893/122752893",
+    "versions": [
+      11,
+      11
+    ],
+    "traversedWays": [
+      {
+        "id": 27132547,
+        "version": 17
+      },
+      {
+        "id": 27134438,
+        "version": 19
+      },
+      {
+        "id": 27134440,
+        "version": 11
+      },
+      {
+        "id": 27911885,
+        "version": 12
+      },
+      {
+        "id": 27911886,
+        "version": 10
+      },
+      {
+        "id": 122752893,
+        "version": 11
+      },
+      {
+        "id": 331962211,
+        "version": 8
+      },
+      {
+        "id": 464309925,
+        "version": 5
+      },
+      {
+        "id": 464309928,
+        "version": 5
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

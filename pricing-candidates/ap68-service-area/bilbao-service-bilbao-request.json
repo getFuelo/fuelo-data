@@ -1,0 +1,36 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.2568,
+        "lon": -2.9239
+      },
+      {
+        "lat": 43.19021,
+        "lon": -2.89693,
+        "type": "through"
+      },
+      {
+        "lat": 43.1903084,
+        "lon": -2.8964218,
+        "type": "through"
+      },
+      {
+        "lat": 43.2568,
+        "lon": -2.9239
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 235,
+  "source": "https://www.arabat.eus/wp-content/uploads/2026/02/26_003-Avasa-AP68-Bilbao_Zaragoza-T26.pdf",
+  "publishedJourney": "Bilbao – A. Servicio Arrigorriaga – Bilbao"
+}

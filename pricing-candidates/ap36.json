@@ -22393,7 +22393,15 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap36_2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "Troncal Corral Almaguer-entry",
+        "Troncal San Clemente-entry",
+        "Lateral Corral Almaguer-entry",
+        "Quintanar Orden-entry",
+        "Pedernoso-entry",
+        "Mota Cuervo-entry"
+      ]
     }
   ],
   "notes_global": "Disabled closed-system candidate. Explicit source-way access associations and published OD rows; route checks are required separately. © OpenStreetMap contributors."

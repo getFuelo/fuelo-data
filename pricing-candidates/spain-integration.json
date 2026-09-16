@@ -75637,6 +75637,34 @@
             }
           ],
           "direction": "negative"
+        },
+        {
+          "id": "SERVICE-RETURN-exit",
+          "line": [
+            {
+              "lat": 43.190223104566144,
+              "lng": -2.89656083193336
+            },
+            {
+              "lat": 43.19032749543386,
+              "lng": -2.89659836806664
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "SERVICE-RETURN-entry",
+          "line": [
+            {
+              "lat": 43.1891898040783,
+              "lng": -2.895677383724461
+            },
+            {
+              "lat": 43.1892115959217,
+              "lng": -2.8955324162755387
+            }
+          ],
+          "direction": "negative"
         }
       ],
       "pricing": {
@@ -75667,7 +75695,8 @@
           "AUTOP.NAVARRA-entry",
           "ALAGÓN pk 272-entry",
           "ALAGÓN pk 275-entry",
-          "ZARAGOZA-entry"
+          "ZARAGOZA-entry",
+          "SERVICE-RETURN-entry"
         ],
         "exits": [
           "ZIORRAGA-exit",
@@ -75695,7 +75724,8 @@
           "AUTOP.NAVARRA-exit",
           "ALAGÓN pk 272-exit",
           "ALAGÓN pk 275-exit",
-          "ZARAGOZA-exit"
+          "ZARAGOZA-exit",
+          "SERVICE-RETURN-exit"
         ],
         "fares": [
           {
@@ -79903,6 +79933,22 @@
             "to": "LODOSA-norte-exit",
             "tariff": {
               "baseCents": 1645,
+              "bands": []
+            }
+          },
+          {
+            "from": "BILBAO-entry",
+            "to": "SERVICE-RETURN-exit",
+            "tariff": {
+              "baseCents": 235,
+              "bands": []
+            }
+          },
+          {
+            "from": "SERVICE-RETURN-entry",
+            "to": "BILBAO-exit",
+            "tariff": {
+              "baseCents": 0,
               "bands": []
             }
           }
@@ -111354,80 +111400,6 @@
           ]
         },
         {
-          "id": "231764142",
-          "version": 4,
-          "line": [
-            {
-              "lat": 43.1893798,
-              "lng": -2.8949424
-            },
-            {
-              "lat": 43.190043,
-              "lng": -2.8951089
-            },
-            {
-              "lat": 43.1901666,
-              "lng": -2.8951606
-            },
-            {
-              "lat": 43.1904412,
-              "lng": -2.8952926
-            },
-            {
-              "lat": 43.1905337,
-              "lng": -2.8953439
-            },
-            {
-              "lat": 43.1906026,
-              "lng": -2.8953873
-            },
-            {
-              "lat": 43.1908953,
-              "lng": -2.895567
-            },
-            {
-              "lat": 43.1911117,
-              "lng": -2.8956659
-            },
-            {
-              "lat": 43.1911434,
-              "lng": -2.8956833
-            },
-            {
-              "lat": 43.1911842,
-              "lng": -2.8956968
-            },
-            {
-              "lat": 43.1912435,
-              "lng": -2.8956989
-            },
-            {
-              "lat": 43.1912856,
-              "lng": -2.8956877
-            },
-            {
-              "lat": 43.1913202,
-              "lng": -2.8956646
-            },
-            {
-              "lat": 43.1913545,
-              "lng": -2.8956158
-            },
-            {
-              "lat": 43.1913735,
-              "lng": -2.8955639
-            },
-            {
-              "lat": 43.1913845,
-              "lng": -2.8954898
-            },
-            {
-              "lat": 43.1913795,
-              "lng": -2.8953928
-            }
-          ]
-        },
-        {
           "id": "231764147",
           "version": 6,
           "line": [
@@ -111510,102 +111482,6 @@
             {
               "lat": 43.2009975,
               "lng": -2.8954785
-            }
-          ]
-        },
-        {
-          "id": "231764150",
-          "version": 5,
-          "line": [
-            {
-              "lat": 43.1932243,
-              "lng": -2.8968504
-            },
-            {
-              "lat": 43.1922024,
-              "lng": -2.8966975
-            },
-            {
-              "lat": 43.1920928,
-              "lng": -2.896705
-            },
-            {
-              "lat": 43.1919954,
-              "lng": -2.896734
-            },
-            {
-              "lat": 43.1918759,
-              "lng": -2.8967872
-            },
-            {
-              "lat": 43.1918336,
-              "lng": -2.8968129
-            },
-            {
-              "lat": 43.1917824,
-              "lng": -2.896848
-            },
-            {
-              "lat": 43.1917002,
-              "lng": -2.8969236
-            }
-          ]
-        },
-        {
-          "id": "231764151",
-          "version": 4,
-          "line": [
-            {
-              "lat": 43.1913795,
-              "lng": -2.8953928
-            },
-            {
-              "lat": 43.1914101,
-              "lng": -2.8954789
-            },
-            {
-              "lat": 43.1914227,
-              "lng": -2.8955487
-            },
-            {
-              "lat": 43.1914249,
-              "lng": -2.8956104
-            },
-            {
-              "lat": 43.191427,
-              "lng": -2.8956705
-            },
-            {
-              "lat": 43.1914466,
-              "lng": -2.8957565
-            },
-            {
-              "lat": 43.1914823,
-              "lng": -2.8958234
-            },
-            {
-              "lat": 43.191533,
-              "lng": -2.8958864
-            },
-            {
-              "lat": 43.1916044,
-              "lng": -2.8959422
-            },
-            {
-              "lat": 43.191627,
-              "lng": -2.8959577
-            },
-            {
-              "lat": 43.1916874,
-              "lng": -2.8959863
-            },
-            {
-              "lat": 43.1924074,
-              "lng": -2.8962516
-            },
-            {
-              "lat": 43.1925489,
-              "lng": -2.8963736
             }
           ]
         },
@@ -114840,68 +114716,6 @@
             {
               "lat": 43.1987704,
               "lng": -2.8955144
-            }
-          ]
-        },
-        {
-          "id": "317850941",
-          "version": 3,
-          "line": [
-            {
-              "lat": 43.1902105,
-              "lng": -2.896934
-            },
-            {
-              "lat": 43.1903134,
-              "lng": -2.8967398
-            },
-            {
-              "lat": 43.1903769,
-              "lng": -2.8966151
-            },
-            {
-              "lat": 43.1904072,
-              "lng": -2.8965557
-            },
-            {
-              "lat": 43.1904291,
-              "lng": -2.896488
-            },
-            {
-              "lat": 43.1904437,
-              "lng": -2.8964153
-            },
-            {
-              "lat": 43.1904581,
-              "lng": -2.8962976
-            },
-            {
-              "lat": 43.1904494,
-              "lng": -2.8962099
-            },
-            {
-              "lat": 43.1904372,
-              "lng": -2.8961346
-            },
-            {
-              "lat": 43.1903899,
-              "lng": -2.8959883
-            },
-            {
-              "lat": 43.1903311,
-              "lng": -2.8958937
-            },
-            {
-              "lat": 43.190255,
-              "lng": -2.8958021
-            },
-            {
-              "lat": 43.1899721,
-              "lng": -2.895607
-            },
-            {
-              "lat": 43.1898937,
-              "lng": -2.8954829
             }
           ]
         },
@@ -134504,13 +134318,465 @@
               "lng": -0.9295613
             }
           ]
+        },
+        {
+          "id": "231764143",
+          "version": 3,
+          "line": [
+            {
+              "lat": 43.1902105,
+              "lng": -2.896934
+            },
+            {
+              "lat": 43.1902753,
+              "lng": -2.8965796
+            },
+            {
+              "lat": 43.1903084,
+              "lng": -2.8964218
+            },
+            {
+              "lat": 43.1903191,
+              "lng": -2.8963366
+            },
+            {
+              "lat": 43.190318,
+              "lng": -2.8962723
+            },
+            {
+              "lat": 43.1903009,
+              "lng": -2.8961585
+            },
+            {
+              "lat": 43.1902623,
+              "lng": -2.8960493
+            },
+            {
+              "lat": 43.1901673,
+              "lng": -2.8959149
+            },
+            {
+              "lat": 43.1900589,
+              "lng": -2.8958329
+            },
+            {
+              "lat": 43.1898566,
+              "lng": -2.895754
+            },
+            {
+              "lat": 43.1893262,
+              "lng": -2.8956332
+            },
+            {
+              "lat": 43.1892007,
+              "lng": -2.8956049
+            },
+            {
+              "lat": 43.1891508,
+              "lng": -2.8955836
+            },
+            {
+              "lat": 43.1890876,
+              "lng": -2.8955349
+            },
+            {
+              "lat": 43.1890443,
+              "lng": -2.8954664
+            },
+            {
+              "lat": 43.1890249,
+              "lng": -2.8953872
+            },
+            {
+              "lat": 43.1890205,
+              "lng": -2.8953622
+            }
+          ]
+        },
+        {
+          "id": "231764150",
+          "version": 5,
+          "line": [
+            {
+              "lat": 43.1932243,
+              "lng": -2.8968504
+            },
+            {
+              "lat": 43.1922024,
+              "lng": -2.8966975
+            },
+            {
+              "lat": 43.1920928,
+              "lng": -2.896705
+            },
+            {
+              "lat": 43.1919954,
+              "lng": -2.896734
+            },
+            {
+              "lat": 43.1918759,
+              "lng": -2.8967872
+            },
+            {
+              "lat": 43.1918336,
+              "lng": -2.8968129
+            },
+            {
+              "lat": 43.1917824,
+              "lng": -2.896848
+            },
+            {
+              "lat": 43.1917002,
+              "lng": -2.8969236
+            }
+          ]
+        },
+        {
+          "id": "231764142",
+          "version": 4,
+          "line": [
+            {
+              "lat": 43.1893798,
+              "lng": -2.8949424
+            },
+            {
+              "lat": 43.190043,
+              "lng": -2.8951089
+            },
+            {
+              "lat": 43.1901666,
+              "lng": -2.8951606
+            },
+            {
+              "lat": 43.1904412,
+              "lng": -2.8952926
+            },
+            {
+              "lat": 43.1905337,
+              "lng": -2.8953439
+            },
+            {
+              "lat": 43.1906026,
+              "lng": -2.8953873
+            },
+            {
+              "lat": 43.1908953,
+              "lng": -2.895567
+            },
+            {
+              "lat": 43.1911117,
+              "lng": -2.8956659
+            },
+            {
+              "lat": 43.1911434,
+              "lng": -2.8956833
+            },
+            {
+              "lat": 43.1911842,
+              "lng": -2.8956968
+            },
+            {
+              "lat": 43.1912435,
+              "lng": -2.8956989
+            },
+            {
+              "lat": 43.1912856,
+              "lng": -2.8956877
+            },
+            {
+              "lat": 43.1913202,
+              "lng": -2.8956646
+            },
+            {
+              "lat": 43.1913545,
+              "lng": -2.8956158
+            },
+            {
+              "lat": 43.1913735,
+              "lng": -2.8955639
+            },
+            {
+              "lat": 43.1913845,
+              "lng": -2.8954898
+            },
+            {
+              "lat": 43.1913795,
+              "lng": -2.8953928
+            }
+          ]
+        },
+        {
+          "id": "231764151",
+          "version": 4,
+          "line": [
+            {
+              "lat": 43.1913795,
+              "lng": -2.8953928
+            },
+            {
+              "lat": 43.1914101,
+              "lng": -2.8954789
+            },
+            {
+              "lat": 43.1914227,
+              "lng": -2.8955487
+            },
+            {
+              "lat": 43.1914249,
+              "lng": -2.8956104
+            },
+            {
+              "lat": 43.191427,
+              "lng": -2.8956705
+            },
+            {
+              "lat": 43.1914466,
+              "lng": -2.8957565
+            },
+            {
+              "lat": 43.1914823,
+              "lng": -2.8958234
+            },
+            {
+              "lat": 43.191533,
+              "lng": -2.8958864
+            },
+            {
+              "lat": 43.1916044,
+              "lng": -2.8959422
+            },
+            {
+              "lat": 43.191627,
+              "lng": -2.8959577
+            },
+            {
+              "lat": 43.1916874,
+              "lng": -2.8959863
+            },
+            {
+              "lat": 43.1924074,
+              "lng": -2.8962516
+            },
+            {
+              "lat": 43.1925489,
+              "lng": -2.8963736
+            }
+          ]
+        },
+        {
+          "id": "317850941",
+          "version": 3,
+          "line": [
+            {
+              "lat": 43.1902105,
+              "lng": -2.896934
+            },
+            {
+              "lat": 43.1903134,
+              "lng": -2.8967398
+            },
+            {
+              "lat": 43.1903769,
+              "lng": -2.8966151
+            },
+            {
+              "lat": 43.1904072,
+              "lng": -2.8965557
+            },
+            {
+              "lat": 43.1904291,
+              "lng": -2.896488
+            },
+            {
+              "lat": 43.1904437,
+              "lng": -2.8964153
+            },
+            {
+              "lat": 43.1904581,
+              "lng": -2.8962976
+            },
+            {
+              "lat": 43.1904494,
+              "lng": -2.8962099
+            },
+            {
+              "lat": 43.1904372,
+              "lng": -2.8961346
+            },
+            {
+              "lat": 43.1903899,
+              "lng": -2.8959883
+            },
+            {
+              "lat": 43.1903311,
+              "lng": -2.8958937
+            },
+            {
+              "lat": 43.190255,
+              "lng": -2.8958021
+            },
+            {
+              "lat": 43.1899721,
+              "lng": -2.895607
+            },
+            {
+              "lat": 43.1898937,
+              "lng": -2.8954829
+            }
+          ]
+        },
+        {
+          "id": "107527587",
+          "version": 20,
+          "line": [
+            {
+              "lat": 43.2358335,
+              "lng": -2.9189327
+            },
+            {
+              "lat": 43.235915,
+              "lng": -2.9190255
+            },
+            {
+              "lat": 43.2362897,
+              "lng": -2.9193996
+            },
+            {
+              "lat": 43.2369786,
+              "lng": -2.919958
+            },
+            {
+              "lat": 43.2373523,
+              "lng": -2.920312
+            },
+            {
+              "lat": 43.2377268,
+              "lng": -2.9207395
+            },
+            {
+              "lat": 43.2378811,
+              "lng": -2.9209665
+            },
+            {
+              "lat": 43.238004,
+              "lng": -2.9212281
+            },
+            {
+              "lat": 43.2380997,
+              "lng": -2.921456
+            },
+            {
+              "lat": 43.2381791,
+              "lng": -2.9216758
+            },
+            {
+              "lat": 43.2382708,
+              "lng": -2.9219988
+            },
+            {
+              "lat": 43.2383291,
+              "lng": -2.9222967
+            },
+            {
+              "lat": 43.238379,
+              "lng": -2.9226651
+            }
+          ],
+          "freeTravelSource": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu"
+        },
+        {
+          "id": "297261481",
+          "version": 12,
+          "line": [
+            {
+              "lat": 43.238379,
+              "lng": -2.9226651
+            },
+            {
+              "lat": 43.2384391,
+              "lng": -2.9234306
+            },
+            {
+              "lat": 43.2384639,
+              "lng": -2.9237113
+            },
+            {
+              "lat": 43.238483,
+              "lng": -2.9238701
+            },
+            {
+              "lat": 43.238555,
+              "lng": -2.9242783
+            },
+            {
+              "lat": 43.2386406,
+              "lng": -2.9246228
+            },
+            {
+              "lat": 43.2387753,
+              "lng": -2.9249802
+            },
+            {
+              "lat": 43.2389474,
+              "lng": -2.9253265
+            },
+            {
+              "lat": 43.239147,
+              "lng": -2.925626
+            },
+            {
+              "lat": 43.2393271,
+              "lng": -2.9258472
+            },
+            {
+              "lat": 43.2395446,
+              "lng": -2.9260753
+            },
+            {
+              "lat": 43.2398705,
+              "lng": -2.9263653
+            },
+            {
+              "lat": 43.2401567,
+              "lng": -2.926582
+            },
+            {
+              "lat": 43.2403533,
+              "lng": -2.9267124
+            },
+            {
+              "lat": 43.2408518,
+              "lng": -2.9269879
+            }
+          ],
+          "freeTravelSource": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu"
+        },
+        {
+          "id": "107527586",
+          "version": 13,
+          "line": [
+            {
+              "lat": 43.2408518,
+              "lng": -2.9269879
+            },
+            {
+              "lat": 43.241048,
+              "lng": -2.927039
+            },
+            {
+              "lat": 43.2414886,
+              "lng": -2.9272148
+            }
+          ],
+          "freeTravelSource": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu"
         }
       ],
       "evidence": {
         "checked": "2026-09-16",
         "tariffSources": [
           "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-68,-bilbao---zaragoza-2026.pdf",
-          "https://www.boe.es/boe/dias/2026/09/11/pdfs/BOE-A-2026-19039.pdf"
+          "https://www.boe.es/boe/dias/2026/09/11/pdfs/BOE-A-2026-19039.pdf",
+          "https://www.arabat.eus/wp-content/uploads/2026/02/26_003-Avasa-AP68-Bilbao_Zaragoza-T26.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
       }
@@ -181281,6 +181547,16 @@
               ],
               "direction": "negative"
             }
+          ],
+          "avoidanceGateIds": [
+            "EIBAR-entry",
+            "ELGOIBAR-entry",
+            "ITZIAR-entry",
+            "ZUMAIA-entry",
+            "ZARAUTZ-OESTE-entry",
+            "DONOSTIA-entry",
+            "GIPUZKOA-mainline-east",
+            "GIPUZKOA-mainline-west"
           ]
         },
         {
@@ -181454,6 +181730,14 @@
               ],
               "direction": "positive"
             }
+          ],
+          "avoidanceGateIds": [
+            "BERGARA-SUR-entry",
+            "ARRASATE-entry",
+            "ESKORIATZA-entry",
+            "LUKO-entry",
+            "ETXABARRI-entry",
+            "BERGARA-NORTE-entry"
           ]
         }
       ]
@@ -181539,12 +181823,12 @@
           "id": "OIARTZUN-exit",
           "line": [
             {
-              "lat": 43.30592475579886,
-              "lng": -1.883837404270237
+              "lat": 43.3027318125405,
+              "lng": -1.896025895247684
             },
             {
-              "lat": 43.30597924420113,
-              "lng": -1.8836543957297631
+              "lat": 43.3028549874595,
+              "lng": -1.896128104752316
             }
           ],
           "direction": "negative"
@@ -181632,6 +181916,20 @@
             }
           ],
           "direction": "negative"
+        },
+        {
+          "id": "GI20-entry",
+          "line": [
+            {
+              "lat": 43.30466337016619,
+              "lng": -1.8939449524873249
+            },
+            {
+              "lat": 43.304806829833815,
+              "lng": -1.893929647512675
+            }
+          ],
+          "direction": "negative"
         }
       ],
       "pricing": {
@@ -181643,7 +181941,8 @@
           "OIARTZUN-entry",
           "IRUN-OESTE-entry",
           "IRUN-VENTAS-entry",
-          "BEHOBIA-entry"
+          "BEHOBIA-entry",
+          "GI20-entry"
         ],
         "exits": [
           "OIARTZUN-este-exit",
@@ -187290,7 +187589,16 @@
           "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "OIARTZUN-este-entry",
+        "DONOSTIA-ESTE-entry",
+        "OIARTZUN-entry",
+        "IRUN-OESTE-entry",
+        "IRUN-VENTAS-entry",
+        "BEHOBIA-entry",
+        "GI20-entry"
+      ]
     },
     {
       "id": "es-ap8-orio",
@@ -188583,12 +188891,12 @@
           "id": "SANTURTZI-entry",
           "line": [
             {
-              "lat": 43.31397161077488,
-              "lng": -3.045257141437037
+              "lat": 43.31249152887496,
+              "lng": -3.0381682944361716
             },
             {
-              "lat": 43.314114989225125,
-              "lng": -3.045240458562963
+              "lat": 43.31262987112504,
+              "lng": -3.038113905563828
             }
           ],
           "direction": "negative"
@@ -196760,7 +197068,14 @@
           "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20VSM%2001-01-2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "ARRIGORRIAGA-entry",
+        "BILBAO-ESTE-entry",
+        "BILBAO-SUR-entry",
+        "ORTUELLA-entry",
+        "SANTURTZI-entry"
+      ]
     },
     {
       "id": "es-ap636-beasain",
@@ -276306,7 +276621,15 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap36_2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "Troncal Corral Almaguer-entry",
+        "Troncal San Clemente-entry",
+        "Lateral Corral Almaguer-entry",
+        "Quintanar Orden-entry",
+        "Pedernoso-entry",
+        "Mota Cuervo-entry"
+      ]
     },
     {
       "id": "es-ap41",
@@ -288054,7 +288377,17 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_ap41_2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "R5-entry",
+        "Toledo-entry",
+        "Serranillos-entry",
+        "Carranque-entry",
+        "Illescas-entry",
+        "Numancia-entry",
+        "Villaluenga-entry",
+        "Villaseca-entry"
+      ]
     },
     {
       "id": "es-ap46",
@@ -384363,7 +384696,18 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap7cv_2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "Cartagena-entry",
+        "Las Palas-entry",
+        "Mazarrón-entry",
+        "Ramonete-entry",
+        "Cabo Cope-entry",
+        "Águilas-entry",
+        "Pulpí-entry",
+        "Cuevas del Almanzora-entry",
+        "Vera-entry"
+      ]
     },
     {
       "id": "es-ap7-manilva-troncal",
@@ -431734,7 +432078,13 @@
           "https://www.xunta.gal/dog/Publicados/2025/20251231/AnuncioG0765-291225-0001_es.html"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "Arteixo-entry",
+        "Paiosaco-entry",
+        "Laracha-entry",
+        "Carballo-entry"
+      ]
     },
     {
       "id": "es-ag55-pastoriza",
@@ -433749,6 +434099,140 @@
             {
               "lat": 43.3250172,
               "lng": -8.4647009
+            }
+          ]
+        },
+        {
+          "id": "166714261",
+          "version": 9,
+          "line": [
+            {
+              "lat": 43.3451824,
+              "lng": -8.4314262
+            },
+            {
+              "lat": 43.3455361,
+              "lng": -8.4304355
+            },
+            {
+              "lat": 43.3457202,
+              "lng": -8.4299319
+            },
+            {
+              "lat": 43.3459057,
+              "lng": -8.4294078
+            },
+            {
+              "lat": 43.3461313,
+              "lng": -8.428784
+            },
+            {
+              "lat": 43.3465492,
+              "lng": -8.4275171
+            },
+            {
+              "lat": 43.3466146,
+              "lng": -8.4273134
+            },
+            {
+              "lat": 43.3467406,
+              "lng": -8.4269191
+            }
+          ]
+        },
+        {
+          "id": "622799668",
+          "version": 6,
+          "line": [
+            {
+              "lat": 43.3441427,
+              "lng": -8.4397671
+            },
+            {
+              "lat": 43.3442606,
+              "lng": -8.4393456
+            },
+            {
+              "lat": 43.3443605,
+              "lng": -8.438896
+            },
+            {
+              "lat": 43.3444341,
+              "lng": -8.43845
+            },
+            {
+              "lat": 43.3444922,
+              "lng": -8.4379965
+            },
+            {
+              "lat": 43.3445227,
+              "lng": -8.4376836
+            },
+            {
+              "lat": 43.3445494,
+              "lng": -8.4373793
+            }
+          ]
+        },
+        {
+          "id": "622799669",
+          "version": 4,
+          "line": [
+            {
+              "lat": 43.3445494,
+              "lng": -8.4373793
+            },
+            {
+              "lat": 43.3445665,
+              "lng": -8.4370278
+            },
+            {
+              "lat": 43.3445719,
+              "lng": -8.4366547
+            },
+            {
+              "lat": 43.3445712,
+              "lng": -8.4362336
+            },
+            {
+              "lat": 43.344549,
+              "lng": -8.4350447
+            },
+            {
+              "lat": 43.3445465,
+              "lng": -8.434634
+            },
+            {
+              "lat": 43.3445715,
+              "lng": -8.4340434
+            },
+            {
+              "lat": 43.3446395,
+              "lng": -8.4334535
+            },
+            {
+              "lat": 43.344665,
+              "lng": -8.4333167
+            },
+            {
+              "lat": 43.3447261,
+              "lng": -8.4330099
+            },
+            {
+              "lat": 43.3448118,
+              "lng": -8.4326661
+            },
+            {
+              "lat": 43.3448856,
+              "lng": -8.4323886
+            },
+            {
+              "lat": 43.3449259,
+              "lng": -8.4322442
+            },
+            {
+              "lat": 43.3451824,
+              "lng": -8.4314262
             }
           ]
         }
@@ -437921,7 +438405,16 @@
           "https://www.xunta.gal/dog/Publicados/2025/20251231/AnuncioG0765-291225-0001_es.html"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "Vigo-entry",
+        "Vincios-entry",
+        "Gondomar-entry",
+        "Nigrán-entry",
+        "A Ramallosa-entry",
+        "A Ramallosa-sur-entry",
+        "Baiona-entry"
+      ]
     },
     {
       "id": "es-artxanda",
@@ -636603,7 +637096,19 @@
           "https://ayto-velilla.es/la-direccion-general-de-carreteras-incluira-la-m-208-en-su-tramo-proximo-a-la-calle-frascuelo-en-los-planes-de-accion-contra-el-ruido/"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "M40-entry",
+        "M45-entry",
+        "M45-oeste-entry",
+        "M300-entry",
+        "A3-entry",
+        "M40-exit",
+        "M45-exit",
+        "M45-oeste-exit",
+        "M300-exit",
+        "A3-exit"
+      ]
     },
     {
       "id": "es-r4",
@@ -646797,7 +647302,18 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r4_2026_0.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "M50-entry",
+        "Pinto-entry",
+        "Valdemoro-entry",
+        "Valdemoro-madrid-entry",
+        "Sesena-entry",
+        "Villaseca-entry",
+        "Aranjuez-entry",
+        "Ontigola-entry",
+        "Ocana-entry"
+      ]
     },
     {
       "id": "es-r5",
@@ -661159,7 +661675,17 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r5_2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "M40-M45-entry",
+        "M50-M506-entry",
+        "M50-M506-madrid-entry",
+        "AP41-entry",
+        "AP41-madrid-entry",
+        "M413-entry",
+        "M404-entry",
+        "A5-entry"
+      ]
     },
     {
       "id": "es-vallvidrera",

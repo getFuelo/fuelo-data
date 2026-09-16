@@ -1,0 +1,71 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 41.2449161,
+        "lon": 1.8533267,
+        "heading": 287
+      },
+      {
+        "lat": 41.2451979,
+        "lon": 1.8521435,
+        "heading": 288,
+        "type": "through"
+      },
+      {
+        "lat": 41.2453363,
+        "lon": 1.8176482,
+        "heading": 265
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "c32",
+  "network": "es-c32-vallcarca",
+  "expectedCents": 842,
+  "sourceProbe": {
+    "network": "es-c32-vallcarca",
+    "booth": 2711225363,
+    "way": "265459445/265459445",
+    "versions": [
+      9,
+      9
+    ],
+    "traversedWays": [
+      {
+        "id": 29465041,
+        "version": 26
+      },
+      {
+        "id": 42425108,
+        "version": 13
+      },
+      {
+        "id": 53018983,
+        "version": 8
+      },
+      {
+        "id": 265459411,
+        "version": 10
+      },
+      {
+        "id": 265459445,
+        "version": 9
+      },
+      {
+        "id": 431971124,
+        "version": 7
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

@@ -175,3 +175,27 @@ frequent-user eligibility, lane and avoidance validation remain pending.
 Spain remains disabled and release validation still fails as intended. AP-68
 reference validity now stops at the documented concession end, 2026-11-10.
 All changes remain local.
+
+### AP-68, AP-1 internal routes and Bidegi references (2026-09-16)
+
+AP-68 has 461 direct published OD journeys, one retained two-settlement
+turnaround and a separate public Alagón destination. The committed one-way
+Alagón 272 exit forces a Gallur loop (615 + 350 cents); public arrival uses
+Alagón 275 (285 cents, 4.272 km). The loop does not certify the direct 335-cent
+row. Initial false Lodosa cuts and Zaragoza terminal cuts before ramp merges
+are retained as evidence. The special service-area turnaround, regional rebates,
+all lanes/public/free approaches and avoidance still prevent release.
+
+AP-1 adds 20 internal Bergara Sur–Etxabarri directed routes. Prices remain
+unchanged when the AP-636 candidate is loaded in either order. Northern
+AP-8/AP-1 joint settlement is still open.
+
+A hash-locked cross-check against Bidegi's 2026 PDF adds 15 missing Amorebieta
+pairs to the Arabat reference (181 combined pairs total); shared amounts agree.
+Eight eastern general rows and three TAG-only Oñaurre references are separate.
+No cash tariff or free blank cell is inferred.
+
+Validation: 1,439 tests / 50 suites in the full run, plus 21 new AP-1 tests, and
+TypeScript pass. All 67 candidate JSON files pass offline integrity. Spain and
+all 35 manifest entries remain disabled; national release is not certified.
+Local work only; nothing pushed, published, deployed or installed.

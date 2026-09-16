@@ -1,0 +1,5081 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.arabat.eus/es/ap-1/tarifas-ap-1/",
+  "sha256": "800a0e4ebed227d795d0add33a1c176a4d74eaeaba728b1f1e5fb28e0e40b94c",
+  "notes": [
+    "Published general light-vehicle rows only. Geographic mapping and route verification are separate.",
+    "Blank/dash cells are not zero; no unverified enrollment/recurrence discounts.",
+    "Bidegi 2026 matrix adds 15 Amorebieta-Etxano pairs missing from the Arabat HTML extraction. Every common amount agrees.",
+    "Same-zone Itziar row is retained, not assigned to a guessed turnaround."
+  ],
+  "ods": [
+    {
+      "from": "Acceso Oeste",
+      "to": "Amorebieta-Etxano",
+      "tariff": {
+        "baseCents": 105,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 3,
+        "printed": "1.05"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 1,
+          "printed": "1,05"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 17,
+          "row": 1,
+          "column": 0,
+          "printed": "1,05"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Iurreta",
+      "tariff": {
+        "baseCents": 280,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 4,
+        "printed": "2.8"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 2,
+          "printed": "2,80"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 0,
+          "printed": "2,80"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Abadiño",
+      "tariff": {
+        "baseCents": 330,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 5,
+        "printed": "3.3"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 3,
+          "printed": "3,30"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 0,
+          "printed": "3,30"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Ermua",
+      "tariff": {
+        "baseCents": 460,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 6,
+        "printed": "4.6"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 4,
+          "printed": "4,60"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 0,
+          "printed": "4,60"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Muga Bizkaia-Gipuzkoa",
+      "tariff": {
+        "baseCents": 593,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 7,
+        "printed": "5.93"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 666,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 8,
+        "printed": "6.66"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 5,
+          "printed": "6,66"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 0,
+          "printed": "6,66"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 666,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 9,
+        "printed": "6.66"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 823,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 10,
+        "printed": "8.23"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 6,
+          "printed": "8,23"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 0,
+          "printed": "8,23"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 901,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 11,
+        "printed": "9.01"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 7,
+          "printed": "9,01"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 0,
+          "printed": "9,01"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 966,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 12,
+        "printed": "9.66"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 8,
+          "printed": "9,66"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 0,
+          "printed": "9,66"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 1131,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 13,
+        "printed": "11.31"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 9,
+          "printed": "11,31"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 0,
+          "printed": "11,31"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 1359,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 14,
+        "printed": "13.59"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 1514,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 15,
+        "printed": "15.14"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 10,
+          "printed": "15,14"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 0,
+          "printed": "15,14"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1639,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 16,
+        "printed": "16.39"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 11,
+          "printed": "16,39"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 0,
+          "printed": "16,39"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 756,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 17,
+        "printed": "7.56"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 12,
+          "printed": "7,56"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 0,
+          "printed": "7,56"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 884,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 18,
+        "printed": "8.84"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 13,
+          "printed": "8,84"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 0,
+          "printed": "8,84"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 974,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 19,
+        "printed": "9.74"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 14,
+          "printed": "9,74"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 0,
+          "printed": "9,74"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 1112,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 20,
+        "printed": "11.12"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 15,
+          "printed": "11,12"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 0,
+          "printed": "11,12"
+        }
+      ]
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1381,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 21,
+        "printed": "13.81"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 14,
+          "row": 0,
+          "column": 16,
+          "printed": "13,81"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 0,
+          "printed": "13,81"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Abadiño",
+      "tariff": {
+        "baseCents": 0,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 5,
+        "printed": "0"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Iurreta",
+      "to": "Ermua",
+      "tariff": {
+        "baseCents": 175,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 6,
+        "printed": "1.75"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 4,
+          "printed": "1,75"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 2,
+          "printed": "1,75"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Muga Bizkaia-Gipuzkoa",
+      "tariff": {
+        "baseCents": 224,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 7,
+        "printed": "2.24"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Iurreta",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 297,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 8,
+        "printed": "2.97"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 5,
+          "printed": "2,97"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 2,
+          "printed": "2,97"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 297,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 9,
+        "printed": "2.97"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Iurreta",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 454,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 10,
+        "printed": "4.54"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 6,
+          "printed": "4,54"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 2,
+          "printed": "4,54"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 532,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 11,
+        "printed": "5.32"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 7,
+          "printed": "5,32"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 2,
+          "printed": "5,32"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 597,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 12,
+        "printed": "5.97"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 8,
+          "printed": "5,97"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 2,
+          "printed": "5,97"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 762,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 13,
+        "printed": "7.62"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 9,
+          "printed": "7,62"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 2,
+          "printed": "7,62"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 990,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 14,
+        "printed": "9.9"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Iurreta",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 1145,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 15,
+        "printed": "11.45"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 10,
+          "printed": "11,45"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 2,
+          "printed": "11,45"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1270,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 16,
+        "printed": "12.7"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 11,
+          "printed": "12,70"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 2,
+          "printed": "12,70"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 387,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 17,
+        "printed": "3.87"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 12,
+          "printed": "3,87"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 2,
+          "printed": "3,87"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 515,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 18,
+        "printed": "5.15"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 13,
+          "printed": "5,15"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 2,
+          "printed": "5,15"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 605,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 19,
+        "printed": "6.05"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 14,
+          "printed": "6,05"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 2,
+          "printed": "6,05"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 743,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 20,
+        "printed": "7.43"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 15,
+          "printed": "7,43"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 2,
+          "printed": "7,43"
+        }
+      ]
+    },
+    {
+      "from": "Iurreta",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1012,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 21,
+        "printed": "10.12"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 16,
+          "printed": "10,12"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 2,
+          "printed": "10,12"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Ermua",
+      "tariff": {
+        "baseCents": 125,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 6,
+        "printed": "1.25"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 4,
+          "printed": "1,25"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 3,
+          "printed": "1,25"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Muga Bizkaia-Gipuzkoa",
+      "tariff": {
+        "baseCents": 171,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 7,
+        "printed": "1.71"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Abadiño",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 244,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 8,
+        "printed": "2.44"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 5,
+          "printed": "2,44"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 3,
+          "printed": "2,44"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 244,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 9,
+        "printed": "2.44"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Abadiño",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 401,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 10,
+        "printed": "4.01"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 6,
+          "printed": "4,01"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 3,
+          "printed": "4,01"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 479,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 11,
+        "printed": "4.79"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 7,
+          "printed": "4,79"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 3,
+          "printed": "4,79"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 544,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 12,
+        "printed": "5.44"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 8,
+          "printed": "5,44"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 3,
+          "printed": "5,44"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 709,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 13,
+        "printed": "7.09"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 9,
+          "printed": "7,09"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 3,
+          "printed": "7,09"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 937,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 14,
+        "printed": "9.37"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Abadiño",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 1092,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 15,
+        "printed": "10.92"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 10,
+          "printed": "10,92"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 3,
+          "printed": "10,92"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1217,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 16,
+        "printed": "12.17"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 11,
+          "printed": "12,17"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 3,
+          "printed": "12,17"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 334,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 17,
+        "printed": "3.34"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 12,
+          "printed": "3,34"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 3,
+          "printed": "3,34"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 462,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 18,
+        "printed": "4.62"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 13,
+          "printed": "4,62"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 3,
+          "printed": "4,62"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 552,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 19,
+        "printed": "5.52"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 14,
+          "printed": "5,52"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 3,
+          "printed": "5,52"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 690,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 20,
+        "printed": "6.9"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 15,
+          "printed": "6,90"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 3,
+          "printed": "6,90"
+        }
+      ]
+    },
+    {
+      "from": "Abadiño",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 959,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 21,
+        "printed": "9.59"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 16,
+          "printed": "9,59"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 3,
+          "printed": "9,59"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Muga Bizkaia-Gipuzkoa",
+      "tariff": {
+        "baseCents": 49,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 7,
+        "printed": "0.49"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Ermua",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 122,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 8,
+        "printed": "1.22"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 5,
+          "printed": "1,22"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 4,
+          "printed": "1,22"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 122,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 9,
+        "printed": "1.22"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Ermua",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 279,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 10,
+        "printed": "2.79"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 6,
+          "printed": "2,79"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 4,
+          "printed": "2,79"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 357,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 11,
+        "printed": "3.57"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 7,
+          "printed": "3,57"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 4,
+          "printed": "3,57"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 422,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 12,
+        "printed": "4.22"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 8,
+          "printed": "4,22"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 4,
+          "printed": "4,22"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 587,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 13,
+        "printed": "5.87"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 9,
+          "printed": "5,87"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 4,
+          "printed": "5,87"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 815,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 14,
+        "printed": "8.15"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Ermua",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 970,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 15,
+        "printed": "9.7"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 10,
+          "printed": "9,70"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 4,
+          "printed": "9,70"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1095,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 16,
+        "printed": "10.95"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 11,
+          "printed": "10,95"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 4,
+          "printed": "10,95"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 212,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 17,
+        "printed": "2.12"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 12,
+          "printed": "2,12"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 4,
+          "printed": "2,12"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 340,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 18,
+        "printed": "3.4"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 13,
+          "printed": "3,40"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 4,
+          "printed": "3,40"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 430,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 19,
+        "printed": "4.3"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 14,
+          "printed": "4,30"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 4,
+          "printed": "4,30"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 568,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 20,
+        "printed": "5.68"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 15,
+          "printed": "5,68"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 4,
+          "printed": "5,68"
+        }
+      ]
+    },
+    {
+      "from": "Ermua",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 837,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 21,
+        "printed": "8.37"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 16,
+          "printed": "8,37"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 4,
+          "printed": "8,37"
+        }
+      ]
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 73,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 8,
+        "printed": "0.73"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 73,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 9,
+        "printed": "0.73"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 230,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 10,
+        "printed": "2.3"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 308,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 11,
+        "printed": "3.08"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 373,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 12,
+        "printed": "3.73"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 538,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 13,
+        "printed": "5.38"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 766,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 14,
+        "printed": "7.66"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 921,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 15,
+        "printed": "9.21"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1046,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 16,
+        "printed": "10.46"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 163,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 17,
+        "printed": "1.63"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 291,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 18,
+        "printed": "2.91"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 381,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 19,
+        "printed": "3.81"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 519,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 20,
+        "printed": "5.19"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 788,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 21,
+        "printed": "7.88"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Eibar",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 31,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 9,
+        "printed": "0.31"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Eibar",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 188,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 10,
+        "printed": "1.88"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 6,
+          "printed": "1,88"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 5,
+          "printed": "1,88"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 266,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 11,
+        "printed": "2.66"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 7,
+          "printed": "2,66"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 5,
+          "printed": "2,66"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 331,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 12,
+        "printed": "3.31"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 8,
+          "printed": "3,31"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 5,
+          "printed": "3,31"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 496,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 13,
+        "printed": "4.96"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 9,
+          "printed": "4,96"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 5,
+          "printed": "4,96"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 724,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 14,
+        "printed": "7.24"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Eibar",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 879,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 15,
+        "printed": "8.79"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 10,
+          "printed": "8,79"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 5,
+          "printed": "8,79"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1004,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 16,
+        "printed": "10.04"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 11,
+          "printed": "10,04"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 5,
+          "printed": "10,04"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 117,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 17,
+        "printed": "1.17"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 12,
+          "printed": "1,17"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 5,
+          "printed": "1,17"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 247,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 18,
+        "printed": "2.47"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 13,
+          "printed": "2,47"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 5,
+          "printed": "2,47"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 327,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 19,
+        "printed": "3.27"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 14,
+          "printed": "3,27"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 5,
+          "printed": "3,27"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 475,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 20,
+        "printed": "4.75"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 15,
+          "printed": "4,75"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 5,
+          "printed": "4,75"
+        }
+      ]
+    },
+    {
+      "from": "Eibar",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 743,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 21,
+        "printed": "7.43"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 16,
+          "printed": "7,43"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 5,
+          "printed": "7,43"
+        }
+      ]
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 157,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 10,
+        "printed": "1.57"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 235,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 11,
+        "printed": "2.35"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 300,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 12,
+        "printed": "3"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 465,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 13,
+        "printed": "4.65"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 693,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 14,
+        "printed": "6.93"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 848,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 15,
+        "printed": "8.48"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 973,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 16,
+        "printed": "9.73"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 101,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 17,
+        "printed": "1.01"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 228,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 18,
+        "printed": "2.28"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 300,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 19,
+        "printed": "3"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 456,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 20,
+        "printed": "4.56"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 714,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 21,
+        "printed": "7.14"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 89,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 11,
+        "printed": "0.89"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 8,
+          "printed": "0,89"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 7,
+          "printed": "0,89"
+        }
+      ]
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 171,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 13,
+        "printed": "1.71"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 9,
+          "printed": "1,71"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 8,
+          "printed": "1,71"
+        }
+      ]
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 399,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 14,
+        "printed": "3.99"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 554,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 15,
+        "printed": "5.54"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 10,
+          "printed": "5,54"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 8,
+          "printed": "5,54"
+        }
+      ]
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 679,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 16,
+        "printed": "6.79"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 11,
+          "printed": "6,79"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 8,
+          "printed": "6,79"
+        }
+      ]
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 401,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 17,
+        "printed": "4.01"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 12,
+          "printed": "4,01"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 8,
+          "printed": "4,01"
+        }
+      ]
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 528,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 18,
+        "printed": "5.28"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 13,
+          "printed": "5,28"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 8,
+          "printed": "5,28"
+        }
+      ]
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 600,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 19,
+        "printed": "6"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 14,
+          "printed": "6,00"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 8,
+          "printed": "6,00"
+        }
+      ]
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 756,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 20,
+        "printed": "7.56"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 15,
+          "printed": "7,56"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 8,
+          "printed": "7,56"
+        }
+      ]
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1014,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 21,
+        "printed": "10.14"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 16,
+          "printed": "10,14"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 8,
+          "printed": "10,14"
+        }
+      ]
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 245,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 13,
+        "printed": "2.45"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 9,
+          "printed": "2,45"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 7,
+          "printed": "2,45"
+        }
+      ]
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 476,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 14,
+        "printed": "4.76"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 631,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 15,
+        "printed": "6.31"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 10,
+          "printed": "6,31"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 7,
+          "printed": "6,31"
+        }
+      ]
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 756,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 16,
+        "printed": "7.56"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 11,
+          "printed": "7,56"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 7,
+          "printed": "7,56"
+        }
+      ]
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 336,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 17,
+        "printed": "3.36"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 12,
+          "printed": "3,36"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 7,
+          "printed": "3,36"
+        }
+      ]
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 463,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 18,
+        "printed": "4.63"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 13,
+          "printed": "4,63"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 7,
+          "printed": "4,63"
+        }
+      ]
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 535,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 19,
+        "printed": "5.35"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 14,
+          "printed": "5,35"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 7,
+          "printed": "5,35"
+        }
+      ]
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 691,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 20,
+        "printed": "6.91"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 15,
+          "printed": "6,91"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 7,
+          "printed": "6,91"
+        }
+      ]
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 949,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 21,
+        "printed": "9.49"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 16,
+          "printed": "9,49"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 7,
+          "printed": "9,49"
+        }
+      ]
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 242,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 14,
+        "printed": "2.42"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 397,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 15,
+        "printed": "3.97"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 10,
+          "printed": "3,97"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 9,
+          "printed": "3,97"
+        }
+      ]
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 522,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 16,
+        "printed": "5.22"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 11,
+          "printed": "5,22"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 9,
+          "printed": "5,22"
+        }
+      ]
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 566,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 17,
+        "printed": "5.66"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 12,
+          "printed": "5,66"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 9,
+          "printed": "5,66"
+        }
+      ]
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 693,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 18,
+        "printed": "6.93"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 13,
+          "printed": "6,93"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 9,
+          "printed": "6,93"
+        }
+      ]
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 765,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 19,
+        "printed": "7.65"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 14,
+          "printed": "7,65"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 9,
+          "printed": "7,65"
+        }
+      ]
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 921,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 20,
+        "printed": "9.21"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 15,
+          "printed": "9,21"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 9,
+          "printed": "9,21"
+        }
+      ]
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1179,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 21,
+        "printed": "11.79"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 16,
+          "printed": "11,79"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 9,
+          "printed": "11,79"
+        }
+      ]
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 155,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 15,
+        "printed": "1.55"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 280,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 16,
+        "printed": "2.8"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 794,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 17,
+        "printed": "7.94"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 921,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 18,
+        "printed": "9.21"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 993,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 19,
+        "printed": "9.93"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 1149,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 20,
+        "printed": "11.49"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1407,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 21,
+        "printed": "14.07"
+      },
+      "bidirectional": true
+    },
+    {
+      "from": "Luko",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 150,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 16,
+        "printed": "1.5"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 11,
+          "printed": "1,50"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 10,
+          "printed": "1,50"
+        }
+      ]
+    },
+    {
+      "from": "Luko",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 949,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 17,
+        "printed": "9.49"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 12,
+          "printed": "9,49"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 10,
+          "printed": "9,49"
+        }
+      ]
+    },
+    {
+      "from": "Luko",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 1076,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 18,
+        "printed": "10.76"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 13,
+          "printed": "10,76"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 10,
+          "printed": "10,76"
+        }
+      ]
+    },
+    {
+      "from": "Luko",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 1148,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 19,
+        "printed": "11.48"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 14,
+          "printed": "11,48"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 10,
+          "printed": "11,48"
+        }
+      ]
+    },
+    {
+      "from": "Luko",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 1304,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 20,
+        "printed": "13.04"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 15,
+          "printed": "13,04"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 10,
+          "printed": "13,04"
+        }
+      ]
+    },
+    {
+      "from": "Luko",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1562,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 21,
+        "printed": "15.62"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 16,
+          "printed": "15,62"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 10,
+          "printed": "15,62"
+        }
+      ]
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 258,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 17,
+        "printed": "2.58"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 12,
+          "printed": "2,58"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 6,
+          "printed": "2,58"
+        }
+      ]
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 385,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 18,
+        "printed": "3.85"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 13,
+          "printed": "3,85"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 6,
+          "printed": "3,85"
+        }
+      ]
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 457,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 19,
+        "printed": "4.57"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 14,
+          "printed": "4,57"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 6,
+          "printed": "4,57"
+        }
+      ]
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 613,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 20,
+        "printed": "6.13"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 15,
+          "printed": "6,13"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 6,
+          "printed": "6,13"
+        }
+      ]
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 871,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 21,
+        "printed": "8.71"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 16,
+          "printed": "8,71"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 6,
+          "printed": "8,71"
+        }
+      ]
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 1074,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 17,
+        "printed": "10.74"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 12,
+          "printed": "10,74"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 11,
+          "printed": "10,74"
+        }
+      ]
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 1201,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 18,
+        "printed": "12.01"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 13,
+          "printed": "12,01"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 11,
+          "printed": "12,01"
+        }
+      ]
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 1273,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 19,
+        "printed": "12.73"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 14,
+          "printed": "12,73"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 11,
+          "printed": "12,73"
+        }
+      ]
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 1429,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 20,
+        "printed": "14.29"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 15,
+          "printed": "14,29"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 11,
+          "printed": "14,29"
+        }
+      ]
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1687,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 21,
+        "printed": "16.87"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 16,
+          "printed": "16,87"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 11,
+          "printed": "16,87"
+        }
+      ]
+    },
+    {
+      "from": "Elgoibar",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 163,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 44,
+        "column": 18,
+        "printed": "1.63"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 13,
+          "printed": "1,63"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 12,
+          "printed": "1,63"
+        }
+      ]
+    },
+    {
+      "from": "Elgoibar",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 235,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 44,
+        "column": 19,
+        "printed": "2.35"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 14,
+          "printed": "2,35"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 12,
+          "printed": "2,35"
+        }
+      ]
+    },
+    {
+      "from": "Elgoibar",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 392,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 44,
+        "column": 20,
+        "printed": "3.92"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 15,
+          "printed": "3,92"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 12,
+          "printed": "3,92"
+        }
+      ]
+    },
+    {
+      "from": "Elgoibar",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 641,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 44,
+        "column": 21,
+        "printed": "6.41"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 16,
+          "printed": "6,41"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 12,
+          "printed": "6,41"
+        }
+      ]
+    },
+    {
+      "from": "Itziar",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 137,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 47,
+        "column": 18,
+        "printed": "1.37"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 13,
+          "printed": "1,37"
+        }
+      ]
+    },
+    {
+      "from": "Itziar",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 117,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 47,
+        "column": 19,
+        "printed": "1.17"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 14,
+          "printed": "1,17"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 13,
+          "printed": "1,17"
+        }
+      ]
+    },
+    {
+      "from": "Itziar",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 247,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 47,
+        "column": 20,
+        "printed": "2.47"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 15,
+          "printed": "2,47"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 13,
+          "printed": "2,47"
+        }
+      ]
+    },
+    {
+      "from": "Itziar",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 517,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 47,
+        "column": 21,
+        "printed": "5.17"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 16,
+          "printed": "5,17"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 13,
+          "printed": "5,17"
+        }
+      ]
+    },
+    {
+      "from": "Zestoa – Zumaia",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 174,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 50,
+        "column": 20,
+        "printed": "1.74"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 15,
+          "printed": "1,74"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 14,
+          "printed": "1,74"
+        }
+      ]
+    },
+    {
+      "from": "Zestoa – Zumaia",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 441,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 50,
+        "column": 21,
+        "printed": "4.41"
+      },
+      "bidirectional": true,
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 16,
+          "printed": "4,41"
+        },
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 14,
+          "printed": "4,41"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Iurreta",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 280,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 2,
+        "printed": "2,80"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 20,
+          "row": 2,
+          "column": 1,
+          "printed": "2,80"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Abadiño",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 330,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 3,
+        "printed": "3,30"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 23,
+          "row": 3,
+          "column": 1,
+          "printed": "3,30"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Ermua",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 460,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 4,
+        "printed": "4,60"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 26,
+          "row": 4,
+          "column": 1,
+          "printed": "4,60"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Eibar",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 666,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 5,
+        "printed": "6,66"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 29,
+          "row": 5,
+          "column": 1,
+          "printed": "6,66"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Bergara I/N",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 823,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 6,
+        "printed": "8,23"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 32,
+          "row": 6,
+          "column": 1,
+          "printed": "8,23"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Bergara H/S",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 901,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 7,
+        "printed": "9,01"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 35,
+          "row": 7,
+          "column": 1,
+          "printed": "9,01"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Arrasate-Mondragón",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 966,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 8,
+        "printed": "9,66"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 38,
+          "row": 8,
+          "column": 1,
+          "printed": "9,66"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Eskoriatza",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 1131,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 9,
+        "printed": "11,31"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 41,
+          "row": 9,
+          "column": 1,
+          "printed": "11,31"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Luko",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 1514,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 10,
+        "printed": "15,14"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 44,
+          "row": 10,
+          "column": 1,
+          "printed": "15,14"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Etxabarri-Ibiña",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 1639,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 11,
+        "printed": "16,39"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 47,
+          "row": 11,
+          "column": 1,
+          "printed": "16,39"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Elgoibar",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 756,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 12,
+        "printed": "7,56"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 50,
+          "row": 12,
+          "column": 1,
+          "printed": "7,56"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Itziar",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 884,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 13,
+        "printed": "8,84"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 53,
+          "row": 13,
+          "column": 1,
+          "printed": "8,84"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Zestoa – Zumaia",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 974,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 14,
+        "printed": "9,74"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 56,
+          "row": 14,
+          "column": 1,
+          "printed": "9,74"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Zarautz Oeste",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 1112,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 15,
+        "printed": "11,12"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 59,
+          "row": 15,
+          "column": 1,
+          "printed": "11,12"
+        }
+      ]
+    },
+    {
+      "from": "Amorebieta-Etxano",
+      "to": "Zarautz Barrera (Donostia)",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 1381,
+        "bands": []
+      },
+      "sourceCell": {
+        "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+        "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+        "page": 1,
+        "line": 17,
+        "row": 1,
+        "column": 16,
+        "printed": "13,81"
+      },
+      "corroboratingCells": [
+        {
+          "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+          "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+          "page": 1,
+          "line": 62,
+          "row": 16,
+          "column": 1,
+          "printed": "13,81"
+        }
+      ]
+    }
+  ],
+  "scope": "Published combined AP-8/AP-1 access matrix; not independent regional sums",
+  "additionalSources": [
+    {
+      "url": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+      "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c"
+    }
+  ],
+  "sourceCrossCheck": {
+    "addedPairs": 15,
+    "matchingDirectedCells": 244
+  }
+}

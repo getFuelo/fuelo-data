@@ -195,6 +195,222 @@ SPECS = {'ap61': {'probeViaNodes':{'ORTIGOSA--OTERO':[29212569]},'ref':'AP-61','
     ('CAMPOMANES', (4803589, 30826577, 30826569), (94658795, 814868480, 30826562)),
 ]}}
 
+# Source plaza directions and public-side probe nodes reviewed from AP-68 connectivity.
+SPECS['ap68-central'] = {'ref': 'AP-68',
+ 'tariffFamily': 'ap68',
+ 'tollId': 'es-ap68',
+ 'expectedDirectedFares': 240,
+ 'filterFareZones': ['ZIORRAGA',
+                     'ALTUBE',
+                     'SUBIJANA',
+                     'AUTOP.BURGOS',
+                     'ZAMBRANA',
+                     'HARO',
+                     'CENICERO',
+                     'FUENMAYOR',
+                     'LOGROÑO',
+                     'RECAJO',
+                     'AGONCILLO',
+                     'LODOSA',
+                     'CALAHORRA',
+                     'ALFARO',
+                     'TUDELA',
+                     'GALLUR'],
+ 'accesses': [('ZIORRAGA',
+               'osm-review-1483905539',
+               377618517,
+               1483905539,
+               True,
+               (533169841, 3),
+               (533169841, 3)),
+              ('ALTUBE',
+               'osm-review-674651148',
+               298767817,
+               674651148,
+               False,
+               (285411608, 4),
+               (171709969, 4)),
+              ('SUBIJANA',
+               'osm-review-678298967',
+               377617740,
+               678298967,
+               True,
+               (418686351, 0),
+               (418686351, 0)),
+              ('AUTOP.BURGOS',
+               'osm-review-6059979460',
+               741248049,
+               6059979462,
+               False,
+               (1459825227, 0),
+               (741248048, 3)),
+              ('ZAMBRANA',
+               'osm-review-893969034',
+               377617099,
+               893969113,
+               False,
+               (623432787, 0),
+               (366651174, 4)),
+              ('HARO',
+               'osm-review-252456376',
+               377616859,
+               586547510,
+               False,
+               (46034981, 0),
+               (1292840707, 5)),
+              ('CENICERO',
+               'osm-review-582973178',
+               377616481,
+               582973178,
+               False,
+               (96241885, 1),
+               (96241885, 1)),
+              ('FUENMAYOR',
+               'osm-review-498270993',
+               377616387,
+               3809979978,
+               False,
+               (377616389, 0),
+               (377616390, 3)),
+              ('LOGROÑO',
+               'osm-review-252454191',
+               377615635,
+               252454191,
+               False,
+               (156070464, 0),
+               (156070475, 1)),
+              ('RECAJO',
+               'osm-review-3432193933',
+               1495440050,
+               3432193933,
+               False,
+               (577970369, 11),
+               (336141508, 5)),
+              ('AGONCILLO',
+               'osm-review-46953393',
+               377615253,
+               46953393,
+               False,
+               (464614951, 1),
+               (5846548, 4)),
+              ('LODOSA',
+               'osm-review-586612629',
+               377614831,
+               3467987593,
+               False,
+               (46035650, 11),
+               (46035750, 3)),
+              ('CALAHORRA',
+               'osm-review-249759675',
+               377614652,
+               249759675,
+               False,
+               (377614654, 0),
+               (377614655, 3)),
+              ('ALFARO',
+               'osm-review-586622011',
+               377614434,
+               586622011,
+               False,
+               (46035985, 1),
+               (46035985, 1)),
+              ('TUDELA',
+               'osm-review-259503042',
+               377613789,
+               259503042,
+               False,
+               (90866942, 0),
+               (90866891, 2)),
+              ('GALLUR',
+               'osm-review-387909561',
+               377613794,
+               387909570,
+               False,
+               (33858969, 0),
+               (1443674498, 9))]}
+
+# Lodosa has distinct northern/southern ramps; the two southern booths are
+# staggered, so a single averaged cross-section would cut the main motorway.
+_ap68 = SPECS['ap68-central']
+_ap68['extraCoverageWays'] = [285411608,429454304,429454303,171709969,298767814,1112540177,1112540187]
+_ap68['orderedZones'] = _ap68['filterFareZones']
+_ap68['zoneAliases'] = {'LODOSA-norte':'LODOSA'}
+_ap68['reverseSideSuffix'] = '-norte'
+_ap68['accesses'] = [((r[0],r[1],r[2],r[3],r[4],(146975088,0),(146975088,0)) if r[0]=='ZIORRAGA' else r) for r in _ap68['accesses'] if r[0]!='LODOSA']
+_ap68['logicalAccesses'] = [
+ ('LODOSA',(377614831,3467987593,586607526),(377614830,586612629,278301856)),
+ ('LODOSA-norte',(1112540177,10178659825,278301854),(1112540187,10178659909,10178659889)),
+]
+
+# Expand the continuous AP-68 OD network. Special service-area turnaround rows
+# remain unmapped; they must not be treated as ordinary town aliases.
+_ap68['filterFareZones'] = ['BILBAO','ARRIGORRIAGA','ARETA','LLODIO'] + _ap68['filterFareZones'][:14] + ['AUTOP.NAVARRA'] + _ap68['filterFareZones'][14:] + ['ALAGÓN pk 272','ALAGÓN pk 275','ZARAGOZA']
+_ap68['orderedZones'] = _ap68['filterFareZones']
+_ap68['expectedDirectedFares'] = 462
+_ap68['zoneAliases']['ARRIGORRIAGA-norte'] = 'ARRIGORRIAGA'
+_ap68['logicalAccesses'] += [
+ ('BILBAO',(24952572,271151333,99107204),(676841650,252023484,243084624)),
+ ('ARRIGORRIAGA',(260615835,4009815198,523970989),(42133322,523971125,3237634590)),
+ ('ARRIGORRIAGA-norte',None,(260615835,4009815198,523970989,True)),
+ ('ARETA',(377620824,3810033389,524008739),(377620822,524008698,524008710)),
+ ('LLODIO',(1366209671,3810020031,12652209417),(56757159,317019556,3057035155)),
+ ('AUTOP.NAVARRA',(377614262,35292661,3428250391),(377614260,46749302,3428250389)),
+ ('ALAGÓN pk 272',(377612923,41193952,10183197955),(377612919,1055475079,10183197954)),
+ ('ALAGÓN pk 275',(377612926,586334530,586334578),(377612924,586334591,586334578)),
+ ('ZARAGOZA',(24953271,13231740093,41270640),(24953008,271156308,252336289)),
+]
+_ap68['extraCoverageWays'] += [9929774,23305524,23753893,23941224,306228903,377614260,377614261,377614262,768780827,780339955,780339956,1366209671]
+_ap68['probeObservedJourneys'] = {'ZARAGOZA--ALAGÓN pk 272':[('ZARAGOZA','GALLUR'),('GALLUR','ALAGÓN pk 272')]}
+SPECS['ap68'] = SPECS.pop('ap68-central')
+
+SPECS['ap1-closed'] = {'ref': 'AP-1',
+ 'bbox': [42.9, -2.73, 43.22, -2.4],
+ 'tariffFamily': 'ap8-ap1-full',
+ 'tollId': 'es-ap1-gipuzkoa',
+ 'expectedDirectedFares': 20,
+ 'filterFareZones': ['Bergara H/S', 'Arrasate-Mondragón', 'Eskoriatza', 'Luko', 'Etxabarri-Ibiña'],
+ 'tariffZoneAliases': {'Bergara H/S': 'BERGARA-SUR',
+                       'Arrasate-Mondragón': 'ARRASATE',
+                       'Eskoriatza': 'ESKORIATZA',
+                       'Luko': 'LUKO',
+                       'Etxabarri-Ibiña': 'ETXABARRI'},
+ 'accesses': [('BERGARA-SUR',
+               'osm-review-2125622899',
+               592652311,
+               2125622901,
+               False,
+               (27278035, 7),
+               (27278036, 3)),
+              ('ARRASATE',
+               'osm-review-506110',
+               596194411,
+               299452144,
+               False,
+               (27286083, 0),
+               (4969102, 30)),
+              ('ESKORIATZA',
+               'osm-review-367993623',
+               44136636,
+               367993623,
+               False,
+               (44136636, 15),
+               (44136636, 15)),
+              ('LUKO',
+               'osm-review-4890014453',
+               497445433,
+               4890014453,
+               False,
+               (188926867, 1),
+               (188926867, 1)),
+              ('ETXABARRI',
+               'osm-review-360856595',
+               342760153,
+               1797912452,
+               False,
+               (305516281, 2),
+               (342760151, 1))],
+ 'extraCoverageWays': [27276795, 592652311, 27278035, 27278036]}
+
 with gzip.open(ROOT / 'audit/2026-09-16/spain-graph/graph.json.gz', 'rt') as f:
     graph = json.load(f)
 review = json.loads((ROOT / 'audit/2026-09-16/spain-graph/access-review.json').read_text())
@@ -308,7 +524,7 @@ for family, spec in SPECS.items():
            'pricing': {'kind': 'od', 'chargedAt': 'exit', 'entries': [g['id'] for g in gates if g['id'].endswith('-entry')],
                        'exits': [g['id'] for g in gates if g['id'].endswith('-exit')], 'fares': fares},
            'coverageWays': [{'id': str(wid), 'version': ways[wid]['version'], 'line': [point(n) for n in ways[wid]['nodes']]} for wid in sorted(selected)],
-           'evidence': {'checked': '2026-09-16', 'tariffSources': [refs['source']]+([refs['discountSource']['url']] if refs.get('discountSource') else [])+[p[2] for p in spec.get('freePairs',[])]+spec.get('additionalSources',[]), 'geometrySource': 'https://www.openstreetmap.org/copyright'}}
+           'evidence': {'checked': '2026-09-16', 'tariffSources': [refs['source']]+([refs['validitySource']] if refs.get('validitySource') else [])+([refs['discountSource']['url']] if refs.get('discountSource') else [])+[p[2] for p in spec.get('freePairs',[])]+spec.get('additionalSources',[]), 'geometrySource': 'https://www.openstreetmap.org/copyright'}}
     if family == 'ap66':
         net['avoidanceGateIds'] = [g['id'] for g in gates if g['id'].endswith('-entry')]
     if family == 'r2':
@@ -339,7 +555,11 @@ for family, spec in SPECS.items():
             journeys[a+'--'+b] = {'entry':locations[entry]['entry'],'exit':locations[exit]['exit'], 'expectedGates':[entry+'-entry',exit+'-exit']}
     for name, via_nodes in spec.get('probeViaNodes',{}).items():
         journeys[name]['via'] = [point(node) for node in via_nodes]
-    (out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'canonicalProbeZones':sorted({f['from'].removesuffix('-entry') for f in canonical_fares}), **({'probeJourneys':journeys} if journeys else {}), 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2)+'\n')
+    annotations = {}
+    for name, pairs in spec.get('probeObservedJourneys',{}).items():
+        observed = [{'from':a,'to':b,'cents':next(f['tariff']['baseCents'] for f in canonical_fares if f['from']==a+'-entry' and f['to']==b+'-exit')} for a,b in pairs]
+        annotations[name] = {'observedJourneys':observed,'expectedActualCents':sum(r['cents'] for r in observed),'expectedGates':[gate for a,b in pairs for gate in (a+'-entry',b+'-exit')],'notes':'Committed one-way destination creates separate charged journeys. This is not validation of the requested direct fare; public arrival is checked separately.'}
+    (out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'canonicalProbeZones':sorted({f['from'].removesuffix('-entry') for f in canonical_fares}), **({'probeJourneys':journeys} if journeys else {}), **({'probeAnnotations':annotations} if annotations else {}), 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2)+'\n')
     print(family, len(gates), 'gates', len(fares), 'OD fares', len(selected), 'ways')
 
 # Regenerate the combined candidate offline with the five audited subsystems.

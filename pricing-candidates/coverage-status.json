@@ -101,10 +101,13 @@
       "tariffArtifacts": [
         "pricing-candidates/ap68-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap68.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Ordinary OD geometry mapped; special service-area turnaround tariff, all lane/public/free access checks, regional discounts and avoidance remain open.",
+        "One committed Alagón 272 reverse endpoint produces a Gallur loop; do not certify that loop as the direct 335-cent journey.",
         "Current tariff validity ends with the concession on 2026-11-10; post-concession charges/free status require new evidence."
       ]
     },
@@ -515,25 +518,30 @@
     {
       "catalogId": "es-ap8-gipuzkoa",
       "tariffArtifacts": [
-        "pricing-candidates/ap8-ap1-joint-tariffs.json"
+        "pricing-candidates/ap8-ap1-joint-tariffs.json",
+        "pricing-candidates/ap8-ap1-full-tariffs.json",
+        "pricing-candidates/ap8-east-tariffs.json"
       ],
       "geometryCandidates": [],
       "ready": false,
       "blockers": [
         "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Complete eastern Gipuzkoa open-system tariff cases and map joint AP-8/AP-1 settlement without regional double charging."
+        "Eastern Gipuzkoa tariff references imported, including conditional Oñaurre; physical mapping and joint AP-8/AP-1 settlement remain open."
       ]
     },
     {
       "catalogId": "es-ap1-gipuzkoa",
       "tariffArtifacts": [
-        "pricing-candidates/ap8-ap1-joint-tariffs.json"
+        "pricing-candidates/ap8-ap1-joint-tariffs.json",
+        "pricing-candidates/ap8-ap1-full-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap1-closed.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Complete eastern Gipuzkoa open-system tariff cases and map joint AP-8/AP-1 settlement without regional double charging."
+        "Twenty internal Bergara Sur–Etxabarri directed journeys are mapped; northern AP-8/AP-1 shared settlement and Bergara Norte remain open.",
+        "All public access/lane, discount and avoidance checks remain open."
       ]
     },
     {
@@ -562,13 +570,14 @@
     {
       "catalogId": "es-ap8-bizkaia",
       "tariffArtifacts": [
-        "pricing-candidates/ap8-ap1-joint-tariffs.json"
+        "pricing-candidates/ap8-ap1-joint-tariffs.json",
+        "pricing-candidates/ap8-ap1-full-tariffs.json"
       ],
       "geometryCandidates": [],
       "ready": false,
       "blockers": [
         "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Complete eastern Gipuzkoa open-system tariff cases and map joint AP-8/AP-1 settlement without regional double charging."
+        "Eastern Gipuzkoa tariff references imported, including conditional Oñaurre; physical mapping and joint AP-8/AP-1 settlement remain open."
       ]
     },
     {

@@ -1,0 +1,44 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 41.7765004,
+        "lon": -1.1180083
+      },
+      {
+        "lat": 41.772125,
+        "lon": -1.1433139
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 335,
+  "observedJourneys": [
+    {
+      "from": "ZARAGOZA",
+      "to": "GALLUR",
+      "cents": 615
+    },
+    {
+      "from": "GALLUR",
+      "to": "ALAGÓN pk 272",
+      "cents": 350
+    }
+  ],
+  "expectedActualCents": 965,
+  "expectedGates": [
+    "ZARAGOZA-entry",
+    "GALLUR-exit",
+    "GALLUR-entry",
+    "ALAGÓN pk 272-exit"
+  ],
+  "notes": "The committed one-way destination forces a Gallur turnaround. This validates two observed settlements, NOT the requested direct 335-cent journey. Public destination tested separately."
+}

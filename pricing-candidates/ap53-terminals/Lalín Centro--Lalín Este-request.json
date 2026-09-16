@@ -1,0 +1,35 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.6483039,
+        "lon": -8.1096642
+      },
+      {
+        "lat": 42.6245315,
+        "lon": -8.1053545,
+        "type": "through"
+      },
+      {
+        "lat": 42.6239401,
+        "lon": -8.0933454
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 0,
+  "sourceEndpointNodes": [
+    181312587,
+    373361714,
+    181312551
+  ],
+  "purpose": "free internal terminal movement, forced onto the actual AP-53"
+}

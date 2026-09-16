@@ -1,0 +1,296 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "Cartagena",
+      "reviewGroup": "osm-review-186853438",
+      "booths": [
+        186853438,
+        295558078
+      ],
+      "entryWay": 384760606,
+      "version": 9,
+      "entryBooth": 295558078,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 37.6421215159626,
+          "lng": -1.041777764381657
+        },
+        {
+          "lat": 37.641813384037405,
+          "lng": -1.041862735618343
+        }
+      ]
+    },
+    {
+      "zone": "Las Palas",
+      "reviewGroup": "osm-review-186852042",
+      "booths": [
+        186852042,
+        1477914513
+      ],
+      "entryWay": 131391524,
+      "version": 6,
+      "entryBooth": 186852042,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 37.64784692898084,
+          "lng": -1.178285084094734
+        },
+        {
+          "lat": 37.64761807101916,
+          "lng": -1.1782880159052664
+        }
+      ]
+    },
+    {
+      "zone": "Mazarrón",
+      "reviewGroup": "osm-review-264688958",
+      "booths": [
+        264688958,
+        12195595280
+      ],
+      "entryWay": 769371991,
+      "version": 3,
+      "entryBooth": 12195595280,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 37.599787833461015,
+          "lng": -1.3358323742230072
+        },
+        {
+          "lat": 37.599884266538986,
+          "lng": -1.3361301257769929
+        }
+      ]
+    },
+    {
+      "zone": "Ramonete",
+      "reviewGroup": "osm-review-1535236954",
+      "booths": [
+        1535236954,
+        1540469071
+      ],
+      "entryWay": 140645747,
+      "version": 3,
+      "entryBooth": 1535236954,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 37.5470624734669,
+          "lng": -1.4359098911608734
+        },
+        {
+          "lat": 37.5468079265331,
+          "lng": -1.4358707088391267
+        }
+      ]
+    },
+    {
+      "zone": "Cabo Cope",
+      "reviewGroup": "osm-review-1454017078",
+      "booths": [
+        1454017078,
+        1454017080
+      ],
+      "entryWay": 140645745,
+      "version": 2,
+      "entryBooth": 1454017080,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 37.49248100974382,
+          "lng": -1.5068054104036102
+        },
+        {
+          "lat": 37.49228909025617,
+          "lng": -1.506953589596386
+        }
+      ]
+    },
+    {
+      "zone": "Águilas",
+      "reviewGroup": "osm-review-2431640698",
+      "booths": [
+        2431640698,
+        2431640699
+      ],
+      "entryWay": 1318528135,
+      "version": 1,
+      "entryBooth": 2431640698,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 37.43620404489201,
+          "lng": -1.6200756561910832
+        },
+        {
+          "lat": 37.43635965510799,
+          "lng": -1.6202758438089169
+        }
+      ]
+    },
+    {
+      "zone": "Pulpí",
+      "reviewGroup": "osm-review-1537685703",
+      "booths": [
+        1537685703,
+        1537685713
+      ],
+      "entryWay": 1319109532,
+      "version": 1,
+      "entryBooth": 1537685713,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 37.390683544445515,
+          "lng": -1.7274392556087066
+        },
+        {
+          "lat": 37.39057525555449,
+          "lng": -1.7271666443912934
+        }
+      ]
+    },
+    {
+      "zone": "Cuevas del Almanzora",
+      "reviewGroup": "osm-review-3100395406",
+      "booths": [
+        3100395406,
+        3100400452
+      ],
+      "entryWay": 179755312,
+      "version": 4,
+      "entryBooth": 3100395406,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 37.30550588347558,
+          "lng": -1.7995914294079502
+        },
+        {
+          "lat": 37.30564591652442,
+          "lng": -1.7998129705920498
+        }
+      ]
+    },
+    {
+      "zone": "Vera",
+      "reviewGroup": "osm-review-264694281",
+      "booths": [
+        264694281,
+        299818774
+      ],
+      "entryWay": 1319348645,
+      "version": 3,
+      "entryBooth": 299818774,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 37.26152540766462,
+          "lng": -1.8803387991167908
+        },
+        {
+          "lat": 37.261818792335376,
+          "lng": -1.8804297008832094
+        }
+      ]
+    }
+  ],
+  "probeLocations": {
+    "Cartagena": {
+      "entry": {
+        "lat": 37.6419433,
+        "lng": -1.0295604
+      },
+      "exit": {
+        "lat": 37.6408166,
+        "lng": -1.0351233
+      }
+    },
+    "Las Palas": {
+      "entry": {
+        "lat": 37.6477559,
+        "lng": -1.1768
+      },
+      "exit": {
+        "lat": 37.6477559,
+        "lng": -1.1768
+      }
+    },
+    "Mazarrón": {
+      "entry": {
+        "lat": 37.5988667,
+        "lng": -1.3364267
+      },
+      "exit": {
+        "lat": 37.5988667,
+        "lng": -1.3364267
+      }
+    },
+    "Ramonete": {
+      "entry": {
+        "lat": 37.5470315,
+        "lng": -1.4347947
+      },
+      "exit": {
+        "lat": 37.5470315,
+        "lng": -1.4347947
+      }
+    },
+    "Cabo Cope": {
+      "entry": {
+        "lat": 37.4919684,
+        "lng": -1.5060499
+      },
+      "exit": {
+        "lat": 37.4919684,
+        "lng": -1.5060499
+      }
+    },
+    "Águilas": {
+      "entry": {
+        "lat": 37.4353903,
+        "lng": -1.6213632
+      },
+      "exit": {
+        "lat": 37.4353903,
+        "lng": -1.6213632
+      }
+    },
+    "Pulpí": {
+      "entry": {
+        "lat": 37.3913479,
+        "lng": -1.7268727
+      },
+      "exit": {
+        "lat": 37.3913479,
+        "lng": -1.7268727
+      }
+    },
+    "Cuevas del Almanzora": {
+      "entry": {
+        "lat": 37.3050208,
+        "lng": -1.8001829
+      },
+      "exit": {
+        "lat": 37.3050208,
+        "lng": -1.8001829
+      }
+    },
+    "Vera": {
+      "entry": {
+        "lat": 37.2611447,
+        "lng": -1.8825149
+      },
+      "exit": {
+        "lat": 37.2612645,
+        "lng": -1.882569
+      }
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

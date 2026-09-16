@@ -12,13 +12,17 @@ ways={w['id']:w for w in d['ways']};nodes=d['nodes'];pts={p['id']:p for p in d['
 for w in ways.values():
  for n in w['nodes']:at[n].add(w['id'])
 selected={w['id'] for w in ways.values() if w['tags'].get('ref')=='AP-53'}
+# Dozón terminal boundary: the road reference changes to AG-53 just before
+# exit 56. Provider maneuvers span that free connector and the N-525 approach.
+selected.update([237087438,147588076,66835415])
 for _ in range(12):
  added=set()
  for wid in selected:
   for n in ways[wid]['nodes']:
    for other in at[n]-selected:
     t=ways[other]['tags']
-    if t.get('highway') in ['motorway_link','motorway','service'] and t.get('toll')=='yes' and t.get('ref') in [None,'AP-53']:added.add(other)
+    free_terminal_ramp=t.get('highway') in ['motorway_link','trunk_link'] and all(nodes[str(n)][0]<42.704 and nodes[str(n)][1]>-8.23 for n in ways[other]['nodes'])
+    if t.get('highway') in ['motorway_link','trunk_link','motorway','service'] and (t.get('toll')=='yes' or free_terminal_ramp) and t.get('ref') in [None,'AP-53']:added.add(other)
  selected.update(added)
  if not added:break
 
@@ -69,6 +73,29 @@ for row in refs['ods']:
  if key in pairs:assert pairs[key]==row['tariff']
  pairs[key]=row['tariff'];pairs[(b,a)]=row['tariff']
 assert len(pairs)==20
+# ACEGA/BOE: Via-T may qualify for a free reverse journey within 24h and
+# retrospective monthly recurrence discounts. Without trip history, preserve
+# the full supported 0..general interval; cash/card retains the general fare.
+for pair,tariff in list(pairs.items()):
+ pairs[pair]={'baseCents':tariff['baseCents'],'bands':[{'cents':0,'maxCents':tariff['baseCents'],'requires':['payment:via-t']}]}
+
 network={'id':'es-ap53','tollId':'es-ap53','validFrom':'2026-01-01','validThrough':'2026-12-31','timeZone':'Europe/Madrid','gates':gates,'pricing':{'kind':'od','chargedAt':'exit','entries':[k for k,v in roles.items() if v[1]=='entry'],'exits':[k for k,v in roles.items() if v[1]=='exit'],'fares':[{'from':entry,'to':exit,'tariff':pairs[(a,b)]} for entry,(a,role) in roles.items() if role=='entry' for exit,(b,other_role) in roles.items() if other_role=='exit' and (a,b) in pairs]},'coverageWays':[{'id':str(wid),'version':ways[wid]['version'],'line':[point(n) for n in ways[wid]['nodes']]} for wid in sorted(selected)],'evidence':{'checked':'2026-09-16','tariffSources':[refs['source'],'https://acega.es/tarifas/'],'geometrySource':'https://www.openstreetmap.org/copyright'}}
-toll=next(t for t in json.loads((ROOT/'tolls-es.json').read_text())['tolls'] if t['id']=='es-ap53');doc={'generated':'2026-09-16','schema':2,'currency':'EUR','complete':False,'tolls':[toll],'pricing':[network],'notes_global':'Development candidate; © OpenStreetMap contributors. General light-vehicle fares only. Closed trips and unlisted zone-internal trips remain unavailable.'}
+network['avoidanceGateIds']=network['pricing']['entries']
+# Source-backed free terminal region, entirely beyond the southern collection
+# boundary. Keep the plaza approach outside this exception (conservative gap).
+free_source='https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx'
+for way in network['coverageWays']:
+ if all(p['lat']<42.704 and p['lng']>-8.23 for p in way['line']):
+  ref=ways[int(way['id'])]['tags'].get('ref')
+  if ref=='AG-53':
+   way['freeTravelSource']='https://www.xunta.gal/es/notas-de-prensa/-/nova/85353/xunta-acuerda-solicitarle-gobierno-espana-liberacion-del-peaje-53-para-unificar'
+  elif ref=='N-525':
+   way['freeTravelSource']='https://www.openstreetmap.org/way/'+way['id']+'/history'
+  else:
+   way['freeTravelSource']=free_source
+ elif ways[int(way['id'])]['tags'].get('toll')=='no' and all(p['lat']>42.832 for p in way['line']):
+  way['freeTravelSource']='https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770'
+network['evidence']['tariffSources'].append(free_source)
+
+toll=next(t for t in json.loads((ROOT/'tolls-es.json').read_text())['tolls'] if t['id']=='es-ap53');doc={'generated':'2026-09-16','schema':3,'currency':'EUR','complete':False,'tolls':[toll],'pricing':[network],'notes_global':'Development candidate; © OpenStreetMap contributors. General light-vehicle fares; Via-T uses an explicit 0..general range when return/monthly history is unknown. Closed trips and unlisted zone-internal trips remain unavailable.'}
 (ROOT/'pricing-candidates/ap53.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n');out=ROOT/'audit/2026-09-16/networks/ap53';out.mkdir(exist_ok=True);(out/'provenance.json').write_text(json.dumps({'gates':evidence,'source':'../../spain-graph/provenance.json','aliases':{'Lalín Oeste/Centro/Este and Alto de Santo Domingo':'Lalín','Ribadull (PDF typo)':'Ribadulla'},'aliasEvidence':'All collapsed tariff rows have equal published fares; BOE-A-2025-7166 also defines Lalín as Alto de Santo Domingo for journey purposes.','status':'candidate_pending_real_routes'},ensure_ascii=False,indent=2)+'\n');print(len(gates),'gates',len(pairs),'directed OD pairs',len(selected),'coverage ways')

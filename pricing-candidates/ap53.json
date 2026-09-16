@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-16",
-  "schema": 2,
+  "schema": 3,
   "currency": "EUR",
   "complete": false,
   "tolls": [
@@ -209,7 +209,15 @@
             "to": "Lalín-exit",
             "tariff": {
               "baseCents": 725,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 725,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -217,7 +225,15 @@
             "to": "Ribadulla-exit",
             "tariff": {
               "baseCents": 200,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 200,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -225,7 +241,15 @@
             "to": "Bandeira-exit",
             "tariff": {
               "baseCents": 330,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 330,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -233,7 +257,15 @@
             "to": "Silleda-exit",
             "tariff": {
               "baseCents": 435,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 435,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -241,7 +273,15 @@
             "to": "Santiago-exit",
             "tariff": {
               "baseCents": 725,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 725,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -249,7 +289,15 @@
             "to": "Ribadulla-exit",
             "tariff": {
               "baseCents": 535,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 535,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -257,7 +305,15 @@
             "to": "Bandeira-exit",
             "tariff": {
               "baseCents": 425,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 425,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -265,7 +321,15 @@
             "to": "Silleda-exit",
             "tariff": {
               "baseCents": 300,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 300,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -273,7 +337,15 @@
             "to": "Santiago-exit",
             "tariff": {
               "baseCents": 200,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 200,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -281,7 +353,15 @@
             "to": "Lalín-exit",
             "tariff": {
               "baseCents": 535,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 535,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -289,7 +369,15 @@
             "to": "Bandeira-exit",
             "tariff": {
               "baseCents": 140,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 140,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -297,7 +385,15 @@
             "to": "Silleda-exit",
             "tariff": {
               "baseCents": 245,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 245,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -305,7 +401,15 @@
             "to": "Santiago-exit",
             "tariff": {
               "baseCents": 330,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 330,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -313,7 +417,15 @@
             "to": "Lalín-exit",
             "tariff": {
               "baseCents": 425,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 425,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -321,7 +433,15 @@
             "to": "Ribadulla-exit",
             "tariff": {
               "baseCents": 140,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 140,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -329,7 +449,15 @@
             "to": "Silleda-exit",
             "tariff": {
               "baseCents": 135,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 135,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -337,7 +465,15 @@
             "to": "Santiago-exit",
             "tariff": {
               "baseCents": 435,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 435,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -345,7 +481,15 @@
             "to": "Lalín-exit",
             "tariff": {
               "baseCents": 300,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 300,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -353,7 +497,15 @@
             "to": "Ribadulla-exit",
             "tariff": {
               "baseCents": 245,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 245,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -361,7 +513,15 @@
             "to": "Bandeira-exit",
             "tariff": {
               "baseCents": 135,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 135,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -369,7 +529,15 @@
             "to": "Santiago-exit",
             "tariff": {
               "baseCents": 435,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 435,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -377,7 +545,15 @@
             "to": "Lalín-exit",
             "tariff": {
               "baseCents": 300,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 300,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -385,7 +561,15 @@
             "to": "Ribadulla-exit",
             "tariff": {
               "baseCents": 245,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 245,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           },
           {
@@ -393,7 +577,15 @@
             "to": "Bandeira-exit",
             "tariff": {
               "baseCents": 135,
-              "bands": []
+              "bands": [
+                {
+                  "cents": 0,
+                  "maxCents": 135,
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
             }
           }
         ]
@@ -447,7 +639,8 @@
               "lat": 42.8498677,
               "lng": -8.5328094
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "23596967",
@@ -653,7 +846,63 @@
               "lat": 42.6887112,
               "lng": -8.175736
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "33085733",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.6734698,
+              "lng": -8.161381
+            },
+            {
+              "lat": 42.6734396,
+              "lng": -8.1612408
+            },
+            {
+              "lat": 42.6733898,
+              "lng": -8.1610852
+            },
+            {
+              "lat": 42.6732842,
+              "lng": -8.1608776
+            },
+            {
+              "lat": 42.6731461,
+              "lng": -8.1606698
+            },
+            {
+              "lat": 42.6729588,
+              "lng": -8.1602996
+            },
+            {
+              "lat": 42.6725446,
+              "lng": -8.1594242
+            },
+            {
+              "lat": 42.6723761,
+              "lng": -8.1590712
+            },
+            {
+              "lat": 42.6720848,
+              "lng": -8.1584437
+            },
+            {
+              "lat": 42.6719124,
+              "lng": -8.1580276
+            },
+            {
+              "lat": 42.6717011,
+              "lng": -8.1574695
+            },
+            {
+              "lat": 42.6714739,
+              "lng": -8.1565789
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "33085768",
@@ -699,7 +948,8 @@
               "lat": 42.7002133,
               "lng": -8.2058047
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "33085774",
@@ -837,7 +1087,8 @@
               "lat": 42.6890072,
               "lng": -8.1769374
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "58071798",
@@ -1042,6 +1293,37 @@
               "lng": -8.4116478
             }
           ]
+        },
+        {
+          "id": "66835415",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.5783265,
+              "lng": -8.0607381
+            },
+            {
+              "lat": 42.5795682,
+              "lng": -8.0608881
+            },
+            {
+              "lat": 42.5803901,
+              "lng": -8.0609686
+            },
+            {
+              "lat": 42.5811073,
+              "lng": -8.0610341
+            },
+            {
+              "lat": 42.5814741,
+              "lng": -8.0610817
+            },
+            {
+              "lat": 42.581723,
+              "lng": -8.0611225
+            }
+          ],
+          "freeTravelSource": "https://www.openstreetmap.org/way/66835415/history"
         },
         {
           "id": "82719228",
@@ -2523,7 +2805,8 @@
               "lat": 42.8395593,
               "lng": -8.5291228
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "97996936",
@@ -2537,7 +2820,8 @@
               "lat": 42.8405466,
               "lng": -8.529374
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "97996939",
@@ -2551,7 +2835,8 @@
               "lat": 42.8421281,
               "lng": -8.5296141
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "97996941",
@@ -2565,7 +2850,8 @@
               "lat": 42.8416773,
               "lng": -8.5294704
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "98020179",
@@ -4313,7 +4599,8 @@
               "lat": 42.7027251,
               "lng": -8.2101167
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "98171700",
@@ -4680,6 +4967,89 @@
           ]
         },
         {
+          "id": "98241867",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.61715,
+              "lng": -8.0978212
+            },
+            {
+              "lat": 42.6174885,
+              "lng": -8.0977514
+            },
+            {
+              "lat": 42.6176552,
+              "lng": -8.0977095
+            },
+            {
+              "lat": 42.617956,
+              "lng": -8.0976209
+            },
+            {
+              "lat": 42.6182043,
+              "lng": -8.0975544
+            },
+            {
+              "lat": 42.6184906,
+              "lng": -8.0975101
+            },
+            {
+              "lat": 42.6187533,
+              "lng": -8.0975224
+            },
+            {
+              "lat": 42.6190033,
+              "lng": -8.0975716
+            },
+            {
+              "lat": 42.6195651,
+              "lng": -8.0977489
+            },
+            {
+              "lat": 42.6202065,
+              "lng": -8.09801
+            },
+            {
+              "lat": 42.6205272,
+              "lng": -8.0981084
+            },
+            {
+              "lat": 42.620761,
+              "lng": -8.0981134
+            },
+            {
+              "lat": 42.6209331,
+              "lng": -8.0980666
+            },
+            {
+              "lat": 42.6210726,
+              "lng": -8.09801
+            },
+            {
+              "lat": 42.6212737,
+              "lng": -8.0978573
+            },
+            {
+              "lat": 42.6215038,
+              "lng": -8.0975766
+            },
+            {
+              "lat": 42.6216403,
+              "lng": -8.0974015
+            },
+            {
+              "lat": 42.6217349,
+              "lng": -8.0972944
+            },
+            {
+              "lat": 42.6218328,
+              "lng": -8.0972373
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
           "id": "98241869",
           "version": 10,
           "line": [
@@ -4803,7 +5173,8 @@
               "lat": 42.6616558,
               "lng": -8.144869
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "98241870",
@@ -4933,7 +5304,192 @@
               "lat": 42.6716301,
               "lng": -8.1567391
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98241871",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.6226836,
+              "lng": -8.1009813
+            },
+            {
+              "lat": 42.6224569,
+              "lng": -8.1008047
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98241875",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.6716301,
+              "lng": -8.1567391
+            },
+            {
+              "lat": 42.671742,
+              "lng": -8.1569269
+            },
+            {
+              "lat": 42.6718387,
+              "lng": -8.1571693
+            },
+            {
+              "lat": 42.6720144,
+              "lng": -8.1575294
+            },
+            {
+              "lat": 42.6726992,
+              "lng": -8.1586686
+            },
+            {
+              "lat": 42.6730012,
+              "lng": -8.1591473
+            },
+            {
+              "lat": 42.6730648,
+              "lng": -8.159196
+            },
+            {
+              "lat": 42.6731404,
+              "lng": -8.1592237
+            },
+            {
+              "lat": 42.6732266,
+              "lng": -8.1592237
+            },
+            {
+              "lat": 42.6733153,
+              "lng": -8.1591935
+            },
+            {
+              "lat": 42.6733874,
+              "lng": -8.1591457
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98241877",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.6406392,
+              "lng": -8.1325394
+            },
+            {
+              "lat": 42.6402874,
+              "lng": -8.1325855
+            },
+            {
+              "lat": 42.6401288,
+              "lng": -8.1325901
+            },
+            {
+              "lat": 42.6399128,
+              "lng": -8.1326222
+            },
+            {
+              "lat": 42.6397441,
+              "lng": -8.1326405
+            },
+            {
+              "lat": 42.6395401,
+              "lng": -8.1326475
+            },
+            {
+              "lat": 42.6393392,
+              "lng": -8.1326543
+            },
+            {
+              "lat": 42.6391751,
+              "lng": -8.132651
+            },
+            {
+              "lat": 42.6391097,
+              "lng": -8.1326497
+            },
+            {
+              "lat": 42.6386609,
+              "lng": -8.1326038
+            },
+            {
+              "lat": 42.6384686,
+              "lng": -8.132558
+            },
+            {
+              "lat": 42.6383201,
+              "lng": -8.1325258
+            },
+            {
+              "lat": 42.6382054,
+              "lng": -8.1325396
+            },
+            {
+              "lat": 42.638094,
+              "lng": -8.1325992
+            },
+            {
+              "lat": 42.6379658,
+              "lng": -8.1326635
+            },
+            {
+              "lat": 42.6378664,
+              "lng": -8.1326985
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98241880",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.6264243,
+              "lng": -8.094817
+            },
+            {
+              "lat": 42.6264056,
+              "lng": -8.094598
+            },
+            {
+              "lat": 42.6263759,
+              "lng": -8.0945331
+            },
+            {
+              "lat": 42.6262962,
+              "lng": -8.0943804
+            },
+            {
+              "lat": 42.6262473,
+              "lng": -8.0943459
+            },
+            {
+              "lat": 42.6261712,
+              "lng": -8.0943041
+            },
+            {
+              "lat": 42.6260172,
+              "lng": -8.0942548
+            },
+            {
+              "lat": 42.625557,
+              "lng": -8.0941046
+            },
+            {
+              "lat": 42.6251555,
+              "lng": -8.0939925
+            },
+            {
+              "lat": 42.624928,
+              "lng": -8.0938757
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "98241882",
@@ -5087,7 +5643,8 @@
               "lat": 42.6422077,
               "lng": -8.1325474
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "98241890",
@@ -5105,7 +5662,67 @@
               "lat": 42.660753,
               "lng": -8.1436733
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98241891",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.6757599,
+              "lng": -8.1620884
+            },
+            {
+              "lat": 42.6755871,
+              "lng": -8.1620799
+            },
+            {
+              "lat": 42.675433,
+              "lng": -8.1620122
+            },
+            {
+              "lat": 42.6749581,
+              "lng": -8.1618026
+            },
+            {
+              "lat": 42.6747244,
+              "lng": -8.1616876
+            },
+            {
+              "lat": 42.6745355,
+              "lng": -8.1616132
+            },
+            {
+              "lat": 42.6743714,
+              "lng": -8.1615523
+            },
+            {
+              "lat": 42.6741974,
+              "lng": -8.1614881
+            },
+            {
+              "lat": 42.6741203,
+              "lng": -8.1614678
+            },
+            {
+              "lat": 42.6740457,
+              "lng": -8.1614746
+            },
+            {
+              "lat": 42.6739786,
+              "lng": -8.1615118
+            },
+            {
+              "lat": 42.6739189,
+              "lng": -8.1615659
+            },
+            {
+              "lat": 42.6738778,
+              "lng": -8.161623
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "98241906",
@@ -5321,7 +5938,8 @@
               "lat": 42.5800113,
               "lng": -8.0660125
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "98241925",
@@ -5339,7 +5957,182 @@
               "lat": 42.6616731,
               "lng": -8.1446905
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98241932",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.6355571,
+              "lng": -8.130188
+            },
+            {
+              "lat": 42.6357285,
+              "lng": -8.1302599
+            },
+            {
+              "lat": 42.6358669,
+              "lng": -8.1303516
+            },
+            {
+              "lat": 42.6360221,
+              "lng": -8.1304479
+            },
+            {
+              "lat": 42.6361672,
+              "lng": -8.1305076
+            },
+            {
+              "lat": 42.6362448,
+              "lng": -8.1305351
+            },
+            {
+              "lat": 42.6363258,
+              "lng": -8.130558
+            },
+            {
+              "lat": 42.6364068,
+              "lng": -8.1305901
+            },
+            {
+              "lat": 42.6364912,
+              "lng": -8.1306075
+            },
+            {
+              "lat": 42.6365856,
+              "lng": -8.1306268
+            },
+            {
+              "lat": 42.6366666,
+              "lng": -8.1306497
+            },
+            {
+              "lat": 42.6367308,
+              "lng": -8.1306589
+            },
+            {
+              "lat": 42.6368387,
+              "lng": -8.1306819
+            },
+            {
+              "lat": 42.6368967,
+              "lng": -8.1306964
+            },
+            {
+              "lat": 42.6371021,
+              "lng": -8.1307429
+            },
+            {
+              "lat": 42.6373011,
+              "lng": -8.130795
+            },
+            {
+              "lat": 42.6374608,
+              "lng": -8.1308388
+            },
+            {
+              "lat": 42.6375642,
+              "lng": -8.1308653
+            },
+            {
+              "lat": 42.6378308,
+              "lng": -8.1309571
+            },
+            {
+              "lat": 42.6380569,
+              "lng": -8.1310672
+            },
+            {
+              "lat": 42.6381548,
+              "lng": -8.1311268
+            },
+            {
+              "lat": 42.6382695,
+              "lng": -8.1311818
+            },
+            {
+              "lat": 42.6383674,
+              "lng": -8.1312231
+            },
+            {
+              "lat": 42.6384948,
+              "lng": -8.1312595
+            },
+            {
+              "lat": 42.6385833,
+              "lng": -8.1312562
+            },
+            {
+              "lat": 42.6387444,
+              "lng": -8.1312382
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98241936",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.6389863,
+              "lng": -8.1315328
+            },
+            {
+              "lat": 42.6390389,
+              "lng": -8.131636
+            },
+            {
+              "lat": 42.639076,
+              "lng": -8.1316864
+            },
+            {
+              "lat": 42.6391232,
+              "lng": -8.1317369
+            },
+            {
+              "lat": 42.6392042,
+              "lng": -8.1317598
+            },
+            {
+              "lat": 42.6392886,
+              "lng": -8.1317919
+            },
+            {
+              "lat": 42.6397644,
+              "lng": -8.1318699
+            },
+            {
+              "lat": 42.6400208,
+              "lng": -8.1319204
+            },
+            {
+              "lat": 42.6402334,
+              "lng": -8.1319662
+            },
+            {
+              "lat": 42.6403447,
+              "lng": -8.1320167
+            },
+            {
+              "lat": 42.6405742,
+              "lng": -8.1321084
+            },
+            {
+              "lat": 42.6407632,
+              "lng": -8.1321956
+            },
+            {
+              "lat": 42.6409487,
+              "lng": -8.1322552
+            },
+            {
+              "lat": 42.6412824,
+              "lng": -8.1323442
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "98241938",
@@ -5401,7 +6194,186 @@
               "lat": 42.6769113,
               "lng": -8.1622135
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98241942",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.637587,
+              "lng": -8.1324568
+            },
+            {
+              "lat": 42.6375486,
+              "lng": -8.1323313
+            },
+            {
+              "lat": 42.6375089,
+              "lng": -8.1322318
+            },
+            {
+              "lat": 42.6374259,
+              "lng": -8.1321451
+            },
+            {
+              "lat": 42.6372369,
+              "lng": -8.1320396
+            },
+            {
+              "lat": 42.6370041,
+              "lng": -8.1318882
+            },
+            {
+              "lat": 42.6367847,
+              "lng": -8.1317415
+            },
+            {
+              "lat": 42.636508,
+              "lng": -8.1315121
+            },
+            {
+              "lat": 42.6362482,
+              "lng": -8.1312552
+            },
+            {
+              "lat": 42.6359175,
+              "lng": -8.1309066
+            },
+            {
+              "lat": 42.6356037,
+              "lng": -8.130558
+            },
+            {
+              "lat": 42.6354328,
+              "lng": -8.1303871
+            },
+            {
+              "lat": 42.6352936,
+              "lng": -8.1301603
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98636613",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.6208468,
+              "lng": -8.0994407
+            },
+            {
+              "lat": 42.6207211,
+              "lng": -8.0997656
+            },
+            {
+              "lat": 42.620683,
+              "lng": -8.0998863
+            },
+            {
+              "lat": 42.6206704,
+              "lng": -8.0999675
+            },
+            {
+              "lat": 42.6206631,
+              "lng": -8.100071
+            },
+            {
+              "lat": 42.6206704,
+              "lng": -8.1001547
+            },
+            {
+              "lat": 42.6206722,
+              "lng": -8.1002162
+            },
+            {
+              "lat": 42.6206921,
+              "lng": -8.1002926
+            },
+            {
+              "lat": 42.6207084,
+              "lng": -8.1003418
+            },
+            {
+              "lat": 42.6207392,
+              "lng": -8.1004034
+            },
+            {
+              "lat": 42.6207682,
+              "lng": -8.1004576
+            },
+            {
+              "lat": 42.6208171,
+              "lng": -8.1005216
+            },
+            {
+              "lat": 42.620895,
+              "lng": -8.1005954
+            },
+            {
+              "lat": 42.6209621,
+              "lng": -8.1006275
+            },
+            {
+              "lat": 42.6210527,
+              "lng": -8.1006545
+            },
+            {
+              "lat": 42.6211433,
+              "lng": -8.1006422
+            },
+            {
+              "lat": 42.6212393,
+              "lng": -8.1006176
+            },
+            {
+              "lat": 42.6213208,
+              "lng": -8.100561
+            },
+            {
+              "lat": 42.6213933,
+              "lng": -8.1004822
+            },
+            {
+              "lat": 42.6214441,
+              "lng": -8.1003763
+            },
+            {
+              "lat": 42.6214803,
+              "lng": -8.100263
+            },
+            {
+              "lat": 42.621502,
+              "lng": -8.1001645
+            },
+            {
+              "lat": 42.621502,
+              "lng": -8.1000192
+            },
+            {
+              "lat": 42.6214857,
+              "lng": -8.0999355
+            },
+            {
+              "lat": 42.6214676,
+              "lng": -8.0998543
+            },
+            {
+              "lat": 42.6214223,
+              "lng": -8.0997508
+            },
+            {
+              "lat": 42.6213643,
+              "lng": -8.099645
+            },
+            {
+              "lat": 42.6212228,
+              "lng": -8.0994267
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "98636615",
@@ -5942,6 +6914,40 @@
           ]
         },
         {
+          "id": "98636628",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.6210847,
+              "lng": -8.0988259
+            },
+            {
+              "lat": 42.6208468,
+              "lng": -8.0994407
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "98636631",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.6207936,
+              "lng": -8.0994027
+            },
+            {
+              "lat": 42.621011,
+              "lng": -8.0988595
+            },
+            {
+              "lat": 42.6210358,
+              "lng": -8.0987954
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
           "id": "98636632",
           "version": 10,
           "line": [
@@ -6384,6 +7390,25 @@
               "lng": -8.2354632
             }
           ]
+        },
+        {
+          "id": "98636675",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.6210358,
+              "lng": -8.0987954
+            },
+            {
+              "lat": 42.6212991,
+              "lng": -8.0981158
+            },
+            {
+              "lat": 42.6216266,
+              "lng": -8.0975238
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "98636678",
@@ -7578,6 +8603,261 @@
           ]
         },
         {
+          "id": "146995665",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.5783976,
+              "lng": -8.0637879
+            },
+            {
+              "lat": 42.5782382,
+              "lng": -8.0637279
+            },
+            {
+              "lat": 42.5781109,
+              "lng": -8.0637319
+            },
+            {
+              "lat": 42.5779811,
+              "lng": -8.0637935
+            },
+            {
+              "lat": 42.5778723,
+              "lng": -8.0638998
+            },
+            {
+              "lat": 42.5777892,
+              "lng": -8.0640771
+            },
+            {
+              "lat": 42.5777533,
+              "lng": -8.064256
+            },
+            {
+              "lat": 42.5777576,
+              "lng": -8.0644157
+            },
+            {
+              "lat": 42.5777934,
+              "lng": -8.0645619
+            },
+            {
+              "lat": 42.5778378,
+              "lng": -8.0646684
+            },
+            {
+              "lat": 42.5779335,
+              "lng": -8.0647808
+            },
+            {
+              "lat": 42.5780345,
+              "lng": -8.064861
+            },
+            {
+              "lat": 42.5781439,
+              "lng": -8.0648942
+            },
+            {
+              "lat": 42.5782725,
+              "lng": -8.0648882
+            },
+            {
+              "lat": 42.5783876,
+              "lng": -8.0648262
+            },
+            {
+              "lat": 42.5784793,
+              "lng": -8.0647444
+            },
+            {
+              "lat": 42.578576,
+              "lng": -8.0645958
+            },
+            {
+              "lat": 42.5786947,
+              "lng": -8.0643138
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "147588076",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.581723,
+              "lng": -8.0611225
+            },
+            {
+              "lat": 42.5807796,
+              "lng": -8.0610864
+            },
+            {
+              "lat": 42.580158,
+              "lng": -8.061026
+            },
+            {
+              "lat": 42.5794652,
+              "lng": -8.0609552
+            },
+            {
+              "lat": 42.5789657,
+              "lng": -8.0609091
+            },
+            {
+              "lat": 42.5786247,
+              "lng": -8.0608688
+            },
+            {
+              "lat": 42.577569,
+              "lng": -8.0607576
+            },
+            {
+              "lat": 42.577438,
+              "lng": -8.0607606
+            },
+            {
+              "lat": 42.5765821,
+              "lng": -8.0606456
+            },
+            {
+              "lat": 42.5761009,
+              "lng": -8.0605556
+            }
+          ],
+          "freeTravelSource": "https://www.openstreetmap.org/way/147588076/history"
+        },
+        {
+          "id": "147588079",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.580158,
+              "lng": -8.061026
+            },
+            {
+              "lat": 42.5798645,
+              "lng": -8.0610441
+            },
+            {
+              "lat": 42.5792299,
+              "lng": -8.0609754
+            },
+            {
+              "lat": 42.5791142,
+              "lng": -8.0610139
+            },
+            {
+              "lat": 42.5790363,
+              "lng": -8.0610812
+            },
+            {
+              "lat": 42.5789702,
+              "lng": -8.061155
+            },
+            {
+              "lat": 42.5789277,
+              "lng": -8.0612383
+            },
+            {
+              "lat": 42.5789017,
+              "lng": -8.0613762
+            },
+            {
+              "lat": 42.5789112,
+              "lng": -8.0615333
+            },
+            {
+              "lat": 42.5789631,
+              "lng": -8.0617769
+            },
+            {
+              "lat": 42.5790086,
+              "lng": -8.062006
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "147588085",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.5790086,
+              "lng": -8.062006
+            },
+            {
+              "lat": 42.5791188,
+              "lng": -8.0623506
+            },
+            {
+              "lat": 42.5792056,
+              "lng": -8.0627541
+            },
+            {
+              "lat": 42.5793091,
+              "lng": -8.0634478
+            },
+            {
+              "lat": 42.5794793,
+              "lng": -8.0643184
+            },
+            {
+              "lat": 42.5796663,
+              "lng": -8.0650075
+            },
+            {
+              "lat": 42.5800113,
+              "lng": -8.0660125
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "147588103",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.5785249,
+              "lng": -8.0612814
+            },
+            {
+              "lat": 42.5785075,
+              "lng": -8.0611998
+            },
+            {
+              "lat": 42.5785028,
+              "lng": -8.0611229
+            },
+            {
+              "lat": 42.578524,
+              "lng": -8.0609947
+            },
+            {
+              "lat": 42.5785618,
+              "lng": -8.0609177
+            },
+            {
+              "lat": 42.5786247,
+              "lng": -8.0608688
+            },
+            {
+              "lat": 42.5787129,
+              "lng": -8.0608311
+            },
+            {
+              "lat": 42.5793733,
+              "lng": -8.0609042
+            },
+            {
+              "lat": 42.5795682,
+              "lng": -8.0608881
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
           "id": "150035310",
           "version": 8,
           "line": [
@@ -7945,7 +9225,8 @@
               "lat": 42.7002429,
               "lng": -8.2056492
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "178238737",
@@ -7959,7 +9240,8 @@
               "lat": 42.6886109,
               "lng": -8.1757977
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "178238738",
@@ -8173,7 +9455,8 @@
               "lat": 42.6714739,
               "lng": -8.1565789
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "178238739",
@@ -8187,7 +9470,8 @@
               "lat": 42.6891099,
               "lng": -8.1769184
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "235695522",
@@ -8213,7 +9497,8 @@
               "lat": 42.8539161,
               "lng": -8.5308499
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "235695523",
@@ -8279,7 +9564,8 @@
               "lat": 42.6226012,
               "lng": -8.1006338
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "235695524",
@@ -8293,7 +9579,8 @@
               "lat": 42.8405688,
               "lng": -8.5292139
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "235695525",
@@ -8433,7 +9720,55 @@
               "lat": 42.6212228,
               "lng": -8.0994267
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237017969",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.5789073,
+              "lng": -8.0637163
+            },
+            {
+              "lat": 42.5790106,
+              "lng": -8.0633508
+            },
+            {
+              "lat": 42.5790288,
+              "lng": -8.0631694
+            },
+            {
+              "lat": 42.5790308,
+              "lng": -8.0629166
+            },
+            {
+              "lat": 42.5790126,
+              "lng": -8.0626006
+            },
+            {
+              "lat": 42.5789417,
+              "lng": -8.0622873
+            },
+            {
+              "lat": 42.578796,
+              "lng": -8.0618201
+            },
+            {
+              "lat": 42.5787151,
+              "lng": -8.0616167
+            },
+            {
+              "lat": 42.5786301,
+              "lng": -8.06146
+            },
+            {
+              "lat": 42.5785249,
+              "lng": -8.0612814
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237017974",
@@ -8451,7 +9786,23 @@
               "lat": 42.5806721,
               "lng": -8.0674501
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237017979",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.5786947,
+              "lng": -8.0643138
+            },
+            {
+              "lat": 42.5789073,
+              "lng": -8.0637163
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237017993",
@@ -8725,7 +10076,23 @@
               "lat": 42.6129205,
               "lng": -8.0997209
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237087438",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.5793375,
+              "lng": -8.0649431
+            },
+            {
+              "lat": 42.5788874,
+              "lng": -8.0642619
+            }
+          ],
+          "freeTravelSource": "https://www.xunta.gal/es/notas-de-prensa/-/nova/85353/xunta-acuerda-solicitarle-gobierno-espana-liberacion-del-peaje-53-para-unificar"
         },
         {
           "id": "237092418",
@@ -8767,7 +10134,78 @@
               "lat": 42.6352936,
               "lng": -8.1301603
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237095403",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.6216266,
+              "lng": -8.0975238
+            },
+            {
+              "lat": 42.6214912,
+              "lng": -8.0977982
+            },
+            {
+              "lat": 42.6213661,
+              "lng": -8.0980986
+            },
+            {
+              "lat": 42.6210847,
+              "lng": -8.0988259
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237095406",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.6234221,
+              "lng": -8.0965382
+            },
+            {
+              "lat": 42.6237319,
+              "lng": -8.0964425
+            },
+            {
+              "lat": 42.6254626,
+              "lng": -8.0958987
+            },
+            {
+              "lat": 42.6257002,
+              "lng": -8.0958121
+            },
+            {
+              "lat": 42.6258755,
+              "lng": -8.0957051
+            },
+            {
+              "lat": 42.6260055,
+              "lng": -8.0955943
+            },
+            {
+              "lat": 42.6261179,
+              "lng": -8.0954813
+            },
+            {
+              "lat": 42.6262135,
+              "lng": -8.0953385
+            },
+            {
+              "lat": 42.6263101,
+              "lng": -8.0951415
+            },
+            {
+              "lat": 42.6264243,
+              "lng": -8.094817
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095409",
@@ -8785,7 +10223,8 @@
               "lat": 42.6297383,
               "lng": -8.1194186
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095411",
@@ -8951,7 +10390,8 @@
               "lat": 42.6608219,
               "lng": -8.1435898
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095416",
@@ -9001,7 +10441,8 @@
               "lat": 42.6412824,
               "lng": -8.1323442
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095420",
@@ -9019,7 +10460,55 @@
               "lat": 42.6226836,
               "lng": -8.1009813
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237095423",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.6264056,
+              "lng": -8.094598
+            },
+            {
+              "lat": 42.6264147,
+              "lng": -8.0944874
+            },
+            {
+              "lat": 42.6264487,
+              "lng": -8.0944021
+            },
+            {
+              "lat": 42.6265028,
+              "lng": -8.0943657
+            },
+            {
+              "lat": 42.6265463,
+              "lng": -8.0943365
+            },
+            {
+              "lat": 42.6267278,
+              "lng": -8.0944041
+            },
+            {
+              "lat": 42.6270209,
+              "lng": -8.0945554
+            },
+            {
+              "lat": 42.6273459,
+              "lng": -8.0947728
+            },
+            {
+              "lat": 42.6277157,
+              "lng": -8.0950302
+            },
+            {
+              "lat": 42.6277614,
+              "lng": -8.095032
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095424",
@@ -9037,7 +10526,8 @@
               "lat": 42.61715,
               "lng": -8.0978212
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095426",
@@ -9323,7 +10813,8 @@
               "lat": 42.5793375,
               "lng": -8.0649431
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095430",
@@ -9337,7 +10828,8 @@
               "lat": 42.6428168,
               "lng": -8.1323919
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095431",
@@ -9359,7 +10851,8 @@
               "lat": 42.61304,
               "lng": -8.09979
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095433",
@@ -9381,7 +10874,8 @@
               "lat": 42.6150764,
               "lng": -8.0983958
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095435",
@@ -9403,7 +10897,8 @@
               "lat": 42.6279189,
               "lng": -8.1178728
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095436",
@@ -9425,7 +10920,8 @@
               "lat": 42.6340022,
               "lng": -8.1286024
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095437",
@@ -9523,7 +11019,8 @@
               "lat": 42.6235963,
               "lng": -8.1025494
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095438",
@@ -9593,7 +11090,8 @@
               "lat": 42.6296878,
               "lng": -8.1195565
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095439",
@@ -9695,7 +11193,8 @@
               "lat": 42.6279555,
               "lng": -8.1177414
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095442",
@@ -9721,7 +11220,8 @@
               "lat": 42.6235154,
               "lng": -8.1021187
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095443",
@@ -9743,7 +11243,8 @@
               "lat": 42.6162685,
               "lng": -8.0979722
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095444",
@@ -9761,7 +11262,8 @@
               "lat": 42.6355571,
               "lng": -8.130188
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095445",
@@ -9811,7 +11313,8 @@
               "lat": 42.6151354,
               "lng": -8.098512
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095447",
@@ -9825,7 +11328,8 @@
               "lat": 42.6406392,
               "lng": -8.1325394
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095457",
@@ -9891,7 +11395,8 @@
               "lat": 42.6344587,
               "lng": -8.1289751
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237095458",
@@ -9913,7 +11418,240 @@
               "lat": 42.6196893,
               "lng": -8.09847
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237096185",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.6215057,
+              "lng": -8.1006225
+            },
+            {
+              "lat": 42.6212991,
+              "lng": -8.100689
+            },
+            {
+              "lat": 42.6211831,
+              "lng": -8.1007235
+            },
+            {
+              "lat": 42.6211034,
+              "lng": -8.1007309
+            },
+            {
+              "lat": 42.6210183,
+              "lng": -8.1007309
+            },
+            {
+              "lat": 42.6209313,
+              "lng": -8.1007063
+            },
+            {
+              "lat": 42.6208751,
+              "lng": -8.1006669
+            },
+            {
+              "lat": 42.6208063,
+              "lng": -8.1006151
+            },
+            {
+              "lat": 42.6207356,
+              "lng": -8.100524
+            },
+            {
+              "lat": 42.620683,
+              "lng": -8.1004379
+            },
+            {
+              "lat": 42.6206414,
+              "lng": -8.1003344
+            },
+            {
+              "lat": 42.6206178,
+              "lng": -8.1002212
+            },
+            {
+              "lat": 42.6206069,
+              "lng": -8.1001301
+            },
+            {
+              "lat": 42.6206069,
+              "lng": -8.1000192
+            },
+            {
+              "lat": 42.620616,
+              "lng": -8.0999134
+            },
+            {
+              "lat": 42.6206522,
+              "lng": -8.0997804
+            },
+            {
+              "lat": 42.620712,
+              "lng": -8.0996105
+            },
+            {
+              "lat": 42.6207755,
+              "lng": -8.099448
+            },
+            {
+              "lat": 42.6207936,
+              "lng": -8.0994027
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237096186",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.6224569,
+              "lng": -8.1008047
+            },
+            {
+              "lat": 42.6223718,
+              "lng": -8.1007407
+            },
+            {
+              "lat": 42.6222993,
+              "lng": -8.1006915
+            },
+            {
+              "lat": 42.6222214,
+              "lng": -8.1006472
+            },
+            {
+              "lat": 42.6221145,
+              "lng": -8.1006004
+            },
+            {
+              "lat": 42.6220674,
+              "lng": -8.1005881
+            },
+            {
+              "lat": 42.6220184,
+              "lng": -8.1005782
+            },
+            {
+              "lat": 42.6219496,
+              "lng": -8.1005659
+            },
+            {
+              "lat": 42.6218952,
+              "lng": -8.1005585
+            },
+            {
+              "lat": 42.6218463,
+              "lng": -8.100561
+            },
+            {
+              "lat": 42.6217793,
+              "lng": -8.1005634
+            },
+            {
+              "lat": 42.6217177,
+              "lng": -8.1005708
+            },
+            {
+              "lat": 42.6216144,
+              "lng": -8.1005905
+            },
+            {
+              "lat": 42.6215057,
+              "lng": -8.1006225
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237415631",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.6277093,
+              "lng": -8.0950923
+            },
+            {
+              "lat": 42.6276224,
+              "lng": -8.09506
+            },
+            {
+              "lat": 42.6272184,
+              "lng": -8.0947867
+            },
+            {
+              "lat": 42.6269883,
+              "lng": -8.0946463
+            },
+            {
+              "lat": 42.6268786,
+              "lng": -8.0945772
+            },
+            {
+              "lat": 42.6267491,
+              "lng": -8.0945454
+            },
+            {
+              "lat": 42.6266749,
+              "lng": -8.0945602
+            },
+            {
+              "lat": 42.6266078,
+              "lng": -8.0945823
+            },
+            {
+              "lat": 42.626511,
+              "lng": -8.0946391
+            },
+            {
+              "lat": 42.6264243,
+              "lng": -8.094817
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "237415634",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.6255958,
+              "lng": -8.0939869
+            },
+            {
+              "lat": 42.6256926,
+              "lng": -8.0940684
+            },
+            {
+              "lat": 42.62639,
+              "lng": -8.0942771
+            },
+            {
+              "lat": 42.6264647,
+              "lng": -8.0943059
+            },
+            {
+              "lat": 42.6265028,
+              "lng": -8.0943657
+            },
+            {
+              "lat": 42.6265357,
+              "lng": -8.0944103
+            },
+            {
+              "lat": 42.6265407,
+              "lng": -8.0945345
+            },
+            {
+              "lat": 42.626511,
+              "lng": -8.0946391
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "237533609",
@@ -9947,7 +11685,8 @@
               "lat": 42.8547912,
               "lng": -8.5309209
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "304047583",
@@ -10029,7 +11768,8 @@
               "lat": 42.8416537,
               "lng": -8.5295975
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "304047584",
@@ -10043,7 +11783,8 @@
               "lat": 42.8520712,
               "lng": -8.5311851
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "304047585",
@@ -10137,7 +11878,8 @@
               "lat": 42.8515785,
               "lng": -8.5314449
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
         },
         {
           "id": "304047586",
@@ -10155,7 +11897,170 @@
               "lat": 42.8401085,
               "lng": -8.5291168
             }
-          ]
+          ],
+          "freeTravelSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
+        },
+        {
+          "id": "394892969",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.6227943,
+              "lng": -8.0967263
+            },
+            {
+              "lat": 42.6225643,
+              "lng": -8.0968849
+            },
+            {
+              "lat": 42.6223457,
+              "lng": -8.0970507
+            },
+            {
+              "lat": 42.6221351,
+              "lng": -8.0972422
+            },
+            {
+              "lat": 42.6220132,
+              "lng": -8.0974079
+            },
+            {
+              "lat": 42.6218215,
+              "lng": -8.0978018
+            },
+            {
+              "lat": 42.6217154,
+              "lng": -8.0981956
+            },
+            {
+              "lat": 42.6216869,
+              "lng": -8.09854
+            },
+            {
+              "lat": 42.6217186,
+              "lng": -8.0989403
+            },
+            {
+              "lat": 42.6218295,
+              "lng": -8.0994267
+            },
+            {
+              "lat": 42.6220464,
+              "lng": -8.0998141
+            },
+            {
+              "lat": 42.6223869,
+              "lng": -8.1002725
+            },
+            {
+              "lat": 42.622628,
+              "lng": -8.1005971
+            },
+            {
+              "lat": 42.6230173,
+              "lng": -8.1012335
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "394892970",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.6227943,
+              "lng": -8.0967263
+            },
+            {
+              "lat": 42.6231279,
+              "lng": -8.0966255
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "394892972",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.6231279,
+              "lng": -8.0966255
+            },
+            {
+              "lat": 42.6234221,
+              "lng": -8.0965382
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "394892980",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.5788874,
+              "lng": -8.0642619
+            },
+            {
+              "lat": 42.5785471,
+              "lng": -8.0638932
+            },
+            {
+              "lat": 42.5783976,
+              "lng": -8.0637879
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "394892983",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.6216266,
+              "lng": -8.0975238
+            },
+            {
+              "lat": 42.6217269,
+              "lng": -8.0973928
+            },
+            {
+              "lat": 42.6218328,
+              "lng": -8.0972373
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "394892995",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.6218328,
+              "lng": -8.0972373
+            },
+            {
+              "lat": 42.6219399,
+              "lng": -8.0971357
+            },
+            {
+              "lat": 42.6220716,
+              "lng": -8.0970205
+            },
+            {
+              "lat": 42.6222277,
+              "lng": -8.0969204
+            },
+            {
+              "lat": 42.6223847,
+              "lng": -8.0968537
+            },
+            {
+              "lat": 42.6227943,
+              "lng": -8.0967263
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         },
         {
           "id": "402963872",
@@ -11186,17 +13091,108 @@
               "lng": -8.4167758
             }
           ]
+        },
+        {
+          "id": "1422570795",
+          "version": 1,
+          "line": [
+            {
+              "lat": 42.5785249,
+              "lng": -8.0612814
+            },
+            {
+              "lat": 42.5784036,
+              "lng": -8.0611453
+            },
+            {
+              "lat": 42.5782761,
+              "lng": -8.0610075
+            },
+            {
+              "lat": 42.5780424,
+              "lng": -8.0608728
+            },
+            {
+              "lat": 42.5775632,
+              "lng": -8.0607991
+            },
+            {
+              "lat": 42.577438,
+              "lng": -8.0607606
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
+        },
+        {
+          "id": "1422570796",
+          "version": 1,
+          "line": [
+            {
+              "lat": 42.5775183,
+              "lng": -8.0606549
+            },
+            {
+              "lat": 42.5781722,
+              "lng": -8.060767
+            },
+            {
+              "lat": 42.5784886,
+              "lng": -8.0608023
+            },
+            {
+              "lat": 42.5786247,
+              "lng": -8.0608688
+            },
+            {
+              "lat": 42.5786538,
+              "lng": -8.0609081
+            },
+            {
+              "lat": 42.5786845,
+              "lng": -8.0610492
+            },
+            {
+              "lat": 42.5786916,
+              "lng": -8.0611646
+            },
+            {
+              "lat": 42.5787315,
+              "lng": -8.0613123
+            },
+            {
+              "lat": 42.5788617,
+              "lng": -8.0616523
+            },
+            {
+              "lat": 42.5789351,
+              "lng": -8.0618201
+            },
+            {
+              "lat": 42.5790086,
+              "lng": -8.062006
+            }
+          ],
+          "freeTravelSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         }
       ],
       "evidence": {
         "checked": "2026-09-16",
         "tariffSources": [
           "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-53,-santiago---alto-de-santo-domingo-2026.pdf",
-          "https://acega.es/tarifas/"
+          "https://acega.es/tarifas/",
+          "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/1999/c2910990.aspx"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "Santiago-entry",
+        "Lalín-entry",
+        "Ribadulla-entry",
+        "Bandeira-entry",
+        "Silleda-entry",
+        "Silleda-south-entry"
+      ]
     }
   ],
-  "notes_global": "Development candidate; © OpenStreetMap contributors. General light-vehicle fares only. Closed trips and unlisted zone-internal trips remain unavailable."
+  "notes_global": "Development candidate; © OpenStreetMap contributors. General light-vehicle fares; Via-T uses an explicit 0..general range when return/monthly history is unknown. Closed trips and unlisted zone-internal trips remain unavailable."
 }

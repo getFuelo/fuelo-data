@@ -11,7 +11,7 @@ def distance(a,b):return math.hypot((a['lat']-b['lat'])*111195,(a['lng']-b['lng'
 def heading(a,b):
  lat=math.radians((a['lat']+b['lat'])/2);return round(math.degrees(math.atan2((b['lng']-a['lng'])*math.cos(lat),b['lat']-a['lat']))%360)
 def main():
- for family in ['autema','c32','ap15']:
+ for family in ['autema','c32','ap15','ap7-estepona-guadiaro','ap7-malaga-estepona','ap7-alicante-cartagena']:
   catalog=json.loads((ROOT/'pricing-candidates'/f'{family}.json').read_text());probes=json.loads((ROOT/'audit/2026-09-16/networks'/family/'lane-probes.json').read_text());out=ROOT/'pricing-candidates'/(family+'-routes');out.mkdir(exist_ok=True)
   for net in catalog['pricing']:
    options=[p for p in probes if p['network']==net['id']];p=min(options,key=lambda p:sum(distance(a,b) for a,b in zip(p['geometry'],p['geometry'][1:])));pts=p['geometry'];name=net['id']+'-traversal';target=out/(name+'.json')

@@ -12,5 +12,33 @@
     "laneWay": 265459419,
     "laneWayVersion": 10
   },
-  "finding": "Valhalla traversal named Peatge de Vallcarca has has_toll=false and passes south of the current OSM toll roof. All current OSM lane probes cross the gate. Do not widen the charging gate beyond physical evidence to force the expected price. Resolve provider geometry versus current physical lane before country activation."
+  "finding": "The retained Valhalla trace uses OSM way 265459454, a distinct bypass south of the toll roof, not a displaced version of paid lane 265459419. Current OSM also lacks toll/access restrictions on this bypass. The IGN orthophoto confirms a separate carriageway outside the roof; imagery alone does not establish permitted traffic or payment conditions. Do not widen the roof gate or classify the bypass as free without resolving those conditions.",
+  "trace": {
+    "response": "vallcarca-trace.json",
+    "request": "vallcarca-trace-request.json",
+    "way": 265459454,
+    "wayVersion": 9,
+    "toll": false,
+    "currentOsmTags": {
+      "highway": "motorway_link",
+      "lanes": "1",
+      "maxspeed": "50",
+      "oneway": "yes"
+    },
+    "restrictionsObserved": false
+  },
+  "imagery": {
+    "source": "https://www.ign.es/wms-inspire/pnoa-ma",
+    "layer": "OI.OrthoimageCoverage",
+    "crs": "EPSG:4326",
+    "bbox": [
+      41.244,
+      1.8508,
+      41.246,
+      1.853
+    ],
+    "retrieved": "2026-09-16",
+    "sha256": "dc70fe98777c1af7e843802f5d3895cb827d3ca6137e48e74a726bc7d0463741",
+    "limitation": "Read-only visual evidence. Capture date not established; no access or toll conclusion from imagery alone."
+  }
 }

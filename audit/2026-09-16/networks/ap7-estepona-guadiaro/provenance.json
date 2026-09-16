@@ -1,0 +1,66 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-ap7-manilva-troncal",
+      "reviewGroup": "osm-review-31477964",
+      "booths": [
+        31477964,
+        280782555,
+        6128263627,
+        6128263634,
+        6128263643,
+        6128263655,
+        12186520402,
+        12186520403,
+        12186520404,
+        12186520405,
+        12186520406,
+        12186520407
+      ],
+      "laneWays": [
+        653952210,
+        653952211,
+        653952212,
+        653952214,
+        653952215,
+        653952217,
+        1252100684,
+        1252100685,
+        1252100686,
+        1252100687,
+        1252100688,
+        1252100689
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-ap7-manilva-acceso",
+      "reviewGroup": "osm-review-302819538",
+      "booths": [
+        302819538,
+        345731334,
+        6128263833,
+        6128263842,
+        6128263849,
+        6128263859,
+        11807325143,
+        11807325144
+      ],
+      "laneWays": [
+        27579933,
+        39633897,
+        653952222,
+        653952223,
+        653952225,
+        653952226,
+        1149078970,
+        1271477286,
+        1271477287
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 99,
+  "reviewStatus": "candidate_pending_routes"
+}

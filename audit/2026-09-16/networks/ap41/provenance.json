@@ -1,0 +1,232 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "gate": "R5-exit",
+      "way": 95979739,
+      "version": 11,
+      "node": 1062072034,
+      "kind": "collection-plaza"
+    },
+    {
+      "gate": "R5-entry",
+      "way": 129679543,
+      "version": 10,
+      "node": 358359321,
+      "kind": "logical-entry-carriageway"
+    },
+    {
+      "gate": "Toledo-exit",
+      "way": 884091617,
+      "version": 4,
+      "node": 418650668,
+      "kind": "collection-plaza"
+    },
+    {
+      "gate": "Toledo-entry",
+      "way": 124676707,
+      "version": 6,
+      "node": 418650850,
+      "kind": "logical-entry-carriageway"
+    },
+    {
+      "gate": "Serranillos-entry",
+      "way": 278709678,
+      "version": 4,
+      "booths": [
+        1106445678,
+        358358459
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Serranillos-exit",
+      "way": 278709678,
+      "version": 4,
+      "booths": [
+        1106445678,
+        358358459
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Carranque-entry",
+      "way": 903010659,
+      "version": 3,
+      "booths": [
+        726203567
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Carranque-exit",
+      "way": 903010659,
+      "version": 3,
+      "booths": [
+        726203567
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Illescas-entry",
+      "way": 84633592,
+      "version": 8,
+      "booths": [
+        1132332140,
+        3371150295
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Illescas-exit",
+      "way": 84633592,
+      "version": 8,
+      "booths": [
+        1132332140,
+        3371150295
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Numancia-entry",
+      "way": 98324420,
+      "version": 5,
+      "booths": [
+        1137596386,
+        3371149547
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Numancia-exit",
+      "way": 98324420,
+      "version": 5,
+      "booths": [
+        1137596386,
+        3371149547
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Villaluenga-entry",
+      "way": 85475869,
+      "version": 5,
+      "booths": [
+        991023544
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Villaluenga-exit",
+      "way": 85475869,
+      "version": 5,
+      "booths": [
+        991023544
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Villaseca-entry",
+      "way": 946404541,
+      "version": 2,
+      "booths": [
+        999320160,
+        8760698990
+      ],
+      "kind": "ramp-plaza"
+    },
+    {
+      "gate": "Villaseca-exit",
+      "way": 946404541,
+      "version": 2,
+      "booths": [
+        999320160,
+        8760698990
+      ],
+      "kind": "ramp-plaza"
+    }
+  ],
+  "probeLocations": {
+    "R5": {
+      "entry": {
+        "lat": 40.260446,
+        "lng": -3.8888722
+      },
+      "exit": {
+        "lat": 40.2481526,
+        "lng": -3.8733307
+      }
+    },
+    "Toledo": {
+      "entry": {
+        "lat": 39.9234331,
+        "lng": -3.9111038
+      },
+      "exit": {
+        "lat": 39.9409969,
+        "lng": -3.8811229
+      }
+    },
+    "Serranillos": {
+      "entry": {
+        "lat": 40.2105009,
+        "lng": -3.8947115
+      },
+      "exit": {
+        "lat": 40.2101595,
+        "lng": -3.8950258
+      }
+    },
+    "Carranque": {
+      "entry": {
+        "lat": 40.1583438,
+        "lng": -3.9038323
+      },
+      "exit": {
+        "lat": 40.1583438,
+        "lng": -3.9038323
+      }
+    },
+    "Illescas": {
+      "entry": {
+        "lat": 40.1036261,
+        "lng": -3.8622436
+      },
+      "exit": {
+        "lat": 40.1037678,
+        "lng": -3.8621444
+      }
+    },
+    "Numancia": {
+      "entry": {
+        "lat": 40.0743075,
+        "lng": -3.8481099
+      },
+      "exit": {
+        "lat": 40.0744748,
+        "lng": -3.8481416
+      }
+    },
+    "Villaluenga": {
+      "entry": {
+        "lat": 40.0277542,
+        "lng": -3.8899282
+      },
+      "exit": {
+        "lat": 40.0277542,
+        "lng": -3.8899282
+      }
+    },
+    "Villaseca": {
+      "entry": {
+        "lat": 39.9560762,
+        "lng": -3.8666642
+      },
+      "exit": {
+        "lat": 39.9560675,
+        "lng": -3.866827
+      }
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

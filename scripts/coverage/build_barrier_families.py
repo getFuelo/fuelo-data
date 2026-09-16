@@ -8,6 +8,18 @@ import collections,gzip,json,math
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];SOURCE=ROOT/'audit/2026-09-16/spain-graph'
 FAMILIES={
+ 'ap7-alicante-cartagena':{'ref':'AP-7','lat':[37.65,38.15],'lng':[-.96,-.65],'parent':'es-ap7-alicante-cartagena','groups':[
+  ('osm-review-721015144','es-ap7-montesinos-troncal','TRONCAL DE LOS MONTESINOS',285),
+  ('osm-review-295557912','es-ap7-zenia-troncal','TRONCAL DE LA ZENIA',285),
+  ('osm-review-297701500','es-ap7-zenia-acceso','ACCESO DE LA ZENIA',285)]},
+ 'ap7-estepona-guadiaro':{'ref':'AP-7','lat':[36.25,36.46],'lng':[-5.40,-5.12],'parent':'es-ap7-estepona-guadiaro','groups':[
+  ('osm-review-31477964','es-ap7-manilva-troncal','TRONCAL DE MANILVA',245),
+  ('osm-review-302819538','es-ap7-manilva-acceso','ACCESO DE MANILVA',120)]},
+ 'ap7-malaga-estepona':{'ref':'AP-7','lat':[36.42,36.65],'lng':[-5.17,-4.60],'parent':'es-ap7-malaga-estepona','groups':[
+  ('osm-review-297560234','es-ap7-calahonda-troncal','TRONCAL DE CALAHONDA',570),
+  ('osm-review-14144724369','es-ap7-calahonda-acceso','ACCESO DE CALAHONDA',355),
+  ('osm-review-13842373','es-ap7-san-pedro-troncal','TRONCAL DE SAN PEDRO DE ALCANTARA',385),
+  ('osm-review-280770329','es-ap7-san-pedro-acceso','ACCESO DE SAN PEDRO DE ALCANTARA',220)]},
  'autema':{'ref':'C-16','lat':[41.46,41.80],'groups':[
   ('osm-review-141831078','es-c16-sant-vicenc-c55','Ramal Sant Vicenç–C55',490),
   ('osm-review-150686870','es-c16-terrassa-manresa','Manresa troncal',976),
@@ -30,7 +42,8 @@ def main():
   for n in w['nodes']:at[n].add(w['id'])
  legacy={t['id']:t for t in json.loads((ROOT/'tolls-es.json').read_text())['tolls']}
  for family,spec in FAMILIES.items():
-  inside=lambda w:all(spec['lat'][0]<=nodes[str(n)][0]<=spec['lat'][1] for n in w['nodes'])
+  inside=lambda w:all(spec['lat'][0]<=nodes[str(n)][0]<=spec['lat'][1] and spec.get('lng',[-180,180])[0]<=nodes[str(n)][1]<=spec.get('lng',[-180,180])[1] for n in w['nodes'])
+  tariff_reference=json.loads((ROOT/f'pricing-candidates/{family}-tariffs.json').read_text()) if spec.get('parent') else None
   selected={w['id'] for w in ways.values() if w['tags'].get('ref')==spec['ref'] and inside(w)}
   for groupid, *_ in spec['groups']:
    for nid in groups[groupid]['pointIds']:
@@ -57,8 +70,14 @@ def main():
    theta=math.atan2(sum(math.sin(2*a) for a in angles),sum(math.cos(2*a) for a in angles))/2;px=-math.sin(theta);py=math.cos(theta)
    values=[(p['lng']-center['lng'])*cos*px+(p['lat']-center['lat'])*py for p in booths]
    line=[{'lat':center['lat']+v*py,'lng':center['lng']+v*px/cos} for v in [min(values)-8/111195,max(values)+8/111195]]
-   old=legacy[id] if id in legacy else legacy['es-c32-castelldefels-vendrell' if family=='c32' else 'es-ap15'];toll=old.copy();toll.update(id=id,name=name,lat=center['lat'],lng=center['lng'],price=price/100,price_high=None,variable=False,model='fixed',notes='General tariff at this physical plaza only. Conditional discounts require separately confirmed eligibility.');tolls.append(toll)
-   gate={'id':id+'-plaza','line':line,'direction':'both'};networks.append({'id':id,'tollId':id,'validFrom':'2026-01-01','validThrough':'2026-12-31','timeZone':'Europe/Madrid','gates':[gate],'pricing':{'kind':'gates','fares':{gate['id']:{'baseCents':price,'bands':[]}}},'coverageWays':coverage,'evidence':{'checked':'2026-09-16','tariffSources':[toll['source']],'geometrySource':'https://www.openstreetmap.org/copyright'}})
+   old=legacy[id] if id in legacy else legacy[spec.get('parent','es-c32-castelldefels-vendrell' if family=='c32' else 'es-ap15')]
+   tariff=next(row['tariff'] for row in tariff_reference['barriers'] if row['name']==name) if tariff_reference else {'baseCents':price,'bands':[]}
+   assert tariff['baseCents']==price
+   high=max([price]+[band['cents'] for band in tariff['bands']])
+   toll=old.copy();toll.update(id=id,name=name,lat=center['lat'],lng=center['lng'],price=price/100,price_high=high/100 if high>price else None,variable=high>price,model='fixed',notes='General tariff at this physical plaza only. Conditional discounts require separately confirmed eligibility.')
+   if tariff_reference:toll['source']=tariff_reference['source']
+   tolls.append(toll)
+   gate={'id':id+'-plaza','line':line,'direction':'both'};networks.append({'id':id,'tollId':id,'validFrom':'2026-01-01','validThrough':'2026-12-31','timeZone':'Europe/Madrid','gates':[gate],'pricing':{'kind':'gates','fares':{gate['id']:tariff}},'coverageWays':coverage,'evidence':{'checked':'2026-09-16','tariffSources':[toll['source']],'geometrySource':'https://www.openstreetmap.org/copyright'}})
    evidence.append({'network':id,'reviewGroup':groupid,'booths':group['pointIds'],'laneWays':sorted(lane_ways),'method':'Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings.'})
    for booth in booths:
     incoming=[];outgoing=[]

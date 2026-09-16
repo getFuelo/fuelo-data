@@ -55,14 +55,17 @@
       ],
       "ready": false,
       "blockers": [
-        "Validate individual Lal\u00edn/Tras do Eixo access journeys and entirely free terminal-zone movements.",
-        "Model return-trip/monthly recurrence eligibility for Via-T without assuming trip history.",
-        "Complete exclusion/avoidance and all-lane approach corpus."
+        "Complete remaining northern access/Tras do Eixo boundary and all-lane approach corpus.",
+        "Country inventory and release integration remain incomplete."
       ],
       "validatedCorpus": {
         "generalDirectedZonePairs": 20,
         "nearbyFreeRoutes": 2,
-        "missingEntryRegression": true
+        "northernAG59FreeDirections": 2,
+        "southernTerminalAccessRoutes": 20,
+        "realAvoidanceCases": 4,
+        "missingEntryRegression": true,
+        "viaTUnknownHistory": "Explicit 0..general range; no invented enrollment/trip history."
       }
     },
     {
@@ -93,11 +96,21 @@
       "tariffArtifacts": [
         "pricing-candidates/ap71-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap71.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Complete all-lane, partial/free boundary and remaining avoidance cases.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 12,
+        "dayNightTariffs": true,
+        "viaTTariffs": false,
+        "fullJourneyAndAvoidanceCases": 4,
+        "viaTUnknownHistory": "Explicit 50..100% of the applicable day/night fare; monthly trip rank not invented."
+      }
     },
     {
       "catalogId": "es-ap9",
@@ -128,33 +141,57 @@
       "tariffArtifacts": [
         "pricing-candidates/ap7-malaga-estepona-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap7-malaga-estepona.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Full/partial journeys, opposite-direction real routes and exclusions remain to be checked.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "realPlazaTraversals": 4,
+        "individualSourceLaneTraversals": 15,
+        "generalSummerEasterTariffs": true
+      }
     },
     {
       "catalogId": "es-ap7-estepona-guadiaro",
       "tariffArtifacts": [
         "pricing-candidates/ap7-estepona-guadiaro-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap7-estepona-guadiaro.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Full/partial journeys, opposite-direction real routes and exclusions remain to be checked.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "realPlazaTraversals": 2,
+        "individualSourceLaneTraversals": 20,
+        "generalSummerEasterTariffs": true
+      }
     },
     {
       "catalogId": "es-ap7-alicante-cartagena",
       "tariffArtifacts": [
         "pricing-candidates/ap7-alicante-cartagena-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap7-alicante-cartagena.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Full/partial journeys, opposite-direction real routes and exclusions remain to be checked.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "realPlazaTraversals": 3,
+        "individualSourceLaneTraversals": 6,
+        "generalSummerEasterTariffs": true
+      }
     },
     {
       "catalogId": "es-r2",
@@ -218,33 +255,57 @@
       "tariffArtifacts": [
         "pricing-candidates/ap7-cartagena-vera-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap7-cartagena-vera.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Complete all-lane, partial/free boundary and avoidance cases.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 72,
+        "viaTTariffs": true,
+        "nightExemption": true
+      }
     },
     {
       "catalogId": "es-ap36",
       "tariffArtifacts": [
         "pricing-candidates/ap36-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap36.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Complete all-lane, partial/free boundary and avoidance cases.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 30,
+        "viaTTariffs": true,
+        "nightExemption": true
+      }
     },
     {
       "catalogId": "es-ap41",
       "tariffArtifacts": [
         "pricing-candidates/ap41-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap41.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Complete all-lane, partial/free boundary and remaining avoidance cases.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 56,
+        "dayNightTariffs": true,
+        "viaTTariffs": true
+      }
     },
     {
       "catalogId": "es-cadi",
@@ -308,7 +369,7 @@
       "ready": false,
       "blockers": [
         "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open.",
-        "Vallcarca real Valhalla geometry misses physical gate: see audit/2026-09-16/networks/c32/valhalla-mismatch.json."
+        "Vallcarca trace uses unclassified bypass way 265459454; access/payment conditions unresolved. See audit/2026-09-16/networks/c32/valhalla-mismatch.json."
       ]
     },
     {

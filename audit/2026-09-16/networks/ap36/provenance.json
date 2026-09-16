@@ -1,0 +1,199 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "Troncal Corral Almaguer",
+      "reviewGroup": "osm-review-30297630",
+      "booths": [
+        30297630,
+        30299730
+      ],
+      "entryWay": 183749260,
+      "version": 8,
+      "entryBooth": 30299730,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 39.800277839277626,
+          "lng": -3.213135289987366
+        },
+        {
+          "lat": 39.80054206072237,
+          "lng": -3.2127540100126386
+        }
+      ]
+    },
+    {
+      "zone": "Troncal San Clemente",
+      "reviewGroup": "osm-review-30295021",
+      "booths": [
+        30295021,
+        30301802
+      ],
+      "entryWay": 435004158,
+      "version": 5,
+      "entryBooth": 30295021,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 39.3623432818893,
+          "lng": -2.4525782350534504
+        },
+        {
+          "lat": 39.362053918110696,
+          "lng": -2.4530174649465497
+        }
+      ]
+    },
+    {
+      "zone": "Lateral Corral Almaguer",
+      "reviewGroup": "osm-review-983425201",
+      "booths": [
+        983425201,
+        983425215
+      ],
+      "entryWay": 24220447,
+      "version": 9,
+      "entryBooth": 983425215,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 39.79513997964346,
+          "lng": -3.208697394769586
+        },
+        {
+          "lat": 39.794990220356546,
+          "lng": -3.2088897052304146
+        }
+      ]
+    },
+    {
+      "zone": "Quintanar Orden",
+      "reviewGroup": "osm-review-983425415",
+      "booths": [
+        983425415,
+        983425538
+      ],
+      "entryWay": 24336301,
+      "version": 7,
+      "entryBooth": 983425538,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 39.6306591571477,
+          "lng": -3.0736093582015083
+        },
+        {
+          "lat": 39.6305548428523,
+          "lng": -3.073814341798492
+        }
+      ]
+    },
+    {
+      "zone": "Pedernoso",
+      "reviewGroup": "osm-review-983425493",
+      "booths": [
+        983425493,
+        983425894
+      ],
+      "entryWay": 84657479,
+      "version": 6,
+      "entryBooth": 983425894,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 39.474327195223715,
+          "lng": -2.7181849524747776
+        },
+        {
+          "lat": 39.47452250477628,
+          "lng": -2.7181540475252226
+        }
+      ]
+    },
+    {
+      "zone": "Mota Cuervo",
+      "reviewGroup": "osm-review-983425503",
+      "booths": [
+        983425503
+      ],
+      "entryWay": 82101660,
+      "version": 5,
+      "entryBooth": 983425503,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 39.519700837278265,
+          "lng": -2.916795636251718
+        },
+        {
+          "lat": 39.519638362721736,
+          "lng": -2.916681563748282
+        }
+      ]
+    }
+  ],
+  "probeLocations": {
+    "Troncal Corral Almaguer": {
+      "entry": {
+        "lat": 39.8402523,
+        "lng": -3.2488146
+      },
+      "exit": {
+        "lat": 39.8403541,
+        "lng": -3.2486124
+      }
+    },
+    "Troncal San Clemente": {
+      "entry": {
+        "lat": 39.3504055,
+        "lng": -2.4297868
+      },
+      "exit": {
+        "lat": 39.3509851,
+        "lng": -2.4319286
+      }
+    },
+    "Lateral Corral Almaguer": {
+      "entry": {
+        "lat": 39.7899444,
+        "lng": -3.2038795
+      },
+      "exit": {
+        "lat": 39.7942125,
+        "lng": -3.2077748
+      }
+    },
+    "Quintanar Orden": {
+      "entry": {
+        "lat": 39.6296915,
+        "lng": -3.0727933
+      },
+      "exit": {
+        "lat": 39.6295234,
+        "lng": -3.0725088
+      }
+    },
+    "Pedernoso": {
+      "entry": {
+        "lat": 39.474517,
+        "lng": -2.7196221
+      },
+      "exit": {
+        "lat": 39.4742295,
+        "lng": -2.7218736
+      }
+    },
+    "Mota Cuervo": {
+      "entry": {
+        "lat": 39.5204232,
+        "lng": -2.9160646
+      },
+      "exit": {
+        "lat": 39.5204232,
+        "lng": -2.9160646
+      }
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

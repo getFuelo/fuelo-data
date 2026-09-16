@@ -1,0 +1,74 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-ap7-calahonda-troncal",
+      "reviewGroup": "osm-review-297560234",
+      "booths": [
+        297560234,
+        349121963
+      ],
+      "laneWays": [
+        29048485,
+        1148740592
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-ap7-calahonda-acceso",
+      "reviewGroup": "osm-review-14144724369",
+      "booths": [
+        14144724369
+      ],
+      "laneWays": [
+        1341092986
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-ap7-san-pedro-troncal",
+      "reviewGroup": "osm-review-13842373",
+      "booths": [
+        13842373,
+        280770355,
+        5667720326,
+        5667720342,
+        5667807540,
+        5667807552
+      ],
+      "laneWays": [
+        594339121,
+        594339123,
+        594349469,
+        594349471,
+        594349474,
+        594349476
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-ap7-san-pedro-acceso",
+      "reviewGroup": "osm-review-280770329",
+      "booths": [
+        280770329,
+        5667807573,
+        5667807580,
+        5667807602,
+        5667807611,
+        5667807618
+      ],
+      "laneWays": [
+        594349465,
+        594349466,
+        594349467,
+        594349482,
+        594349483,
+        594349485,
+        1393670651
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 148,
+  "reviewStatus": "candidate_pending_routes"
+}

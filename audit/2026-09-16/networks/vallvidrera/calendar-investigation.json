@@ -1,0 +1,17 @@
+{
+  "checked": "2026-09-16",
+  "tariffPage": "https://territori.gencat.cat/ca/03_infraestructures_i_mobilitat/carreteres/peatges-tarifes-descomptes/tarifes-peatges/",
+  "linkedResolution": "https://dogc.gencat.cat/ca/document-del-dogc/?documentId=1003029",
+  "documentTitle": "RESOLUCIÓ TER/4619/2024, de 18 de desembre, per la qual s'aprova la revisió dels peatges de la C-16 Túnels de Vallvidrera i els seus accessos.",
+  "retrieval": {
+    "url": "https://portaldogc.gencat.cat/eadop-rest/api/dogc/documentDOGC",
+    "method": "POST",
+    "fields": {
+      "documentId": "1003029",
+      "language": "ca"
+    },
+    "sha256": "a9fbedf57cbc119d04a8d192b825691d2bccfd07d96eed0e7c71794ee2b19c8a"
+  },
+  "finding": "The 2026 overview links to a resolution effective 2025-01-01. Its annex distinguishes peak/valley but does not define the applicable local holiday calendar. Retain the 2026 operator PDF for amounts; do not infer Barcelona municipal holidays from unrelated taxi rules.",
+  "status": "calendar_unresolved"
+}

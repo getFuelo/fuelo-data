@@ -1,0 +1,47 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-ap7-montesinos-troncal",
+      "reviewGroup": "osm-review-721015144",
+      "booths": [
+        721015144,
+        721015147
+      ],
+      "laneWays": [
+        461228080,
+        548771391
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-ap7-zenia-troncal",
+      "reviewGroup": "osm-review-295557912",
+      "booths": [
+        295557912,
+        297700579
+      ],
+      "laneWays": [
+        27480591,
+        27911884,
+        122752893
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-ap7-zenia-acceso",
+      "reviewGroup": "osm-review-297701500",
+      "booths": [
+        297701500,
+        297701581
+      ],
+      "laneWays": [
+        27134430,
+        27134433
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 221,
+  "reviewStatus": "candidate_pending_routes"
+}

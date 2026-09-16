@@ -53,12 +53,12 @@ source PBF specified in `audit/2026-09-16/spain-graph/provenance.json`.
 - `python3 scripts/coverage/validate_candidates.py` checks offline integrity.
   `--release` must currently fail: the national mapping and corpus are incomplete.
 
-**Known real-route disagreement:** Vallcarca returns an unflagged Valhalla
-geometry south of the current OSM toll roof and misses the physical gate. See
-`audit/2026-09-16/networks/c32/valhalla-mismatch.json`. Ten other open-plaza real
-traversals quote their expected amounts; Vallcarca is explicitly unresolved,
-not counted as a successful EUR 8.42 route. The app regression verifies that an
-incomplete country cannot turn this unflagged route into a production zero quote.
+**Known unresolved bypass:** the Vallcarca trace uses OSM way 265459454, a
+separate carriageway south of the roof, without toll or access restrictions in
+current OSM. This is not a shifted copy of the paid lane. Its access/payment
+conditions remain unresolved; the IGN orthophoto alone cannot establish them.
+See `audit/2026-09-16/networks/c32/valhalla-mismatch.json`. Production cannot
+turn this unflagged response into a zero quote while country data is incomplete.
 
 Outstanding work includes closed-system entry/exit mapping and joint settlement,
 AP-636 partial trips, eastern Gipuzkoa tariffs, Vallvidrera holidays, recurrence
@@ -70,3 +70,23 @@ The AP-53 follow-up now adds a mapped OD candidate and 22 real reference routes
 `audit/2026-09-16/networks/ap53/README.md` for source identities, reproduction and
 remaining terminal-zone, eligibility and avoidance gaps. This does not change
 Spain's incomplete status.
+
+## Latest validated checkpoint — 2026-09-16
+
+This supersedes the earlier AP-53-only checkpoint. AP-53 now has 48 real probes,
+including individual southern accesses, internal free movements, AG-59 and exact
+app exclusions. AP-41 has 56 OD journeys; AP-71 has twelve OD journeys and four
+full/avoidance cases; AP-36 has thirty OD journeys; Cartagena–Vera has 72.
+Nine additional open AP-7 plazas/ramps have 41 source-lane traversals and real
+plaza responses with normal, summer and Easter rates.
+
+Schema 3 carries explicit unknown-history intervals and source-backed free
+coverage. AP-53 Via-T uses 0..general; AP-71 uses 50..100% of its day/night fare.
+Payment exclusion conditions prevent a general band from conflicting with its
+Via-T interval. General reference prices exclude unselected rebates.
+
+App validation: 542 passing tests in 30 suites and TypeScript. Offline validation:
+42 candidate JSON files and all 36 original tariff/geometry snapshot records.
+The release validator still fails, and additionally requires an explicit ready
+flag for every entry, a complete national manifest and a complete served schema.
+No push, deployment, country activation or device installation.

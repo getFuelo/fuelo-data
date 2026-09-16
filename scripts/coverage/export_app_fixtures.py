@@ -6,13 +6,13 @@ ROOT=Path(__file__).resolve().parents[2]
 p=argparse.ArgumentParser();p.add_argument('app',type=Path);args=p.parse_args()
 out=args.app/'src/lib/__tests__/fixtures';assert out.is_dir()
 lanes=[];routes=[]
-for family in ['autema','c32','ap15']:
+for family in ['autema','c32','ap15','ap7-estepona-guadiaro','ap7-malaga-estepona','ap7-alicante-cartagena']:
  catalog=json.loads((ROOT/f'pricing-candidates/{family}.json').read_text())
  lanes.append({'family':family,'networks':[{k:v for k,v in n.items() if k!='coverageWays'} for n in catalog['pricing']],'probes':json.loads((ROOT/f'audit/2026-09-16/networks/{family}/lane-probes.json').read_text())})
  rows=[]
  for net in catalog['pricing']:
   route=json.loads((ROOT/f'pricing-candidates/{family}-routes'/f"{net['id']}-traversal.json").read_text())
-  rows.append({'network':net['id'],'expectedCents':next(iter(net['pricing']['fares'].values()))['baseCents'],'route':route})
+  rows.append({'network':net['id'],'expectedCents':next(iter(net['pricing']['fares'].values()))['baseCents'],'expectedHighCents':max([next(iter(net['pricing']['fares'].values()))['baseCents']]+[band['cents'] for band in next(iter(net['pricing']['fares'].values()))['bands']]),'route':route})
  routes.append({'family':family,'catalog':catalog,'routes':rows})
 for name,value in [('open-barrier-lanes',lanes),('open-barrier-routes',routes)]:
  (out/(name+'.json')).write_text(json.dumps(value,separators=(',',':'))+'\n')
@@ -26,3 +26,26 @@ if (ROOT/'pricing-candidates/ap53.json').exists():
   req=json.loads(path.read_text());response=json.loads(path.with_name(path.name.replace('-request','')).read_text())
   cases.append({'name':path.stem.removesuffix('-request'),'expectedCents':req.get('expectedCents',req.get('expectedIfPaidRouteCents')),'response':response})
  (target/'cases.json').write_text(json.dumps(cases,separators=(',',':'),ensure_ascii=False)+'\n')
+ if (ROOT/'pricing-candidates/ap53-avoidance').exists():
+  avoidance=[]
+  for path in sorted((ROOT/'pricing-candidates/ap53-avoidance').glob('*-request.json')):
+   avoidance.append({'name':path.stem.removesuffix('-request'),'request':json.loads(path.read_text())['request'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+  (target/'avoidance.json').write_text(json.dumps(avoidance,separators=(',',':'))+'\n')
+ if (ROOT/'pricing-candidates/ap53-terminals').exists():
+  terminal_cases=[]
+  for path in sorted((ROOT/'pricing-candidates/ap53-terminals').glob('*-request.json')):
+   request=json.loads(path.read_text());terminal_cases.append({'name':path.stem.removesuffix('-request'),'expectedCents':request['expectedCents'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+  (target/'terminals.json').write_text(json.dumps(terminal_cases,separators=(',',':'),ensure_ascii=False)+'\n')
+
+for family in ['ap41','ap71','ap36','ap7-cartagena-vera']:
+ if not (ROOT/f'pricing-candidates/{family}.json').exists():continue
+ import shutil
+ target=out/family;target.mkdir(exist_ok=True);catalog=json.loads((ROOT/f'pricing-candidates/{family}.json').read_text());shutil.copy(ROOT/f'pricing-candidates/{family}.json',target/'catalog.json');rows=[]
+ for path in sorted((ROOT/f'pricing-candidates/{family}-routes').glob('*-request.json')):
+  a,b=path.stem.removesuffix('-request').split('--');fare=next(f for f in catalog['pricing'][0]['pricing']['fares'] if f['from']==a+'-entry' and f['to']==b+'-exit');via=next((band['cents'] for band in fare['tariff']['bands'] if band.get('requires')==['payment:via-t']),fare['tariff']['baseCents']);req=json.loads(path.read_text());rows.append({'name':a+'--'+b,'expectedCents':req['expectedGeneralCents'],'expectedViaTCents':via,'expectedNightCents':next((band['cents'] for band in fare['tariff']['bands'] if band.get('minutes') in ([0,360],[1380,420])),fare['tariff']['baseCents']),'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (target/'cases.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
+ if (ROOT/f'pricing-candidates/{family}-avoidance').exists():
+  rows=[]
+  for path in sorted((ROOT/f'pricing-candidates/{family}-avoidance').glob('*-request.json')):
+   rows.append({'name':path.stem.removesuffix('-request'),'request':json.loads(path.read_text())['request'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+  (target/'avoidance.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')

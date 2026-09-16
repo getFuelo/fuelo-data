@@ -6,6 +6,25 @@
 >
 > Last full build: **2026-07-17** · Tariff year covered: **2026**
 
+## AUTEMA correction — 2026-09-16
+
+The three AUTEMA entries now use the general Category II tariff because the app
+has no toll-payment/registration eligibility profile. This explicitly supersedes
+the cheaper-case convention below for AUTEMA. Conditional discounts remain in
+notes; variable=true prevents claiming a universal fare. Mainline EUR9.76, Les
+Fonts EUR3.19, newly mapped Sant Vicenc–C55 lateral EUR4.90.
+
+Verified at https://www.autema.com/es/tarifas-y-descuentos/tarifas/ and the public
+calculator https://www.autema.com/es/tarificador/ with car/card/no-discount and
+unregistered settings, date16/09/2026: Berga to C58 Barcelona EUR9.76;
+Castellbell i el Vilar to C58 Barcelona EUR4.90. The lateral node2024620547
+(41.6495256,1.8606345) is on the previously recorded bypass route; it must not be
+confused with the mainline node about460m away. No user credentials were used.
+
+These are local changes pending review/publication. Updating this file alone
+does not change the CDN or installed apps. App toll cache must be invalidated
+when publishing the companion app/data updates.
+
 ## What this is
 
 Curated per-toll dataset served from this repo via jsDelivr, exactly like

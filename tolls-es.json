@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18",
+  "generated": "2026-09-16",
   "schema": 1,
   "currency": "EUR",
   "complete": true,
@@ -389,29 +389,29 @@
       "lng": 2.03037,
       "model": "fixed",
       "vehicle_class": "light",
-      "price": 1.43,
-      "price_high": 3.19,
+      "price": 3.19,
+      "price_high": null,
       "variable": true,
       "source": "https://www.autema.com/es/tarifas-y-descuentos/tarifas/",
-      "verified": "2026-07-18",
-      "notes": "Effective turismo fare: 1.43 Mon-Fri non-holiday (with dynamic ViaT/Satelise peak discount) / 3.19 weekends+holidays (2026, ~+2.98%). Free round-trip if same barrier both ways within 24h Mon-Fri with registered payment. Base gross tariff higher pre-discount (~2.45)."
+      "verified": "2026-09-16",
+      "notes": "2026 Category II general tariff without payment/registration discounts: EUR3.19. Operator publishes EUR1.43 conditional weekday discount; Via-T/Satelise and other registered benefits require eligibility. No toll payment profile is collected by the app, so default to general tariff, not discounted price."
     },
     {
       "id": "es-c16-terrassa-manresa",
       "country": "es",
-      "name": "C-16 Terrassa–Manresa (Autema, troncal Sant Vicenç de Castellet)",
+      "name": "C-16 Terrassa–Manresa (AUTEMA, barrera principal)",
       "road": "C-16",
       "operator": "Autema (Generalitat concession)",
       "lat": 41.65231,
       "lng": 1.86485,
       "model": "fixed",
       "vehicle_class": "light",
-      "price": 5.81,
-      "price_high": 9.76,
+      "price": 9.76,
+      "price_high": null,
       "variable": true,
       "source": "https://www.autema.com/es/tarifas-y-descuentos/tarifas/",
-      "verified": "2026-07-18",
-      "notes": "Effective turismo fare at Sant Vicenc de Castellet troncal: 5.81 Mon-Fri (dynamic-payment discount) / 9.76 weekends+holidays (2026, ~+2.96%). Same 24h round-trip + dynamic-payment scheme. Base gross ~4.88 pre-discount."
+      "verified": "2026-09-16",
+      "notes": "2026 Category II general tariff without payment/registration discounts: EUR9.76. Operator names this Manresa tariff; physical mainline plaza near Sant Vicenc. EUR5.81 peak tariff requires Via-T/Satelise on eligible non-holiday weekdays; additional registered benefits are conditional. Do not automatically apply discounts. Verified operator calculator Berga/Lleida/Girona to C-58 Barcelona, Turismo II, card/cash, no discounts, 16/09/2026: EUR9.76. Separate lateral Sant Vicenc-C55 barrier is not this plaza."
     },
     {
       "id": "es-c32-castelldefels-vendrell",
@@ -582,6 +582,23 @@
       "source": "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20TA%2001-01-2026.pdf",
       "verified": "2026-07-18",
       "notes": "Fixed per crossing, charged BOTH directions; barrier-free multi-lane free-flow gantries since 2023 (no booths). 1.55 light (2025: 1.50; night 'tarifa 0' also abolished 2026 - now charged 24h). EV -25% with OBE. Tunel 2 (Ugasko/Deusto-Txorierri) closed from 3-Feb-2026 ~6 months for works - all traffic via Tunel 1 (La Salve). Decreto Foral 147/2025 + Interbiak 2026 PDF. Coord approx La Salve (Bilbao) portal."
+    },
+    {
+      "id": "es-c16-sant-vicenc-c55",
+      "country": "es",
+      "name": "C-16 Ramal Sant Vicenç–C55 (AUTEMA)",
+      "road": "C-16",
+      "operator": "AUTEMA",
+      "lat": 41.6495256,
+      "lng": 1.8606345,
+      "model": "fixed",
+      "vehicle_class": "light",
+      "price": 4.9,
+      "price_high": null,
+      "variable": true,
+      "source": "https://www.autema.com/es/tarificador/",
+      "verified": "2026-09-16",
+      "notes": "Separate lateral barrier, OSM node2024620547 on way515278833. Observed route enters from C55 towards Barcelona. AUTEMA calculator: Castellbell i el Vilar -> C58 Sabadell/Barcelona, Turismo II, card/cash, no discounts, unregistered, 16/09/2026: EUR4.90. Operator tariff table Sant Vicenc EUR4.90 base/EUR2.92 conditional peak. Eligibility may reduce price, including registered Ronda Manresa journeys; do not assume eligibility. Match actual crossed plaza, never add the bypassed mainline barrier."
     }
   ]
 }

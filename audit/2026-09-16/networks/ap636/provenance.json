@@ -1,0 +1,81 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "gate": "es-ap636-beasain-27694225",
+      "way": 27694225,
+      "version": 15,
+      "node": 301664947,
+      "oneway": "yes"
+    },
+    {
+      "gate": "es-ap636-beasain-27694624",
+      "way": 27694624,
+      "version": 15,
+      "node": 301665205,
+      "oneway": "yes"
+    },
+    {
+      "gate": "es-ap636-ezkio-158481317",
+      "way": 158481317,
+      "version": 21,
+      "node": 2104862541,
+      "oneway": "yes"
+    },
+    {
+      "gate": "es-ap636-ezkio-421322505",
+      "way": 421322505,
+      "version": 16,
+      "node": 2104862568,
+      "oneway": "yes"
+    },
+    {
+      "gate": "Legazpi-entry",
+      "way": 165813688,
+      "version": 20,
+      "node": 9427898716,
+      "oneway": "yes"
+    },
+    {
+      "gate": "Legazpi-exit",
+      "way": 165813689,
+      "version": 17,
+      "node": 9427928317,
+      "oneway": "yes"
+    },
+    {
+      "gate": "Antzuola-entry",
+      "way": 165816113,
+      "version": 15,
+      "node": 3417773128,
+      "oneway": "yes"
+    },
+    {
+      "gate": "Antzuola-exit",
+      "way": 429921664,
+      "version": 9,
+      "node": 4800873696,
+      "oneway": "yes"
+    },
+    {
+      "gate": "Bergara-entry",
+      "way": 165816869,
+      "version": 18,
+      "node": 1709676557,
+      "oneway": "yes"
+    },
+    {
+      "gate": "Bergara-exit",
+      "way": 334715038,
+      "version": 15,
+      "node": 1709676560,
+      "oneway": "yes"
+    }
+  ],
+  "tariffSource": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+  "systemSource": "https://www.contratacion.euskadi.eus/webkpe00-kpeperfi/es/contenidos/anuncio_contratacion/expjaso31143/es_doc/adjuntos/pliego_bases_tecnicas1.pdf",
+  "lawSource": "https://www.bidegi.eus/documents/42696171/43363894/Norma%20Foral%204_2020%20de%206%20de%20noviembre%20canon%20autov%C3%ADa%20A-636.pdf/fc8aed80-70de-9252-abf1-fa9007d146a9",
+  "systemDocumentSha256": "7af728bb7c3c29dcc7e2f0127c42c9bc99c075c46aea53628ea97229dbaed350",
+  "review": "Antzuola is a half interchange facing Deskarga. Only four direct OD movements; no assumed Antzuola\u2013Bergara zero fare. OD coverage clips retain source vertices.",
+  "ready": false
+}

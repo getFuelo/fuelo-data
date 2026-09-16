@@ -138,6 +138,12 @@ for family, spec in SPECS.items():
            'evidence': {'checked': '2026-09-16', 'tariffSources': [refs['source']], 'geometrySource': 'https://www.openstreetmap.org/copyright'}}
     if family == 'ap66':
         net['avoidanceGateIds'] = [g['id'] for g in gates if g['id'].endswith('-entry')]
+    if family == 'r2':
+        # The shared plaza cross-sections block entry AND exit carriageways.
+        # Every paid OD pair touches at least one of these four plazas; the
+        # only pair touching neither is the rebated Guadalajara–Taracena pair.
+        # Never exclude the two terminal gates of that free movement.
+        net['avoidanceGateIds'] = [zone+'-entry' for zone in ('Ajalvir','Alcalá','Meco','Cabanillas')]
     for way in net['coverageWays']:
         if int(way['id']) in spec.get('freeApproachWays',[]):
             assert ways[int(way['id'])]['tags'].get('toll') != 'yes'

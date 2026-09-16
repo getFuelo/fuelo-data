@@ -110,3 +110,19 @@ No push, deployment, country activation or device installation.
 Validation: 610 tests in 33 suites and TypeScript pass; 46 candidate JSON files
 and 36 original audit records pass offline integrity. National release remains
 blocked, all networks remain not-ready, and Spain stays disabled. Local only.
+
+## AP-636 and R-2 avoidance checkpoint — 2026-09-16
+
+- AP-636 now has twelve retained real routes: four independent gantry traversals,
+  four Deskarga OD journeys, two whole-road traversals and two free alternatives.
+  The 52-cent Antzuola TAG journey replaces the 155-cent Deskarga charge.
+  Two truncated tunnel regressions reject missing journey context.
+- All thirty R-2 directed avoidance probes quote zero. The Guadalajara Norte–
+  Taracena pair retains its original polyline exactly. Four shared paid-plaza
+  cuts cover paid pairs while preserving both ends of that free movement.
+- Avoidance endpoints on committed approaches/one-way exit ramps were moved
+  to identified public junctions. Initial no-path responses remain auditable.
+
+Validation: all 656 tests in 34 suites and TypeScript pass; 47 candidate JSON
+files and 36 original snapshot records pass offline integrity. National release
+remains blocked. All changes are local; no country activation or publication.

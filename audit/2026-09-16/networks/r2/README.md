@@ -35,3 +35,26 @@ Reproduce: `build_closed_plazas.py`, `build_barrier_families.py`,
 Remaining: all-lane/partial boundaries and avoidance that preserves the rebated
 Guadalajara–Taracena link. Do not blindly fence all entry gates: that would also
 block a free movement. Both candidates and the country remain disabled.
+
+## Avoidance follow-up
+
+The four shared plaza cross-sections at Ajalvir, Alcalá, Meco and Cabanillas
+intercept every paid OD pair. Guadalajara Norte and Taracena are deliberately
+excluded from the avoidance list: their mutual journey is fully rebated. This
+uses the existing app polygon builder, not a new geometry approximation.
+
+All thirty directed OD avoidance probes now quote zero. The two rebated routes
+retain byte-identical polylines to their original baselines. Several alternatives
+use this rebated movement even though Valhalla flags it tolled; the explicit
+zero fare correctly distinguishes it from a missing toll flag.
+
+Ajalvir's original near-plaza origin was already beyond the last free exit;
+Valhalla correctly returned no path with its only onward barrier excluded. The
+Meco and Cabanillas exit-ramp destinations likewise required approaching through
+the plaza. Avoidance now uses public junction nodes 255960167 (M-113),
+276998168 (M-116), and 280428859 (N-320), respectively. Original failures and
+requests are retained in avoidance-probe-review. These replacements apply only
+to the avoidance corpus, not the earlier priced OD reference routes.
+
+Full public journeys combining the two urban plazas and closed-system avoidance,
+and exhaustive boundary/lane review, remain pending.

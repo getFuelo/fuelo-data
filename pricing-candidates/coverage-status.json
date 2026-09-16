@@ -212,7 +212,8 @@
       ],
       "ready": false,
       "blockers": [
-        "Complete all-lane/partial boundary checks and avoidance that preserves the free Guadalajara Norte–Taracena connection.",
+        "Complete all-lane and partial-boundary checks beyond the reference corpus.",
+        "Verify the combined open/closed R-2 avoidance from full public endpoints.",
         "Country inventory and release integration remain incomplete."
       ],
       "validatedCorpus": {
@@ -222,7 +223,9 @@
         "fullyRebatedDirections": 2,
         "realOpenPlazaTraversals": 2,
         "individualOpenLaneTraversals": 4,
-        "combinedWholeJourneys": 4
+        "combinedWholeJourneys": 4,
+        "avoidedDirectedZonePairs": 30,
+        "freePairGeometryPreservedDirections": 2
       }
     },
     {
@@ -465,12 +468,23 @@
       "tariffArtifacts": [
         "pricing-candidates/ap636-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap636.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Model conditional Antzuola partial journey without adding its rate to the full Deskarga section."
-      ]
+        "Complete public approach, alternate ramp, boundary and repeated-crossing corpus.",
+        "Registered Abiatu monthly discount eligibility/history requires separate profile support.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "realIndependentSectionTraversals": 4,
+        "deskargaDirectedJourneys": 4,
+        "fullTraversals": 2,
+        "freeAlternatives": 2,
+        "viaTPartialSubstitution": true,
+        "truncatedContextRejectedDirections": 2
+      }
     },
     {
       "catalogId": "es-ap8-bizkaia",

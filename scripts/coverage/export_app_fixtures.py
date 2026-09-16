@@ -30,6 +30,15 @@ if (ROOT/'pricing-candidates/vallvidrera.json').exists():
  (target/'cases.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
 
 # Closed-system corpus: preserve every request's independently selected tariff.
+if (ROOT/'pricing-candidates/ap636.json').exists():
+ import shutil
+ target=out/'ap636';target.mkdir(exist_ok=True)
+ shutil.copy(ROOT/'pricing-candidates/ap636.json',target/'catalog.json')
+ rows=[]
+ for path in sorted((ROOT/'pricing-candidates/ap636-routes').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (target/'cases.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
+
 if (ROOT/'pricing-candidates/ap53.json').exists():
  import shutil
  target=out/'ap53';target.mkdir(exist_ok=True)

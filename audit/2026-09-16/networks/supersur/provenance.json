@@ -1,0 +1,205 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "ARRIGORRIAGA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 665895396,
+      "version": 9,
+      "node": 6233526794,
+      "outsideNode": 3242805399
+    },
+    {
+      "zone": "ARRIGORRIAGA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 574215234,
+      "version": 13,
+      "node": 10785286805,
+      "outsideNode": 3242805381
+    },
+    {
+      "zone": "BILBAO-ESTE",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 83865303,
+      "version": 15,
+      "node": 975637062,
+      "outsideNode": 975636767
+    },
+    {
+      "zone": "BILBAO-ESTE",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 83865266,
+      "version": 15,
+      "node": 975637034,
+      "outsideNode": 975637059
+    },
+    {
+      "zone": "BILBAO-SUR",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 83865343,
+      "version": 7,
+      "node": 976184426,
+      "outsideNode": 1323686594
+    },
+    {
+      "zone": "BILBAO-SUR",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 83865272,
+      "version": 6,
+      "node": 976184696,
+      "outsideNode": 976184613
+    },
+    {
+      "zone": "ORTUELLA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 84818866,
+      "version": 12,
+      "node": 984774533,
+      "outsideNode": 984774613
+    },
+    {
+      "zone": "ORTUELLA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 129673369,
+      "version": 7,
+      "node": 1428956248,
+      "outsideNode": 929491281
+    },
+    {
+      "zone": "SANTURTZI",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 598929190,
+      "version": 3,
+      "node": 984851451,
+      "outsideNode": 301161276
+    },
+    {
+      "zone": "SANTURTZI",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 83865338,
+      "version": 12,
+      "node": 930919412,
+      "outsideNode": 984774901
+    }
+  ],
+  "probeLocations": {
+    "ARRIGORRIAGA": {
+      "entry": {
+        "lat": 43.2187007,
+        "lng": -2.9083575
+      },
+      "exit": {
+        "lat": 43.217082,
+        "lng": -2.9046599
+      }
+    },
+    "BILBAO-ESTE": {
+      "entry": {
+        "lat": 43.240364,
+        "lng": -2.93304
+      },
+      "exit": {
+        "lat": 43.240404,
+        "lng": -2.9326528
+      }
+    },
+    "BILBAO-SUR": {
+      "entry": {
+        "lat": 43.2555698,
+        "lng": -2.9698283
+      },
+      "exit": {
+        "lat": 43.2557065,
+        "lng": -2.9696275
+      }
+    },
+    "ORTUELLA": {
+      "entry": {
+        "lat": 43.3038793,
+        "lng": -3.0246448
+      },
+      "exit": {
+        "lat": 43.3042698,
+        "lng": -3.0235177
+      }
+    },
+    "SANTURTZI": {
+      "entry": {
+        "lat": 43.3150142,
+        "lng": -3.0470411
+      },
+      "exit": {
+        "lat": 43.3055962,
+        "lng": -3.0248922
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "ARRIGORRIAGA",
+    "BILBAO-ESTE",
+    "BILBAO-SUR",
+    "ORTUELLA",
+    "SANTURTZI"
+  ],
+  "probeJourneys": {
+    "ARRIGORRIAGA--ORTUELLA": {
+      "entry": {
+        "lat": 43.2187007,
+        "lng": -2.9083575
+      },
+      "exit": {
+        "lat": 43.3042698,
+        "lng": -3.0235177
+      },
+      "via": [
+        {
+          "lat": 43.2692549,
+          "lng": -2.9968302
+        }
+      ]
+    },
+    "BILBAO-ESTE--ORTUELLA": {
+      "entry": {
+        "lat": 43.240364,
+        "lng": -2.93304
+      },
+      "exit": {
+        "lat": 43.3042698,
+        "lng": -3.0235177
+      },
+      "via": [
+        {
+          "lat": 43.2692549,
+          "lng": -2.9968302
+        }
+      ]
+    },
+    "BILBAO-SUR--ORTUELLA": {
+      "entry": {
+        "lat": 43.2555698,
+        "lng": -2.9698283
+      },
+      "exit": {
+        "lat": 43.3042698,
+        "lng": -3.0235177
+      },
+      "via": [
+        {
+          "lat": 43.2692549,
+          "lng": -2.9968302
+        }
+      ]
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

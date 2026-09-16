@@ -1,0 +1,27 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.3113573,
+        "lon": -8.4758866,
+        "heading": 31
+      },
+      {
+        "lat": 43.3441427,
+        "lon": -8.4397671,
+        "heading": 70
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 55,
+  "expectationSource": "Published independent Pastoriza and Arteixo\u2013Carballo tariffs"
+}

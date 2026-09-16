@@ -1,0 +1,2231 @@
+{
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright",
+  "method": "OSM API bbox 0.0006 degrees; nodes within 8m and their parent highway ways. This checks node identity, not full route coverage or tariff applicability.",
+  "entries": [
+    {
+      "id": "es-ap6",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-4.21605,40.78924,-4.21545,40.789840000000005",
+      "queried": "2026-09-16",
+      "coordinate": [
+        40.78954,
+        -4.21575
+      ],
+      "sha256": "c961b1ed6fe00deaf14a35ff9feeda3a1e2aee5248dea6abb5db2cd96adf8fca",
+      "nodes": [
+        {
+          "id": "870413476",
+          "version": "2",
+          "distance_m": 0.18,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "73419663",
+              "version": "11",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "no",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "12465550344",
+          "version": "1",
+          "distance_m": 5.65,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "1347604248",
+              "version": "3",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "no",
+                "oneway": "yes",
+                "source": "ITACyL",
+                "source:date": "2010",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "12465550345",
+          "version": "1",
+          "distance_m": 0.68,
+          "tags": {},
+          "ways": [
+            {
+              "id": "73419663",
+              "version": "11",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "no",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap51",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-4.4308000000000005,40.76875,-4.4302,40.76935",
+      "queried": "2026-09-16",
+      "coordinate": [
+        40.76905,
+        -4.4305
+      ],
+      "sha256": "a13b8bbd923bce6a2b3cf9097f5dcc9b1868f6160f3ebaa9b101a912fb195963",
+      "nodes": [
+        {
+          "id": "26000032",
+          "version": "7",
+          "distance_m": 0.25,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "1319024328",
+              "version": "3",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "1",
+                "lit": "yes",
+                "maxspeed": "30",
+                "oneway": "yes",
+                "ref": "AP-51",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2151892292",
+          "version": "2",
+          "distance_m": 5.9,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "205214787",
+              "version": "9",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "1",
+                "lit": "yes",
+                "maxspeed": "30",
+                "oneway": "yes",
+                "ref": "AP-51",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap61",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-4.17784,40.824099999999994,-4.177239999999999,40.8247",
+      "queried": "2026-09-16",
+      "coordinate": [
+        40.8244,
+        -4.17754
+      ],
+      "sha256": "3b893c3f076b208af629b91513481183cfa804f7131f35fc3496365fb50904b0",
+      "nodes": [
+        {
+          "id": "875905147",
+          "version": "2",
+          "distance_m": 0.35,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "280788851",
+              "version": "7",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "no",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "12465545017",
+          "version": "1",
+          "distance_m": 5.86,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "1347601198",
+              "version": "2",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "no",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap53",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-8.33812,42.731579999999994,-8.337520000000001,42.73218",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.73188,
+        -8.33782
+      ],
+      "sha256": "2ea761b69853dabe7866433d717cd05204954a91d1f08fb591fba8e22898a9bd",
+      "nodes": [
+        {
+          "id": "1132443182",
+          "version": "1",
+          "distance_m": 0.15,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "98039414",
+              "version": "3",
+              "tags": {
+                "highway": "motorway_link",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "1132443183",
+          "version": "1",
+          "distance_m": 4.98,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "93387468",
+              "version": "7",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "1132443185",
+          "version": "1",
+          "distance_m": 7.54,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "98039397",
+              "version": "5",
+              "tags": {
+                "destination": "Bandeira;A Estrada;Caldas de Reis",
+                "destination:ref": "N-525;N-640",
+                "highway": "motorway_link",
+                "lanes": "1",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap66",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-5.8899,42.90708,-5.8892999999999995,42.907680000000006",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.90738,
+        -5.8896
+      ],
+      "sha256": "627b8eb735ecc6cbb142d1e4f475f56d5f12e5025bd4703b9e8c18972c523700",
+      "nodes": [
+        {
+          "id": "1423285875",
+          "version": "3",
+          "distance_m": 4.58,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Peaje A-66 Entrada 93 Villablino",
+            "operator": "Aucalsa"
+          },
+          "ways": [
+            {
+              "id": "545291462",
+              "version": "3",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "maxspeed": "40",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "building_passage"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2391806059",
+          "version": "1",
+          "distance_m": 0.47,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "545291461",
+              "version": "3",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "maxspeed": "40",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "building_passage"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2888903457",
+          "version": "1",
+          "distance_m": 7.51,
+          "tags": {},
+          "ways": [
+            {
+              "id": "545291461",
+              "version": "3",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "maxspeed": "40",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "building_passage"
+              }
+            },
+            {
+              "id": "545291465",
+              "version": "3",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "maxspeed": "40",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap68",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.46116,42.434819999999995,-2.4605599999999996,42.43542",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.43512,
+        -2.46086
+      ],
+      "sha256": "29015b924a01b1079b2fbdc49e3b87caacf1908aca33a1b74faca642178e213d",
+      "nodes": [
+        {
+          "id": "597696191",
+          "version": "3",
+          "distance_m": 0.39,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "8090380",
+              "version": "12",
+              "tags": {
+                "covered": "yes",
+                "highway": "motorway_link",
+                "lit": "24/7",
+                "maxspeed": "80",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "3809964409",
+          "version": "1",
+          "distance_m": 3.84,
+          "tags": {},
+          "ways": [
+            {
+              "id": "8090380",
+              "version": "12",
+              "tags": {
+                "covered": "yes",
+                "highway": "motorway_link",
+                "lit": "24/7",
+                "maxspeed": "80",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            },
+            {
+              "id": "377615633",
+              "version": "4",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "2",
+                "lit": "yes",
+                "maxspeed": "80",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap71",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-5.88757,42.453399999999995,-5.88697,42.454",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.4537,
+        -5.88727
+      ],
+      "sha256": "635b1fabd35da9144a1eb908652658b4f1c49c4c65320132bcb6fd73cafe99a6",
+      "nodes": [
+        {
+          "id": "48221591",
+          "version": "4",
+          "distance_m": 0.54,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "202458083",
+              "version": "6",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "2",
+                "maxspeed": "10",
+                "name": "Autopista León - Astorga",
+                "oneway": "yes",
+                "ref": "AP-71",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "building_passage"
+              }
+            }
+          ]
+        },
+        {
+          "id": "5272630866",
+          "version": "1",
+          "distance_m": 4.22,
+          "tags": {},
+          "ways": [
+            {
+              "id": "202458083",
+              "version": "6",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "2",
+                "maxspeed": "10",
+                "name": "Autopista León - Astorga",
+                "oneway": "yes",
+                "ref": "AP-71",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "building_passage"
+              }
+            },
+            {
+              "id": "545554591",
+              "version": "4",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "2",
+                "maxspeed": "40",
+                "name": "Autopista León - Astorga",
+                "oneway": "yes",
+                "ref": "AP-71",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap9",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-8.571299999999999,42.81749,-8.5707,42.818090000000005",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.81779,
+        -8.571
+      ],
+      "sha256": "056a7e077c6fb41bd7f508db4fffd36c2c421bd3a635335f5a4f12992ab761fe",
+      "nodes": [
+        {
+          "id": "3092996652",
+          "version": "2",
+          "distance_m": 0.4,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "304712492",
+              "version": "7",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "1",
+                "maxspeed": "40",
+                "name": "Autoestrada do Atlántico",
+                "name:es": "Autopista del Atlántico",
+                "oneway": "yes",
+                "ref": "AP-9",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "3092996670",
+          "version": "2",
+          "distance_m": 5.1,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "304712490",
+              "version": "7",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "1",
+                "maxspeed": "40",
+                "name": "Autoestrada do Atlántico",
+                "name:es": "Autopista del Atlántico",
+                "oneway": "yes",
+                "ref": "AP-9",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap46",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-4.45851,36.902469999999994,-4.45791,36.90307",
+      "queried": "2026-09-16",
+      "coordinate": [
+        36.90277,
+        -4.45821
+      ],
+      "sha256": "efb51e4fe791cc638dceab9cbbd1b95d8f4778e6f8d0aa8f34924897f52acd95",
+      "nodes": [
+        {
+          "id": "5044370601",
+          "version": "1",
+          "distance_m": 0.38,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "516787827",
+              "version": "5",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "1",
+                "layer": "-1",
+                "lit": "yes",
+                "maxheight": "default",
+                "maxspeed": "40",
+                "name": "Autopista de las Pedrizas",
+                "oneway": "yes",
+                "ref": "AP-46",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "5044370602",
+          "version": "1",
+          "distance_m": 4.54,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "516787837",
+              "version": "5",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "1",
+                "layer": "-1",
+                "lit": "yes",
+                "maxheight": "default",
+                "maxspeed": "40",
+                "name": "Autopista de las Pedrizas",
+                "oneway": "yes",
+                "ref": "AP-46",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap7-malaga-estepona",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-5.00159,36.49868,-5.00099,36.499280000000006",
+      "queried": "2026-09-16",
+      "coordinate": [
+        36.49898,
+        -5.00129
+      ],
+      "sha256": "585385a53a1d7b5d097959d40802e7cfb86c023ca4983b4891ea0daf8062c099",
+      "nodes": [
+        {
+          "id": "5667807569",
+          "version": "1",
+          "distance_m": 4.86,
+          "tags": {},
+          "ways": [
+            {
+              "id": "594349481",
+              "version": "3",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "yes",
+                "maxspeed": "20",
+                "oneway": "yes",
+                "surface": "asphalt"
+              }
+            }
+          ]
+        },
+        {
+          "id": "5667807580",
+          "version": "1",
+          "distance_m": 0.26,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "594349483",
+              "version": "4",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "yes",
+                "maxspeed": "20",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            },
+            {
+              "id": "1393670651",
+              "version": "1",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "yes",
+                "maxspeed": "20",
+                "oneway": "yes",
+                "surface": "asphalt"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap7-estepona-guadiaro",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-5.26574,36.375029999999995,-5.26514,36.37563",
+      "queried": "2026-09-16",
+      "coordinate": [
+        36.37533,
+        -5.26544
+      ],
+      "sha256": "ada1bb200447b4993ece684658f6b91a34b371f05307339ff289df7ae3d3e15e",
+      "nodes": [
+        {
+          "id": "6128263623",
+          "version": "1",
+          "distance_m": 5.94,
+          "tags": {},
+          "ways": [
+            {
+              "id": "653952209",
+              "version": "7",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "yes",
+                "maxspeed": "30",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "6128263634",
+          "version": "1",
+          "distance_m": 0.29,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "653952211",
+              "version": "9",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "lit": "yes",
+                "maxspeed": "30",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap7-alicante-cartagena",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-0.73773,37.92568,-0.7371300000000001,37.926280000000006",
+      "queried": "2026-09-16",
+      "coordinate": [
+        37.92598,
+        -0.73743
+      ],
+      "sha256": "b9fc30a5025420ec7bcdc5003386e80b5460fe02255646889b76387a78da0394",
+      "nodes": [
+        {
+          "id": "297701500",
+          "version": "6",
+          "distance_m": 0.32,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "27134430",
+              "version": "11",
+              "tags": {
+                "highway": "motorway_link",
+                "maxheight:signed": "no",
+                "oneway": "yes",
+                "ref": "AP-7",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-r2",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-3.30987,40.53812,-3.3092699999999997,40.538720000000005",
+      "queried": "2026-09-16",
+      "coordinate": [
+        40.53842,
+        -3.30957
+      ],
+      "sha256": "78de03190c344dd60afa633be75992ffdc6d5d6b94975e2dbe7b9071df855f3e",
+      "nodes": [
+        {
+          "id": "276999231",
+          "version": "4",
+          "distance_m": 0.2,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "1012505416",
+              "version": "2",
+              "tags": {
+                "highway": "motorway_link",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-r3",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-3.4690600000000003,40.38677,-3.46846,40.387370000000004",
+      "queried": "2026-09-16",
+      "coordinate": [
+        40.38707,
+        -3.46876
+      ],
+      "sha256": "3177a86924cbfe862e78e272974253f03b66aba1ffdc3c78d352421ad1054462",
+      "nodes": [
+        {
+          "id": "1062290642",
+          "version": "1",
+          "distance_m": 0.56,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "292793818",
+              "version": "8",
+              "tags": {
+                "abandoned": "highway",
+                "access": "no",
+                "construction": "motorway",
+                "highway": "construction",
+                "name": "M-203",
+                "oneway": "yes",
+                "proposed": "motorway",
+                "proposed:highway": "motorway",
+                "ref": "MP-203",
+                "source": "PNOA",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-r4",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-3.6665400000000004,40.10523,-3.66594,40.105830000000005",
+      "queried": "2026-09-16",
+      "coordinate": [
+        40.10553,
+        -3.66624
+      ],
+      "sha256": "6634734342091abf6977f5de51725ab769c7aa649d407e0a27e39d2e53e9fddf",
+      "nodes": [
+        {
+          "id": "1377743429",
+          "version": "1",
+          "distance_m": 7.32,
+          "tags": {},
+          "ways": [
+            {
+              "id": "28474041",
+              "version": "5",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "1377743431",
+          "version": "1",
+          "distance_m": 0.24,
+          "tags": {
+            "barrier": "toll_booth",
+            "toll:automatic": "ViaT"
+          },
+          "ways": [
+            {
+              "id": "105198219",
+              "version": "4",
+              "tags": {
+                "access": "designated",
+                "highway": "motorway_link",
+                "lanes": "1",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            },
+            {
+              "id": "1392211206",
+              "version": "1",
+              "tags": {
+                "access": "designated",
+                "highway": "motorway_link",
+                "lanes": "1",
+                "oneway": "yes",
+                "surface": "asphalt"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-r5",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-3.9109000000000003,40.257549999999995,-3.9103,40.25815",
+      "queried": "2026-09-16",
+      "coordinate": [
+        40.25785,
+        -3.9106
+      ],
+      "sha256": "5b7d1ce99ce84df8db5bb0f380a9432f0c55384a9ebf720f87165cad5a569ced",
+      "nodes": [
+        {
+          "id": "2496787594",
+          "version": "1",
+          "distance_m": 6.95,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "491680790",
+              "version": "4",
+              "tags": {
+                "bridge": "yes",
+                "covered": "yes",
+                "hazmat": "designated",
+                "highway": "motorway",
+                "layer": "1",
+                "oneway": "yes",
+                "ref": "R-5",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2496787692",
+          "version": "1",
+          "distance_m": 0.58,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "491680787",
+              "version": "4",
+              "tags": {
+                "bridge": "yes",
+                "covered": "yes",
+                "hazmat": "designated",
+                "highway": "motorway",
+                "layer": "1",
+                "oneway": "yes",
+                "ref": "R-5",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4837549473",
+          "version": "1",
+          "distance_m": 5.94,
+          "tags": {},
+          "ways": [
+            {
+              "id": "491680787",
+              "version": "4",
+              "tags": {
+                "bridge": "yes",
+                "covered": "yes",
+                "hazmat": "designated",
+                "highway": "motorway",
+                "layer": "1",
+                "oneway": "yes",
+                "ref": "R-5",
+                "toll": "yes"
+              }
+            },
+            {
+              "id": "491680788",
+              "version": "4",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "oneway": "yes",
+                "ref": "R-5",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-m12",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-3.59586,40.487669999999994,-3.5952599999999997,40.48827",
+      "queried": "2026-09-16",
+      "coordinate": [
+        40.48797,
+        -3.59556
+      ],
+      "sha256": "2169e8ca4ea3b45e518b576b3300cd07c3f3a209c56bf56f689bedf58f7e20df",
+      "nodes": [
+        {
+          "id": "364900137",
+          "version": "8",
+          "distance_m": 0.12,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Parking T4 Entrada",
+            "operator": "Aena"
+          },
+          "ways": [
+            {
+              "id": "1216841594",
+              "version": "1",
+              "tags": {
+                "highway": "tertiary",
+                "maxspeed": "10",
+                "noname": "yes",
+                "noref": "yes",
+                "oneway": "yes",
+                "surface": "asphalt"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap7-cartagena-vera",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.50722,37.492039999999996,-1.50662,37.49264",
+      "queried": "2026-09-16",
+      "coordinate": [
+        37.49234,
+        -1.50692
+      ],
+      "sha256": "5193687d20bdc984e841e25170e1cd4bbfa00477992be20e62e1bc107d671927",
+      "nodes": [
+        {
+          "id": "1454017078",
+          "version": "1",
+          "distance_m": 0.47,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "132120099",
+              "version": "5",
+              "tags": {
+                "highway": "motorway_link",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap36",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.91704,39.519369999999995,-2.9164399999999997,39.51997",
+      "queried": "2026-09-16",
+      "coordinate": [
+        39.51967,
+        -2.91674
+      ],
+      "sha256": "577cb96884446b7eb775bf254767062a005bead05da28534c4c94fdadaf2cdbf",
+      "nodes": [
+        {
+          "id": "983425503",
+          "version": "1",
+          "distance_m": 0.13,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "82101660",
+              "version": "5",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "2",
+                "oneway": "no",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            },
+            {
+              "id": "731979892",
+              "version": "2",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "2",
+                "oneway": "no",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap41",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-3.8678700000000004,39.956219999999995,-3.86727,39.95682",
+      "queried": "2026-09-16",
+      "coordinate": [
+        39.95652,
+        -3.86757
+      ],
+      "sha256": "15b3664e19f6158f9ea2b8dbcb097494c6705438d46c73bfcadd72317efad8d8",
+      "nodes": [
+        {
+          "id": "8760698990",
+          "version": "1",
+          "distance_m": 0.52,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "946404542",
+              "version": "2",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "2",
+                "maxspeed": "30",
+                "oneway": "yes",
+                "ref": "AP-41",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-cadi",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=1.83886,42.33987,1.8394599999999999,42.34047",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.34017,
+        1.83916
+      ],
+      "sha256": "4a752b3497b01be9a18e71a40faa0d6d38c30b16c3a0adc335c43f09d4a0ae57",
+      "nodes": [
+        {
+          "id": "146302625",
+          "version": "17",
+          "distance_m": 0.38,
+          "tags": {
+            "barrier": "toll_booth",
+            "horse": "no",
+            "motor_vehicle": "yes",
+            "name": "Peatge Túnel del Cadí"
+          },
+          "ways": [
+            {
+              "id": "154070429",
+              "version": "14",
+              "tags": {
+                "agricultural": "no",
+                "bicycle": "no",
+                "foot": "no",
+                "highway": "trunk",
+                "int_ref": "E 09",
+                "lanes": "4",
+                "maxspeed": "20",
+                "name": "Eix del Llobregat",
+                "name:ca": "Eix del Llobregat",
+                "name:es": "eje del Llobregat C-16",
+                "oneway": "no",
+                "ref": "C-16",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-vallvidrera",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=2.0753999999999997,41.436989999999994,2.076,41.43759",
+      "queried": "2026-09-16",
+      "coordinate": [
+        41.43729,
+        2.0757
+      ],
+      "sha256": "206ef8d6246a4959a94d64f932572c2c8924d8cef1e8d445be13a5d9ce6daebd",
+      "nodes": [
+        {
+          "id": "1419636417",
+          "version": "4",
+          "distance_m": 0.51,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Peatge Túnels de Vallvidrera"
+          },
+          "ways": [
+            {
+              "id": "128463193",
+              "version": "10",
+              "tags": {
+                "destination": "Telepeatge",
+                "highway": "motorway",
+                "int_ref": "E 09",
+                "lit": "yes",
+                "maxheight": "2.1",
+                "maxspeed": "40",
+                "name": "Eix del Llobregat",
+                "name:ca": "Eix del Llobregat",
+                "oneway": "yes",
+                "ref": "C-16",
+                "surface": "asphalt",
+                "wikidata": "Q2872986"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-c16-sant-cugat-terrassa",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=2.03007,41.517939999999996,2.03067,41.51854",
+      "queried": "2026-09-16",
+      "coordinate": [
+        41.51824,
+        2.03037
+      ],
+      "sha256": "693ace2e728f166c75bc9657a8dc9ba39cbe95f2848452a5bf21620c6c441800",
+      "nodes": [
+        {
+          "id": "7034570669",
+          "version": "1",
+          "distance_m": 0.17,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Peatge de les Fonts (Via-T)",
+            "operator": "AUTEMA"
+          },
+          "ways": [
+            {
+              "id": "752846707",
+              "version": "4",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "name": "Via-T",
+                "name:ca": "Via-T",
+                "oneway": "yes",
+                "ref": "C-16",
+                "surface": "asphalt",
+                "tunnel": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "7034570673",
+          "version": "1",
+          "distance_m": 7.21,
+          "tags": {},
+          "ways": [
+            {
+              "id": "752846707",
+              "version": "4",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "name": "Via-T",
+                "name:ca": "Via-T",
+                "oneway": "yes",
+                "ref": "C-16",
+                "surface": "asphalt",
+                "tunnel": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-c16-terrassa-manresa",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=1.86455,41.65201,1.8651499999999999,41.65261",
+      "queried": "2026-09-16",
+      "coordinate": [
+        41.65231,
+        1.86485
+      ],
+      "sha256": "3fa2fc51b19f0a8fc964a0c0ba79669c33fa8d49a73e0a4eff310cf3f2a18a50",
+      "nodes": [
+        {
+          "id": "2024647227",
+          "version": "4",
+          "distance_m": 0.55,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Sant Vicenç (Via-T)",
+            "operator": "AUTEMA"
+          },
+          "ways": [
+            {
+              "id": "191903492",
+              "version": "8",
+              "tags": {
+                "destination": "Via-T",
+                "highway": "motorway_link",
+                "maxheight": "2.1",
+                "maxspeed": "40",
+                "maxweight": "3.5",
+                "name": "Via-T",
+                "name:ca": "Via-T",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2024647270",
+          "version": "2",
+          "distance_m": 7.04,
+          "tags": {},
+          "ways": [
+            {
+              "id": "191903482",
+              "version": "2",
+              "tags": {
+                "highway": "service",
+                "oneway": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2024647273",
+          "version": "2",
+          "distance_m": 7.91,
+          "tags": {},
+          "ways": [
+            {
+              "id": "191903482",
+              "version": "2",
+              "tags": {
+                "highway": "service",
+                "oneway": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-c32-castelldefels-vendrell",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=1.85159,41.244299999999996,1.85219,41.2449",
+      "queried": "2026-09-16",
+      "coordinate": [
+        41.2446,
+        1.85189
+      ],
+      "sha256": "e6d8374a0c6d0a89bd63449f3507d35fdf4d9a5db2eb333c60eae820d15eabec",
+      "nodes": [
+        {
+          "id": "2711225199",
+          "version": "1",
+          "distance_m": 0.56,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "265459419",
+              "version": "10",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "maxspeed": "50",
+                "name": "Peatge de Vallcarca",
+                "name:ca": "Peatge de Vallcarca",
+                "oneway": "yes",
+                "surface": "asphalt"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2711225210",
+          "version": "2",
+          "distance_m": 5.67,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "265459433",
+              "version": "9",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "maxspeed": "50",
+                "name": "Peatge de Vallcarca",
+                "name:ca": "Peatge de Vallcarca",
+                "oneway": "yes",
+                "surface": "asphalt"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ag55",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-8.52778,43.27596,-8.527180000000001,43.27656",
+      "queried": "2026-09-16",
+      "coordinate": [
+        43.27626,
+        -8.52748
+      ],
+      "sha256": "a954e9cd5d4e696e789e9701bb8a530cabcedbac6dc2c3af857af7272cd11660",
+      "nodes": [
+        {
+          "id": "285172003",
+          "version": "5",
+          "distance_m": 0.22,
+          "tags": {
+            "barrier": "toll_booth",
+            "currency:EUR": "yes",
+            "name": "Peaxe Paiosaco-Arteixo",
+            "name:en": "Paiosaco-Arteixo toll",
+            "name:gl": "Peaxe Paiosaco-Arteixo",
+            "payment:cash": "yes",
+            "payment:coins": "yes",
+            "payment:contactless": "yes",
+            "payment:mastercard": "yes",
+            "payment:mastercard_contactless": "yes",
+            "payment:visa": "yes"
+          },
+          "ways": [
+            {
+              "id": "1415671658",
+              "version": "1",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "4",
+                "maxspeed": "40",
+                "name": "Autoestrada da Costa da Morte",
+                "oneway": "yes",
+                "ref": "AG-55",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ag57",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-8.774439999999998,42.12208,-8.77384,42.12268",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.12238,
+        -8.77414
+      ],
+      "sha256": "3c6bea91b076472689d86475f2c3ea021964d21ce8d7dbd4683a254410a179d9",
+      "nodes": [
+        {
+          "id": "12896459204",
+          "version": "2",
+          "distance_m": 0.27,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "38330023",
+              "version": "7",
+              "tags": {
+                "destination": "Gondomar (norte)",
+                "highway": "motorway_link",
+                "junction:ref": "1N",
+                "lanes": "1",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap15",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.72671,42.330909999999996,-1.72611,42.33151",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.33121,
+        -1.72641
+      ],
+      "sha256": "8a8ffc591f5a1aac1e83bed520f23f202b8d0c1f1ad471d16c332658f38835b7",
+      "nodes": [
+        {
+          "id": "938123",
+          "version": "9",
+          "distance_m": 0.64,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Marcilla"
+          },
+          "ways": [
+            {
+              "id": "461206178",
+              "version": "6",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "2",
+                "lit": "24/7",
+                "maxspeed": "120",
+                "name": "Autopista de Navarra",
+                "name:es": "Autopista de Navarra",
+                "name:eu": "Nafarroako autobidea",
+                "official_name": "Autopista de Navarra / Nafarroako autobidea",
+                "oneway": "yes",
+                "ref": "AP-15",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4567432115",
+          "version": "2",
+          "distance_m": 6.89,
+          "tags": {},
+          "ways": [
+            {
+              "id": "461206178",
+              "version": "6",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "2",
+                "lit": "24/7",
+                "maxspeed": "120",
+                "name": "Autopista de Navarra",
+                "name:es": "Autopista de Navarra",
+                "name:eu": "Nafarroako autobidea",
+                "official_name": "Autopista de Navarra / Nafarroako autobidea",
+                "oneway": "yes",
+                "ref": "AP-15",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            },
+            {
+              "id": "1460087546",
+              "version": "2",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "*",
+                "lit": "yes",
+                "maxspeed": "120",
+                "name": "Autopista de Navarra",
+                "name:es": "Autopista de Navarra",
+                "name:eu": "Nafarroako autobidea",
+                "official_name": "Autopista de Navarra / Nafarroako autobidea",
+                "oneway": "yes",
+                "ref": "AP-15",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4567432117",
+          "version": "2",
+          "distance_m": 6.25,
+          "tags": {},
+          "ways": [
+            {
+              "id": "461206178",
+              "version": "6",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "2",
+                "lit": "24/7",
+                "maxspeed": "120",
+                "name": "Autopista de Navarra",
+                "name:es": "Autopista de Navarra",
+                "name:eu": "Nafarroako autobidea",
+                "official_name": "Autopista de Navarra / Nafarroako autobidea",
+                "oneway": "yes",
+                "ref": "AP-15",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            },
+            {
+              "id": "1460087549",
+              "version": "2",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "lanes": "*",
+                "lit": "no",
+                "maxspeed": "120",
+                "name": "Nafarroako autobidea",
+                "name:es": "Autopista de Navarra",
+                "name:eu": "Nafarroako autobidea",
+                "official_name": "Autopista de Navarra / Nafarroako autobidea",
+                "oneway": "yes",
+                "ref": "AP-15",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap8-gipuzkoa",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.1594800000000003,43.27889,-2.15888,43.27949",
+      "queried": "2026-09-16",
+      "coordinate": [
+        43.27919,
+        -2.15918
+      ],
+      "sha256": "455c63263fcfd5a212a604803d7d4328d89303fc2e5d0eff48f5c04416b0ec09",
+      "nodes": [
+        {
+          "id": "275714819",
+          "version": "8",
+          "distance_m": 0.41,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Zarautz"
+          },
+          "ways": [
+            {
+              "id": "25310915",
+              "version": "9",
+              "tags": {
+                "destination": "Zarautz;Orio",
+                "destination:ref": "N-634",
+                "highway": "motorway_link",
+                "junction:ref": "38",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            },
+            {
+              "id": "25310918",
+              "version": "9",
+              "tags": {
+                "highway": "motorway_link",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap1-gipuzkoa",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.64764,42.928279999999994,-2.6470399999999996,42.92888",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.92858,
+        -2.64734
+      ],
+      "sha256": "ef22c8570895ae4f2a72962803a9f46074ba32375657a8c8db430fafbc63a1e9",
+      "nodes": [
+        {
+          "id": "4890014453",
+          "version": "1",
+          "distance_m": 0.4,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "497445433",
+              "version": "4",
+              "tags": {
+                "covered": "yes",
+                "highway": "motorway_link",
+                "maxheight:signed": "no",
+                "maxspeed": "40",
+                "oneway": "no",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap636",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.43095,43.09319,-2.43035,43.093790000000006",
+      "queried": "2026-09-16",
+      "coordinate": [
+        43.09349,
+        -2.43065
+      ],
+      "sha256": "54293147aaa82a0b263ac763826662fd711602fee3cbb45760d729b2bf63fb1d",
+      "nodes": [
+        {
+          "id": "2125622899",
+          "version": "1",
+          "distance_m": 0.35,
+          "tags": {
+            "barrier": "toll_booth"
+          },
+          "ways": [
+            {
+              "id": "27276795",
+              "version": "6",
+              "tags": {
+                "destination:ref": "AP-636;GI-627",
+                "highway": "motorway_link",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-ap8-bizkaia",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.64305,43.179559999999995,-2.6424499999999997,43.18016",
+      "queried": "2026-09-16",
+      "coordinate": [
+        43.17986,
+        -2.64275
+      ],
+      "sha256": "84d1ec1e160b6f21bcb373d230f91a8156aebb94f368e42afd0c1e965e483080",
+      "nodes": [
+        {
+          "id": "668016382",
+          "version": "2",
+          "distance_m": 0.29,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Durango",
+            "operator": "Interbiak"
+          },
+          "ways": [
+            {
+              "id": "478697824",
+              "version": "9",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "int_ref": "E 70",
+                "lanes": "3",
+                "layer": "-1",
+                "name": "Bizkaiko Golkoko Autobidea",
+                "name:es": "Autopista del Cantábrico",
+                "name:eu": "Bizkaiko Golkoko Autobidea",
+                "name:fr": "Autoroute du Cantabrique",
+                "official_name": "Kantauriko Autobidea / Autopista del Cantábrico",
+                "oneway": "yes",
+                "ref": "AP-8",
+                "ref:colour": "#19408B",
+                "ref:colour_tx": "white",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "yes"
+              }
+            },
+            {
+              "id": "629690854",
+              "version": "6",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "int_ref": "E 70",
+                "lanes": "3",
+                "layer": "-1",
+                "maxspeed": "120",
+                "name": "Bizkaiko Golkoko Autobidea",
+                "name:es": "Autopista del Cantábrico",
+                "name:eu": "Bizkaiko Golkoko Autobidea",
+                "name:fr": "Autoroute du Cantabrique",
+                "official_name": "Kantauriko Autobidea / Autopista del Cantábrico",
+                "oneway": "yes",
+                "ref": "AP-8",
+                "ref:colour": "#19408B",
+                "ref:colour_tx": "white",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "6312748910",
+          "version": "1",
+          "distance_m": 5.58,
+          "tags": {},
+          "ways": [
+            {
+              "id": "629690854",
+              "version": "6",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "int_ref": "E 70",
+                "lanes": "3",
+                "layer": "-1",
+                "maxspeed": "120",
+                "name": "Bizkaiko Golkoko Autobidea",
+                "name:es": "Autopista del Cantábrico",
+                "name:eu": "Bizkaiko Golkoko Autobidea",
+                "name:fr": "Autoroute du Cantabrique",
+                "official_name": "Kantauriko Autobidea / Autopista del Cantábrico",
+                "oneway": "yes",
+                "ref": "AP-8",
+                "ref:colour": "#19408B",
+                "ref:colour_tx": "white",
+                "surface": "asphalt",
+                "toll": "yes",
+                "tunnel": "yes"
+              }
+            },
+            {
+              "id": "674086401",
+              "version": "6",
+              "tags": {
+                "hazmat": "designated",
+                "highway": "motorway",
+                "int_ref": "E 70",
+                "lanes": "3",
+                "maxspeed": "120",
+                "name": "Bizkaiko Golkoko Autobidea",
+                "name:es": "Autopista del Cantábrico",
+                "name:eu": "Bizkaiko Golkoko Autobidea",
+                "name:fr": "Autoroute du Cantabrique",
+                "official_name": "Kantauriko Autobidea / Autopista del Cantábrico",
+                "oneway": "yes",
+                "ref": "AP-8",
+                "ref:colour": "#19408B",
+                "ref:colour_tx": "white",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-supersur",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-3.02061,43.29219,-3.0200099999999996,43.292790000000004",
+      "queried": "2026-09-16",
+      "coordinate": [
+        43.29249,
+        -3.02031
+      ],
+      "sha256": "e8fa1490c86db431b4b7df9604e9ae62cd67ebd6c7bd720c524b1d3cf6701251",
+      "nodes": [
+        {
+          "id": "1428956248",
+          "version": "3",
+          "distance_m": 0.43,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Peaje de Ugarte",
+            "operator": "Interbiak"
+          },
+          "ways": [
+            {
+              "id": "129673369",
+              "version": "7",
+              "tags": {
+                "highway": "motorway_link",
+                "maxspeed": "40",
+                "oneway": "yes",
+                "ref": "AP-8",
+                "ref:colour": "#19408B",
+                "ref:colour_tx": "white",
+                "toll": "yes"
+              }
+            },
+            {
+              "id": "364787041",
+              "version": "6",
+              "tags": {
+                "highway": "motorway_link",
+                "maxspeed": "40",
+                "oneway": "yes",
+                "ref": "AP-8",
+                "ref:colour": "#19408B",
+                "ref:colour_tx": "white",
+                "toll": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-artxanda",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.92912,43.25763,-2.92852,43.258230000000005",
+      "queried": "2026-09-16",
+      "coordinate": [
+        43.25793,
+        -2.92882
+      ],
+      "sha256": "1baea58be109117e2db5dcbf67ce1fd61318b60120f044d58548c3a80ed180ad",
+      "nodes": [
+        {
+          "id": "3196925975",
+          "version": "4",
+          "distance_m": 0.34,
+          "tags": {
+            "barrier": "toll_booth",
+            "bicycle": "yes",
+            "foot": "yes",
+            "horse": "no",
+            "motor_vehicle": "customers"
+          },
+          "ways": [
+            {
+              "id": "313679780",
+              "version": "4",
+              "tags": {
+                "access": "permissive",
+                "highway": "service"
+              }
+            }
+          ]
+        },
+        {
+          "id": "10147696409",
+          "version": "1",
+          "distance_m": 6.16,
+          "tags": {},
+          "ways": [
+            {
+              "id": "313679780",
+              "version": "4",
+              "tags": {
+                "access": "permissive",
+                "highway": "service"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "es-c16-sant-vicenc-c55",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=1.8603345,41.649225599999994,1.8609345,41.6498256",
+      "queried": "2026-09-16",
+      "coordinate": [
+        41.6495256,
+        1.8606345
+      ],
+      "sha256": "14de967ba676f71e2a63b77fa8db349366b5798cf797e7ba12a0a6ef08bf594e",
+      "nodes": [
+        {
+          "id": "141831078",
+          "version": "5",
+          "distance_m": 3.91,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Ramal Sant Vicenç-C55",
+            "operator": "AUTEMA"
+          },
+          "ways": [
+            {
+              "id": "515278834",
+              "version": "2",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "1",
+                "noname": "yes",
+                "oneway": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2024620547",
+          "version": "1",
+          "distance_m": 0.0,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Ramal Sant Vicenç-C55",
+            "operator": "AUTEMA"
+          },
+          "ways": [
+            {
+              "id": "515278833",
+              "version": "2",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "2",
+                "noname": "yes",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "toll": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2024620549",
+          "version": "1",
+          "distance_m": 4.12,
+          "tags": {
+            "barrier": "toll_booth",
+            "name": "Ramal Sant Vicenç-C55",
+            "operator": "AUTEMA"
+          },
+          "ways": [
+            {
+              "id": "515278832",
+              "version": "1",
+              "tags": {
+                "highway": "motorway_link",
+                "lanes": "2",
+                "noname": "yes",
+                "oneway": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    },
+    {
+      "id": "ad-envalira",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=1.69697,42.54877,1.69757,42.54937",
+      "queried": "2026-09-16",
+      "coordinate": [
+        42.54907,
+        1.69727
+      ],
+      "sha256": "c40c5e9a389be139abc5a114f5b322a820a2c4b7d3e61ffd83d6b40079e06586",
+      "nodes": [
+        {
+          "id": "7110383224",
+          "version": "1",
+          "distance_m": 7.51,
+          "tags": {},
+          "ways": [
+            {
+              "id": "761036594",
+              "version": "4",
+              "tags": {
+                "highway": "trunk_link",
+                "lanes": "1",
+                "maxheight": "2",
+                "maxspeed": "50",
+                "oneway": "yes",
+                "ref": "CG-2a",
+                "surface": "asphalt",
+                "tunnel": "building_passage"
+              }
+            },
+            {
+              "id": "761036595",
+              "version": "4",
+              "tags": {
+                "bicycle": "no",
+                "foot": "no",
+                "highway": "trunk_link",
+                "horse": "no",
+                "lanes": "1",
+                "maxspeed": "50",
+                "oneway": "yes",
+                "ref": "CG-2a",
+                "surface": "asphalt"
+              }
+            }
+          ]
+        },
+        {
+          "id": "7110383239",
+          "version": "1",
+          "distance_m": 4.28,
+          "tags": {
+            "barrier": "toll_booth",
+            "payment:cards": "yes",
+            "payment:cash": "yes"
+          },
+          "ways": [
+            {
+              "id": "761036596",
+              "version": "3",
+              "tags": {
+                "highway": "trunk_link",
+                "lanes": "1",
+                "maxspeed": "50",
+                "oneway": "yes",
+                "ref": "CG-2a",
+                "surface": "asphalt",
+                "tunnel": "building_passage"
+              }
+            }
+          ]
+        },
+        {
+          "id": "7110383240",
+          "version": "1",
+          "distance_m": 0.4,
+          "tags": {
+            "barrier": "toll_booth",
+            "payment:cards": "yes"
+          },
+          "ways": [
+            {
+              "id": "761036594",
+              "version": "4",
+              "tags": {
+                "highway": "trunk_link",
+                "lanes": "1",
+                "maxheight": "2",
+                "maxspeed": "50",
+                "oneway": "yes",
+                "ref": "CG-2a",
+                "surface": "asphalt",
+                "tunnel": "building_passage"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "fetched_not_route_validated"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.8113292,
+        "lon": -8.4821034
+      },
+      {
+        "lat": 42.6817419,
+        "lon": -8.1788633
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 725,
+  "sourceEndpointNodes": [
+    181316497
+  ],
+  "purpose": "paid terminal access"
+}

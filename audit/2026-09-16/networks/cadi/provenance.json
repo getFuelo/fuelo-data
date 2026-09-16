@@ -1,0 +1,19 @@
+{
+  "checked": "2026-09-16",
+  "roadSource": "https://api.openstreetmap.org/api/0.6/relation/3569966/full",
+  "plazaSource": "https://api.openstreetmap.org/api/0.6/map?bbox=1.832,42.328,1.85,42.348",
+  "sourceHashes": {
+    "c16-full.xml": "73893d53a43bfa195500e9a1d66131e2c7e909e1e5faff39d39ede607c7153f2",
+    "cadi-plaza.xml": "417d6129d5b18c5ee3b066331c579cf7fd0f7b561291320faea6a15b7997c5aa"
+  },
+  "booths": [
+    "146302625"
+  ],
+  "roof": {
+    "id": "154065606",
+    "version": 3
+  },
+  "method": "Single transverse plane centered on all mapped booth lanes; extent from the mapped roof projected perpendicular to the booth carriageway plus 2m. Every lane is one plaza charge, not one charge per nearby booth.",
+  "coverageWayCount": 206,
+  "coverageBoundary": "C-16 north of 42.1° only; excludes Manresa/Les Fonts/Vallvidrera"
+}

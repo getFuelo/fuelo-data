@@ -1,0 +1,32 @@
+{
+  "checked": "2026-09-16",
+  "roadSource": "https://api.openstreetmap.org/api/0.6/relation/1813372/full",
+  "plazaSource": "https://api.openstreetmap.org/api/0.6/map?bbox=-4.47,36.892,-4.445,36.913",
+  "sourceHashes": {
+    "ap46-full.xml": "a3ccc97f2ea317a52d2c2b32cab8ccb715307fd05b6381845d73212598cb613c",
+    "ap46-plaza.xml": "04cd7d9b61a7e58ef01cbdc3d8004d06d4bd6c86604ebc97bff40ebba513d6b4"
+  },
+  "booths": [
+    "1944385002",
+    "5043610819",
+    "5043610820",
+    "5043610821",
+    "5043610822",
+    "5043610823",
+    "5043610824",
+    "5044370601",
+    "5044370602",
+    "5044370603",
+    "5044370604",
+    "5044370605",
+    "5044370606",
+    "5044370607"
+  ],
+  "roof": {
+    "id": "303994848",
+    "version": 9
+  },
+  "method": "Single transverse plane centered on all mapped booth lanes; extent from the mapped roof projected perpendicular to the booth carriageway plus 2m. Every lane is one plaza charge, not one charge per nearby booth.",
+  "coverageWayCount": 167,
+  "coverageBoundary": "AP-46 relation and tolled plaza approaches"
+}

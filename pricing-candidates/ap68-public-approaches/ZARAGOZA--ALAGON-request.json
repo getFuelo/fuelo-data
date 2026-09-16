@@ -1,0 +1,30 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 41.7765004,
+        "lon": -1.1180083
+      },
+      {
+        "lat": 41.7638411,
+        "lon": -1.1406259
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "publicDestinationNode": 46602143,
+  "expectedPublishedJourney": [
+    "ZARAGOZA",
+    "ALAGÓN pk 275"
+  ],
+  "expectedCents": 285,
+  "notes": "Public A-68 destination beyond the Alagón 272 one-way exit, without forcing entry into that exit ramp."
+}

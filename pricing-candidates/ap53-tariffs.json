@@ -1,0 +1,350 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-53,-santiago---alto-de-santo-domingo-2026.pdf",
+  "sha256": "e5ac6a9f5e5493005cff1410ead8946ea506122894f22fab201ea4297f1e0849",
+  "ods": [
+    {
+      "from": "Santiago",
+      "to": "Ribadulla",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 200,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 15,
+        "printed": "Santiago-Ribadulla                                                   2,00               1,65               2,00"
+      }
+    },
+    {
+      "from": "Santiago",
+      "to": "Bandeira",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 330,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 16,
+        "printed": "Santiago-Bandeira                                                    3,30               2,75               3,30"
+      }
+    },
+    {
+      "from": "Santiago",
+      "to": "Silleda",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 435,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 17,
+        "printed": "Santiago-Silleda                                                     4,35               3,65               4,35"
+      }
+    },
+    {
+      "from": "Santiago",
+      "to": "Lalín Oeste",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 725,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 18,
+        "printed": "Santiago-Lalín Oeste                                                 7,25               6,10               7,25"
+      }
+    },
+    {
+      "from": "Santiago",
+      "to": "Lalín Centro",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 725,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 19,
+        "printed": "Santiago-Lalín Centro                                                7,25               6,10               7,25"
+      }
+    },
+    {
+      "from": "Santiago",
+      "to": "Lalín Este",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 725,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 20,
+        "printed": "Santiago-Lalín Este                                                  7,25               6,10               7,25"
+      }
+    },
+    {
+      "from": "Santiago",
+      "to": "Alto de Santo Domingo",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 725,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 21,
+        "printed": "Santiago-Alto de Santo Domingo                                       7,25               6,10               7,25"
+      }
+    },
+    {
+      "from": "Ribadulla",
+      "to": "Bandeira",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 140,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 23,
+        "printed": "Ribadulla-Bandeira                                                   1,40               1,15               1,35"
+      }
+    },
+    {
+      "from": "Ribadulla",
+      "to": "Silleda",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 245,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 24,
+        "printed": "Ribadulla-Silleda                                                    2,45               2,05               2,45"
+      }
+    },
+    {
+      "from": "Ribadulla",
+      "to": "Lalín Oeste",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 535,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 25,
+        "printed": "Ribadulla-Lalín Oeste                                                5,35               4,50               5,35"
+      }
+    },
+    {
+      "from": "Ribadulla",
+      "to": "Lalín Centro",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 535,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 26,
+        "printed": "Ribadulla-Lalín Centro                                               5,35               4,50               5,35"
+      }
+    },
+    {
+      "from": "Ribadull",
+      "to": "Lalín Este",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 535,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 27,
+        "printed": "Ribadull-Lalín Este                                                  5,35               4,50               5,35"
+      }
+    },
+    {
+      "from": "Ribadulla",
+      "to": "Alto de Santo Domingo",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 535,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 28,
+        "printed": "Ribadulla-Alto de Santo Domingo                                      5,35               4,50               5,35"
+      }
+    },
+    {
+      "from": "Bandeira",
+      "to": "Silleda",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 135,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 30,
+        "printed": "Bandeira-Silleda                                                     1,35               1,10               1,30"
+      }
+    },
+    {
+      "from": "Bandeira",
+      "to": "Lalín Oeste",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 425,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 31,
+        "printed": "Bandeira-Lalín Oeste                                                 4,25               3,55               4,25"
+      }
+    },
+    {
+      "from": "Bandeira",
+      "to": "Lalín Centro",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 425,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 32,
+        "printed": "Bandeira-Lalín Centro                                                4,25               3,55               4,25"
+      }
+    },
+    {
+      "from": "Bandeira",
+      "to": "Lalín Este",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 425,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 33,
+        "printed": "Bandeira-Lalín Este                                                  4,25               3,55               4,25"
+      }
+    },
+    {
+      "from": "Bandeira",
+      "to": "Alto de Santo Domingo",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 425,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 34,
+        "printed": "Bandeira-Alto de Santo Domingo                                       4,25               3,55               4,25"
+      }
+    },
+    {
+      "from": "Silleda",
+      "to": "Lalín Oeste",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 300,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 36,
+        "printed": "Silleda-Lalín Oeste                                                  3,00               2,50               3,00"
+      }
+    },
+    {
+      "from": "Silleda",
+      "to": "Lalín Centro",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 300,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 37,
+        "printed": "Silleda-Lalín Centro                                                 3,00               2,50               3,00"
+      }
+    },
+    {
+      "from": "Silleda",
+      "to": "Lalín Este",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 300,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 38,
+        "printed": "Silleda-Lalín Este                                                   3,00               2,50               3,00"
+      }
+    },
+    {
+      "from": "Silleda",
+      "to": "Alto de Santo Domingo",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 300,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 39,
+        "printed": "Silleda-Alto de Santo Domingo                                        3,00               2,50               3,00"
+      }
+    }
+  ],
+  "notes": [
+    "General light-vehicle rows only; physical accesses and route evidence still required.",
+    "Published names preserved, including source typos, pending explicit alias mapping.",
+    "Do not add joint AP-6 journey rows to a separately quoted AP-6 journey.",
+    "Unlisted pairs are unknown; free sections require separate evidence."
+  ]
+}

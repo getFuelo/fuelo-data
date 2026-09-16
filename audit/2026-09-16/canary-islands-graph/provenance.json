@@ -1,0 +1,11 @@
+{
+  "source": "https://download.geofabrik.de/africa/canary-islands-260915.osm.pbf",
+  "snapshot": "2026-09-15T20:20:37Z",
+  "sha256": "a0924dd95fa5d85986c3fcccf51626f674a976428caea72eb5c936aca3bf3955",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0; extract by Geofabrik",
+  "ways": 4069,
+  "nodes": 23729,
+  "taggedPoints": 348,
+  "roadRelations": 14,
+  "scope": "Major roads and mapped toll roads/booths. Excludes most local streets; a geographic inventory, not a tariff or completeness certificate."
+}

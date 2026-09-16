@@ -1,0 +1,7 @@
+{
+  "reason": "Initial Beasain point lay on Beasainmendi hillside street and yielded an 80-minute reverse itinerary through rural access roads. Replaced by provider geometry vertex 226 of retained west response, on GI-2632 near Beasain. Neither time is a traffic benchmark.",
+  "replacement": {
+    "lat": 43.046422,
+    "lng": -2.215759
+  }
+}

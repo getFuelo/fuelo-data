@@ -1,0 +1,20 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-ap8-zarautz-east",
+      "reviewGroup": "osm-review-275715087",
+      "booths": [
+        275715087,
+        275715111
+      ],
+      "laneWays": [
+        1324394285,
+        1540265518
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 21,
+  "reviewStatus": "candidate_pending_routes"
+}

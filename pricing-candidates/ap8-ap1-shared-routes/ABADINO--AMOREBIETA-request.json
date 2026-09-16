@@ -1,0 +1,31 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.1688092,
+        "lon": -2.6031462
+      },
+      {
+        "lat": 43.2304153,
+        "lon": -2.7503162
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 330,
+  "expectedRoadIds": [
+    "es-ap8-bizkaia"
+  ],
+  "source": [
+    "https://www.arabat.eus/es/ap-1/tarifas-ap-1/"
+  ],
+  "reusedFrom": "pricing-candidates/ap8-bizkaia-routes/ABADINO--AMOREBIETA.json"
+}

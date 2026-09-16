@@ -1,0 +1,91 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.9128096,
+        "lon": -4.1038467
+      },
+      {
+        "lat": 40.9050109,
+        "lon": -4.1040173
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "sourceTariff": {
+    "baseCents": 0,
+    "bands": [
+      {
+        "cents": 0,
+        "minutes": [
+          1380,
+          420
+        ]
+      },
+      {
+        "cents": 0,
+        "dates": [
+          "2026-06-16",
+          "2026-09-15"
+        ],
+        "minutes": [
+          420,
+          1380
+        ]
+      },
+      {
+        "cents": 0,
+        "weekdays": [
+          5
+        ],
+        "minutes": [
+          900,
+          1380
+        ]
+      },
+      {
+        "cents": 0,
+        "weekdays": [
+          6,
+          7
+        ],
+        "minutes": [
+          420,
+          1380
+        ]
+      },
+      {
+        "cents": 0,
+        "dates": [
+          "2026-03-30",
+          "2026-04-06"
+        ],
+        "minutes": [
+          420,
+          1380
+        ]
+      }
+    ]
+  },
+  "expectedRoadIds": [
+    "es-ap61"
+  ],
+  "expectedGates": [
+    "SEGOVIA-entry",
+    "HONTORIA-exit"
+  ],
+  "source": [
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf"
+  ],
+  "reusedFrom": "pricing-candidates/ap61-routes/SEGOVIA--HONTORIA.json"
+}

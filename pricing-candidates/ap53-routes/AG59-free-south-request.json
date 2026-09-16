@@ -1,0 +1,39 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.8453383,
+        "lon": -8.5323746,
+        "heading": 150
+      },
+      {
+        "lat": 42.8236576,
+        "lon": -8.5308848,
+        "heading": 212
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 0,
+  "sourceNodes": [
+    {
+      "node": 1134069641,
+      "way": 304047583,
+      "version": 6
+    },
+    {
+      "node": 921754123,
+      "way": 78557635,
+      "version": 21
+    }
+  ],
+  "legalSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-16770"
+}

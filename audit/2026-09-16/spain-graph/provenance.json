@@ -1,0 +1,11 @@
+{
+  "source": "https://download.geofabrik.de/europe/spain-260915.osm.pbf",
+  "snapshot": "2026-09-15T20:20:37Z",
+  "sha256": "98c1f39dbd72219d39f54136fd00126fb1448684b950fe9b1043ca7fed9748a2",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0; extract by Geofabrik",
+  "ways": 168585,
+  "nodes": 1254604,
+  "taggedPoints": 10352,
+  "roadRelations": 461,
+  "scope": "Major roads and mapped toll roads/booths. Excludes most local streets; a geographic inventory, not a tariff or completeness certificate."
+}

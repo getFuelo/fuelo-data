@@ -1,0 +1,17 @@
+{
+  "encoded_polyline": "yzltmAgmzoB`X{k@vQce@zC_IdBqE`AyD~@}DV}@^}BrKyn@x@yFnB_NxBs^ZsJLmENoELoE",
+  "shape_match": "edge_walk",
+  "costing": "auto",
+  "filters": {
+    "action": "include",
+    "attributes": [
+      "edge.way_id",
+      "edge.names",
+      "edge.begin_shape_index",
+      "edge.end_shape_index",
+      "edge.toll",
+      "node.type",
+      "shape"
+    ]
+  }
+}

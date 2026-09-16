@@ -1,0 +1,155 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "PONTEVEDRA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 697601807,
+      "version": 4,
+      "node": 29968117,
+      "outsideNode": 29969292
+    },
+    {
+      "zone": "PONTEVEDRA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 29015006,
+      "version": 11,
+      "node": 29957622,
+      "outsideNode": 29959502
+    },
+    {
+      "zone": "VILABOA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 233911039,
+      "version": 6,
+      "node": 8639722480,
+      "outsideNode": 2422259426
+    },
+    {
+      "zone": "VILABOA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 23968275,
+      "version": 11,
+      "node": 259836284,
+      "outsideNode": 259836285
+    },
+    {
+      "zone": "MORRAZO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 24621813,
+      "version": 20,
+      "node": 3607096712,
+      "outsideNode": 3739153838
+    },
+    {
+      "zone": "MORRAZO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 683328151,
+      "version": 10,
+      "node": 5075691312,
+      "outsideNode": 3739153838
+    },
+    {
+      "zone": "RANDE",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 136733859,
+      "version": 4,
+      "node": 1428333959,
+      "outsideNode": 1428333977
+    },
+    {
+      "zone": "RANDE",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 136276193,
+      "version": 4,
+      "node": 1495150357,
+      "outsideNode": 1428333973
+    },
+    {
+      "zone": "VIGO-PUXEIROS",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 29016054,
+      "version": 12,
+      "node": 29958917,
+      "outsideNode": 29962724
+    },
+    {
+      "zone": "VIGO-PUXEIROS",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 29016043,
+      "version": 12,
+      "node": 29969136,
+      "outsideNode": 29965495
+    }
+  ],
+  "probeLocations": {
+    "PONTEVEDRA": {
+      "entry": {
+        "lat": 42.3906567,
+        "lng": -8.6410467
+      },
+      "exit": {
+        "lat": 42.39055,
+        "lng": -8.640835
+      }
+    },
+    "VILABOA": {
+      "entry": {
+        "lat": 42.3693149,
+        "lng": -8.6373078
+      },
+      "exit": {
+        "lat": 42.3698686,
+        "lng": -8.6380389
+      }
+    },
+    "MORRAZO": {
+      "entry": {
+        "lat": 42.2917462,
+        "lng": -8.6624613
+      },
+      "exit": {
+        "lat": 42.2917462,
+        "lng": -8.6624613
+      }
+    },
+    "RANDE": {
+      "entry": {
+        "lat": 42.2796009,
+        "lng": -8.6618305
+      },
+      "exit": {
+        "lat": 42.2794659,
+        "lng": -8.6612872
+      }
+    },
+    "VIGO-PUXEIROS": {
+      "entry": {
+        "lat": 42.2631287,
+        "lng": -8.67026
+      },
+      "exit": {
+        "lat": 42.2632318,
+        "lng": -8.6703053
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "MORRAZO",
+    "PONTEVEDRA",
+    "RANDE",
+    "VIGO-PUXEIROS",
+    "VILABOA"
+  ],
+  "status": "candidate_pending_real_routes"
+}

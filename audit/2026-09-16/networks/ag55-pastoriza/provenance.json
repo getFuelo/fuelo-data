@@ -1,0 +1,20 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-ag55-pastoriza",
+      "reviewGroup": "osm-review-1125611755",
+      "booths": [
+        1125611755,
+        1125611904
+      ],
+      "laneWays": [
+        589614585,
+        589614587
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 34,
+  "reviewStatus": "candidate_pending_routes"
+}

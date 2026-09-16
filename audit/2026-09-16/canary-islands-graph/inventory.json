@@ -1,0 +1,839 @@
+{
+  "source": "provenance.json",
+  "points": [
+    {
+      "id": 299769558,
+      "version": 11,
+      "lat": 28.8694804,
+      "lng": -13.7936897,
+      "tags": {
+        "barrier": "toll_booth",
+        "charge": "3 EUR",
+        "fee": "yes",
+        "note": "only between 07:00 and 16:00. Ouside these times its free"
+      }
+    },
+    {
+      "id": 313503669,
+      "version": 3,
+      "lat": 28.0784367,
+      "lng": -16.7355833,
+      "tags": {
+        "barrier": "toll_booth"
+      }
+    },
+    {
+      "id": 317987018,
+      "version": 7,
+      "lat": 28.4869342,
+      "lng": -17.8480321,
+      "tags": {
+        "barrier": "toll_booth",
+        "bicycle": "yes",
+        "charge": "5 EUR/person",
+        "foot": "yes",
+        "motor_vehicle": "yes",
+        "toll": "yes"
+      }
+    },
+    {
+      "id": 380643551,
+      "version": 13,
+      "lat": 29.0101547,
+      "lng": -13.7346528,
+      "tags": {
+        "barrier": "toll_booth",
+        "charge": "22 EUR/person",
+        "charge:url": "https://ventaonline.cactlanzarote.com/en/tickets/montanas-del-fuego-timanfaya-ticket",
+        "check_date:opening_hours": "2026-07-05",
+        "fee": "yes",
+        "name": "Control de Acceso al Parque Nacional Timanfaya",
+        "name:de": "Nationalpark Timanfaya - Einfahrt",
+        "name:en": "Timanfaya National Park - Gateway",
+        "name:fr": "Parc national de Timanfaya - l'entrée",
+        "name:it": "Parco Nazionale di Timanfaya - Imbocco",
+        "opening_hours": "Mo-Su 09:30-15:45",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no"
+      }
+    },
+    {
+      "id": 1484652559,
+      "version": 2,
+      "lat": 28.0767274,
+      "lng": -16.7351251,
+      "tags": {
+        "barrier": "toll_booth"
+      }
+    },
+    {
+      "id": 1514305765,
+      "version": 7,
+      "lat": 29.0100563,
+      "lng": -13.7346568,
+      "tags": {
+        "barrier": "toll_booth",
+        "name": "Control de Acceso al Parque Nacional Timanfaya",
+        "name:de": "Nationalpark Timanfaya - Ausfahrt",
+        "name:en": "Timanfaya National Park - Exit",
+        "name:fr": "Parc national de Timanfaya - la sortie",
+        "name:it": "Parco Nazionale di Timanfaya - Uscita"
+      }
+    },
+    {
+      "id": 1658380851,
+      "version": 4,
+      "lat": 28.4880004,
+      "lng": -16.3448365,
+      "tags": {
+        "barrier": "toll_booth"
+      }
+    },
+    {
+      "id": 11559677442,
+      "version": 1,
+      "lat": 28.4880222,
+      "lng": -16.3448033,
+      "tags": {
+        "barrier": "toll_booth"
+      }
+    },
+    {
+      "id": 11560220394,
+      "version": 2,
+      "lat": 28.0494941,
+      "lng": -16.5745843,
+      "tags": {
+        "barrier": "toll_booth"
+      }
+    }
+  ],
+  "ways": [
+    {
+      "id": 11699401,
+      "version": 24,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 27376654,
+      "version": 21,
+      "tags": {
+        "cycleway:both": "no",
+        "fee": "yes",
+        "fee:conditional": "no @ (16:00-07:00)",
+        "highway": "unclassified",
+        "lit": "no",
+        "noname": "yes",
+        "note": "not designated for racing bikes - nicht für Rennräder geeignet",
+        "oneway": "no",
+        "parking:both": "no",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 28216592,
+      "version": 16,
+      "tags": {
+        "highway": "unclassified",
+        "maxspeed": "40",
+        "note": "not designated for racing bikes - nicht für Rennräder geeignet",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "M-3404",
+        "smoothness": "bad",
+        "source": "survey 02.2024 and Grafcan Imagery",
+        "source:maxspeed": "sign",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 28926471,
+      "version": 5,
+      "tags": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Calle Los Volcanes",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "booths": [
+        317987018
+      ]
+    },
+    {
+      "id": 52469821,
+      "version": 22,
+      "tags": {
+        "cycleway:both": "no",
+        "fee": "yes",
+        "fee:conditional": "no @ (16:00-07:00)",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "40",
+        "note": "not designated for racing bikes - nicht für Rennräder geeignet",
+        "oneway": "no",
+        "parking:both": "no",
+        "ref": "M-3404",
+        "smoothness": "bad",
+        "source": "survey 02.2024 and Grafcan Imagery",
+        "source:maxspeed": "sign",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 52469823,
+      "version": 17,
+      "tags": {
+        "highway": "unclassified",
+        "maxspeed": "40",
+        "noname": "yes",
+        "note": "not designated for racing bikes - nicht für Rennräder geeignet",
+        "oneway": "yes",
+        "parking:both": "no",
+        "smoothness": "bad",
+        "source": "survey 02.2024 and Grafcan Imagery",
+        "source:maxspeed": "sign",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": [
+        299769558
+      ]
+    },
+    {
+      "id": 116800420,
+      "version": 21,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-17:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "source": "survey",
+        "source:date": "2018",
+        "toll": "yes",
+        "width": "1.5"
+      },
+      "booths": []
+    },
+    {
+      "id": 138137124,
+      "version": 7,
+      "tags": {
+        "access": "customers",
+        "cycleway:right": "no",
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "LZ-602",
+        "surface": "asphalt"
+      },
+      "booths": [
+        1514305765
+      ]
+    },
+    {
+      "id": 154060486,
+      "version": 13,
+      "tags": {
+        "bicycle": "designated",
+        "cycleway:both": "no",
+        "fee": "yes",
+        "fee:conditional": "no @ (16:00-07:00)",
+        "highway": "unclassified",
+        "lit": "no",
+        "noname": "yes",
+        "note": "not designated for racing bikes - nicht für Rennräder geeignet",
+        "parking:both": "no",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 154060622,
+      "version": 16,
+      "tags": {
+        "bicycle": "designated",
+        "cycleway:both": "no",
+        "fee": "yes",
+        "fee:conditional": "no @ (16:00-07:00)",
+        "highway": "unclassified",
+        "lit": "no",
+        "noname": "yes",
+        "note": "not designated for racing bikes - nicht für Rennräder geeignet",
+        "parking:both": "no",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 155113050,
+      "version": 7,
+      "tags": {
+        "access": "customers",
+        "cycleway:right": "no",
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "LZ-602",
+        "surface": "asphalt"
+      },
+      "booths": [
+        380643551
+      ]
+    },
+    {
+      "id": 155113052,
+      "version": 7,
+      "tags": {
+        "access": "customers",
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lanes": "2",
+        "ref": "LZ-602",
+        "surface": "asphalt",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 201415754,
+      "version": 3,
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "oneway": "yes"
+      },
+      "booths": [
+        1484652559
+      ]
+    },
+    {
+      "id": 201415771,
+      "version": 3,
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "oneway": "yes",
+        "source": "gps by bike;survey"
+      },
+      "booths": [
+        313503669
+      ]
+    },
+    {
+      "id": 223159633,
+      "version": 13,
+      "tags": {
+        "cycleway:both": "no",
+        "fee": "yes",
+        "fee:conditional": "no @ (16:00-07:00)",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "40",
+        "noname": "yes",
+        "note": "not designated for racing bikes - nicht für Rennräder geeignet",
+        "oneway": "no",
+        "parking:both": "no",
+        "smoothness": "bad",
+        "source": "survey 02.2024 and Grafcan Imagery",
+        "source:maxspeed": "sign",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 223159646,
+      "version": 14,
+      "tags": {
+        "cycleway:both": "no",
+        "fee": "yes",
+        "fee:conditional": "no @ (16:00-07:00)",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "40",
+        "noname": "yes",
+        "note": "not designated for racing bikes - nicht für Rennräder geeignet",
+        "oneway": "no",
+        "parking:both": "no",
+        "smoothness": "bad",
+        "source": "survey 02.2024 and Grafcan Imagery",
+        "source:maxspeed": "sign",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 232361153,
+      "version": 12,
+      "tags": {
+        "fee": "yes",
+        "fee:conditional": "no @ (16:00-07:00)",
+        "highway": "unclassified",
+        "maxspeed": "40",
+        "note": "not designated for racing bikes - nicht für Rennräder geeignet",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "M-3404",
+        "smoothness": "bad",
+        "source": "survey 02.2024 and Grafcan Imagery",
+        "source:maxspeed": "sign",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": [
+        299769558
+      ]
+    },
+    {
+      "id": 233964180,
+      "version": 6,
+      "tags": {
+        "access": "customers",
+        "cycleway:right": "no",
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "LZ-602",
+        "surface": "asphalt",
+        "toll": "yes"
+      },
+      "booths": [
+        380643551
+      ]
+    },
+    {
+      "id": 235094323,
+      "version": 11,
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "maxspeed": "20",
+        "oneway": "yes",
+        "source": "survey",
+        "surface": "asphalt"
+      },
+      "booths": [
+        11560220394
+      ]
+    },
+    {
+      "id": 249092412,
+      "version": 2,
+      "tags": {
+        "access": "permissive",
+        "highway": "service",
+        "name": "Calle Los Volcanes",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "booths": [
+        317987018
+      ]
+    },
+    {
+      "id": 256083612,
+      "version": 9,
+      "tags": {
+        "highway": "unclassified",
+        "noname": "yes",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 256083614,
+      "version": 8,
+      "tags": {
+        "bicycle": "designated",
+        "highway": "unclassified",
+        "noname": "yes",
+        "surface": "compacted",
+        "toll": "yes"
+      },
+      "booths": []
+    },
+    {
+      "id": 444969324,
+      "version": 3,
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "oneway": "yes"
+      },
+      "booths": [
+        1658380851
+      ]
+    },
+    {
+      "id": 678712444,
+      "version": 7,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-17:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "source": "survey",
+        "source:date": "2018",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1.5"
+      },
+      "booths": []
+    },
+    {
+      "id": 678712446,
+      "version": 9,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-17:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "source": "survey",
+        "source:date": "2018",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1.5"
+      },
+      "booths": []
+    },
+    {
+      "id": 1243693352,
+      "version": 2,
+      "tags": {
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "booths": [
+        11559677442
+      ]
+    },
+    {
+      "id": 1257188360,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "bridge": "yes",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "layer": "1",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188361,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188362,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "bridge": "yes",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "layer": "1",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188363,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188364,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "bridge": "yes",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "layer": "1",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188365,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188366,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "bridge": "yes",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "layer": "1",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188367,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188368,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "bridge": "yes",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "layer": "1",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188369,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188370,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "bridge": "yes",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "layer": "1",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188371,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188372,
+      "version": 4,
+      "tags": {
+        "access": "customers",
+        "bridge": "yes",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "layer": "1",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188373,
+      "version": 3,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188374,
+      "version": 3,
+      "tags": {
+        "access": "customers",
+        "bridge": "yes",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "layer": "1",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    },
+    {
+      "id": 1257188375,
+      "version": 3,
+      "tags": {
+        "access": "customers",
+        "capacity": "300",
+        "charge": "8.50 EUR",
+        "foot:conditional": "yes @ (08:00-18:00)",
+        "highway": "path",
+        "name": "Barranco del Infierno",
+        "sac_scale": "mountain_hiking",
+        "toll": "yes",
+        "website": "https://www.barrancodelinfierno.es",
+        "width": "1"
+      },
+      "booths": []
+    }
+  ],
+  "status": "unclassified"
+}

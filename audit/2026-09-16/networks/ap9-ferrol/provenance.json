@@ -1,0 +1,127 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "FENE",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 70068615,
+      "version": 19,
+      "node": 85896100,
+      "outsideNode": 85896085
+    },
+    {
+      "zone": "FENE",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 210247221,
+      "version": 10,
+      "node": 91191193,
+      "outsideNode": 91191209
+    },
+    {
+      "zone": "CABANAS",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 589618367,
+      "version": 3,
+      "node": 5630313125,
+      "outsideNode": 2232445389
+    },
+    {
+      "zone": "CABANAS",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 589618365,
+      "version": 3,
+      "node": 280711541,
+      "outsideNode": 186952299
+    },
+    {
+      "zone": "MIÑO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 25744037,
+      "version": 10,
+      "node": 1808337567,
+      "outsideNode": 106147362
+    },
+    {
+      "zone": "MIÑO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 25744037,
+      "version": 10,
+      "node": 1808337567,
+      "outsideNode": 106147362,
+      "reverseSourceDirection": true
+    },
+    {
+      "zone": "GUISAMO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 213896080,
+      "version": 8,
+      "node": 91190560,
+      "outsideNode": 279079600
+    },
+    {
+      "zone": "GUISAMO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 16269923,
+      "version": 18,
+      "node": 91192201,
+      "outsideNode": 279079661
+    }
+  ],
+  "probeLocations": {
+    "FENE": {
+      "entry": {
+        "lat": 43.4532721,
+        "lng": -8.1705066
+      },
+      "exit": {
+        "lat": 43.4532459,
+        "lng": -8.170352
+      }
+    },
+    "CABANAS": {
+      "entry": {
+        "lat": 43.4137788,
+        "lng": -8.1582365
+      },
+      "exit": {
+        "lat": 43.4136338,
+        "lng": -8.1589436
+      }
+    },
+    "MIÑO": {
+      "entry": {
+        "lat": 43.3528613,
+        "lng": -8.2065446
+      },
+      "exit": {
+        "lat": 43.3528613,
+        "lng": -8.2065446
+      }
+    },
+    "GUISAMO": {
+      "entry": {
+        "lat": 43.2905769,
+        "lng": -8.2571329
+      },
+      "exit": {
+        "lat": 43.2921971,
+        "lng": -8.2591781
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "CABANAS",
+    "FENE",
+    "GUISAMO",
+    "MIÑO"
+  ],
+  "status": "candidate_pending_real_routes"
+}

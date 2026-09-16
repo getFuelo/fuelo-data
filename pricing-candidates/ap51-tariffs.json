@@ -1,0 +1,748 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
+  "source_pages": [
+    1,
+    2
+  ],
+  "geometry_relation": "https://www.openstreetmap.org/relation/4050920",
+  "barriers": {
+    "Troncal de Villacastín": {
+      "baseCents": 175,
+      "bands": [
+        {
+          "cents": 105,
+          "minutes": [
+            1380,
+            420
+          ]
+        },
+        {
+          "cents": 290,
+          "dates": [
+            "2026-06-16",
+            "2026-09-15"
+          ],
+          "minutes": [
+            420,
+            1380
+          ]
+        },
+        {
+          "cents": 290,
+          "weekdays": [
+            5
+          ],
+          "minutes": [
+            900,
+            1380
+          ]
+        },
+        {
+          "cents": 290,
+          "weekdays": [
+            6,
+            7
+          ],
+          "minutes": [
+            420,
+            1380
+          ]
+        },
+        {
+          "cents": 290,
+          "dates": [
+            "2026-03-30",
+            "2026-04-06"
+          ],
+          "minutes": [
+            420,
+            1380
+          ]
+        }
+      ]
+    },
+    "Acceso de Villacastín": {
+      "baseCents": 175,
+      "bands": [
+        {
+          "cents": 110,
+          "minutes": [
+            1380,
+            420
+          ]
+        },
+        {
+          "cents": 295,
+          "dates": [
+            "2026-06-16",
+            "2026-09-15"
+          ],
+          "minutes": [
+            420,
+            1380
+          ]
+        },
+        {
+          "cents": 295,
+          "weekdays": [
+            5
+          ],
+          "minutes": [
+            900,
+            1380
+          ]
+        },
+        {
+          "cents": 295,
+          "weekdays": [
+            6,
+            7
+          ],
+          "minutes": [
+            420,
+            1380
+          ]
+        },
+        {
+          "cents": 295,
+          "dates": [
+            "2026-03-30",
+            "2026-04-06"
+          ],
+          "minutes": [
+            420,
+            1380
+          ]
+        }
+      ]
+    }
+  },
+  "ods": [
+    {
+      "from": "Villacastín",
+      "to": "Vicolozano",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 110,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 295,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 295,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 295,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 295,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "from": "Villacastín",
+      "to": "Ávila",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 110,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 295,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 295,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 295,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 295,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "from": "Conexión AP-6",
+      "to": "Vicolozano",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 105,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 290,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 290,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 290,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 290,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "from": "Conexión AP-6",
+      "to": "Ávila",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 105,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 290,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 290,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 290,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 290,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "from": "Vicolozano",
+      "to": "Ávila",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 0,
+        "bands": []
+      }
+    }
+  ],
+  "joint_ap6_ods": [
+    {
+      "from": "Villalba",
+      "to": "Vicolozano",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 1185,
+        "bands": [
+          {
+            "cents": 1115,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 1300,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 1300,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 1300,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 1300,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "from": "Villalba",
+      "to": "Ávila",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 1185,
+        "bands": [
+          {
+            "cents": 1115,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 1300,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 1300,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 1300,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 1300,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "from": "San Rafael",
+      "to": "Vicolozano",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 495,
+        "bands": [
+          {
+            "cents": 425,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 610,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 610,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 610,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 610,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "from": "San Rafael",
+      "to": "Ávila",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 495,
+        "bands": [
+          {
+            "cents": 425,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 610,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 610,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 610,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 610,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "from": "Ávila",
+      "to": "Adanero",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 640,
+        "bands": [
+          {
+            "cents": 570,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 755,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 755,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 755,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 755,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "from": "Vicolozano",
+      "to": "Adanero",
+      "bidirectional": true,
+      "tariff": {
+        "baseCents": 640,
+        "bands": [
+          {
+            "cents": 570,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 755,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 755,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 755,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 755,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "General tariff only. Do not automatically apply habitual-user benefit (60 transits in preceding four months).",
+    "Peak calendar taken from page 2; Holy Monday/Easter Monday mapped to 2026-03-30/2026-04-06.",
+    "Physical booth identity alone cannot distinguish the AP-6 connection fare from Villacastín access. Capture entry/exit paths before enabling.",
+    "Joint AP-6/AP-51 rows are whole-journey tariffs; never add them to independent AP-6 charges.",
+    "OSM AP-51 relation downloaded; 72 ways. Access-path matching and route validation pending."
+  ]
+}

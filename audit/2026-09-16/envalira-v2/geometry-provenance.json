@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-16",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "bbox_urls": [
+    "https://api.openstreetmap.org/api/0.6/map?bbox=1.694,42.546,1.701,42.553",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=1.730,42.542,1.741,42.551"
+  ],
+  "gate_booths": [
+    "1922647452",
+    "7110383239",
+    "7110383240",
+    "7110383241",
+    "7110383242",
+    "7110383243"
+  ],
+  "cross_section": [
+    {
+      "lat": 42.548926775,
+      "lng": 1.696927725
+    },
+    {
+      "lat": 42.549100925000005,
+      "lng": 1.697343375
+    }
+  ],
+  "note": "Cross-section between outermost lane booths with 25% extension at each end; road coverage uses complete CG-2a way node sequences from the two API maps. Route fixtures must validate both directions and mountain alternative."
+}

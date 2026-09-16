@@ -1,0 +1,31 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.2335036,
+        "lon": -2.7949695
+      },
+      {
+        "lat": 43.2306319,
+        "lon": -2.7514345
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 105,
+  "expectedRoadIds": [
+    "es-ap8-bizkaia"
+  ],
+  "source": [
+    "https://www.arabat.eus/es/ap-1/tarifas-ap-1/"
+  ],
+  "reusedFrom": "pricing-candidates/ap8-bizkaia-routes/OESTE--AMOREBIETA.json"
+}

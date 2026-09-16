@@ -1,0 +1,17 @@
+{
+  "checked": "2026-09-16",
+  "sources": [
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/relation/6523176/full",
+      "file": "osm-relation-6523176.xml",
+      "sha256": "cb8cf810526815a69019c23142b4202ce87a79c4c027a968b5265adf62edf9e2"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-3.606,40.486,-3.595,40.500",
+      "file": "osm-central-approaches.xml",
+      "sha256": "de64707f00ef4ee2eaf40838fe717cb88ca0624aa3d17c509a302ae6e7a62e71"
+    }
+  ],
+  "selection": "M-12 road relation plus highway=motorway/motorway_link central approaches. Parking/service roads excluded. Main through road passes 51m east of Alcobendas booth; the booth charges the separate ramp, not all north-to-south journeys.",
+  "coverageWayCount": 116
+}

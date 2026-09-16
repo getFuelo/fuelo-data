@@ -1,0 +1,92 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.6756307,
+        "lon": -4.6412646
+      },
+      {
+        "lat": 40.8909117,
+        "lon": -4.5746651
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "sourceTariff": {
+    "baseCents": 640,
+    "bands": [
+      {
+        "cents": 570,
+        "minutes": [
+          1380,
+          420
+        ]
+      },
+      {
+        "cents": 755,
+        "dates": [
+          "2026-06-16",
+          "2026-09-15"
+        ],
+        "minutes": [
+          420,
+          1380
+        ]
+      },
+      {
+        "cents": 755,
+        "weekdays": [
+          5
+        ],
+        "minutes": [
+          900,
+          1380
+        ]
+      },
+      {
+        "cents": 755,
+        "weekdays": [
+          6,
+          7
+        ],
+        "minutes": [
+          420,
+          1380
+        ]
+      },
+      {
+        "cents": 755,
+        "dates": [
+          "2026-03-30",
+          "2026-04-06"
+        ],
+        "minutes": [
+          420,
+          1380
+        ]
+      }
+    ]
+  },
+  "expectedRoadIds": [
+    "es-ap6",
+    "es-ap51"
+  ],
+  "expectedGates": [
+    "AVILA-entry",
+    "ADANERO-exit"
+  ],
+  "source": [
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf"
+  ],
+  "reusedFrom": "pricing-candidates/iberpistas-combined-routes/AVILA--ADANERO.json"
+}

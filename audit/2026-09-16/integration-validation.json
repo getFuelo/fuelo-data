@@ -1,0 +1,218 @@
+{
+  "checked": "2026-09-16",
+  "complete": false,
+  "regression": {
+    "tests": 2000,
+    "passed": 2000,
+    "suites": 61,
+    "method": "Full 1997-test run, then latest AG-55 and Vallcarca affected suites. Counts replace complete suite results, including renamed tests.",
+    "focusedReruns": [
+      23,
+      194
+    ]
+  },
+  "typescript": "passed",
+  "candidateIntegrity": {
+    "checkedFiles": 76,
+    "passed": true
+  },
+  "nationalIntegration": {
+    "catalogOrdersChecked": 2,
+    "complete": false,
+    "total": 1488,
+    "passed": 1488,
+    "safelyUnavailable": 8,
+    "unresolvedPassages": [],
+    "failures": [],
+    "byFamily": {
+      "ap41": {
+        "passed": 56,
+        "failed": 0
+      },
+      "ap71": {
+        "passed": 16,
+        "failed": 0
+      },
+      "ap36": {
+        "passed": 30,
+        "failed": 0
+      },
+      "ap7-cartagena-vera": {
+        "passed": 72,
+        "failed": 0
+      },
+      "ap66": {
+        "passed": 16,
+        "failed": 0
+      },
+      "r2": {
+        "passed": 64,
+        "failed": 0
+      },
+      "ag55": {
+        "passed": 21,
+        "failed": 0
+      },
+      "ag57": {
+        "passed": 24,
+        "failed": 0
+      },
+      "r3": {
+        "passed": 28,
+        "failed": 0
+      },
+      "r5": {
+        "passed": 26,
+        "failed": 0
+      },
+      "r4": {
+        "passed": 34,
+        "failed": 0
+      },
+      "ap9-frontera": {
+        "passed": 6,
+        "failed": 0
+      },
+      "ap9-centro": {
+        "passed": 26,
+        "failed": 0
+      },
+      "ap9-sur": {
+        "passed": 10,
+        "failed": 0
+      },
+      "ap9-ferrol": {
+        "passed": 12,
+        "failed": 0
+      },
+      "ap9-norte": {
+        "passed": 30,
+        "failed": 0
+      },
+      "ap61": {
+        "passed": 21,
+        "failed": 0
+      },
+      "ap68": {
+        "passed": 463,
+        "failed": 0
+      },
+      "ap1-closed": {
+        "passed": 20,
+        "failed": 0
+      },
+      "ap8-bizkaia": {
+        "passed": 20,
+        "failed": 0
+      },
+      "ap8-gipuzkoa-west": {
+        "passed": 28,
+        "failed": 0
+      },
+      "ap8-gipuzkoa-east": {
+        "passed": 12,
+        "failed": 0
+      },
+      "supersur": {
+        "passed": 16,
+        "failed": 0
+      },
+      "ap53": {
+        "passed": 48,
+        "failed": 0
+      },
+      "ap636": {
+        "passed": 12,
+        "failed": 0
+      },
+      "ap9-combined": {
+        "passed": 6,
+        "failed": 0
+      },
+      "ap8-ap1-shared": {
+        "passed": 261,
+        "failed": 0
+      },
+      "iberpistas-ap61": {
+        "passed": 58,
+        "failed": 0
+      },
+      "autema": {
+        "passed": 3,
+        "failed": 0
+      },
+      "c32": {
+        "passed": 4,
+        "failed": 0
+      },
+      "ap15": {
+        "passed": 4,
+        "failed": 0
+      },
+      "ap7-estepona-guadiaro": {
+        "passed": 2,
+        "failed": 0
+      },
+      "ap7-malaga-estepona": {
+        "passed": 4,
+        "failed": 0
+      },
+      "ap7-alicante-cartagena": {
+        "passed": 3,
+        "failed": 0
+      },
+      "r2-open": {
+        "passed": 2,
+        "failed": 0
+      },
+      "ag55-pastoriza": {
+        "passed": 1,
+        "failed": 0
+      },
+      "ap8-orio": {
+        "passed": 4,
+        "failed": 0
+      },
+      "ap8-zarautz-east": {
+        "passed": 2,
+        "failed": 0
+      },
+      "vallvidrera": {
+        "passed": 6,
+        "failed": 0
+      },
+      "ap46": {
+        "passed": 4,
+        "failed": 0
+      },
+      "cadi": {
+        "passed": 2,
+        "failed": 0
+      },
+      "artxanda": {
+        "passed": 4,
+        "failed": 0
+      },
+      "m12-v2": {
+        "passed": 7,
+        "failed": 0
+      }
+    }
+  },
+  "candidateSha256": {
+    "ap41": "fb9e0ffca56364f566e4b4d0ce1d384f7432677b3d54e461ce848c0bb04bd60e",
+    "ap66": "36ad4b099e6cee027e0b874b939cf2f0581c5b4501a7c4942d721fba7a8ec121",
+    "ap71": "99a9fdbd10ae64c03a88be1413cf5470da80844dc8464eae5399a95992a94c17",
+    "ap8-ap1-shared": "95db468b49b51cd74ad240de059125e2f7937467ae6a1d04f05d8c3ca36bc3c2",
+    "ap9": "01fb68c5f1116b206d9ab377bd3e4f63f7e0248cea13be0ecf7e6da0654b906a",
+    "ap9-ferrol": "671c9079a1ec493d5e08f104473de453598e3ef31c389cd45126db4bcb80d42d",
+    "ap9-norte": "dff1683f6cfff6898f486c3e8d9a86ec57bf0f3d5415d4acd6b1f67e7bd10cf8",
+    "supersur": "336cbedb927310a430783f9972d925f3316b275f5af387bd10cf0a0973d35cc8",
+    "spain-integration": "9af365b9e31a9a0868c3bce538e9baf2446ddb31b5ed86e2989219f1c60a1177",
+    "iberpistas-ap61": "6ee75a4cc49978b5f2cd009e799d05bc17e33ea079eb55d68098332c90fa1acd",
+    "ag55": "7fb6e184aa3351b6ee680de4de04d5f5612282febcadae92ad575d7c74193c20",
+    "c32": "bc8e138cbf287b7a52df60d6b0b16d42befaef872b037fd5bc4111c65edead50"
+  },
+  "runtimeSha256": "3f64f3708d16eccfa151086cb12c59dbd44f12658a6c0b2fb9f8f9eb16912b33",
+  "release": "blocked by remaining national inventory/access/eligibility/avoidance review and pending device validation; Vallcarca lane resolved; no push"
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.7391276,
+        "lon": -8.3277444
+      },
+      {
+        "lat": 42.7760298,
+        "lon": -8.4247409
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 0
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 0,
+  "sourceNodes": [
+    618991350,
+    244682940
+  ],
+  "purpose": "Free N-525 alternative near AP-53, not a price inferred from empty tariff cells."
+}

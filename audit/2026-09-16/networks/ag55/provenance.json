@@ -1,0 +1,131 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "Arteixo",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 769028620,
+      "version": 4,
+      "node": 285118382,
+      "outsideNode": 285118318
+    },
+    {
+      "zone": "Arteixo",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1465177144,
+      "version": 1,
+      "node": 285172019,
+      "outsideNode": 285172032
+    },
+    {
+      "zone": "Paiosaco",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 188413423,
+      "version": 4,
+      "node": 1037453360,
+      "outsideNode": 1990432049
+    },
+    {
+      "zone": "Paiosaco",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 188413423,
+      "version": 4,
+      "node": 1037453360,
+      "outsideNode": 1990432050,
+      "reverseSourceDirection": true
+    },
+    {
+      "zone": "Laracha",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 39473216,
+      "version": 6,
+      "node": 1871156571,
+      "outsideNode": 4553788387
+    },
+    {
+      "zone": "Laracha",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 461221636,
+      "version": 3,
+      "node": 1687779465,
+      "outsideNode": 1871156594
+    },
+    {
+      "zone": "Carballo",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 156543952,
+      "version": 21,
+      "node": 691690003,
+      "outsideNode": 699045240
+    },
+    {
+      "zone": "Carballo",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 176397986,
+      "version": 16,
+      "node": 970590197,
+      "outsideNode": 285118558
+    }
+  ],
+  "probeLocations": {
+    "Arteixo": {
+      "entry": {
+        "lat": 43.2897665,
+        "lng": -8.4985934
+      },
+      "exit": {
+        "lat": 43.2790707,
+        "lng": -8.5263536
+      }
+    },
+    "Paiosaco": {
+      "entry": {
+        "lat": 43.2659922,
+        "lng": -8.5386472
+      },
+      "exit": {
+        "lat": 43.2649418,
+        "lng": -8.5389647
+      }
+    },
+    "Laracha": {
+      "entry": {
+        "lat": 43.2516716,
+        "lng": -8.6095474
+      },
+      "exit": {
+        "lat": 43.2516965,
+        "lng": -8.6096646
+      }
+    },
+    "Carballo": {
+      "entry": {
+        "lat": 43.2465905,
+        "lng": -8.6773564
+      },
+      "exit": {
+        "lat": 43.2448365,
+        "lng": -8.6698723
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "Arteixo",
+    "Carballo",
+    "Laracha",
+    "Paiosaco"
+  ],
+  "excludedCoverageWays": [
+    795695668,
+    795695678
+  ],
+  "status": "candidate_pending_real_routes"
+}

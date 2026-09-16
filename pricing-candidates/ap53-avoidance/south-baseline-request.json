@@ -1,0 +1,27 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.7760298,
+        "lon": -8.4247409
+      },
+      {
+        "lat": 42.6817419,
+        "lon": -8.1788633
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "sourceEndpointNodes": [
+    618991350,
+    181316497
+  ]
+}

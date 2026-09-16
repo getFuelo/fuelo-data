@@ -1,0 +1,27 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.2555698,
+        "lon": -2.9698283
+      },
+      {
+        "lat": 43.3042698,
+        "lon": -3.0235177
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 75,
+  "expectedActualCents": 0,
+  "expectedGates": [],
+  "notes": "Unconstrained local route avoids Supersur; the paid journey is probed separately."
+}

@@ -1,0 +1,110 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+  "sha256": "dcb0acbf43b2917464b59f60343aa901abfe95705d24e7838ee8c7b2ec853112",
+  "ods": [
+    {
+      "from": "VILLALBA",
+      "to": "SAN RAFAEL",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 565,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 14,
+        "printed": "VILLALBA            SAN RAFAEL                       5,65          17,50           19,85"
+      }
+    },
+    {
+      "from": "VILLALBA",
+      "to": "VILLACASTIN",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1010,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 15,
+        "printed": "VILLALBA            VILLACASTIN                     10,10          25,45           28,70"
+      }
+    },
+    {
+      "from": "VILLALBA",
+      "to": "ADANERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1570,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 16,
+        "printed": "VILLALBA            ADANERO                         15,70          31,55           35,40"
+      }
+    },
+    {
+      "from": "SAN RAFAEL",
+      "to": "VILLASCASTIN",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 320,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 18,
+        "printed": "SAN RAFAEL          VILLASCASTIN                     3,20           6,75            7,35"
+      }
+    },
+    {
+      "from": "SAN RAFAEL",
+      "to": "ADANERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 905,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 19,
+        "printed": "SAN RAFAEL          ADANERO                          9,05          15,80           17,50"
+      }
+    },
+    {
+      "from": "VILLACASTIN",
+      "to": "ADANERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 465,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 21,
+        "printed": "VILLACASTIN         ADANERO                          4,65            9,15          10,10"
+      }
+    }
+  ],
+  "notes": [
+    "General light-vehicle rows only; physical accesses and route evidence still required.",
+    "Published names preserved, including source typos, pending explicit alias mapping.",
+    "Do not add joint AP-6 journey rows to a separately quoted AP-6 journey.",
+    "Unlisted pairs are unknown; free sections require separate evidence."
+  ]
+}

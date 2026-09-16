@@ -1,0 +1,700 @@
+{
+  "checked": "2026-09-16",
+  "country": "ES",
+  "complete": false,
+  "scope": "35 existing catalog entries; this list alone is not proof of the national inventory.",
+  "nationalBlockers": [
+    "294 OSM access review groups are not yet all classified; review private/parking/obsolete booths separately.",
+    "Canary Islands extract now inventoried separately: nine booth nodes, no mapped major-road tollways. Tourist/parking access fees require explicit scope and classification; do not infer all island access is free.",
+    "Release requires all access mappings, applicable tariffs and real route cases; tariff imports alone are insufficient."
+  ],
+  "entries": [
+    {
+      "catalogId": "es-ap6",
+      "tariffArtifacts": [
+        "pricing-candidates/ap6-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap6.json",
+        "pricing-candidates/iberpistas.json",
+        "pricing-candidates/iberpistas-ap61.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "AP-6/AP-51/AP-61 shared settlement passes 58 published public journeys. Remaining public approaches and unlisted cross-branch tariffs are not certified.",
+        "Reversible tunnel lane operational state, all public approaches, complete free access and avoidance remain open."
+      ],
+      "validatedCorpus": {
+        "jointPublicJourneys": 58,
+        "internalBoundarySafetyCases": 8
+      }
+    },
+    {
+      "catalogId": "es-ap51",
+      "tariffArtifacts": [
+        "pricing-candidates/ap51-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap51.json",
+        "pricing-candidates/iberpistas.json",
+        "pricing-candidates/iberpistas-ap61.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "AP-6/AP-51/AP-61 shared settlement passes 58 published public journeys. Remaining public approaches and unlisted cross-branch tariffs are not certified.",
+        "All public approaches, habitual-user eligibility and avoidance remain open."
+      ],
+      "validatedCorpus": {
+        "jointPublicJourneys": 58,
+        "internalBoundarySafetyCases": 8
+      }
+    },
+    {
+      "catalogId": "es-ap61",
+      "tariffArtifacts": [
+        "pricing-candidates/ap61-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap61.json",
+        "pricing-candidates/iberpistas-ap61.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "All published Villalba/San Rafael joint rows and local public journeys pass. Other cross-branch journeys have no mapped published total; do not derive one by summing unrelated rows.",
+        "All public approaches, habitual-user eligibility and avoidance remain open."
+      ],
+      "validatedCorpus": {
+        "jointPublicJourneys": 58,
+        "internalBoundarySafetyCases": 8
+      }
+    },
+    {
+      "catalogId": "es-ap53",
+      "tariffArtifacts": [
+        "pricing-candidates/ap53-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap53.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete remaining northern access/Tras do Eixo boundary and all-lane approach corpus.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 20,
+        "nearbyFreeRoutes": 2,
+        "northernAG59FreeDirections": 2,
+        "southernTerminalAccessRoutes": 20,
+        "realAvoidanceCases": 4,
+        "missingEntryRegression": true,
+        "viaTUnknownHistory": "Explicit 0..general range; no invented enrollment/trip history."
+      }
+    },
+    {
+      "catalogId": "es-ap66",
+      "tariffArtifacts": [
+        "pricing-candidates/ap66-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap66.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete remaining access/lane and partial-trip boundary audit.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 12,
+        "fullJourneyAndAvoidanceCases": 4,
+        "viaTUnknownHistory": "Published reduced amounts through general initial charge; unknown monthly recurrence is an interval.",
+        "bridgeCrossingRegression": true
+      }
+    },
+    {
+      "catalogId": "es-ap68",
+      "tariffArtifacts": [
+        "pricing-candidates/ap68-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap68.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Ordinary OD geometry mapped; special service-area turnaround tariff, all lane/public/free access checks, regional discounts and avoidance remain open.",
+        "One committed Alagón 272 reverse endpoint produces a Gallur loop; do not certify that loop as the direct 335-cent journey.",
+        "Current tariff validity ends with the concession on 2026-11-10; post-concession charges/free status require new evidence."
+      ]
+    },
+    {
+      "catalogId": "es-ap71",
+      "tariffArtifacts": [
+        "pricing-candidates/ap71-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap71.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete all-lane, partial/free boundary and remaining avoidance cases.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 12,
+        "dayNightTariffs": true,
+        "viaTTariffs": false,
+        "fullJourneyAndAvoidanceCases": 4,
+        "viaTUnknownHistory": "Explicit 50..100% of the applicable day/night fare; monthly trip rank not invented.",
+        "ap66InterchangeOwnershipReviewed": true
+      }
+    },
+    {
+      "catalogId": "es-ap9",
+      "tariffArtifacts": [
+        "pricing-candidates/ap9-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap9-ferrol.json",
+        "pricing-candidates/ap9-norte.json",
+        "pricing-candidates/ap9-centro.json",
+        "pricing-candidates/ap9-sur.json",
+        "pricing-candidates/ap9-frontera.json",
+        "pricing-candidates/ap9.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Two published same-origin/destination rows need exact access semantics.",
+        "Guísamo N-6 public approaches now pass across Ferrol/norte together; Santa Marta, Coruña/Barcala and all free urban approaches remain open.",
+        "All-lane and repeated-trip checks, complete combined journeys and avoidance remain open.",
+        "Unknown Via-T trip history retains a range; national release stays blocked."
+      ],
+      "validatedCorpus": {
+        "nativeDirectedJourneys": 84,
+        "publishedCombinedJourneys": 6,
+        "ferrolNorteIntegratedJourneys": 42,
+        "internalGuisamoProbesReplaced": 16
+      }
+    },
+    {
+      "catalogId": "es-ap46",
+      "tariffArtifacts": [
+        "pricing-candidates/ap46.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap46.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-ap7-malaga-estepona",
+      "tariffArtifacts": [
+        "pricing-candidates/ap7-malaga-estepona-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap7-malaga-estepona.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Full/partial journeys, opposite-direction real routes and exclusions remain to be checked.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "realPlazaTraversals": 4,
+        "individualSourceLaneTraversals": 15,
+        "generalSummerEasterTariffs": true
+      }
+    },
+    {
+      "catalogId": "es-ap7-estepona-guadiaro",
+      "tariffArtifacts": [
+        "pricing-candidates/ap7-estepona-guadiaro-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap7-estepona-guadiaro.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Full/partial journeys, opposite-direction real routes and exclusions remain to be checked.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "realPlazaTraversals": 2,
+        "individualSourceLaneTraversals": 20,
+        "generalSummerEasterTariffs": true
+      }
+    },
+    {
+      "catalogId": "es-ap7-alicante-cartagena",
+      "tariffArtifacts": [
+        "pricing-candidates/ap7-alicante-cartagena-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap7-alicante-cartagena.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Full/partial journeys, opposite-direction real routes and exclusions remain to be checked.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "realPlazaTraversals": 3,
+        "individualSourceLaneTraversals": 6,
+        "generalSummerEasterTariffs": true
+      }
+    },
+    {
+      "catalogId": "es-r2",
+      "tariffArtifacts": [
+        "pricing-candidates/r2-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/r2.json",
+        "pricing-candidates/r2-open.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete all-lane and partial-boundary checks beyond the reference corpus.",
+        "Verify the combined open/closed R-2 avoidance from full public endpoints.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 30,
+        "viaTTariffs": true,
+        "nightExemption": true,
+        "fullyRebatedDirections": 2,
+        "realOpenPlazaTraversals": 2,
+        "individualOpenLaneTraversals": 4,
+        "combinedWholeJourneys": 4,
+        "avoidedDirectedZonePairs": 30,
+        "freePairGeometryPreservedDirections": 2
+      }
+    },
+    {
+      "catalogId": "es-r3",
+      "tariffArtifacts": [
+        "pricing-candidates/r3-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/r3.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive public-approach/all-lane, free-corridor, repeated journey, partial boundary and avoidance verification remains open.",
+        "Combined adjacent-network settlement and country integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "publishedDirectedPaidPairs": 26,
+        "sourceBackedFreeDirections": 2,
+        "physicalDirectedGates": 18,
+        "expandedPhysicalGateFares": 64,
+        "generalViaTAndNightChecks": true
+      }
+    },
+    {
+      "catalogId": "es-r4",
+      "tariffArtifacts": [
+        "pricing-candidates/r4-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/r4.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive public-approach/all-lane, free-corridor, repeated journey, partial boundary and avoidance verification remains open.",
+        "Combined adjacent-network settlement and country integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "publishedDirectedPaidPairs": 34,
+        "sourceBackedFreeDirections": 0,
+        "physicalDirectedGates": 18,
+        "expandedPhysicalGateFares": 46,
+        "generalViaTAndNightChecks": true
+      }
+    },
+    {
+      "catalogId": "es-r5",
+      "tariffArtifacts": [
+        "pricing-candidates/r5-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/r5.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive public-approach/all-lane, free-corridor, repeated journey, partial boundary and avoidance verification remains open.",
+        "Combined adjacent-network settlement and country integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "publishedDirectedPaidPairs": 26,
+        "sourceBackedFreeDirections": 0,
+        "physicalDirectedGates": 16,
+        "expandedPhysicalGateFares": 42,
+        "generalViaTAndNightChecks": true,
+        "r5Ap41CoverageOwnershipReviewed": true
+      }
+    },
+    {
+      "catalogId": "es-m12",
+      "tariffArtifacts": [
+        "pricing-candidates/m12.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/m12.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-ap7-cartagena-vera",
+      "tariffArtifacts": [
+        "pricing-candidates/ap7-cartagena-vera-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap7-cartagena-vera.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete all-lane, partial/free boundary and avoidance cases.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 72,
+        "viaTTariffs": true,
+        "nightExemption": true
+      }
+    },
+    {
+      "catalogId": "es-ap36",
+      "tariffArtifacts": [
+        "pricing-candidates/ap36-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap36.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete all-lane, partial/free boundary and avoidance cases.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 30,
+        "viaTTariffs": true,
+        "nightExemption": true
+      }
+    },
+    {
+      "catalogId": "es-ap41",
+      "tariffArtifacts": [
+        "pricing-candidates/ap41-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap41.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete all-lane, partial/free boundary and remaining avoidance cases.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 56,
+        "dayNightTariffs": true,
+        "viaTTariffs": true,
+        "r5Ap41CoverageOwnershipReviewed": true
+      }
+    },
+    {
+      "catalogId": "es-cadi",
+      "tariffArtifacts": [
+        "pricing-candidates/cadi.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/cadi.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-vallvidrera",
+      "tariffArtifacts": [
+        "pricing-candidates/vallvidrera-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/vallvidrera.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Resolve operator-applicable holiday calendar; weekday peak remains an explicit interval.",
+        "Complete partial/free access boundary audit and national integration."
+      ],
+      "validatedCorpus": {
+        "realPlazaDirections": 2,
+        "fullJourneyAndAvoidanceCases": 4,
+        "individualSourceLaneTraversals": 4,
+        "calendarUncertainty": "Weekday peak 470..528 cents; exact valley outside peak windows and weekends."
+      }
+    },
+    {
+      "catalogId": "es-c16-sant-cugat-terrassa",
+      "tariffArtifacts": [
+        "pricing-candidates/autema-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/autema.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-c16-terrassa-manresa",
+      "tariffArtifacts": [
+        "pricing-candidates/autema-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/autema.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-c32-castelldefels-vendrell",
+      "tariffArtifacts": [
+        "pricing-candidates/c32-castelldefels-vendrell-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/c32.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ],
+      "resolvedFindings": [
+        "Vallcarca outer Via 1 is a paid plaza lane; official drawing MT-14042-A2 2.3 and current sign review resolve missing OSM toll tag. Retained route charges 842 cents once despite provider toll=false."
+      ]
+    },
+    {
+      "catalogId": "es-ag55",
+      "tariffArtifacts": [
+        "pricing-candidates/ag55-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ag55.json",
+        "pricing-candidates/ag55-pastoriza.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete all-lane/public-approach, partial boundary, repeated journey and avoidance corpus.",
+        "Keep current AC-15 exemption scope and early termination conditions under review.",
+        "Registered large-family eligibility and precise sub-cent Via-T settlement need separate support.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 12,
+        "realPastorizaTraversals": 3,
+        "individualPastorizaLaneTraversals": 2,
+        "portExemptDirections": 4,
+        "combinedWholeJourneys": 2,
+        "viaTUnknownHistoryAndRoundingIntervals": true
+      }
+    },
+    {
+      "catalogId": "es-ag57",
+      "tariffArtifacts": [
+        "pricing-candidates/ag57-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ag57.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete all-lane/public-approach, free terminal, partial boundary, repeated journey and avoidance corpus.",
+        "Registered large-family eligibility and precise sub-cent Via-T settlement need separate support.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 24,
+        "physicalDirectedGates": 14,
+        "expandedPhysicalGateFares": 32,
+        "viaTUnknownHistoryAndRoundingIntervals": true
+      }
+    },
+    {
+      "catalogId": "es-ap15",
+      "tariffArtifacts": [
+        "pricing-candidates/ap15-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap15.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-ap8-gipuzkoa",
+      "tariffArtifacts": [
+        "pricing-candidates/ap8-ap1-joint-tariffs.json",
+        "pricing-candidates/ap8-ap1-full-tariffs.json",
+        "pricing-candidates/ap8-east-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap8-gipuzkoa-west.json",
+        "pricing-candidates/ap8-ap1-shared.json",
+        "pricing-candidates/ap8-gipuzkoa-east.json",
+        "pricing-candidates/ap8-orio.json",
+        "pricing-candidates/ap8-zarautz-east.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Eastern general rows pass twelve journeys, and Orio/Zarautz east pass six source lanes and six real traversals. Combined full AP-8 corridor, local free approaches and conditional Oñaurre remain open.",
+        "Every public approach, alternate lane, special same-zone tariff and discount eligibility require further verification.",
+        "Selective avoidance and national release integration remain open."
+      ],
+      "validatedCorpus": {
+        "nativeDirectedJourneys": 28,
+        "jointDirectedJourneys": 260,
+        "jointFreeLocalAlternatives": 1,
+        "sharedFareAndRoadMarkersChecked": true,
+        "easternDirectedJourneys": 12,
+        "localRampSourceLanes": 6,
+        "localRampRealTraversals": 6
+      }
+    },
+    {
+      "catalogId": "es-ap1-gipuzkoa",
+      "tariffArtifacts": [
+        "pricing-candidates/ap8-ap1-joint-tariffs.json",
+        "pricing-candidates/ap8-ap1-full-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap1-closed.json",
+        "pricing-candidates/ap8-ap1-shared.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Every public approach, alternate lane, special same-zone tariff and discount eligibility require further verification.",
+        "Selective avoidance and national release integration remain open."
+      ],
+      "validatedCorpus": {
+        "nativeDirectedJourneys": 20,
+        "jointDirectedJourneys": 260,
+        "jointFreeLocalAlternatives": 1,
+        "sharedFareAndRoadMarkersChecked": true
+      }
+    },
+    {
+      "catalogId": "es-ap636",
+      "tariffArtifacts": [
+        "pricing-candidates/ap636-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap636.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Complete public approach, alternate ramp, boundary and repeated-crossing corpus.",
+        "Registered Abiatu monthly discount eligibility/history requires separate profile support.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "realIndependentSectionTraversals": 4,
+        "deskargaDirectedJourneys": 4,
+        "fullTraversals": 2,
+        "freeAlternatives": 2,
+        "viaTPartialSubstitution": true,
+        "truncatedContextRejectedDirections": 2
+      }
+    },
+    {
+      "catalogId": "es-ap8-bizkaia",
+      "tariffArtifacts": [
+        "pricing-candidates/ap8-ap1-joint-tariffs.json",
+        "pricing-candidates/ap8-ap1-full-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap8-bizkaia.json",
+        "pricing-candidates/ap8-ap1-shared.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Every public approach, alternate lane, special same-zone tariff and discount eligibility require further verification.",
+        "Selective avoidance and national release integration remain open."
+      ],
+      "validatedCorpus": {
+        "nativeDirectedJourneys": 20,
+        "jointDirectedJourneys": 260,
+        "jointFreeLocalAlternatives": 1,
+        "sharedFareAndRoadMarkersChecked": true
+      }
+    },
+    {
+      "catalogId": "es-supersur",
+      "tariffArtifacts": [
+        "pricing-candidates/supersur-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/supersur.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "All sixteen directed general rows pass with physical/logical access cuts; exhaustive public approaches, source lanes and partial journeys remain open.",
+        "Selective avoidance and conditional OBE/electric-vehicle discounts require further verification.",
+        "National inventory and release certification remain open."
+      ],
+      "validatedCorpus": {
+        "directedGeneralJourneys": 16,
+        "retainedUnconstrainedAlternatives": 3,
+        "nightGeneralTariffChecked": true
+      }
+    },
+    {
+      "catalogId": "es-artxanda",
+      "tariffArtifacts": [
+        "pricing-candidates/artxanda.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/artxanda.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-c16-sant-vicenc-c55",
+      "tariffArtifacts": [
+        "pricing-candidates/autema-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/autema.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    }
+  ],
+  "integrationAudit": {
+    "candidate": "pricing-candidates/spain-integration.json",
+    "report": "audit/2026-09-16/spain-integration-results.json",
+    "releaseCertified": false,
+    "scope": "Combined retained reference routes; not exhaustive national inventory, access, eligibility or avoidance certification.",
+    "retainedRoutes": 1488,
+    "catalogOrdersChecked": 2,
+    "passed": 1488,
+    "unresolved": [],
+    "safelyUnavailable": 8,
+    "schema": 5
+  }
+}

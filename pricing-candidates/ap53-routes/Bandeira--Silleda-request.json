@@ -1,0 +1,24 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.7322414,
+        "lon": -8.3375251
+      },
+      {
+        "lat": 42.7113173,
+        "lon": -8.2367276
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedIfPaidRouteCents": 135
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.3446907,
+        "lon": -8.4850146,
+        "heading": 114
+      },
+      {
+        "lat": 43.3441427,
+        "lon": -8.4397671,
+        "heading": 70
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 0,
+  "expectationSource": "BOE-A-2025-490 port exemption"
+}

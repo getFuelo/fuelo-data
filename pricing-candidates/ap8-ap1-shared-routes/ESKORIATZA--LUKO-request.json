@@ -1,0 +1,31 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.0237612,
+        "lon": -2.5206576
+      },
+      {
+        "lat": 42.9297411,
+        "lon": -2.6470546
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 397,
+  "expectedRoadIds": [
+    "es-ap1-gipuzkoa"
+  ],
+  "source": [
+    "https://www.arabat.eus/es/ap-1/tarifas-ap-1/"
+  ],
+  "reusedFrom": "pricing-candidates/ap1-closed-routes/ESKORIATZA--LUKO.json"
+}

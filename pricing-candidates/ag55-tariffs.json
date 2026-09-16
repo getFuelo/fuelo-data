@@ -1,0 +1,281 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.autoestradas.com/la-autopista/tarifas/",
+  "sha256": "6a6859a637853878db26e66109882ce382c5be249c82b1122f3647bdb26e19cb",
+  "notes": [
+    "Published general light-vehicle rows only. Geographic mapping and route verification are separate.",
+    "Blank/dash cells are not zero; no unverified enrollment/recurrence discounts."
+  ],
+  "ods": [
+    {
+      "from": "A Coruña",
+      "to": "Arteixo",
+      "tariff": {
+        "baseCents": 55,
+        "bands": [
+          {
+            "cents": 27,
+            "maxCents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 13,
+            "maxCents": 28,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceRow": 2
+    },
+    {
+      "from": "Arteixo",
+      "to": "Paiosaco",
+      "tariff": {
+        "baseCents": 75,
+        "bands": [
+          {
+            "cents": 37,
+            "maxCents": 75,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 18,
+            "maxCents": 38,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceRow": 3
+    },
+    {
+      "from": "Arteixo",
+      "to": "Laracha",
+      "tariff": {
+        "baseCents": 130,
+        "bands": [
+          {
+            "cents": 65,
+            "maxCents": 130,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 32,
+            "maxCents": 65,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceRow": 4
+    },
+    {
+      "from": "Arteixo",
+      "to": "Carballo",
+      "tariff": {
+        "baseCents": 205,
+        "bands": [
+          {
+            "cents": 102,
+            "maxCents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 51,
+            "maxCents": 103,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceRow": 5
+    },
+    {
+      "from": "Paiosaco",
+      "to": "Laracha",
+      "tariff": {
+        "baseCents": 55,
+        "bands": [
+          {
+            "cents": 27,
+            "maxCents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 13,
+            "maxCents": 28,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceRow": 6
+    },
+    {
+      "from": "Paiosaco",
+      "to": "Carballo",
+      "tariff": {
+        "baseCents": 135,
+        "bands": [
+          {
+            "cents": 67,
+            "maxCents": 135,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 33,
+            "maxCents": 68,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceRow": 7
+    },
+    {
+      "from": "Laracha",
+      "to": "Carballo",
+      "tariff": {
+        "baseCents": 85,
+        "bands": [
+          {
+            "cents": 42,
+            "maxCents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 21,
+            "maxCents": 43,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceRow": 8
+    },
+    {
+      "from": "Porto Exterior",
+      "to": "Arteixo",
+      "tariff": {
+        "baseCents": 25,
+        "bands": []
+      },
+      "sourceRow": 11
+    },
+    {
+      "from": "Arteixo",
+      "to": "Porto Exterior",
+      "tariff": {
+        "baseCents": 25,
+        "bands": []
+      },
+      "sourceRow": 12
+    }
+  ],
+  "unpricedPublishedRows": [
+    {
+      "from": "Porto Exterior",
+      "to": "A Coruña",
+      "printed": "–"
+    },
+    {
+      "from": "A Coruña",
+      "to": "Porto Exterior",
+      "printed": "–"
+    }
+  ],
+  "discountSource": {
+    "url": "https://www.xunta.gal/dog/Publicados/2025/20251231/AnuncioG0765-291225-0001_es.html",
+    "sha256": "fee56c75680e51d82430bdc22ef8c882732b8b350d89bcd89c74725edc87fbb1"
+  },
+  "discountReview": "Generic valid Via-T only: unknown same-vehicle return history; night 50% then return 25/50%. Outward whole-cent bounds retain unresolved settlement rounding. Registered large-family eligibility is not assumed.",
+  "portAccessReview": {
+    "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-490",
+    "status": "Published port movement tariffs are not proof of direct user liability: the AC-15 agreement compensates exempt traffic. Separate mapped bypass and current-scope verification required."
+  }
+}

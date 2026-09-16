@@ -1,0 +1,183 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "OIARTZUN-este",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1349609781,
+      "version": 5,
+      "node": 278826601,
+      "outsideNode": 9464504594
+    },
+    {
+      "zone": "OIARTZUN-este",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 25710689,
+      "version": 12,
+      "node": 13977711720,
+      "outsideNode": 278535218
+    },
+    {
+      "zone": "DONOSTIA-ESTE",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 31237370,
+      "version": 29,
+      "node": 783791631,
+      "outsideNode": 347310341
+    },
+    {
+      "zone": "DONOSTIA-ESTE",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 48123875,
+      "version": 28,
+      "node": 611764928,
+      "outsideNode": 611771494
+    },
+    {
+      "zone": "OIARTZUN",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 25556191,
+      "version": 14,
+      "node": 278549802,
+      "outsideNode": 9464504594
+    },
+    {
+      "zone": "OIARTZUN",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 173622832,
+      "version": 4,
+      "node": 13950758715,
+      "outsideNode": 278535218
+    },
+    {
+      "zone": "IRUN-OESTE",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1459560205,
+      "version": 3,
+      "node": 280361615,
+      "outsideNode": 13386509529
+    },
+    {
+      "zone": "IRUN-OESTE",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 25712516,
+      "version": 14,
+      "node": 13348502065,
+      "outsideNode": 280352549
+    },
+    {
+      "zone": "IRUN-VENTAS",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 25713274,
+      "version": 7,
+      "node": 280361712,
+      "outsideNode": 280474584
+    },
+    {
+      "zone": "IRUN-VENTAS",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 25713273,
+      "version": 10,
+      "node": 280361681,
+      "outsideNode": 280474588
+    },
+    {
+      "zone": "BEHOBIA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1509571177,
+      "version": 6,
+      "node": 13960156569,
+      "outsideNode": 13960156589
+    },
+    {
+      "zone": "BEHOBIA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1509571181,
+      "version": 6,
+      "node": 13960156544,
+      "outsideNode": 13960156583
+    }
+  ],
+  "probeLocations": {
+    "OIARTZUN-este": {
+      "entry": {
+        "lat": 43.3056379,
+        "lng": -1.8830173
+      },
+      "exit": {
+        "lat": 43.3054976,
+        "lng": -1.8831359
+      }
+    },
+    "DONOSTIA-ESTE": {
+      "entry": {
+        "lat": 43.2836011,
+        "lng": -1.9126036
+      },
+      "exit": {
+        "lat": 43.2844605,
+        "lng": -1.9100797
+      }
+    },
+    "OIARTZUN": {
+      "entry": {
+        "lat": 43.3056379,
+        "lng": -1.8830173
+      },
+      "exit": {
+        "lat": 43.3054976,
+        "lng": -1.8831359
+      }
+    },
+    "IRUN-OESTE": {
+      "entry": {
+        "lat": 43.3225548,
+        "lng": -1.831425
+      },
+      "exit": {
+        "lat": 43.3190339,
+        "lng": -1.8309512
+      }
+    },
+    "IRUN-VENTAS": {
+      "entry": {
+        "lat": 43.3228759,
+        "lng": -1.833327
+      },
+      "exit": {
+        "lat": 43.3230085,
+        "lng": -1.8329976
+      }
+    },
+    "BEHOBIA": {
+      "entry": {
+        "lat": 43.3256299,
+        "lng": -1.8168034
+      },
+      "exit": {
+        "lat": 43.3251148,
+        "lng": -1.8178897
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "BEHOBIA",
+    "DONOSTIA-ESTE",
+    "IRUN-OESTE",
+    "IRUN-VENTAS",
+    "OIARTZUN"
+  ],
+  "status": "candidate_pending_real_routes"
+}

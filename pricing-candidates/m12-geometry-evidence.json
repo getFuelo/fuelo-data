@@ -1,0 +1,40 @@
+{
+  "checked": "2026-09-16",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "bbox_urls": [
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-3.607,40.471,-3.598,40.480",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-3.608,40.506,-3.598,40.513"
+  ],
+  "gates": [
+    {
+      "gate": "barajas-sur",
+      "booth": "406977896",
+      "way": "34401539",
+      "way_version": 8,
+      "roof": "156046618",
+      "roof_version": 3,
+      "oneway": "yes",
+      "basis": "Finite transverse section through booth, extent from roof projected perpendicular to the carriageway plus 2m each end. Direction follows OSM oneway geometry."
+    },
+    {
+      "gate": "barajas-norte",
+      "booth": "412287454",
+      "way": "156043989",
+      "way_version": 4,
+      "roof": "156043980",
+      "roof_version": 3,
+      "oneway": "yes",
+      "basis": "Finite transverse section through booth, extent from roof projected perpendicular to the carriageway plus 2m each end. Direction follows OSM oneway geometry."
+    },
+    {
+      "gate": "alcobendas",
+      "booth": "406916228",
+      "way": "34795820",
+      "way_version": 7,
+      "roof": "438525595",
+      "roof_version": 1,
+      "oneway": "yes",
+      "basis": "Finite transverse section through booth, extent from roof projected perpendicular to the carriageway plus 2m each end. Direction follows OSM oneway geometry."
+    }
+  ]
+}

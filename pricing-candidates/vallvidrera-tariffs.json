@@ -1,0 +1,40 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://tunels.cat/es/tuneles-de-vallvidrera/",
+  "sha256": "32902b937a69a9e2ee63950c69eb293f9671204cb668f20af50843a88bf5a6a4",
+  "sourcePdf": "https://tunels.cat/wp-content/uploads/2025/12/Tunels_tarifes_2026.pdf",
+  "generalReference": {
+    "valleyCents": 470,
+    "peakCents": 528,
+    "peakWeekdays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "peakMinutes": [
+      [
+        450,
+        630
+      ],
+      [
+        1020,
+        1260
+      ]
+    ],
+    "holidayRate": "valley",
+    "requiresCalendar": "Operator-applicable 2026 working days / holidays"
+  },
+  "notes": [
+    "Category II. The tariff is 4.70 on Saturdays, Sundays and holidays.",
+    "Do not treat all weekdays as working days without the applicable holiday calendar. No automatic ECOVIAT/VAO/frequency enrollment."
+  ]
+}

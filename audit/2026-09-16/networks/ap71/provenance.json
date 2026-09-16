@@ -1,0 +1,117 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "gate": "León-exit",
+      "way": 202458085,
+      "version": 5,
+      "node": 487277293,
+      "halfWidthMeters": 8,
+      "reverseSourceWay": false
+    },
+    {
+      "gate": "León-entry",
+      "way": 768796262,
+      "version": 3,
+      "node": 2316217167,
+      "halfWidthMeters": 8,
+      "reverseSourceWay": false
+    },
+    {
+      "gate": "Astorga-exit",
+      "way": 202458086,
+      "version": 5,
+      "node": 48221517,
+      "halfWidthMeters": 8,
+      "reverseSourceWay": false
+    },
+    {
+      "gate": "Astorga-entry",
+      "way": 768796574,
+      "version": 4,
+      "node": 487256789,
+      "halfWidthMeters": 8,
+      "reverseSourceWay": false
+    },
+    {
+      "gate": "Villadangos-entry",
+      "way": 545291458,
+      "version": 4,
+      "node": 48221137,
+      "halfWidthMeters": 8,
+      "reverseSourceWay": true
+    },
+    {
+      "gate": "Villadangos-exit",
+      "way": 545291458,
+      "version": 4,
+      "node": 48221137,
+      "halfWidthMeters": 8,
+      "reverseSourceWay": false
+    },
+    {
+      "gate": "Hospital de Orbigo-entry",
+      "way": 545554589,
+      "version": 3,
+      "node": 48221647,
+      "halfWidthMeters": 8,
+      "reverseSourceWay": true
+    },
+    {
+      "gate": "Hospital de Orbigo-exit",
+      "way": 545554589,
+      "version": 3,
+      "node": 48221647,
+      "halfWidthMeters": 8,
+      "reverseSourceWay": false
+    }
+  ],
+  "probeLocations": {
+    "León": {
+      "entry": {
+        "lat": 42.5271195,
+        "lng": -5.7497499
+      },
+      "exit": {
+        "lat": 42.5288461,
+        "lng": -5.746262
+      }
+    },
+    "Astorga": {
+      "entry": {
+        "lat": 42.4529506,
+        "lng": -5.8942528
+      },
+      "exit": {
+        "lat": 42.4526245,
+        "lng": -5.8978769
+      }
+    },
+    "Villadangos": {
+      "entry": {
+        "lat": 42.5216654,
+        "lng": -5.7543445
+      },
+      "exit": {
+        "lat": 42.5216654,
+        "lng": -5.7543445
+      }
+    },
+    "Hospital de Orbigo": {
+      "entry": {
+        "lat": 42.4512739,
+        "lng": -5.8856695
+      },
+      "exit": {
+        "lat": 42.4512739,
+        "lng": -5.8856695
+      }
+    }
+  },
+  "coverageAssignedToAp66": [
+    4869445,
+    34038866,
+    306889014
+  ],
+  "status": "candidate_pending_real_routes"
+}

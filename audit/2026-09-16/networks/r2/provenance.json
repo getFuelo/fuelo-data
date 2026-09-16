@@ -1,0 +1,207 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "Ajalvir",
+      "reviewGroup": "osm-review-161872278",
+      "booths": [
+        161872278,
+        161873942,
+        3361474102,
+        3361474108
+      ],
+      "entryWay": 329280725,
+      "version": 3,
+      "entryBooth": 161872278,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 40.50732381580253,
+          "lng": -3.4853391648369185
+        },
+        {
+          "lat": 40.50810870687087,
+          "lng": -3.485115099726436
+        }
+      ]
+    },
+    {
+      "zone": "Alcalá",
+      "reviewGroup": "osm-review-409505056",
+      "booths": [
+        409505056,
+        439206819
+      ],
+      "entryWay": 37520682,
+      "version": 8,
+      "entryBooth": 439206819,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 40.51965658626805,
+          "lng": -3.4135803261617452
+        },
+        {
+          "lat": 40.51936481373195,
+          "lng": -3.4136700738382553
+        }
+      ]
+    },
+    {
+      "zone": "Meco",
+      "reviewGroup": "osm-review-276999231",
+      "booths": [
+        276999231,
+        439212387
+      ],
+      "entryWay": 1012505416,
+      "version": 2,
+      "entryBooth": 276999231,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 40.538460774160576,
+          "lng": -3.30962041299622
+        },
+        {
+          "lat": 40.53815912583942,
+          "lng": -3.3093082870037795
+        }
+      ]
+    },
+    {
+      "zone": "Cabanillas",
+      "reviewGroup": "osm-review-280428937",
+      "booths": [
+        280428937,
+        381306580
+      ],
+      "entryWay": 33487089,
+      "version": 10,
+      "entryBooth": 280428937,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 40.61987236401557,
+          "lng": -3.245710012523548
+        },
+        {
+          "lat": 40.61943613598443,
+          "lng": -3.2456596874764525
+        }
+      ]
+    },
+    {
+      "zone": "Guadalajara Norte",
+      "reviewGroup": "osm-review-439218762",
+      "booths": [
+        439218762,
+        439218765,
+        2284411302
+      ],
+      "entryWay": 1510856672,
+      "version": 1,
+      "entryBooth": 439218765,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 40.674578736258894,
+          "lng": -3.1774711925925447
+        },
+        {
+          "lat": 40.674269038343525,
+          "lng": -3.1775036865820017
+        }
+      ]
+    },
+    {
+      "zone": "NII-Taracena",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 26417902,
+      "version": 6,
+      "node": 13810674060,
+      "outsideNode": 289445377
+    },
+    {
+      "zone": "NII-Taracena",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 26418045,
+      "version": 5,
+      "node": 13810674061,
+      "outsideNode": 289445374
+    }
+  ],
+  "probeLocations": {
+    "Ajalvir": {
+      "entry": {
+        "lat": 40.5079769,
+        "lng": -3.4872035
+      },
+      "exit": {
+        "lat": 40.5080867,
+        "lng": -3.4867503
+      }
+    },
+    "Alcalá": {
+      "entry": {
+        "lat": 40.5226825,
+        "lng": -3.4137355
+      },
+      "exit": {
+        "lat": 40.5228937,
+        "lng": -3.4137204
+      }
+    },
+    "Meco": {
+      "entry": {
+        "lat": 40.5384973,
+        "lng": -3.3094475
+      },
+      "exit": {
+        "lat": 40.5388105,
+        "lng": -3.3080689
+      }
+    },
+    "Cabanillas": {
+      "entry": {
+        "lat": 40.6197433,
+        "lng": -3.2443838
+      },
+      "exit": {
+        "lat": 40.6196624,
+        "lng": -3.2444412
+      }
+    },
+    "Guadalajara Norte": {
+      "entry": {
+        "lat": 40.6743987,
+        "lng": -3.1766511
+      },
+      "exit": {
+        "lat": 40.6743059,
+        "lng": -3.1766936
+      }
+    },
+    "NII-Taracena": {
+      "entry": {
+        "lat": 40.6687192,
+        "lng": -3.1662309
+      },
+      "exit": {
+        "lat": 40.6686135,
+        "lng": -3.166278
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "Ajalvir",
+    "Alcalá",
+    "Cabanillas",
+    "Guadalajara Norte",
+    "Meco",
+    "NII-Taracena"
+  ],
+  "status": "candidate_pending_real_routes"
+}

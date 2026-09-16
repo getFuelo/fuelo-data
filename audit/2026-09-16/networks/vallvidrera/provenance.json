@@ -1,0 +1,24 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-vallvidrera",
+      "reviewGroup": "osm-review-255620252",
+      "booths": [
+        255620252,
+        255902880,
+        1419636397,
+        1419636417
+      ],
+      "laneWays": [
+        128463189,
+        128463193,
+        236236171,
+        297820822
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 153,
+  "reviewStatus": "candidate_pending_routes"
+}

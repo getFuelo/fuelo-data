@@ -1,0 +1,69 @@
+{
+  "status": "resolved_missing_paid_lane",
+  "network": "es-c32-vallcarca",
+  "route": "pricing-candidates/c32-routes/es-c32-vallcarca-traversal.json",
+  "expectedGeneralCents": 842,
+  "productionEnabled": false,
+  "source": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=1.848,41.2435,1.856,41.247",
+    "sha256": "bac672108bd1a713e834ac7dbd07d2a7cd1072b3b04e01d8ee822181a4146008",
+    "roofWay": 200609886,
+    "laneWay": 265459419,
+    "laneWayVersion": 10
+  },
+  "finding": "OSM way 265459454 is the outer paid Via 1 of the Vallcarca plaza, not a free bypass. Generalitat project MT-14042-A2, drawing 2.3 (PDF page 370), explicitly draws Via 1 AALT outside the canopy with its toll equipment. July 2026 Street View independently shows the exclusive Via-T sign and barrier at the same outer lane. OSM geometry is retained; no geometry is traced from Google. Apply the published plaza general tariff once, irrespective of Valhalla toll=false. Lane payment-method guidance is separate from the general toll amount.",
+  "trace": {
+    "response": "vallcarca-trace.json",
+    "request": "vallcarca-trace-request.json",
+    "way": 265459454,
+    "wayVersion": 9,
+    "toll": false,
+    "currentOsmTags": {
+      "highway": "motorway_link",
+      "lanes": "1",
+      "maxspeed": "50",
+      "oneway": "yes"
+    },
+    "restrictionsObserved": false
+  },
+  "imagery": {
+    "source": "https://www.ign.es/wms-inspire/pnoa-ma",
+    "layer": "OI.OrthoimageCoverage",
+    "crs": "EPSG:4326",
+    "bbox": [
+      41.244,
+      1.8508,
+      41.246,
+      1.853
+    ],
+    "retrieved": "2026-09-16",
+    "sha256": "dc70fe98777c1af7e843802f5d3895cb827d3ca6137e48e74a726bc7d0463741",
+    "limitation": "Read-only visual evidence. Capture date not established; no access or toll conclusion from imagery alone."
+  },
+  "previousObservedAuditCents": 0,
+  "resolution": {
+    "checked": "2026-09-16",
+    "plan": {
+      "url": "https://www.gencat.cat/territori/projectes-infraestructures/MT14042A2.pdf",
+      "sha256": "654659f36450c07b9cfd9868bbd5538065ec9408ccd10a963ee70690ce44122a",
+      "pdfPage": 370,
+      "drawing": "2.3 PLANTA PEATGE CONFIGURACIO ILLETES",
+      "date": "2019-06",
+      "label": "Via 1 AALT"
+    },
+    "operatorSigns": "https://www.autopistas.com/planifica-tu-viaje/somos-autopistas/",
+    "visualCorroboration": {
+      "url": "https://www.google.com/maps/@41.2450891,1.8512894,3a,37.5y,171.93h,90t/data=!3m4!1e1!3m2!1sc8N4eJjsjYoFES8qDjPouQ!2e0",
+      "capture": "2026-07",
+      "observation": "Outer lane has circular T sign, blue approach markings, a separate barrier and detection equipment; not a public free bypass."
+    },
+    "geometry": "Existing OSM way 265459454/v9; finite plaza-plane extension to source node 12766694619 plus 8m. No public OSM edit.",
+    "validation": {
+      "integrationPassed": 1488,
+      "focusedTestsPassed": 194,
+      "physicalLaneCharges": 1,
+      "providerTollFlag": false
+    }
+  },
+  "observedAuditCents": 842
+}

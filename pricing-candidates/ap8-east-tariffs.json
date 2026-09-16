@@ -1,0 +1,113 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+  "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+  "ods": [
+    {
+      "from": "Donostia - SS. E / Hernani / Astigarraga / Lasarte",
+      "to": "Oiartzun",
+      "tariff": {
+        "baseCents": 161,
+        "bands": []
+      }
+    },
+    {
+      "from": "Donostia - SS. E / Hernani / Astigarraga / Lasarte",
+      "to": "Irun M/O",
+      "tariff": {
+        "baseCents": 224,
+        "bands": []
+      }
+    },
+    {
+      "from": "Donostia - SS. E / Hernani / Astigarraga / Lasarte",
+      "to": "Behobia",
+      "tariff": {
+        "baseCents": 315,
+        "bands": []
+      }
+    },
+    {
+      "from": "Oiartzun",
+      "to": "Irun M/O",
+      "tariff": {
+        "baseCents": 224,
+        "bands": []
+      }
+    },
+    {
+      "from": "Oiartzun",
+      "to": "Behobia",
+      "tariff": {
+        "baseCents": 315,
+        "bands": []
+      }
+    },
+    {
+      "from": "Irun Ventas",
+      "to": "Behobia",
+      "tariff": {
+        "baseCents": 117,
+        "bands": []
+      }
+    },
+    {
+      "from": "Zarautz E",
+      "to": "Donostia - SS M/O / Astigarraga / Hernani",
+      "tariff": {
+        "baseCents": 280,
+        "bands": []
+      }
+    },
+    {
+      "from": "Orio",
+      "to": "Donostia - SS M/O / Astigarraga / Hernani",
+      "tariff": {
+        "baseCents": 219,
+        "bands": []
+      }
+    }
+  ],
+  "conditionalJourneys": [
+    {
+      "from": "Donostia - SS. E / Hernani / Astigarraga / Lasarte",
+      "to": "Oñaurre",
+      "cents": 247,
+      "requires": [
+        "payment:via-t"
+      ],
+      "sourceNote": "Tarifa aplicable en caso de pago con telepeaje"
+    },
+    {
+      "from": "Oiartzun",
+      "to": "Oñaurre",
+      "cents": 247,
+      "requires": [
+        "payment:via-t"
+      ],
+      "sourceNote": "Tarifa aplicable en caso de pago con telepeaje"
+    },
+    {
+      "from": "Irun Ventas",
+      "to": "Oñaurre",
+      "cents": 50,
+      "requires": [
+        "payment:via-t"
+      ],
+      "sourceNote": "Tarifa aplicable en caso de pago con telepeaje"
+    }
+  ],
+  "scope": "Eastern and Zarautz/Orio small tables, page 1",
+  "notes": [
+    "Printed access labels preserved. Directional physical mapping is required before pricing.",
+    "Oñaurre amounts are conditional references only; no cash/general price is fabricated.",
+    "Blank cells are unknown, not free travel."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.3312662,
+        "lon": -1.7264108,
+        "heading": 183
+      },
+      {
+        "lat": 42.3152003,
+        "lon": -1.7250031,
+        "heading": 189
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "sourceProbe": {
+    "booth": 938123,
+    "way": "461206178/461206178",
+    "versions": [
+      6,
+      6
+    ]
+  }
+}

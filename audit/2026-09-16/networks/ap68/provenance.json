@@ -1,0 +1,7323 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "ZIORRAGA",
+      "reviewGroup": "osm-review-1483905539",
+      "booths": [
+        1483905539
+      ],
+      "entryWay": 377618517,
+      "version": 3,
+      "entryBooth": 1483905539,
+      "reverseEntryWay": true,
+      "line": [
+        {
+          "lat": 43.015739994701825,
+          "lng": -2.909260623909608
+        },
+        {
+          "lat": 43.015820005298174,
+          "lng": -2.9091615760903915
+        }
+      ]
+    },
+    {
+      "zone": "ALTUBE",
+      "reviewGroup": "osm-review-674651148",
+      "booths": [
+        674651148,
+        674651153
+      ],
+      "entryWay": 298767817,
+      "version": 6,
+      "entryBooth": 674651148,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.96458002204032,
+          "lng": -2.8670388721296023
+        },
+        {
+          "lat": 42.964331977959674,
+          "lng": -2.8671033278703977
+        }
+      ]
+    },
+    {
+      "zone": "SUBIJANA",
+      "reviewGroup": "osm-review-678298967",
+      "booths": [
+        678298967
+      ],
+      "entryWay": 377617740,
+      "version": 3,
+      "entryBooth": 678298967,
+      "reverseEntryWay": true,
+      "line": [
+        {
+          "lat": 42.8174615158415,
+          "lng": -2.8929455196729106
+        },
+        {
+          "lat": 42.817452084158504,
+          "lng": -2.8930920803270896
+        }
+      ]
+    },
+    {
+      "zone": "AUTOP.BURGOS",
+      "reviewGroup": "osm-review-6059979460",
+      "booths": [
+        6059979460,
+        6059979462,
+        13388758527,
+        13388758530,
+        13388758533,
+        13388758537,
+        13388758565,
+        13388758568,
+        13388758571,
+        13388758574,
+        13388758577,
+        13388758580,
+        13388758583,
+        13388758586,
+        13388758588
+      ],
+      "entryWay": 741248049,
+      "version": 4,
+      "entryBooth": 6059979462,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.70716536828901,
+          "lng": -2.9072700387973676
+        },
+        {
+          "lat": 42.70778239506954,
+          "lng": -2.907816143025692
+        }
+      ]
+    },
+    {
+      "zone": "ZAMBRANA",
+      "reviewGroup": "osm-review-893969034",
+      "booths": [
+        893969034,
+        893969113,
+        13388758520,
+        13388758523
+      ],
+      "entryWay": 377617099,
+      "version": 2,
+      "entryBooth": 893969113,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.67316211035615,
+          "lng": -2.88642036637514
+        },
+        {
+          "lat": 42.67319639024105,
+          "lng": -2.886759913657491
+        }
+      ]
+    },
+    {
+      "zone": "HARO",
+      "reviewGroup": "osm-review-252456376",
+      "booths": [
+        252456376,
+        586547510,
+        13388556936,
+        13388556939,
+        13388556942
+      ],
+      "entryWay": 377616859,
+      "version": 5,
+      "entryBooth": 586547510,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.56159418600656,
+          "lng": -2.8758189633092615
+        },
+        {
+          "lat": 42.56178409972171,
+          "lng": -2.8755256277693055
+        }
+      ]
+    },
+    {
+      "zone": "CENICERO",
+      "reviewGroup": "osm-review-582973178",
+      "booths": [
+        582973178,
+        582973220
+      ],
+      "entryWay": 377616481,
+      "version": 1,
+      "entryBooth": 582973178,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.46928143350286,
+          "lng": -2.642340704537848
+        },
+        {
+          "lat": 42.46917196649714,
+          "lng": -2.642169295462152
+        }
+      ]
+    },
+    {
+      "zone": "FUENMAYOR",
+      "reviewGroup": "osm-review-498270993",
+      "booths": [
+        498270993,
+        3809979978
+      ],
+      "entryWay": 377616387,
+      "version": 2,
+      "entryBooth": 3809979978,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.44547222816119,
+          "lng": -2.5657921026254855
+        },
+        {
+          "lat": 42.44560987183881,
+          "lng": -2.565663697374519
+        }
+      ]
+    },
+    {
+      "zone": "LOGROÑO",
+      "reviewGroup": "osm-review-252454191",
+      "booths": [
+        252454191,
+        597696191
+      ],
+      "entryWay": 377615635,
+      "version": 3,
+      "entryBooth": 252454191,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.43513991503522,
+          "lng": -2.4610504656630052
+        },
+        {
+          "lat": 42.43511598496477,
+          "lng": -2.460791734336996
+        }
+      ]
+    },
+    {
+      "zone": "RECAJO",
+      "reviewGroup": "osm-review-3432193933",
+      "booths": [
+        3432193933,
+        3432193935
+      ],
+      "entryWay": 1495440050,
+      "version": 1,
+      "entryBooth": 3432193933,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.44869790991994,
+          "lng": -2.3472953719024723
+        },
+        {
+          "lat": 42.448892490080055,
+          "lng": -2.3471134280975274
+        }
+      ]
+    },
+    {
+      "zone": "AGONCILLO",
+      "reviewGroup": "osm-review-46953393",
+      "booths": [
+        46953393,
+        281613495
+      ],
+      "entryWay": 377615253,
+      "version": 2,
+      "entryBooth": 46953393,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.436468126535715,
+          "lng": -2.289348770396487
+        },
+        {
+          "lat": 42.436342273464284,
+          "lng": -2.2891519296035177
+        }
+      ]
+    },
+    {
+      "zone": "CALAHORRA",
+      "reviewGroup": "osm-review-249759675",
+      "booths": [
+        249759675,
+        249759729
+      ],
+      "entryWay": 377614652,
+      "version": 3,
+      "entryBooth": 249759675,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.30288290242518,
+          "lng": -1.9827819241646267
+        },
+        {
+          "lat": 42.30280929757481,
+          "lng": -1.98303467583537
+        }
+      ]
+    },
+    {
+      "zone": "ALFARO",
+      "reviewGroup": "osm-review-586622011",
+      "booths": [
+        586622011,
+        1103008739
+      ],
+      "entryWay": 377614434,
+      "version": 2,
+      "entryBooth": 586622011,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.137784818931756,
+          "lng": -1.7706797104576315
+        },
+        {
+          "lat": 42.13788098106824,
+          "lng": -1.7705049895423686
+        }
+      ]
+    },
+    {
+      "zone": "TUDELA",
+      "reviewGroup": "osm-review-259503042",
+      "booths": [
+        259503042,
+        3809948938
+      ],
+      "entryWay": 377613789,
+      "version": 3,
+      "entryBooth": 259503042,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.03314542796181,
+          "lng": -1.6332508723747228
+        },
+        {
+          "lat": 42.03328787203819,
+          "lng": -1.6330610276252773
+        }
+      ]
+    },
+    {
+      "zone": "GALLUR",
+      "reviewGroup": "osm-review-387909561",
+      "booths": [
+        387909561,
+        387909570,
+        8677588747,
+        8677588752,
+        8677588770
+      ],
+      "entryWay": 377613794,
+      "version": 3,
+      "entryBooth": 387909570,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 41.850201221621646,
+          "lng": -1.3785151679705439
+        },
+        {
+          "lat": 41.85049286634664,
+          "lng": -1.378533583767988
+        }
+      ]
+    },
+    {
+      "zone": "LODOSA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 377614831,
+      "version": 5,
+      "node": 3467987593,
+      "outsideNode": 586607526
+    },
+    {
+      "zone": "LODOSA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 377614830,
+      "version": 3,
+      "node": 586612629,
+      "outsideNode": 278301856
+    },
+    {
+      "zone": "LODOSA-norte",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1112540177,
+      "version": 5,
+      "node": 10178659825,
+      "outsideNode": 278301854
+    },
+    {
+      "zone": "LODOSA-norte",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1112540187,
+      "version": 5,
+      "node": 10178659909,
+      "outsideNode": 10178659889
+    },
+    {
+      "zone": "BILBAO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 24952572,
+      "version": 12,
+      "node": 271151333,
+      "outsideNode": 99107204
+    },
+    {
+      "zone": "BILBAO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 676841650,
+      "version": 9,
+      "node": 252023484,
+      "outsideNode": 243084624
+    },
+    {
+      "zone": "ARRIGORRIAGA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 260615835,
+      "version": 10,
+      "node": 4009815198,
+      "outsideNode": 523970989
+    },
+    {
+      "zone": "ARRIGORRIAGA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 42133322,
+      "version": 9,
+      "node": 523971125,
+      "outsideNode": 3237634590
+    },
+    {
+      "zone": "ARRIGORRIAGA-norte",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 260615835,
+      "version": 10,
+      "node": 4009815198,
+      "outsideNode": 523970989,
+      "reverseSourceDirection": true
+    },
+    {
+      "zone": "ARETA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 377620824,
+      "version": 2,
+      "node": 3810033389,
+      "outsideNode": 524008739
+    },
+    {
+      "zone": "ARETA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 377620822,
+      "version": 2,
+      "node": 524008698,
+      "outsideNode": 524008710
+    },
+    {
+      "zone": "LLODIO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1366209671,
+      "version": 1,
+      "node": 3810020031,
+      "outsideNode": 12652209417
+    },
+    {
+      "zone": "LLODIO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 56757159,
+      "version": 8,
+      "node": 317019556,
+      "outsideNode": 3057035155
+    },
+    {
+      "zone": "AUTOP.NAVARRA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 377614262,
+      "version": 6,
+      "node": 35292661,
+      "outsideNode": 3428250391
+    },
+    {
+      "zone": "AUTOP.NAVARRA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 377614260,
+      "version": 6,
+      "node": 46749302,
+      "outsideNode": 3428250389
+    },
+    {
+      "zone": "ALAGÓN pk 272",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 377612923,
+      "version": 3,
+      "node": 41193952,
+      "outsideNode": 10183197955
+    },
+    {
+      "zone": "ALAGÓN pk 272",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 377612919,
+      "version": 3,
+      "node": 1055475079,
+      "outsideNode": 10183197954
+    },
+    {
+      "zone": "ALAGÓN pk 275",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 377612926,
+      "version": 3,
+      "node": 586334530,
+      "outsideNode": 586334578
+    },
+    {
+      "zone": "ALAGÓN pk 275",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 377612924,
+      "version": 1,
+      "node": 586334591,
+      "outsideNode": 586334578
+    },
+    {
+      "zone": "ZARAGOZA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 24953271,
+      "version": 11,
+      "node": 13231740093,
+      "outsideNode": 41270640
+    },
+    {
+      "zone": "ZARAGOZA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 24953008,
+      "version": 36,
+      "node": 271156308,
+      "outsideNode": 252336289
+    }
+  ],
+  "probeLocations": {
+    "ZIORRAGA": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      }
+    },
+    "ALTUBE": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      }
+    },
+    "SUBIJANA": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      }
+    },
+    "AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      }
+    },
+    "ZAMBRANA": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      }
+    },
+    "HARO": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      }
+    },
+    "CENICERO": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      }
+    },
+    "FUENMAYOR": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      }
+    },
+    "LOGROÑO": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      }
+    },
+    "RECAJO": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      }
+    },
+    "AGONCILLO": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      }
+    },
+    "CALAHORRA": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      }
+    },
+    "ALFARO": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      }
+    },
+    "TUDELA": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      }
+    },
+    "GALLUR": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      }
+    },
+    "LODOSA": {
+      "entry": {
+        "lat": 42.3670547,
+        "lng": -2.0783341
+      },
+      "exit": {
+        "lat": 42.3715247,
+        "lng": -2.0765549
+      }
+    },
+    "LODOSA-norte": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      }
+    },
+    "BILBAO": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      }
+    },
+    "ARRIGORRIAGA": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      }
+    },
+    "ARRIGORRIAGA-norte": {
+      "exit": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      }
+    },
+    "ARETA": {
+      "entry": {
+        "lat": 43.157672,
+        "lng": -2.9366057
+      },
+      "exit": {
+        "lat": 43.1581271,
+        "lng": -2.9355302
+      }
+    },
+    "LLODIO": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      }
+    },
+    "AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      }
+    },
+    "ALAGÓN pk 272": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      }
+    },
+    "ALAGÓN pk 275": {
+      "entry": {
+        "lat": 41.7790042,
+        "lng": -1.1247593
+      },
+      "exit": {
+        "lat": 41.7790042,
+        "lng": -1.1247593
+      }
+    },
+    "ZARAGOZA": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "AGONCILLO",
+    "ALAGÓN pk 272",
+    "ALAGÓN pk 275",
+    "ALFARO",
+    "ALTUBE",
+    "ARETA",
+    "ARRIGORRIAGA",
+    "AUTOP.BURGOS",
+    "AUTOP.NAVARRA",
+    "BILBAO",
+    "CALAHORRA",
+    "CENICERO",
+    "FUENMAYOR",
+    "GALLUR",
+    "HARO",
+    "LLODIO",
+    "LODOSA",
+    "LOGROÑO",
+    "RECAJO",
+    "SUBIJANA",
+    "TUDELA",
+    "ZAMBRANA",
+    "ZARAGOZA",
+    "ZIORRAGA"
+  ],
+  "probeJourneys": {
+    "BILBAO--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "ARRIGORRIAGA-norte-exit"
+      ]
+    },
+    "ARRIGORRIAGA--BILBAO": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--ARETA": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 43.1581271,
+        "lng": -2.9355302
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "ARETA-exit"
+      ]
+    },
+    "ARETA--BILBAO": {
+      "entry": {
+        "lat": 43.157672,
+        "lng": -2.9366057
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "ARETA-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--LLODIO": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--BILBAO": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--ALTUBE": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--BILBAO": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--SUBIJANA": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--BILBAO": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--BILBAO": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--ZAMBRANA": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--BILBAO": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--HARO": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--BILBAO": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--CENICERO": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--BILBAO": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--FUENMAYOR": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--BILBAO": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--LOGROÑO": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--BILBAO": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--RECAJO": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--BILBAO": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--AGONCILLO": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--BILBAO": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--LODOSA": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--BILBAO": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--CALAHORRA": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--BILBAO": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--ALFARO": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--BILBAO": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--BILBAO": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--TUDELA": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--BILBAO": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--GALLUR": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--BILBAO": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--BILBAO": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "BILBAO--ZARAGOZA": {
+      "entry": {
+        "lat": 43.2350521,
+        "lng": -2.9182002
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "BILBAO-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--BILBAO": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 43.2358335,
+        "lng": -2.9189327
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "BILBAO-exit"
+      ]
+    },
+    "ARRIGORRIAGA--ARETA": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 43.1581271,
+        "lng": -2.9355302
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "ARETA-exit"
+      ]
+    },
+    "ARETA--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 43.157672,
+        "lng": -2.9366057
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "ARETA-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--LLODIO": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--ALTUBE": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--SUBIJANA": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--ZAMBRANA": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--HARO": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--CENICERO": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--FUENMAYOR": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--LOGROÑO": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--RECAJO": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--AGONCILLO": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--LODOSA": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--CALAHORRA": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--ALFARO": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--TUDELA": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--GALLUR": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "ARRIGORRIAGA--ZARAGOZA": {
+      "entry": {
+        "lat": 43.2025465,
+        "lng": -2.894608
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "ARRIGORRIAGA-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--ARRIGORRIAGA": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 43.2010129,
+        "lng": -2.8929534
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "ARRIGORRIAGA-exit"
+      ]
+    },
+    "LLODIO--ALTUBE": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--LLODIO": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--SUBIJANA": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--LLODIO": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--LLODIO": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--ZAMBRANA": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--LLODIO": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--HARO": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--LLODIO": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--CENICERO": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--LLODIO": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--FUENMAYOR": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--LLODIO": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--LOGROÑO": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--LLODIO": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--RECAJO": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--LLODIO": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--AGONCILLO": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--LLODIO": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--LODOSA": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--LLODIO": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--CALAHORRA": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--LLODIO": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--ALFARO": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--LLODIO": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--LLODIO": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--TUDELA": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--LLODIO": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--GALLUR": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--LLODIO": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--LLODIO": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "LLODIO--ZARAGOZA": {
+      "entry": {
+        "lat": 43.1389322,
+        "lng": -2.9383219
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "LLODIO-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--LLODIO": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 43.1389802,
+        "lng": -2.9383823
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "LLODIO-exit"
+      ]
+    },
+    "ZIORRAGA--ALTUBE": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--ZIORRAGA": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--SUBIJANA": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--ZIORRAGA": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--ZIORRAGA": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--ZAMBRANA": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--ZIORRAGA": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--HARO": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--ZIORRAGA": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--CENICERO": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--ZIORRAGA": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--FUENMAYOR": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--ZIORRAGA": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--LOGROÑO": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--ZIORRAGA": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--RECAJO": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--ZIORRAGA": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--AGONCILLO": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--ZIORRAGA": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--LODOSA": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--ZIORRAGA": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--CALAHORRA": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--ZIORRAGA": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--ALFARO": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--ZIORRAGA": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--ZIORRAGA": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--TUDELA": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--ZIORRAGA": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--GALLUR": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--ZIORRAGA": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--ZIORRAGA": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ZIORRAGA--ZARAGOZA": {
+      "entry": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "ZIORRAGA-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--ZIORRAGA": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 43.0160667,
+        "lng": -2.9099819
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "ZIORRAGA-exit"
+      ]
+    },
+    "ALTUBE--SUBIJANA": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--ALTUBE": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--ALTUBE": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--ZAMBRANA": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--ALTUBE": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--HARO": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--ALTUBE": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--CENICERO": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--ALTUBE": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--FUENMAYOR": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--ALTUBE": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--LOGROÑO": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--ALTUBE": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--RECAJO": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--ALTUBE": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--AGONCILLO": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--ALTUBE": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--LODOSA": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--ALTUBE": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--CALAHORRA": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--ALTUBE": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--ALFARO": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--ALTUBE": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--ALTUBE": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--TUDELA": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--ALTUBE": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--GALLUR": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--ALTUBE": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--ALTUBE": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "ALTUBE--ZARAGOZA": {
+      "entry": {
+        "lat": 42.9640683,
+        "lng": -2.8656555
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "ALTUBE-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--ALTUBE": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.9634893,
+        "lng": -2.866069
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "ALTUBE-exit"
+      ]
+    },
+    "SUBIJANA--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--SUBIJANA": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--ZAMBRANA": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--SUBIJANA": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--HARO": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--SUBIJANA": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--CENICERO": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--SUBIJANA": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--FUENMAYOR": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--SUBIJANA": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--LOGROÑO": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--SUBIJANA": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--RECAJO": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--SUBIJANA": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--AGONCILLO": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--SUBIJANA": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--LODOSA": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--SUBIJANA": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--CALAHORRA": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--SUBIJANA": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--ALFARO": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--SUBIJANA": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--SUBIJANA": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--TUDELA": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--SUBIJANA": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--GALLUR": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--SUBIJANA": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--SUBIJANA": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "SUBIJANA--ZARAGOZA": {
+      "entry": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "SUBIJANA-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--SUBIJANA": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.816973,
+        "lng": -2.8930822
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "SUBIJANA-exit"
+      ]
+    },
+    "AUTOP.BURGOS--ZAMBRANA": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--HARO": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--CENICERO": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--FUENMAYOR": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--LOGROÑO": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--RECAJO": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--AGONCILLO": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--LODOSA": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--CALAHORRA": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--ALFARO": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--TUDELA": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--GALLUR": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "AUTOP.BURGOS--ZARAGOZA": {
+      "entry": {
+        "lat": 42.7067535,
+        "lng": -2.9087569
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "AUTOP.BURGOS-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--AUTOP.BURGOS": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.706819,
+        "lng": -2.9089705
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "AUTOP.BURGOS-exit"
+      ]
+    },
+    "ZAMBRANA--HARO": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--ZAMBRANA": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--CENICERO": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--ZAMBRANA": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--FUENMAYOR": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--ZAMBRANA": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--LOGROÑO": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--ZAMBRANA": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--RECAJO": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--ZAMBRANA": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--AGONCILLO": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--ZAMBRANA": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--LODOSA": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--ZAMBRANA": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--CALAHORRA": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--ZAMBRANA": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--ALFARO": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--ZAMBRANA": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--ZAMBRANA": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--TUDELA": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--ZAMBRANA": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--GALLUR": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--ZAMBRANA": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--ZAMBRANA": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "ZAMBRANA--ZARAGOZA": {
+      "entry": {
+        "lat": 42.6719865,
+        "lng": -2.8866575
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "ZAMBRANA-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--ZAMBRANA": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.6720855,
+        "lng": -2.8869358
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "ZAMBRANA-exit"
+      ]
+    },
+    "HARO--CENICERO": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--HARO": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--FUENMAYOR": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--HARO": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--LOGROÑO": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--HARO": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--RECAJO": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--HARO": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--AGONCILLO": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--HARO": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--LODOSA": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--HARO": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--CALAHORRA": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--HARO": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--ALFARO": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--HARO": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--HARO": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--TUDELA": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--HARO": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--GALLUR": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--HARO": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--HARO": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "HARO-exit"
+      ]
+    },
+    "HARO--ZARAGOZA": {
+      "entry": {
+        "lat": 42.5622441,
+        "lng": -2.8770188
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "HARO-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--HARO": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.5623152,
+        "lng": -2.8770356
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "HARO-exit"
+      ]
+    },
+    "CENICERO--FUENMAYOR": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--CENICERO": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--LOGROÑO": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--CENICERO": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--RECAJO": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--CENICERO": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--AGONCILLO": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--CENICERO": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--LODOSA": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--CENICERO": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--CALAHORRA": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--CENICERO": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--ALFARO": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--CENICERO": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--CENICERO": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--TUDELA": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--CENICERO": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--GALLUR": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--CENICERO": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--CENICERO": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "CENICERO--ZARAGOZA": {
+      "entry": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "CENICERO-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--CENICERO": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.4704321,
+        "lng": -2.6412206
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "CENICERO-exit"
+      ]
+    },
+    "FUENMAYOR--LOGROÑO": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--FUENMAYOR": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--RECAJO": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--FUENMAYOR": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--AGONCILLO": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--FUENMAYOR": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--LODOSA": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--FUENMAYOR": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--CALAHORRA": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--FUENMAYOR": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--ALFARO": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--FUENMAYOR": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--FUENMAYOR": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--TUDELA": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--FUENMAYOR": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--GALLUR": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--FUENMAYOR": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--FUENMAYOR": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "FUENMAYOR--ZARAGOZA": {
+      "entry": {
+        "lat": 42.4463788,
+        "lng": -2.5670109
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "FUENMAYOR-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--FUENMAYOR": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.4464245,
+        "lng": -2.5669503
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "FUENMAYOR-exit"
+      ]
+    },
+    "LOGROÑO--RECAJO": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--LOGROÑO": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--AGONCILLO": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--LOGROÑO": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--LODOSA": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--LOGROÑO": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--CALAHORRA": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--LOGROÑO": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--ALFARO": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--LOGROÑO": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--LOGROÑO": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--TUDELA": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--LOGROÑO": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--GALLUR": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--LOGROÑO": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--LOGROÑO": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "LOGROÑO--ZARAGOZA": {
+      "entry": {
+        "lat": 42.4364524,
+        "lng": -2.4607198
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "LOGROÑO-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--LOGROÑO": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.4364524,
+        "lng": -2.4606449
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "LOGROÑO-exit"
+      ]
+    },
+    "RECAJO--AGONCILLO": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--RECAJO": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--LODOSA": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--RECAJO": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--CALAHORRA": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--RECAJO": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--ALFARO": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--RECAJO": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--RECAJO": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--TUDELA": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--RECAJO": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--GALLUR": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--RECAJO": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--RECAJO": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "RECAJO--ZARAGOZA": {
+      "entry": {
+        "lat": 42.4491628,
+        "lng": -2.3486853
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "RECAJO-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--RECAJO": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.4492318,
+        "lng": -2.3486388
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "RECAJO-exit"
+      ]
+    },
+    "AGONCILLO--LODOSA": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.367396,
+        "lng": -2.0787995
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "LODOSA-norte-exit"
+      ]
+    },
+    "LODOSA--AGONCILLO": {
+      "entry": {
+        "lat": 42.3723637,
+        "lng": -2.0759614
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "LODOSA-norte-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--CALAHORRA": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--AGONCILLO": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--ALFARO": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--AGONCILLO": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--AGONCILLO": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--TUDELA": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--AGONCILLO": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--GALLUR": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--AGONCILLO": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--AGONCILLO": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "AGONCILLO--ZARAGOZA": {
+      "entry": {
+        "lat": 42.4364909,
+        "lng": -2.2875374
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "AGONCILLO-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--AGONCILLO": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.4360119,
+        "lng": -2.2873427
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "AGONCILLO-exit"
+      ]
+    },
+    "LODOSA--CALAHORRA": {
+      "entry": {
+        "lat": 42.3670547,
+        "lng": -2.0783341
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "LODOSA-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--LODOSA": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.3715247,
+        "lng": -2.0765549
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "LODOSA-exit"
+      ]
+    },
+    "LODOSA--ALFARO": {
+      "entry": {
+        "lat": 42.3670547,
+        "lng": -2.0783341
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "LODOSA-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--LODOSA": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.3715247,
+        "lng": -2.0765549
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "LODOSA-exit"
+      ]
+    },
+    "LODOSA--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.3670547,
+        "lng": -2.0783341
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "LODOSA-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--LODOSA": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.3715247,
+        "lng": -2.0765549
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "LODOSA-exit"
+      ]
+    },
+    "LODOSA--TUDELA": {
+      "entry": {
+        "lat": 42.3670547,
+        "lng": -2.0783341
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "LODOSA-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--LODOSA": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.3715247,
+        "lng": -2.0765549
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "LODOSA-exit"
+      ]
+    },
+    "LODOSA--GALLUR": {
+      "entry": {
+        "lat": 42.3670547,
+        "lng": -2.0783341
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "LODOSA-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--LODOSA": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.3715247,
+        "lng": -2.0765549
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "LODOSA-exit"
+      ]
+    },
+    "LODOSA--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.3670547,
+        "lng": -2.0783341
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "LODOSA-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--LODOSA": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.3715247,
+        "lng": -2.0765549
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "LODOSA-exit"
+      ]
+    },
+    "LODOSA--ZARAGOZA": {
+      "entry": {
+        "lat": 42.3670547,
+        "lng": -2.0783341
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "LODOSA-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--LODOSA": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.3715247,
+        "lng": -2.0765549
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "LODOSA-exit"
+      ]
+    },
+    "CALAHORRA--ALFARO": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--CALAHORRA": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--CALAHORRA": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--TUDELA": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--CALAHORRA": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--GALLUR": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--CALAHORRA": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--CALAHORRA": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "CALAHORRA--ZARAGOZA": {
+      "entry": {
+        "lat": 42.3022768,
+        "lng": -1.9824195
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "CALAHORRA-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--CALAHORRA": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.3022032,
+        "lng": -1.9826496
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "CALAHORRA-exit"
+      ]
+    },
+    "ALFARO--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--ALFARO": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--TUDELA": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--ALFARO": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--GALLUR": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--ALFARO": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--ALFARO": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "ALFARO--ZARAGOZA": {
+      "entry": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "ALFARO-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--ALFARO": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.1388116,
+        "lng": -1.7718548
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "ALFARO-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--TUDELA": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--GALLUR": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "AUTOP.NAVARRA--ZARAGOZA": {
+      "entry": {
+        "lat": 42.1103244,
+        "lng": -1.713199
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "AUTOP.NAVARRA-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--AUTOP.NAVARRA": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.1102368,
+        "lng": -1.7129719
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "AUTOP.NAVARRA-exit"
+      ]
+    },
+    "TUDELA--GALLUR": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--TUDELA": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--TUDELA": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "TUDELA--ZARAGOZA": {
+      "entry": {
+        "lat": 42.0335073,
+        "lng": -1.6346073
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "TUDELA-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--TUDELA": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 42.0347979,
+        "lng": -1.6328464
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "TUDELA-exit"
+      ]
+    },
+    "GALLUR--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 272--GALLUR": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "GALLUR--ZARAGOZA": {
+      "entry": {
+        "lat": 41.8505805,
+        "lng": -1.3799533
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "GALLUR-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--GALLUR": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 41.8510325,
+        "lng": -1.3797141
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "GALLUR-exit"
+      ]
+    },
+    "ALAGÓN pk 272--ZARAGOZA": {
+      "entry": {
+        "lat": 41.7721542,
+        "lng": -1.1432161
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "ALAGÓN pk 272-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--ALAGÓN pk 272": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 41.772125,
+        "lng": -1.1433139
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "ALAGÓN pk 272-exit"
+      ]
+    },
+    "ALAGÓN pk 275--ZARAGOZA": {
+      "entry": {
+        "lat": 41.7790042,
+        "lng": -1.1247593
+      },
+      "exit": {
+        "lat": 41.7736067,
+        "lng": -1.1108655
+      },
+      "expectedGates": [
+        "ALAGÓN pk 275-entry",
+        "ZARAGOZA-exit"
+      ]
+    },
+    "ZARAGOZA--ALAGÓN pk 275": {
+      "entry": {
+        "lat": 41.7765004,
+        "lng": -1.1180083
+      },
+      "exit": {
+        "lat": 41.7790042,
+        "lng": -1.1247593
+      },
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "ALAGÓN pk 275-exit"
+      ]
+    }
+  },
+  "probeAnnotations": {
+    "ZARAGOZA--ALAGÓN pk 272": {
+      "observedJourneys": [
+        {
+          "from": "ZARAGOZA",
+          "to": "GALLUR",
+          "cents": 615
+        },
+        {
+          "from": "GALLUR",
+          "to": "ALAGÓN pk 272",
+          "cents": 350
+        }
+      ],
+      "expectedActualCents": 965,
+      "expectedGates": [
+        "ZARAGOZA-entry",
+        "GALLUR-exit",
+        "GALLUR-entry",
+        "ALAGÓN pk 272-exit"
+      ],
+      "notes": "Committed one-way destination creates separate charged journeys. This is not validation of the requested direct fare; public arrival is checked separately."
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

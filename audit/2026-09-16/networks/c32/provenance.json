@@ -1,0 +1,149 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-c32-vallcarca",
+      "reviewGroup": "osm-review-279743006",
+      "booths": [
+        279743006,
+        279746493,
+        2711225199,
+        2711225210,
+        2711225221,
+        2711225232,
+        2711225243,
+        2711225253,
+        2711225261,
+        2711225274,
+        2711225287,
+        2711225310,
+        2711225322,
+        2711225355,
+        2711225363,
+        2711225371,
+        2711225382,
+        2711225392,
+        2711225400,
+        2711225409
+      ],
+      "laneWays": [
+        265459408,
+        265459409,
+        265459417,
+        265459418,
+        265459419,
+        265459420,
+        265459421,
+        265459422,
+        265459424,
+        265459425,
+        265459427,
+        265459430,
+        265459431,
+        265459433,
+        265459434,
+        265459436,
+        265459440,
+        265459441,
+        265459445,
+        265459449,
+        265459454
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings.",
+      "additionalPaidLanes": [
+        {
+          "way": 265459454,
+          "version": 9,
+          "sourceNode": 12766694619,
+          "review": "valhalla-mismatch.json"
+        }
+      ]
+    },
+    {
+      "network": "es-c32-cubelles-acceso",
+      "reviewGroup": "osm-review-332289114",
+      "booths": [
+        332289114,
+        976032374,
+        9581735196,
+        9581735197,
+        9581735198,
+        9581735199
+      ],
+      "laneWays": [
+        34125936,
+        966556934,
+        1040667129,
+        1040667130,
+        1040667131,
+        1040667132
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-c32-calafell-acceso",
+      "reviewGroup": "osm-review-981187977",
+      "booths": [
+        981187977,
+        981188045
+      ],
+      "laneWays": [
+        885658161,
+        885658163
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-c32-cubelles-troncal",
+      "reviewGroup": "osm-review-1489211488",
+      "booths": [
+        1489211488,
+        1489211494,
+        2206702955,
+        2206702980,
+        2206702996,
+        2206703043,
+        2206703081,
+        2206703095,
+        2206703132,
+        2206703146,
+        2206703167,
+        2206703206,
+        2206703222,
+        2206703237,
+        2206703254,
+        2206703267,
+        2206703285,
+        2206703290,
+        2206703306,
+        9581659879
+      ],
+      "laneWays": [
+        210591896,
+        210591900,
+        210591902,
+        210591913,
+        210591915,
+        210591917,
+        210591918,
+        210591919,
+        210591923,
+        210591930,
+        210591932,
+        210591937,
+        210591940,
+        210591943,
+        210591944,
+        210591947,
+        431972425,
+        431972427,
+        1040661695,
+        1040661696,
+        1040661697
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 556,
+  "reviewStatus": "candidate_pending_routes"
+}

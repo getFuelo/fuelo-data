@@ -1,0 +1,29 @@
+{
+  "checked": "2026-09-16",
+  "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r2_2026.pdf",
+  "systemReference": "https://publicaciones.transportes.gob.es/downloadcustom/sample/1345",
+  "scope": "General independent open-barrier fees plus closed Ajalvir\u2013Taracena OD fare. Inference from mapped crossings and published open-system tariffs; not a receipt/official calculator response.",
+  "correction": "Aeropuerto/M-40 journeys cross both urban plazas, not one. Alcobendas-only journeys cross one. M-50 itself adds no charge.",
+  "initialAssumptions": [
+    {
+      "file": "alcobendas-west-request.json",
+      "initialGeneralAssumption": 580,
+      "initialViaTAssumption": 515
+    },
+    {
+      "file": "aeropuerto-west-request.json",
+      "initialGeneralAssumption": 580,
+      "initialViaTAssumption": 515
+    },
+    {
+      "file": "alcobendas-east-request.json",
+      "initialGeneralAssumption": 580,
+      "initialViaTAssumption": 515
+    },
+    {
+      "file": "aeropuerto-east-request.json",
+      "initialGeneralAssumption": 580,
+      "initialViaTAssumption": 515
+    }
+  ]
+}

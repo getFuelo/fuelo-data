@@ -1,0 +1,1526 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r4_2026_0.pdf",
+  "sha256": "3774fdcd2bb02a8d4b6e01b88af2223209d71f4576bce1beefa15558278c75e8",
+  "publishedAccesses": [
+    "M-50",
+    "Pinto-Parla",
+    "Valdemoro",
+    "Seseña",
+    "Villaseca Sagra (CM-4001)",
+    "Aranjuez",
+    "Ontígola",
+    "Ocaña / A-40"
+  ],
+  "ods": [
+    {
+      "from": "M-50",
+      "to": "Pinto-Parla",
+      "tariff": {
+        "baseCents": 60,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 2,
+        "printedRow": "M-50",
+        "viaTBox": [
+          252.14,
+          149.33,
+          263.404,
+          155.69
+        ],
+        "generalBox": [
+          289.85,
+          149.33,
+          301.114,
+          155.69
+        ]
+      }
+    },
+    {
+      "from": "M-50",
+      "to": "Valdemoro",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 3,
+        "printedRow": "M-50",
+        "viaTBox": [
+          327.53,
+          149.33,
+          338.794,
+          155.69
+        ],
+        "generalBox": [
+          367.49,
+          149.33,
+          378.754,
+          155.69
+        ]
+      }
+    },
+    {
+      "from": "M-50",
+      "to": "Seseña",
+      "tariff": {
+        "baseCents": 255,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 4,
+        "printedRow": "M-50",
+        "viaTBox": [
+          407.57,
+          149.33,
+          418.834,
+          155.69
+        ],
+        "generalBox": [
+          447.55,
+          149.33,
+          458.814,
+          155.69
+        ]
+      }
+    },
+    {
+      "from": "M-50",
+      "to": "Villaseca Sagra (CM-4001)",
+      "tariff": {
+        "baseCents": 335,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 300,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 5,
+        "printedRow": "M-50",
+        "viaTBox": [
+          487.63,
+          149.33,
+          498.894,
+          155.69
+        ],
+        "generalBox": [
+          527.59,
+          149.33,
+          538.854,
+          155.69
+        ]
+      }
+    },
+    {
+      "from": "M-50",
+      "to": "Aranjuez",
+      "tariff": {
+        "baseCents": 365,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 330,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 6,
+        "printedRow": "M-50",
+        "viaTBox": [
+          567.67,
+          149.33,
+          578.934,
+          155.69
+        ],
+        "generalBox": [
+          605.35,
+          149.33,
+          616.614,
+          155.69
+        ]
+      }
+    },
+    {
+      "from": "M-50",
+      "to": "Ocaña / A-40",
+      "tariff": {
+        "baseCents": 615,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 550,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 8,
+        "printedRow": "M-50",
+        "viaTBox": [
+          723.1,
+          149.33,
+          734.364,
+          155.69
+        ],
+        "generalBox": [
+          763.06,
+          149.33,
+          774.324,
+          155.69
+        ]
+      }
+    },
+    {
+      "from": "Pinto-Parla",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 60,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 1,
+        "printedRow": "Pinto-Parla",
+        "viaTBox": [
+          172.1,
+          158.81,
+          183.364,
+          165.17
+        ],
+        "generalBox": [
+          212.06,
+          158.81,
+          223.324,
+          165.17
+        ]
+      }
+    },
+    {
+      "from": "Pinto-Parla",
+      "to": "Valdemoro",
+      "tariff": {
+        "baseCents": 60,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 3,
+        "printedRow": "Pinto-Parla",
+        "viaTBox": [
+          327.53,
+          158.81,
+          338.794,
+          165.17
+        ],
+        "generalBox": [
+          367.49,
+          158.81,
+          378.754,
+          165.17
+        ]
+      }
+    },
+    {
+      "from": "Pinto-Parla",
+      "to": "Seseña",
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 160,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 4,
+        "printedRow": "Pinto-Parla",
+        "viaTBox": [
+          407.57,
+          158.81,
+          418.834,
+          165.17
+        ],
+        "generalBox": [
+          447.55,
+          158.81,
+          458.814,
+          165.17
+        ]
+      }
+    },
+    {
+      "from": "Pinto-Parla",
+      "to": "Villaseca Sagra (CM-4001)",
+      "tariff": {
+        "baseCents": 255,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 5,
+        "printedRow": "Pinto-Parla",
+        "viaTBox": [
+          487.63,
+          158.81,
+          498.894,
+          165.17
+        ],
+        "generalBox": [
+          527.59,
+          158.81,
+          538.854,
+          165.17
+        ]
+      }
+    },
+    {
+      "from": "Pinto-Parla",
+      "to": "Aranjuez",
+      "tariff": {
+        "baseCents": 285,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 260,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 6,
+        "printedRow": "Pinto-Parla",
+        "viaTBox": [
+          567.67,
+          158.81,
+          578.934,
+          165.17
+        ],
+        "generalBox": [
+          605.35,
+          158.81,
+          616.614,
+          165.17
+        ]
+      }
+    },
+    {
+      "from": "Pinto-Parla",
+      "to": "Ocaña / A-40",
+      "tariff": {
+        "baseCents": 535,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 480,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 8,
+        "printedRow": "Pinto-Parla",
+        "viaTBox": [
+          723.1,
+          158.81,
+          734.364,
+          165.17
+        ],
+        "generalBox": [
+          763.06,
+          158.81,
+          774.324,
+          165.17
+        ]
+      }
+    },
+    {
+      "from": "Valdemoro",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 1,
+        "printedRow": "Valdemoro",
+        "viaTBox": [
+          172.1,
+          168.29,
+          183.364,
+          174.65
+        ],
+        "generalBox": [
+          212.06,
+          168.29,
+          223.324,
+          174.65
+        ]
+      }
+    },
+    {
+      "from": "Valdemoro",
+      "to": "Pinto-Parla",
+      "tariff": {
+        "baseCents": 60,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 2,
+        "printedRow": "Valdemoro",
+        "viaTBox": [
+          252.14,
+          168.29,
+          263.404,
+          174.65
+        ],
+        "generalBox": [
+          289.85,
+          168.29,
+          301.114,
+          174.65
+        ]
+      }
+    },
+    {
+      "from": "Valdemoro",
+      "to": "Seseña",
+      "tariff": {
+        "baseCents": 115,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 105,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 4,
+        "printedRow": "Valdemoro",
+        "viaTBox": [
+          407.57,
+          168.29,
+          418.834,
+          174.65
+        ],
+        "generalBox": [
+          447.55,
+          168.29,
+          458.814,
+          174.65
+        ]
+      }
+    },
+    {
+      "from": "Valdemoro",
+      "to": "Villaseca Sagra (CM-4001)",
+      "tariff": {
+        "baseCents": 195,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 175,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 5,
+        "printedRow": "Valdemoro",
+        "viaTBox": [
+          487.63,
+          168.29,
+          498.894,
+          174.65
+        ],
+        "generalBox": [
+          527.59,
+          168.29,
+          538.854,
+          174.65
+        ]
+      }
+    },
+    {
+      "from": "Valdemoro",
+      "to": "Aranjuez",
+      "tariff": {
+        "baseCents": 225,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 6,
+        "printedRow": "Valdemoro",
+        "viaTBox": [
+          567.67,
+          168.29,
+          578.934,
+          174.65
+        ],
+        "generalBox": [
+          605.35,
+          168.29,
+          616.614,
+          174.65
+        ]
+      }
+    },
+    {
+      "from": "Valdemoro",
+      "to": "Ocaña / A-40",
+      "tariff": {
+        "baseCents": 475,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 425,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 8,
+        "printedRow": "Valdemoro",
+        "viaTBox": [
+          723.1,
+          168.29,
+          734.364,
+          174.65
+        ],
+        "generalBox": [
+          763.06,
+          168.29,
+          774.324,
+          174.65
+        ]
+      }
+    },
+    {
+      "from": "Seseña",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 255,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 1,
+        "printedRow": "Seseña",
+        "viaTBox": [
+          172.1,
+          177.77,
+          183.364,
+          184.13
+        ],
+        "generalBox": [
+          212.06,
+          177.77,
+          223.324,
+          184.13
+        ]
+      }
+    },
+    {
+      "from": "Seseña",
+      "to": "Pinto-Parla",
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 160,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 2,
+        "printedRow": "Seseña",
+        "viaTBox": [
+          252.14,
+          177.77,
+          263.404,
+          184.13
+        ],
+        "generalBox": [
+          289.85,
+          177.77,
+          301.114,
+          184.13
+        ]
+      }
+    },
+    {
+      "from": "Seseña",
+      "to": "Valdemoro",
+      "tariff": {
+        "baseCents": 115,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 105,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 3,
+        "printedRow": "Seseña",
+        "viaTBox": [
+          327.53,
+          177.77,
+          338.794,
+          184.13
+        ],
+        "generalBox": [
+          367.49,
+          177.77,
+          378.754,
+          184.13
+        ]
+      }
+    },
+    {
+      "from": "Villaseca Sagra (CM-4001)",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 335,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 300,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 1,
+        "printedRow": "Villaseca Sagra (CM 4001)",
+        "viaTBox": [
+          172.1,
+          187.28,
+          183.364,
+          193.64
+        ],
+        "generalBox": [
+          212.06,
+          187.28,
+          223.324,
+          193.64
+        ]
+      }
+    },
+    {
+      "from": "Villaseca Sagra (CM-4001)",
+      "to": "Pinto-Parla",
+      "tariff": {
+        "baseCents": 255,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 2,
+        "printedRow": "Villaseca Sagra (CM 4001)",
+        "viaTBox": [
+          252.14,
+          187.28,
+          263.404,
+          193.64
+        ],
+        "generalBox": [
+          289.85,
+          187.28,
+          301.114,
+          193.64
+        ]
+      }
+    },
+    {
+      "from": "Villaseca Sagra (CM-4001)",
+      "to": "Valdemoro",
+      "tariff": {
+        "baseCents": 195,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 175,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 3,
+        "printedRow": "Villaseca Sagra (CM 4001)",
+        "viaTBox": [
+          327.53,
+          187.28,
+          338.794,
+          193.64
+        ],
+        "generalBox": [
+          367.49,
+          187.28,
+          378.754,
+          193.64
+        ]
+      }
+    },
+    {
+      "from": "Aranjuez",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 365,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 330,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 1,
+        "printedRow": "Aranjuez",
+        "viaTBox": [
+          172.1,
+          196.76,
+          183.364,
+          203.12
+        ],
+        "generalBox": [
+          212.06,
+          196.76,
+          223.324,
+          203.12
+        ]
+      }
+    },
+    {
+      "from": "Aranjuez",
+      "to": "Pinto-Parla",
+      "tariff": {
+        "baseCents": 285,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 260,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 2,
+        "printedRow": "Aranjuez",
+        "viaTBox": [
+          252.14,
+          196.76,
+          263.404,
+          203.12
+        ],
+        "generalBox": [
+          289.85,
+          196.76,
+          301.114,
+          203.12
+        ]
+      }
+    },
+    {
+      "from": "Aranjuez",
+      "to": "Valdemoro",
+      "tariff": {
+        "baseCents": 225,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 3,
+        "printedRow": "Aranjuez",
+        "viaTBox": [
+          327.53,
+          196.76,
+          338.794,
+          203.12
+        ],
+        "generalBox": [
+          367.49,
+          196.76,
+          378.754,
+          203.12
+        ]
+      }
+    },
+    {
+      "from": "Aranjuez",
+      "to": "Ocaña / A-40",
+      "tariff": {
+        "baseCents": 225,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 8,
+        "printedRow": "Aranjuez",
+        "viaTBox": [
+          723.1,
+          196.76,
+          734.364,
+          203.12
+        ],
+        "generalBox": [
+          763.06,
+          196.76,
+          774.324,
+          203.12
+        ]
+      }
+    },
+    {
+      "from": "Ontígola",
+      "to": "Ocaña / A-40",
+      "tariff": {
+        "baseCents": 180,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 160,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 8,
+        "printedRow": "Ontígola",
+        "viaTBox": [
+          723.1,
+          206.24,
+          734.364,
+          212.6
+        ],
+        "generalBox": [
+          763.06,
+          206.24,
+          774.324,
+          212.6
+        ]
+      }
+    },
+    {
+      "from": "Ocaña / A-40",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 615,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 550,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 1,
+        "printedRow": "Ocaña / A-40",
+        "viaTBox": [
+          172.1,
+          215.72,
+          183.364,
+          222.08
+        ],
+        "generalBox": [
+          212.06,
+          215.72,
+          223.324,
+          222.08
+        ]
+      }
+    },
+    {
+      "from": "Ocaña / A-40",
+      "to": "Pinto-Parla",
+      "tariff": {
+        "baseCents": 535,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 480,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 2,
+        "printedRow": "Ocaña / A-40",
+        "viaTBox": [
+          252.14,
+          215.72,
+          263.404,
+          222.08
+        ],
+        "generalBox": [
+          289.85,
+          215.72,
+          301.114,
+          222.08
+        ]
+      }
+    },
+    {
+      "from": "Ocaña / A-40",
+      "to": "Valdemoro",
+      "tariff": {
+        "baseCents": 475,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 425,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 3,
+        "printedRow": "Ocaña / A-40",
+        "viaTBox": [
+          327.53,
+          215.72,
+          338.794,
+          222.08
+        ],
+        "generalBox": [
+          367.49,
+          215.72,
+          378.754,
+          222.08
+        ]
+      }
+    },
+    {
+      "from": "Ocaña / A-40",
+      "to": "Aranjuez",
+      "tariff": {
+        "baseCents": 225,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 6,
+        "printedRow": "Ocaña / A-40",
+        "viaTBox": [
+          567.67,
+          215.72,
+          578.934,
+          222.08
+        ],
+        "generalBox": [
+          605.35,
+          215.72,
+          616.614,
+          222.08
+        ]
+      }
+    },
+    {
+      "from": "Ocaña / A-40",
+      "to": "Ontígola",
+      "tariff": {
+        "baseCents": 180,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 160,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 7,
+        "printedRow": "Ocaña / A-40",
+        "viaTBox": [
+          643.06,
+          215.72,
+          654.324,
+          222.08
+        ],
+        "generalBox": [
+          683.02,
+          215.72,
+          694.284,
+          222.08
+        ]
+      }
+    }
+  ],
+  "barriers": [],
+  "notes": [
+    "Only explicitly printed light-vehicle cells imported. Blank/dash cells remain unavailable, never zero.",
+    "Physical entry/exit mapping and route validation still required.",
+    "R-2 Aeropuerto/Alcobendas diagonal cells are independent barriers, not same-entry/exit OD fares."
+  ]
+}

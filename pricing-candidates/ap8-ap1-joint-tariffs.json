@@ -1,0 +1,2177 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.arabat.eus/es/ap-1/tarifas-ap-1/",
+  "sha256": "800a0e4ebed227d795d0add33a1c176a4d74eaeaba728b1f1e5fb28e0e40b94c",
+  "notes": [
+    "Published general light-vehicle rows only. Geographic mapping and route verification are separate.",
+    "Blank/dash cells are not zero; no unverified enrollment/recurrence discounts."
+  ],
+  "ods": [
+    {
+      "from": "Acceso Oeste",
+      "to": "Amorebieta-Etxano",
+      "tariff": {
+        "baseCents": 105,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 3,
+        "printed": "1.05"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Iurreta",
+      "tariff": {
+        "baseCents": 280,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 4,
+        "printed": "2.8"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Abadiño",
+      "tariff": {
+        "baseCents": 330,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 5,
+        "printed": "3.3"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Ermua",
+      "tariff": {
+        "baseCents": 460,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 6,
+        "printed": "4.6"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Muga Bizkaia-Gipuzkoa",
+      "tariff": {
+        "baseCents": 593,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 7,
+        "printed": "5.93"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 666,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 8,
+        "printed": "6.66"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 666,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 9,
+        "printed": "6.66"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 823,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 10,
+        "printed": "8.23"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 901,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 11,
+        "printed": "9.01"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 966,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 12,
+        "printed": "9.66"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 1131,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 13,
+        "printed": "11.31"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 1359,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 14,
+        "printed": "13.59"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 1514,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 15,
+        "printed": "15.14"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1639,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 16,
+        "printed": "16.39"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 756,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 17,
+        "printed": "7.56"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 884,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 18,
+        "printed": "8.84"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 974,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 19,
+        "printed": "9.74"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 1112,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 20,
+        "printed": "11.12"
+      }
+    },
+    {
+      "from": "Acceso Oeste",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1381,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 2,
+        "column": 21,
+        "printed": "13.81"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Abadiño",
+      "tariff": {
+        "baseCents": 0,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 5,
+        "printed": "0"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Ermua",
+      "tariff": {
+        "baseCents": 175,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 6,
+        "printed": "1.75"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Muga Bizkaia-Gipuzkoa",
+      "tariff": {
+        "baseCents": 224,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 7,
+        "printed": "2.24"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 297,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 8,
+        "printed": "2.97"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 297,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 9,
+        "printed": "2.97"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 454,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 10,
+        "printed": "4.54"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 532,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 11,
+        "printed": "5.32"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 597,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 12,
+        "printed": "5.97"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 762,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 13,
+        "printed": "7.62"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 990,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 14,
+        "printed": "9.9"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 1145,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 15,
+        "printed": "11.45"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1270,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 16,
+        "printed": "12.7"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 387,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 17,
+        "printed": "3.87"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 515,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 18,
+        "printed": "5.15"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 605,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 19,
+        "printed": "6.05"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 743,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 20,
+        "printed": "7.43"
+      }
+    },
+    {
+      "from": "Iurreta",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1012,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 5,
+        "column": 21,
+        "printed": "10.12"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Ermua",
+      "tariff": {
+        "baseCents": 125,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 6,
+        "printed": "1.25"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Muga Bizkaia-Gipuzkoa",
+      "tariff": {
+        "baseCents": 171,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 7,
+        "printed": "1.71"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 244,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 8,
+        "printed": "2.44"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 244,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 9,
+        "printed": "2.44"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 401,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 10,
+        "printed": "4.01"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 479,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 11,
+        "printed": "4.79"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 544,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 12,
+        "printed": "5.44"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 709,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 13,
+        "printed": "7.09"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 937,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 14,
+        "printed": "9.37"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 1092,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 15,
+        "printed": "10.92"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1217,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 16,
+        "printed": "12.17"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 334,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 17,
+        "printed": "3.34"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 462,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 18,
+        "printed": "4.62"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 552,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 19,
+        "printed": "5.52"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 690,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 20,
+        "printed": "6.9"
+      }
+    },
+    {
+      "from": "Abadiño",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 959,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 8,
+        "column": 21,
+        "printed": "9.59"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Muga Bizkaia-Gipuzkoa",
+      "tariff": {
+        "baseCents": 49,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 7,
+        "printed": "0.49"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 122,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 8,
+        "printed": "1.22"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 122,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 9,
+        "printed": "1.22"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 279,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 10,
+        "printed": "2.79"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 357,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 11,
+        "printed": "3.57"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 422,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 12,
+        "printed": "4.22"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 587,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 13,
+        "printed": "5.87"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 815,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 14,
+        "printed": "8.15"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 970,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 15,
+        "printed": "9.7"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1095,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 16,
+        "printed": "10.95"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 212,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 17,
+        "printed": "2.12"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 340,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 18,
+        "printed": "3.4"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 430,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 19,
+        "printed": "4.3"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 568,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 20,
+        "printed": "5.68"
+      }
+    },
+    {
+      "from": "Ermua",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 837,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 11,
+        "column": 21,
+        "printed": "8.37"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Eibar",
+      "tariff": {
+        "baseCents": 73,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 8,
+        "printed": "0.73"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 73,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 9,
+        "printed": "0.73"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 230,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 10,
+        "printed": "2.3"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 308,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 11,
+        "printed": "3.08"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 373,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 12,
+        "printed": "3.73"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 538,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 13,
+        "printed": "5.38"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 766,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 14,
+        "printed": "7.66"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 921,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 15,
+        "printed": "9.21"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1046,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 16,
+        "printed": "10.46"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 163,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 17,
+        "printed": "1.63"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 291,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 18,
+        "printed": "2.91"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 381,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 19,
+        "printed": "3.81"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 519,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 20,
+        "printed": "5.19"
+      }
+    },
+    {
+      "from": "Muga Bizkaia-Gipuzkoa",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 788,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 14,
+        "column": 21,
+        "printed": "7.88"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Maltzaga",
+      "tariff": {
+        "baseCents": 31,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 9,
+        "printed": "0.31"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 188,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 10,
+        "printed": "1.88"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 266,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 11,
+        "printed": "2.66"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 331,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 12,
+        "printed": "3.31"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 496,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 13,
+        "printed": "4.96"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 724,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 14,
+        "printed": "7.24"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 879,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 15,
+        "printed": "8.79"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 1004,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 16,
+        "printed": "10.04"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 117,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 17,
+        "printed": "1.17"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 247,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 18,
+        "printed": "2.47"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 327,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 19,
+        "printed": "3.27"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 475,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 20,
+        "printed": "4.75"
+      }
+    },
+    {
+      "from": "Eibar",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 743,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 17,
+        "column": 21,
+        "printed": "7.43"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Bergara I/N",
+      "tariff": {
+        "baseCents": 157,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 10,
+        "printed": "1.57"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 235,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 11,
+        "printed": "2.35"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Arrasate-Mondragón",
+      "tariff": {
+        "baseCents": 300,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 12,
+        "printed": "3"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 465,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 13,
+        "printed": "4.65"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 693,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 14,
+        "printed": "6.93"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 848,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 15,
+        "printed": "8.48"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 973,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 16,
+        "printed": "9.73"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 101,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 17,
+        "printed": "1.01"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 228,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 18,
+        "printed": "2.28"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 300,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 19,
+        "printed": "3"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 456,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 20,
+        "printed": "4.56"
+      }
+    },
+    {
+      "from": "Maltzaga",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 714,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 20,
+        "column": 21,
+        "printed": "7.14"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Bergara H/S",
+      "tariff": {
+        "baseCents": 89,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 11,
+        "printed": "0.89"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 171,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 13,
+        "printed": "1.71"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 399,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 14,
+        "printed": "3.99"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 554,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 15,
+        "printed": "5.54"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 679,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 16,
+        "printed": "6.79"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 401,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 17,
+        "printed": "4.01"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 528,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 18,
+        "printed": "5.28"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 600,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 19,
+        "printed": "6"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 756,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 20,
+        "printed": "7.56"
+      }
+    },
+    {
+      "from": "Arrasate-Mondragón",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1014,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 23,
+        "column": 21,
+        "printed": "10.14"
+      }
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Eskoriatza",
+      "tariff": {
+        "baseCents": 245,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 13,
+        "printed": "2.45"
+      }
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 476,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 14,
+        "printed": "4.76"
+      }
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 631,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 15,
+        "printed": "6.31"
+      }
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 756,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 16,
+        "printed": "7.56"
+      }
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 336,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 17,
+        "printed": "3.36"
+      }
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 463,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 18,
+        "printed": "4.63"
+      }
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 535,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 19,
+        "printed": "5.35"
+      }
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 691,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 20,
+        "printed": "6.91"
+      }
+    },
+    {
+      "from": "Bergara H/S",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 949,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 26,
+        "column": 21,
+        "printed": "9.49"
+      }
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Muga Gipuzkoa-Araba",
+      "tariff": {
+        "baseCents": 242,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 14,
+        "printed": "2.42"
+      }
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 397,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 15,
+        "printed": "3.97"
+      }
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 522,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 16,
+        "printed": "5.22"
+      }
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 566,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 17,
+        "printed": "5.66"
+      }
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 693,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 18,
+        "printed": "6.93"
+      }
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 765,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 19,
+        "printed": "7.65"
+      }
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 921,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 20,
+        "printed": "9.21"
+      }
+    },
+    {
+      "from": "Eskoriatza",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1179,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 29,
+        "column": 21,
+        "printed": "11.79"
+      }
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Luko",
+      "tariff": {
+        "baseCents": 155,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 15,
+        "printed": "1.55"
+      }
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 280,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 16,
+        "printed": "2.8"
+      }
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 794,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 17,
+        "printed": "7.94"
+      }
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 921,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 18,
+        "printed": "9.21"
+      }
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 993,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 19,
+        "printed": "9.93"
+      }
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 1149,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 20,
+        "printed": "11.49"
+      }
+    },
+    {
+      "from": "Muga Gipuzkoa-Araba",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1407,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 32,
+        "column": 21,
+        "printed": "14.07"
+      }
+    },
+    {
+      "from": "Luko",
+      "to": "Etxabarri-Ibiña",
+      "tariff": {
+        "baseCents": 150,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 16,
+        "printed": "1.5"
+      }
+    },
+    {
+      "from": "Luko",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 949,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 17,
+        "printed": "9.49"
+      }
+    },
+    {
+      "from": "Luko",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 1076,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 18,
+        "printed": "10.76"
+      }
+    },
+    {
+      "from": "Luko",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 1148,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 19,
+        "printed": "11.48"
+      }
+    },
+    {
+      "from": "Luko",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 1304,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 20,
+        "printed": "13.04"
+      }
+    },
+    {
+      "from": "Luko",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1562,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 35,
+        "column": 21,
+        "printed": "15.62"
+      }
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 258,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 17,
+        "printed": "2.58"
+      }
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 385,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 18,
+        "printed": "3.85"
+      }
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 457,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 19,
+        "printed": "4.57"
+      }
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 613,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 20,
+        "printed": "6.13"
+      }
+    },
+    {
+      "from": "Bergara I/N",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 871,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 38,
+        "column": 21,
+        "printed": "8.71"
+      }
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Elgoibar",
+      "tariff": {
+        "baseCents": 1074,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 17,
+        "printed": "10.74"
+      }
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 1201,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 18,
+        "printed": "12.01"
+      }
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 1273,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 19,
+        "printed": "12.73"
+      }
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 1429,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 20,
+        "printed": "14.29"
+      }
+    },
+    {
+      "from": "Etxabarri-Ibiña",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 1687,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 41,
+        "column": 21,
+        "printed": "16.87"
+      }
+    },
+    {
+      "from": "Elgoibar",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 163,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 44,
+        "column": 18,
+        "printed": "1.63"
+      }
+    },
+    {
+      "from": "Elgoibar",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 235,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 44,
+        "column": 19,
+        "printed": "2.35"
+      }
+    },
+    {
+      "from": "Elgoibar",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 392,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 44,
+        "column": 20,
+        "printed": "3.92"
+      }
+    },
+    {
+      "from": "Elgoibar",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 641,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 44,
+        "column": 21,
+        "printed": "6.41"
+      }
+    },
+    {
+      "from": "Itziar",
+      "to": "Itziar",
+      "tariff": {
+        "baseCents": 137,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 47,
+        "column": 18,
+        "printed": "1.37"
+      }
+    },
+    {
+      "from": "Itziar",
+      "to": "Zestoa – Zumaia",
+      "tariff": {
+        "baseCents": 117,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 47,
+        "column": 19,
+        "printed": "1.17"
+      }
+    },
+    {
+      "from": "Itziar",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 247,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 47,
+        "column": 20,
+        "printed": "2.47"
+      }
+    },
+    {
+      "from": "Itziar",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 517,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 47,
+        "column": 21,
+        "printed": "5.17"
+      }
+    },
+    {
+      "from": "Zestoa – Zumaia",
+      "to": "Zarautz Oeste",
+      "tariff": {
+        "baseCents": 174,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 50,
+        "column": 20,
+        "printed": "1.74"
+      }
+    },
+    {
+      "from": "Zestoa – Zumaia",
+      "to": "Zarautz Barrera (Donostia)",
+      "tariff": {
+        "baseCents": 441,
+        "bands": []
+      },
+      "sourceCell": {
+        "row": 50,
+        "column": 21,
+        "printed": "4.41"
+      }
+    }
+  ],
+  "scope": "Published combined AP-8/AP-1 access matrix; not independent regional sums"
+}

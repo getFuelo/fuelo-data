@@ -1,0 +1,522 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "OESTE",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 205281765,
+      "version": 19,
+      "node": 243084087,
+      "outsideNode": 1746829997
+    },
+    {
+      "zone": "OESTE",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 69569767,
+      "version": 23,
+      "node": 31233166,
+      "outsideNode": 5630306311
+    },
+    {
+      "zone": "AMOREBIETA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 69562663,
+      "version": 9,
+      "node": 832526350,
+      "outsideNode": 832526298
+    },
+    {
+      "zone": "AMOREBIETA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 69852232,
+      "version": 6,
+      "node": 835110709,
+      "outsideNode": 832526324
+    },
+    {
+      "zone": "AMOREBIETA-oeste",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 69852214,
+      "version": 18,
+      "node": 835110655,
+      "outsideNode": 832526293
+    },
+    {
+      "zone": "AMOREBIETA-oeste",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 41293650,
+      "version": 13,
+      "node": 6130894652,
+      "outsideNode": 504931836
+    },
+    {
+      "zone": "IURRETA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1490210895,
+      "version": 1,
+      "node": 667983147,
+      "outsideNode": 667983143
+    },
+    {
+      "zone": "IURRETA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1490210899,
+      "version": 1,
+      "node": 6986879623,
+      "outsideNode": 588166295
+    },
+    {
+      "zone": "IURRETA-oeste",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 52585032,
+      "version": 5,
+      "node": 668016357,
+      "outsideNode": 12896457684
+    },
+    {
+      "zone": "IURRETA-oeste",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1393219094,
+      "version": 1,
+      "node": 668016362,
+      "outsideNode": 12896457692
+    },
+    {
+      "zone": "ABADINO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 314763101,
+      "version": 18,
+      "node": 5580427399,
+      "outsideNode": 4291267232
+    },
+    {
+      "zone": "ABADINO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 461222787,
+      "version": 2,
+      "node": 4864301681,
+      "outsideNode": 4567573393
+    },
+    {
+      "zone": "ABADINO-oeste",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 169231148,
+      "version": 6,
+      "node": 4864301677,
+      "outsideNode": 1668079075
+    },
+    {
+      "zone": "ABADINO-oeste",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 583714514,
+      "version": 2,
+      "node": 1668079070,
+      "outsideNode": 5580427397
+    },
+    {
+      "zone": "ERMUA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 451119344,
+      "version": 9,
+      "node": 5335035111,
+      "outsideNode": 3252006686,
+      "reverseSourceDirection": true
+    },
+    {
+      "zone": "ERMUA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 451119344,
+      "version": 9,
+      "node": 5335035111,
+      "outsideNode": 5912416866
+    }
+  ],
+  "probeLocations": {
+    "OESTE": {
+      "entry": {
+        "lat": 43.2335036,
+        "lng": -2.7949695
+      },
+      "exit": {
+        "lat": 43.2329147,
+        "lng": -2.7931851
+      }
+    },
+    "AMOREBIETA": {
+      "entry": {
+        "lat": 43.2299243,
+        "lng": -2.7508732
+      },
+      "exit": {
+        "lat": 43.2304153,
+        "lng": -2.7503162
+      }
+    },
+    "AMOREBIETA-oeste": {
+      "entry": {
+        "lat": 43.2307709,
+        "lng": -2.7512262
+      },
+      "exit": {
+        "lat": 43.2306319,
+        "lng": -2.7514345
+      }
+    },
+    "IURRETA": {
+      "entry": {
+        "lat": 43.1775233,
+        "lng": -2.6422711
+      },
+      "exit": {
+        "lat": 43.1776431,
+        "lng": -2.6424517
+      }
+    },
+    "IURRETA-oeste": {
+      "entry": {
+        "lat": 43.1781982,
+        "lng": -2.6429969
+      },
+      "exit": {
+        "lat": 43.1781342,
+        "lng": -2.6431339
+      }
+    },
+    "ABADINO": {
+      "entry": {
+        "lat": 43.167342,
+        "lng": -2.5970083
+      },
+      "exit": {
+        "lat": 43.1690272,
+        "lng": -2.6004122
+      }
+    },
+    "ABADINO-oeste": {
+      "entry": {
+        "lat": 43.1688092,
+        "lng": -2.6031462
+      },
+      "exit": {
+        "lat": 43.1684889,
+        "lng": -2.604826
+      }
+    },
+    "ERMUA": {
+      "entry": {
+        "lat": 43.176623,
+        "lng": -2.5125323
+      },
+      "exit": {
+        "lat": 43.1764098,
+        "lng": -2.5124009
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "ABADINO",
+    "AMOREBIETA",
+    "ERMUA",
+    "IURRETA",
+    "OESTE"
+  ],
+  "probeJourneys": {
+    "OESTE--AMOREBIETA": {
+      "entry": {
+        "lat": 43.2335036,
+        "lng": -2.7949695
+      },
+      "exit": {
+        "lat": 43.2306319,
+        "lng": -2.7514345
+      },
+      "expectedGates": [
+        "OESTE-entry",
+        "AMOREBIETA-oeste-exit"
+      ]
+    },
+    "AMOREBIETA--OESTE": {
+      "entry": {
+        "lat": 43.2307709,
+        "lng": -2.7512262
+      },
+      "exit": {
+        "lat": 43.2329147,
+        "lng": -2.7931851
+      },
+      "expectedGates": [
+        "AMOREBIETA-oeste-entry",
+        "OESTE-exit"
+      ]
+    },
+    "OESTE--IURRETA": {
+      "entry": {
+        "lat": 43.2335036,
+        "lng": -2.7949695
+      },
+      "exit": {
+        "lat": 43.1781342,
+        "lng": -2.6431339
+      },
+      "expectedGates": [
+        "OESTE-entry",
+        "IURRETA-oeste-exit"
+      ]
+    },
+    "IURRETA--OESTE": {
+      "entry": {
+        "lat": 43.1781982,
+        "lng": -2.6429969
+      },
+      "exit": {
+        "lat": 43.2329147,
+        "lng": -2.7931851
+      },
+      "expectedGates": [
+        "IURRETA-oeste-entry",
+        "OESTE-exit"
+      ]
+    },
+    "OESTE--ABADINO": {
+      "entry": {
+        "lat": 43.2335036,
+        "lng": -2.7949695
+      },
+      "exit": {
+        "lat": 43.1684889,
+        "lng": -2.604826
+      },
+      "expectedGates": [
+        "OESTE-entry",
+        "ABADINO-oeste-exit"
+      ]
+    },
+    "ABADINO--OESTE": {
+      "entry": {
+        "lat": 43.1688092,
+        "lng": -2.6031462
+      },
+      "exit": {
+        "lat": 43.2329147,
+        "lng": -2.7931851
+      },
+      "expectedGates": [
+        "ABADINO-oeste-entry",
+        "OESTE-exit"
+      ]
+    },
+    "OESTE--ERMUA": {
+      "entry": {
+        "lat": 43.2335036,
+        "lng": -2.7949695
+      },
+      "exit": {
+        "lat": 43.1764098,
+        "lng": -2.5124009
+      },
+      "expectedGates": [
+        "OESTE-entry",
+        "ERMUA-exit"
+      ]
+    },
+    "ERMUA--OESTE": {
+      "entry": {
+        "lat": 43.176623,
+        "lng": -2.5125323
+      },
+      "exit": {
+        "lat": 43.2329147,
+        "lng": -2.7931851
+      },
+      "expectedGates": [
+        "ERMUA-entry",
+        "OESTE-exit"
+      ]
+    },
+    "IURRETA--ABADINO": {
+      "entry": {
+        "lat": 43.1775233,
+        "lng": -2.6422711
+      },
+      "exit": {
+        "lat": 43.1684889,
+        "lng": -2.604826
+      },
+      "expectedGates": [
+        "IURRETA-entry",
+        "ABADINO-oeste-exit"
+      ]
+    },
+    "ABADINO--IURRETA": {
+      "entry": {
+        "lat": 43.1688092,
+        "lng": -2.6031462
+      },
+      "exit": {
+        "lat": 43.1776431,
+        "lng": -2.6424517
+      },
+      "expectedGates": [
+        "ABADINO-oeste-entry",
+        "IURRETA-exit"
+      ]
+    },
+    "IURRETA--ERMUA": {
+      "entry": {
+        "lat": 43.1775233,
+        "lng": -2.6422711
+      },
+      "exit": {
+        "lat": 43.1764098,
+        "lng": -2.5124009
+      },
+      "expectedGates": [
+        "IURRETA-entry",
+        "ERMUA-exit"
+      ]
+    },
+    "ERMUA--IURRETA": {
+      "entry": {
+        "lat": 43.176623,
+        "lng": -2.5125323
+      },
+      "exit": {
+        "lat": 43.1776431,
+        "lng": -2.6424517
+      },
+      "expectedGates": [
+        "ERMUA-entry",
+        "IURRETA-exit"
+      ]
+    },
+    "ABADINO--ERMUA": {
+      "entry": {
+        "lat": 43.167342,
+        "lng": -2.5970083
+      },
+      "exit": {
+        "lat": 43.1764098,
+        "lng": -2.5124009
+      },
+      "expectedGates": [
+        "ABADINO-entry",
+        "ERMUA-exit"
+      ]
+    },
+    "ERMUA--ABADINO": {
+      "entry": {
+        "lat": 43.176623,
+        "lng": -2.5125323
+      },
+      "exit": {
+        "lat": 43.1690272,
+        "lng": -2.6004122
+      },
+      "expectedGates": [
+        "ERMUA-entry",
+        "ABADINO-exit"
+      ]
+    },
+    "AMOREBIETA--IURRETA": {
+      "entry": {
+        "lat": 43.2299243,
+        "lng": -2.7508732
+      },
+      "exit": {
+        "lat": 43.1781342,
+        "lng": -2.6431339
+      },
+      "expectedGates": [
+        "AMOREBIETA-entry",
+        "IURRETA-oeste-exit"
+      ]
+    },
+    "IURRETA--AMOREBIETA": {
+      "entry": {
+        "lat": 43.1781982,
+        "lng": -2.6429969
+      },
+      "exit": {
+        "lat": 43.2304153,
+        "lng": -2.7503162
+      },
+      "expectedGates": [
+        "IURRETA-oeste-entry",
+        "AMOREBIETA-exit"
+      ]
+    },
+    "AMOREBIETA--ABADINO": {
+      "entry": {
+        "lat": 43.2299243,
+        "lng": -2.7508732
+      },
+      "exit": {
+        "lat": 43.1684889,
+        "lng": -2.604826
+      },
+      "expectedGates": [
+        "AMOREBIETA-entry",
+        "ABADINO-oeste-exit"
+      ]
+    },
+    "ABADINO--AMOREBIETA": {
+      "entry": {
+        "lat": 43.1688092,
+        "lng": -2.6031462
+      },
+      "exit": {
+        "lat": 43.2304153,
+        "lng": -2.7503162
+      },
+      "expectedGates": [
+        "ABADINO-oeste-entry",
+        "AMOREBIETA-exit"
+      ]
+    },
+    "AMOREBIETA--ERMUA": {
+      "entry": {
+        "lat": 43.2299243,
+        "lng": -2.7508732
+      },
+      "exit": {
+        "lat": 43.1764098,
+        "lng": -2.5124009
+      },
+      "expectedGates": [
+        "AMOREBIETA-entry",
+        "ERMUA-exit"
+      ]
+    },
+    "ERMUA--AMOREBIETA": {
+      "entry": {
+        "lat": 43.176623,
+        "lng": -2.5125323
+      },
+      "exit": {
+        "lat": 43.2304153,
+        "lng": -2.7503162
+      },
+      "expectedGates": [
+        "ERMUA-entry",
+        "AMOREBIETA-exit"
+      ]
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

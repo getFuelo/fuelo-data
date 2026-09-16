@@ -1,0 +1,96 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.8246077,
+        "lon": -4.1768223
+      },
+      {
+        "lat": 40.8215419,
+        "lon": -4.1830832,
+        "type": "through"
+      },
+      {
+        "lat": 40.7906129,
+        "lon": -4.215183
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "sourceTariff": {
+    "baseCents": 75,
+    "bands": [
+      {
+        "cents": 50,
+        "minutes": [
+          1380,
+          420
+        ]
+      },
+      {
+        "cents": 120,
+        "dates": [
+          "2026-06-16",
+          "2026-09-15"
+        ],
+        "minutes": [
+          420,
+          1380
+        ]
+      },
+      {
+        "cents": 120,
+        "weekdays": [
+          5
+        ],
+        "minutes": [
+          900,
+          1380
+        ]
+      },
+      {
+        "cents": 120,
+        "weekdays": [
+          6,
+          7
+        ],
+        "minutes": [
+          420,
+          1380
+        ]
+      },
+      {
+        "cents": 120,
+        "dates": [
+          "2026-03-30",
+          "2026-04-06"
+        ],
+        "minutes": [
+          420,
+          1380
+        ]
+      }
+    ]
+  },
+  "expectedRoadIds": [
+    "es-ap61"
+  ],
+  "expectedGates": [
+    "ORTIGOSA-entry",
+    "OTERO-exit"
+  ],
+  "source": [
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
+    "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf"
+  ],
+  "reusedFrom": "pricing-candidates/ap61-routes/ORTIGOSA--OTERO.json"
+}

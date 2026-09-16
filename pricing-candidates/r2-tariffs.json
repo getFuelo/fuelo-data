@@ -1,0 +1,1441 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r2_2026.pdf",
+  "sha256": "47d7f509ba7aecf52c714ea0bb26181d9f6327df8b7939ec52448b55ee853148",
+  "publishedAccesses": [
+    "Aeropuerto",
+    "Alcobendas",
+    "Ajalvir",
+    "Alcalá",
+    "Meco",
+    "Cabanillas",
+    "Guadalajara Norte",
+    "NII-Taracena"
+  ],
+  "ods": [
+    {
+      "from": "Ajalvir",
+      "to": "Alcalá",
+      "tariff": {
+        "baseCents": 95,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 4,
+        "printedRow": "Ajalvir",
+        "viaTBox": [
+          381.89,
+          118.67,
+          395.309,
+          126.23
+        ],
+        "generalBox": [
+          421.27,
+          118.67,
+          434.689,
+          126.23
+        ]
+      }
+    },
+    {
+      "from": "Ajalvir",
+      "to": "Meco",
+      "tariff": {
+        "baseCents": 200,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 175,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 5,
+        "printedRow": "Ajalvir",
+        "viaTBox": [
+          460.63,
+          118.67,
+          474.049,
+          126.23
+        ],
+        "generalBox": [
+          499.99,
+          118.67,
+          513.409,
+          126.23
+        ]
+      }
+    },
+    {
+      "from": "Ajalvir",
+      "to": "Cabanillas",
+      "tariff": {
+        "baseCents": 320,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 285,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 6,
+        "printedRow": "Ajalvir",
+        "viaTBox": [
+          539.35,
+          118.67,
+          552.769,
+          126.23
+        ],
+        "generalBox": [
+          578.71,
+          118.67,
+          592.129,
+          126.23
+        ]
+      }
+    },
+    {
+      "from": "Ajalvir",
+      "to": "Guadalajara Norte",
+      "tariff": {
+        "baseCents": 435,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 390,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 7,
+        "printedRow": "Ajalvir",
+        "viaTBox": [
+          618.1,
+          118.67,
+          631.519,
+          126.23
+        ],
+        "generalBox": [
+          657.46,
+          118.67,
+          670.879,
+          126.23
+        ]
+      }
+    },
+    {
+      "from": "Ajalvir",
+      "to": "NII-Taracena",
+      "tariff": {
+        "baseCents": 520,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 460,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 8,
+        "printedRow": "Ajalvir",
+        "viaTBox": [
+          696.82,
+          118.67,
+          710.239,
+          126.23
+        ],
+        "generalBox": [
+          736.18,
+          118.67,
+          749.599,
+          126.23
+        ]
+      }
+    },
+    {
+      "from": "Alcalá",
+      "to": "Ajalvir",
+      "tariff": {
+        "baseCents": 95,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 3,
+        "printedRow": "Alcala",
+        "viaTBox": [
+          303.17,
+          128.87,
+          316.589,
+          136.43
+        ],
+        "generalBox": [
+          342.53,
+          128.87,
+          355.949,
+          136.43
+        ]
+      }
+    },
+    {
+      "from": "Alcalá",
+      "to": "Meco",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 5,
+        "printedRow": "Alcala",
+        "viaTBox": [
+          460.63,
+          128.87,
+          474.049,
+          136.43
+        ],
+        "generalBox": [
+          499.99,
+          128.87,
+          513.409,
+          136.43
+        ]
+      }
+    },
+    {
+      "from": "Alcalá",
+      "to": "Cabanillas",
+      "tariff": {
+        "baseCents": 225,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 6,
+        "printedRow": "Alcala",
+        "viaTBox": [
+          539.35,
+          128.87,
+          552.769,
+          136.43
+        ],
+        "generalBox": [
+          578.71,
+          128.87,
+          592.129,
+          136.43
+        ]
+      }
+    },
+    {
+      "from": "Alcalá",
+      "to": "Guadalajara Norte",
+      "tariff": {
+        "baseCents": 345,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 310,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 7,
+        "printedRow": "Alcala",
+        "viaTBox": [
+          618.1,
+          128.87,
+          631.519,
+          136.43
+        ],
+        "generalBox": [
+          657.46,
+          128.87,
+          670.879,
+          136.43
+        ]
+      }
+    },
+    {
+      "from": "Alcalá",
+      "to": "NII-Taracena",
+      "tariff": {
+        "baseCents": 425,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 380,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 8,
+        "printedRow": "Alcala",
+        "viaTBox": [
+          696.82,
+          128.87,
+          710.239,
+          136.43
+        ],
+        "generalBox": [
+          736.18,
+          128.87,
+          749.599,
+          136.43
+        ]
+      }
+    },
+    {
+      "from": "Meco",
+      "to": "Ajalvir",
+      "tariff": {
+        "baseCents": 200,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 175,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 3,
+        "printedRow": "Meco",
+        "viaTBox": [
+          303.17,
+          139.07,
+          316.589,
+          146.63
+        ],
+        "generalBox": [
+          342.53,
+          139.07,
+          355.949,
+          146.63
+        ]
+      }
+    },
+    {
+      "from": "Meco",
+      "to": "Alcalá",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 4,
+        "printedRow": "Meco",
+        "viaTBox": [
+          381.89,
+          139.07,
+          395.309,
+          146.63
+        ],
+        "generalBox": [
+          421.27,
+          139.07,
+          434.689,
+          146.63
+        ]
+      }
+    },
+    {
+      "from": "Meco",
+      "to": "Cabanillas",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 6,
+        "printedRow": "Meco",
+        "viaTBox": [
+          539.35,
+          139.07,
+          552.769,
+          146.63
+        ],
+        "generalBox": [
+          578.71,
+          139.07,
+          592.129,
+          146.63
+        ]
+      }
+    },
+    {
+      "from": "Meco",
+      "to": "Guadalajara Norte",
+      "tariff": {
+        "baseCents": 245,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 7,
+        "printedRow": "Meco",
+        "viaTBox": [
+          618.1,
+          139.07,
+          631.519,
+          146.63
+        ],
+        "generalBox": [
+          657.46,
+          139.07,
+          670.879,
+          146.63
+        ]
+      }
+    },
+    {
+      "from": "Meco",
+      "to": "NII-Taracena",
+      "tariff": {
+        "baseCents": 320,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 285,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 8,
+        "printedRow": "Meco",
+        "viaTBox": [
+          696.82,
+          139.07,
+          710.239,
+          146.63
+        ],
+        "generalBox": [
+          736.18,
+          139.07,
+          749.599,
+          146.63
+        ]
+      }
+    },
+    {
+      "from": "Cabanillas",
+      "to": "Ajalvir",
+      "tariff": {
+        "baseCents": 320,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 285,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 3,
+        "printedRow": "Cabanillas",
+        "viaTBox": [
+          303.17,
+          149.27,
+          316.589,
+          156.83
+        ],
+        "generalBox": [
+          342.53,
+          149.27,
+          355.949,
+          156.83
+        ]
+      }
+    },
+    {
+      "from": "Cabanillas",
+      "to": "Alcalá",
+      "tariff": {
+        "baseCents": 225,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 4,
+        "printedRow": "Cabanillas",
+        "viaTBox": [
+          381.89,
+          149.27,
+          395.309,
+          156.83
+        ],
+        "generalBox": [
+          421.27,
+          149.27,
+          434.689,
+          156.83
+        ]
+      }
+    },
+    {
+      "from": "Cabanillas",
+      "to": "Meco",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 5,
+        "printedRow": "Cabanillas",
+        "viaTBox": [
+          460.63,
+          149.27,
+          474.049,
+          156.83
+        ],
+        "generalBox": [
+          499.99,
+          149.27,
+          513.409,
+          156.83
+        ]
+      }
+    },
+    {
+      "from": "Cabanillas",
+      "to": "Guadalajara Norte",
+      "tariff": {
+        "baseCents": 120,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 7,
+        "printedRow": "Cabanillas",
+        "viaTBox": [
+          618.1,
+          149.27,
+          631.519,
+          156.83
+        ],
+        "generalBox": [
+          657.46,
+          149.27,
+          670.879,
+          156.83
+        ]
+      }
+    },
+    {
+      "from": "Cabanillas",
+      "to": "NII-Taracena",
+      "tariff": {
+        "baseCents": 200,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 180,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 8,
+        "printedRow": "Cabanillas",
+        "viaTBox": [
+          696.82,
+          149.27,
+          710.239,
+          156.83
+        ],
+        "generalBox": [
+          736.18,
+          149.27,
+          749.599,
+          156.83
+        ]
+      }
+    },
+    {
+      "from": "Guadalajara Norte",
+      "to": "Ajalvir",
+      "tariff": {
+        "baseCents": 435,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 390,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 3,
+        "printedRow": "Guadalajara Norte",
+        "viaTBox": [
+          303.17,
+          159.47,
+          316.589,
+          167.03
+        ],
+        "generalBox": [
+          342.53,
+          159.47,
+          355.949,
+          167.03
+        ]
+      }
+    },
+    {
+      "from": "Guadalajara Norte",
+      "to": "Alcalá",
+      "tariff": {
+        "baseCents": 345,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 310,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 4,
+        "printedRow": "Guadalajara Norte",
+        "viaTBox": [
+          381.89,
+          159.47,
+          395.309,
+          167.03
+        ],
+        "generalBox": [
+          421.27,
+          159.47,
+          434.689,
+          167.03
+        ]
+      }
+    },
+    {
+      "from": "Guadalajara Norte",
+      "to": "Meco",
+      "tariff": {
+        "baseCents": 245,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 5,
+        "printedRow": "Guadalajara Norte",
+        "viaTBox": [
+          460.63,
+          159.47,
+          474.049,
+          167.03
+        ],
+        "generalBox": [
+          499.99,
+          159.47,
+          513.409,
+          167.03
+        ]
+      }
+    },
+    {
+      "from": "Guadalajara Norte",
+      "to": "Cabanillas",
+      "tariff": {
+        "baseCents": 120,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 6,
+        "printedRow": "Guadalajara Norte",
+        "viaTBox": [
+          539.35,
+          159.47,
+          552.769,
+          167.03
+        ],
+        "generalBox": [
+          578.71,
+          159.47,
+          592.129,
+          167.03
+        ]
+      }
+    },
+    {
+      "from": "Guadalajara Norte",
+      "to": "NII-Taracena",
+      "tariff": {
+        "baseCents": 0,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 0,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 8,
+        "printedRow": "Guadalajara Norte",
+        "viaTBox": [
+          691.9,
+          159.47,
+          705.319,
+          167.03
+        ],
+        "generalBox": [
+          731.26,
+          159.47,
+          744.679,
+          167.03
+        ]
+      }
+    },
+    {
+      "from": "NII-Taracena",
+      "to": "Ajalvir",
+      "tariff": {
+        "baseCents": 520,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 460,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 3,
+        "printedRow": "NII-Taracena",
+        "viaTBox": [
+          303.17,
+          169.67,
+          316.589,
+          177.23
+        ],
+        "generalBox": [
+          342.53,
+          169.67,
+          355.949,
+          177.23
+        ]
+      }
+    },
+    {
+      "from": "NII-Taracena",
+      "to": "Alcalá",
+      "tariff": {
+        "baseCents": 425,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 380,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 4,
+        "printedRow": "NII-Taracena",
+        "viaTBox": [
+          381.89,
+          169.67,
+          395.309,
+          177.23
+        ],
+        "generalBox": [
+          421.27,
+          169.67,
+          434.689,
+          177.23
+        ]
+      }
+    },
+    {
+      "from": "NII-Taracena",
+      "to": "Meco",
+      "tariff": {
+        "baseCents": 320,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 285,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 5,
+        "printedRow": "NII-Taracena",
+        "viaTBox": [
+          460.63,
+          169.67,
+          474.049,
+          177.23
+        ],
+        "generalBox": [
+          499.99,
+          169.67,
+          513.409,
+          177.23
+        ]
+      }
+    },
+    {
+      "from": "NII-Taracena",
+      "to": "Cabanillas",
+      "tariff": {
+        "baseCents": 200,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 180,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 6,
+        "printedRow": "NII-Taracena",
+        "viaTBox": [
+          539.35,
+          169.67,
+          552.769,
+          177.23
+        ],
+        "generalBox": [
+          578.71,
+          169.67,
+          592.129,
+          177.23
+        ]
+      }
+    },
+    {
+      "from": "NII-Taracena",
+      "to": "Guadalajara Norte",
+      "tariff": {
+        "baseCents": 0,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 0,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 7,
+        "printedRow": "NII-Taracena",
+        "viaTBox": [
+          613.18,
+          169.67,
+          626.599,
+          177.23
+        ],
+        "generalBox": [
+          652.54,
+          169.67,
+          665.959,
+          177.23
+        ]
+      }
+    }
+  ],
+  "barriers": [
+    {
+      "from": "Aeropuerto",
+      "to": "Aeropuerto",
+      "tariff": {
+        "baseCents": 60,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 1,
+        "printedRow": "Aeropuerto",
+        "viaTBox": [
+          145.7,
+          98.27,
+          159.119,
+          105.83
+        ],
+        "generalBox": [
+          185.06,
+          98.27,
+          198.479,
+          105.83
+        ]
+      },
+      "kind": "barrier"
+    },
+    {
+      "from": "Alcobendas",
+      "to": "Alcobendas",
+      "tariff": {
+        "baseCents": 60,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 2,
+        "printedRow": "Alcobendas",
+        "viaTBox": [
+          224.42,
+          108.47,
+          237.839,
+          116.03
+        ],
+        "generalBox": [
+          263.81,
+          108.47,
+          277.229,
+          116.03
+        ]
+      },
+      "kind": "barrier"
+    }
+  ],
+  "notes": [
+    "Only explicitly printed light-vehicle cells imported. Blank/dash cells remain unavailable, never zero.",
+    "Physical entry/exit mapping and route validation still required.",
+    "R-2 Aeropuerto/Alcobendas diagonal cells are independent barriers, not same-entry/exit OD fares."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "gates": [
+    {
+      "gate": "Santiago-entry",
+      "way": 119472403,
+      "wayVersion": 10,
+      "node": 1134258359,
+      "halfWidthMeters": 8,
+      "kind": "logical-entry-boundary"
+    },
+    {
+      "gate": "Santiago-exit",
+      "way": 98039388,
+      "wayVersion": 9,
+      "node": 764911133,
+      "halfWidthMeters": 14,
+      "kind": "physical-plaza"
+    },
+    {
+      "gate": "Lalín-entry",
+      "way": 98241906,
+      "wayVersion": 12,
+      "node": 1135796919,
+      "halfWidthMeters": 8,
+      "kind": "logical-entry-boundary"
+    },
+    {
+      "gate": "Lalín-exit",
+      "way": 98176727,
+      "wayVersion": 9,
+      "node": 1132439387,
+      "halfWidthMeters": 10,
+      "kind": "physical-plaza"
+    },
+    {
+      "gate": "Ribadulla-entry",
+      "sourceLanes": [
+        {
+          "way": 679120821,
+          "version": 1,
+          "booth": 6359222638
+        }
+      ],
+      "halfWidthMeters": 10.751453497443732,
+      "kind": "physical-plaza"
+    },
+    {
+      "gate": "Ribadulla-exit",
+      "sourceLanes": [
+        {
+          "way": 98020218,
+          "version": 2,
+          "booth": 1134259768
+        }
+      ],
+      "halfWidthMeters": 10.751453497443732,
+      "kind": "physical-plaza"
+    },
+    {
+      "gate": "Bandeira-entry",
+      "sourceLanes": [
+        {
+          "way": 93387468,
+          "version": 7,
+          "booth": 1132443183
+        },
+        {
+          "way": 93387467,
+          "version": 7,
+          "booth": 1132443184
+        }
+      ],
+      "halfWidthMeters": 14.05056362698474,
+      "kind": "physical-plaza"
+    },
+    {
+      "gate": "Bandeira-exit",
+      "sourceLanes": [
+        {
+          "way": 98039414,
+          "version": 3,
+          "booth": 1132443182
+        },
+        {
+          "way": 98039397,
+          "version": 5,
+          "booth": 1132443185
+        }
+      ],
+      "halfWidthMeters": 14.05056362698474,
+      "kind": "physical-plaza"
+    },
+    {
+      "gate": "Silleda-entry",
+      "sourceLanes": [
+        {
+          "way": 679126251,
+          "version": 1,
+          "booth": 1135796958
+        }
+      ],
+      "halfWidthMeters": 11.345967569321521,
+      "kind": "physical-plaza"
+    },
+    {
+      "gate": "Silleda-exit",
+      "sourceLanes": [
+        {
+          "way": 98171698,
+          "version": 2,
+          "booth": 1135796872
+        }
+      ],
+      "halfWidthMeters": 11.345967569321521,
+      "kind": "physical-plaza"
+    },
+    {
+      "gate": "Silleda-south-entry",
+      "way": 98171705,
+      "wayVersion": 3,
+      "node": 1135796351,
+      "halfWidthMeters": 6,
+      "kind": "logical-entry-boundary"
+    }
+  ],
+  "source": "../../spain-graph/provenance.json",
+  "aliases": {
+    "Lalín Oeste/Centro/Este and Alto de Santo Domingo": "Lalín",
+    "Ribadull (PDF typo)": "Ribadulla"
+  },
+  "aliasEvidence": "All collapsed tariff rows have equal published fares; BOE-A-2025-7166 also defines Lalín as Alto de Santo Domingo for journey purposes.",
+  "status": "candidate_pending_real_routes"
+}

@@ -1,0 +1,1 @@
+Rejected logical Campomanes entry cut on bridge way 4803587. A northbound paid trip then following N-630 into Campomanes crossed this cut again below the bridge, creating a spurious entry and missing_exit. Move logical cuts south of the bridge; retain the same full-trip baselines as regressions. Exclusion probes here use the old cuts and are superseded.

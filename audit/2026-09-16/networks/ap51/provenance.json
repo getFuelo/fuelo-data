@@ -1,0 +1,126 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "AP6",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 4300490,
+      "version": 11,
+      "node": 26000410,
+      "outsideNode": 26000840
+    },
+    {
+      "zone": "AP6",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 353893484,
+      "version": 4,
+      "node": 25997339,
+      "outsideNode": 775100891
+    },
+    {
+      "zone": "VILLACASTIN",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1320673499,
+      "version": 4,
+      "node": 11253944487,
+      "outsideNode": 465629921
+    },
+    {
+      "zone": "VILLACASTIN",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1320673496,
+      "version": 4,
+      "node": 472461168,
+      "outsideNode": 246621938
+    },
+    {
+      "zone": "VICOLOZANO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 47251087,
+      "version": 12,
+      "node": 488516313,
+      "outsideNode": 60531857
+    },
+    {
+      "zone": "VICOLOZANO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 46491467,
+      "version": 10,
+      "node": 885336236,
+      "outsideNode": 60531857
+    },
+    {
+      "zone": "AVILA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 62143311,
+      "version": 13,
+      "node": 13022746691,
+      "outsideNode": 26000092
+    },
+    {
+      "zone": "AVILA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 51289192,
+      "version": 16,
+      "node": 13022746690,
+      "outsideNode": 26000574
+    }
+  ],
+  "probeLocations": {
+    "AP6": {
+      "entry": {
+        "lat": 40.77247,
+        "lng": -4.4219325
+      },
+      "exit": {
+        "lat": 40.7731314,
+        "lng": -4.4189939
+      }
+    },
+    "VILLACASTIN": {
+      "entry": {
+        "lat": 40.772981,
+        "lng": -4.4255976
+      },
+      "exit": {
+        "lat": 40.7732437,
+        "lng": -4.4253545
+      }
+    },
+    "VICOLOZANO": {
+      "entry": {
+        "lat": 40.6806843,
+        "lng": -4.6313835
+      },
+      "exit": {
+        "lat": 40.6806843,
+        "lng": -4.6313835
+      }
+    },
+    "AVILA": {
+      "entry": {
+        "lat": 40.6756307,
+        "lng": -4.6412646
+      },
+      "exit": {
+        "lat": 40.6757392,
+        "lng": -4.641361
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "AP6",
+    "AVILA",
+    "VICOLOZANO",
+    "VILLACASTIN"
+  ],
+  "status": "candidate_pending_real_routes"
+}

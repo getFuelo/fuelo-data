@@ -1,0 +1,26 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.2187007,
+        "lon": -2.9083575
+      },
+      {
+        "lat": 43.3042698,
+        "lon": -3.0235177
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 185,
+  "expectedStatus": "unavailable",
+  "notes": "Alternative uses AP-68-tagged geometry outside this Supersur-only candidate; it must not be asserted free or charged the requested Supersur fare."
+}

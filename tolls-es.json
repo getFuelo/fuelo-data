@@ -1,16 +1,16 @@
 {
-  "generated": "2026-07-18",
+  "generated": "2026-09-16",
   "schema": 1,
   "currency": "EUR",
-  "complete": true,
-  "notes_global": "Light-vehicle 2026 tariffs. price = cheaper common case (telepeaje / off-peak / weekday / normal season); price_high = pricier variant (cash / peak / weekend / high season). model=ticket => price is the full end-to-end telepeaje traversal, NOT per-gate. Coordinates = nearest OSM barrier=toll_booth node (audited 2026-07-19). 34 entries = 100% ES coverage (20 state AGE/SEITT + 5 Catalonia + 2 Galicia + 1 Navarra + 3 Gipuzkoa + 3 Bizkaia); state list cross-checked vs ministry release of 30-12-2025.",
+  "complete": false,
+  "notes_global": "2026 light-car tariff references audited 2026-09-16. No assumed payment/registration discounts. Existing time/season ranges remain conditional, NOT automatically applicable. verified refers to source tariff, not route matching. Coverage NOT complete: missing plazas/gantries, OD matrices, calendar and topology validation. See audit/2026-09-16/README.md. A nearest toll_booth is not sufficient evidence of the correct road or fare.",
   "tolls": [
     {
       "id": "es-ap6",
       "country": "es",
       "name": "AP-6 Villalba–Adanero",
       "road": "AP-6",
-      "operator": "Iberpistas (Abertis)",
+      "operator": "Castellana de Autopistas (Abertis)",
       "lat": 40.78954,
       "lng": -4.21575,
       "model": "ticket",
@@ -19,32 +19,32 @@
       "price_high": null,
       "variable": false,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket. Full Villalba-Adanero ligeros 15.70 EUR (single tarifa general, no time variation). Villalba-San Rafael 5.65, Villalba-Villacastin 10.10. Coord approx San Rafael."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 15.70; Villalba–San Rafael 5.65 y Villalba–Villacastín 10.10. Una cabina no determina entrada y salida."
     },
     {
       "id": "es-ap51",
       "country": "es",
       "name": "AP-51 (conexión AP-6 – Ávila)",
       "road": "AP-51",
-      "operator": "Iberpistas (Abertis)",
+      "operator": "Castellana de Autopistas (Abertis)",
       "lat": 40.76905,
       "lng": -4.4305,
       "model": "ticket",
       "vehicle_class": "light",
       "price": 1.05,
-      "price_high": 2.95,
+      "price_high": 2.9,
       "variable": true,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Dynamic time-of-day (Valle/Normal/Punta). Full run 1.05 Valle / 1.75 Normal / 2.90 Punta; Villacastin-Avila 1.10/1.75/2.95. price=Valle 1.05, price_high=Punta 2.95 (highest ligeros)."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 1.05 valle / 1.75 normal / 2.90 punta. 2.95 pertenece al acceso Villacastín, cuyo valle es 1.10. No mezclar filas. Valle 23–07; calendario punta en PDF."
     },
     {
       "id": "es-ap61",
       "country": "es",
       "name": "AP-61 (conexión AP-6 – Segovia)",
       "road": "AP-61",
-      "operator": "Iberpistas (Abertis)",
+      "operator": "Castellana de Autopistas (Abertis)",
       "lat": 40.8244,
       "lng": -4.17754,
       "model": "ticket",
@@ -53,15 +53,15 @@
       "price_high": 4.8,
       "variable": true,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Dynamic time-of-day (Valle/Normal/Punta). Full run El Espinar-Segovia 1.95 Valle / 2.95 Normal / 4.80 Punta. price=Valle, price_high=Punta."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 1.95 valle / 2.95 normal / 4.80 punta. San Rafael–Segovia tiene otra fila: 2.00 / 3.05 / 4.95. Requiere hora y calendario."
     },
     {
       "id": "es-ap53",
       "country": "es",
       "name": "AP-53 Santiago–Alto de Santo Domingo",
       "road": "AP-53",
-      "operator": "Autoestradas de Galicia (AGE, state concession)",
+      "operator": "ACEGA — Autopista Central Gallega",
       "lat": 42.73188,
       "lng": -8.33782,
       "model": "ticket",
@@ -70,8 +70,8 @@
       "price_high": null,
       "variable": false,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-53,-santiago---alto-de-santo-domingo-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket. Full Santiago-Alto de Santo Domingo 7.25 (single column, no time variation). Santiago-Silleda 4.35."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 7.25 general. Santiago–Silleda 4.35. Bonificaciones por recurrencia requieren elegibilidad."
     },
     {
       "id": "es-ap66",
@@ -83,19 +83,19 @@
       "lng": -5.8896,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 13.75,
-      "price_high": 16.2,
+      "price": 16.2,
+      "price_high": null,
       "variable": true,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-66,-campomanes---leon-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket. Base Campomanes-Leon 16.20. Frequent-user dynamic discounts (RD 1083/2024): 1st-2nd pass -15% = 13.75; 5th+ -60% = 6.47. price=13.75 (first electronic trips), price_high=16.20 base."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 16.20 general. 13.75 requiere condiciones de pago electrónico/bonificación; no es la tarifa general. El número de pasos también modifica el descuento."
     },
     {
       "id": "es-ap68",
       "country": "es",
       "name": "AP-68 Bilbao–Zaragoza",
       "road": "AP-68",
-      "operator": "AVASA/Bidelan (Abertis)",
+      "operator": "AVASA (Abertis)",
       "lat": 42.43512,
       "lng": -2.46086,
       "model": "ticket",
@@ -104,8 +104,8 @@
       "price_high": null,
       "variable": false,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-68,-bilbao---zaragoza-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket, long corridor. Full Bilbao-Zaragoza 39.90 (single column). Bilbao-Logrono 19.60, Bilbao-Tudela 30.00. Coord approx Logrono. STATE road (AGE) though it runs through Basque territory - do not also add via the Basque agent. CONCESSION ENDS 10-11 Nov 2026: state tolls lifted then; Bizkaia/Alava stretches expected to transfer to the Diputaciones with much lower 'tarifas sociales' (~-50%, news-corroborated, not yet official tariffs) - re-verify after Nov 2026."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 39.90 general para este OD. No equivale al coste de cualquier paso por el punto de Logroño. Revisar cambios concesionales en noviembre de 2026; no programar gratuidad total basándose en noticias."
     },
     {
       "id": "es-ap71",
@@ -121,8 +121,8 @@
       "price_high": 6.2,
       "variable": true,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-71,-leon---astorga-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket, day/night tariff. Full Leon-Astorga: night 2.50 (23:00-07:00), day 6.20 (07:00-23:00). price=night, price_high=day."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 2.50 de 23–07; 6.20 de 07–23. Ambos importes son correctos, pero usar siempre el bajo infravalora el viaje diurno."
     },
     {
       "id": "es-ap9",
@@ -138,15 +138,15 @@
       "price_high": null,
       "variable": false,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-9,-ferrol---frontera-portuguesa-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "CAVEAT: segmented closed system with free gaps - NO single Ferrol->Tui figure published. price 8.80 = largest single quoted OD (A Coruna-Santiago). Segment ODs: Fene-A Coruna 6.15; A Coruna-Santiago 8.80; Santiago-Pontevedra 7.55; Pontevedra-Vigo 5.05; Puxeiros-Tui 3.55 (full corridor ~31 summed). Vigo-O Morrazo & A Coruna-A Barcala exempt. Needs per-segment modelling for accuracy."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 8.80 corresponde a este OD, no Ferrol–Tui. La AP-9 tiene varios tramos tarifarios y tramos gratuitos; no existe aquí un precio único de todo el corredor."
     },
     {
       "id": "es-ap46",
       "country": "es",
       "name": "AP-46 Alto de las Pedrizas–Málaga",
       "road": "AP-46",
-      "operator": "Cintra (Ferrovial)",
+      "operator": "Autopista del Guadalmedina, C.E.S.A.",
       "lat": 36.90277,
       "lng": -4.45821,
       "model": "fixed",
@@ -155,15 +155,15 @@
       "price_high": 6.6,
       "variable": true,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-46,-alto-de-las-pedrizas---malaga-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Single open barrier Casabermeja. Ligeros temporada baja 4.35 / alta 6.60 (May-Oct + weekends + 17 Easter days, 06:00-24:00). FREE 00:00-06:00. price=low, price_high=high season."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 4.35 temporada baja / 6.60 alta; gratuito 00–06. Alta mayo–octubre, fines de semana y periodo de Semana Santa del PDF. Hora y temporada pendientes de aplicación."
     },
     {
       "id": "es-ap7-malaga-estepona",
       "country": "es",
       "name": "AP-7 Málaga–Estepona (Ausol I)",
       "road": "AP-7",
-      "operator": "Ausol / Autopista del Sol (Cintra-Ferrovial)",
+      "operator": "Autopista del Sol, C.E., S.A.U. (AUSOL)",
       "lat": 36.49898,
       "lng": -5.00129,
       "model": "ticket",
@@ -172,15 +172,15 @@
       "price_high": 15.5,
       "variable": true,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-malaga---estepona-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Barrier system (Calahonda + San Pedro de Alcantara). Full Malaga-Estepona ligeros: normal 9.55 / especial 15.50 (summer/peak). Malaga-Marbella 5.70 normal. price=normal, price_high=especial."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: Suma 5.70 + 3.85 = 9.55 normal; 9.25 + 6.25 = 15.50 especial. Existen accesos laterales con otra tarifa. Deben identificarse las barreras realmente atravesadas."
     },
     {
       "id": "es-ap7-estepona-guadiaro",
       "country": "es",
       "name": "AP-7 Estepona–Guadiaro (Ausol II)",
       "road": "AP-7",
-      "operator": "Ausol / Autopista del Sol (Cintra-Ferrovial)",
+      "operator": "Autopista del Sol, C.E., S.A.U. (AUSOL)",
       "lat": 36.37533,
       "lng": -5.26544,
       "model": "fixed",
@@ -189,8 +189,8 @@
       "price_high": 4.05,
       "variable": true,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-estepona---guadiaro-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Open barrier Manilva. Full Estepona-Guadiaro ligeros: normal 2.45 / especial 4.05. Acceso Manilva half (1.20/2.00). price=normal, price_high=especial."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 2.45 normal / 4.05 especial. Acceso Manilva 1.20 / 2.00: falta como barrera diferenciada; la cabina del catálogo es un enlace, pendiente asignación troncal/lateral."
     },
     {
       "id": "es-ap7-alicante-cartagena",
@@ -206,8 +206,8 @@
       "price_high": 10.2,
       "variable": true,
       "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-alicante---cartagena-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed, seasonal. Full traversal ligeros: temporada baja 5.70 / alta 10.20 (Jun-Sep + 17 Easter days). NB: AP-7 Circunvalacion de Alicante is FREE since 9-Dec-2025 - this is the separate Alicante-Cartagena concession."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 2.85 + 2.85 = 5.70 baja; 5.10 + 5.10 = 10.20 alta. Es un sistema de barreras, también hay acceso La Zenia; no cobrar la suma por cualquier acceso. Diferente de la circunvalación gratuita de Alicante."
     },
     {
       "id": "es-r2",
@@ -219,12 +219,12 @@
       "lng": -3.30957,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 4.6,
-      "price_high": 5.2,
+      "price": 5.2,
+      "price_high": null,
       "variable": true,
       "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r2_2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket. Full Aeropuerto-NII-Taracena: telepeaje 4.60 / cash 5.20. Free 00:00-06:00, 21% VAT. Guadalajara N-NII-Taracena bonificado 100%."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 4.60 telepeaje / 5.20 efectivo-tarjeta. La celda es Ajalvir, no Aeropuerto. Las filas independientes Aeropuerto y Alcobendas no quedan cubiertas por esta referencia. Gratuito 00–06; Guadalajara Norte–Taracena bonificado."
     },
     {
       "id": "es-r3",
@@ -236,12 +236,12 @@
       "lng": -3.46876,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 3.05,
-      "price_high": 3.4,
+      "price": 3.4,
+      "price_high": null,
       "variable": true,
       "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r3_2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket, 'Accesos de Madrid' concession (shared with R-5). Full M-40/M-602-Conexion A-3: telepeaje 3.05 / cash 3.40. Free 00:00-06:00, 21% VAT. Note precios_web_* filename pattern."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 3.05 telepeaje / 3.40 efectivo-tarjeta. Gratuito 00–06. Coordenada actual sobre MP-203 en construcción, no validada para R-3."
     },
     {
       "id": "es-r4",
@@ -253,12 +253,12 @@
       "lng": -3.66624,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 5.5,
-      "price_high": 6.15,
+      "price": 6.15,
+      "price_high": null,
       "variable": true,
       "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r4_2026_0.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket. Full M-50-Ocana/A-40: telepeaje 5.50 / cash 6.15. Free 00:00-06:00, 21% VAT. 8-point OD matrix in TOLLS_RUNBOOK.md."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 5.50 telepeaje / 6.15 efectivo-tarjeta. Gratuito 00–06. Matriz entrada/salida necesaria."
     },
     {
       "id": "es-r5",
@@ -270,12 +270,12 @@
       "lng": -3.9106,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 3.25,
-      "price_high": 3.65,
+      "price": 3.65,
+      "price_high": null,
       "variable": true,
       "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r5_2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket, 'Accesos de Madrid' (shared with R-3). Full M-40/M-45-Conexion A-5: telepeaje 3.25 / cash 3.65. Free 00:00-06:00, 21% VAT."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 3.25 telepeaje / 3.65 efectivo-tarjeta. Gratuito 00–06. Matriz entrada/salida necesaria."
     },
     {
       "id": "es-m12",
@@ -287,12 +287,12 @@
       "lng": -3.59556,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 1.4,
-      "price_high": 1.55,
+      "price": 1.55,
+      "price_high": null,
       "variable": true,
       "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifa_m12_2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "OPEN two-point toll (not a true OD matrix). Peaje Barajas 0.90/1.00 + Peaje Alcobendas 0.50/0.55. price 1.40/1.55 = COMPUTED sum of both points for full Barajas-Alcobendas; PDF prints no combined cell. Free 00:00-06:00."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: Suma de dos puntos: 0.90 + 0.50 = 1.40 telepeaje; 1.00 + 0.55 = 1.55 efectivo-tarjeta. Gratuito 00–06. Coordenada incorrecta: nodo364900137 es Parking T4 Entrada (Aena), no un peaje M-12."
     },
     {
       "id": "es-ap7-cartagena-vera",
@@ -304,12 +304,12 @@
       "lng": -1.50692,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 10.15,
-      "price_high": 11.35,
+      "price": 11.35,
+      "price_high": null,
       "variable": true,
       "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap7cv_2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket. Full Vera-Cartagena: telepeaje 10.15 / cash 11.35. Free 00:00-06:00, 21% VAT. Almeria-Murcia coast."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 10.15 telepeaje / 11.35 efectivo-tarjeta. Gratuito 00–06. Matriz entrada/salida necesaria."
     },
     {
       "id": "es-ap36",
@@ -321,12 +321,12 @@
       "lng": -2.91674,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 12.35,
-      "price_high": 13.85,
+      "price": 13.85,
+      "price_high": null,
       "variable": true,
       "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap36_2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket. Full Corral Almaguer-San Clemente: telepeaje 12.35 / cash 13.85. Free 00:00-06:00, 21% VAT."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 12.35 telepeaje / 13.85 efectivo-tarjeta. Gratuito 00–06. Matriz entrada/salida necesaria."
     },
     {
       "id": "es-ap41",
@@ -338,12 +338,12 @@
       "lng": -3.86757,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 5.3,
-      "price_high": 5.95,
+      "price": 5.95,
+      "price_high": null,
       "variable": true,
       "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_ap41_2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket. Full R-5-Toledo: telepeaje 5.30 / cash 5.95. Free 00:00-06:00, 21% VAT."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 5.30 telepeaje / 5.95 efectivo-tarjeta. Gratuito 00–06. Matriz entrada/salida necesaria."
     },
     {
       "id": "es-cadi",
@@ -359,8 +359,8 @@
       "price_high": null,
       "variable": false,
       "source": "https://tunels.cat/es/tarifas-tuneles-del-cadi/",
-      "verified": "2026-07-18",
-      "notes": "Flat, Categoria 2 (turismos) 14.56 non-resident/no-discount (2026, +2.82%). No time variation. 100% bonification for Alt Urgell/Cerdanya/Bergueda residents via Consell Comarcal + ViaT. Key Barcelona<->Andorra crossing. Coord approx south (Baga) portal."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 14.56 general. No aplicar bonificación de residentes sin acreditar elegibilidad. Nodo del catálogo pertenece a C-16."
     },
     {
       "id": "es-vallvidrera",
@@ -376,8 +376,8 @@
       "price_high": 5.28,
       "variable": true,
       "source": "https://tunels.cat/es/tuneles-de-vallvidrera/",
-      "verified": "2026-07-18",
-      "notes": "Categoria 2 (turismos): off-peak 4.70 / peak 5.28 (2026, +2.99%). Peak = weekdays 07:30-10:30 & 17:00-21:00 only. Collserola tunnel Barcelona<->Sant Cugat."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 4.70 valle / 5.28 punta. Punta laborables 07:30–10:30 y 17–21. Nodo del catálogo pertenece a C-16; falta seleccionar tarifa por hora."
     },
     {
       "id": "es-c16-sant-cugat-terrassa",
@@ -389,34 +389,34 @@
       "lng": 2.03037,
       "model": "fixed",
       "vehicle_class": "light",
-      "price": 1.43,
-      "price_high": 3.19,
+      "price": 3.19,
+      "price_high": null,
       "variable": true,
       "source": "https://www.autema.com/es/tarifas-y-descuentos/tarifas/",
-      "verified": "2026-07-18",
-      "notes": "Effective turismo fare: 1.43 Mon-Fri non-holiday (with dynamic ViaT/Satelise peak discount) / 3.19 weekends+holidays (2026, ~+2.98%). Free round-trip if same barrier both ways within 24h Mon-Fri with registered payment. Base gross tariff higher pre-discount (~2.45)."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 3.19 general; 1.43 es condicional. No suponer Via-T/Satelise ni registro. Debe comprobarse cruce de la plaza."
     },
     {
       "id": "es-c16-terrassa-manresa",
       "country": "es",
-      "name": "C-16 Terrassa–Manresa (Autema, troncal Sant Vicenç de Castellet)",
+      "name": "C-16 Terrassa–Manresa (AUTEMA, barrera principal)",
       "road": "C-16",
       "operator": "Autema (Generalitat concession)",
       "lat": 41.65231,
       "lng": 1.86485,
       "model": "fixed",
       "vehicle_class": "light",
-      "price": 5.81,
-      "price_high": 9.76,
+      "price": 9.76,
+      "price_high": null,
       "variable": true,
       "source": "https://www.autema.com/es/tarifas-y-descuentos/tarifas/",
-      "verified": "2026-07-18",
-      "notes": "Effective turismo fare at Sant Vicenc de Castellet troncal: 5.81 Mon-Fri (dynamic-payment discount) / 9.76 weekends+holidays (2026, ~+2.96%). Same 24h round-trip + dynamic-payment scheme. Base gross ~4.88 pre-discount."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 9.76 general. Calculador AUTEMA Berga/Lleida/Girona–C58, turismo II, tarjeta, sin descuentos: 9.76. No confundir con lateral C55 4.90."
     },
     {
       "id": "es-c32-castelldefels-vendrell",
       "country": "es",
-      "name": "C-32 Castelldefels–El Vendrell (Autopista Pau Casals, inc. Túnels del Garraf)",
+      "name": "C-32 · Vallcarca troncal",
       "road": "C-32",
       "operator": "Aucat / Autopistas (Abertis), Generalitat concession",
       "lat": 41.2446,
@@ -427,13 +427,13 @@
       "price_high": null,
       "variable": true,
       "source": "https://www.autopistas.com/wp-content/uploads/2025/12/26_001-Aucat-C32-Castelldefels-Vendrell-T26.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed ticket (OD), Categoria II turismos, from 1-Jan-2026, 21% VAT. Representative full fare = Vallcarca troncal 8.42 (this section CONTAINS the Tunels del Garraf - there is NO separate Garraf toll). Cubelles troncal 5.03, acceso Cubelles 2.69, acceso Calafell 0.79. 'Movilidad obligada' discount halves fare. price depends on entry/exit."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 8.42 es solo Vallcarca; Cubelles troncal 5.03, acceso Cubelles 2.69, acceso Calafell 0.79. El recorrido completo por ambas troncales suma 13.45. El punto del catálogo pertenece a Peatge de Vallcarca; falta cobertura Cubelles y accesos."
     },
     {
       "id": "es-ag55",
       "country": "es",
-      "name": "AG-55 A Coruña – Carballo (Costa da Morte)",
+      "name": "AG-55 · Arteixo–Carballo",
       "road": "AG-55",
       "operator": "Autoestradas de Galicia (autonómica, Xunta)",
       "lat": 43.27626,
@@ -444,8 +444,8 @@
       "price_high": null,
       "variable": false,
       "source": "https://www.autoestradas.com/la-autopista/tarifas/",
-      "verified": "2026-07-18",
-      "notes": "AUTONOMIC (Xunta), not on ministry state list. Full A Coruna-Carballo turismo 2.05. Segments 0.55/0.75/1.30/0.85. Peajes FROZEN for 2026. 21% VAT. Bonif: 25/50% round-trip 24h, 50% nocturno, 100% familia numerosa."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 2.05 es Arteixo–Carballo, no A Coruña–Carballo. A Coruña–Arteixo 0.55; Paiosaco–Carballo 1.35. No aplicar descuentos por familia, retorno u horario automáticamente."
     },
     {
       "id": "es-ag57",
@@ -461,8 +461,8 @@
       "price_high": null,
       "variable": false,
       "source": "https://www.autoestradas.com/la-autopista/tarifas/",
-      "verified": "2026-07-18",
-      "notes": "AUTONOMIC (Xunta). Full Vigo-Baiona turismo 1.75. Segments Vigo-Vincios 0.40, Vigo-Gondomar 0.90, Vigo-Nigran 1.20. Peaje FROZEN 2026. 21% VAT. Same bonif as AG-55."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 1.75 general. Vigo–Vincios 0.40, Vigo–Gondomar 0.90, Vigo–Nigrán 1.20. No aplicar beneficios personales automáticamente."
     },
     {
       "id": "es-ap15",
@@ -474,36 +474,36 @@
       "lng": -1.72641,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 9.23,
-      "price_high": 14.05,
+      "price": 14.05,
+      "price_high": null,
       "variable": true,
       "source": "https://www.audenasa.es/wp-content/uploads/Tarifas-2026-Recorrido.pdf",
-      "verified": "2026-07-18",
-      "notes": "OPEN barrier system (NOT closed ticket): 3 troncal plazas Sarasa 2.65/1.77, Tiebas 4.55/2.99, Marcilla 6.85/4.47 + ramp plazas Marcilla enlace 3.45/2.29, Zuasti 0.90/0.59 (base/registered Via-T). price 9.23 = full Irurzun-AP-68 with Via-T REGISTERED with AUDENASA (~35% off, any driver, in-person signup); price_high 14.05 = cash/unregistered. Round trip with return <72h: return leg free (4.615/leg). No time/season variation. 2026 tariffs: Acuerdo Gobierno de Navarra 23-12-2025 (BON 258). Concession ends 8-Jun-2029; Gobierno announced (Feb-2026) free for turismos after. Coord = Marcilla tronco plaza."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 2.65 + 4.55 + 6.85 = 14.05 general. 9.23 no debe ser valor predeterminado: requiere bonificación. Marcilla acceso 3.45 es otro punto. Una coordenada en Marcilla no representa tres plazas."
     },
     {
       "id": "es-ap8-gipuzkoa",
       "country": "es",
-      "name": "AP-8 Ermua – Behobia (Gipuzkoa)",
+      "name": "AP-8 Gipuzkoa (muga Bizkaia – Behobia)",
       "road": "AP-8",
       "operator": "Bidegi (Diputación Foral de Gipuzkoa)",
       "lat": 43.27919,
       "lng": -2.15918,
       "model": "ticket",
       "vehicle_class": "light",
-      "price": 11.52,
+      "price": 11.03,
       "price_high": null,
       "variable": false,
       "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket, Gipuzkoa stretch only (Ermua/Bizkaia border - Behobia/French border, 75 km). Full Ermua-Behobia 11.52 (Ermua-Donostia 8.37 + Donostia-Behobia 3.15). Single tariff: no cash/telepeaje/peak difference; discounts are monthly TAG refunds (round-trip -0.59 at select plazas, progressive 25/55/75% from 6+ transits/month, 38.02 monthly cap). Bidegi 2026 tariff PDF (vigentes desde 01.01.2026). Coord approx Zarautz main plaza."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: Referencia alineada con el final de Bizkaia: 7.88 hasta Zarautz barrera/Donostia + 3.15 Donostia–Behobia = 11.03. La antigua referencia Ermua–Behobia 11.52 se solapaba con Bizkaia. Para viajes reales usar matriz conjunta; los ODs no son arbitrariamente aditivos. Joint boundary table: https://www.arabat.eus/es/ap-1/tarifas-ap-1/"
     },
     {
       "id": "es-ap1-gipuzkoa",
       "country": "es",
-      "name": "AP-1 Bergara – Etxabarri-Ibiña (Gipuzkoa)",
+      "name": "AP-1 Bergara H/S–Etxabarri-Ibiña",
       "road": "AP-1",
-      "operator": "Bidegi (Diputación Foral de Gipuzkoa)",
+      "operator": "Bidegi / Arabat",
       "lat": 42.92858,
       "lng": -2.64734,
       "model": "ticket",
@@ -512,8 +512,8 @@
       "price_high": null,
       "variable": false,
       "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket. Tolled Gipuzkoa section Bergara (AP-8 junction) - Etxabarri-Ibina (Alava border, Isuskitza tunnel), 31.9 km; beyond toward Vitoria/Burgos is state-run and FREE since Dec-2018. Full Bergara H/S-Etxabarri-Ibina 7.56; Arrasate-Etxabarri 6.79, Eskoriatza-Etxabarri 5.22. Single tariff, no variation. Bidegi 2026 PDF. Coord approx Etxabarri-Ibina plaza."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 7.56 corresponde a Bergara H/S, no al enlace AP-8 de Maltzaga. Maltzaga–Etxabarri-Ibiña es 9.73 en tabla Arabat. El recorrido incluye Álava; no afirmar que todo Álava es gratuito."
     },
     {
       "id": "es-ap636",
@@ -523,14 +523,14 @@
       "operator": "Bidegi (Diputación Foral de Gipuzkoa)",
       "lat": 43.09349,
       "lng": -2.43065,
-      "model": "fixed",
+      "model": "ticket",
       "vehicle_class": "light",
       "price": 2.79,
       "price_high": null,
       "variable": false,
       "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
-      "verified": "2026-07-18",
-      "notes": "FREE-FLOW, no booths: plate/TAG portals at Beasain, Ezkio, Deskarga + Antzuola semi-portal; mandatory for all motor vehicles except motorcycles (plate must be pre-registered with Bidegi if no Via-T). price 2.79 = COMPUTED sum of 3 segments: Beasain-Ormaiztegi 0.42 + Ormaiztegi-Zumarraga 0.82 + Legazpi/Urretxu-Bergara 1.55 (no printed full-run cell, like M-12). Single tariff. Coord mid-road."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 0.42 + 0.82 + 1.55 = 2.79. No es tarifa fija de una cabina. Falta mapear pórticos y recorridos parciales; nodo2125622899 está en un enlace hacia AP-636/GI-627, no prueba cruce de los tres pórticos."
     },
     {
       "id": "es-ap8-bizkaia",
@@ -545,9 +545,9 @@
       "price": 5.93,
       "price_high": null,
       "variable": false,
-      "source": "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20AP8-AP1%2001-01-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket, Bizkaia stretch (Galdakao/AP-68 junction - limite Gipuzkoa near Ermua). Full Accesos Oeste-Limite 5.93. ODs: Accesos Oeste-Ermua 4.60, -Abadino 3.30, -Iurreta 2.80, -Amorebieta-Etxano 1.05; Iurreta-Abadino FREE (0.00 kept in the 2026 decree). Single flat tariff, no peak/payment variation; OBE benefits are after-the-fact refunds (1.05 local-hop adjustment, EV -25%, Bizkaia-resident monthly subsidy DF 108/2025). Decreto Foral 147/2025 + Interbiak 2026 PDF. Coord mid-road."
+      "source": "https://www.arabat.eus/es/ap-1/tarifas-ap-1/",
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 5.93 verificado en tabla conjunta de Arabat. 4.60 corresponde a Ermua, que es otro extremo. Conservar 5.93 y alinear referencia Gipuzkoa con la muga. Descuentos requieren elegibilidad. Joint boundary table: https://www.arabat.eus/es/ap-1/tarifas-ap-1/"
     },
     {
       "id": "es-supersur",
@@ -563,8 +563,8 @@
       "price_high": null,
       "variable": false,
       "source": "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20VSM%2001-01-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Closed/ticket, southern Bilbao bypass Arrigorriaga-Santurtzi (~13.5 km). Full traversal 2.05 (Arrigorriaga-Bilbao Sur 1.20, Bilbao Sur-Santurtzi 1.20). Flat 24h single tariff: the 00:00-06:00 'tarifa 0' was ABOLISHED for 2026. Same OBE refunds as AP-8 Bizkaia. Decreto Foral 147/2025 + Interbiak 2026 PDF. Coord mid-road."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 2.05 general, confirmado en PDF 2026. Arrigorriaga–Ortuella 1.85; Arrigorriaga–Bilbao Sur 1.20. El PDF aplica tarifa día/noche; no asumir gratuidad nocturna antigua."
     },
     {
       "id": "es-artxanda",
@@ -580,8 +580,25 @@
       "price_high": null,
       "variable": false,
       "source": "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20TA%2001-01-2026.pdf",
-      "verified": "2026-07-18",
-      "notes": "Fixed per crossing, charged BOTH directions; barrier-free multi-lane free-flow gantries since 2023 (no booths). 1.55 light (2025: 1.50; night 'tarifa 0' also abolished 2026 - now charged 24h). EV -25% with OBE. Tunel 2 (Ugasko/Deusto-Txorierri) closed from 3-Feb-2026 ~6 months for works - all traffic via Tunel 1 (La Salve). Decreto Foral 147/2025 + Interbiak 2026 PDF. Coord approx La Salve (Bilbao) portal."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 1.55 general en tabla 2026, día y noche. El punto almacenado está sobre vía de servicio, no demuestra cruce del túnel/pórtico. Retirada nota de cierre temporal sin verificar estado actual."
+    },
+    {
+      "id": "es-c16-sant-vicenc-c55",
+      "country": "es",
+      "name": "C-16 Ramal Sant Vicenç–C55 (AUTEMA)",
+      "road": "C-16",
+      "operator": "AUTEMA",
+      "lat": 41.6495256,
+      "lng": 1.8606345,
+      "model": "fixed",
+      "vehicle_class": "light",
+      "price": 4.9,
+      "price_high": null,
+      "variable": true,
+      "source": "https://www.autema.com/es/tarificador/",
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 4.90 general. Calculador AUTEMA Castellbell i el Vilar–C58, turismo II, tarjeta, sin descuentos: 4.90. Nodo2024620547/way515278833 contrastados con ruta de validación anterior."
     }
   ]
 }

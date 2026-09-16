@@ -1,0 +1,29 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.2928223,
+        "lon": -8.2978405
+      },
+      {
+        "lat": 43.3528613,
+        "lon": -8.2065446
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 350,
+  "sourceRow": {
+    "page": 1,
+    "line": 27,
+    "printed": "MIÑO - A CORUÑA                                 3,50           3,20          4,25"
+  }
+}

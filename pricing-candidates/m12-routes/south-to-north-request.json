@@ -1,0 +1,21 @@
+{
+  "locations": [
+    {
+      "lat": 40.4568234,
+      "lon": -3.6121239
+    },
+    {
+      "lat": 40.5317147,
+      "lon": -3.6160477
+    }
+  ],
+  "costing": "auto",
+  "costing_options": {
+    "auto": {
+      "use_tolls": 1
+    }
+  },
+  "directions_options": {
+    "units": "kilometers"
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "M40",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 31165865,
+      "version": 9,
+      "node": 261208545,
+      "outsideNode": 346866638
+    },
+    {
+      "zone": "M40",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 23725720,
+      "version": 9,
+      "node": 256922957,
+      "outsideNode": 256923202
+    },
+    {
+      "zone": "M45",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 368920339,
+      "version": 5,
+      "node": 346858786,
+      "outsideNode": 346861003
+    },
+    {
+      "zone": "M45",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1223180452,
+      "version": 3,
+      "node": 346868255,
+      "outsideNode": 3714255231
+    },
+    {
+      "zone": "M45-oeste",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 520247005,
+      "version": 5,
+      "node": 256922949,
+      "outsideNode": 256922947
+    },
+    {
+      "zone": "M45-oeste",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 35471377,
+      "version": 8,
+      "node": 346864447,
+      "outsideNode": 5071076888
+    },
+    {
+      "zone": "M50",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 312603283,
+      "version": 5,
+      "node": 1080662618,
+      "outsideNode": 352685028
+    },
+    {
+      "zone": "M50",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1223186516,
+      "version": 2,
+      "node": 1865088683,
+      "outsideNode": 307862075
+    },
+    {
+      "zone": "M50-oeste",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 312603278,
+      "version": 5,
+      "node": 352684580,
+      "outsideNode": 1080662368
+    },
+    {
+      "zone": "M50-oeste",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 31512165,
+      "version": 12,
+      "node": 5313450724,
+      "outsideNode": 415935675
+    },
+    {
+      "zone": "M208",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 36072206,
+      "version": 6,
+      "node": 304009292,
+      "outsideNode": 421419554
+    },
+    {
+      "zone": "M208",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 36072236,
+      "version": 6,
+      "node": 1119321167,
+      "outsideNode": 421419575
+    },
+    {
+      "zone": "M208-oeste",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 36072258,
+      "version": 7,
+      "node": 1119321139,
+      "outsideNode": 421419795
+    },
+    {
+      "zone": "M208-oeste",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 36072228,
+      "version": 11,
+      "node": 1119321129,
+      "outsideNode": 304009286
+    },
+    {
+      "zone": "M300",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 550110519,
+      "version": 4,
+      "node": 261612896,
+      "outsideNode": 306085166
+    },
+    {
+      "zone": "M300",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 27697194,
+      "version": 8,
+      "node": 304176066,
+      "outsideNode": 3519117173
+    },
+    {
+      "zone": "A3",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 35804478,
+      "version": 11,
+      "node": 307863152,
+      "outsideNode": 418628022
+    },
+    {
+      "zone": "A3",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 368926230,
+      "version": 4,
+      "node": 5313504556,
+      "outsideNode": 304010236
+    }
+  ],
+  "probeLocations": {
+    "M40": {
+      "entry": {
+        "lat": 40.4084483,
+        "lng": -3.5889242
+      },
+      "exit": {
+        "lat": 40.4086245,
+        "lng": -3.5888056
+      }
+    },
+    "M45": {
+      "entry": {
+        "lat": 40.3990924,
+        "lng": -3.5691825
+      },
+      "exit": {
+        "lat": 40.3997646,
+        "lng": -3.5680878
+      }
+    },
+    "M45-oeste": {
+      "entry": {
+        "lat": 40.4042124,
+        "lng": -3.5779609
+      },
+      "exit": {
+        "lat": 40.4019771,
+        "lng": -3.5767794
+      }
+    },
+    "M50": {
+      "entry": {
+        "lat": 40.393696,
+        "lng": -3.5293263
+      },
+      "exit": {
+        "lat": 40.3952401,
+        "lng": -3.522775
+      }
+    },
+    "M50-oeste": {
+      "entry": {
+        "lat": 40.3950943,
+        "lng": -3.5361503
+      },
+      "exit": {
+        "lat": 40.3942628,
+        "lng": -3.5375935
+      }
+    },
+    "M208": {
+      "entry": {
+        "lat": 40.3824405,
+        "lng": -3.4898103
+      },
+      "exit": {
+        "lat": 40.3831474,
+        "lng": -3.4888372
+      }
+    },
+    "M208-oeste": {
+      "entry": {
+        "lat": 40.383855,
+        "lng": -3.4908389
+      },
+      "exit": {
+        "lat": 40.383201,
+        "lng": -3.4911386
+      }
+    },
+    "M300": {
+      "entry": {
+        "lat": 40.3233808,
+        "lng": -3.4445041
+      },
+      "exit": {
+        "lat": 40.3233803,
+        "lng": -3.4445991
+      }
+    },
+    "A3": {
+      "entry": {
+        "lat": 40.315231,
+        "lng": -3.433982
+      },
+      "exit": {
+        "lat": 40.3151812,
+        "lng": -3.4342403
+      }
+    }
+  },
+  "probeJourneys": {
+    "M40--M45": {
+      "entry": {
+        "lat": 40.4084483,
+        "lng": -3.5889242
+      },
+      "exit": {
+        "lat": 40.4019771,
+        "lng": -3.5767794
+      },
+      "expectedGates": [
+        "M40-entry",
+        "M45-oeste-exit"
+      ]
+    },
+    "M40--M50": {
+      "entry": {
+        "lat": 40.4084483,
+        "lng": -3.5889242
+      },
+      "exit": {
+        "lat": 40.3942628,
+        "lng": -3.5375935
+      },
+      "expectedGates": [
+        "M40-entry",
+        "M50-oeste-exit"
+      ]
+    },
+    "M40--M208": {
+      "entry": {
+        "lat": 40.4084483,
+        "lng": -3.5889242
+      },
+      "exit": {
+        "lat": 40.383201,
+        "lng": -3.4911386
+      },
+      "expectedGates": [
+        "M40-entry",
+        "M208-oeste-exit"
+      ]
+    },
+    "M40--M300": {
+      "entry": {
+        "lat": 40.4084483,
+        "lng": -3.5889242
+      },
+      "exit": {
+        "lat": 40.3233803,
+        "lng": -3.4445991
+      },
+      "expectedGates": [
+        "M40-entry",
+        "M300-exit"
+      ]
+    },
+    "M40--A3": {
+      "entry": {
+        "lat": 40.4084483,
+        "lng": -3.5889242
+      },
+      "exit": {
+        "lat": 40.3151812,
+        "lng": -3.4342403
+      },
+      "expectedGates": [
+        "M40-entry",
+        "A3-exit"
+      ]
+    },
+    "M45--M40": {
+      "entry": {
+        "lat": 40.4042124,
+        "lng": -3.5779609
+      },
+      "exit": {
+        "lat": 40.4086245,
+        "lng": -3.5888056
+      },
+      "expectedGates": [
+        "M45-oeste-entry",
+        "M40-exit"
+      ]
+    },
+    "M45--M50": {
+      "entry": {
+        "lat": 40.3990924,
+        "lng": -3.5691825
+      },
+      "exit": {
+        "lat": 40.3942628,
+        "lng": -3.5375935
+      },
+      "expectedGates": [
+        "M45-entry",
+        "M50-oeste-exit"
+      ]
+    },
+    "M45--M208": {
+      "entry": {
+        "lat": 40.3990924,
+        "lng": -3.5691825
+      },
+      "exit": {
+        "lat": 40.383201,
+        "lng": -3.4911386
+      },
+      "expectedGates": [
+        "M45-entry",
+        "M208-oeste-exit"
+      ]
+    },
+    "M45--M300": {
+      "entry": {
+        "lat": 40.3990924,
+        "lng": -3.5691825
+      },
+      "exit": {
+        "lat": 40.3233803,
+        "lng": -3.4445991
+      },
+      "expectedGates": [
+        "M45-entry",
+        "M300-exit"
+      ]
+    },
+    "M45--A3": {
+      "entry": {
+        "lat": 40.3990924,
+        "lng": -3.5691825
+      },
+      "exit": {
+        "lat": 40.3151812,
+        "lng": -3.4342403
+      },
+      "expectedGates": [
+        "M45-entry",
+        "A3-exit"
+      ]
+    },
+    "M50--M40": {
+      "entry": {
+        "lat": 40.3950943,
+        "lng": -3.5361503
+      },
+      "exit": {
+        "lat": 40.4086245,
+        "lng": -3.5888056
+      },
+      "expectedGates": [
+        "M50-oeste-entry",
+        "M40-exit"
+      ]
+    },
+    "M50--M45": {
+      "entry": {
+        "lat": 40.3950943,
+        "lng": -3.5361503
+      },
+      "exit": {
+        "lat": 40.3997646,
+        "lng": -3.5680878
+      },
+      "expectedGates": [
+        "M50-oeste-entry",
+        "M45-exit"
+      ]
+    },
+    "M50--M300": {
+      "entry": {
+        "lat": 40.393696,
+        "lng": -3.5293263
+      },
+      "exit": {
+        "lat": 40.3233803,
+        "lng": -3.4445991
+      },
+      "expectedGates": [
+        "M50-entry",
+        "M300-exit"
+      ]
+    },
+    "M50--A3": {
+      "entry": {
+        "lat": 40.393696,
+        "lng": -3.5293263
+      },
+      "exit": {
+        "lat": 40.3151812,
+        "lng": -3.4342403
+      },
+      "expectedGates": [
+        "M50-entry",
+        "A3-exit"
+      ]
+    },
+    "M208--M40": {
+      "entry": {
+        "lat": 40.383855,
+        "lng": -3.4908389
+      },
+      "exit": {
+        "lat": 40.4086245,
+        "lng": -3.5888056
+      },
+      "expectedGates": [
+        "M208-oeste-entry",
+        "M40-exit"
+      ]
+    },
+    "M208--M45": {
+      "entry": {
+        "lat": 40.383855,
+        "lng": -3.4908389
+      },
+      "exit": {
+        "lat": 40.3997646,
+        "lng": -3.5680878
+      },
+      "expectedGates": [
+        "M208-oeste-entry",
+        "M45-exit"
+      ]
+    },
+    "M208--M300": {
+      "entry": {
+        "lat": 40.3824405,
+        "lng": -3.4898103
+      },
+      "exit": {
+        "lat": 40.3233803,
+        "lng": -3.4445991
+      },
+      "expectedGates": [
+        "M208-entry",
+        "M300-exit"
+      ]
+    },
+    "M208--A3": {
+      "entry": {
+        "lat": 40.3824405,
+        "lng": -3.4898103
+      },
+      "exit": {
+        "lat": 40.3151812,
+        "lng": -3.4342403
+      },
+      "expectedGates": [
+        "M208-entry",
+        "A3-exit"
+      ]
+    },
+    "M300--M40": {
+      "entry": {
+        "lat": 40.3233808,
+        "lng": -3.4445041
+      },
+      "exit": {
+        "lat": 40.4086245,
+        "lng": -3.5888056
+      },
+      "expectedGates": [
+        "M300-entry",
+        "M40-exit"
+      ]
+    },
+    "M300--M45": {
+      "entry": {
+        "lat": 40.3233808,
+        "lng": -3.4445041
+      },
+      "exit": {
+        "lat": 40.3997646,
+        "lng": -3.5680878
+      },
+      "expectedGates": [
+        "M300-entry",
+        "M45-exit"
+      ]
+    },
+    "M300--M50": {
+      "entry": {
+        "lat": 40.3233808,
+        "lng": -3.4445041
+      },
+      "exit": {
+        "lat": 40.3952401,
+        "lng": -3.522775
+      },
+      "expectedGates": [
+        "M300-entry",
+        "M50-exit"
+      ]
+    },
+    "M300--M208": {
+      "entry": {
+        "lat": 40.3233808,
+        "lng": -3.4445041
+      },
+      "exit": {
+        "lat": 40.3831474,
+        "lng": -3.4888372
+      },
+      "expectedGates": [
+        "M300-entry",
+        "M208-exit"
+      ]
+    },
+    "A3--M40": {
+      "entry": {
+        "lat": 40.315231,
+        "lng": -3.433982
+      },
+      "exit": {
+        "lat": 40.4086245,
+        "lng": -3.5888056
+      },
+      "expectedGates": [
+        "A3-entry",
+        "M40-exit"
+      ]
+    },
+    "A3--M45": {
+      "entry": {
+        "lat": 40.315231,
+        "lng": -3.433982
+      },
+      "exit": {
+        "lat": 40.3997646,
+        "lng": -3.5680878
+      },
+      "expectedGates": [
+        "A3-entry",
+        "M45-exit"
+      ]
+    },
+    "A3--M50": {
+      "entry": {
+        "lat": 40.315231,
+        "lng": -3.433982
+      },
+      "exit": {
+        "lat": 40.3952401,
+        "lng": -3.522775
+      },
+      "expectedGates": [
+        "A3-entry",
+        "M50-exit"
+      ]
+    },
+    "A3--M208": {
+      "entry": {
+        "lat": 40.315231,
+        "lng": -3.433982
+      },
+      "exit": {
+        "lat": 40.3831474,
+        "lng": -3.4888372
+      },
+      "expectedGates": [
+        "A3-entry",
+        "M208-exit"
+      ]
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

@@ -1,0 +1,28 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.5313121,
+        "lon": -3.5865594,
+        "heading": 58
+      },
+      {
+        "lat": 40.6686135,
+        "lon": -3.166278
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "sourceProbeBooth": 353914976,
+  "expectedGeneralCents": 580,
+  "expectedViaTCents": 515,
+  "expectedOpenBarriers": 1
+}

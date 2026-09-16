@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<changeset id="174238555" created_at="2025-11-05T12:18:17Z" open="false" comments_count="0" changes_count="530" created_count="16" modified_count="380" deleted_count="134" closed_at="2025-11-05T12:18:24Z" min_lat="41.1965884" min_lon="1.5215603" max_lat="41.3330496" max_lon="2.0647951" uid="11454828" user="MarinoBM">
+  <tag k="changesets_count" v="4650"/>
+  <tag k="comment" v="Nombrar todos los tramos de la autopista A-32 Autopista Pau Casals."/>
+  <tag k="created_by" v="iD 2.37.3"/>
+  <tag k="host" v="https://www.openstreetmap.org/edit"/>
+  <tag k="imagery_used" v="ICGC - Ortofoto de Catalunya;PNOA Spain"/>
+  <tag k="locale" v="es"/>
+  <tag k="resolved:crossing_ways:highway-waterway" v="6"/>
+  <discussion>
+  </discussion>
+</changeset>
+</osm>

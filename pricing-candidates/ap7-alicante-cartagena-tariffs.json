@@ -1,0 +1,97 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-alicante---cartagena-2026.pdf",
+  "sha256": "2f30eae191dad574bcfc7f86089b399cf4bdf002d1a74895856335033951ef92",
+  "barriers": [
+    {
+      "name": "TRONCAL DE LOS MONTESINOS",
+      "tariff": {
+        "baseCents": 285,
+        "bands": [
+          {
+            "cents": 510,
+            "dates": [
+              "2026-06-01",
+              "2026-09-30"
+            ]
+          },
+          {
+            "cents": 510,
+            "dates": [
+              "2026-03-27",
+              "2026-04-12"
+            ]
+          }
+        ]
+      },
+      "sourceRows": {
+        "normal": "TRONCAL DE LOS MONTESINOS                                                           2,85      5,10      6,50",
+        "special": "TRONCAL DE LOS MONTESINOS                                                           5,10      5,95      7,20"
+      }
+    },
+    {
+      "name": "ACCESO DE LA ZENIA",
+      "tariff": {
+        "baseCents": 285,
+        "bands": [
+          {
+            "cents": 510,
+            "dates": [
+              "2026-06-01",
+              "2026-09-30"
+            ]
+          },
+          {
+            "cents": 510,
+            "dates": [
+              "2026-03-27",
+              "2026-04-12"
+            ]
+          }
+        ]
+      },
+      "sourceRows": {
+        "normal": "ACCESO DE LA ZENIA                                                                  2,85      5,10      6,50",
+        "special": "ACCESO DE LA ZENIA                                                                  5,10      5,95      7,20"
+      }
+    },
+    {
+      "name": "TRONCAL DE LA ZENIA",
+      "tariff": {
+        "baseCents": 285,
+        "bands": [
+          {
+            "cents": 510,
+            "dates": [
+              "2026-06-01",
+              "2026-09-30"
+            ]
+          },
+          {
+            "cents": 510,
+            "dates": [
+              "2026-03-27",
+              "2026-04-12"
+            ]
+          }
+        ]
+      },
+      "sourceRows": {
+        "normal": "TRONCAL DE LA ZENIA                                                                 2,85      5,10      6,50",
+        "special": "TRONCAL DE LA ZENIA                                                                 5,10      5,95      7,20"
+      }
+    }
+  ],
+  "notes": [
+    "General light-vehicle rate; frequent-user status is not assumed from Via-T ownership.",
+    "High season June–September and the 17 days from Friday of Passion Week through Sunday after Easter (2026-03-27 through 2026-04-12).",
+    "Map each actual barrier/access before pricing routes; never charge the sum of all catalog barriers to every journey."
+  ]
+}

@@ -1,0 +1,1348 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap36_2026.pdf",
+  "sha256": "f533959e737e6317dc440228d2f65fb49f7c07b7caa01a5860fdf10512943aff",
+  "publishedAccesses": [
+    "Troncal Corral Almaguer",
+    "Lateral Corral Almaguer",
+    "Quintanar Orden",
+    "Mota Cuervo",
+    "Pedernoso",
+    "Troncal San Clemente"
+  ],
+  "ods": [
+    {
+      "from": "Troncal Corral Almaguer",
+      "to": "Lateral Corral Almaguer",
+      "tariff": {
+        "baseCents": 355,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 315,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 2,
+        "printedRow": "Troncal Corral Almaguer",
+        "viaTBox": [
+          280.73,
+          145.97,
+          292.844,
+          152.81
+        ],
+        "generalBox": [
+          327.89,
+          145.97,
+          340.004,
+          152.81
+        ]
+      }
+    },
+    {
+      "from": "Troncal Corral Almaguer",
+      "to": "Quintanar Orden",
+      "tariff": {
+        "baseCents": 590,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 525,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 3,
+        "printedRow": "Troncal Corral Almaguer",
+        "viaTBox": [
+          377.21,
+          145.97,
+          389.324,
+          152.81
+        ],
+        "generalBox": [
+          426.53,
+          145.97,
+          438.644,
+          152.81
+        ]
+      }
+    },
+    {
+      "from": "Troncal Corral Almaguer",
+      "to": "Mota Cuervo",
+      "tariff": {
+        "baseCents": 830,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 740,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 4,
+        "printedRow": "Troncal Corral Almaguer",
+        "viaTBox": [
+          475.87,
+          145.97,
+          487.984,
+          152.81
+        ],
+        "generalBox": [
+          525.19,
+          145.97,
+          537.304,
+          152.81
+        ]
+      }
+    },
+    {
+      "from": "Troncal Corral Almaguer",
+      "to": "Pedernoso",
+      "tariff": {
+        "baseCents": 1055,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 940,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 5,
+        "printedRow": "Troncal Corral Almaguer",
+        "viaTBox": [
+          572.35,
+          145.97,
+          584.464,
+          152.81
+        ],
+        "generalBox": [
+          617.74,
+          145.97,
+          633.315,
+          152.81
+        ]
+      }
+    },
+    {
+      "from": "Troncal Corral Almaguer",
+      "to": "Troncal San Clemente",
+      "tariff": {
+        "baseCents": 1385,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 1235,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 6,
+        "printedRow": "Troncal Corral Almaguer",
+        "viaTBox": [
+          667.06,
+          145.97,
+          682.635,
+          152.81
+        ],
+        "generalBox": [
+          716.38,
+          145.97,
+          731.955,
+          152.81
+        ]
+      }
+    },
+    {
+      "from": "Lateral Corral Almaguer",
+      "to": "Troncal Corral Almaguer",
+      "tariff": {
+        "baseCents": 355,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 315,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 1,
+        "printedRow": "Lateral Corral Almaguer",
+        "viaTBox": [
+          184.22,
+          156.05,
+          196.334,
+          162.89
+        ],
+        "generalBox": [
+          233.54,
+          156.05,
+          245.654,
+          162.89
+        ]
+      }
+    },
+    {
+      "from": "Lateral Corral Almaguer",
+      "to": "Quintanar Orden",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 3,
+        "printedRow": "Lateral Corral Almaguer",
+        "viaTBox": [
+          377.21,
+          156.05,
+          389.324,
+          162.89
+        ],
+        "generalBox": [
+          426.53,
+          156.05,
+          438.644,
+          162.89
+        ]
+      }
+    },
+    {
+      "from": "Lateral Corral Almaguer",
+      "to": "Mota Cuervo",
+      "tariff": {
+        "baseCents": 475,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 425,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 4,
+        "printedRow": "Lateral Corral Almaguer",
+        "viaTBox": [
+          475.87,
+          156.05,
+          487.984,
+          162.89
+        ],
+        "generalBox": [
+          525.19,
+          156.05,
+          537.304,
+          162.89
+        ]
+      }
+    },
+    {
+      "from": "Lateral Corral Almaguer",
+      "to": "Pedernoso",
+      "tariff": {
+        "baseCents": 705,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 630,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 5,
+        "printedRow": "Lateral Corral Almaguer",
+        "viaTBox": [
+          572.35,
+          156.05,
+          584.464,
+          162.89
+        ],
+        "generalBox": [
+          619.54,
+          156.05,
+          631.654,
+          162.89
+        ]
+      }
+    },
+    {
+      "from": "Lateral Corral Almaguer",
+      "to": "Troncal San Clemente",
+      "tariff": {
+        "baseCents": 1035,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 920,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 6,
+        "printedRow": "Lateral Corral Almaguer",
+        "viaTBox": [
+          668.86,
+          156.05,
+          680.974,
+          162.89
+        ],
+        "generalBox": [
+          716.38,
+          156.05,
+          731.955,
+          162.89
+        ]
+      }
+    },
+    {
+      "from": "Quintanar Orden",
+      "to": "Troncal Corral Almaguer",
+      "tariff": {
+        "baseCents": 590,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 525,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 1,
+        "printedRow": "Quintanar Orden",
+        "viaTBox": [
+          184.22,
+          166.13,
+          196.334,
+          172.97
+        ],
+        "generalBox": [
+          233.54,
+          166.13,
+          245.654,
+          172.97
+        ]
+      }
+    },
+    {
+      "from": "Quintanar Orden",
+      "to": "Lateral Corral Almaguer",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 2,
+        "printedRow": "Quintanar Orden",
+        "viaTBox": [
+          280.73,
+          166.13,
+          292.844,
+          172.97
+        ],
+        "generalBox": [
+          327.89,
+          166.13,
+          340.004,
+          172.97
+        ]
+      }
+    },
+    {
+      "from": "Quintanar Orden",
+      "to": "Mota Cuervo",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 4,
+        "printedRow": "Quintanar Orden",
+        "viaTBox": [
+          475.87,
+          166.13,
+          487.984,
+          172.97
+        ],
+        "generalBox": [
+          525.19,
+          166.13,
+          537.304,
+          172.97
+        ]
+      }
+    },
+    {
+      "from": "Quintanar Orden",
+      "to": "Pedernoso",
+      "tariff": {
+        "baseCents": 470,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 420,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 5,
+        "printedRow": "Quintanar Orden",
+        "viaTBox": [
+          572.35,
+          166.13,
+          584.464,
+          172.97
+        ],
+        "generalBox": [
+          619.54,
+          166.13,
+          631.654,
+          172.97
+        ]
+      }
+    },
+    {
+      "from": "Quintanar Orden",
+      "to": "Troncal San Clemente",
+      "tariff": {
+        "baseCents": 795,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 710,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 6,
+        "printedRow": "Quintanar Orden",
+        "viaTBox": [
+          668.86,
+          166.13,
+          680.974,
+          172.97
+        ],
+        "generalBox": [
+          718.18,
+          166.13,
+          730.294,
+          172.97
+        ]
+      }
+    },
+    {
+      "from": "Mota Cuervo",
+      "to": "Troncal Corral Almaguer",
+      "tariff": {
+        "baseCents": 830,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 740,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 1,
+        "printedRow": "Mota Cuervo",
+        "viaTBox": [
+          184.22,
+          176.21,
+          196.334,
+          183.05
+        ],
+        "generalBox": [
+          233.54,
+          176.21,
+          245.654,
+          183.05
+        ]
+      }
+    },
+    {
+      "from": "Mota Cuervo",
+      "to": "Lateral Corral Almaguer",
+      "tariff": {
+        "baseCents": 475,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 425,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 2,
+        "printedRow": "Mota Cuervo",
+        "viaTBox": [
+          280.73,
+          176.21,
+          292.844,
+          183.05
+        ],
+        "generalBox": [
+          327.89,
+          176.21,
+          340.004,
+          183.05
+        ]
+      }
+    },
+    {
+      "from": "Mota Cuervo",
+      "to": "Quintanar Orden",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 3,
+        "printedRow": "Mota Cuervo",
+        "viaTBox": [
+          377.21,
+          176.21,
+          389.324,
+          183.05
+        ],
+        "generalBox": [
+          426.53,
+          176.21,
+          438.644,
+          183.05
+        ]
+      }
+    },
+    {
+      "from": "Mota Cuervo",
+      "to": "Pedernoso",
+      "tariff": {
+        "baseCents": 230,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 5,
+        "printedRow": "Mota Cuervo",
+        "viaTBox": [
+          572.35,
+          176.21,
+          584.464,
+          183.05
+        ],
+        "generalBox": [
+          619.54,
+          176.21,
+          631.654,
+          183.05
+        ]
+      }
+    },
+    {
+      "from": "Mota Cuervo",
+      "to": "Troncal San Clemente",
+      "tariff": {
+        "baseCents": 560,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 500,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 6,
+        "printedRow": "Mota Cuervo",
+        "viaTBox": [
+          668.86,
+          176.21,
+          680.974,
+          183.05
+        ],
+        "generalBox": [
+          718.18,
+          176.21,
+          730.294,
+          183.05
+        ]
+      }
+    },
+    {
+      "from": "Pedernoso",
+      "to": "Troncal Corral Almaguer",
+      "tariff": {
+        "baseCents": 1055,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 940,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 1,
+        "printedRow": "Pedernoso",
+        "viaTBox": [
+          184.22,
+          186.32,
+          196.334,
+          193.16
+        ],
+        "generalBox": [
+          231.74,
+          186.32,
+          247.315,
+          193.16
+        ]
+      }
+    },
+    {
+      "from": "Pedernoso",
+      "to": "Lateral Corral Almaguer",
+      "tariff": {
+        "baseCents": 705,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 630,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 2,
+        "printedRow": "Pedernoso",
+        "viaTBox": [
+          280.73,
+          186.32,
+          292.844,
+          193.16
+        ],
+        "generalBox": [
+          327.89,
+          186.32,
+          340.004,
+          193.16
+        ]
+      }
+    },
+    {
+      "from": "Pedernoso",
+      "to": "Quintanar Orden",
+      "tariff": {
+        "baseCents": 470,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 420,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 3,
+        "printedRow": "Pedernoso",
+        "viaTBox": [
+          377.21,
+          186.32,
+          389.324,
+          193.16
+        ],
+        "generalBox": [
+          426.53,
+          186.32,
+          438.644,
+          193.16
+        ]
+      }
+    },
+    {
+      "from": "Pedernoso",
+      "to": "Mota Cuervo",
+      "tariff": {
+        "baseCents": 230,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 4,
+        "printedRow": "Pedernoso",
+        "viaTBox": [
+          475.87,
+          186.32,
+          487.984,
+          193.16
+        ],
+        "generalBox": [
+          525.19,
+          186.32,
+          537.304,
+          193.16
+        ]
+      }
+    },
+    {
+      "from": "Pedernoso",
+      "to": "Troncal San Clemente",
+      "tariff": {
+        "baseCents": 330,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 295,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 6,
+        "printedRow": "Pedernoso",
+        "viaTBox": [
+          668.86,
+          186.32,
+          680.974,
+          193.16
+        ],
+        "generalBox": [
+          718.18,
+          186.32,
+          730.294,
+          193.16
+        ]
+      }
+    },
+    {
+      "from": "Troncal San Clemente",
+      "to": "Troncal Corral Almaguer",
+      "tariff": {
+        "baseCents": 1385,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 1235,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 1,
+        "printedRow": "Troncal San Clemente",
+        "viaTBox": [
+          182.42,
+          196.4,
+          197.995,
+          203.24
+        ],
+        "generalBox": [
+          231.74,
+          196.4,
+          247.315,
+          203.24
+        ]
+      }
+    },
+    {
+      "from": "Troncal San Clemente",
+      "to": "Lateral Corral Almaguer",
+      "tariff": {
+        "baseCents": 1035,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 920,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 2,
+        "printedRow": "Troncal San Clemente",
+        "viaTBox": [
+          280.73,
+          196.4,
+          292.844,
+          203.24
+        ],
+        "generalBox": [
+          326.09,
+          196.4,
+          341.665,
+          203.24
+        ]
+      }
+    },
+    {
+      "from": "Troncal San Clemente",
+      "to": "Quintanar Orden",
+      "tariff": {
+        "baseCents": 795,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 710,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 3,
+        "printedRow": "Troncal San Clemente",
+        "viaTBox": [
+          377.21,
+          196.4,
+          389.324,
+          203.24
+        ],
+        "generalBox": [
+          426.53,
+          196.4,
+          438.644,
+          203.24
+        ]
+      }
+    },
+    {
+      "from": "Troncal San Clemente",
+      "to": "Mota Cuervo",
+      "tariff": {
+        "baseCents": 560,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 500,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 4,
+        "printedRow": "Troncal San Clemente",
+        "viaTBox": [
+          475.87,
+          196.4,
+          487.984,
+          203.24
+        ],
+        "generalBox": [
+          525.19,
+          196.4,
+          537.304,
+          203.24
+        ]
+      }
+    },
+    {
+      "from": "Troncal San Clemente",
+      "to": "Pedernoso",
+      "tariff": {
+        "baseCents": 330,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 295,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 5,
+        "printedRow": "Troncal San Clemente",
+        "viaTBox": [
+          572.35,
+          196.4,
+          584.464,
+          203.24
+        ],
+        "generalBox": [
+          619.54,
+          196.4,
+          631.654,
+          203.24
+        ]
+      }
+    }
+  ],
+  "barriers": [],
+  "notes": [
+    "Only explicitly printed light-vehicle cells imported. Blank/dash cells remain unavailable, never zero.",
+    "Physical entry/exit mapping and route validation still required.",
+    "R-2 Aeropuerto/Alcobendas diagonal cells are independent barriers, not same-entry/exit OD fares."
+  ]
+}

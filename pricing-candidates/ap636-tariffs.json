@@ -1,0 +1,50 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+  "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+  "sections": [
+    {
+      "name": "Beasain–Ormaiztegi",
+      "tariff": {
+        "baseCents": 42,
+        "bands": []
+      }
+    },
+    {
+      "name": "Ormaiztegi–Zumarraga",
+      "tariff": {
+        "baseCents": 82,
+        "bands": []
+      }
+    },
+    {
+      "name": "Legazpi/Urretxu–Bergara",
+      "tariff": {
+        "baseCents": 155,
+        "bands": []
+      }
+    }
+  ],
+  "conditionalJourneys": [
+    {
+      "from": "Legazpi/Urretxu",
+      "to": "Antzuola",
+      "cents": 52,
+      "requires": [
+        "payment:via-t"
+      ],
+      "sourceNote": "Tarifa aplicable en caso de pago con telepeaje"
+    }
+  ],
+  "notes": [
+    "The Antzuola gantries identify the partial journey; do not add 0.52 to the full Deskarga 1.55 charge.",
+    "General full traverse is 2.79 EUR, not a fee at the western AP-1 booth. Directional partial-journey mapping remains required."
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.autoestradas.com/la-autopista/tarifas/",
+  "sha256": "6a6859a637853878db26e66109882ce382c5be249c82b1122f3647bdb26e19cb",
+  "notes": [
+    "Published general light-vehicle rows only. Geographic mapping and route verification are separate.",
+    "Blank/dash cells are not zero; no unverified enrollment/recurrence discounts."
+  ],
+  "ods": [
+    {
+      "from": "Vigo",
+      "to": "Vincios",
+      "tariff": {
+        "baseCents": 40,
+        "bands": []
+      },
+      "sourceRow": 2
+    },
+    {
+      "from": "Vigo",
+      "to": "Gondomar",
+      "tariff": {
+        "baseCents": 90,
+        "bands": []
+      },
+      "sourceRow": 3
+    },
+    {
+      "from": "Vigo",
+      "to": "Nigrán",
+      "tariff": {
+        "baseCents": 120,
+        "bands": []
+      },
+      "sourceRow": 4
+    },
+    {
+      "from": "Vigo",
+      "to": "A Ramallosa",
+      "tariff": {
+        "baseCents": 105,
+        "bands": []
+      },
+      "sourceRow": 5
+    },
+    {
+      "from": "Vigo",
+      "to": "Baiona",
+      "tariff": {
+        "baseCents": 175,
+        "bands": []
+      },
+      "sourceRow": 6
+    },
+    {
+      "from": "Vincios",
+      "to": "Gondomar",
+      "tariff": {
+        "baseCents": 55,
+        "bands": []
+      },
+      "sourceRow": 7
+    },
+    {
+      "from": "Vincios",
+      "to": "Nigrán",
+      "tariff": {
+        "baseCents": 85,
+        "bands": []
+      },
+      "sourceRow": 8
+    },
+    {
+      "from": "Vincios",
+      "to": "A Ramallosa",
+      "tariff": {
+        "baseCents": 70,
+        "bands": []
+      },
+      "sourceRow": 9
+    },
+    {
+      "from": "Vincios",
+      "to": "Baiona",
+      "tariff": {
+        "baseCents": 140,
+        "bands": []
+      },
+      "sourceRow": 10
+    },
+    {
+      "from": "A Ramallosa",
+      "to": "Baiona",
+      "tariff": {
+        "baseCents": 70,
+        "bands": []
+      },
+      "sourceRow": 11
+    },
+    {
+      "from": "Nigrán",
+      "to": "Baiona",
+      "tariff": {
+        "baseCents": 120,
+        "bands": []
+      },
+      "sourceRow": 12
+    },
+    {
+      "from": "Nigrán",
+      "to": "A Ramallosa",
+      "tariff": {
+        "baseCents": 35,
+        "bands": []
+      },
+      "sourceRow": 13
+    }
+  ],
+  "unpricedPublishedRows": []
+}

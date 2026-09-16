@@ -79,3 +79,14 @@ Los importes siguientes son referencias bajo las condiciones descritas, **no pre
 - `geometry-audit.json`: evidencia OSM de los 36 puntos y vías padre. Todos respondieron mediante consultas pequeñas de la API; las consultas generales Overpass fallaron/agotaron el tiempo. La evidencia comprueba identidad del nodo, no todas las vías y sentidos de cada plaza. © OpenStreetMap contributors, ODbL 1.0.
 - `python3 scripts/validate_tolls.py`: comprueba cobertura del informe, referencias auditadas, monedas, fechas, fuentes, coordenadas y coherencia de `complete`/modelos. **Pasar este validador no certifica los precios de rutas** ni verifica de nuevo las webs.
 - Revisión visual de las tablas complejas AP-51, R-2, C-32, AP-15, Bidegi/AP-1 y AP-8 Bizkaia; los demás valores se cotejaron en las tablas oficiales extraídas. No se han probado cambios de motor de precios ni rutas nuevas: no hay cambios de app en esta rama.
+
+## Subsequent conversion evidence (same-day checkpoint)
+
+The table above records the original scalar catalog audit, not the final runtime
+price model. See `pricing-candidates/README.md` and `coverage-status.json` for the
+new conversion evidence and release blockers. In particular M-12 through routes
+cost EUR 1.00 general daytime: the Alcobendas ramp is not part of that journey.
+Artxanda's real plazas have now been mapped; their old catalog coordinate remains
+an audit finding rather than the coordinate used by the development candidate.
+The production ES catalog has not been promoted. Vallcarca has a retained real
+Valhalla geometry disagreement requiring resolution before activation.

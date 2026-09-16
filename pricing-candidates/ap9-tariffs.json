@@ -1,0 +1,710 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-9,-ferrol---frontera-portuguesa-2026.pdf",
+  "sha256": "db30ec2a1d61f226d22354663e6d0408693e3a9994f4a310578ca70b441be006",
+  "ods": [
+    {
+      "from": "FENE",
+      "to": "CABANAS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 115,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 19,
+        "printed": "FENE - CABANAS                                  1,15           1,10          1,35"
+      }
+    },
+    {
+      "from": "FENE",
+      "to": "MIÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 260,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 20,
+        "printed": "FENE - MIÑO                                     2,60           2,40          3,00"
+      }
+    },
+    {
+      "from": "FENE",
+      "to": "GUISAMO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 410,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 21,
+        "printed": "FENE - GUISAMO                                  4,10           3,80          4,75"
+      }
+    },
+    {
+      "from": "FENE",
+      "to": "A CORUÑA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 615,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 22,
+        "printed": "FENE - A CORUÑA                                 6,15           5,70          7,40"
+      }
+    },
+    {
+      "from": "CABANAS",
+      "to": "MIÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 145,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 23,
+        "printed": "CABANAS - MIÑO                                  1,45           1,30          1,55"
+      }
+    },
+    {
+      "from": "CABANAS",
+      "to": "GUISAMO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 260,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 24,
+        "printed": "CABANAS - GUISAMO                               2,60           2,30          2,80"
+      }
+    },
+    {
+      "from": "CABANAS",
+      "to": "A CORUÑA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 465,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 25,
+        "printed": "CABANAS - A CORUÑA                              4,65           4,15          5,50"
+      }
+    },
+    {
+      "from": "MIÑO",
+      "to": "GUISAMO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 145,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 26,
+        "printed": "MIÑO - GUISAMO                                  1,45           1,30          1,60"
+      }
+    },
+    {
+      "from": "MIÑO",
+      "to": "A CORUÑA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 350,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 27,
+        "printed": "MIÑO - A CORUÑA                                 3,50           3,20          4,25"
+      }
+    },
+    {
+      "from": "GUISAMO O STA MARTA",
+      "to": "MACENDA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 125,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 28,
+        "printed": "GUISAMO O STA MARTA - MACENDA                   1,25           1,10          1,35"
+      }
+    },
+    {
+      "from": "GUISAMO O STA MARTA",
+      "to": "ORDES",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 475,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 29,
+        "printed": "GUISAMO O STA MARTA - ORDES                     4,75           4,25          5,25"
+      }
+    },
+    {
+      "from": "GUISAMO O STA MARTA",
+      "to": "SIGUEIRO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 695,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 30,
+        "printed": "GUISAMO O STA MARTA - SIGUEIRO                  6,95           5,95          7,40"
+      }
+    },
+    {
+      "from": "GUISAMO O STA MARTA",
+      "to": "SANTIAGO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 785,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 31,
+        "printed": "GUISAMO O STA MARTA - SANTIAGO                  7,85           6,95          8,60"
+      }
+    },
+    {
+      "from": "A CORUÑA O A BARCALA",
+      "to": "GUISAMO/STA MARTA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 205,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 33,
+        "printed": "A CORUÑA O A BARCALA - GUISAMO/STA MARTA        2,05           1,85          2,65"
+      }
+    },
+    {
+      "from": "A CORUÑA O A BARCALA",
+      "to": "MACENDA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 245,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 34,
+        "printed": "A CORUÑA O A BARCALA - MACENDA                  2,45           2,15          2,65"
+      }
+    },
+    {
+      "from": "A CORUÑA O A BARCALA",
+      "to": "ORDES",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 580,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 35,
+        "printed": "A CORUÑA O A BARCALA - ORDES                    5,80           5,35          6,55"
+      }
+    },
+    {
+      "from": "A CORUÑA O A BARCALA",
+      "to": "SIGUEIRO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 795,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 36,
+        "printed": "A CORUÑA O A BARCALA - SIGUEIRO                 7,95           7,10          8,80"
+      }
+    },
+    {
+      "from": "A CORUÑA O A BARCALA",
+      "to": "SANTIAGO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 880,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 37,
+        "printed": "A CORUÑA O A BARCALA - SANTIAGO                 8,80           7,80          9,60"
+      }
+    },
+    {
+      "from": "MACENDA",
+      "to": "ORDES",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 400,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 38,
+        "printed": "MACENDA - ORDES                                 4,00           3,50          4,30"
+      }
+    },
+    {
+      "from": "MACENDA",
+      "to": "SIGUEIRO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 585,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 39,
+        "printed": "MACENDA - SIGUEIRO                              5,85           5,20          6,40"
+      }
+    },
+    {
+      "from": "MACENDA",
+      "to": "SANTIAGO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 790,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 40,
+        "printed": "MACENDA - SANTIAGO                              7,90           7,00          8,65"
+      }
+    },
+    {
+      "from": "ORDES",
+      "to": "SIGUEIRO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 235,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 41,
+        "printed": "ORDES - SIGUEIRO                                2,35           1,90          2,45"
+      }
+    },
+    {
+      "from": "ORDES",
+      "to": "SANTIAGO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 330,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 42,
+        "printed": "ORDES - SANTIAGO                                3,30           2,65          3,25"
+      }
+    },
+    {
+      "from": "SIGÜEIRO",
+      "to": "SANTIAGO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 225,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 43,
+        "printed": "SIGÜEIRO - SANTIAGO                             2,25           2,00          2,50"
+      }
+    },
+    {
+      "from": "SIGÜEIRO",
+      "to": "SIGÜEIRO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 25,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 44,
+        "printed": "SIGÜEIRO - SIGÜEIRO                             0,25           0,20          0,25"
+      }
+    },
+    {
+      "from": "SANTIAGO",
+      "to": "SANTIAGO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 455,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 45,
+        "printed": "SANTIAGO - SANTIAGO                             4,55           4,05          4,95"
+      }
+    },
+    {
+      "from": "SANTIAGO",
+      "to": "PADRON",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 315,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 46,
+        "printed": "SANTIAGO - PADRON                               3,15           2,60          3,20"
+      }
+    },
+    {
+      "from": "SANTIAGO",
+      "to": "CALDAS DE REIS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 495,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 47,
+        "printed": "SANTIAGO - CALDAS DE REIS                       4,95           4,15          5,20"
+      }
+    },
+    {
+      "from": "SANTIAGO",
+      "to": "CURRO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 660,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 48,
+        "printed": "SANTIAGO - CURRO                                6,60           5,60          7,10"
+      }
+    },
+    {
+      "from": "SANTIAGO",
+      "to": "PONTEVEDRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 755,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 49,
+        "printed": "SANTIAGO - PONTEVEDRA                           7,55           6,30          7,95"
+      }
+    },
+    {
+      "from": "PADRON",
+      "to": "CALDAS DE REIS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 230,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 50,
+        "printed": "PADRON - CALDAS DE REIS                         2,30           1,95          2,60"
+      }
+    },
+    {
+      "from": "PADRON",
+      "to": "CURRO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 385,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 51,
+        "printed": "PADRON - CURRO                                  3,85           3,35          4,20"
+      }
+    },
+    {
+      "from": "PADRON",
+      "to": "PONTEVEDRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 495,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 52,
+        "printed": "PADRON - PONTEVEDRA                             4,95           4,15          5,25"
+      }
+    },
+    {
+      "from": "CARRACEDO",
+      "to": "CALDAS DE REIS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 95,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 53,
+        "printed": "CARRACEDO - CALDAS DE REIS                      0,95           0,75          0,90"
+      }
+    },
+    {
+      "from": "CARRACEDO",
+      "to": "CURRO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 220,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 54,
+        "printed": "CARRACEDO - CURRO                               2,20           1,90          2,45"
+      }
+    },
+    {
+      "from": "CARRACEDO",
+      "to": "PONTEVEDRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 345,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 55,
+        "printed": "CARRACEDO - PONTEVEDRA                          3,45           2,85          3,70"
+      }
+    },
+    {
+      "from": "CALDAS DE REIS",
+      "to": "CURRO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 165,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 20,
+        "printed": "CALDAS DE REIS - CURRO                                      1,65           1,45          1,75"
+      }
+    },
+    {
+      "from": "CALDAS DE REIS",
+      "to": "PONTEVEDRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 285,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 21,
+        "printed": "CALDAS DE REIS - PONTEVEDRA                                 2,85           2,40          3,00"
+      }
+    },
+    {
+      "from": "CURRO",
+      "to": "PONTEVEDRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 180,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 22,
+        "printed": "CURRO - PONTEVEDRA                                          1,80           1,60          1,95"
+      }
+    },
+    {
+      "from": "PONTEVEDRA",
+      "to": "VILABOA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 145,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 23,
+        "printed": "PONTEVEDRA - VILABOA                                        1,45           1,25          1,55"
+      }
+    },
+    {
+      "from": "PONTEVEDRA",
+      "to": "MORRAZO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 365,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 24,
+        "printed": "PONTEVEDRA - MORRAZO                                        3,65           2,45          3,80"
+      }
+    },
+    {
+      "from": "PONTEVEDRA",
+      "to": "VIGO / PUXEIROS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 505,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 25,
+        "printed": "PONTEVEDRA - VIGO / PUXEIROS                                5,05           4,10          5,45"
+      }
+    },
+    {
+      "from": "RANDE",
+      "to": "VIGO / PUXEIROS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 125,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 27,
+        "printed": "RANDE-VIGO / PUXEIROS                                       1,25"
+      }
+    },
+    {
+      "from": "PUXEIROS",
+      "to": "PORRIÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 210,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 28,
+        "printed": "PUXEIROS - PORRIÑO                                          2,10           1,70          2,30"
+      }
+    },
+    {
+      "from": "PUXEIROS",
+      "to": "TUI",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 355,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 29,
+        "printed": "PUXEIROS - TUI                                              3,55           2,90          3,85"
+      }
+    },
+    {
+      "from": "PORRIÑO",
+      "to": "TUI",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 210,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 30,
+        "printed": "PORRIÑO - TUI                                               2,10           1,70          2,30"
+      }
+    }
+  ],
+  "notes": [
+    "General light-vehicle rows only; physical accesses and route evidence still required.",
+    "Published names preserved, including source typos, pending explicit alias mapping.",
+    "Do not add joint AP-6 journey rows to a separately quoted AP-6 journey.",
+    "Unlisted pairs are unknown; free sections require separate evidence."
+  ]
+}

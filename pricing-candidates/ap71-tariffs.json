@@ -1,0 +1,158 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-71,-leon---astorga-2026.pdf",
+  "sha256": "99fee3bc65d33fe98c615b12b23bd160d7909b5093778e77da7a34ba961da4c6",
+  "ods": [
+    {
+      "from": "León",
+      "to": "Villadangos",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 70,
+            "minutes": [
+              1380,
+              420
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 18,
+        "printed": "León-Villadangos                            0,70           1,15           1,40          1,75            2,35     2,85"
+      }
+    },
+    {
+      "from": "León",
+      "to": "Hospital de Orbigo",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 405,
+        "bands": [
+          {
+            "cents": 165,
+            "minutes": [
+              1380,
+              420
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 19,
+        "printed": "León-Hospital de Orbigo                     1,65           2,75           3,30          4,05            5,45     6,60"
+      }
+    },
+    {
+      "from": "León",
+      "to": "Astorga",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 620,
+        "bands": [
+          {
+            "cents": 250,
+            "minutes": [
+              1380,
+              420
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 20,
+        "printed": "León-Astorga                                2,50           4,15           5,05          6,20            8,35    10,10"
+      }
+    },
+    {
+      "from": "Villadangos",
+      "to": "Hospital de Orbigo",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 250,
+        "bands": [
+          {
+            "cents": 100,
+            "minutes": [
+              1380,
+              420
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 22,
+        "printed": "Villadangos-Hospital de Orbigo              1,00           1,65           2,05          2,50            3,35     4,05"
+      }
+    },
+    {
+      "from": "Villadangos",
+      "to": "Astorga",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 465,
+        "bands": [
+          {
+            "cents": 185,
+            "minutes": [
+              1380,
+              420
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 23,
+        "printed": "Villadangos-Astorga                         1,85           3,10           3,80          4,65            6,25     7,55"
+      }
+    },
+    {
+      "from": "Hospital de Orbigo",
+      "to": "Astorga",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 235,
+        "bands": [
+          {
+            "cents": 95,
+            "minutes": [
+              1380,
+              420
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 25,
+        "printed": "Hospital de Orbigo-Astorga                  0,95           1,60           1,95          2,35            3,20     3,85"
+      }
+    }
+  ],
+  "notes": [
+    "General light-vehicle rows only; physical accesses and route evidence still required.",
+    "Published names preserved, including source typos, pending explicit alias mapping.",
+    "Do not add joint AP-6 journey rows to a separately quoted AP-6 journey.",
+    "Unlisted pairs are unknown; free sections require separate evidence."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.autoestradas.com/la-autopista/tarifas/",
+  "sha256": "6a6859a637853878db26e66109882ce382c5be249c82b1122f3647bdb26e19cb",
+  "notes": [
+    "Published general light-vehicle rows only. Geographic mapping and route verification are separate.",
+    "Blank/dash cells are not zero; no unverified enrollment/recurrence discounts."
+  ],
+  "ods": [
+    {
+      "from": "A Coruña",
+      "to": "Arteixo",
+      "tariff": {
+        "baseCents": 55,
+        "bands": []
+      },
+      "sourceRow": 2
+    },
+    {
+      "from": "Arteixo",
+      "to": "Paiosaco",
+      "tariff": {
+        "baseCents": 75,
+        "bands": []
+      },
+      "sourceRow": 3
+    },
+    {
+      "from": "Arteixo",
+      "to": "Laracha",
+      "tariff": {
+        "baseCents": 130,
+        "bands": []
+      },
+      "sourceRow": 4
+    },
+    {
+      "from": "Arteixo",
+      "to": "Carballo",
+      "tariff": {
+        "baseCents": 205,
+        "bands": []
+      },
+      "sourceRow": 5
+    },
+    {
+      "from": "Paiosaco",
+      "to": "Laracha",
+      "tariff": {
+        "baseCents": 55,
+        "bands": []
+      },
+      "sourceRow": 6
+    },
+    {
+      "from": "Paiosaco",
+      "to": "Carballo",
+      "tariff": {
+        "baseCents": 135,
+        "bands": []
+      },
+      "sourceRow": 7
+    },
+    {
+      "from": "Laracha",
+      "to": "Carballo",
+      "tariff": {
+        "baseCents": 85,
+        "bands": []
+      },
+      "sourceRow": 8
+    },
+    {
+      "from": "Porto Exterior",
+      "to": "Arteixo",
+      "tariff": {
+        "baseCents": 25,
+        "bands": []
+      },
+      "sourceRow": 11
+    },
+    {
+      "from": "Arteixo",
+      "to": "Porto Exterior",
+      "tariff": {
+        "baseCents": 25,
+        "bands": []
+      },
+      "sourceRow": 12
+    }
+  ],
+  "unpricedPublishedRows": [
+    {
+      "from": "Porto Exterior",
+      "to": "A Coruña",
+      "printed": "–"
+    },
+    {
+      "from": "A Coruña",
+      "to": "Porto Exterior",
+      "printed": "–"
+    }
+  ]
+}

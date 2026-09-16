@@ -1,0 +1,82 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20VSM%2001-01-2026.pdf",
+  "sha256": "bcfbee34237686b5e383e24491b7dac4e3186d6d4738cd6948c60d5ce2bcfb60",
+  "ods": [
+    {
+      "from": "Arrigorriaga",
+      "to": "Bilbao Sur",
+      "tariff": {
+        "baseCents": 120,
+        "bands": []
+      }
+    },
+    {
+      "from": "Arrigorriaga",
+      "to": "Ortuella",
+      "tariff": {
+        "baseCents": 185,
+        "bands": []
+      }
+    },
+    {
+      "from": "Arrigorriaga",
+      "to": "Santurtzi",
+      "tariff": {
+        "baseCents": 205,
+        "bands": []
+      }
+    },
+    {
+      "from": "Bilbao Este",
+      "to": "Bilbao Sur",
+      "tariff": {
+        "baseCents": 75,
+        "bands": []
+      }
+    },
+    {
+      "from": "Bilbao Este",
+      "to": "Ortuella",
+      "tariff": {
+        "baseCents": 150,
+        "bands": []
+      }
+    },
+    {
+      "from": "Bilbao Este",
+      "to": "Santurtzi",
+      "tariff": {
+        "baseCents": 185,
+        "bands": []
+      }
+    },
+    {
+      "from": "Bilbao Sur",
+      "to": "Ortuella",
+      "tariff": {
+        "baseCents": 75,
+        "bands": []
+      }
+    },
+    {
+      "from": "Bilbao Sur",
+      "to": "Santurtzi",
+      "tariff": {
+        "baseCents": 120,
+        "bands": []
+      }
+    }
+  ],
+  "notes": [
+    "Published 2026 general light-vehicle table. No obsolete zero-price night exemption.",
+    "Entry/exit mapping and combined-AP68 recurrence eligibility remain separate."
+  ]
+}

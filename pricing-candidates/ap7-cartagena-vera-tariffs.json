@@ -1,0 +1,3199 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap7cv_2026.pdf",
+  "sha256": "b7fbdb565f90434e19bce16a072028524727ad9072bfb5ec8e259d0c456d3dab",
+  "publishedAccesses": [
+    "Vera",
+    "Cuevas del Almanzora",
+    "Pulpí",
+    "Águilas",
+    "Cabo Cope",
+    "Ramonete",
+    "Mazarrón",
+    "Las Palas",
+    "Cartagena"
+  ],
+  "ods": [
+    {
+      "from": "Vera",
+      "to": "Cuevas del Almanzora",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 2,
+        "printedRow": "Vera",
+        "viaTBox": [
+          221.52,
+          136.289,
+          233.265,
+          142.889
+        ],
+        "generalBox": [
+          255.84,
+          136.289,
+          267.585,
+          142.889
+        ]
+      }
+    },
+    {
+      "from": "Vera",
+      "to": "Pulpí",
+      "tariff": {
+        "baseCents": 270,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 240,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 3,
+        "printedRow": "Vera",
+        "viaTBox": [
+          290.16,
+          136.289,
+          301.905,
+          142.889
+        ],
+        "generalBox": [
+          324.48,
+          136.289,
+          336.225,
+          142.889
+        ]
+      }
+    },
+    {
+      "from": "Vera",
+      "to": "Águilas",
+      "tariff": {
+        "baseCents": 410,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 365,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 4,
+        "printedRow": "Vera",
+        "viaTBox": [
+          358.8,
+          136.289,
+          370.545,
+          142.889
+        ],
+        "generalBox": [
+          393.12,
+          136.289,
+          404.865,
+          142.889
+        ]
+      }
+    },
+    {
+      "from": "Vera",
+      "to": "Cabo Cope",
+      "tariff": {
+        "baseCents": 545,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 490,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 5,
+        "printedRow": "Vera",
+        "viaTBox": [
+          427.44,
+          136.289,
+          439.185,
+          142.889
+        ],
+        "generalBox": [
+          461.76,
+          136.289,
+          473.505,
+          142.889
+        ]
+      }
+    },
+    {
+      "from": "Vera",
+      "to": "Ramonete",
+      "tariff": {
+        "baseCents": 645,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 575,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 6,
+        "printedRow": "Vera",
+        "viaTBox": [
+          496.08,
+          136.289,
+          507.825,
+          142.889
+        ],
+        "generalBox": [
+          530.4,
+          136.289,
+          542.145,
+          142.889
+        ]
+      }
+    },
+    {
+      "from": "Vera",
+      "to": "Mazarrón",
+      "tariff": {
+        "baseCents": 785,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 700,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 7,
+        "printedRow": "Vera",
+        "viaTBox": [
+          564.72,
+          136.289,
+          576.465,
+          142.889
+        ],
+        "generalBox": [
+          599.04,
+          136.289,
+          610.785,
+          142.889
+        ]
+      }
+    },
+    {
+      "from": "Vera",
+      "to": "Las Palas",
+      "tariff": {
+        "baseCents": 965,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 860,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 8,
+        "printedRow": "Vera",
+        "viaTBox": [
+          634.08,
+          136.289,
+          645.825,
+          142.889
+        ],
+        "generalBox": [
+          669.12,
+          136.289,
+          680.865,
+          142.889
+        ]
+      }
+    },
+    {
+      "from": "Vera",
+      "to": "Cartagena",
+      "tariff": {
+        "baseCents": 1135,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 1015,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 9,
+        "printedRow": "Vera",
+        "viaTBox": [
+          701.76,
+          136.289,
+          716.85,
+          142.889
+        ],
+        "generalBox": [
+          736.08,
+          136.289,
+          751.17,
+          142.889
+        ]
+      }
+    },
+    {
+      "from": "Cuevas del Almanzora",
+      "to": "Vera",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 1,
+        "printedRow": "Cuevas del Almanzora",
+        "viaTBox": [
+          152.88,
+          145.169,
+          164.625,
+          151.769
+        ],
+        "generalBox": [
+          187.2,
+          145.169,
+          198.945,
+          151.769
+        ]
+      }
+    },
+    {
+      "from": "Cuevas del Almanzora",
+      "to": "Pulpí",
+      "tariff": {
+        "baseCents": 135,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 120,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 3,
+        "printedRow": "Cuevas del Almanzora",
+        "viaTBox": [
+          290.16,
+          145.169,
+          301.905,
+          151.769
+        ],
+        "generalBox": [
+          324.48,
+          145.169,
+          336.225,
+          151.769
+        ]
+      }
+    },
+    {
+      "from": "Cuevas del Almanzora",
+      "to": "Águilas",
+      "tariff": {
+        "baseCents": 275,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 245,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 4,
+        "printedRow": "Cuevas del Almanzora",
+        "viaTBox": [
+          358.8,
+          145.169,
+          370.545,
+          151.769
+        ],
+        "generalBox": [
+          393.12,
+          145.169,
+          404.865,
+          151.769
+        ]
+      }
+    },
+    {
+      "from": "Cuevas del Almanzora",
+      "to": "Cabo Cope",
+      "tariff": {
+        "baseCents": 410,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 370,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 5,
+        "printedRow": "Cuevas del Almanzora",
+        "viaTBox": [
+          427.44,
+          145.169,
+          439.185,
+          151.769
+        ],
+        "generalBox": [
+          461.76,
+          145.169,
+          473.505,
+          151.769
+        ]
+      }
+    },
+    {
+      "from": "Cuevas del Almanzora",
+      "to": "Ramonete",
+      "tariff": {
+        "baseCents": 510,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 455,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 6,
+        "printedRow": "Cuevas del Almanzora",
+        "viaTBox": [
+          496.08,
+          145.169,
+          507.825,
+          151.769
+        ],
+        "generalBox": [
+          530.4,
+          145.169,
+          542.145,
+          151.769
+        ]
+      }
+    },
+    {
+      "from": "Cuevas del Almanzora",
+      "to": "Mazarrón",
+      "tariff": {
+        "baseCents": 650,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 580,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 7,
+        "printedRow": "Cuevas del Almanzora",
+        "viaTBox": [
+          564.72,
+          145.169,
+          576.465,
+          151.769
+        ],
+        "generalBox": [
+          599.04,
+          145.169,
+          610.785,
+          151.769
+        ]
+      }
+    },
+    {
+      "from": "Cuevas del Almanzora",
+      "to": "Las Palas",
+      "tariff": {
+        "baseCents": 830,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 740,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 8,
+        "printedRow": "Cuevas del Almanzora",
+        "viaTBox": [
+          634.08,
+          145.169,
+          645.825,
+          151.769
+        ],
+        "generalBox": [
+          669.12,
+          145.169,
+          680.865,
+          151.769
+        ]
+      }
+    },
+    {
+      "from": "Cuevas del Almanzora",
+      "to": "Cartagena",
+      "tariff": {
+        "baseCents": 1000,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 895,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 9,
+        "printedRow": "Cuevas del Almanzora",
+        "viaTBox": [
+          703.44,
+          145.169,
+          715.185,
+          151.769
+        ],
+        "generalBox": [
+          736.08,
+          145.169,
+          751.17,
+          151.769
+        ]
+      }
+    },
+    {
+      "from": "Pulpí",
+      "to": "Vera",
+      "tariff": {
+        "baseCents": 270,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 240,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 1,
+        "printedRow": "Pulpí",
+        "viaTBox": [
+          152.88,
+          154.049,
+          164.625,
+          160.649
+        ],
+        "generalBox": [
+          187.2,
+          154.049,
+          198.945,
+          160.649
+        ]
+      }
+    },
+    {
+      "from": "Pulpí",
+      "to": "Cuevas del Almanzora",
+      "tariff": {
+        "baseCents": 135,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 120,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 2,
+        "printedRow": "Pulpí",
+        "viaTBox": [
+          221.52,
+          154.049,
+          233.265,
+          160.649
+        ],
+        "generalBox": [
+          255.84,
+          154.049,
+          267.585,
+          160.649
+        ]
+      }
+    },
+    {
+      "from": "Pulpí",
+      "to": "Águilas",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 4,
+        "printedRow": "Pulpí",
+        "viaTBox": [
+          358.8,
+          154.049,
+          370.545,
+          160.649
+        ],
+        "generalBox": [
+          393.12,
+          154.049,
+          404.865,
+          160.649
+        ]
+      }
+    },
+    {
+      "from": "Pulpí",
+      "to": "Cabo Cope",
+      "tariff": {
+        "baseCents": 280,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 250,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 5,
+        "printedRow": "Pulpí",
+        "viaTBox": [
+          427.44,
+          154.049,
+          439.185,
+          160.649
+        ],
+        "generalBox": [
+          461.76,
+          154.049,
+          473.505,
+          160.649
+        ]
+      }
+    },
+    {
+      "from": "Pulpí",
+      "to": "Ramonete",
+      "tariff": {
+        "baseCents": 380,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 335,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 6,
+        "printedRow": "Pulpí",
+        "viaTBox": [
+          496.08,
+          154.049,
+          507.825,
+          160.649
+        ],
+        "generalBox": [
+          530.4,
+          154.049,
+          542.145,
+          160.649
+        ]
+      }
+    },
+    {
+      "from": "Pulpí",
+      "to": "Mazarrón",
+      "tariff": {
+        "baseCents": 520,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 460,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 7,
+        "printedRow": "Pulpí",
+        "viaTBox": [
+          564.72,
+          154.049,
+          576.465,
+          160.649
+        ],
+        "generalBox": [
+          599.04,
+          154.049,
+          610.785,
+          160.649
+        ]
+      }
+    },
+    {
+      "from": "Pulpí",
+      "to": "Las Palas",
+      "tariff": {
+        "baseCents": 695,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 620,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 8,
+        "printedRow": "Pulpí",
+        "viaTBox": [
+          634.08,
+          154.049,
+          645.825,
+          160.649
+        ],
+        "generalBox": [
+          669.12,
+          154.049,
+          680.865,
+          160.649
+        ]
+      }
+    },
+    {
+      "from": "Pulpí",
+      "to": "Cartagena",
+      "tariff": {
+        "baseCents": 865,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 775,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 9,
+        "printedRow": "Pulpí",
+        "viaTBox": [
+          703.44,
+          154.049,
+          715.185,
+          160.649
+        ],
+        "generalBox": [
+          737.76,
+          154.049,
+          749.505,
+          160.649
+        ]
+      }
+    },
+    {
+      "from": "Águilas",
+      "to": "Vera",
+      "tariff": {
+        "baseCents": 410,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 365,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 1,
+        "printedRow": "Águilas",
+        "viaTBox": [
+          152.88,
+          162.929,
+          164.625,
+          169.529
+        ],
+        "generalBox": [
+          187.2,
+          162.929,
+          198.945,
+          169.529
+        ]
+      }
+    },
+    {
+      "from": "Águilas",
+      "to": "Cuevas del Almanzora",
+      "tariff": {
+        "baseCents": 275,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 245,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 2,
+        "printedRow": "Águilas",
+        "viaTBox": [
+          221.52,
+          162.929,
+          233.265,
+          169.529
+        ],
+        "generalBox": [
+          255.84,
+          162.929,
+          267.585,
+          169.529
+        ]
+      }
+    },
+    {
+      "from": "Águilas",
+      "to": "Pulpí",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 3,
+        "printedRow": "Águilas",
+        "viaTBox": [
+          290.16,
+          162.929,
+          301.905,
+          169.529
+        ],
+        "generalBox": [
+          324.48,
+          162.929,
+          336.225,
+          169.529
+        ]
+      }
+    },
+    {
+      "from": "Águilas",
+      "to": "Cabo Cope",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 5,
+        "printedRow": "Águilas",
+        "viaTBox": [
+          427.44,
+          162.929,
+          439.185,
+          169.529
+        ],
+        "generalBox": [
+          461.76,
+          162.929,
+          473.505,
+          169.529
+        ]
+      }
+    },
+    {
+      "from": "Águilas",
+      "to": "Ramonete",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 6,
+        "printedRow": "Águilas",
+        "viaTBox": [
+          496.08,
+          162.929,
+          507.825,
+          169.529
+        ],
+        "generalBox": [
+          530.4,
+          162.929,
+          542.145,
+          169.529
+        ]
+      }
+    },
+    {
+      "from": "Águilas",
+      "to": "Mazarrón",
+      "tariff": {
+        "baseCents": 380,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 340,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 7,
+        "printedRow": "Águilas",
+        "viaTBox": [
+          564.72,
+          162.929,
+          576.465,
+          169.529
+        ],
+        "generalBox": [
+          599.04,
+          162.929,
+          610.785,
+          169.529
+        ]
+      }
+    },
+    {
+      "from": "Águilas",
+      "to": "Las Palas",
+      "tariff": {
+        "baseCents": 560,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 500,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 8,
+        "printedRow": "Águilas",
+        "viaTBox": [
+          634.08,
+          162.929,
+          645.825,
+          169.529
+        ],
+        "generalBox": [
+          669.12,
+          162.929,
+          680.865,
+          169.529
+        ]
+      }
+    },
+    {
+      "from": "Águilas",
+      "to": "Cartagena",
+      "tariff": {
+        "baseCents": 730,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 650,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 9,
+        "printedRow": "Águilas",
+        "viaTBox": [
+          703.44,
+          162.929,
+          715.185,
+          169.529
+        ],
+        "generalBox": [
+          737.76,
+          162.929,
+          749.505,
+          169.529
+        ]
+      }
+    },
+    {
+      "from": "Cabo Cope",
+      "to": "Vera",
+      "tariff": {
+        "baseCents": 545,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 490,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 1,
+        "printedRow": "Cabo Cope",
+        "viaTBox": [
+          152.88,
+          171.809,
+          164.625,
+          178.409
+        ],
+        "generalBox": [
+          187.2,
+          171.809,
+          198.945,
+          178.409
+        ]
+      }
+    },
+    {
+      "from": "Cabo Cope",
+      "to": "Cuevas del Almanzora",
+      "tariff": {
+        "baseCents": 410,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 370,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 2,
+        "printedRow": "Cabo Cope",
+        "viaTBox": [
+          221.52,
+          171.809,
+          233.265,
+          178.409
+        ],
+        "generalBox": [
+          255.84,
+          171.809,
+          267.585,
+          178.409
+        ]
+      }
+    },
+    {
+      "from": "Cabo Cope",
+      "to": "Pulpí",
+      "tariff": {
+        "baseCents": 280,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 250,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 3,
+        "printedRow": "Cabo Cope",
+        "viaTBox": [
+          290.16,
+          171.809,
+          301.905,
+          178.409
+        ],
+        "generalBox": [
+          324.48,
+          171.809,
+          336.225,
+          178.409
+        ]
+      }
+    },
+    {
+      "from": "Cabo Cope",
+      "to": "Águilas",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 4,
+        "printedRow": "Cabo Cope",
+        "viaTBox": [
+          358.8,
+          171.809,
+          370.545,
+          178.409
+        ],
+        "generalBox": [
+          393.12,
+          171.809,
+          404.865,
+          178.409
+        ]
+      }
+    },
+    {
+      "from": "Cabo Cope",
+      "to": "Ramonete",
+      "tariff": {
+        "baseCents": 100,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 90,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 6,
+        "printedRow": "Cabo Cope",
+        "viaTBox": [
+          496.08,
+          171.809,
+          507.825,
+          178.409
+        ],
+        "generalBox": [
+          530.4,
+          171.809,
+          542.145,
+          178.409
+        ]
+      }
+    },
+    {
+      "from": "Cabo Cope",
+      "to": "Mazarrón",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 7,
+        "printedRow": "Cabo Cope",
+        "viaTBox": [
+          564.72,
+          171.809,
+          576.465,
+          178.409
+        ],
+        "generalBox": [
+          599.04,
+          171.809,
+          610.785,
+          178.409
+        ]
+      }
+    },
+    {
+      "from": "Cabo Cope",
+      "to": "Las Palas",
+      "tariff": {
+        "baseCents": 420,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 375,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 8,
+        "printedRow": "Cabo Cope",
+        "viaTBox": [
+          634.08,
+          171.809,
+          645.825,
+          178.409
+        ],
+        "generalBox": [
+          669.12,
+          171.809,
+          680.865,
+          178.409
+        ]
+      }
+    },
+    {
+      "from": "Cabo Cope",
+      "to": "Cartagena",
+      "tariff": {
+        "baseCents": 590,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 525,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 9,
+        "printedRow": "Cabo Cope",
+        "viaTBox": [
+          703.44,
+          171.809,
+          715.185,
+          178.409
+        ],
+        "generalBox": [
+          737.76,
+          171.809,
+          749.505,
+          178.409
+        ]
+      }
+    },
+    {
+      "from": "Ramonete",
+      "to": "Vera",
+      "tariff": {
+        "baseCents": 645,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 575,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 1,
+        "printedRow": "Ramonete",
+        "viaTBox": [
+          152.88,
+          180.689,
+          164.625,
+          187.289
+        ],
+        "generalBox": [
+          187.2,
+          180.689,
+          198.945,
+          187.289
+        ]
+      }
+    },
+    {
+      "from": "Ramonete",
+      "to": "Cuevas del Almanzora",
+      "tariff": {
+        "baseCents": 510,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 455,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 2,
+        "printedRow": "Ramonete",
+        "viaTBox": [
+          221.52,
+          180.689,
+          233.265,
+          187.289
+        ],
+        "generalBox": [
+          255.84,
+          180.689,
+          267.585,
+          187.289
+        ]
+      }
+    },
+    {
+      "from": "Ramonete",
+      "to": "Pulpí",
+      "tariff": {
+        "baseCents": 380,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 335,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 3,
+        "printedRow": "Ramonete",
+        "viaTBox": [
+          290.16,
+          180.689,
+          301.905,
+          187.289
+        ],
+        "generalBox": [
+          324.48,
+          180.689,
+          336.225,
+          187.289
+        ]
+      }
+    },
+    {
+      "from": "Ramonete",
+      "to": "Águilas",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 4,
+        "printedRow": "Ramonete",
+        "viaTBox": [
+          358.8,
+          180.689,
+          370.545,
+          187.289
+        ],
+        "generalBox": [
+          393.12,
+          180.689,
+          404.865,
+          187.289
+        ]
+      }
+    },
+    {
+      "from": "Ramonete",
+      "to": "Cabo Cope",
+      "tariff": {
+        "baseCents": 100,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 90,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 5,
+        "printedRow": "Ramonete",
+        "viaTBox": [
+          427.44,
+          180.689,
+          439.185,
+          187.289
+        ],
+        "generalBox": [
+          461.76,
+          180.689,
+          473.505,
+          187.289
+        ]
+      }
+    },
+    {
+      "from": "Ramonete",
+      "to": "Mazarrón",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 7,
+        "printedRow": "Ramonete",
+        "viaTBox": [
+          564.72,
+          180.689,
+          576.465,
+          187.289
+        ],
+        "generalBox": [
+          599.04,
+          180.689,
+          610.785,
+          187.289
+        ]
+      }
+    },
+    {
+      "from": "Ramonete",
+      "to": "Las Palas",
+      "tariff": {
+        "baseCents": 320,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 285,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 8,
+        "printedRow": "Ramonete",
+        "viaTBox": [
+          634.08,
+          180.689,
+          645.825,
+          187.289
+        ],
+        "generalBox": [
+          669.12,
+          180.689,
+          680.865,
+          187.289
+        ]
+      }
+    },
+    {
+      "from": "Ramonete",
+      "to": "Cartagena",
+      "tariff": {
+        "baseCents": 490,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 440,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 9,
+        "printedRow": "Ramonete",
+        "viaTBox": [
+          703.44,
+          180.689,
+          715.185,
+          187.289
+        ],
+        "generalBox": [
+          737.76,
+          180.689,
+          749.505,
+          187.289
+        ]
+      }
+    },
+    {
+      "from": "Mazarrón",
+      "to": "Vera",
+      "tariff": {
+        "baseCents": 785,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 700,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 1,
+        "printedRow": "Mazarrón",
+        "viaTBox": [
+          152.88,
+          189.569,
+          164.625,
+          196.169
+        ],
+        "generalBox": [
+          187.2,
+          189.569,
+          198.945,
+          196.169
+        ]
+      }
+    },
+    {
+      "from": "Mazarrón",
+      "to": "Cuevas del Almanzora",
+      "tariff": {
+        "baseCents": 650,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 580,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 2,
+        "printedRow": "Mazarrón",
+        "viaTBox": [
+          221.52,
+          189.569,
+          233.265,
+          196.169
+        ],
+        "generalBox": [
+          255.84,
+          189.569,
+          267.585,
+          196.169
+        ]
+      }
+    },
+    {
+      "from": "Mazarrón",
+      "to": "Pulpí",
+      "tariff": {
+        "baseCents": 520,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 460,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 3,
+        "printedRow": "Mazarrón",
+        "viaTBox": [
+          290.16,
+          189.569,
+          301.905,
+          196.169
+        ],
+        "generalBox": [
+          324.48,
+          189.569,
+          336.225,
+          196.169
+        ]
+      }
+    },
+    {
+      "from": "Mazarrón",
+      "to": "Águilas",
+      "tariff": {
+        "baseCents": 380,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 340,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 4,
+        "printedRow": "Mazarrón",
+        "viaTBox": [
+          358.8,
+          189.569,
+          370.545,
+          196.169
+        ],
+        "generalBox": [
+          393.12,
+          189.569,
+          404.865,
+          196.169
+        ]
+      }
+    },
+    {
+      "from": "Mazarrón",
+      "to": "Cabo Cope",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 5,
+        "printedRow": "Mazarrón",
+        "viaTBox": [
+          427.44,
+          189.569,
+          439.185,
+          196.169
+        ],
+        "generalBox": [
+          461.76,
+          189.569,
+          473.505,
+          196.169
+        ]
+      }
+    },
+    {
+      "from": "Mazarrón",
+      "to": "Ramonete",
+      "tariff": {
+        "baseCents": 140,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 125,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 6,
+        "printedRow": "Mazarrón",
+        "viaTBox": [
+          496.08,
+          189.569,
+          507.825,
+          196.169
+        ],
+        "generalBox": [
+          530.4,
+          189.569,
+          542.145,
+          196.169
+        ]
+      }
+    },
+    {
+      "from": "Mazarrón",
+      "to": "Las Palas",
+      "tariff": {
+        "baseCents": 180,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 160,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 8,
+        "printedRow": "Mazarrón",
+        "viaTBox": [
+          634.08,
+          189.569,
+          645.825,
+          196.169
+        ],
+        "generalBox": [
+          669.12,
+          189.569,
+          680.865,
+          196.169
+        ]
+      }
+    },
+    {
+      "from": "Mazarrón",
+      "to": "Cartagena",
+      "tariff": {
+        "baseCents": 355,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 315,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 9,
+        "printedRow": "Mazarrón",
+        "viaTBox": [
+          703.44,
+          189.569,
+          715.185,
+          196.169
+        ],
+        "generalBox": [
+          737.76,
+          189.569,
+          749.505,
+          196.169
+        ]
+      }
+    },
+    {
+      "from": "Las Palas",
+      "to": "Vera",
+      "tariff": {
+        "baseCents": 965,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 860,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 1,
+        "printedRow": "Las Palas",
+        "viaTBox": [
+          152.88,
+          198.449,
+          164.625,
+          205.049
+        ],
+        "generalBox": [
+          187.2,
+          198.449,
+          198.945,
+          205.049
+        ]
+      }
+    },
+    {
+      "from": "Las Palas",
+      "to": "Cuevas del Almanzora",
+      "tariff": {
+        "baseCents": 830,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 740,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 2,
+        "printedRow": "Las Palas",
+        "viaTBox": [
+          221.52,
+          198.449,
+          233.265,
+          205.049
+        ],
+        "generalBox": [
+          255.84,
+          198.449,
+          267.585,
+          205.049
+        ]
+      }
+    },
+    {
+      "from": "Las Palas",
+      "to": "Pulpí",
+      "tariff": {
+        "baseCents": 695,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 620,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 3,
+        "printedRow": "Las Palas",
+        "viaTBox": [
+          290.16,
+          198.449,
+          301.905,
+          205.049
+        ],
+        "generalBox": [
+          324.48,
+          198.449,
+          336.225,
+          205.049
+        ]
+      }
+    },
+    {
+      "from": "Las Palas",
+      "to": "Águilas",
+      "tariff": {
+        "baseCents": 560,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 500,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 4,
+        "printedRow": "Las Palas",
+        "viaTBox": [
+          358.8,
+          198.449,
+          370.545,
+          205.049
+        ],
+        "generalBox": [
+          393.12,
+          198.449,
+          404.865,
+          205.049
+        ]
+      }
+    },
+    {
+      "from": "Las Palas",
+      "to": "Cabo Cope",
+      "tariff": {
+        "baseCents": 420,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 375,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 5,
+        "printedRow": "Las Palas",
+        "viaTBox": [
+          427.44,
+          198.449,
+          439.185,
+          205.049
+        ],
+        "generalBox": [
+          461.76,
+          198.449,
+          473.505,
+          205.049
+        ]
+      }
+    },
+    {
+      "from": "Las Palas",
+      "to": "Ramonete",
+      "tariff": {
+        "baseCents": 320,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 285,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 6,
+        "printedRow": "Las Palas",
+        "viaTBox": [
+          496.08,
+          198.449,
+          507.825,
+          205.049
+        ],
+        "generalBox": [
+          530.4,
+          198.449,
+          542.145,
+          205.049
+        ]
+      }
+    },
+    {
+      "from": "Las Palas",
+      "to": "Mazarrón",
+      "tariff": {
+        "baseCents": 180,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 160,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 7,
+        "printedRow": "Las Palas",
+        "viaTBox": [
+          564.72,
+          198.449,
+          576.465,
+          205.049
+        ],
+        "generalBox": [
+          599.04,
+          198.449,
+          610.785,
+          205.049
+        ]
+      }
+    },
+    {
+      "from": "Las Palas",
+      "to": "Cartagena",
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 155,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 9,
+        "printedRow": "Las Palas",
+        "viaTBox": [
+          703.44,
+          198.449,
+          715.185,
+          205.049
+        ],
+        "generalBox": [
+          737.76,
+          198.449,
+          749.505,
+          205.049
+        ]
+      }
+    },
+    {
+      "from": "Cartagena",
+      "to": "Vera",
+      "tariff": {
+        "baseCents": 1135,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 1015,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 9,
+        "column": 1,
+        "printedRow": "Cartagena",
+        "viaTBox": [
+          151.2,
+          207.329,
+          166.29,
+          213.929
+        ],
+        "generalBox": [
+          185.52,
+          207.329,
+          200.61,
+          213.929
+        ]
+      }
+    },
+    {
+      "from": "Cartagena",
+      "to": "Cuevas del Almanzora",
+      "tariff": {
+        "baseCents": 1000,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 895,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 9,
+        "column": 2,
+        "printedRow": "Cartagena",
+        "viaTBox": [
+          221.52,
+          207.329,
+          233.265,
+          213.929
+        ],
+        "generalBox": [
+          254.16,
+          207.329,
+          269.25,
+          213.929
+        ]
+      }
+    },
+    {
+      "from": "Cartagena",
+      "to": "Pulpí",
+      "tariff": {
+        "baseCents": 865,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 775,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 9,
+        "column": 3,
+        "printedRow": "Cartagena",
+        "viaTBox": [
+          290.16,
+          207.329,
+          301.905,
+          213.929
+        ],
+        "generalBox": [
+          324.48,
+          207.329,
+          336.225,
+          213.929
+        ]
+      }
+    },
+    {
+      "from": "Cartagena",
+      "to": "Águilas",
+      "tariff": {
+        "baseCents": 730,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 650,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 9,
+        "column": 4,
+        "printedRow": "Cartagena",
+        "viaTBox": [
+          358.8,
+          207.329,
+          370.545,
+          213.929
+        ],
+        "generalBox": [
+          393.12,
+          207.329,
+          404.865,
+          213.929
+        ]
+      }
+    },
+    {
+      "from": "Cartagena",
+      "to": "Cabo Cope",
+      "tariff": {
+        "baseCents": 590,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 525,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 9,
+        "column": 5,
+        "printedRow": "Cartagena",
+        "viaTBox": [
+          427.44,
+          207.329,
+          439.185,
+          213.929
+        ],
+        "generalBox": [
+          461.76,
+          207.329,
+          473.505,
+          213.929
+        ]
+      }
+    },
+    {
+      "from": "Cartagena",
+      "to": "Ramonete",
+      "tariff": {
+        "baseCents": 490,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 440,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 9,
+        "column": 6,
+        "printedRow": "Cartagena",
+        "viaTBox": [
+          496.08,
+          207.329,
+          507.825,
+          213.929
+        ],
+        "generalBox": [
+          530.4,
+          207.329,
+          542.145,
+          213.929
+        ]
+      }
+    },
+    {
+      "from": "Cartagena",
+      "to": "Mazarrón",
+      "tariff": {
+        "baseCents": 355,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 315,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 9,
+        "column": 7,
+        "printedRow": "Cartagena",
+        "viaTBox": [
+          564.72,
+          207.329,
+          576.465,
+          213.929
+        ],
+        "generalBox": [
+          599.04,
+          207.329,
+          610.785,
+          213.929
+        ]
+      }
+    },
+    {
+      "from": "Cartagena",
+      "to": "Las Palas",
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 155,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 9,
+        "column": 8,
+        "printedRow": "Cartagena",
+        "viaTBox": [
+          634.08,
+          207.329,
+          645.825,
+          213.929
+        ],
+        "generalBox": [
+          669.12,
+          207.329,
+          680.865,
+          213.929
+        ]
+      }
+    }
+  ],
+  "barriers": [],
+  "notes": [
+    "Only explicitly printed light-vehicle cells imported. Blank/dash cells remain unavailable, never zero.",
+    "Physical entry/exit mapping and route validation still required.",
+    "R-2 Aeropuerto/Alcobendas diagonal cells are independent barriers, not same-entry/exit OD fares."
+  ]
+}

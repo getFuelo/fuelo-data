@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+
+# Reproducible national OSM extract; source hash/provenance is versioned.
+audit/2026-09-16/spain-graph/graph.json.gz

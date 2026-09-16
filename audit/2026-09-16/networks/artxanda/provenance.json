@@ -1,0 +1,27 @@
+{
+  "source": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.951,43.276,-2.917,43.294",
+  "sha256": "4d7e2c76b4b9ed3db3a2ffee12c80d0407ef5bdfc51d5359c3ffd88cb871cc88",
+  "checked": "2026-09-16",
+  "gates": [
+    {
+      "gate": "artxanda-inbound",
+      "booth": "32620454",
+      "way": "11505078",
+      "wayVersion": 18,
+      "roof": "623070234",
+      "roofVersion": 4,
+      "method": "Perpendicular to oneway carriageway through booth; extent from projected physical toll roof plus 2m each end."
+    },
+    {
+      "gate": "artxanda-outbound",
+      "booth": "1458151541",
+      "way": "28193390",
+      "wayVersion": 15,
+      "roof": "623070234",
+      "roofVersion": 4,
+      "method": "Perpendicular to oneway carriageway through booth; extent from projected physical toll roof plus 2m each end."
+    }
+  ],
+  "coverageWayCount": 29,
+  "gateInventory": "Two booth nodes on opposite one-way carriageways under the same roof. Shared by the two charged tunnel branches. Existing Bilbao city booth is unrelated."
+}

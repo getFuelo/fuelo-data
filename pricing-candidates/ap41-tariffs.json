@@ -1,0 +1,2494 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_ap41_2026.pdf",
+  "sha256": "0695734afff7101bc36b5df4544fa2e58000d3a757de7b5a5ff225b36131ac1c",
+  "publishedAccesses": [
+    "R5",
+    "Serranillos",
+    "Carranque",
+    "Illescas",
+    "Numancia",
+    "Villaluenga",
+    "Villaseca",
+    "Toledo"
+  ],
+  "ods": [
+    {
+      "from": "R5",
+      "to": "Serranillos",
+      "tariff": {
+        "baseCents": 95,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 2,
+        "printedRow": "R5",
+        "viaTBox": [
+          235.8,
+          100.795,
+          250.024,
+          108.835
+        ],
+        "generalBox": [
+          277.68,
+          100.795,
+          291.904,
+          108.835
+        ]
+      }
+    },
+    {
+      "from": "R5",
+      "to": "Carranque",
+      "tariff": {
+        "baseCents": 190,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 170,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 3,
+        "printedRow": "R5",
+        "viaTBox": [
+          319.56,
+          100.795,
+          333.784,
+          108.835
+        ],
+        "generalBox": [
+          361.44,
+          100.795,
+          375.664,
+          108.835
+        ]
+      }
+    },
+    {
+      "from": "R5",
+      "to": "Illescas",
+      "tariff": {
+        "baseCents": 295,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 260,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 4,
+        "printedRow": "R5",
+        "viaTBox": [
+          403.32,
+          100.795,
+          417.544,
+          108.835
+        ],
+        "generalBox": [
+          445.2,
+          100.795,
+          459.424,
+          108.835
+        ]
+      }
+    },
+    {
+      "from": "R5",
+      "to": "Numancia",
+      "tariff": {
+        "baseCents": 335,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 300,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 5,
+        "printedRow": "R5",
+        "viaTBox": [
+          487.08,
+          100.795,
+          501.304,
+          108.835
+        ],
+        "generalBox": [
+          528.96,
+          100.795,
+          543.184,
+          108.835
+        ]
+      }
+    },
+    {
+      "from": "R5",
+      "to": "Villaluenga",
+      "tariff": {
+        "baseCents": 405,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 360,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 6,
+        "printedRow": "R5",
+        "viaTBox": [
+          570.84,
+          100.795,
+          585.064,
+          108.835
+        ],
+        "generalBox": [
+          612.72,
+          100.795,
+          626.944,
+          108.835
+        ]
+      }
+    },
+    {
+      "from": "R5",
+      "to": "Villaseca",
+      "tariff": {
+        "baseCents": 505,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 450,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 7,
+        "printedRow": "R5",
+        "viaTBox": [
+          654.6,
+          100.795,
+          668.824,
+          108.835
+        ],
+        "generalBox": [
+          696.48,
+          100.795,
+          710.704,
+          108.835
+        ]
+      }
+    },
+    {
+      "from": "R5",
+      "to": "Toledo",
+      "tariff": {
+        "baseCents": 595,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 530,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 8,
+        "printedRow": "R5",
+        "viaTBox": [
+          738.36,
+          100.795,
+          752.584,
+          108.835
+        ],
+        "generalBox": [
+          780.24,
+          100.795,
+          794.464,
+          108.835
+        ]
+      }
+    },
+    {
+      "from": "Serranillos",
+      "to": "R5",
+      "tariff": {
+        "baseCents": 95,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 1,
+        "printedRow": "Serranillos",
+        "viaTBox": [
+          152.04,
+          111.595,
+          166.264,
+          119.635
+        ],
+        "generalBox": [
+          193.92,
+          111.595,
+          208.144,
+          119.635
+        ]
+      }
+    },
+    {
+      "from": "Serranillos",
+      "to": "Carranque",
+      "tariff": {
+        "baseCents": 100,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 90,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 3,
+        "printedRow": "Serranillos",
+        "viaTBox": [
+          319.56,
+          111.595,
+          333.784,
+          119.635
+        ],
+        "generalBox": [
+          361.44,
+          111.595,
+          375.664,
+          119.635
+        ]
+      }
+    },
+    {
+      "from": "Serranillos",
+      "to": "Illescas",
+      "tariff": {
+        "baseCents": 200,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 180,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 4,
+        "printedRow": "Serranillos",
+        "viaTBox": [
+          403.32,
+          111.595,
+          417.544,
+          119.635
+        ],
+        "generalBox": [
+          445.2,
+          111.595,
+          459.424,
+          119.635
+        ]
+      }
+    },
+    {
+      "from": "Serranillos",
+      "to": "Numancia",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 5,
+        "printedRow": "Serranillos",
+        "viaTBox": [
+          487.08,
+          111.595,
+          501.304,
+          119.635
+        ],
+        "generalBox": [
+          528.96,
+          111.595,
+          543.184,
+          119.635
+        ]
+      }
+    },
+    {
+      "from": "Serranillos",
+      "to": "Villaluenga",
+      "tariff": {
+        "baseCents": 310,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 280,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 6,
+        "printedRow": "Serranillos",
+        "viaTBox": [
+          570.84,
+          111.595,
+          585.064,
+          119.635
+        ],
+        "generalBox": [
+          612.72,
+          111.595,
+          626.944,
+          119.635
+        ]
+      }
+    },
+    {
+      "from": "Serranillos",
+      "to": "Villaseca",
+      "tariff": {
+        "baseCents": 415,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 370,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 7,
+        "printedRow": "Serranillos",
+        "viaTBox": [
+          654.6,
+          111.595,
+          668.824,
+          119.635
+        ],
+        "generalBox": [
+          696.48,
+          111.595,
+          710.704,
+          119.635
+        ]
+      }
+    },
+    {
+      "from": "Serranillos",
+      "to": "Toledo",
+      "tariff": {
+        "baseCents": 505,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 450,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 8,
+        "printedRow": "Serranillos",
+        "viaTBox": [
+          738.36,
+          111.595,
+          752.584,
+          119.635
+        ],
+        "generalBox": [
+          780.24,
+          111.595,
+          794.464,
+          119.635
+        ]
+      }
+    },
+    {
+      "from": "Carranque",
+      "to": "R5",
+      "tariff": {
+        "baseCents": 190,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 170,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 1,
+        "printedRow": "Carranque",
+        "viaTBox": [
+          152.04,
+          122.395,
+          166.264,
+          130.435
+        ],
+        "generalBox": [
+          193.92,
+          122.395,
+          208.144,
+          130.435
+        ]
+      }
+    },
+    {
+      "from": "Carranque",
+      "to": "Serranillos",
+      "tariff": {
+        "baseCents": 100,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 90,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 2,
+        "printedRow": "Carranque",
+        "viaTBox": [
+          235.8,
+          122.395,
+          250.024,
+          130.435
+        ],
+        "generalBox": [
+          277.68,
+          122.395,
+          291.904,
+          130.435
+        ]
+      }
+    },
+    {
+      "from": "Carranque",
+      "to": "Illescas",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 4,
+        "printedRow": "Carranque",
+        "viaTBox": [
+          403.32,
+          122.395,
+          417.544,
+          130.435
+        ],
+        "generalBox": [
+          445.2,
+          122.395,
+          459.424,
+          130.435
+        ]
+      }
+    },
+    {
+      "from": "Carranque",
+      "to": "Numancia",
+      "tariff": {
+        "baseCents": 145,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 130,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 5,
+        "printedRow": "Carranque",
+        "viaTBox": [
+          487.08,
+          122.395,
+          501.304,
+          130.435
+        ],
+        "generalBox": [
+          528.96,
+          122.395,
+          543.184,
+          130.435
+        ]
+      }
+    },
+    {
+      "from": "Carranque",
+      "to": "Villaluenga",
+      "tariff": {
+        "baseCents": 215,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 195,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 6,
+        "printedRow": "Carranque",
+        "viaTBox": [
+          570.84,
+          122.395,
+          585.064,
+          130.435
+        ],
+        "generalBox": [
+          612.72,
+          122.395,
+          626.944,
+          130.435
+        ]
+      }
+    },
+    {
+      "from": "Carranque",
+      "to": "Villaseca",
+      "tariff": {
+        "baseCents": 320,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 285,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 7,
+        "printedRow": "Carranque",
+        "viaTBox": [
+          654.6,
+          122.395,
+          668.824,
+          130.435
+        ],
+        "generalBox": [
+          696.48,
+          122.395,
+          710.704,
+          130.435
+        ]
+      }
+    },
+    {
+      "from": "Carranque",
+      "to": "Toledo",
+      "tariff": {
+        "baseCents": 410,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 365,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 8,
+        "printedRow": "Carranque",
+        "viaTBox": [
+          738.36,
+          122.395,
+          752.584,
+          130.435
+        ],
+        "generalBox": [
+          780.24,
+          122.395,
+          794.464,
+          130.435
+        ]
+      }
+    },
+    {
+      "from": "Illescas",
+      "to": "R5",
+      "tariff": {
+        "baseCents": 295,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 260,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 1,
+        "printedRow": "Illescas",
+        "viaTBox": [
+          152.04,
+          133.195,
+          166.264,
+          141.235
+        ],
+        "generalBox": [
+          193.92,
+          133.195,
+          208.144,
+          141.235
+        ]
+      }
+    },
+    {
+      "from": "Illescas",
+      "to": "Serranillos",
+      "tariff": {
+        "baseCents": 200,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 180,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 2,
+        "printedRow": "Illescas",
+        "viaTBox": [
+          235.8,
+          133.195,
+          250.024,
+          141.235
+        ],
+        "generalBox": [
+          277.68,
+          133.195,
+          291.904,
+          141.235
+        ]
+      }
+    },
+    {
+      "from": "Illescas",
+      "to": "Carranque",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 3,
+        "printedRow": "Illescas",
+        "viaTBox": [
+          319.56,
+          133.195,
+          333.784,
+          141.235
+        ],
+        "generalBox": [
+          361.44,
+          133.195,
+          375.664,
+          141.235
+        ]
+      }
+    },
+    {
+      "from": "Illescas",
+      "to": "Numancia",
+      "tariff": {
+        "baseCents": 45,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 40,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 5,
+        "printedRow": "Illescas",
+        "viaTBox": [
+          487.08,
+          133.195,
+          501.304,
+          141.235
+        ],
+        "generalBox": [
+          528.96,
+          133.195,
+          543.184,
+          141.235
+        ]
+      }
+    },
+    {
+      "from": "Illescas",
+      "to": "Villaluenga",
+      "tariff": {
+        "baseCents": 115,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 105,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 6,
+        "printedRow": "Illescas",
+        "viaTBox": [
+          570.84,
+          133.195,
+          585.064,
+          141.235
+        ],
+        "generalBox": [
+          612.72,
+          133.195,
+          626.944,
+          141.235
+        ]
+      }
+    },
+    {
+      "from": "Illescas",
+      "to": "Villaseca",
+      "tariff": {
+        "baseCents": 215,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 190,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 7,
+        "printedRow": "Illescas",
+        "viaTBox": [
+          654.6,
+          133.195,
+          668.824,
+          141.235
+        ],
+        "generalBox": [
+          696.48,
+          133.195,
+          710.704,
+          141.235
+        ]
+      }
+    },
+    {
+      "from": "Illescas",
+      "to": "Toledo",
+      "tariff": {
+        "baseCents": 305,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 270,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 8,
+        "printedRow": "Illescas",
+        "viaTBox": [
+          738.36,
+          133.195,
+          752.584,
+          141.235
+        ],
+        "generalBox": [
+          780.24,
+          133.195,
+          794.464,
+          141.235
+        ]
+      }
+    },
+    {
+      "from": "Numancia",
+      "to": "R5",
+      "tariff": {
+        "baseCents": 335,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 300,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 1,
+        "printedRow": "Numancia",
+        "viaTBox": [
+          152.04,
+          143.995,
+          166.264,
+          152.035
+        ],
+        "generalBox": [
+          193.92,
+          143.995,
+          208.144,
+          152.035
+        ]
+      }
+    },
+    {
+      "from": "Numancia",
+      "to": "Serranillos",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 2,
+        "printedRow": "Numancia",
+        "viaTBox": [
+          235.8,
+          143.995,
+          250.024,
+          152.035
+        ],
+        "generalBox": [
+          277.68,
+          143.995,
+          291.904,
+          152.035
+        ]
+      }
+    },
+    {
+      "from": "Numancia",
+      "to": "Carranque",
+      "tariff": {
+        "baseCents": 145,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 130,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 3,
+        "printedRow": "Numancia",
+        "viaTBox": [
+          319.56,
+          143.995,
+          333.784,
+          152.035
+        ],
+        "generalBox": [
+          361.44,
+          143.995,
+          375.664,
+          152.035
+        ]
+      }
+    },
+    {
+      "from": "Numancia",
+      "to": "Illescas",
+      "tariff": {
+        "baseCents": 45,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 40,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 4,
+        "printedRow": "Numancia",
+        "viaTBox": [
+          403.32,
+          143.995,
+          417.544,
+          152.035
+        ],
+        "generalBox": [
+          445.2,
+          143.995,
+          459.424,
+          152.035
+        ]
+      }
+    },
+    {
+      "from": "Numancia",
+      "to": "Villaluenga",
+      "tariff": {
+        "baseCents": 75,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 70,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 6,
+        "printedRow": "Numancia",
+        "viaTBox": [
+          570.84,
+          143.995,
+          585.064,
+          152.035
+        ],
+        "generalBox": [
+          612.72,
+          143.995,
+          626.944,
+          152.035
+        ]
+      }
+    },
+    {
+      "from": "Numancia",
+      "to": "Villaseca",
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 155,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 7,
+        "printedRow": "Numancia",
+        "viaTBox": [
+          654.6,
+          143.995,
+          668.824,
+          152.035
+        ],
+        "generalBox": [
+          696.48,
+          143.995,
+          710.704,
+          152.035
+        ]
+      }
+    },
+    {
+      "from": "Numancia",
+      "to": "Toledo",
+      "tariff": {
+        "baseCents": 265,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 235,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 8,
+        "printedRow": "Numancia",
+        "viaTBox": [
+          738.36,
+          143.995,
+          752.584,
+          152.035
+        ],
+        "generalBox": [
+          780.24,
+          143.995,
+          794.464,
+          152.035
+        ]
+      }
+    },
+    {
+      "from": "Villaluenga",
+      "to": "R5",
+      "tariff": {
+        "baseCents": 405,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 360,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 1,
+        "printedRow": "Villaluenga",
+        "viaTBox": [
+          152.04,
+          154.795,
+          166.264,
+          162.835
+        ],
+        "generalBox": [
+          193.92,
+          154.795,
+          208.144,
+          162.835
+        ]
+      }
+    },
+    {
+      "from": "Villaluenga",
+      "to": "Serranillos",
+      "tariff": {
+        "baseCents": 310,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 280,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 2,
+        "printedRow": "Villaluenga",
+        "viaTBox": [
+          235.8,
+          154.795,
+          250.024,
+          162.835
+        ],
+        "generalBox": [
+          277.68,
+          154.795,
+          291.904,
+          162.835
+        ]
+      }
+    },
+    {
+      "from": "Villaluenga",
+      "to": "Carranque",
+      "tariff": {
+        "baseCents": 215,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 195,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 3,
+        "printedRow": "Villaluenga",
+        "viaTBox": [
+          319.56,
+          154.795,
+          333.784,
+          162.835
+        ],
+        "generalBox": [
+          361.44,
+          154.795,
+          375.664,
+          162.835
+        ]
+      }
+    },
+    {
+      "from": "Villaluenga",
+      "to": "Illescas",
+      "tariff": {
+        "baseCents": 115,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 105,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 4,
+        "printedRow": "Villaluenga",
+        "viaTBox": [
+          403.32,
+          154.795,
+          417.544,
+          162.835
+        ],
+        "generalBox": [
+          445.2,
+          154.795,
+          459.424,
+          162.835
+        ]
+      }
+    },
+    {
+      "from": "Villaluenga",
+      "to": "Numancia",
+      "tariff": {
+        "baseCents": 75,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 70,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 5,
+        "printedRow": "Villaluenga",
+        "viaTBox": [
+          487.08,
+          154.795,
+          501.304,
+          162.835
+        ],
+        "generalBox": [
+          528.96,
+          154.795,
+          543.184,
+          162.835
+        ]
+      }
+    },
+    {
+      "from": "Villaluenga",
+      "to": "Villaseca",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 7,
+        "printedRow": "Villaluenga",
+        "viaTBox": [
+          654.6,
+          154.795,
+          668.824,
+          162.835
+        ],
+        "generalBox": [
+          696.48,
+          154.795,
+          710.704,
+          162.835
+        ]
+      }
+    },
+    {
+      "from": "Villaluenga",
+      "to": "Toledo",
+      "tariff": {
+        "baseCents": 195,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 175,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 8,
+        "printedRow": "Villaluenga",
+        "viaTBox": [
+          738.36,
+          154.795,
+          752.584,
+          162.835
+        ],
+        "generalBox": [
+          780.24,
+          154.795,
+          794.464,
+          162.835
+        ]
+      }
+    },
+    {
+      "from": "Villaseca",
+      "to": "R5",
+      "tariff": {
+        "baseCents": 505,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 450,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 1,
+        "printedRow": "Villaseca",
+        "viaTBox": [
+          152.04,
+          165.595,
+          166.264,
+          173.635
+        ],
+        "generalBox": [
+          193.92,
+          165.595,
+          208.144,
+          173.635
+        ]
+      }
+    },
+    {
+      "from": "Villaseca",
+      "to": "Serranillos",
+      "tariff": {
+        "baseCents": 415,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 370,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 2,
+        "printedRow": "Villaseca",
+        "viaTBox": [
+          235.8,
+          165.595,
+          250.024,
+          173.635
+        ],
+        "generalBox": [
+          277.68,
+          165.595,
+          291.904,
+          173.635
+        ]
+      }
+    },
+    {
+      "from": "Villaseca",
+      "to": "Carranque",
+      "tariff": {
+        "baseCents": 320,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 285,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 3,
+        "printedRow": "Villaseca",
+        "viaTBox": [
+          319.56,
+          165.595,
+          333.784,
+          173.635
+        ],
+        "generalBox": [
+          361.44,
+          165.595,
+          375.664,
+          173.635
+        ]
+      }
+    },
+    {
+      "from": "Villaseca",
+      "to": "Illescas",
+      "tariff": {
+        "baseCents": 215,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 190,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 4,
+        "printedRow": "Villaseca",
+        "viaTBox": [
+          403.32,
+          165.595,
+          417.544,
+          173.635
+        ],
+        "generalBox": [
+          445.2,
+          165.595,
+          459.424,
+          173.635
+        ]
+      }
+    },
+    {
+      "from": "Villaseca",
+      "to": "Numancia",
+      "tariff": {
+        "baseCents": 175,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 155,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 5,
+        "printedRow": "Villaseca",
+        "viaTBox": [
+          487.08,
+          165.595,
+          501.304,
+          173.635
+        ],
+        "generalBox": [
+          528.96,
+          165.595,
+          543.184,
+          173.635
+        ]
+      }
+    },
+    {
+      "from": "Villaseca",
+      "to": "Villaluenga",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 6,
+        "printedRow": "Villaseca",
+        "viaTBox": [
+          570.84,
+          165.595,
+          585.064,
+          173.635
+        ],
+        "generalBox": [
+          612.72,
+          165.595,
+          626.944,
+          173.635
+        ]
+      }
+    },
+    {
+      "from": "Villaseca",
+      "to": "Toledo",
+      "tariff": {
+        "baseCents": 90,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 80,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 7,
+        "column": 8,
+        "printedRow": "Villaseca",
+        "viaTBox": [
+          738.36,
+          165.595,
+          752.584,
+          173.635
+        ],
+        "generalBox": [
+          780.24,
+          165.595,
+          794.464,
+          173.635
+        ]
+      }
+    },
+    {
+      "from": "Toledo",
+      "to": "R5",
+      "tariff": {
+        "baseCents": 595,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 530,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 1,
+        "printedRow": "Toledo",
+        "viaTBox": [
+          152.04,
+          176.395,
+          166.264,
+          184.435
+        ],
+        "generalBox": [
+          193.92,
+          176.395,
+          208.144,
+          184.435
+        ]
+      }
+    },
+    {
+      "from": "Toledo",
+      "to": "Serranillos",
+      "tariff": {
+        "baseCents": 505,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 450,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 2,
+        "printedRow": "Toledo",
+        "viaTBox": [
+          235.8,
+          176.395,
+          250.024,
+          184.435
+        ],
+        "generalBox": [
+          277.68,
+          176.395,
+          291.904,
+          184.435
+        ]
+      }
+    },
+    {
+      "from": "Toledo",
+      "to": "Carranque",
+      "tariff": {
+        "baseCents": 410,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 365,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 3,
+        "printedRow": "Toledo",
+        "viaTBox": [
+          319.56,
+          176.395,
+          333.784,
+          184.435
+        ],
+        "generalBox": [
+          361.44,
+          176.395,
+          375.664,
+          184.435
+        ]
+      }
+    },
+    {
+      "from": "Toledo",
+      "to": "Illescas",
+      "tariff": {
+        "baseCents": 305,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 270,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 4,
+        "printedRow": "Toledo",
+        "viaTBox": [
+          403.32,
+          176.395,
+          417.544,
+          184.435
+        ],
+        "generalBox": [
+          445.2,
+          176.395,
+          459.424,
+          184.435
+        ]
+      }
+    },
+    {
+      "from": "Toledo",
+      "to": "Numancia",
+      "tariff": {
+        "baseCents": 265,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 235,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 5,
+        "printedRow": "Toledo",
+        "viaTBox": [
+          487.08,
+          176.395,
+          501.304,
+          184.435
+        ],
+        "generalBox": [
+          528.96,
+          176.395,
+          543.184,
+          184.435
+        ]
+      }
+    },
+    {
+      "from": "Toledo",
+      "to": "Villaluenga",
+      "tariff": {
+        "baseCents": 195,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 175,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 6,
+        "printedRow": "Toledo",
+        "viaTBox": [
+          570.84,
+          176.395,
+          585.064,
+          184.435
+        ],
+        "generalBox": [
+          612.72,
+          176.395,
+          626.944,
+          184.435
+        ]
+      }
+    },
+    {
+      "from": "Toledo",
+      "to": "Villaseca",
+      "tariff": {
+        "baseCents": 90,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 80,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 8,
+        "column": 7,
+        "printedRow": "Toledo",
+        "viaTBox": [
+          654.6,
+          176.395,
+          668.824,
+          184.435
+        ],
+        "generalBox": [
+          696.48,
+          176.395,
+          710.704,
+          184.435
+        ]
+      }
+    }
+  ],
+  "barriers": [],
+  "notes": [
+    "Only explicitly printed light-vehicle cells imported. Blank/dash cells remain unavailable, never zero.",
+    "Physical entry/exit mapping and route validation still required.",
+    "R-2 Aeropuerto/Alcobendas diagonal cells are independent barriers, not same-entry/exit OD fares."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-c16-sant-vicenc-c55",
+      "reviewGroup": "osm-review-141831078",
+      "booths": [
+        141831078,
+        2024620547,
+        2024620548,
+        2024620549,
+        2024620550,
+        2024620551,
+        2024620552,
+        2024620553,
+        2024620554
+      ],
+      "laneWays": [
+        191901027,
+        191901028,
+        191901032,
+        191901035,
+        515278832,
+        515278833,
+        515278834,
+        515278837,
+        515278838,
+        1392104582,
+        1392104676
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-c16-terrassa-manresa",
+      "reviewGroup": "osm-review-150686870",
+      "booths": [
+        150686870,
+        150688616,
+        2024647210,
+        2024647211,
+        2024647212,
+        2024647213,
+        2024647214,
+        2024647220,
+        2024647223,
+        2024647225,
+        2024647226,
+        2024647227
+      ],
+      "laneWays": [
+        191903484,
+        191903485,
+        191903486,
+        191903487,
+        191903488,
+        191903489,
+        191903490,
+        191903491,
+        191903492,
+        191903493,
+        427346301,
+        427346572
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-c16-sant-cugat-terrassa",
+      "reviewGroup": "osm-review-255558497",
+      "booths": [
+        255558497,
+        255620612,
+        7034570661,
+        7034570669
+      ],
+      "laneWays": [
+        738663023,
+        738663024,
+        752846707,
+        752846708
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 298,
+  "reviewStatus": "candidate_pending_routes"
+}

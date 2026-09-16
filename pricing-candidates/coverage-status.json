@@ -1,0 +1,426 @@
+{
+  "checked": "2026-09-16",
+  "country": "ES",
+  "complete": false,
+  "scope": "35 existing catalog entries; this list alone is not proof of the national inventory.",
+  "nationalBlockers": [
+    "294 OSM access review groups are not yet all classified; review private/parking/obsolete booths separately.",
+    "Geofabrik peninsula/Balearic extract does not establish Canary Islands inventory completeness.",
+    "Release requires all access mappings, applicable tariffs and real route cases; tariff imports alone are insufficient."
+  ],
+  "entries": [
+    {
+      "catalogId": "es-ap6",
+      "tariffArtifacts": [
+        "pricing-candidates/ap6-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Map joint AP-6 journey settlement without adding overlapping journey fares."
+      ]
+    },
+    {
+      "catalogId": "es-ap51",
+      "tariffArtifacts": [
+        "pricing-candidates/ap51-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Map joint AP-6 journey settlement without adding overlapping journey fares."
+      ]
+    },
+    {
+      "catalogId": "es-ap61",
+      "tariffArtifacts": [
+        "pricing-candidates/ap61-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Map joint AP-6 journey settlement without adding overlapping journey fares."
+      ]
+    },
+    {
+      "catalogId": "es-ap53",
+      "tariffArtifacts": [
+        "pricing-candidates/ap53-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ap66",
+      "tariffArtifacts": [
+        "pricing-candidates/ap66-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Handle monthly usage eligibility without equating Via-T ownership to a known recurrence tier."
+      ]
+    },
+    {
+      "catalogId": "es-ap68",
+      "tariffArtifacts": [
+        "pricing-candidates/ap68-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ap71",
+      "tariffArtifacts": [
+        "pricing-candidates/ap71-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ap9",
+      "tariffArtifacts": [
+        "pricing-candidates/ap9-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ap46",
+      "tariffArtifacts": [
+        "pricing-candidates/ap46.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap46.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-ap7-malaga-estepona",
+      "tariffArtifacts": [
+        "pricing-candidates/ap7-malaga-estepona-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ap7-estepona-guadiaro",
+      "tariffArtifacts": [
+        "pricing-candidates/ap7-estepona-guadiaro-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ap7-alicante-cartagena",
+      "tariffArtifacts": [
+        "pricing-candidates/ap7-alicante-cartagena-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-r2",
+      "tariffArtifacts": [
+        "pricing-candidates/r2-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-r3",
+      "tariffArtifacts": [
+        "pricing-candidates/r3-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-r4",
+      "tariffArtifacts": [
+        "pricing-candidates/r4-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-r5",
+      "tariffArtifacts": [
+        "pricing-candidates/r5-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-m12",
+      "tariffArtifacts": [
+        "pricing-candidates/m12.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/m12.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-ap7-cartagena-vera",
+      "tariffArtifacts": [
+        "pricing-candidates/ap7-cartagena-vera-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ap36",
+      "tariffArtifacts": [
+        "pricing-candidates/ap36-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ap41",
+      "tariffArtifacts": [
+        "pricing-candidates/ap41-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-cadi",
+      "tariffArtifacts": [
+        "pricing-candidates/cadi.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/cadi.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-vallvidrera",
+      "tariffArtifacts": [
+        "pricing-candidates/vallvidrera-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Resolve operator-applicable working-day/holiday calendar."
+      ]
+    },
+    {
+      "catalogId": "es-c16-sant-cugat-terrassa",
+      "tariffArtifacts": [
+        "pricing-candidates/autema-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/autema.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-c16-terrassa-manresa",
+      "tariffArtifacts": [
+        "pricing-candidates/autema-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/autema.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-c32-castelldefels-vendrell",
+      "tariffArtifacts": [
+        "pricing-candidates/c32-castelldefels-vendrell-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/c32.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open.",
+        "Vallcarca real Valhalla geometry misses physical gate: see audit/2026-09-16/networks/c32/valhalla-mismatch.json."
+      ]
+    },
+    {
+      "catalogId": "es-ag55",
+      "tariffArtifacts": [
+        "pricing-candidates/ag55-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ag57",
+      "tariffArtifacts": [
+        "pricing-candidates/ag57-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-ap15",
+      "tariffArtifacts": [
+        "pricing-candidates/ap15-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/ap15.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-ap8-gipuzkoa",
+      "tariffArtifacts": [
+        "pricing-candidates/ap8-ap1-joint-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Complete eastern Gipuzkoa open-system tariff cases and map joint AP-8/AP-1 settlement without regional double charging."
+      ]
+    },
+    {
+      "catalogId": "es-ap1-gipuzkoa",
+      "tariffArtifacts": [
+        "pricing-candidates/ap8-ap1-joint-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Complete eastern Gipuzkoa open-system tariff cases and map joint AP-8/AP-1 settlement without regional double charging."
+      ]
+    },
+    {
+      "catalogId": "es-ap636",
+      "tariffArtifacts": [
+        "pricing-candidates/ap636-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Model conditional Antzuola partial journey without adding its rate to the full Deskarga section."
+      ]
+    },
+    {
+      "catalogId": "es-ap8-bizkaia",
+      "tariffArtifacts": [
+        "pricing-candidates/ap8-ap1-joint-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open.",
+        "Complete eastern Gipuzkoa open-system tariff cases and map joint AP-8/AP-1 settlement without regional double charging."
+      ]
+    },
+    {
+      "catalogId": "es-supersur",
+      "tariffArtifacts": [
+        "pricing-candidates/supersur-tariffs.json"
+      ],
+      "geometryCandidates": [],
+      "ready": false,
+      "blockers": [
+        "Physical entry/exit or barrier association and real route corpus remain open."
+      ]
+    },
+    {
+      "catalogId": "es-artxanda",
+      "tariffArtifacts": [
+        "pricing-candidates/artxanda.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/artxanda.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    },
+    {
+      "catalogId": "es-c16-sant-vicenc-c55",
+      "tariffArtifacts": [
+        "pricing-candidates/autema-tariffs.json"
+      ],
+      "geometryCandidates": [
+        "pricing-candidates/autema.json"
+      ],
+      "ready": false,
+      "blockers": [
+        "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
+      ]
+    }
+  ]
+}

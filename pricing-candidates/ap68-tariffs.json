@@ -1,0 +1,3500 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-68,-bilbao---zaragoza-2026.pdf",
+  "sha256": "6884ebdeb726fafd78435176409e23536f5c26a7edea6ee31998891f3baf2ede",
+  "ods": [
+    {
+      "from": "BILBAO",
+      "to": "ARRIGORRIAGA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 105,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 13,
+        "printed": "BILBAO                     ARRIGORRIAGA               1,05        1,90        2,15"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "ARETA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 255,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 14,
+        "printed": "BILBAO                     ARETA                      2,55        4,65        5,25"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "LLODIO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 255,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 15,
+        "printed": "BILBAO                     LLODIO                     2,55        4,65        5,25"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "ALTUBE",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 685,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 16,
+        "printed": "BILBAO                     ALTUBE                     6,85       12,60       14,25"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "SUBIJANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 990,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 17,
+        "printed": "BILBAO                     SUBIJANA                   9,90       18,20       20,60"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "AUTOP.BURGOS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1240,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 18,
+        "printed": "BILBAO                     AUTOP.BURGOS              12,40       22,75       25,80"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "ZAMBRANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1345,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 19,
+        "printed": "BILBAO                     ZAMBRANA                  13,45       24,70       27,95"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "HARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1495,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 20,
+        "printed": "BILBAO                     HARO                      14,95       27,50       31,20"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "CENICERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1755,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 21,
+        "printed": "BILBAO                     CENICERO                  17,55       32,30       36,75"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1850,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 22,
+        "printed": "BILBAO                     FUENMAYOR                 18,50       34,00       38,75"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1960,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 23,
+        "printed": "BILBAO                     LOGROÑO                   19,60       36,15       41,20"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2070,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 24,
+        "printed": "BILBAO                     RECAJO                    20,70       38,10       43,45"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2120,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 25,
+        "printed": "BILBAO                     AGONCILLO                 21,20       39,10       44,60"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2350,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 26,
+        "printed": "BILBAO                     LODOSA                    23,50       43,35       49,50"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2480,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 27,
+        "printed": "BILBAO                     CALAHORRA                 24,80       45,75       52,25"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2790,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 28,
+        "printed": "BILBAO                     ALFARO                    27,90       51,50       58,90"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2855,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 29,
+        "printed": "BILBAO                     AUTOP.NAVARRA             28,55       52,75       60,40"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3000,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 30,
+        "printed": "BILBAO                     TUDELA                    30,00       55,20       63,35"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3395,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 31,
+        "printed": "BILBAO                     GALLUR                    33,95       62,15       71,70"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3720,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 32,
+        "printed": "BILBAO                     ALAGÓN pk 272             37,20       67,90       78,55"
+      }
+    },
+    {
+      "from": "BILBAO",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3990,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 33,
+        "printed": "BILBAO                     ZARAGOZA                  39,90       72,55       84,15"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "ARETA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 255,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 35,
+        "printed": "ARRIGORRIAGA               ARETA                      2,55        4,65        5,25"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "LLODIO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 255,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 36,
+        "printed": "ARRIGORRIAGA               LLODIO                     2,55        4,65        5,25"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "ALTUBE",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 685,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 37,
+        "printed": "ARRIGORRIAGA               ALTUBE                     6,85       12,60       14,25"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "SUBIJANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 990,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 38,
+        "printed": "ARRIGORRIAGA               SUBIJANA                   9,90       18,20       20,60"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "AUTOP.BURGOS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1240,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 39,
+        "printed": "ARRIGORRIAGA               AUTOP.BURGOS              12,40       22,75       25,80"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "ZAMBRANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1345,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 40,
+        "printed": "ARRIGORRIAGA               ZAMBRANA                  13,45       24,70       27,95"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "HARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1495,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 41,
+        "printed": "ARRIGORRIAGA               HARO                      14,95       27,50       31,20"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "CENICERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1755,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 42,
+        "printed": "ARRIGORRIAGA               CENICERO                  17,55       32,30       36,75"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1850,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 43,
+        "printed": "ARRIGORRIAGA               FUENMAYOR                 18,50       34,00       38,75"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1960,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 44,
+        "printed": "ARRIGORRIAGA               LOGROÑO                   19,60       36,15       41,20"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2070,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 45,
+        "printed": "ARRIGORRIAGA               RECAJO                    20,70       38,10       43,45"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2120,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 46,
+        "printed": "ARRIGORRIAGA               AGONCILLO                 21,20       39,10       44,60"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2350,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 47,
+        "printed": "ARRIGORRIAGA               LODOSA                    23,50       43,35       49,50"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2480,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 48,
+        "printed": "ARRIGORRIAGA               CALAHORRA                 24,80       45,75       52,25"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2790,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 49,
+        "printed": "ARRIGORRIAGA               ALFARO                    27,90       51,50       58,90"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2855,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 50,
+        "printed": "ARRIGORRIAGA               AUTOP.NAVARRA             28,55       52,75       60,40"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3000,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 51,
+        "printed": "ARRIGORRIAGA               TUDELA                    30,00       55,20       63,35"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3395,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 52,
+        "printed": "ARRIGORRIAGA               GALLUR                    33,95       62,15       71,70"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3720,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 53,
+        "printed": "ARRIGORRIAGA               ALAGÓN pk 272             37,20       67,90       78,55"
+      }
+    },
+    {
+      "from": "ARRIGORRIAGA",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3990,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 54,
+        "printed": "ARRIGORRIAGA               ZARAGOZA                  39,90       72,55       84,15"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "ALTUBE",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 455,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 56,
+        "printed": "LLODIO                     ALTUBE                     4,55        8,30        9,40"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "SUBIJANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 760,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 57,
+        "printed": "LLODIO                     SUBIJANA                   7,60       13,95       15,75"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "AUTOP.BURGOS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1010,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 58,
+        "printed": "LLODIO                     AUTOP.BURGOS              10,10       18,50       20,95"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "ZAMBRANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1115,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 59,
+        "printed": "LLODIO                     ZAMBRANA                  11,15       20,40       23,10"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "HARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1265,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 60,
+        "printed": "LLODIO                     HARO                      12,65       23,25       26,40"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "CENICERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1525,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 61,
+        "printed": "LLODIO                     CENICERO                  15,25       28,05       31,90"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1615,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 62,
+        "printed": "LLODIO                     FUENMAYOR                 16,15       29,75       33,90"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1730,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 13,
+        "printed": "LLODIO                     LOGROÑO                   17,30       31,85       36,35"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1835,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 14,
+        "printed": "LLODIO                     RECAJO                    18,35       33,80       38,60"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1885,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 15,
+        "printed": "LLODIO                     AGONCILLO                 18,85       34,80       39,75"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2120,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 16,
+        "printed": "LLODIO                     LODOSA                    21,20       39,10       44,70"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2245,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 17,
+        "printed": "LLODIO                     CALAHORRA                 22,45       41,45       47,40"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2555,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 18,
+        "printed": "LLODIO                     ALFARO                    25,55       47,20       54,05"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2625,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 19,
+        "printed": "LLODIO                     AUTOP.NAVARRA             26,25       48,50       55,55"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2765,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 20,
+        "printed": "LLODIO                     TUDELA                    27,65       50,95       58,50"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3160,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 21,
+        "printed": "LLODIO                     GALLUR                    31,60       57,90       66,85"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3490,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 22,
+        "printed": "LLODIO                     ALAGÓN pk 272             34,90       63,60       73,70"
+      }
+    },
+    {
+      "from": "LLODIO",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3755,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 23,
+        "printed": "LLODIO                     ZARAGOZA                  37,55       68,30       79,30"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "ALTUBE",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 165,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 25,
+        "printed": "ZIORRAGA                   ALTUBE                     1,65        3,00        3,40"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "SUBIJANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 470,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 26,
+        "printed": "ZIORRAGA                   SUBIJANA                   4,70        8,60        9,75"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "AUTOP.BURGOS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 720,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 27,
+        "printed": "ZIORRAGA                   AUTOP.BURGOS               7,20       13,20       14,90"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "ZAMBRANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 825,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 28,
+        "printed": "ZIORRAGA                   ZAMBRANA                   8,25       15,10       17,10"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "HARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 975,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 29,
+        "printed": "ZIORRAGA                   HARO                       9,75       17,90       20,35"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "CENICERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1235,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 30,
+        "printed": "ZIORRAGA                   CENICERO                  12,35       22,70       25,90"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1325,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 31,
+        "printed": "ZIORRAGA                   FUENMAYOR                 13,25       24,45       27,90"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1440,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 32,
+        "printed": "ZIORRAGA                   LOGROÑO                   14,40       26,55       30,30"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1545,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 33,
+        "printed": "ZIORRAGA                   RECAJO                    15,45       28,50       32,60"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1600,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 34,
+        "printed": "ZIORRAGA                   AGONCILLO                 16,00       29,50       33,75"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1830,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 35,
+        "printed": "ZIORRAGA                   LODOSA                    18,30       33,75       38,65"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1955,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 36,
+        "printed": "ZIORRAGA                   CALAHORRA                 19,55       36,15       41,40"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2265,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 37,
+        "printed": "ZIORRAGA                   ALFARO                    22,65       41,90       48,05"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2335,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 38,
+        "printed": "ZIORRAGA                   AUTOP.NAVARRA             23,35       43,20       49,55"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2475,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 39,
+        "printed": "ZIORRAGA                   TUDELA                    24,75       45,65       52,50"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2875,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 40,
+        "printed": "ZIORRAGA                   GALLUR                    28,75       52,60       60,85"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3200,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 41,
+        "printed": "ZIORRAGA                   ALAGÓN pk 272             32,00       58,30       67,70"
+      }
+    },
+    {
+      "from": "ZIORRAGA",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3465,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 42,
+        "printed": "ZIORRAGA                   ZARAGOZA                  34,65       62,95       73,30"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "SUBIJANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 350,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 44,
+        "printed": "ALTUBE                     SUBIJANA                   3,50        6,45        7,30"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "AUTOP.BURGOS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 600,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 45,
+        "printed": "ALTUBE                     AUTOP.BURGOS               6,00       11,00       12,45"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "ZAMBRANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 705,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 46,
+        "printed": "ALTUBE                     ZAMBRANA                   7,05       12,90       14,65"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "HARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 855,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 47,
+        "printed": "ALTUBE                     HARO                       8,55       15,75       17,90"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "CENICERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1115,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 48,
+        "printed": "ALTUBE                     CENICERO                  11,15       20,55       23,45"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1205,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 49,
+        "printed": "ALTUBE                     FUENMAYOR                 12,05       22,25       25,40"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1320,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 50,
+        "printed": "ALTUBE                     LOGROÑO                   13,20       24,35       27,85"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1425,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 51,
+        "printed": "ALTUBE                     RECAJO                    14,25       26,35       30,15"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1480,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 52,
+        "printed": "ALTUBE                     AGONCILLO                 14,80       27,30       31,25"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1710,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 53,
+        "printed": "ALTUBE                     LODOSA                    17,10       31,60       36,20"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1835,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 54,
+        "printed": "ALTUBE                     CALAHORRA                 18,35       33,95       38,95"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2145,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 55,
+        "printed": "ALTUBE                     ALFARO                    21,45       39,70       45,60"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2215,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 56,
+        "printed": "ALTUBE                     AUTOP.NAVARRA             22,15       41,00       47,05"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2355,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 57,
+        "printed": "ALTUBE                     TUDELA                    23,55       43,45       50,05"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2755,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 58,
+        "printed": "ALTUBE                     GALLUR                    27,55       50,40       58,35"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3080,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 59,
+        "printed": "ALTUBE                     ALAGÓN pk 272             30,80       56,10       65,25"
+      }
+    },
+    {
+      "from": "ALTUBE",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3345,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 60,
+        "printed": "ALTUBE                     ZARAGOZA                  33,45       60,80       70,85"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "AUTOP.BURGOS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 265,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 2,
+        "line": 62,
+        "printed": "SUBIJANA                   AUTOP.BURGOS               2,65        4,85        5,50"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "ZAMBRANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 370,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 13,
+        "printed": "SUBIJANA                  ZAMBRANA                  3,70        6,80        7,70"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "HARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 520,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 14,
+        "printed": "SUBIJANA                  HARO                      5,20        9,60       10,95"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "CENICERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 780,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 15,
+        "printed": "SUBIJANA                  CENICERO                  7,80       14,40       16,50"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 870,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 16,
+        "printed": "SUBIJANA                  FUENMAYOR                 8,70       16,10       18,45"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 985,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 17,
+        "printed": "SUBIJANA                  LOGROÑO                   9,85       18,25       20,90"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1090,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 18,
+        "printed": "SUBIJANA                  RECAJO                   10,90       20,20       23,20"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1145,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 19,
+        "printed": "SUBIJANA                  AGONCILLO                11,45       21,20       24,30"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1375,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 20,
+        "printed": "SUBIJANA                  LODOSA                   13,75       25,45       29,25"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1505,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 21,
+        "printed": "SUBIJANA                  CALAHORRA                15,05       27,85       32,00"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1815,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 22,
+        "printed": "SUBIJANA                  ALFARO                   18,15       33,60       38,65"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1880,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 23,
+        "printed": "SUBIJANA                  AUTOP.NAVARRA            18,80       34,85       40,10"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2025,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 24,
+        "printed": "SUBIJANA                  TUDELA                   20,25       37,30       43,10"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2420,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 25,
+        "printed": "SUBIJANA                  GALLUR                   24,20       44,25       51,40"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2745,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 26,
+        "printed": "SUBIJANA                  ALAGÓN pk 272            27,45       50,00       58,30"
+      }
+    },
+    {
+      "from": "SUBIJANA",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 3010,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 27,
+        "printed": "SUBIJANA                  ZARAGOZA                 30,10       54,65       63,90"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "ZAMBRANA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 90,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 29,
+        "printed": "AUTOP.BURGOS              ZAMBRANA                  0,90        1,65        1,90"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "HARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 240,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 30,
+        "printed": "AUTOP.BURGOS              HARO                      2,40        4,50        5,15"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "CENICERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 500,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 31,
+        "printed": "AUTOP.BURGOS              CENICERO                  5,00        9,30       10,70"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 595,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 32,
+        "printed": "AUTOP.BURGOS              FUENMAYOR                 5,95       11,00       12,65"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 705,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 33,
+        "printed": "AUTOP.BURGOS              LOGROÑO                   7,05       13,10       15,10"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 815,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 34,
+        "printed": "AUTOP.BURGOS              RECAJO                    8,15       15,10       17,40"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 865,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 35,
+        "printed": "AUTOP.BURGOS              AGONCILLO                 8,65       16,05       18,50"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1095,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 36,
+        "printed": "AUTOP.BURGOS              LODOSA                   10,95       20,35       23,45"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1225,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 37,
+        "printed": "AUTOP.BURGOS              CALAHORRA                12,25       22,70       26,20"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1535,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 38,
+        "printed": "AUTOP.BURGOS              ALFARO                   15,35       28,45       32,85"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1600,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 39,
+        "printed": "AUTOP.BURGOS              AUTOP.NAVARRA            16,00       29,75       34,30"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1745,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 40,
+        "printed": "AUTOP.BURGOS              TUDELA                   17,45       32,20       37,30"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2140,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 41,
+        "printed": "AUTOP.BURGOS              GALLUR                   21,40       39,15       45,60"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2465,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 42,
+        "printed": "AUTOP.BURGOS              ALAGÓN pk 272            24,65       44,85       52,50"
+      }
+    },
+    {
+      "from": "AUTOP.BURGOS",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2735,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 43,
+        "printed": "AUTOP.BURGOS              ZARAGOZA                 27,35       49,55       58,10"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "HARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 190,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 45,
+        "printed": "ZAMBRANA                  HARO                      1,90        3,55        4,10"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "CENICERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 450,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 46,
+        "printed": "ZAMBRANA                  CENICERO                  4,50        8,35        9,65"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 540,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 47,
+        "printed": "ZAMBRANA                  FUENMAYOR                 5,40       10,05       11,60"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 655,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 48,
+        "printed": "ZAMBRANA                  LOGROÑO                   6,55       12,15       14,05"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 760,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 49,
+        "printed": "ZAMBRANA                  RECAJO                    7,60       14,15       16,35"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 815,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 50,
+        "printed": "ZAMBRANA                  AGONCILLO                 8,15       15,10       17,45"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1045,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 51,
+        "printed": "ZAMBRANA                  LODOSA                   10,45       19,40       22,40"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1170,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 52,
+        "printed": "ZAMBRANA                  CALAHORRA                11,70       21,75       25,15"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1480,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 53,
+        "printed": "ZAMBRANA                  ALFARO                   14,80       27,50       31,80"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1550,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 54,
+        "printed": "ZAMBRANA                  AUTOP.NAVARRA            15,50       28,80       33,25"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1695,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 55,
+        "printed": "ZAMBRANA                  TUDELA                   16,95       31,25       36,25"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2090,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 56,
+        "printed": "ZAMBRANA                  GALLUR                   20,90       38,20       44,55"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2415,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 57,
+        "printed": "ZAMBRANA                  ALAGÓN pk 272            24,15       43,95       51,45"
+      }
+    },
+    {
+      "from": "ZAMBRANA",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2680,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 58,
+        "printed": "ZAMBRANA                  ZARAGOZA                 26,80       48,60       57,05"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "CENICERO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 275,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 60,
+        "printed": "HARO                      CENICERO                  2,75        5,15        5,95"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 370,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 61,
+        "printed": "HARO                      FUENMAYOR                 3,70        6,85        7,90"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 485,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 3,
+        "line": 62,
+        "printed": "HARO                      LOGROÑO                   4,85        8,95       10,35"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 590,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 13,
+        "printed": "HARO                      RECAJO                    5,90       10,95       12,65"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 640,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 14,
+        "printed": "HARO                      AGONCILLO                 6,40       11,90       13,75"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 870,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 15,
+        "printed": "HARO                      LODOSA                    8,70       16,20       18,70"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1000,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 16,
+        "printed": "HARO                      CALAHORRA                10,00       18,55       21,45"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1310,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 17,
+        "printed": "HARO                      ALFARO                   13,10       24,30       28,10"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1380,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 18,
+        "printed": "HARO                      AUTOP.NAVARRA            13,80       25,60       29,55"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1520,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 19,
+        "printed": "HARO                      TUDELA                   15,20       28,05       32,55"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1915,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 20,
+        "printed": "HARO                      GALLUR                   19,15       35,00       40,85"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2245,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 21,
+        "printed": "HARO                      ALAGÓN pk 272            22,45       40,70       47,75"
+      }
+    },
+    {
+      "from": "HARO",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2510,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 22,
+        "printed": "HARO                      ZARAGOZA                 25,10       45,40       53,35"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "FUENMAYOR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 115,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 24,
+        "printed": "CENICERO                  FUENMAYOR                 1,15        2,10        2,45"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 225,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 25,
+        "printed": "CENICERO                  LOGROÑO                   2,25        4,20        4,85"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 335,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 26,
+        "printed": "CENICERO                  RECAJO                    3,35        6,20        7,15"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 390,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 27,
+        "printed": "CENICERO                  AGONCILLO                 3,90        7,20        8,35"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 615,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 28,
+        "printed": "CENICERO                  LODOSA                    6,15       11,45       13,20"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 745,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 29,
+        "printed": "CENICERO                  CALAHORRA                 7,45       13,80       15,95"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1055,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 30,
+        "printed": "CENICERO                  ALFARO                   10,55       19,55       22,60"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1125,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 31,
+        "printed": "CENICERO                  AUTOP.NAVARRA            11,25       20,85       24,10"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1265,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 32,
+        "printed": "CENICERO                  TUDELA                   12,65       23,30       27,05"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1660,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 33,
+        "printed": "CENICERO                  GALLUR                   16,60       30,25       35,40"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1985,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 34,
+        "printed": "CENICERO                  ALAGÓN pk 272            19,85       36,00       42,25"
+      }
+    },
+    {
+      "from": "CENICERO",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2255,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 35,
+        "printed": "CENICERO                  ZARAGOZA                 22,55       40,65       47,85"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "LOGROÑO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 135,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 37,
+        "printed": "FUENMAYOR                 LOGROÑO                   1,35        2,50        2,85"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 240,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 38,
+        "printed": "FUENMAYOR                 RECAJO                    2,40        4,45        5,15"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 290,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 39,
+        "printed": "FUENMAYOR                 AGONCILLO                 2,90        5,45        6,25"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 520,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 40,
+        "printed": "FUENMAYOR                 LODOSA                    5,20        9,70       11,20"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 650,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 41,
+        "printed": "FUENMAYOR                 CALAHORRA                 6,50       12,05       13,95"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 960,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 42,
+        "printed": "FUENMAYOR                 ALFARO                    9,60       17,85       20,60"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1030,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 43,
+        "printed": "FUENMAYOR                 AUTOP.NAVARRA            10,30       19,10       22,05"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1170,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 44,
+        "printed": "FUENMAYOR                 TUDELA                   11,70       21,55       25,05"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1565,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 45,
+        "printed": "FUENMAYOR                 GALLUR                   15,65       28,50       33,35"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1895,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 46,
+        "printed": "FUENMAYOR                 ALAGÓN pk 272            18,95       34,25       40,25"
+      }
+    },
+    {
+      "from": "FUENMAYOR",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2160,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 47,
+        "printed": "FUENMAYOR                 ZARAGOZA                 21,60       38,90       45,85"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "RECAJO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 150,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 49,
+        "printed": "LOGROÑO                   RECAJO                    1,50        2,80        3,25"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 205,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 50,
+        "printed": "LOGROÑO                   AGONCILLO                 2,05        3,80        4,40"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 435,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 51,
+        "printed": "LOGROÑO                   LODOSA                    4,35        8,10        9,35"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 565,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 52,
+        "printed": "LOGROÑO                   CALAHORRA                 5,65       10,45       12,05"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 875,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 53,
+        "printed": "LOGROÑO                   ALFARO                    8,75       16,20       18,70"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 940,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 54,
+        "printed": "LOGROÑO                   AUTOP.NAVARRA             9,40       17,50       20,20"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1085,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 55,
+        "printed": "LOGROÑO                   TUDELA                   10,85       19,95       23,15"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1480,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 56,
+        "printed": "LOGROÑO                   GALLUR                   14,80       26,90       31,50"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1805,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 57,
+        "printed": "LOGROÑO                   ALAGÓN pk 272            18,05       32,60       38,35"
+      }
+    },
+    {
+      "from": "LOGROÑO",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 2070,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 58,
+        "printed": "LOGROÑO                   ZARAGOZA                 20,70       37,25       43,95"
+      }
+    },
+    {
+      "from": "RECAJO",
+      "to": "AGONCILLO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 70,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 60,
+        "printed": "RECAJO                    AGONCILLO                 0,70        1,30        1,50"
+      }
+    },
+    {
+      "from": "RECAJO",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 300,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 61,
+        "printed": "RECAJO                    LODOSA                    3,00        5,55        6,40"
+      }
+    },
+    {
+      "from": "RECAJO",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 425,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 4,
+        "line": 62,
+        "printed": "RECAJO                    CALAHORRA                 4,25        7,95        9,15"
+      }
+    },
+    {
+      "from": "RECAJO",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 735,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 13,
+        "printed": "RECAJO                     ALFARO                     7,35       13,70       15,80"
+      }
+    },
+    {
+      "from": "RECAJO",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 805,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 14,
+        "printed": "RECAJO                     AUTOP.NAVARRA              8,05       14,95       17,30"
+      }
+    },
+    {
+      "from": "RECAJO",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 945,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 15,
+        "printed": "RECAJO                     TUDELA                     9,45       17,40       20,25"
+      }
+    },
+    {
+      "from": "RECAJO",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1345,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 16,
+        "printed": "RECAJO                     GALLUR                    13,45       24,35       28,60"
+      }
+    },
+    {
+      "from": "RECAJO",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1670,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 17,
+        "printed": "RECAJO                     ALAGÓN pk 272             16,70       30,10       35,45"
+      }
+    },
+    {
+      "from": "RECAJO",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1935,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 18,
+        "printed": "RECAJO                     ZARAGOZA                  19,35       34,75       41,05"
+      }
+    },
+    {
+      "from": "AGONCILLO",
+      "to": "LODOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 245,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 20,
+        "printed": "AGONCILLO                  LODOSA                     2,45        4,55        5,30"
+      }
+    },
+    {
+      "from": "AGONCILLO",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 375,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 21,
+        "printed": "AGONCILLO                  CALAHORRA                  3,75        6,95        8,00"
+      }
+    },
+    {
+      "from": "AGONCILLO",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 685,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 22,
+        "printed": "AGONCILLO                  ALFARO                     6,85       12,70       14,65"
+      }
+    },
+    {
+      "from": "AGONCILLO",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 755,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 23,
+        "printed": "AGONCILLO                  AUTOP.NAVARRA              7,55       14,00       16,15"
+      }
+    },
+    {
+      "from": "AGONCILLO",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 895,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 24,
+        "printed": "AGONCILLO                  TUDELA                     8,95       16,45       19,10"
+      }
+    },
+    {
+      "from": "AGONCILLO",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1290,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 25,
+        "printed": "AGONCILLO                  GALLUR                    12,90       23,40       27,45"
+      }
+    },
+    {
+      "from": "AGONCILLO",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1615,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 26,
+        "printed": "AGONCILLO                  ALAGÓN pk 272             16,15       29,10       34,30"
+      }
+    },
+    {
+      "from": "AGONCILLO",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1885,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 27,
+        "printed": "AGONCILLO                  ZARAGOZA                  18,85       33,75       39,90"
+      }
+    },
+    {
+      "from": "LODOSA",
+      "to": "CALAHORRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 135,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 29,
+        "printed": "LODOSA                     CALAHORRA                  1,35        2,50        2,90"
+      }
+    },
+    {
+      "from": "LODOSA",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 445,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 30,
+        "printed": "LODOSA                     ALFARO                     4,45        8,25        9,55"
+      }
+    },
+    {
+      "from": "LODOSA",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 515,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 31,
+        "printed": "LODOSA                     AUTOP.NAVARRA              5,15        9,55       11,00"
+      }
+    },
+    {
+      "from": "LODOSA",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 655,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 32,
+        "printed": "LODOSA                     TUDELA                     6,55       12,00       14,00"
+      }
+    },
+    {
+      "from": "LODOSA",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1050,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 33,
+        "printed": "LODOSA                     GALLUR                    10,50       18,95       22,30"
+      }
+    },
+    {
+      "from": "LODOSA",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1380,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 34,
+        "printed": "LODOSA                     ALAGÓN pk 272             13,80       24,65       29,20"
+      }
+    },
+    {
+      "from": "LODOSA",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1645,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 35,
+        "printed": "LODOSA                     ZARAGOZA                  16,45       29,35       34,80"
+      }
+    },
+    {
+      "from": "CALAHORRA",
+      "to": "ALFARO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 325,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 37,
+        "printed": "CALAHORRA                  ALFARO                     3,25        6,05        7,00"
+      }
+    },
+    {
+      "from": "CALAHORRA",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 395,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 38,
+        "printed": "CALAHORRA                  AUTOP.NAVARRA              3,95        7,35        8,50"
+      }
+    },
+    {
+      "from": "CALAHORRA",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 535,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 39,
+        "printed": "CALAHORRA                  TUDELA                     5,35        9,80       11,45"
+      }
+    },
+    {
+      "from": "CALAHORRA",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 935,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 40,
+        "printed": "CALAHORRA                  GALLUR                     9,35       16,75       19,80"
+      }
+    },
+    {
+      "from": "CALAHORRA",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1260,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 41,
+        "printed": "CALAHORRA                  ALAGÓN pk 272             12,60       22,45       26,65"
+      }
+    },
+    {
+      "from": "CALAHORRA",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1525,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 42,
+        "printed": "CALAHORRA                  ZARAGOZA                  15,25       27,15       32,25"
+      }
+    },
+    {
+      "from": "ALFARO",
+      "to": "AUTOP.NAVARRA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 100,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 44,
+        "printed": "ALFARO                     AUTOP.NAVARRA              1,00        1,85        2,10"
+      }
+    },
+    {
+      "from": "ALFARO",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 240,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 45,
+        "printed": "ALFARO                     TUDELA                     2,40        4,30        5,10"
+      }
+    },
+    {
+      "from": "ALFARO",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 635,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 46,
+        "printed": "ALFARO                     GALLUR                     6,35       11,25       13,45"
+      }
+    },
+    {
+      "from": "ALFARO",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 965,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 47,
+        "printed": "ALFARO                     ALAGÓN pk 272              9,65       16,95       20,30"
+      }
+    },
+    {
+      "from": "ALFARO",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1230,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 48,
+        "printed": "ALFARO                     ZARAGOZA                  12,30       21,65       25,90"
+      }
+    },
+    {
+      "from": "AUTOP.NAVARRA",
+      "to": "TUDELA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 170,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 50,
+        "printed": "AUTOP.NAVARRA              TUDELA                     1,70        3,00        3,60"
+      }
+    },
+    {
+      "from": "AUTOP.NAVARRA",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 570,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 51,
+        "printed": "AUTOP.NAVARRA              GALLUR                     5,70        9,95       11,95"
+      }
+    },
+    {
+      "from": "AUTOP.NAVARRA",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 895,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 52,
+        "printed": "AUTOP.NAVARRA              ALAGÓN pk 272              8,95       15,70       18,80"
+      }
+    },
+    {
+      "from": "AUTOP.NAVARRA",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1160,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 53,
+        "printed": "AUTOP.NAVARRA              ZARAGOZA                  11,60       20,35       24,40"
+      }
+    },
+    {
+      "from": "TUDELA",
+      "to": "GALLUR",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 420,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 55,
+        "printed": "TUDELA                     GALLUR                     4,20        7,40        8,90"
+      }
+    },
+    {
+      "from": "TUDELA",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 750,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 56,
+        "printed": "TUDELA                     ALAGÓN pk 272              7,50       13,10       15,75"
+      }
+    },
+    {
+      "from": "TUDELA",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 1015,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 57,
+        "printed": "TUDELA                     ZARAGOZA                  10,15       17,80       21,35"
+      }
+    },
+    {
+      "from": "GALLUR",
+      "to": "ALAGÓN pk 272",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 350,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 59,
+        "printed": "GALLUR                     ALAGÓN pk 272              3,50        6,10        7,35"
+      }
+    },
+    {
+      "from": "GALLUR",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 615,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 5,
+        "line": 60,
+        "printed": "GALLUR                     ZARAGOZA                   6,15       10,75       12,95"
+      }
+    },
+    {
+      "from": "ALAGÓN pk 272",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 335,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 6,
+        "line": 15,
+        "printed": "ALAGÓN pk 272                     ZARAGOZA                                   3,35           5,90           7,05"
+      }
+    },
+    {
+      "from": "ALAGÓN pk 275",
+      "to": "ZARAGOZA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 285,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 6,
+        "line": 17,
+        "printed": "ALAGÓN pk 275                     ZARAGOZA                                   2,85           5,05           6,05"
+      }
+    },
+    {
+      "from": "BILBAO-A.SERV.",
+      "to": "ARRIG.-BILBAO",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 235,
+        "bands": []
+      },
+      "sourceRow": {
+        "page": 6,
+        "line": 19,
+        "printed": "BILBAO-A.SERV.                    ARRIG.-BILBAO                              2,35           2,35           2,35"
+      }
+    }
+  ],
+  "notes": [
+    "General light-vehicle rows only; physical accesses and route evidence still required.",
+    "Published names preserved, including source typos, pending explicit alias mapping.",
+    "Do not add joint AP-6 journey rows to a separately quoted AP-6 journey.",
+    "Unlisted pairs are unknown; free sections require separate evidence."
+  ]
+}

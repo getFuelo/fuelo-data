@@ -1,0 +1,42 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.autema.com/es/tarifas-y-descuentos/tarifas/",
+  "sha256": "93df33ff1e207308de717a80a1ddcca3fbefc4b606f534dadaec1ba501dc2d6b",
+  "notes": [
+    "Published general light-vehicle rows only. Geographic mapping and route verification are separate.",
+    "Blank/dash cells are not zero; no unverified enrollment/recurrence discounts."
+  ],
+  "barriers": [
+    {
+      "name": "Manresa",
+      "tariff": {
+        "baseCents": 976,
+        "bands": []
+      },
+      "sourceColumn": 3
+    },
+    {
+      "name": "Sant Vicenç",
+      "tariff": {
+        "baseCents": 490,
+        "bands": []
+      },
+      "sourceColumn": 5
+    },
+    {
+      "name": "Les Fonts",
+      "tariff": {
+        "baseCents": 319,
+        "bands": []
+      },
+      "sourceColumn": 7
+    }
+  ]
+}

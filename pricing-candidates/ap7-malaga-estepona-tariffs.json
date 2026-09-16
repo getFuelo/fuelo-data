@@ -1,0 +1,123 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-malaga---estepona-2026.pdf",
+  "sha256": "28b2d8edfb93aac2b6a50a873625b282f07a1f98679c3e64609f48894c4a9071",
+  "barriers": [
+    {
+      "name": "TRONCAL DE CALAHONDA",
+      "tariff": {
+        "baseCents": 570,
+        "bands": [
+          {
+            "cents": 925,
+            "dates": [
+              "2026-06-01",
+              "2026-09-30"
+            ]
+          },
+          {
+            "cents": 925,
+            "dates": [
+              "2026-03-27",
+              "2026-04-12"
+            ]
+          }
+        ]
+      },
+      "sourceRows": {
+        "normal": "TRONCAL DE CALAHONDA                    5,70    9,25   11,35      11,35   11,35",
+        "special": "TRONCAL DE CALAHONDA                    9,25    9,25   15,25      15,25   15,25"
+      }
+    },
+    {
+      "name": "ACCESO DE CALAHONDA",
+      "tariff": {
+        "baseCents": 355,
+        "bands": [
+          {
+            "cents": 575,
+            "dates": [
+              "2026-06-01",
+              "2026-09-30"
+            ]
+          },
+          {
+            "cents": 575,
+            "dates": [
+              "2026-03-27",
+              "2026-04-12"
+            ]
+          }
+        ]
+      },
+      "sourceRows": {
+        "normal": "ACCESO DE CALAHONDA                     3,55    5,75    7,05       7,05    7,05",
+        "special": "ACCESO DE CALAHONDA                     5,75    5,75    9,50       9,50    9,50"
+      }
+    },
+    {
+      "name": "TRONCAL DE SAN PEDRO DE ALCANTARA",
+      "tariff": {
+        "baseCents": 385,
+        "bands": [
+          {
+            "cents": 625,
+            "dates": [
+              "2026-06-01",
+              "2026-09-30"
+            ]
+          },
+          {
+            "cents": 625,
+            "dates": [
+              "2026-03-27",
+              "2026-04-12"
+            ]
+          }
+        ]
+      },
+      "sourceRows": {
+        "normal": "TRONCAL DE SAN PEDRO DE ALCANTARA       3,85    6,25    7,70       7,70    7,70",
+        "special": "TRONCAL DE SAN PEDRO DE ALCANTARA       6,25    6,25   10,35      10,35   10,35"
+      }
+    },
+    {
+      "name": "ACCESO DE SAN PEDRO DE ALCANTARA",
+      "tariff": {
+        "baseCents": 220,
+        "bands": [
+          {
+            "cents": 360,
+            "dates": [
+              "2026-06-01",
+              "2026-09-30"
+            ]
+          },
+          {
+            "cents": 360,
+            "dates": [
+              "2026-03-27",
+              "2026-04-12"
+            ]
+          }
+        ]
+      },
+      "sourceRows": {
+        "normal": "ACCESO DE SAN PEDRO DE ALCANTARA        2,20    3,60    4,45       4,45    4,45",
+        "special": "ACCESO DE SAN PEDRO DE ALCANTARA        3,60    3,60    5,95       5,95    5,95"
+      }
+    }
+  ],
+  "notes": [
+    "General light-vehicle rate; frequent-user status is not assumed from Via-T ownership.",
+    "High season June–September and the 17 days from Friday of Passion Week through Sunday after Easter (2026-03-27 through 2026-04-12).",
+    "Map each actual barrier/access before pricing routes; never charge the sum of all catalog barriers to every journey."
+  ]
+}

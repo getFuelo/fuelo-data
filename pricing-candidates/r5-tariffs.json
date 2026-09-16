@@ -1,0 +1,1172 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r5_2026.pdf",
+  "sha256": "0d83306a717c0c368037f91c7aff1f59fd94e4af04e20c2a063cefb9ef8199e3",
+  "publishedAccesses": [
+    "M-40 / M-45",
+    "M-50 / M-506 Móstoles/Fuenlabrada",
+    "AP-41 Madrid-Toledo",
+    "M-413 Arroyomolinos/Moraleja",
+    "M-404 El Álamo/Navalcarnero",
+    "Conexión A-5"
+  ],
+  "ods": [
+    {
+      "from": "M-40 / M-45",
+      "to": "M-50 / M-506 Móstoles/Fuenlabrada",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 2,
+        "printedRow": "M-40 / M-45",
+        "viaTBox": [
+          304.08,
+          106.435,
+          318.304,
+          114.475
+        ],
+        "generalBox": [
+          352.44,
+          106.435,
+          366.664,
+          114.475
+        ]
+      }
+    },
+    {
+      "from": "M-40 / M-45",
+      "to": "AP-41 Madrid-Toledo",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 3,
+        "printedRow": "M-40 / M-45",
+        "viaTBox": [
+          400.8,
+          106.435,
+          415.024,
+          114.475
+        ],
+        "generalBox": [
+          449.16,
+          106.435,
+          463.384,
+          114.475
+        ]
+      }
+    },
+    {
+      "from": "M-40 / M-45",
+      "to": "M-413 Arroyomolinos/Moraleja",
+      "tariff": {
+        "baseCents": 230,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 4,
+        "printedRow": "M-40 / M-45",
+        "viaTBox": [
+          497.52,
+          106.435,
+          511.744,
+          114.475
+        ],
+        "generalBox": [
+          545.88,
+          106.435,
+          560.104,
+          114.475
+        ]
+      }
+    },
+    {
+      "from": "M-40 / M-45",
+      "to": "M-404 El Álamo/Navalcarnero",
+      "tariff": {
+        "baseCents": 365,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 325,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 5,
+        "printedRow": "M-40 / M-45",
+        "viaTBox": [
+          594.24,
+          106.435,
+          608.464,
+          114.475
+        ],
+        "generalBox": [
+          642.6,
+          106.435,
+          656.824,
+          114.475
+        ]
+      }
+    },
+    {
+      "from": "M-40 / M-45",
+      "to": "Conexión A-5",
+      "tariff": {
+        "baseCents": 365,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 325,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 6,
+        "printedRow": "M-40 / M-45",
+        "viaTBox": [
+          690.96,
+          106.435,
+          705.184,
+          114.475
+        ],
+        "generalBox": [
+          739.32,
+          106.435,
+          753.544,
+          114.475
+        ]
+      }
+    },
+    {
+      "from": "M-50 / M-506 Móstoles/Fuenlabrada",
+      "to": "M-40 / M-45",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 1,
+        "printedRow": "M-50 / M-506 Móstoles/Fuenlabrada",
+        "viaTBox": [
+          207.36,
+          117.235,
+          221.584,
+          125.275
+        ],
+        "generalBox": [
+          255.72,
+          117.235,
+          269.944,
+          125.275
+        ]
+      }
+    },
+    {
+      "from": "M-50 / M-506 Móstoles/Fuenlabrada",
+      "to": "M-413 Arroyomolinos/Moraleja",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 4,
+        "printedRow": "M-50 / M-506 Móstoles/Fuenlabrada",
+        "viaTBox": [
+          497.52,
+          117.235,
+          511.744,
+          125.275
+        ],
+        "generalBox": [
+          545.88,
+          117.235,
+          560.104,
+          125.275
+        ]
+      }
+    },
+    {
+      "from": "M-50 / M-506 Móstoles/Fuenlabrada",
+      "to": "M-404 El Álamo/Navalcarnero",
+      "tariff": {
+        "baseCents": 260,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 5,
+        "printedRow": "M-50 / M-506 Móstoles/Fuenlabrada",
+        "viaTBox": [
+          594.24,
+          117.235,
+          608.464,
+          125.275
+        ],
+        "generalBox": [
+          642.6,
+          117.235,
+          656.824,
+          125.275
+        ]
+      }
+    },
+    {
+      "from": "M-50 / M-506 Móstoles/Fuenlabrada",
+      "to": "Conexión A-5",
+      "tariff": {
+        "baseCents": 260,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 6,
+        "printedRow": "M-50 / M-506 Móstoles/Fuenlabrada",
+        "viaTBox": [
+          690.96,
+          117.235,
+          705.184,
+          125.275
+        ],
+        "generalBox": [
+          739.32,
+          117.235,
+          753.544,
+          125.275
+        ]
+      }
+    },
+    {
+      "from": "AP-41 Madrid-Toledo",
+      "to": "M-40 / M-45",
+      "tariff": {
+        "baseCents": 105,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 95,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 1,
+        "printedRow": "AP-41 Madrid-Toledo",
+        "viaTBox": [
+          207.36,
+          128.035,
+          221.584,
+          136.075
+        ],
+        "generalBox": [
+          255.72,
+          128.035,
+          269.944,
+          136.075
+        ]
+      }
+    },
+    {
+      "from": "AP-41 Madrid-Toledo",
+      "to": "M-413 Arroyomolinos/Moraleja",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 4,
+        "printedRow": "AP-41 Madrid-Toledo",
+        "viaTBox": [
+          497.52,
+          128.035,
+          511.744,
+          136.075
+        ],
+        "generalBox": [
+          545.88,
+          128.035,
+          560.104,
+          136.075
+        ]
+      }
+    },
+    {
+      "from": "AP-41 Madrid-Toledo",
+      "to": "M-404 El Álamo/Navalcarnero",
+      "tariff": {
+        "baseCents": 260,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 5,
+        "printedRow": "AP-41 Madrid-Toledo",
+        "viaTBox": [
+          594.24,
+          128.035,
+          608.464,
+          136.075
+        ],
+        "generalBox": [
+          642.6,
+          128.035,
+          656.824,
+          136.075
+        ]
+      }
+    },
+    {
+      "from": "AP-41 Madrid-Toledo",
+      "to": "Conexión A-5",
+      "tariff": {
+        "baseCents": 260,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 6,
+        "printedRow": "AP-41 Madrid-Toledo",
+        "viaTBox": [
+          690.96,
+          128.035,
+          705.184,
+          136.075
+        ],
+        "generalBox": [
+          739.32,
+          128.035,
+          753.544,
+          136.075
+        ]
+      }
+    },
+    {
+      "from": "M-413 Arroyomolinos/Moraleja",
+      "to": "M-40 / M-45",
+      "tariff": {
+        "baseCents": 230,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 1,
+        "printedRow": "M-413 Arroyomolinos/Moraleja",
+        "viaTBox": [
+          207.36,
+          138.835,
+          221.584,
+          146.875
+        ],
+        "generalBox": [
+          255.72,
+          138.835,
+          269.944,
+          146.875
+        ]
+      }
+    },
+    {
+      "from": "M-413 Arroyomolinos/Moraleja",
+      "to": "M-50 / M-506 Móstoles/Fuenlabrada",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 2,
+        "printedRow": "M-413 Arroyomolinos/Moraleja",
+        "viaTBox": [
+          304.08,
+          138.835,
+          318.304,
+          146.875
+        ],
+        "generalBox": [
+          352.44,
+          138.835,
+          366.664,
+          146.875
+        ]
+      }
+    },
+    {
+      "from": "M-413 Arroyomolinos/Moraleja",
+      "to": "AP-41 Madrid-Toledo",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 3,
+        "printedRow": "M-413 Arroyomolinos/Moraleja",
+        "viaTBox": [
+          400.8,
+          138.835,
+          415.024,
+          146.875
+        ],
+        "generalBox": [
+          449.16,
+          138.835,
+          463.384,
+          146.875
+        ]
+      }
+    },
+    {
+      "from": "M-413 Arroyomolinos/Moraleja",
+      "to": "M-404 El Álamo/Navalcarnero",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 5,
+        "printedRow": "M-413 Arroyomolinos/Moraleja",
+        "viaTBox": [
+          594.24,
+          138.835,
+          608.464,
+          146.875
+        ],
+        "generalBox": [
+          642.6,
+          138.835,
+          656.824,
+          146.875
+        ]
+      }
+    },
+    {
+      "from": "M-413 Arroyomolinos/Moraleja",
+      "to": "Conexión A-5",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 6,
+        "printedRow": "M-413 Arroyomolinos/Moraleja",
+        "viaTBox": [
+          690.96,
+          138.835,
+          705.184,
+          146.875
+        ],
+        "generalBox": [
+          739.32,
+          138.835,
+          753.544,
+          146.875
+        ]
+      }
+    },
+    {
+      "from": "M-404 El Álamo/Navalcarnero",
+      "to": "M-40 / M-45",
+      "tariff": {
+        "baseCents": 365,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 325,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 1,
+        "printedRow": "M-404 El Álamo/Navalcarnero",
+        "viaTBox": [
+          207.36,
+          149.635,
+          221.584,
+          157.675
+        ],
+        "generalBox": [
+          255.72,
+          149.635,
+          269.944,
+          157.675
+        ]
+      }
+    },
+    {
+      "from": "M-404 El Álamo/Navalcarnero",
+      "to": "M-50 / M-506 Móstoles/Fuenlabrada",
+      "tariff": {
+        "baseCents": 260,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 2,
+        "printedRow": "M-404 El Álamo/Navalcarnero",
+        "viaTBox": [
+          304.08,
+          149.635,
+          318.304,
+          157.675
+        ],
+        "generalBox": [
+          352.44,
+          149.635,
+          366.664,
+          157.675
+        ]
+      }
+    },
+    {
+      "from": "M-404 El Álamo/Navalcarnero",
+      "to": "AP-41 Madrid-Toledo",
+      "tariff": {
+        "baseCents": 260,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 3,
+        "printedRow": "M-404 El Álamo/Navalcarnero",
+        "viaTBox": [
+          400.8,
+          149.635,
+          415.024,
+          157.675
+        ],
+        "generalBox": [
+          449.16,
+          149.635,
+          463.384,
+          157.675
+        ]
+      }
+    },
+    {
+      "from": "M-404 El Álamo/Navalcarnero",
+      "to": "M-413 Arroyomolinos/Moraleja",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 4,
+        "printedRow": "M-404 El Álamo/Navalcarnero",
+        "viaTBox": [
+          497.52,
+          149.635,
+          511.744,
+          157.675
+        ],
+        "generalBox": [
+          545.88,
+          149.635,
+          560.104,
+          157.675
+        ]
+      }
+    },
+    {
+      "from": "Conexión A-5",
+      "to": "M-40 / M-45",
+      "tariff": {
+        "baseCents": 365,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 325,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 1,
+        "printedRow": "Conexión A-5",
+        "viaTBox": [
+          207.36,
+          160.435,
+          221.584,
+          168.475
+        ],
+        "generalBox": [
+          255.72,
+          160.435,
+          269.944,
+          168.475
+        ]
+      }
+    },
+    {
+      "from": "Conexión A-5",
+      "to": "M-50 / M-506 Móstoles/Fuenlabrada",
+      "tariff": {
+        "baseCents": 260,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 2,
+        "printedRow": "Conexión A-5",
+        "viaTBox": [
+          304.08,
+          160.435,
+          318.304,
+          168.475
+        ],
+        "generalBox": [
+          352.44,
+          160.435,
+          366.664,
+          168.475
+        ]
+      }
+    },
+    {
+      "from": "Conexión A-5",
+      "to": "AP-41 Madrid-Toledo",
+      "tariff": {
+        "baseCents": 260,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 230,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 3,
+        "printedRow": "Conexión A-5",
+        "viaTBox": [
+          400.8,
+          160.435,
+          415.024,
+          168.475
+        ],
+        "generalBox": [
+          449.16,
+          160.435,
+          463.384,
+          168.475
+        ]
+      }
+    },
+    {
+      "from": "Conexión A-5",
+      "to": "M-413 Arroyomolinos/Moraleja",
+      "tariff": {
+        "baseCents": 125,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 110,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 4,
+        "printedRow": "Conexión A-5",
+        "viaTBox": [
+          497.52,
+          160.435,
+          511.744,
+          168.475
+        ],
+        "generalBox": [
+          545.88,
+          160.435,
+          560.104,
+          168.475
+        ]
+      }
+    }
+  ],
+  "barriers": [],
+  "notes": [
+    "Only explicitly printed light-vehicle cells imported. Blank/dash cells remain unavailable, never zero.",
+    "Physical entry/exit mapping and route validation still required.",
+    "R-2 Aeropuerto/Alcobendas diagonal cells are independent barriers, not same-entry/exit OD fares."
+  ]
+}

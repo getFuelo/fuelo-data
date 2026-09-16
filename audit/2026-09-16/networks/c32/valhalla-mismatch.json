@@ -1,0 +1,16 @@
+{
+  "status": "unresolved",
+  "network": "es-c32-vallcarca",
+  "route": "pricing-candidates/c32-routes/es-c32-vallcarca-traversal.json",
+  "expectedGeneralCents": 842,
+  "observedAuditCents": 0,
+  "productionEnabled": false,
+  "source": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=1.848,41.2435,1.856,41.247",
+    "sha256": "bac672108bd1a713e834ac7dbd07d2a7cd1072b3b04e01d8ee822181a4146008",
+    "roofWay": 200609886,
+    "laneWay": 265459419,
+    "laneWayVersion": 10
+  },
+  "finding": "Valhalla traversal named Peatge de Vallcarca has has_toll=false and passes south of the current OSM toll roof. All current OSM lane probes cross the gate. Do not widen the charging gate beyond physical evidence to force the expected price. Resolve provider geometry versus current physical lane before country activation."
+}

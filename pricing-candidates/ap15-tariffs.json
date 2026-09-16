@@ -1,0 +1,142 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.audenasa.es/wp-content/uploads/Tarifas-2026-Recorrido.pdf",
+  "sha256": "a8a58c084a46716196e840d47a3ff3fcf29b5a7cfd813cb444068b3c8a176ac3",
+  "notes": [
+    "Published general light-vehicle rows only. Geographic mapping and route verification are separate.",
+    "Blank/dash cells are not zero; no unverified enrollment/recurrence discounts."
+  ],
+  "barriers": [
+    {
+      "name": "SARASA",
+      "tariff": {
+        "baseCents": 265,
+        "bands": []
+      },
+      "sourceRow": "SARASA                                                          2,65       1,80                  2,10"
+    },
+    {
+      "name": "ORIZ-TIEBAS",
+      "tariff": {
+        "baseCents": 455,
+        "bands": []
+      },
+      "sourceRow": "ORIZ-TIEBAS                                                     4,55       2,30                  2,80"
+    },
+    {
+      "name": "MARCILLA TRONCO",
+      "tariff": {
+        "baseCents": 685,
+        "bands": []
+      },
+      "sourceRow": "MARCILLA TRONCO                                                 6,85       4,80                  5,45"
+    },
+    {
+      "name": "MARCILLA ENLACE",
+      "tariff": {
+        "baseCents": 345,
+        "bands": []
+      },
+      "sourceRow": "MARCILLA ENLACE                                                 3,45       2,60                  2,85"
+    }
+  ],
+  "ods": [
+    {
+      "from": "IRURZUN",
+      "to": "PAMPLONA",
+      "tariff": {
+        "baseCents": 265,
+        "bands": []
+      },
+      "sourceRow": "IRURZUN - PAMPLONA                                              2,65       1,80                  2,10"
+    },
+    {
+      "from": "IRURZUN",
+      "to": "TAFALLA",
+      "tariff": {
+        "baseCents": 720,
+        "bands": []
+      },
+      "sourceRow": "IRURZUN - TAFALLA                                               7,20       4,10                  4,90"
+    },
+    {
+      "from": "IRURZUN",
+      "to": "MARCILLA",
+      "tariff": {
+        "baseCents": 1065,
+        "bands": []
+      },
+      "sourceRow": "IRURZUN - MARCILLA                                              10,65      6,70                  7,75"
+    },
+    {
+      "from": "IRURZUN",
+      "to": "AP68 (Valtierra, Tudela, Castejón, salida Madrid)",
+      "tariff": {
+        "baseCents": 1405,
+        "bands": []
+      },
+      "sourceRow": "IRURZUN - AP68 (Valtierra, Tudela, Castejón, salida Madrid)     14,05      8,90                  10,35"
+    },
+    {
+      "from": "PAMPLONA",
+      "to": "TAFALLA",
+      "tariff": {
+        "baseCents": 455,
+        "bands": []
+      },
+      "sourceRow": "PAMPLONA - TAFALLA                                              4,55       2,30                  2,80"
+    },
+    {
+      "from": "PAMPLONA",
+      "to": "MARCILLA",
+      "tariff": {
+        "baseCents": 800,
+        "bands": []
+      },
+      "sourceRow": "PAMPLONA - MARCILLA                                             8,00       4,90                  5,65"
+    },
+    {
+      "from": "PAMPLONA",
+      "to": "AP68 (Valtierra, Tudela, Castejón, salida Madrid)",
+      "tariff": {
+        "baseCents": 1140,
+        "bands": []
+      },
+      "sourceRow": "PAMPLONA - AP68 (Valtierra, Tudela, Castejón, salida Madrid)    11,40      7,10                  8,25"
+    },
+    {
+      "from": "TAFALLA",
+      "to": "MARCILLA",
+      "tariff": {
+        "baseCents": 345,
+        "bands": []
+      },
+      "sourceRow": "TAFALLA - MARCILLA                                              3,45       2,60                  2,85"
+    },
+    {
+      "from": "TAFALLA",
+      "to": "AP68 (Valtierra, Tudela, Castejón, salida Madrid)",
+      "tariff": {
+        "baseCents": 685,
+        "bands": []
+      },
+      "sourceRow": "TAFALLA - AP68 (Valtierra, Tudela, Castejón, salida Madrid)     6,85       4,80                  5,45"
+    },
+    {
+      "from": "MARCILLA",
+      "to": "AP68 (Valtierra, Tudela, Castejón, salida Madrid)",
+      "tariff": {
+        "baseCents": 345,
+        "bands": []
+      },
+      "sourceRow": "MARCILLA - AP68 (Valtierra, Tudela, Castejón, salida Madrid)    3,45       2,60                  2,85"
+    }
+  ]
+}

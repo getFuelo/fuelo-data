@@ -1,0 +1,1208 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf",
+  "sha256": "893aa64cc48e8a8fbc0adc81211ce4cdc716fde720211a75357762b398e28782",
+  "ods": [
+    {
+      "from": "CONEXIÓN AP-6 (EL ESPINAR)",
+      "to": "OTERO DE H.",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 85,
+        "bands": [
+          {
+            "cents": 55,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 140,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 140,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 140,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 140,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 17,
+        "printed": "CONEXIÓN AP-6 (EL ESPINAR) - OTERO DE H.          0,55      0,85    1,40         1,45      1,80"
+      }
+    },
+    {
+      "from": "CONEXIÓN AP-6 (EL ESPINAR)",
+      "to": "ORTIGOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 145,
+        "bands": [
+          {
+            "cents": 95,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 240,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 240,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 240,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 240,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 18,
+        "printed": "CONEXIÓN AP-6 (EL ESPINAR) - ORTIGOSA             0,95      1,45    2,40         2,55      3,10"
+      }
+    },
+    {
+      "from": "CONEXIÓN AP-6 (EL ESPINAR)",
+      "to": "HONTORIA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 295,
+        "bands": [
+          {
+            "cents": 195,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 480,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 480,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 480,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 480,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 19,
+        "printed": "CONEXIÓN AP-6 (EL ESPINAR) - HONTORIA             1,95      2,95    4,80         5,10      6,20"
+      }
+    },
+    {
+      "from": "CONEXIÓN AP-6 (EL ESPINAR)",
+      "to": "SEGOVIA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 295,
+        "bands": [
+          {
+            "cents": 195,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 480,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 480,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 480,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 480,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 20,
+        "printed": "CONEXIÓN AP-6 (EL ESPINAR) - SEGOVIA              1,95      2,95    4,80         5,10      6,20"
+      }
+    },
+    {
+      "from": "SAN RAFAEL",
+      "to": "OTERO DE HERREROS",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 95,
+        "bands": [
+          {
+            "cents": 60,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 150,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 150,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 150,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 150,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 22,
+        "printed": "SAN RAFAEL - OTERO DE HERREROS                    0,60      0,95    1,50         1,60      1,95"
+      }
+    },
+    {
+      "from": "SAN RAFAEL",
+      "to": "ORTIGOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 155,
+        "bands": [
+          {
+            "cents": 100,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 250,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 250,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 250,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 250,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 23,
+        "printed": "SAN RAFAEL - ORTIGOSA                             1,00      1,55    2,50         2,70      3,25"
+      }
+    },
+    {
+      "from": "SAN RAFAEL",
+      "to": "EL HONTORIA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 305,
+        "bands": [
+          {
+            "cents": 200,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 495,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 495,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 495,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 495,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 24,
+        "printed": "SAN RAFAEL - EL HONTORIA                          2,00      3,05    4,95         5,25      6,35"
+      }
+    },
+    {
+      "from": "SAN RAFAEL",
+      "to": "SEGOVIA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 305,
+        "bands": [
+          {
+            "cents": 200,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 495,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 495,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 495,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 495,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 25,
+        "printed": "SAN RAFAEL - SEGOVIA                              2,00      3,05    4,95         5,25      6,35"
+      }
+    },
+    {
+      "from": "OTERO DE HERREROS",
+      "to": "ORTIGOSA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 75,
+        "bands": [
+          {
+            "cents": 50,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 120,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 120,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 120,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 120,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 27,
+        "printed": "OTERO DE HERREROS - ORTIGOSA                      0,50      0,75    1,20         1,25      1,50"
+      }
+    },
+    {
+      "from": "OTERO DE HERREROS",
+      "to": "HONTORIA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 220,
+        "bands": [
+          {
+            "cents": 145,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 360,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 360,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 360,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 360,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 28,
+        "printed": "OTERO DE HERREROS - HONTORIA                      1,45      2,20    3,60         3,80      4,65"
+      }
+    },
+    {
+      "from": "OTERO DE HERREROS",
+      "to": "SEGOVIA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 220,
+        "bands": [
+          {
+            "cents": 145,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 360,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 360,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 360,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 360,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 29,
+        "printed": "OTERO DE HERREROS - SEGOVIA                       1,45      2,20    3,60         3,80      4,65"
+      }
+    },
+    {
+      "from": "ORTIGOSA DEL MONTE",
+      "to": "HONTORIA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 160,
+        "bands": [
+          {
+            "cents": 105,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 265,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 265,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 265,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 265,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 31,
+        "printed": "ORTIGOSA DEL MONTE - HONTORIA                     1,05      1,60    2,65         2,80      3,40"
+      }
+    },
+    {
+      "from": "ORTIGOSA DEL MONTE",
+      "to": "SEGOVIA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 160,
+        "bands": [
+          {
+            "cents": 105,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 265,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 265,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 265,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 265,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 32,
+        "printed": "ORTIGOSA DEL MONTE - SEGOVIA                      1,05      1,60    2,65         2,80      3,40"
+      }
+    },
+    {
+      "from": "HONTORIA",
+      "to": "SEGOVIA",
+      "bidirectional": true,
+      "scope": "published-journey",
+      "tariff": {
+        "baseCents": 0,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 0,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 0,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 0,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 0,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 34,
+        "printed": "HONTORIA - SEGOVIA                                0,00      0,00    0,00         0,00      0,00"
+      }
+    },
+    {
+      "from": "VILLALBA",
+      "to": "OTERO DE HERREROS",
+      "bidirectional": true,
+      "scope": "joint-ap6-journey",
+      "tariff": {
+        "baseCents": 650,
+        "bands": [
+          {
+            "cents": 620,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 705,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 705,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 705,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 705,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 48,
+        "printed": "VILLALBA - OTERO DE HERREROS                      6,20      6,50    7,05        18,95     21,65"
+      }
+    },
+    {
+      "from": "VILLALBA",
+      "to": "ORTIGOSA",
+      "bidirectional": true,
+      "scope": "joint-ap6-journey",
+      "tariff": {
+        "baseCents": 710,
+        "bands": [
+          {
+            "cents": 660,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 805,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 805,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 805,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 805,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 49,
+        "printed": "VILLALBA - ORTIGOSA                               6,60      7,10    8,05        20,05     22,95"
+      }
+    },
+    {
+      "from": "VILLALBA",
+      "to": "HONTORIA",
+      "bidirectional": true,
+      "scope": "joint-ap6-journey",
+      "tariff": {
+        "baseCents": 860,
+        "bands": [
+          {
+            "cents": 760,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 1045,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 1045,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 1045,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 1045,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 50,
+        "printed": "VILLALBA - HONTORIA                               7,60      8,60   10,45        22,60     26,05"
+      }
+    },
+    {
+      "from": "VILLALBA",
+      "to": "SEGOVIA",
+      "bidirectional": true,
+      "scope": "joint-ap6-journey",
+      "tariff": {
+        "baseCents": 860,
+        "bands": [
+          {
+            "cents": 760,
+            "minutes": [
+              1380,
+              420
+            ]
+          },
+          {
+            "cents": 1045,
+            "dates": [
+              "2026-06-16",
+              "2026-09-15"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 1045,
+            "weekdays": [
+              5
+            ],
+            "minutes": [
+              900,
+              1380
+            ]
+          },
+          {
+            "cents": 1045,
+            "weekdays": [
+              6,
+              7
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          },
+          {
+            "cents": 1045,
+            "dates": [
+              "2026-03-30",
+              "2026-04-06"
+            ],
+            "minutes": [
+              420,
+              1380
+            ]
+          }
+        ]
+      },
+      "sourceRow": {
+        "page": 1,
+        "line": 51,
+        "printed": "VILLALBA - SEGOVIA                                7,60      8,60   10,45        22,60     26,05"
+      }
+    }
+  ],
+  "notes": [
+    "General light-vehicle rows only; physical accesses and route evidence still required.",
+    "Published names preserved, including source typos, pending explicit alias mapping.",
+    "Do not add joint AP-6 journey rows to a separately quoted AP-6 journey.",
+    "Unlisted pairs are unknown; free sections require separate evidence."
+  ]
+}

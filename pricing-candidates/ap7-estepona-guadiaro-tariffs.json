@@ -1,0 +1,71 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-estepona---guadiaro-2026.pdf",
+  "sha256": "30bc640a744b7801f36cadcff031420eb999955d293d409c808518154dbbd39a",
+  "barriers": [
+    {
+      "name": "TRONCAL DE MANILVA",
+      "tariff": {
+        "baseCents": 245,
+        "bands": [
+          {
+            "cents": 405,
+            "dates": [
+              "2026-06-01",
+              "2026-09-30"
+            ]
+          },
+          {
+            "cents": 405,
+            "dates": [
+              "2026-03-27",
+              "2026-04-12"
+            ]
+          }
+        ]
+      },
+      "sourceRows": {
+        "normal": "TRONCAL DE MANILVA                     2,45          3,65           4,80",
+        "special": "TRONCAL DE MANILVA                     4,05          4,60           6,95"
+      }
+    },
+    {
+      "name": "ACCESO DE MANILVA",
+      "tariff": {
+        "baseCents": 120,
+        "bands": [
+          {
+            "cents": 200,
+            "dates": [
+              "2026-06-01",
+              "2026-09-30"
+            ]
+          },
+          {
+            "cents": 200,
+            "dates": [
+              "2026-03-27",
+              "2026-04-12"
+            ]
+          }
+        ]
+      },
+      "sourceRows": {
+        "normal": "ACCESO DE MANILVA                      1,20          1,80           2,35",
+        "special": "ACCESO DE MANILVA                      2,00          2,25           3,40"
+      }
+    }
+  ],
+  "notes": [
+    "General light-vehicle rate; frequent-user status is not assumed from Via-T ownership.",
+    "High season June–September and the 17 days from Friday of Passion Week through Sunday after Easter (2026-03-27 through 2026-04-12).",
+    "Map each actual barrier/access before pricing routes; never charge the sum of all catalog barriers to every journey."
+  ]
+}

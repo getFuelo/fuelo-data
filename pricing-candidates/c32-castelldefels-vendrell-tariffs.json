@@ -1,0 +1,46 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://www.autopistas.com/wp-content/uploads/2025/12/26_001-Aucat-C32-Castelldefels-Vendrell-T26.pdf",
+  "sha256": "ee5b15c0ca4a0d2fde472121307e6199c697142f7f7aa426aeff55c91e54398b",
+  "barriers": [
+    {
+      "name": "Vallcarca troncal",
+      "tariff": {
+        "baseCents": 842,
+        "bands": []
+      }
+    },
+    {
+      "name": "Cubelles troncal",
+      "tariff": {
+        "baseCents": 503,
+        "bands": []
+      }
+    },
+    {
+      "name": "Cubelles acceso",
+      "tariff": {
+        "baseCents": 269,
+        "bands": []
+      }
+    },
+    {
+      "name": "Calafell acceso",
+      "tariff": {
+        "baseCents": 79,
+        "bands": []
+      }
+    }
+  ],
+  "notes": [
+    "Category II general tariffs, four explicitly published barrier rows.",
+    "Discount programs are not assumed. Map directional accesses before route pricing."
+  ]
+}

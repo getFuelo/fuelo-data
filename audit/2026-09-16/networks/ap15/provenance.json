@@ -1,0 +1,93 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-ap15-marcilla-tronco",
+      "reviewGroup": "osm-review-938123",
+      "booths": [
+        938123,
+        197738053
+      ],
+      "laneWays": [
+        461206175,
+        461206178
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-ap15-sarasa",
+      "reviewGroup": "osm-review-938352",
+      "booths": [
+        938352,
+        27364134
+      ],
+      "laneWays": [
+        164372045,
+        164372663
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-ap15-oriz-tiebas",
+      "reviewGroup": "osm-review-93036740",
+      "booths": [
+        93036740,
+        196315916,
+        12410412703,
+        12410412706,
+        12410412738,
+        12410412740,
+        12410412742,
+        12410412744,
+        12410412752,
+        12410412761,
+        12410412766,
+        12410412769,
+        12410412771,
+        12410412773,
+        12410412775,
+        12410412779,
+        12410412782,
+        12410412799
+      ],
+      "laneWays": [
+        435053358,
+        435053359,
+        1341649088,
+        1341649089,
+        1341649090,
+        1341649092,
+        1341649093,
+        1341649094,
+        1341649095,
+        1341649096,
+        1341649098,
+        1341649099,
+        1341649100,
+        1341649101,
+        1341649102,
+        1341649103,
+        1341649104,
+        1341649105
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-ap15-marcilla-enlace",
+      "reviewGroup": "osm-review-195885934",
+      "booths": [
+        195885934,
+        243896089
+      ],
+      "laneWays": [
+        706641841,
+        706641843,
+        1393855222,
+        1393856305
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 199,
+  "reviewStatus": "candidate_pending_routes"
+}

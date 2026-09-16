@@ -1,0 +1,1172 @@
+{
+  "kind": "tariff-reference",
+  "complete": false,
+  "checked": "2026-09-16",
+  "currency": "EUR",
+  "vehicle_class": "light",
+  "validFrom": "2026-01-01",
+  "validThrough": "2026-12-31",
+  "timeZone": "Europe/Madrid",
+  "source": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r3_2026.pdf",
+  "sha256": "bc808175c7b89351f8472653013590f0ab8c3d834a127cdc1d15e00ce42711c6",
+  "publishedAccesses": [
+    "Madrid / M-40 / M-602",
+    "M-45",
+    "M-50",
+    "M-208 Mejorada/Velilla",
+    "M-300 Arganda/Loeches",
+    "Conexión A-3"
+  ],
+  "ods": [
+    {
+      "from": "Madrid / M-40 / M-602",
+      "to": "M-45",
+      "tariff": {
+        "baseCents": 50,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 45,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 2,
+        "printedRow": "Madrid / M-40 / M-602",
+        "viaTBox": [
+          300.12,
+          101.995,
+          314.344,
+          110.035
+        ],
+        "generalBox": [
+          348.48,
+          101.995,
+          362.704,
+          110.035
+        ]
+      }
+    },
+    {
+      "from": "Madrid / M-40 / M-602",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 95,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 3,
+        "printedRow": "Madrid / M-40 / M-602",
+        "viaTBox": [
+          396.84,
+          101.995,
+          411.064,
+          110.035
+        ],
+        "generalBox": [
+          445.2,
+          101.995,
+          459.424,
+          110.035
+        ]
+      }
+    },
+    {
+      "from": "Madrid / M-40 / M-602",
+      "to": "M-208 Mejorada/Velilla",
+      "tariff": {
+        "baseCents": 95,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 4,
+        "printedRow": "Madrid / M-40 / M-602",
+        "viaTBox": [
+          493.56,
+          101.995,
+          507.784,
+          110.035
+        ],
+        "generalBox": [
+          541.92,
+          101.995,
+          556.144,
+          110.035
+        ]
+      }
+    },
+    {
+      "from": "Madrid / M-40 / M-602",
+      "to": "M-300 Arganda/Loeches",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 5,
+        "printedRow": "Madrid / M-40 / M-602",
+        "viaTBox": [
+          590.28,
+          101.995,
+          604.504,
+          110.035
+        ],
+        "generalBox": [
+          638.64,
+          101.995,
+          652.864,
+          110.035
+        ]
+      }
+    },
+    {
+      "from": "Madrid / M-40 / M-602",
+      "to": "Conexión A-3",
+      "tariff": {
+        "baseCents": 340,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 305,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 1,
+        "column": 6,
+        "printedRow": "Madrid / M-40 / M-602",
+        "viaTBox": [
+          687.0,
+          101.995,
+          701.224,
+          110.035
+        ],
+        "generalBox": [
+          735.36,
+          101.995,
+          749.584,
+          110.035
+        ]
+      }
+    },
+    {
+      "from": "M-45",
+      "to": "Madrid / M-40 / M-602",
+      "tariff": {
+        "baseCents": 50,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 45,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 1,
+        "printedRow": "M-45",
+        "viaTBox": [
+          203.4,
+          112.795,
+          217.624,
+          120.835
+        ],
+        "generalBox": [
+          251.76,
+          112.795,
+          265.984,
+          120.835
+        ]
+      }
+    },
+    {
+      "from": "M-45",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 50,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 45,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 3,
+        "printedRow": "M-45",
+        "viaTBox": [
+          396.84,
+          112.795,
+          411.064,
+          120.835
+        ],
+        "generalBox": [
+          445.2,
+          112.795,
+          459.424,
+          120.835
+        ]
+      }
+    },
+    {
+      "from": "M-45",
+      "to": "M-208 Mejorada/Velilla",
+      "tariff": {
+        "baseCents": 50,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 45,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 4,
+        "printedRow": "M-45",
+        "viaTBox": [
+          493.56,
+          112.795,
+          507.784,
+          120.835
+        ],
+        "generalBox": [
+          541.92,
+          112.795,
+          556.144,
+          120.835
+        ]
+      }
+    },
+    {
+      "from": "M-45",
+      "to": "M-300 Arganda/Loeches",
+      "tariff": {
+        "baseCents": 195,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 175,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 5,
+        "printedRow": "M-45",
+        "viaTBox": [
+          590.28,
+          112.795,
+          604.504,
+          120.835
+        ],
+        "generalBox": [
+          638.64,
+          112.795,
+          652.864,
+          120.835
+        ]
+      }
+    },
+    {
+      "from": "M-45",
+      "to": "Conexión A-3",
+      "tariff": {
+        "baseCents": 295,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 265,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 2,
+        "column": 6,
+        "printedRow": "M-45",
+        "viaTBox": [
+          687.0,
+          112.795,
+          701.224,
+          120.835
+        ],
+        "generalBox": [
+          735.36,
+          112.795,
+          749.584,
+          120.835
+        ]
+      }
+    },
+    {
+      "from": "M-50",
+      "to": "Madrid / M-40 / M-602",
+      "tariff": {
+        "baseCents": 95,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 1,
+        "printedRow": "M-50",
+        "viaTBox": [
+          203.4,
+          123.595,
+          217.624,
+          131.635
+        ],
+        "generalBox": [
+          251.76,
+          123.595,
+          265.984,
+          131.635
+        ]
+      }
+    },
+    {
+      "from": "M-50",
+      "to": "M-45",
+      "tariff": {
+        "baseCents": 50,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 45,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 2,
+        "printedRow": "M-50",
+        "viaTBox": [
+          300.12,
+          123.595,
+          314.344,
+          131.635
+        ],
+        "generalBox": [
+          348.48,
+          123.595,
+          362.704,
+          131.635
+        ]
+      }
+    },
+    {
+      "from": "M-50",
+      "to": "M-300 Arganda/Loeches",
+      "tariff": {
+        "baseCents": 145,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 130,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 5,
+        "printedRow": "M-50",
+        "viaTBox": [
+          590.28,
+          123.595,
+          604.504,
+          131.635
+        ],
+        "generalBox": [
+          638.64,
+          123.595,
+          652.864,
+          131.635
+        ]
+      }
+    },
+    {
+      "from": "M-50",
+      "to": "Conexión A-3",
+      "tariff": {
+        "baseCents": 245,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 220,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 3,
+        "column": 6,
+        "printedRow": "M-50",
+        "viaTBox": [
+          687.0,
+          123.595,
+          701.224,
+          131.635
+        ],
+        "generalBox": [
+          735.36,
+          123.595,
+          749.584,
+          131.635
+        ]
+      }
+    },
+    {
+      "from": "M-208 Mejorada/Velilla",
+      "to": "Madrid / M-40 / M-602",
+      "tariff": {
+        "baseCents": 95,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 1,
+        "printedRow": "M-208 Mejorada/Velilla",
+        "viaTBox": [
+          203.4,
+          134.395,
+          217.624,
+          142.435
+        ],
+        "generalBox": [
+          251.76,
+          134.395,
+          265.984,
+          142.435
+        ]
+      }
+    },
+    {
+      "from": "M-208 Mejorada/Velilla",
+      "to": "M-45",
+      "tariff": {
+        "baseCents": 50,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 45,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 2,
+        "printedRow": "M-208 Mejorada/Velilla",
+        "viaTBox": [
+          300.12,
+          134.395,
+          314.344,
+          142.435
+        ],
+        "generalBox": [
+          348.48,
+          134.395,
+          362.704,
+          142.435
+        ]
+      }
+    },
+    {
+      "from": "M-208 Mejorada/Velilla",
+      "to": "M-300 Arganda/Loeches",
+      "tariff": {
+        "baseCents": 145,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 130,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 5,
+        "printedRow": "M-208 Mejorada/Velilla",
+        "viaTBox": [
+          590.28,
+          134.395,
+          604.504,
+          142.435
+        ],
+        "generalBox": [
+          638.64,
+          134.395,
+          652.864,
+          142.435
+        ]
+      }
+    },
+    {
+      "from": "M-208 Mejorada/Velilla",
+      "to": "Conexión A-3",
+      "tariff": {
+        "baseCents": 245,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 220,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 4,
+        "column": 6,
+        "printedRow": "M-208 Mejorada/Velilla",
+        "viaTBox": [
+          687.0,
+          134.395,
+          701.224,
+          142.435
+        ],
+        "generalBox": [
+          735.36,
+          134.395,
+          749.584,
+          142.435
+        ]
+      }
+    },
+    {
+      "from": "M-300 Arganda/Loeches",
+      "to": "Madrid / M-40 / M-602",
+      "tariff": {
+        "baseCents": 240,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 215,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 1,
+        "printedRow": "M-300 Arganda/Loeches",
+        "viaTBox": [
+          203.4,
+          145.195,
+          217.624,
+          153.235
+        ],
+        "generalBox": [
+          251.76,
+          145.195,
+          265.984,
+          153.235
+        ]
+      }
+    },
+    {
+      "from": "M-300 Arganda/Loeches",
+      "to": "M-45",
+      "tariff": {
+        "baseCents": 195,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 175,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 2,
+        "printedRow": "M-300 Arganda/Loeches",
+        "viaTBox": [
+          300.12,
+          145.195,
+          314.344,
+          153.235
+        ],
+        "generalBox": [
+          348.48,
+          145.195,
+          362.704,
+          153.235
+        ]
+      }
+    },
+    {
+      "from": "M-300 Arganda/Loeches",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 145,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 130,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 3,
+        "printedRow": "M-300 Arganda/Loeches",
+        "viaTBox": [
+          396.84,
+          145.195,
+          411.064,
+          153.235
+        ],
+        "generalBox": [
+          445.2,
+          145.195,
+          459.424,
+          153.235
+        ]
+      }
+    },
+    {
+      "from": "M-300 Arganda/Loeches",
+      "to": "M-208 Mejorada/Velilla",
+      "tariff": {
+        "baseCents": 145,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 130,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 5,
+        "column": 4,
+        "printedRow": "M-300 Arganda/Loeches",
+        "viaTBox": [
+          493.56,
+          145.195,
+          507.784,
+          153.235
+        ],
+        "generalBox": [
+          541.92,
+          145.195,
+          556.144,
+          153.235
+        ]
+      }
+    },
+    {
+      "from": "Conexión A-3",
+      "to": "Madrid / M-40 / M-602",
+      "tariff": {
+        "baseCents": 340,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 305,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 1,
+        "printedRow": "Conexión A-3",
+        "viaTBox": [
+          203.4,
+          155.995,
+          217.624,
+          164.035
+        ],
+        "generalBox": [
+          251.76,
+          155.995,
+          265.984,
+          164.035
+        ]
+      }
+    },
+    {
+      "from": "Conexión A-3",
+      "to": "M-45",
+      "tariff": {
+        "baseCents": 295,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 265,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 2,
+        "printedRow": "Conexión A-3",
+        "viaTBox": [
+          300.12,
+          155.995,
+          314.344,
+          164.035
+        ],
+        "generalBox": [
+          348.48,
+          155.995,
+          362.704,
+          164.035
+        ]
+      }
+    },
+    {
+      "from": "Conexión A-3",
+      "to": "M-50",
+      "tariff": {
+        "baseCents": 245,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 220,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 3,
+        "printedRow": "Conexión A-3",
+        "viaTBox": [
+          396.84,
+          155.995,
+          411.064,
+          164.035
+        ],
+        "generalBox": [
+          445.2,
+          155.995,
+          459.424,
+          164.035
+        ]
+      }
+    },
+    {
+      "from": "Conexión A-3",
+      "to": "M-208 Mejorada/Velilla",
+      "tariff": {
+        "baseCents": 245,
+        "bands": [
+          {
+            "cents": 0,
+            "minutes": [
+              0,
+              360
+            ]
+          },
+          {
+            "cents": 220,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
+      },
+      "sourceCell": {
+        "page": 1,
+        "row": 6,
+        "column": 4,
+        "printedRow": "Conexión A-3",
+        "viaTBox": [
+          493.56,
+          155.995,
+          507.784,
+          164.035
+        ],
+        "generalBox": [
+          541.92,
+          155.995,
+          556.144,
+          164.035
+        ]
+      }
+    }
+  ],
+  "barriers": [],
+  "notes": [
+    "Only explicitly printed light-vehicle cells imported. Blank/dash cells remain unavailable, never zero.",
+    "Physical entry/exit mapping and route validation still required.",
+    "R-2 Aeropuerto/Alcobendas diagonal cells are independent barriers, not same-entry/exit OD fares."
+  ]
+}

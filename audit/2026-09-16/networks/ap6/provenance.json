@@ -1,0 +1,340 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "VILLALBA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 292333302,
+      "version": 7,
+      "node": 21678840,
+      "outsideNode": 21678838
+    },
+    {
+      "zone": "VILLALBA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 593473498,
+      "version": 6,
+      "node": 776424739,
+      "outsideNode": 776424543
+    },
+    {
+      "zone": "VILLALBA-reversible",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 4302145,
+      "version": 21,
+      "node": 21681546,
+      "outsideNode": 21681548,
+      "reverseSourceDirection": true
+    },
+    {
+      "zone": "VILLALBA-reversible",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 4302145,
+      "version": 21,
+      "node": 21681546,
+      "outsideNode": 21681548
+    },
+    {
+      "zone": "SAN RAFAEL",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 45855498,
+      "version": 12,
+      "node": 244714487,
+      "outsideNode": 469265220
+    },
+    {
+      "zone": "SAN RAFAEL",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 280536863,
+      "version": 5,
+      "node": 244714456,
+      "outsideNode": 469265224
+    },
+    {
+      "zone": "VILLACASTIN",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 62126724,
+      "version": 6,
+      "node": 2372344235,
+      "outsideNode": 775100779
+    },
+    {
+      "zone": "VILLACASTIN",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1320673496,
+      "version": 4,
+      "node": 472461168,
+      "outsideNode": 246621938
+    },
+    {
+      "zone": "VILLACASTIN-sur",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1320673499,
+      "version": 4,
+      "node": 11253944487,
+      "outsideNode": 465629921
+    },
+    {
+      "zone": "ADANERO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 768603931,
+      "version": 4,
+      "node": 247491233,
+      "outsideNode": 247491234
+    },
+    {
+      "zone": "ADANERO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1221530432,
+      "version": 3,
+      "node": 29960616,
+      "outsideNode": 29955781
+    }
+  ],
+  "probeLocations": {
+    "VILLALBA": {
+      "entry": {
+        "lat": 40.6921377,
+        "lng": -4.1234517
+      },
+      "exit": {
+        "lat": 40.6921219,
+        "lng": -4.1236227
+      }
+    },
+    "VILLALBA-reversible": {
+      "entry": {
+        "lat": 40.6923286,
+        "lng": -4.1211822
+      },
+      "exit": {
+        "lat": 40.6923286,
+        "lng": -4.1211822
+      }
+    },
+    "SAN RAFAEL": {
+      "entry": {
+        "lat": 40.7272656,
+        "lng": -4.1968452
+      },
+      "exit": {
+        "lat": 40.7275687,
+        "lng": -4.1965897
+      }
+    },
+    "VILLACASTIN": {
+      "entry": {
+        "lat": 40.7769381,
+        "lng": -4.4237802
+      },
+      "exit": {
+        "lat": 40.7732437,
+        "lng": -4.4253545
+      }
+    },
+    "VILLACASTIN-sur": {
+      "entry": {
+        "lat": 40.772981,
+        "lng": -4.4255976
+      }
+    },
+    "ADANERO": {
+      "entry": {
+        "lat": 40.8908952,
+        "lng": -4.5748485
+      },
+      "exit": {
+        "lat": 40.8909117,
+        "lng": -4.5746651
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "ADANERO",
+    "SAN RAFAEL",
+    "VILLACASTIN",
+    "VILLALBA"
+  ],
+  "probeJourneys": {
+    "VILLALBA--SAN RAFAEL": {
+      "entry": {
+        "lat": 40.6921377,
+        "lng": -4.1234517
+      },
+      "exit": {
+        "lat": 40.7275687,
+        "lng": -4.1965897
+      },
+      "expectedGates": [
+        "VILLALBA-entry",
+        "SAN RAFAEL-exit"
+      ]
+    },
+    "SAN RAFAEL--VILLALBA": {
+      "entry": {
+        "lat": 40.7272656,
+        "lng": -4.1968452
+      },
+      "exit": {
+        "lat": 40.6921219,
+        "lng": -4.1236227
+      },
+      "expectedGates": [
+        "SAN RAFAEL-entry",
+        "VILLALBA-exit"
+      ]
+    },
+    "VILLALBA--VILLACASTIN": {
+      "entry": {
+        "lat": 40.6921377,
+        "lng": -4.1234517
+      },
+      "exit": {
+        "lat": 40.7732437,
+        "lng": -4.4253545
+      },
+      "expectedGates": [
+        "VILLALBA-entry",
+        "VILLACASTIN-exit"
+      ]
+    },
+    "VILLACASTIN--VILLALBA": {
+      "entry": {
+        "lat": 40.772981,
+        "lng": -4.4255976
+      },
+      "exit": {
+        "lat": 40.6921219,
+        "lng": -4.1236227
+      },
+      "expectedGates": [
+        "VILLACASTIN-sur-entry",
+        "VILLALBA-exit"
+      ]
+    },
+    "VILLALBA--ADANERO": {
+      "entry": {
+        "lat": 40.6921377,
+        "lng": -4.1234517
+      },
+      "exit": {
+        "lat": 40.8909117,
+        "lng": -4.5746651
+      },
+      "expectedGates": [
+        "VILLALBA-entry",
+        "ADANERO-exit"
+      ]
+    },
+    "ADANERO--VILLALBA": {
+      "entry": {
+        "lat": 40.8908952,
+        "lng": -4.5748485
+      },
+      "exit": {
+        "lat": 40.6921219,
+        "lng": -4.1236227
+      },
+      "expectedGates": [
+        "ADANERO-entry",
+        "VILLALBA-exit"
+      ]
+    },
+    "SAN RAFAEL--VILLACASTIN": {
+      "entry": {
+        "lat": 40.7272656,
+        "lng": -4.1968452
+      },
+      "exit": {
+        "lat": 40.7732437,
+        "lng": -4.4253545
+      },
+      "expectedGates": [
+        "SAN RAFAEL-entry",
+        "VILLACASTIN-exit"
+      ]
+    },
+    "VILLACASTIN--SAN RAFAEL": {
+      "entry": {
+        "lat": 40.772981,
+        "lng": -4.4255976
+      },
+      "exit": {
+        "lat": 40.7275687,
+        "lng": -4.1965897
+      },
+      "expectedGates": [
+        "VILLACASTIN-sur-entry",
+        "SAN RAFAEL-exit"
+      ]
+    },
+    "SAN RAFAEL--ADANERO": {
+      "entry": {
+        "lat": 40.7272656,
+        "lng": -4.1968452
+      },
+      "exit": {
+        "lat": 40.8909117,
+        "lng": -4.5746651
+      },
+      "expectedGates": [
+        "SAN RAFAEL-entry",
+        "ADANERO-exit"
+      ]
+    },
+    "ADANERO--SAN RAFAEL": {
+      "entry": {
+        "lat": 40.8908952,
+        "lng": -4.5748485
+      },
+      "exit": {
+        "lat": 40.7275687,
+        "lng": -4.1965897
+      },
+      "expectedGates": [
+        "ADANERO-entry",
+        "SAN RAFAEL-exit"
+      ]
+    },
+    "VILLACASTIN--ADANERO": {
+      "entry": {
+        "lat": 40.7769381,
+        "lng": -4.4237802
+      },
+      "exit": {
+        "lat": 40.8909117,
+        "lng": -4.5746651
+      },
+      "expectedGates": [
+        "VILLACASTIN-entry",
+        "ADANERO-exit"
+      ]
+    },
+    "ADANERO--VILLACASTIN": {
+      "entry": {
+        "lat": 40.8908952,
+        "lng": -4.5748485
+      },
+      "exit": {
+        "lat": 40.7732437,
+        "lng": -4.4253545
+      },
+      "expectedGates": [
+        "ADANERO-entry",
+        "VILLACASTIN-exit"
+      ]
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

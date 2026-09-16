@@ -9,7 +9,40 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 # zone, booth group, source entry way, entry booth, reversed source direction,
 # outside entry node, outside exit node. Published zone names are preserved.
-SPECS = {'ap9-norte': {'ref':'AP-9','additionalRefs':['AP-9F','AP-9FS','AP-9SF','AP-9M','AP-9 M'],'tariffFamily':'ap9','tollId':'es-ap9','bbox':[42.95,-8.48,43.34,-8.19],
+SPECS = {'ap61': {'probeViaNodes':{'ORTIGOSA--OTERO':[29212569]},'ref':'AP-61','bbox':[40.756,-4.225,40.92,-4.09],
+    'expectedDirectedFares':20,'filterFareZones':['CONEXIÓN AP-6 (EL ESPINAR)','OTERO DE H.','OTERO DE HERREROS','ORTIGOSA','ORTIGOSA DEL MONTE','HONTORIA','SEGOVIA'],
+    'tariffZoneAliases':{'CONEXIÓN AP-6 (EL ESPINAR)':'AP6','OTERO DE H.':'OTERO','OTERO DE HERREROS':'OTERO','ORTIGOSA DEL MONTE':'ORTIGOSA'},
+    'zoneAliases':{'HONTORIA-sur':'HONTORIA'},'reverseSideSuffix':'-sur',
+    'orderedZones':['AP6','OTERO','ORTIGOSA','HONTORIA','SEGOVIA'],
+    'accesses':[],'logicalAccesses':[
+      ('AP6',(100962983,29212853,29212968),(103317390,29212413,29213202)),
+      ('OTERO',(1347604246,11628605133,2848371977),(73419665,2848371980,365856250)),
+      ('ORTIGOSA',(1347601195,10736873791,482748716),(1347601193,12465544184,482748716)),
+      ('HONTORIA',(40110779,610866978,482748804),(48046071,482748814,610866954)),
+      ('HONTORIA-sur',(48046070,610866944,482748795),(48046068,610866937,610866971)),
+      ('SEGOVIA',(34483462,29212709,29212611),(103557430,29213105,29212509)),
+    ]}, 'ap6': {'ref':'AP-6','bbox':[40.68,-4.59,40.897,-4.11],
+    'expectedDirectedFares':12,'tariffZoneAliases':{'VILLASCASTIN':'VILLACASTIN'},
+    'zoneAliases':{'VILLACASTIN-sur':'VILLACASTIN','VILLALBA-reversible':'VILLALBA'},'reverseSideSuffix':'-sur',
+    'orderedZones':['VILLALBA','SAN RAFAEL','VILLACASTIN','ADANERO'],
+    'extraCoverageWays':[768603931,593473498,4300490, 4708267, 4711086, 4711087, 22906231, 22970923, 23220123, 39447247, 39447248, 39447250, 39447251, 39447252, 39447253, 48737218, 48737219, 48737220, 62126703, 62126716, 62126726, 62143293, 62143309, 62143310, 62143316, 203780178, 203780179, 255898015, 353893484, 353893485, 355143702, 355143703, 355143704, 706205070, 706205071, 706205072, 1320673496, 1320673499, 1410344180, 1410344181, 1410344182, 1410344183, 1410344184, 1410344185, 1410344186, 1410344187, 1410344188, 1410344189, 1410344190, 1410344191, 1410344192, 1410344193, 1410344194, 1410344195, 1410344196, 1410344197],
+    'accesses':[],'logicalAccesses':[
+      ('VILLALBA',(292333302,21678840,21678838),(593473498,776424739,776424543)),
+      ('VILLALBA-reversible',(4302145,21681546,21681548,True),(4302145,21681546,21681548)),
+      ('SAN RAFAEL',(45855498,244714487,469265220),(280536863,244714456,469265224)),
+      ('VILLACASTIN',(62126724,2372344235,775100779),(1320673496,472461168,246621938)),
+      ('VILLACASTIN-sur',(1320673499,11253944487,465629921),None),
+      ('ADANERO',(768603931,247491233,247491234),(1221530432,29960616,29955781)),
+    ]}, 'ap51': {'ref':'AP-51','additionalRefs':['AV-20'],'bbox':[40.672,-4.65,40.78,-4.40],
+    'expectedDirectedFares':10,'bidirectionalRows':True,
+    'tariffZoneAliases':{'Villacastín':'VILLACASTIN','Conexión AP-6':'AP6','Vicolozano':'VICOLOZANO','Ávila':'AVILA'},
+    'extraCoverageWays':[47251087,46491467,46491468,1173796023,74976081,8576894],
+    'accesses':[],'logicalAccesses':[
+      ('AP6',(4300490,26000410,26000840),(353893484,25997339,775100891)),
+      ('VILLACASTIN',(1320673499,11253944487,465629921),(1320673496,472461168,246621938)),
+      ('VICOLOZANO',(47251087,488516313,60531857),(46491467,885336236,60531857)),
+      ('AVILA',(62143311,13022746691,26000092),(51289192,13022746690,26000574)),
+    ]}, 'ap9-norte': {'ref':'AP-9','additionalRefs':['AP-9F','AP-9FS','AP-9SF','AP-9M','AP-9 M'],'tariffFamily':'ap9','tollId':'es-ap9','bbox':[42.95,-8.48,43.34,-8.19],
     'filterFareZones':['A CORUÑA O A BARCALA','GUISAMO O STA MARTA','GUISAMO/STA MARTA','MACENDA','ORDES','SIGUEIRO','SIGÜEIRO','SANTIAGO'],
     'tariffZoneAliases':{'A CORUÑA O A BARCALA':'CORUNA','GUISAMO O STA MARTA':'GUISAMO','GUISAMO/STA MARTA':'GUISAMO','SIGÜEIRO':'SIGUEIRO'},
     'excludeSelfPairs':True,'expectedDirectedFares':30,'viaTUnknownHistory':True,
@@ -229,6 +262,8 @@ for family, spec in SPECS.items():
     for zone, entry, exit in spec.get('logicalAccesses', []):
         locations[zone] = {}
         for role, cut in [('entry', entry), ('exit', exit)]:
+            if cut is None:
+                continue
             wid, node, outside = cut[:3]
             reverse = len(cut)>3 and cut[3]
             way = ways[wid]
@@ -265,8 +300,8 @@ for family, spec in SPECS.items():
     canonical_fares = list(fares)
     aliases = spec.get('zoneAliases',{})
     for fare in canonical_fares:
-        origins = [fare['from']] + [alias+'-entry' for alias,zone in aliases.items() if fare['from']==zone+'-entry']
-        destinations = [fare['to']] + [alias+'-exit' for alias,zone in aliases.items() if fare['to']==zone+'-exit']
+        origins = [fare['from']] + [alias+'-entry' for alias,zone in aliases.items() if fare['from']==zone+'-entry' and 'entry' in locations[alias]]
+        destinations = [fare['to']] + [alias+'-exit' for alias,zone in aliases.items() if fare['to']==zone+'-exit' and 'exit' in locations[alias]]
         fares.extend({**fare,'from':a,'to':b} for a in origins for b in destinations if (a,b)!=(fare['from'],fare['to']))
     net = {'id': 'es-'+family, 'tollId': spec.get('tollId','es-'+family), 'validFrom': refs['validFrom'], 'validThrough': refs['validThrough'],
            'timeZone': 'Europe/Madrid', 'gates': gates,
@@ -299,9 +334,11 @@ for family, spec in SPECS.items():
         suffix = spec.get('reverseSideSuffix','-oeste')
         for fare in canonical_fares:
             a,b = fare['from'].removesuffix('-entry'),fare['to'].removesuffix('-exit')
-            entry = a+suffix if order.index(b)<order.index(a) and a+suffix in locations else a
-            exit = b+suffix if order.index(a)<order.index(b) and b+suffix in locations else b
+            entry = a+suffix if order.index(b)<order.index(a) and 'entry' in locations.get(a+suffix,{}) else a
+            exit = b+suffix if order.index(a)<order.index(b) and 'exit' in locations.get(b+suffix,{}) else b
             journeys[a+'--'+b] = {'entry':locations[entry]['entry'],'exit':locations[exit]['exit'], 'expectedGates':[entry+'-entry',exit+'-exit']}
+    for name, via_nodes in spec.get('probeViaNodes',{}).items():
+        journeys[name]['via'] = [point(node) for node in via_nodes]
     (out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'canonicalProbeZones':sorted({f['from'].removesuffix('-entry') for f in canonical_fares}), **({'probeJourneys':journeys} if journeys else {}), 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2)+'\n')
     print(family, len(gates), 'gates', len(fares), 'OD fares', len(selected), 'ways')
 

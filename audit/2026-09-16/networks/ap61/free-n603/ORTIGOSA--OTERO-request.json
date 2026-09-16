@@ -1,0 +1,26 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.8246077,
+        "lon": -4.1768223
+      },
+      {
+        "lat": 40.7906129,
+        "lon": -4.215183
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "requestedPaidJourneyCents": 75,
+  "expectedGeneralCents": 0,
+  "reason": "Router selected the N-603 free alternative; no AP-61 gate crossings."
+}

@@ -150,3 +150,12 @@ Morrazo–Vigo pair. Six independent Coruña totals verify Ferrol/Norte composit
 and catalog-order invariance. Unknown Via-T history is a bounded price. Two
 same-origin/destination rows and the documented access, free-section, avoidance
 and release checks remain open. Spain remains disabled; all work is local.
+
+### AP-6 / AP-51 / AP-61 isolated journey mapping (2026-09-16)
+
+42 native directed pairs now have retained route probes, including Vicolozano–
+Ávila and Hontoria–Segovia exemptions. The N-603 alternative to Ortigosa–Otero
+is a separate zero-price regression. Night/peak variations remain distinct.
+Twelve AP-6/AP-51 combined routes are retained for integration; they are not yet
+certified by the isolated-system tests. Shared settlement and the remaining
+access/avoidance work keep all three candidates and Spain disabled.

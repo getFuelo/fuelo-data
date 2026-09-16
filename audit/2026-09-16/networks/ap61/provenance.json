@@ -1,0 +1,471 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "AP6",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 100962983,
+      "version": 7,
+      "node": 29212853,
+      "outsideNode": 29212968
+    },
+    {
+      "zone": "AP6",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 103317390,
+      "version": 7,
+      "node": 29212413,
+      "outsideNode": 29213202
+    },
+    {
+      "zone": "OTERO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1347604246,
+      "version": 2,
+      "node": 11628605133,
+      "outsideNode": 2848371977
+    },
+    {
+      "zone": "OTERO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 73419665,
+      "version": 8,
+      "node": 2848371980,
+      "outsideNode": 365856250
+    },
+    {
+      "zone": "ORTIGOSA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1347601195,
+      "version": 2,
+      "node": 10736873791,
+      "outsideNode": 482748716
+    },
+    {
+      "zone": "ORTIGOSA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1347601193,
+      "version": 2,
+      "node": 12465544184,
+      "outsideNode": 482748716
+    },
+    {
+      "zone": "HONTORIA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 40110779,
+      "version": 12,
+      "node": 610866978,
+      "outsideNode": 482748804
+    },
+    {
+      "zone": "HONTORIA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 48046071,
+      "version": 12,
+      "node": 482748814,
+      "outsideNode": 610866954
+    },
+    {
+      "zone": "HONTORIA-sur",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 48046070,
+      "version": 5,
+      "node": 610866944,
+      "outsideNode": 482748795
+    },
+    {
+      "zone": "HONTORIA-sur",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 48046068,
+      "version": 7,
+      "node": 610866937,
+      "outsideNode": 610866971
+    },
+    {
+      "zone": "SEGOVIA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 34483462,
+      "version": 19,
+      "node": 29212709,
+      "outsideNode": 29212611
+    },
+    {
+      "zone": "SEGOVIA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 103557430,
+      "version": 12,
+      "node": 29213105,
+      "outsideNode": 29212509
+    }
+  ],
+  "probeLocations": {
+    "AP6": {
+      "entry": {
+        "lat": 40.7681663,
+        "lng": -4.2084807
+      },
+      "exit": {
+        "lat": 40.7680727,
+        "lng": -4.2088578
+      }
+    },
+    "OTERO": {
+      "entry": {
+        "lat": 40.7901195,
+        "lng": -4.2158731
+      },
+      "exit": {
+        "lat": 40.7906129,
+        "lng": -4.215183
+      }
+    },
+    "ORTIGOSA": {
+      "entry": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      },
+      "exit": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      }
+    },
+    "HONTORIA": {
+      "entry": {
+        "lat": 40.9047509,
+        "lng": -4.102916
+      },
+      "exit": {
+        "lat": 40.9050109,
+        "lng": -4.1040173
+      }
+    },
+    "HONTORIA-sur": {
+      "entry": {
+        "lat": 40.9041865,
+        "lng": -4.1044286
+      },
+      "exit": {
+        "lat": 40.9038525,
+        "lng": -4.1033064
+      }
+    },
+    "SEGOVIA": {
+      "entry": {
+        "lat": 40.9128096,
+        "lng": -4.1038467
+      },
+      "exit": {
+        "lat": 40.9127341,
+        "lng": -4.103542
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "AP6",
+    "HONTORIA",
+    "ORTIGOSA",
+    "OTERO",
+    "SEGOVIA"
+  ],
+  "probeJourneys": {
+    "AP6--OTERO": {
+      "entry": {
+        "lat": 40.7681663,
+        "lng": -4.2084807
+      },
+      "exit": {
+        "lat": 40.7906129,
+        "lng": -4.215183
+      },
+      "expectedGates": [
+        "AP6-entry",
+        "OTERO-exit"
+      ]
+    },
+    "OTERO--AP6": {
+      "entry": {
+        "lat": 40.7901195,
+        "lng": -4.2158731
+      },
+      "exit": {
+        "lat": 40.7680727,
+        "lng": -4.2088578
+      },
+      "expectedGates": [
+        "OTERO-entry",
+        "AP6-exit"
+      ]
+    },
+    "AP6--ORTIGOSA": {
+      "entry": {
+        "lat": 40.7681663,
+        "lng": -4.2084807
+      },
+      "exit": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      },
+      "expectedGates": [
+        "AP6-entry",
+        "ORTIGOSA-exit"
+      ]
+    },
+    "ORTIGOSA--AP6": {
+      "entry": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      },
+      "exit": {
+        "lat": 40.7680727,
+        "lng": -4.2088578
+      },
+      "expectedGates": [
+        "ORTIGOSA-entry",
+        "AP6-exit"
+      ]
+    },
+    "AP6--HONTORIA": {
+      "entry": {
+        "lat": 40.7681663,
+        "lng": -4.2084807
+      },
+      "exit": {
+        "lat": 40.9038525,
+        "lng": -4.1033064
+      },
+      "expectedGates": [
+        "AP6-entry",
+        "HONTORIA-sur-exit"
+      ]
+    },
+    "HONTORIA--AP6": {
+      "entry": {
+        "lat": 40.9041865,
+        "lng": -4.1044286
+      },
+      "exit": {
+        "lat": 40.7680727,
+        "lng": -4.2088578
+      },
+      "expectedGates": [
+        "HONTORIA-sur-entry",
+        "AP6-exit"
+      ]
+    },
+    "AP6--SEGOVIA": {
+      "entry": {
+        "lat": 40.7681663,
+        "lng": -4.2084807
+      },
+      "exit": {
+        "lat": 40.9127341,
+        "lng": -4.103542
+      },
+      "expectedGates": [
+        "AP6-entry",
+        "SEGOVIA-exit"
+      ]
+    },
+    "SEGOVIA--AP6": {
+      "entry": {
+        "lat": 40.9128096,
+        "lng": -4.1038467
+      },
+      "exit": {
+        "lat": 40.7680727,
+        "lng": -4.2088578
+      },
+      "expectedGates": [
+        "SEGOVIA-entry",
+        "AP6-exit"
+      ]
+    },
+    "OTERO--ORTIGOSA": {
+      "entry": {
+        "lat": 40.7901195,
+        "lng": -4.2158731
+      },
+      "exit": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      },
+      "expectedGates": [
+        "OTERO-entry",
+        "ORTIGOSA-exit"
+      ]
+    },
+    "ORTIGOSA--OTERO": {
+      "entry": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      },
+      "exit": {
+        "lat": 40.7906129,
+        "lng": -4.215183
+      },
+      "expectedGates": [
+        "ORTIGOSA-entry",
+        "OTERO-exit"
+      ],
+      "via": [
+        {
+          "lat": 40.8215419,
+          "lng": -4.1830832
+        }
+      ]
+    },
+    "OTERO--HONTORIA": {
+      "entry": {
+        "lat": 40.7901195,
+        "lng": -4.2158731
+      },
+      "exit": {
+        "lat": 40.9038525,
+        "lng": -4.1033064
+      },
+      "expectedGates": [
+        "OTERO-entry",
+        "HONTORIA-sur-exit"
+      ]
+    },
+    "HONTORIA--OTERO": {
+      "entry": {
+        "lat": 40.9041865,
+        "lng": -4.1044286
+      },
+      "exit": {
+        "lat": 40.7906129,
+        "lng": -4.215183
+      },
+      "expectedGates": [
+        "HONTORIA-sur-entry",
+        "OTERO-exit"
+      ]
+    },
+    "OTERO--SEGOVIA": {
+      "entry": {
+        "lat": 40.7901195,
+        "lng": -4.2158731
+      },
+      "exit": {
+        "lat": 40.9127341,
+        "lng": -4.103542
+      },
+      "expectedGates": [
+        "OTERO-entry",
+        "SEGOVIA-exit"
+      ]
+    },
+    "SEGOVIA--OTERO": {
+      "entry": {
+        "lat": 40.9128096,
+        "lng": -4.1038467
+      },
+      "exit": {
+        "lat": 40.7906129,
+        "lng": -4.215183
+      },
+      "expectedGates": [
+        "SEGOVIA-entry",
+        "OTERO-exit"
+      ]
+    },
+    "ORTIGOSA--HONTORIA": {
+      "entry": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      },
+      "exit": {
+        "lat": 40.9038525,
+        "lng": -4.1033064
+      },
+      "expectedGates": [
+        "ORTIGOSA-entry",
+        "HONTORIA-sur-exit"
+      ]
+    },
+    "HONTORIA--ORTIGOSA": {
+      "entry": {
+        "lat": 40.9041865,
+        "lng": -4.1044286
+      },
+      "exit": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      },
+      "expectedGates": [
+        "HONTORIA-sur-entry",
+        "ORTIGOSA-exit"
+      ]
+    },
+    "ORTIGOSA--SEGOVIA": {
+      "entry": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      },
+      "exit": {
+        "lat": 40.9127341,
+        "lng": -4.103542
+      },
+      "expectedGates": [
+        "ORTIGOSA-entry",
+        "SEGOVIA-exit"
+      ]
+    },
+    "SEGOVIA--ORTIGOSA": {
+      "entry": {
+        "lat": 40.9128096,
+        "lng": -4.1038467
+      },
+      "exit": {
+        "lat": 40.8246077,
+        "lng": -4.1768223
+      },
+      "expectedGates": [
+        "SEGOVIA-entry",
+        "ORTIGOSA-exit"
+      ]
+    },
+    "HONTORIA--SEGOVIA": {
+      "entry": {
+        "lat": 40.9047509,
+        "lng": -4.102916
+      },
+      "exit": {
+        "lat": 40.9127341,
+        "lng": -4.103542
+      },
+      "expectedGates": [
+        "HONTORIA-entry",
+        "SEGOVIA-exit"
+      ]
+    },
+    "SEGOVIA--HONTORIA": {
+      "entry": {
+        "lat": 40.9128096,
+        "lng": -4.1038467
+      },
+      "exit": {
+        "lat": 40.9050109,
+        "lng": -4.1040173
+      },
+      "expectedGates": [
+        "SEGOVIA-entry",
+        "HONTORIA-exit"
+      ]
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

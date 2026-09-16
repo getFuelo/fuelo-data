@@ -14,11 +14,13 @@
       "tariffArtifacts": [
         "pricing-candidates/ap6-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap6.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Map joint AP-6 journey settlement without adding overlapping journey fares."
+        "Shared settlement with AP-51/AP-61 and connecting tariff boundaries remain open.",
+        "Reversible tunnel lane operational state, all public approaches, complete free access and avoidance remain open."
       ]
     },
     {
@@ -26,11 +28,13 @@
       "tariffArtifacts": [
         "pricing-candidates/ap51-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap51.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Map joint AP-6 journey settlement without adding overlapping journey fares."
+        "Published joint AP-6 journeys are fetched but not yet validated as a combined settlement.",
+        "All public approaches, habitual-user eligibility and avoidance remain open."
       ]
     },
     {
@@ -38,11 +42,13 @@
       "tariffArtifacts": [
         "pricing-candidates/ap61-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap61.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Map joint AP-6 journey settlement without adding overlapping journey fares."
+        "San Rafael access and combined Villalba journeys still require mapping.",
+        "All public approaches, habitual-user eligibility and avoidance remain open."
       ]
     },
     {

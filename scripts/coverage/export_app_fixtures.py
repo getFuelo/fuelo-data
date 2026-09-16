@@ -165,3 +165,8 @@ if corridor.exists():
  autema=json.loads((ROOT/'pricing-candidates/autema.json').read_text())
  catalog['pricing']+=autema['pricing'];catalog['tolls']+=autema['tolls']
  (target/'corridor-catalog.json').write_text(json.dumps(catalog,separators=(',',':'))+'\n')
+
+if (ROOT/'audit/2026-09-16/networks/c32/whole-journeys.json').exists():
+ target=out/'c32-whole';target.mkdir(exist_ok=True)
+ for source,name in [('audit/2026-09-16/networks/c32/whole-journeys.json','cases.json'),('pricing-candidates/c32.json','catalog.json')]:
+  (target/name).write_text(json.dumps(json.loads((ROOT/source).read_text()),separators=(',',':'))+'\n')

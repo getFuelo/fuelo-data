@@ -144,6 +144,6 @@
       "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
     }
   ],
-  "coverageWayCount": 377,
+  "coverageWayCount": 556,
   "reviewStatus": "candidate_pending_routes"
 }

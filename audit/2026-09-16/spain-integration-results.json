@@ -1,8 +1,8 @@
 {
   "catalogOrdersChecked": 2,
   "complete": false,
-  "total": 1491,
-  "passed": 1491,
+  "total": 1493,
+  "passed": 1493,
   "safelyUnavailable": 8,
   "unresolvedPassages": [],
   "failures": [],
@@ -181,6 +181,10 @@
     },
     "cadi-whole-journey": {
       "passed": 3,
+      "failed": 0
+    },
+    "c32-whole-journey": {
+      "passed": 2,
       "failed": 0
     }
   }

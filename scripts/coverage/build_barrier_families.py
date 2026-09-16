@@ -39,7 +39,9 @@ FAMILIES={
   ('osm-review-141831078','es-c16-sant-vicenc-c55','Ramal Sant Vicenç–C55',490),
   ('osm-review-150686870','es-c16-terrassa-manresa','Manresa troncal',976),
   ('osm-review-255558497','es-c16-sant-cugat-terrassa','Les Fonts',319)]},
- 'c32':{'ref':'C-32','lat':[41.15,41.40],
+ 'c32':{'ref':'C-32','coverageRefs':['C-32','C-32LE'],'lat':[41.15,41.40],
+  # Include the Castelldefels connector and linked access ramps: a Valhalla
+  # toll maneuver starts before the paid trunk. Existing plaza gates charge it.
   # Official MT-14042-A2 drawing 2.3 identifies the outer paid Via 1.
   # OSM lacks a toll tag/booth; use its existing geometry, not imagery tracing.
   'additionalPaidLanes':{'es-c32-vallcarca':[(265459454,12766694619)]},'groups':[
@@ -79,7 +81,7 @@ def main():
     for n in [ways[id]['nodes'][0],ways[id]['nodes'][-1]]:
      for other in at[n]-selected:
       w=ways[other];t=w['tags']
-      if (t.get('toll')=='yes' or (family=='vallvidrera' and t.get('highway')=='motorway_link')) and t.get('highway') in ['motorway_link','trunk_link','motorway','trunk','service'] and t.get('ref') in [None,spec['ref']] and inside(w):added.add(other)
+      if (t.get('toll')=='yes' or (family in ['vallvidrera','c32'] and t.get('highway')=='motorway_link')) and t.get('highway') in ['motorway_link','trunk_link','motorway','trunk','service'] and t.get('ref') in [None,spec['ref']] and inside(w):added.add(other)
    selected.update(added);frontier=added
    if not added:break
   coverage=[{'id':str(id),'version':ways[id]['version'],'line':[{'lat':nodes[str(n)][0],'lng':nodes[str(n)][1]} for n in ways[id]['nodes']]} for id in sorted(selected)]

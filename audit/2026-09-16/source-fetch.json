@@ -1,0 +1,433 @@
+[
+  {
+    "ids": [
+      "es-ap6"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+    "sha256": "dcb0acbf43b2917464b59f60343aa901abfe95705d24e7838ee8c7b2ec853112",
+    "bytes": 20946,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap6.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap51"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
+    "sha256": "a8c04897ec822082444d7cce726eb4c54eb1e0e75dd2b9be6d50f38c368368e6",
+    "bytes": 31915,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap51.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap61"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf",
+    "sha256": "893aa64cc48e8a8fbc0adc81211ce4cdc716fde720211a75357762b398e28782",
+    "bytes": 34428,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap61.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap53"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-53,-santiago---alto-de-santo-domingo-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-53,-santiago---alto-de-santo-domingo-2026.pdf",
+    "sha256": "e5ac6a9f5e5493005cff1410ead8946ea506122894f22fab201ea4297f1e0849",
+    "bytes": 49466,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap53.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap66"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-66,-campomanes---leon-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-66,-campomanes---leon-2026.pdf",
+    "sha256": "c245eaef5a1c83031537ffb515e49cd734ca694a2fbb1a6fa4346c887db75ad9",
+    "bytes": 28512,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap66.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap68"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-68,-bilbao---zaragoza-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-68,-bilbao---zaragoza-2026.pdf",
+    "sha256": "6884ebdeb726fafd78435176409e23536f5c26a7edea6ee31998891f3baf2ede",
+    "bytes": 272343,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap68.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap71"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-71,-leon---astorga-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-71,-leon---astorga-2026.pdf",
+    "sha256": "99fee3bc65d33fe98c615b12b23bd160d7909b5093778e77da7a34ba961da4c6",
+    "bytes": 23918,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap71.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap9"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-9,-ferrol---frontera-portuguesa-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-9,-ferrol---frontera-portuguesa-2026.pdf",
+    "sha256": "db30ec2a1d61f226d22354663e6d0408693e3a9994f4a310578ca70b441be006",
+    "bytes": 61979,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap9.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap46"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-46,-alto-de-las-pedrizas---malaga-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-46,-alto-de-las-pedrizas---malaga-2026.pdf",
+    "sha256": "384375033d1f1bae6f97f634e83e3e0f89d48965c543c3b05519a51cb375cee0",
+    "bytes": 21184,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap46.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap7-malaga-estepona"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-malaga---estepona-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-malaga---estepona-2026.pdf",
+    "sha256": "28b2d8edfb93aac2b6a50a873625b282f07a1f98679c3e64609f48894c4a9071",
+    "bytes": 44734,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap7-malaga-estepona.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap7-estepona-guadiaro"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-estepona---guadiaro-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-estepona---guadiaro-2026.pdf",
+    "sha256": "30bc640a744b7801f36cadcff031420eb999955d293d409c808518154dbbd39a",
+    "bytes": 29210,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap7-estepona-guadiaro.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap7-alicante-cartagena"
+    ],
+    "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-alicante---cartagena-2026.pdf",
+    "final_url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-alicante---cartagena-2026.pdf",
+    "sha256": "2f30eae191dad574bcfc7f86089b399cf4bdf002d1a74895856335033951ef92",
+    "bytes": 83448,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap7-alicante-cartagena.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-r2"
+    ],
+    "url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r2_2026.pdf",
+    "final_url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r2_2026.pdf",
+    "sha256": "47d7f509ba7aecf52c714ea0bb26181d9f6327df8b7939ec52448b55ee853148",
+    "bytes": 251021,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-r2.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-r3"
+    ],
+    "url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r3_2026.pdf",
+    "final_url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r3_2026.pdf",
+    "sha256": "bc808175c7b89351f8472653013590f0ab8c3d834a127cdc1d15e00ce42711c6",
+    "bytes": 709171,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-r3.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-r4"
+    ],
+    "url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r4_2026_0.pdf",
+    "final_url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r4_2026_0.pdf",
+    "sha256": "3774fdcd2bb02a8d4b6e01b88af2223209d71f4576bce1beefa15558278c75e8",
+    "bytes": 365710,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-r4.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-r5"
+    ],
+    "url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r5_2026.pdf",
+    "final_url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_r5_2026.pdf",
+    "sha256": "0d83306a717c0c368037f91c7aff1f59fd94e4af04e20c2a063cefb9ef8199e3",
+    "bytes": 709545,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-r5.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-m12"
+    ],
+    "url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifa_m12_2026.pdf",
+    "final_url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifa_m12_2026.pdf",
+    "sha256": "fb2a20a1e9326007af019754d5e6c5da00c1e16959aee0e7ca80682b0bc7f159",
+    "bytes": 701582,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-m12.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap7-cartagena-vera"
+    ],
+    "url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap7cv_2026.pdf",
+    "final_url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap7cv_2026.pdf",
+    "sha256": "b7fbdb565f90434e19bce16a072028524727ad9072bfb5ec8e259d0c456d3dab",
+    "bytes": 731325,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap7-cartagena-vera.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap36"
+    ],
+    "url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap36_2026.pdf",
+    "final_url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap36_2026.pdf",
+    "sha256": "f533959e737e6317dc440228d2f65fb49f7c07b7caa01a5860fdf10512943aff",
+    "bytes": 370143,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap36.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap41"
+    ],
+    "url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_ap41_2026.pdf",
+    "final_url": "https://cdn.transportes.gob.es/portal-web-seitt/media/document/precios_web_ap41_2026.pdf",
+    "sha256": "0695734afff7101bc36b5df4544fa2e58000d3a757de7b5a5ff225b36131ac1c",
+    "bytes": 714119,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap41.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-cadi"
+    ],
+    "url": "https://tunels.cat/es/tarifas-tuneles-del-cadi/",
+    "final_url": "https://tunels.cat/es/tarifas-tuneles-del-cadi/",
+    "sha256": "74f87cda7e616c9ecaa92c517cb0b57ed391e159acdd91fecb6339cd325b83bd",
+    "bytes": 153994,
+    "kind": "html",
+    "status": "downloaded",
+    "artifact_name": "es-cadi.html",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-vallvidrera"
+    ],
+    "url": "https://tunels.cat/es/tuneles-de-vallvidrera/",
+    "final_url": "https://tunels.cat/es/tuneles-de-vallvidrera/",
+    "sha256": "e0c832ecb83c9eec6d93f8ee7543d3b82ad94943100ed27a67cf29da6442ece5",
+    "bytes": 134304,
+    "kind": "html",
+    "status": "downloaded",
+    "artifact_name": "es-vallvidrera.html",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-c16-sant-cugat-terrassa",
+      "es-c16-terrassa-manresa"
+    ],
+    "url": "https://www.autema.com/es/tarifas-y-descuentos/tarifas/",
+    "final_url": "https://www.autema.com/es/tarifas-y-descuentos/tarifas/",
+    "sha256": "93df33ff1e207308de717a80a1ddcca3fbefc4b606f534dadaec1ba501dc2d6b",
+    "bytes": 88823,
+    "kind": "html",
+    "status": "downloaded",
+    "artifact_name": "es-c16-sant-cugat-terrassa.html",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-c32-castelldefels-vendrell"
+    ],
+    "url": "https://www.autopistas.com/wp-content/uploads/2025/12/26_001-Aucat-C32-Castelldefels-Vendrell-T26.pdf",
+    "final_url": "https://www.autopistas.com/wp-content/uploads/2025/12/26_001-Aucat-C32-Castelldefels-Vendrell-T26.pdf",
+    "sha256": "ee5b15c0ca4a0d2fde472121307e6199c697142f7f7aa426aeff55c91e54398b",
+    "bytes": 1587210,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-c32-castelldefels-vendrell.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ag55",
+      "es-ag57"
+    ],
+    "url": "https://www.autoestradas.com/la-autopista/tarifas/",
+    "final_url": "https://www.autoestradas.com/la-autopista/tarifas/",
+    "sha256": "6a6859a637853878db26e66109882ce382c5be249c82b1122f3647bdb26e19cb",
+    "bytes": 128622,
+    "kind": "html",
+    "status": "downloaded",
+    "artifact_name": "es-ag55.html",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap15"
+    ],
+    "url": "https://www.audenasa.es/wp-content/uploads/Tarifas-2026-Recorrido.pdf",
+    "final_url": "https://www.audenasa.es/wp-content/uploads/Tarifas-2026-Recorrido.pdf",
+    "sha256": "a8a58c084a46716196e840d47a3ff3fcf29b5a7cfd813cb444068b3c8a176ac3",
+    "bytes": 115402,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap15.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap8-gipuzkoa",
+      "es-ap1-gipuzkoa",
+      "es-ap636"
+    ],
+    "url": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+    "final_url": "https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5",
+    "sha256": "388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c",
+    "bytes": 184501,
+    "kind": "pdf",
+    "status": "downloaded",
+    "artifact_name": "es-ap8-gipuzkoa.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap8-bizkaia"
+    ],
+    "url": "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20AP8-AP1%2001-01-2026.pdf",
+    "status": "downloaded",
+    "sha256": "b5d90fcfc52f3bb484095b2dba288528e22b484100f71cfed9b7428e5fb39b78",
+    "bytes": 151956,
+    "kind": "pdf",
+    "artifact_name": "es-ap8-bizkaia.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-supersur"
+    ],
+    "url": "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20VSM%2001-01-2026.pdf",
+    "status": "downloaded",
+    "sha256": "bcfbee34237686b5e383e24491b7dac4e3186d6d4738cd6948c60d5ce2bcfb60",
+    "bytes": 123269,
+    "kind": "pdf",
+    "artifact_name": "es-supersur.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-artxanda"
+    ],
+    "url": "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20TA%2001-01-2026.pdf",
+    "status": "downloaded",
+    "sha256": "9e2472d2935121f3784f54ba95cbbfbe95ff62124e599f3c5f36b4a9dc1a83a6",
+    "bytes": 114066,
+    "kind": "pdf",
+    "artifact_name": "es-artxanda.pdf",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-c16-sant-vicenc-c55"
+    ],
+    "url": "https://www.autema.com/es/tarificador/",
+    "final_url": "https://www.autema.com/es/tarificador/",
+    "sha256": "9affde51e26a92362e1769f2d626833c87f4a9b57fd65ab75aebe31ee50cf9f4",
+    "bytes": 118737,
+    "kind": "html",
+    "status": "downloaded",
+    "artifact_name": "es-c16-sant-vicenc-c55.html",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "ad-envalira"
+    ],
+    "url": "https://tuneldenvalira.com/en/rates",
+    "final_url": "https://tuneldenvalira.com/en/rates",
+    "sha256": "1627e65c98069599d68849864487b3ff1f5749193d8fd1432f6eeab12c97e3bb",
+    "bytes": 19734,
+    "kind": "html",
+    "status": "downloaded",
+    "artifact_name": "ad-envalira.html",
+    "fetched": "2026-09-16"
+  },
+  {
+    "ids": [
+      "es-ap8-bizkaia",
+      "es-ap8-gipuzkoa",
+      "es-ap1-gipuzkoa"
+    ],
+    "url": "https://www.arabat.eus/es/ap-1/tarifas-ap-1/",
+    "status": "downloaded",
+    "sha256": "800a0e4ebed227d795d0add33a1c176a4d74eaeaba728b1f1e5fb28e0e40b94c",
+    "bytes": 175130,
+    "kind": "html",
+    "artifact_name": "arabat.html",
+    "fetched": "2026-09-16"
+  }
+]

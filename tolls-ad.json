@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17",
+  "generated": "2026-09-16",
   "schema": 1,
   "currency": "EUR",
   "complete": true,
@@ -8,8 +8,8 @@
       "id": "ad-envalira",
       "country": "ad",
       "name": "Túnel d'Envalira",
-      "road": "CG-2",
-      "operator": "SETAP 2000 (Túnel d'Envalira)",
+      "road": "CG-2a",
+      "operator": "Túnel d’Envalira, S.A.U.",
       "lat": 42.54907,
       "lng": 1.69727,
       "model": "fixed",
@@ -18,9 +18,9 @@
       "price_high": null,
       "variable": false,
       "source": "https://tuneldenvalira.com/en/rates",
-      "verified": "2026-07-17",
-      "notes": "Single toll tunnel Grau Roig <-> Pas de la Casa on CG-2; only tolled road in Andorra. 2026 light-vehicle (Tipus 1) tariff EUR 8.10 (was 7.90, +2.5%). A 50% discount exists for Pas de la Casa residents/workers and Andorran transport firms - NOT applied (default = non-resident). Coordinate approx = west (Grau Roig) portal / toll plaza; refine from OSM barrier=toll_booth."
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 8.10 general turismo tipo 1 (hasta 2 m de altura, hasta 3.5 t). No aplicar descuentos de residentes. Punto sobre plaza CG-2a, ambas direcciones deben seguir comprobándose mediante rutas."
     }
   ],
-  "notes_global": "Light-vehicle 2026 tariff. Coordinates = nearest OSM barrier=toll_booth node (audited 2026-07-19)."
+  "notes_global": "2026 light-car tariff references audited 2026-09-16. No assumed payment/registration discounts. Existing time/season ranges remain conditional, NOT automatically applicable. verified refers to source tariff, not route matching. Single Envalira tariff and OSM CG-2a plaza checked; see audit/2026-09-16/README.md. A nearest toll_booth is not sufficient evidence of the correct road or fare."
 }

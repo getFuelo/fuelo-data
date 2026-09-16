@@ -1,0 +1,870 @@
+[
+  {
+    "type": "node",
+    "id": 263724671,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "leisure": "marina",
+      "name": "Puerto Colón"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1514515453,
+    "nearBooths": [
+      313503669
+    ],
+    "tags": {
+      "access": "permissive",
+      "amenity": "parking",
+      "parking": "underground"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1658380891,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking_entrance"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1658380984,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking_entrance",
+      "parking": "multi-storey"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3105183588,
+    "nearBooths": [
+      313503669
+    ],
+    "tags": {
+      "access": "yes",
+      "amenity": "parking",
+      "fee": "yes",
+      "parking": "underground"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3134117355,
+    "nearBooths": [
+      313503669
+    ],
+    "tags": {
+      "access": "permissive",
+      "amenity": "parking",
+      "parking": "underground"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3251907979,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "board",
+      "name": "Monumento Natural Volcanes de Teneguía",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3251907980,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "board",
+      "name": "Monumento Natural Volcanes de Teneguía",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3251907982,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "board",
+      "name": "Monumento Natural Volcanes de Teneguía",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3251907983,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "board",
+      "name": "Monumento Natural Volcanes de Teneguía",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5792885615,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "information": "office",
+      "name": "Parking Aparcamiento",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5792886688,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "information": "office",
+      "name": "Binter",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5792895422,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "information": "office",
+      "name": "Air Europa",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5792895604,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "information": "office",
+      "name": "Aena",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5792895605,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "information": "office",
+      "name": "Vueling",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6261652385,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "guidepost",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6261652386,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "guidepost",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6261652485,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "map",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6261652486,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "guidepost",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6261667385,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "guidepost",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8681063985,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "guidepost",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9454431283,
+    "nearBooths": [
+      299769558
+    ],
+    "tags": {
+      "fee": "3€ per car (03/2026)",
+      "name": "Monumento Natural de los Ajaches",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10693208901,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "name": "Earthquake simulator",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559677420,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking_entrance",
+      "parking": "multi-storey"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559677421,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking_entrance",
+      "parking": "multi-storey"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559848323,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking_entrance",
+      "parking": "multi-storey"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559848324,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking_entrance",
+      "parking": "multi-storey"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559873731,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "underground"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559873732,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "underground"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559873733,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "underground"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559873734,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "underground"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559873735,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "underground"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11559873736,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "underground"
+    }
+  },
+  {
+    "type": "node",
+    "id": 13123142901,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "name": "Royal Delfin Catamaran",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "way",
+    "id": 33290099,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "access": "yes",
+      "amenity": "parking",
+      "fee": "yes",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 62071976,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking"
+    }
+  },
+  {
+    "type": "way",
+    "id": 105879310,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "yes",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 119523331,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "access": "private",
+      "amenity": "parking",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 119523380,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "access": "private",
+      "amenity": "parking",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 135165541,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "no",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 135165542,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "no",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 135165543,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "yes",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 135165544,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "no",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 135165545,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "no",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 135165546,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "yes",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 135165547,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "yes",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 135165548,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "no",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 185618535,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "access": "permit",
+      "amenity": "parking",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 199211740,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "information": "office",
+      "name": "Centro de Visitantes del San Antonio",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "way",
+    "id": 201319289,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "access": "yes",
+      "amenity": "parking",
+      "fee": "no",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 202558610,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking"
+    }
+  },
+  {
+    "type": "way",
+    "id": 206897120,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "access": "private",
+      "amenity": "parking",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 305832597,
+    "nearBooths": [
+      313503669
+    ],
+    "tags": {
+      "access": "yes",
+      "amenity": "parking",
+      "fee": "yes",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 562994217,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "access": "yes",
+      "amenity": "parking",
+      "fee": "yes",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 563025141,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 564373459,
+    "nearBooths": [
+      11560220394
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 671860085,
+    "nearBooths": [
+      11560220394
+    ],
+    "tags": {
+      "information": "terminal",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1017542200,
+    "nearBooths": [
+      11560220394
+    ],
+    "tags": {
+      "amenity": "parking",
+      "name": "PA",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1022012472,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "charge": "0.02 EUR/min",
+      "fee": "yes"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1022012473,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "charge": "0.02 EUR/min",
+      "fee": "yes"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1030421963,
+    "nearBooths": [
+      313503669,
+      1484652559
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "street_side"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1094481183,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "street_side"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1094481184,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "street_side"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1094481185,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "street_side"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1121520961,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "amenity": "parking",
+      "parking": "surface"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1178019565,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "amenity": "parking"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1178019567,
+    "nearBooths": [
+      317987018
+    ],
+    "tags": {
+      "amenity": "parking"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1243705045,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "access": "permit",
+      "amenity": "parking",
+      "parking": "street_side"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1243705046,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "access": "permit",
+      "amenity": "parking",
+      "parking": "street_side"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1248299113,
+    "nearBooths": [
+      299769558
+    ],
+    "tags": {
+      "amenity": "parking",
+      "fee": "no",
+      "parking": "street_side"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1304294092,
+    "nearBooths": [
+      1658380851,
+      11559677442
+    ],
+    "tags": {
+      "access": "yes",
+      "amenity": "parking",
+      "fee": "no",
+      "name": "Parking Express",
+      "parking": "street_side"
+    }
+  }
+]

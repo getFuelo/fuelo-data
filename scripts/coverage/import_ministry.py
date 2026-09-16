@@ -33,6 +33,25 @@ def extract(id,downloads,source):
    assert len(pair)==2,(id,label)
    rows.append({'from':pair[0].strip(),'to':pair[1].strip(),'bidirectional':True,'scope':'joint-ap6-journey' if joint else 'published-journey','tariff':tariff(values,kind),'sourceRow':{'page':page_no,'line':line_no,'printed':line.strip()}})
  assert len(rows)==count,(id,len(rows),count)
+ if id=='es-ap66':
+  # The same reviewed PDF publishes actual discounted amounts. Do not derive
+  # them from rounded general prices (e.g. 16.20 * .4 is NOT the published 6.47).
+  discount_rows=[]
+  section=text.split('PEAJES EN EUROS, con aplicación descuentos RD 1083/2024',1)[1].split('\f',1)[0]
+  for line in section.splitlines():
+   matches=list(re.finditer(r'(?<![\d,])\d+,\d{2}(?![\d,])',line))
+   if not matches:continue
+   assert len(matches)==3,line
+   pair=line[:matches[0].start()].strip().split('-',1)
+   row=next(r for r in rows if r['from']==pair[0].strip() and r['to']==pair[1].strip())
+   values=[cents(m.group()) for m in matches]
+   row['recurrenceReference']={'step1And2Cents':values[0],'step3And4Cents':values[1],'step5PlusCents':values[2],'sourcePrintedRow':line.strip()}
+   # The operator initially charges the first journeys at the general fare;
+   # early-step rebates depend on later monthly usage. Unknown history spans
+   # the published maximum rebate through the full initial charge.
+   row['tariff']['bands']=[{'cents':min(values),'maxCents':row['tariff']['baseCents'],'requires':['payment:via-t']}]
+   discount_rows.append(row)
+  assert len(discount_rows)==6
  return {'kind':'tariff-reference','complete':False,'checked':'2026-09-16','currency':'EUR','vehicle_class':'light','validFrom':'2026-01-01','validThrough':'2026-12-31','timeZone':'Europe/Madrid','source':source,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'ods':rows,'notes':['General light-vehicle rows only; physical accesses and route evidence still required.','Published names preserved, including source typos, pending explicit alias mapping.','Do not add joint AP-6 journey rows to a separately quoted AP-6 journey.','Unlisted pairs are unknown; free sections require separate evidence.']}
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('downloads',type=Path);args=ap.parse_args();sources={t['id']:t['source'] for t in json.loads((ROOT/'tolls-es.json').read_text())['tolls']}

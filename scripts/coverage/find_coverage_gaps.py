@@ -59,11 +59,22 @@ if not missed:
 with gzip.open(ROOT / 'audit/2026-09-16/spain-graph/graph.json.gz', 'rt') as f:
     graph = json.load(f)
 results = {}
+# Prepare geometry once and discard ways outside the diagnostic's extent.
+# Rebuilding every national way for every missed vertex was quadratic in practice.
+south, north = min(p[0] for p in missed)-.0003, max(p[0] for p in missed)+.0003
+west, east = min(p[1] for p in missed)-.0004, max(p[1] for p in missed)+.0004
+nearby = []
+for way in graph['ways']:
+    pts = [graph['nodes'][str(n)] for n in way['nodes']]
+    lo_lat, hi_lat = min(p[0] for p in pts), max(p[0] for p in pts)
+    lo_lng, hi_lng = min(p[1] for p in pts), max(p[1] for p in pts)
+    if hi_lat < south or lo_lat > north or hi_lng < west or lo_lng > east:
+        continue
+    nearby.append((way, pts, lo_lat-.0003, hi_lat+.0003, lo_lng-.0004, hi_lng+.0004))
 for point in missed:
     matches = []
-    for way in graph['ways']:
-        pts = [graph['nodes'][str(n)] for n in way['nodes']]
-        if not (min(p[0] for p in pts)-.0003 <= point[0] <= max(p[0] for p in pts)+.0003 and min(p[1] for p in pts)-.0004 <= point[1] <= max(p[1] for p in pts)+.0004):
+    for way, pts, lo_lat, hi_lat, lo_lng, hi_lng in nearby:
+        if not (lo_lat <= point[0] <= hi_lat and lo_lng <= point[1] <= hi_lng):
             continue
         nearest = min(distance(point, a, b) for a, b in zip(pts, pts[1:]))
         if nearest < 12:

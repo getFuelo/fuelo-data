@@ -1,0 +1,33 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "network": "es-r2-alcobendas",
+      "reviewGroup": "osm-review-258368527",
+      "booths": [
+        258368527,
+        353914976
+      ],
+      "laneWays": [
+        288354662,
+        491676657
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    },
+    {
+      "network": "es-r2-aeropuerto",
+      "reviewGroup": "osm-review-353332722",
+      "booths": [
+        353332722,
+        353332736
+      ],
+      "laneWays": [
+        288354815,
+        288354818
+      ],
+      "method": "Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings."
+    }
+  ],
+  "coverageWayCount": 142,
+  "reviewStatus": "candidate_pending_routes"
+}

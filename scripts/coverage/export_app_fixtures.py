@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[2]
 p=argparse.ArgumentParser();p.add_argument('app',type=Path);args=p.parse_args()
 out=args.app/'src/lib/__tests__/fixtures';assert out.is_dir()
 lanes=[];routes=[]
-for family in ['autema','c32','ap15','ap7-estepona-guadiaro','ap7-malaga-estepona','ap7-alicante-cartagena']:
+for family in ['autema','c32','ap15','ap7-estepona-guadiaro','ap7-malaga-estepona','ap7-alicante-cartagena','r2-open']:
  catalog=json.loads((ROOT/f'pricing-candidates/{family}.json').read_text())
  lanes.append({'family':family,'networks':[{k:v for k,v in n.items() if k!='coverageWays'} for n in catalog['pricing']],'probes':json.loads((ROOT/f'audit/2026-09-16/networks/{family}/lane-probes.json').read_text())})
  rows=[]
@@ -16,6 +16,18 @@ for family in ['autema','c32','ap15','ap7-estepona-guadiaro','ap7-malaga-estepon
  routes.append({'family':family,'catalog':catalog,'routes':rows})
 for name,value in [('open-barrier-lanes',lanes),('open-barrier-routes',routes)]:
  (out/(name+'.json')).write_text(json.dumps(value,separators=(',',':'))+'\n')
+
+# Vallvidrera has a weekday-peak interval until the operator's holiday calendar
+# is established, so its expectations are deliberately separate from fixed plazas.
+if (ROOT/'pricing-candidates/vallvidrera.json').exists():
+ import shutil
+ target=out/'vallvidrera';target.mkdir(exist_ok=True)
+ shutil.copy(ROOT/'pricing-candidates/vallvidrera.json',target/'catalog.json')
+ shutil.copy(ROOT/'audit/2026-09-16/networks/vallvidrera/lane-probes.json',target/'lanes.json')
+ rows=[]
+ for path in sorted((ROOT/'pricing-candidates/vallvidrera-routes').glob('*-request.json')):
+  rows.append({'name':path.stem.removesuffix('-request'),'request':json.loads(path.read_text())['request'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (target/'cases.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
 
 # Closed-system corpus: preserve every request's independently selected tariff.
 if (ROOT/'pricing-candidates/ap53.json').exists():
@@ -37,7 +49,7 @@ if (ROOT/'pricing-candidates/ap53.json').exists():
    request=json.loads(path.read_text());terminal_cases.append({'name':path.stem.removesuffix('-request'),'expectedCents':request['expectedCents'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
   (target/'terminals.json').write_text(json.dumps(terminal_cases,separators=(',',':'),ensure_ascii=False)+'\n')
 
-for family in ['ap41','ap71','ap36','ap7-cartagena-vera']:
+for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2']:
  if not (ROOT/f'pricing-candidates/{family}.json').exists():continue
  import shutil
  target=out/family;target.mkdir(exist_ok=True);catalog=json.loads((ROOT/f'pricing-candidates/{family}.json').read_text());shutil.copy(ROOT/f'pricing-candidates/{family}.json',target/'catalog.json');rows=[]
@@ -49,3 +61,9 @@ for family in ['ap41','ap71','ap36','ap7-cartagena-vera']:
   for path in sorted((ROOT/f'pricing-candidates/{family}-avoidance').glob('*-request.json')):
    rows.append({'name':path.stem.removesuffix('-request'),'request':json.loads(path.read_text())['request'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
   (target/'avoidance.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
+
+ if family=='r2' and (ROOT/'pricing-candidates/r2-full-routes').exists():
+  rows=[]
+  for path in sorted((ROOT/'pricing-candidates/r2-full-routes').glob('*-request.json')):
+   req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),'expectedCents':req['expectedGeneralCents'],'expectedViaTCents':req['expectedViaTCents'],'expectedOpenBarriers':req['expectedOpenBarriers'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+  (target/'full.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')

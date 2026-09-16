@@ -17,12 +17,26 @@
       "scope": "published-journey",
       "tariff": {
         "baseCents": 590,
-        "bands": []
+        "bands": [
+          {
+            "cents": 235,
+            "maxCents": 590,
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": {
         "page": 1,
         "line": 16,
         "printed": "CAMPOMANES-OBLANCA                                                     5,90                4,25                  5,45"
+      },
+      "recurrenceReference": {
+        "step1And2Cents": 500,
+        "step3And4Cents": 412,
+        "step5PlusCents": 235,
+        "sourcePrintedRow": "CAMPOMANES-OBLANCA                                                     5,00                4,12                  2,35"
       }
     },
     {
@@ -32,12 +46,26 @@
       "scope": "published-journey",
       "tariff": {
         "baseCents": 1020,
-        "bands": []
+        "bands": [
+          {
+            "cents": 407,
+            "maxCents": 1020,
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": {
         "page": 1,
         "line": 17,
         "printed": "CAMPOMANES-LA MAGDALENA                                               10,20                7,35                  9,35"
+      },
+      "recurrenceReference": {
+        "step1And2Cents": 865,
+        "step3And4Cents": 712,
+        "step5PlusCents": 407,
+        "sourcePrintedRow": "CAMPOMANES-LA MAGDALENA                                                8,65                7,12                  4,07"
       }
     },
     {
@@ -47,12 +75,26 @@
       "scope": "published-journey",
       "tariff": {
         "baseCents": 1620,
-        "bands": []
+        "bands": [
+          {
+            "cents": 647,
+            "maxCents": 1620,
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": {
         "page": 1,
         "line": 18,
         "printed": "CAMPOMANES-LEON                                                       16,20               11,70                 15,05"
+      },
+      "recurrenceReference": {
+        "step1And2Cents": 1375,
+        "step3And4Cents": 1132,
+        "step5PlusCents": 647,
+        "sourcePrintedRow": "CAMPOMANES-LEON                                                       13,75               11,32                  6,47"
       }
     },
     {
@@ -62,12 +104,26 @@
       "scope": "published-journey",
       "tariff": {
         "baseCents": 430,
-        "bands": []
+        "bands": [
+          {
+            "cents": 172,
+            "maxCents": 430,
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": {
         "page": 1,
         "line": 20,
         "printed": "OBLANCA-LA MAGDALENA                                                   4,30                3,10                  3,90"
+      },
+      "recurrenceReference": {
+        "step1And2Cents": 365,
+        "step3And4Cents": 300,
+        "step5PlusCents": 172,
+        "sourcePrintedRow": "OBLANCA-LA MAGDALENA                                                   3,65                3,00                  1,72"
       }
     },
     {
@@ -77,12 +133,26 @@
       "scope": "published-journey",
       "tariff": {
         "baseCents": 1030,
-        "bands": []
+        "bands": [
+          {
+            "cents": 412,
+            "maxCents": 1030,
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": {
         "page": 1,
         "line": 21,
         "printed": "OBLANCA-LEON                                                          10,30                7,45                  9,60"
+      },
+      "recurrenceReference": {
+        "step1And2Cents": 875,
+        "step3And4Cents": 720,
+        "step5PlusCents": 412,
+        "sourcePrintedRow": "OBLANCA-LEON                                                           8,75                7,20                  4,12"
       }
     },
     {
@@ -92,12 +162,26 @@
       "scope": "published-journey",
       "tariff": {
         "baseCents": 630,
-        "bands": []
+        "bands": [
+          {
+            "cents": 253,
+            "maxCents": 630,
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": {
         "page": 1,
         "line": 23,
         "printed": "LA MAGDALENA-LEON                                                      6,30                4,55                  5,80"
+      },
+      "recurrenceReference": {
+        "step1And2Cents": 537,
+        "step3And4Cents": 442,
+        "step5PlusCents": 253,
+        "sourcePrintedRow": "LA MAGDALENA-LEON                                                      5,37                4,42                  2,53"
       }
     }
   ],

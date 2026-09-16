@@ -3,3 +3,4 @@ __pycache__/
 
 # Reproducible national OSM extract; source hash/provenance is versioned.
 audit/2026-09-16/spain-graph/graph.json.gz
+audit/2026-09-16/canary-islands-graph/graph.json.gz

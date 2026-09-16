@@ -1,0 +1,1 @@
+Rejected probe endpoints at the closely spaced Alcalá entry/exit ramp. Valhalla could snap to the opposite direction and loop through the access again, creating extra OD events. Replacement endpoints are source M-100 carriageway nodes before the entry ramp and after the exit merge. These original ten routes are diagnostic evidence, not passing reference cases.

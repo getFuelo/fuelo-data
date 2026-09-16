@@ -1,0 +1,130 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "LA MAGDALENA",
+      "reviewGroup": "osm-review-31431077",
+      "booths": [
+        31431077,
+        893508089
+      ],
+      "entryWay": 44385458,
+      "version": 6,
+      "entryBooth": 31431077,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.78288925244966,
+          "lng": -5.784039664921199
+        },
+        {
+          "lat": 42.78271224755034,
+          "lng": -5.783939435078801
+        }
+      ]
+    },
+    {
+      "zone": "OBLANCA",
+      "reviewGroup": "osm-review-1423285874",
+      "booths": [
+        1423285874,
+        1423285875,
+        2391806059,
+        2391806110
+      ],
+      "entryWay": 545291462,
+      "version": 3,
+      "entryBooth": 1423285875,
+      "reverseEntryWay": false,
+      "line": [
+        {
+          "lat": 42.907409061273135,
+          "lng": -5.889538616925878
+        },
+        {
+          "lat": 42.90729110633753,
+          "lng": -5.889806355800241
+        }
+      ]
+    },
+    {
+      "zone": "LEON",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 44366324,
+      "version": 8,
+      "node": 945906800,
+      "outsideNode": 945906452
+    },
+    {
+      "zone": "LEON",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 56680757,
+      "version": 6,
+      "node": 563837513,
+      "outsideNode": 563837638
+    },
+    {
+      "zone": "CAMPOMANES",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 4803589,
+      "version": 10,
+      "node": 30826577,
+      "outsideNode": 30826569
+    },
+    {
+      "zone": "CAMPOMANES",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 94658795,
+      "version": 8,
+      "node": 814868480,
+      "outsideNode": 30826562
+    }
+  ],
+  "probeLocations": {
+    "LA MAGDALENA": {
+      "entry": {
+        "lat": 42.783023,
+        "lng": -5.7834096
+      },
+      "exit": {
+        "lat": 42.783023,
+        "lng": -5.7834096
+      }
+    },
+    "OBLANCA": {
+      "entry": {
+        "lat": 42.9072844,
+        "lng": -5.8895874
+      },
+      "exit": {
+        "lat": 42.9072621,
+        "lng": -5.8896376
+      }
+    },
+    "LEON": {
+      "entry": {
+        "lat": 42.7766649,
+        "lng": -5.7824727
+      },
+      "exit": {
+        "lat": 42.7792845,
+        "lng": -5.7841843
+      }
+    },
+    "CAMPOMANES": {
+      "entry": {
+        "lat": 43.1105933,
+        "lng": -5.8188435
+      },
+      "exit": {
+        "lat": 43.1106119,
+        "lng": -5.8187129
+      }
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

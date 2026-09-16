@@ -1,0 +1,24 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.1164,
+        "lon": -5.8088
+      },
+      {
+        "lat": 42.6,
+        "lon": -5.579
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "endpointScope": "Campomanes\u2013Le\u00f3n public streets"
+}

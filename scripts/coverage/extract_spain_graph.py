@@ -10,7 +10,7 @@ import osmium
 ROOT=Path(__file__).resolve().parents[2]
 MAJOR={'motorway','motorway_link','trunk','trunk_link'}
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('pbf',type=Path);ap.add_argument('--source',required=True);args=ap.parse_args();ways={};tagged={};relations=[];started=time.monotonic()
+ ap=argparse.ArgumentParser();ap.add_argument('pbf',type=Path);ap.add_argument('--source',required=True);ap.add_argument('--out',type=Path,default=ROOT/'audit/2026-09-16/spain-graph');args=ap.parse_args();ways={};tagged={};relations=[];started=time.monotonic()
  class Inventory(osmium.SimpleHandler):
   def node(self,n):
    tags=dict(n.tags)
@@ -30,7 +30,7 @@ def main():
  Locations().apply_file(str(args.pbf),filters=[osmium.filter.IdFilter(needed)])
  missing=needed-set(nodes);assert not missing, f'Missing {len(missing)} road nodes'
  relevant=[r for r in relations if any(id in ways for id in r['ways'])]
- out=ROOT/'audit/2026-09-16/spain-graph';out.mkdir(exist_ok=True)
+ out=args.out;out.mkdir(parents=True,exist_ok=True)
  data={'nodes':nodes,'ways':list(ways.values()),'points':list(tagged.values()),'roadRelations':relevant}
  with gzip.open(out/'graph.json.gz','wt',encoding='utf8') as f:json.dump(data,f,separators=(',',':'),ensure_ascii=False)
  digest=hashlib.sha256()

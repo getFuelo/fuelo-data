@@ -90,3 +90,23 @@ App validation: 542 passing tests in 30 suites and TypeScript. Offline validatio
 The release validator still fails, and additionally requires an explicit ready
 flag for every entry, a complete national manifest and a complete served schema.
 No push, deployment, country activation or device installation.
+
+## AP-66, Vallvidrera and R-2 checkpoint — 2026-09-16
+
+- AP-66: twelve OD cases and four full/avoidance routes. Campomanes cuts now
+  avoid the N-630 grade-separated crossing. Via-T intervals use the published
+  reduced cents, including EUR 6.47 rather than a rounded percentage of EUR 16.20.
+- Vallvidrera: four source lanes and six real routes, including free alternatives
+  with the app's exact exclusions. Unresolved weekday holidays retain EUR 4.70–5.28.
+- R-2: thirty OD journeys, two verified zero-fare Guadalajara Norte–Taracena
+  directions, two urban plazas/four lanes, and four full journeys. Corrected
+  Alcalá entry/exit associations. Full urban totals are inferred from mapped
+  crossings and published open-plaza fees; no operator receipt was verified.
+  Avoidance must still preserve the free Guadalajara movement.
+- Canary Islands now have a separately hashed OSM extract and nine reviewed
+  booth contexts. Parking/visitor admission is separated from motorway tariffs;
+  Papagayo's vehicle access fee and remaining access classification are explicit.
+
+Validation: 610 tests in 33 suites and TypeScript pass; 46 candidate JSON files
+and 36 original audit records pass offline integrity. National release remains
+blocked, all networks remain not-ready, and Spain stays disabled. Local only.

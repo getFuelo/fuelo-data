@@ -5,7 +5,7 @@
   "scope": "35 existing catalog entries; this list alone is not proof of the national inventory.",
   "nationalBlockers": [
     "294 OSM access review groups are not yet all classified; review private/parking/obsolete booths separately.",
-    "Geofabrik peninsula/Balearic extract does not establish Canary Islands inventory completeness.",
+    "Canary Islands extract now inventoried separately: nine booth nodes, no mapped major-road tollways. Tourist/parking access fees require explicit scope and classification; do not infer all island access is free.",
     "Release requires all access mappings, applicable tariffs and real route cases; tariff imports alone are insufficient."
   ],
   "entries": [
@@ -73,12 +73,20 @@
       "tariffArtifacts": [
         "pricing-candidates/ap66-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap66.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Handle monthly usage eligibility without equating Via-T ownership to a known recurrence tier."
-      ]
+        "Complete remaining access/lane and partial-trip boundary audit.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 12,
+        "fullJourneyAndAvoidanceCases": 4,
+        "viaTUnknownHistory": "Published reduced amounts through general initial charge; unknown monthly recurrence is an interval.",
+        "bridgeCrossingRegression": true
+      }
     },
     {
       "catalogId": "es-ap68",
@@ -198,11 +206,24 @@
       "tariffArtifacts": [
         "pricing-candidates/r2-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/r2.json",
+        "pricing-candidates/r2-open.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Complete all-lane/partial boundary checks and avoidance that preserves the free Guadalajara Norte–Taracena connection.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 30,
+        "viaTTariffs": true,
+        "nightExemption": true,
+        "fullyRebatedDirections": 2,
+        "realOpenPlazaTraversals": 2,
+        "individualOpenLaneTraversals": 4,
+        "combinedWholeJourneys": 4
+      }
     },
     {
       "catalogId": "es-r3",
@@ -325,12 +346,20 @@
       "tariffArtifacts": [
         "pricing-candidates/vallvidrera-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/vallvidrera.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open.",
-        "Resolve operator-applicable working-day/holiday calendar."
-      ]
+        "Resolve operator-applicable holiday calendar; weekday peak remains an explicit interval.",
+        "Complete partial/free access boundary audit and national integration."
+      ],
+      "validatedCorpus": {
+        "realPlazaDirections": 2,
+        "fullJourneyAndAvoidanceCases": 4,
+        "individualSourceLaneTraversals": 4,
+        "calendarUncertainty": "Weekday peak 470..528 cents; exact valley outside peak windows and weekends."
+      }
     },
     {
       "catalogId": "es-c16-sant-cugat-terrassa",

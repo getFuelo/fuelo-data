@@ -58,7 +58,7 @@ if (ROOT/'pricing-candidates/ap53.json').exists():
    request=json.loads(path.read_text());terminal_cases.append({'name':path.stem.removesuffix('-request'),'expectedCents':request['expectedCents'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
   (target/'terminals.json').write_text(json.dumps(terminal_cases,separators=(',',':'),ensure_ascii=False)+'\n')
 
-for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57','r3','r5','r4','ap9-frontera','ap9-centro','ap9-sur','ap9-ferrol','ap9-norte','ap51','ap6','ap61','ap68','ap1-closed','ap8-gipuzkoa-west','ap8-bizkaia','ap8-gipuzkoa-east']:
+for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57','r3','r5','r4','ap9-frontera','ap9-centro','ap9-sur','ap9-ferrol','ap9-norte','ap51','ap6','ap61','ap68','ap1-closed','ap8-gipuzkoa-west','ap8-bizkaia','ap8-gipuzkoa-east','supersur']:
  if not (ROOT/f'pricing-candidates/{family}.json').exists():continue
  import shutil
  target=out/family;target.mkdir(exist_ok=True);catalog=json.loads((ROOT/f'pricing-candidates/{family}.json').read_text());shutil.copy(ROOT/f'pricing-candidates/{family}.json',target/'catalog.json');rows=[]
@@ -127,3 +127,9 @@ for family in ['ap8-orio','ap8-zarautz-east']:
   req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
  local.append({'family':family,'catalog':json.loads((ROOT/f'pricing-candidates/{family}.json').read_text()),'lanes':json.loads((ROOT/f'audit/2026-09-16/networks/{family}/lane-probes.json').read_text()),'routes':rows})
 if local:(out/'ap8-local-ramps.json').write_text(json.dumps(local,separators=(',',':'))+'\n')
+
+if (ROOT/'pricing-candidates/supersur.json').exists():
+ rows=[]
+ for path in sorted((ROOT/'audit/2026-09-16/networks/supersur/unconstrained-alternatives').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (out/'supersur/alternatives.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')

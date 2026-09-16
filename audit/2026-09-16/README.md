@@ -117,3 +117,28 @@ all public/free approaches, rebates, selective avoidance and Supersur are open.
 Validation: full app suite 1,785 tests / 55 suites passed, plus 14 new local-ramp
 tests; TypeScript passes. All 73 candidate JSON files pass offline integrity.
 Spain and all 35 manifest entries remain disabled. Local changes only.
+
+## National integration and Supersur checkpoint
+
+`python3 scripts/coverage/build_spain_candidate.py` assembles 57 financial
+systems across the 35 existing road entries, without enabling release.
+`node scripts/coverage/audit_spain_integration.cjs <app-checkout>` compares
+1,459 retained route expectations against that combined candidate in both
+catalog orders. 1,458 pass; Vallcarca remains an explicit failed reference
+journey (see `networks/c32/valhalla-mismatch.json`). The audit exits nonzero;
+it does not count the uncertain bypass as a verified free journey.
+
+Supersur has 16 directed published general journeys, day/night checks and
+three retained unconstrained alternatives. Guísamo's 16 internal highway probes
+were replaced with real N-6 approaches; originals remain under each subsystem's
+`initial-internal-guisamo/`. Native AP-9 Ferrol/norte and the six independently
+published combined journeys pass together.
+
+Coverage ownership is corrected at Zarautz Este, León (AP-66/AP-71) and R-5/AP-41.
+The app additionally recognizes exact source vertices at junctions, and exact
+source segments shared by financial subsystems of the same displayed road,
+without increasing its 12 m matching tolerance or accepting truncated trips.
+National integration now includes fixed corridors, public approaches, retained
+free alternatives and selective-avoidance examples. It is still not exhaustive
+national certification. Country completeness and all 35 readiness flags remain
+false; the release validator must fail. No publication is authorized here.

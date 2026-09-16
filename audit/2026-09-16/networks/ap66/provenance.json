@@ -132,5 +132,11 @@
     "LEON",
     "OBLANCA"
   ],
+  "excludedCoverageWays": [
+    34038856,
+    34038860,
+    859476763,
+    1426122048
+  ],
   "status": "candidate_pending_real_routes"
 }

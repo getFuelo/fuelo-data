@@ -108,5 +108,10 @@
       }
     }
   },
+  "coverageAssignedToAp66": [
+    4869445,
+    34038866,
+    306889014
+  ],
   "status": "candidate_pending_real_routes"
 }

@@ -18,6 +18,12 @@ for _ in range(16):
  selected.update(added)
  if not added:break
 
+# R-5's directional entry/exit links lie north of this system's terminal
+# cuts. Their AP-41 road reference does not make them an AP-41 charged journey.
+# The R-5 candidate owns their coverage and fare events.
+r5_access_links = {56760304, 31958539, 31958590, 28068194}
+selected.difference_update(r5_access_links)
+
 def point(n):a=nodes[str(n)];return {'lat':a[0],'lng':a[1]}
 def section(center,a,b,half):
  cos=math.cos(math.radians(center['lat']));dx=(b['lng']-a['lng'])*cos;dy=b['lat']-a['lat'];norm=math.hypot(dx,dy);px=-dy/norm;py=dx/norm
@@ -64,4 +70,4 @@ refs=json.loads((ROOT/'pricing-candidates/ap41-tariffs.json').read_text());asser
 fares=[{'from':r['from']+'-entry','to':r['to']+'-exit','tariff':r['tariff']} for r in refs['ods']]
 net={'id':'es-ap41','tollId':'es-ap41','validFrom':refs['validFrom'],'validThrough':refs['validThrough'],'timeZone':'Europe/Madrid','gates':gates,'pricing':{'kind':'od','chargedAt':'exit','entries':[g['id'] for g in gates if g['id'].endswith('-entry')],'exits':[g['id'] for g in gates if g['id'].endswith('-exit')],'fares':fares},'coverageWays':[{'id':str(wid),'version':ways[wid]['version'],'line':[point(n) for n in ways[wid]['nodes']]} for wid in sorted(selected)],'evidence':{'checked':'2026-09-16','tariffSources':[refs['source']],'geometrySource':'https://www.openstreetmap.org/copyright'}}
 toll=next(t for t in json.loads((ROOT/'tolls-es.json').read_text())['tolls'] if t['id']=='es-ap41');doc={'schema':2,'generated':'2026-09-16','currency':'EUR','complete':False,'tolls':[toll],'pricing':[net],'notes_global':'Disabled AP-41 OD candidate; source-backed cash/Via-T/day/night matrix. Geometry and all approaches require route validation. © OpenStreetMap contributors.'}
-(ROOT/'pricing-candidates/ap41.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n');out=ROOT/'audit/2026-09-16/networks/ap41';out.mkdir(exist_ok=True);(out/'provenance.json').write_text(json.dumps({'source':'../../spain-graph/provenance.json','gates':evidence,'probeLocations':locations,'status':'candidate_pending_real_routes'},ensure_ascii=False,indent=2)+'\n');print(len(gates),'gates',len(fares),'OD pairs',len(selected),'source ways')
+(ROOT/'pricing-candidates/ap41.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n');out=ROOT/'audit/2026-09-16/networks/ap41';out.mkdir(exist_ok=True);(out/'provenance.json').write_text(json.dumps({'source':'../../spain-graph/provenance.json','gates':evidence,'probeLocations':locations,'coverageAssignedToR5':sorted(r5_access_links),'status':'candidate_pending_real_routes'},ensure_ascii=False,indent=2)+'\n');print(len(gates),'gates',len(fares),'OD pairs',len(selected),'source ways')

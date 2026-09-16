@@ -1,0 +1,194 @@
+{
+  "catalogOrdersChecked": 2,
+  "complete": false,
+  "total": 1459,
+  "passed": 1458,
+  "failures": [
+    {
+      "family": "c32",
+      "name": "es-c32-vallcarca",
+      "expectedCents": 842,
+      "order": "forward",
+      "actual": {
+        "status": "quoted",
+        "minCents": 0,
+        "maxCents": 0
+      },
+      "events": []
+    }
+  ],
+  "byFamily": {
+    "ap41": {
+      "passed": 56,
+      "failed": 0
+    },
+    "ap71": {
+      "passed": 16,
+      "failed": 0
+    },
+    "ap36": {
+      "passed": 30,
+      "failed": 0
+    },
+    "ap7-cartagena-vera": {
+      "passed": 72,
+      "failed": 0
+    },
+    "ap66": {
+      "passed": 16,
+      "failed": 0
+    },
+    "r2": {
+      "passed": 64,
+      "failed": 0
+    },
+    "ag55": {
+      "passed": 20,
+      "failed": 0
+    },
+    "ag57": {
+      "passed": 24,
+      "failed": 0
+    },
+    "r3": {
+      "passed": 28,
+      "failed": 0
+    },
+    "r5": {
+      "passed": 26,
+      "failed": 0
+    },
+    "r4": {
+      "passed": 34,
+      "failed": 0
+    },
+    "ap9-frontera": {
+      "passed": 6,
+      "failed": 0
+    },
+    "ap9-centro": {
+      "passed": 26,
+      "failed": 0
+    },
+    "ap9-sur": {
+      "passed": 10,
+      "failed": 0
+    },
+    "ap9-ferrol": {
+      "passed": 12,
+      "failed": 0
+    },
+    "ap9-norte": {
+      "passed": 30,
+      "failed": 0
+    },
+    "ap61": {
+      "passed": 21,
+      "failed": 0
+    },
+    "ap68": {
+      "passed": 463,
+      "failed": 0
+    },
+    "ap1-closed": {
+      "passed": 20,
+      "failed": 0
+    },
+    "ap8-bizkaia": {
+      "passed": 20,
+      "failed": 0
+    },
+    "ap8-gipuzkoa-west": {
+      "passed": 28,
+      "failed": 0
+    },
+    "ap8-gipuzkoa-east": {
+      "passed": 12,
+      "failed": 0
+    },
+    "supersur": {
+      "passed": 16,
+      "failed": 0
+    },
+    "ap53": {
+      "passed": 48,
+      "failed": 0
+    },
+    "ap636": {
+      "passed": 12,
+      "failed": 0
+    },
+    "ap9-combined": {
+      "passed": 6,
+      "failed": 0
+    },
+    "ap8-ap1-shared": {
+      "passed": 261,
+      "failed": 0
+    },
+    "iberpistas": {
+      "passed": 30,
+      "failed": 0
+    },
+    "autema": {
+      "passed": 3,
+      "failed": 0
+    },
+    "c32": {
+      "passed": 3,
+      "failed": 1
+    },
+    "ap15": {
+      "passed": 4,
+      "failed": 0
+    },
+    "ap7-estepona-guadiaro": {
+      "passed": 2,
+      "failed": 0
+    },
+    "ap7-malaga-estepona": {
+      "passed": 4,
+      "failed": 0
+    },
+    "ap7-alicante-cartagena": {
+      "passed": 3,
+      "failed": 0
+    },
+    "r2-open": {
+      "passed": 2,
+      "failed": 0
+    },
+    "ag55-pastoriza": {
+      "passed": 1,
+      "failed": 0
+    },
+    "ap8-orio": {
+      "passed": 4,
+      "failed": 0
+    },
+    "ap8-zarautz-east": {
+      "passed": 2,
+      "failed": 0
+    },
+    "vallvidrera": {
+      "passed": 6,
+      "failed": 0
+    },
+    "ap46": {
+      "passed": 4,
+      "failed": 0
+    },
+    "cadi": {
+      "passed": 2,
+      "failed": 0
+    },
+    "artxanda": {
+      "passed": 4,
+      "failed": 0
+    },
+    "m12-v2": {
+      "passed": 7,
+      "failed": 0
+    }
+  }
+}

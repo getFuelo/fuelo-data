@@ -228,5 +228,11 @@
       }
     }
   },
+  "coverageAssignedToR5": [
+    28068194,
+    31958539,
+    31958590,
+    56760304
+  ],
   "status": "candidate_pending_real_routes"
 }

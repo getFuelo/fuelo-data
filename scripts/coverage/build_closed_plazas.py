@@ -51,13 +51,13 @@ SPECS = {'ap61': {'probeViaNodes':{'ORTIGOSA--OTERO':[29212569]},'ref':'AP-61','
     'additionalSources':['https://www.audasa.es/la-autopista/descuentos-vehiculos-ligeros/','https://www.boe.es/buscar/doc.php?id=BOE-A-2021-12683'],
     'accesses':[],'logicalAccesses':[
       ('CORUNA',(29005426,99409315,99409314),(16269917,99407891,99407895)),
-      ('GUISAMO',(16269923,91192201,91192199),(213896080,91190560,91190561)),
+      ('GUISAMO',(70068604,1830703904,279079600),(1190046861,11049955702,279079661)),
       ('MACENDA',(327163132,3338864531,2437664581),(327163130,280713390,2161602701)),
       ('ORDES',(104380819,1204265500,1204265289,True),(104380819,1204265500,1204265289)),
       ('SIGUEIRO',(800780746,7489986831,5015243648),(541031753,7489978570,5058979556)),
       ('SIGUEIRO-norte',(518664033,5363242806,5232642799),(800780745,145964805,3848910790)),
       ('SANTIAGO',(29007630,162290969,162290960),(29007625,162292691,162292678)),
-    ]}, 'ap9-ferrol': {'ref':'AP-9F','tariffFamily':'ap9','tollId':'es-ap9','bbox':[43.30,-8.26,43.454,-8.13],
+    ]}, 'ap9-ferrol': {'ref':'AP-9F','tariffFamily':'ap9','tollId':'es-ap9','bbox':[43.29,-8.26,43.454,-8.13],
     'filterFareZones':['FENE','CABANAS','MIÑO','GUISAMO'],
     'expectedDirectedFares':12,'viaTUnknownHistory':True,
     'additionalSources':['https://www.audasa.es/la-autopista/descuentos-vehiculos-ligeros/','https://www.boe.es/buscar/doc.php?id=BOE-A-2021-12683'],
@@ -65,7 +65,7 @@ SPECS = {'ap61': {'probeViaNodes':{'ORTIGOSA--OTERO':[29212569]},'ref':'AP-61','
       ('FENE',(70068615,85896100,85896085),(210247221,91191193,91191209)),
       ('CABANAS',(589618367,5630313125,2232445389),(589618365,280711541,186952299)),
       ('MIÑO',(25744037,1808337567,106147362),(25744037,1808337567,106147362,True)),
-      ('GUISAMO',(213896080,91190560,1830693710),(16269923,91192201,1830693689)),
+      ('GUISAMO',(213896080,91190560,279079600),(16269923,91192201,279079661)),
     ]}, 'ap9-sur': {'ref':'AP-9','tariffFamily':'ap9','tollId':'es-ap9','bbox':[42.257,-8.68,42.414,-8.62],
     'filterFareZones':['PONTEVEDRA','VILABOA','MORRAZO','RANDE','VIGO / PUXEIROS'],
     'expectedDirectedFares':8,'viaTUnknownHistory':True,'tariffZoneAliases':{'VIGO / PUXEIROS':'VIGO-PUXEIROS'},
@@ -185,7 +185,9 @@ SPECS = {'ap61': {'probeViaNodes':{'ORTIGOSA--OTERO':[29212569]},'ref':'AP-61','
     ('Pulpí', 'osm-review-1537685703', 1319109532, 1537685713, False, None, (1319109533, -1)),
     ('Cuevas del Almanzora', 'osm-review-3100395406', 179755312, 3100395406, False, None, (179755324, -1)),
     ('Vera', 'osm-review-264694281', 1319348645, 299818774, False, None, (180019164, -1)),
-]}, 'ap66': {'ref': 'AP-66', 'accesses': [
+]}, 'ap66': {'ref': 'AP-66',
+    # Exclusive Astorga-bound AP-71 links at the shared Leon interchange.
+    'excludeCoverageWays':[34038856,34038860,859476763,1426122048], 'accesses': [
     ('LA MAGDALENA', 'osm-review-31431077', 44385458, 31431077, False, None, (159051078, -1)),
     ('OBLANCA', 'osm-review-1423285874', 545291462, 1423285875, False, None, (545291464, -1)),
 ], 'logicalAccesses': [
@@ -544,6 +546,33 @@ SPECS['ap8-gipuzkoa-east'] = {'ref': 'AP-8',
                       (1509571177, 13960156569, 13960156589),
                       (1509571181, 13960156544, 13960156583))]}
 
+SPECS['supersur'] = {'ref': 'AP-8',
+ 'bbox': [43.215, -3.06, 43.325, -2.9],
+ 'expectedDirectedFares': 16,
+ 'probeViaNodes': {'ARRIGORRIAGA--ORTUELLA':[975636871], 'BILBAO-ESTE--ORTUELLA':[975636871], 'BILBAO-SUR--ORTUELLA':[975636871]},
+ 'bidirectionalRows': True,
+ 'tariffZoneAliases': {'Arrigorriaga': 'ARRIGORRIAGA',
+                       'Bilbao Este': 'BILBAO-ESTE',
+                       'Bilbao Sur': 'BILBAO-SUR',
+                       'Ortuella': 'ORTUELLA',
+                       'Santurtzi': 'SANTURTZI'},
+ 'accesses': [],
+ 'logicalAccesses': [('ARRIGORRIAGA',
+                      (665895396, 6233526794, 3242805399),
+                      (574215234, 10785286805, 3242805381)),
+                     ('BILBAO-ESTE',
+                      (83865303, 975637062, 975636767),
+                      (83865266, 975637034, 975637059)),
+                     ('BILBAO-SUR',
+                      (83865343, 976184426, 1323686594),
+                      (83865272, 976184696, 976184613)),
+                     ('ORTUELLA',
+                      (84818866, 984774533, 984774613),
+                      (129673369, 1428956248, 929491281)),
+                     ('SANTURTZI',
+                      (598929190, 984851451, 301161276),
+                      (83865338, 930919412, 984774901))]}
+
 with gzip.open(ROOT / 'audit/2026-09-16/spain-graph/graph.json.gz', 'rt') as f:
     graph = json.load(f)
 review = json.loads((ROOT / 'audit/2026-09-16/spain-graph/access-review.json').read_text())
@@ -687,12 +716,13 @@ for family, spec in SPECS.items():
             exit = b+suffix if order.index(a)<order.index(b) and 'exit' in locations.get(b+suffix,{}) else b
             journeys[a+'--'+b] = {'entry':locations[entry]['entry'],'exit':locations[exit]['exit'], 'expectedGates':[entry+'-entry',exit+'-exit']}
     for name, via_nodes in spec.get('probeViaNodes',{}).items():
-        journeys[name]['via'] = [point(node) for node in via_nodes]
+        a,b = name.split('--')
+        journeys.setdefault(name, {'entry':locations[a]['entry'], 'exit':locations[b]['exit']})['via'] = [point(node) for node in via_nodes]
     annotations = {}
     for name, pairs in spec.get('probeObservedJourneys',{}).items():
         observed = [{'from':a,'to':b,'cents':next(f['tariff']['baseCents'] for f in canonical_fares if f['from']==a+'-entry' and f['to']==b+'-exit')} for a,b in pairs]
         annotations[name] = {'observedJourneys':observed,'expectedActualCents':sum(r['cents'] for r in observed),'expectedGates':[gate for a,b in pairs for gate in (a+'-entry',b+'-exit')],'notes':'Committed one-way destination creates separate charged journeys. This is not validation of the requested direct fare; public arrival is checked separately.'}
-    (out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'canonicalProbeZones':sorted({f['from'].removesuffix('-entry') for f in canonical_fares}), **({'probeJourneys':journeys} if journeys else {}), **({'probeAnnotations':annotations} if annotations else {}), 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2)+'\n')
+    (out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'canonicalProbeZones':sorted({f['from'].removesuffix('-entry') for f in canonical_fares}), **({'probeJourneys':journeys} if journeys else {}), **({'probeAnnotations':annotations} if annotations else {}), **({'excludedCoverageWays':spec['excludeCoverageWays']} if spec.get('excludeCoverageWays') else {}), 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2)+'\n')
     print(family, len(gates), 'gates', len(fares), 'OD fares', len(selected), 'ways')
 
 # Regenerate the combined candidate offline with the five audited subsystems.

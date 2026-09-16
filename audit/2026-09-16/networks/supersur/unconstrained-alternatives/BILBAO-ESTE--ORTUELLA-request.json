@@ -1,0 +1,30 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.240364,
+        "lon": -2.93304
+      },
+      {
+        "lat": 43.3042698,
+        "lon": -3.0235177
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 150,
+  "expectedActualCents": 75,
+  "expectedGates": [
+    "BILBAO-ESTE-entry",
+    "BILBAO-SUR-exit"
+  ],
+  "notes": "Paid Bilbao Este–Bilbao Sur leg followed by free roads; do not charge the requested full 150-cent journey."
+}

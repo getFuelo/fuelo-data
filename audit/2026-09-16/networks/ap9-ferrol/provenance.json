@@ -63,7 +63,7 @@
       "way": 213896080,
       "version": 8,
       "node": 91190560,
-      "outsideNode": 1830693710
+      "outsideNode": 279079600
     },
     {
       "zone": "GUISAMO",
@@ -72,7 +72,7 @@
       "way": 16269923,
       "version": 18,
       "node": 91192201,
-      "outsideNode": 1830693689
+      "outsideNode": 279079661
     }
   ],
   "probeLocations": {
@@ -108,12 +108,12 @@
     },
     "GUISAMO": {
       "entry": {
-        "lat": 43.317401,
-        "lng": -8.2192153
+        "lat": 43.2905769,
+        "lng": -8.2571329
       },
       "exit": {
-        "lat": 43.3174136,
-        "lng": -8.2193758
+        "lat": 43.2921971,
+        "lng": -8.2591781
       }
     }
   },

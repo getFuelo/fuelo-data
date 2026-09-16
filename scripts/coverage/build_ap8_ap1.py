@@ -35,6 +35,13 @@ for w in ways.values():
  if (inside and ref in ['AP-8','AP-1;AP-8','AP-8;AP-1']) or w['id'] in [27255537,1409767652]:
   if str(w['id']) not in coverage:additional.append(w['id'])
   coverage[str(w['id'])]={'id':str(w['id']),'version':w['version'],'line':[point(n) for n in w['nodes']]}
+# The east-facing Zarautz ramp belongs to its independent fixed-price system,
+# not the western closed journey. Duplicate coverage made pricing depend on
+# catalog order and demanded a fictitious western OD entry.
+local=read('pricing-candidates/ap8-zarautz-east.json')
+local_ids={w['id'] for n in local['pricing'] for w in n['coverageWays']}
+transferred=sorted(set(coverage)&local_ids)
+for wid in transferred:del coverage[wid]
 net['coverageWays']=list(coverage.values())
 names={'Acceso Oeste':'OESTE','Amorebieta-Etxano':'AMOREBIETA','Iurreta':'IURRETA','Abadiño':'ABADINO','Ermua':'ERMUA','Eibar':'EIBAR','Elgoibar':'ELGOIBAR','Itziar':'ITZIAR','Zestoa – Zumaia':'ZUMAIA','Zarautz Oeste':'ZARAUTZ-OESTE','Zarautz Barrera (Donostia)':'DONOSTIA','Bergara I/N':'BERGARA-NORTE','Bergara H/S':'BERGARA-SUR','Arrasate-Mondragón':'ARRASATE','Eskoriatza':'ESKORIATZA','Luko':'LUKO','Etxabarri-Ibiña':'ETXABARRI'}
 regions={}
@@ -60,5 +67,5 @@ journeys['ERMUA--EIBAR']['via']=[point(25439405)]
 net['pricing']={'kind':'od','chargedAt':'exit','entries':[g['id'] for g in net['gates'] if g['id'].endswith('-entry')],'exits':[g['id'] for g in net['gates'] if g['id'].endswith('-exit')],'fares':fares}
 net['evidence']['tariffSources']=list(dict.fromkeys(s for d in docs for s in d['pricing'][0]['evidence']['tariffSources']))
 write('pricing-candidates/ap8-ap1-shared.json',{**docs[0],'schema':4,'complete':False,'tolls':[t for d in docs for t in d['tolls']],'pricing':[net],'notes_global':'Disabled shared AP-8/AP-1 candidate. Published journey fares, separate road markers. All-access, discount, eastern AP-8 and avoidance review pending. © OpenStreetMap contributors.'})
-write('audit/2026-09-16/networks/ap8-ap1-shared/provenance.json',{'source':'../../spain-graph/provenance.json','probeLocations':locations,'probeJourneys':journeys,'sourceCuts':sourcecuts,'additionalCoverageWays':additional,'canonicalProbeZones':list(names.values()),'status':'candidate_pending_full_validation'})
+write('audit/2026-09-16/networks/ap8-ap1-shared/provenance.json',{'source':'../../spain-graph/provenance.json','probeLocations':locations,'probeJourneys':journeys,'sourceCuts':sourcecuts,'additionalCoverageWays':additional,'coverageAssignedToZarautzEast':transferred,'canonicalProbeZones':list(names.values()),'status':'candidate_pending_full_validation'})
 print(len(journeys),'directed canonical journeys',len(fares),'physical fare variants')

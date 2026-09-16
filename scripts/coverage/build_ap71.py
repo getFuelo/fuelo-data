@@ -31,6 +31,12 @@ for _ in range(16):
     if not added:
         break
 
+# These three connected links lead exclusively north into AP-66. Expanding
+# reference-less links from the common Leon interchange must not claim them
+# as AP-71 OD travel. Retain the public/free approaches separately below.
+ap66_links = {4869445, 34038866, 306889014}
+selected.difference_update(ap66_links)
+
 def point(node):
     lat, lng = nodes[str(node)]
     return {'lat': lat, 'lng': lng}
@@ -109,5 +115,5 @@ doc = {'schema': 3, 'generated': '2026-09-16', 'currency': 'EUR', 'complete': Fa
 (ROOT / 'pricing-candidates/ap71.json').write_text(json.dumps(doc, ensure_ascii=False, indent=2) + '\n')
 out = ROOT / 'audit/2026-09-16/networks/ap71'
 out.mkdir(exist_ok=True)
-(out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2) + '\n')
+(out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'coverageAssignedToAp66': sorted(ap66_links), 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2) + '\n')
 print(len(gates), 'gates', len(fares), 'directed OD fares', len(selected), 'ways')

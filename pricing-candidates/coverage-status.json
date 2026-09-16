@@ -129,7 +129,8 @@
         "dayNightTariffs": true,
         "viaTTariffs": false,
         "fullJourneyAndAvoidanceCases": 4,
-        "viaTUnknownHistory": "Explicit 50..100% of the applicable day/night fare; monthly trip rank not invented."
+        "viaTUnknownHistory": "Explicit 50..100% of the applicable day/night fare; monthly trip rank not invented.",
+        "ap66InterchangeOwnershipReviewed": true
       }
     },
     {
@@ -148,10 +149,16 @@
       "ready": false,
       "blockers": [
         "Two published same-origin/destination rows need exact access semantics.",
-        "Local Guísamo/Santa Marta, Coruña/Barcala and free urban approaches remain open.",
+        "Guísamo N-6 public approaches now pass across Ferrol/norte together; Santa Marta, Coruña/Barcala and all free urban approaches remain open.",
         "All-lane and repeated-trip checks, complete combined journeys and avoidance remain open.",
         "Unknown Via-T trip history retains a range; national release stays blocked."
-      ]
+      ],
+      "validatedCorpus": {
+        "nativeDirectedJourneys": 84,
+        "publishedCombinedJourneys": 6,
+        "ferrolNorteIntegratedJourneys": 42,
+        "internalGuisamoProbesReplaced": 16
+      }
     },
     {
       "catalogId": "es-ap46",
@@ -310,7 +317,8 @@
         "sourceBackedFreeDirections": 0,
         "physicalDirectedGates": 16,
         "expandedPhysicalGateFares": 42,
-        "generalViaTAndNightChecks": true
+        "generalViaTAndNightChecks": true,
+        "r5Ap41CoverageOwnershipReviewed": true
       }
     },
     {
@@ -380,7 +388,8 @@
       "validatedCorpus": {
         "generalDirectedZonePairs": 56,
         "dayNightTariffs": true,
-        "viaTTariffs": true
+        "viaTTariffs": true,
+        "r5Ap41CoverageOwnershipReviewed": true
       }
     },
     {
@@ -617,11 +626,20 @@
       "tariffArtifacts": [
         "pricing-candidates/supersur-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/supersur.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "All sixteen directed general rows pass with physical/logical access cuts; exhaustive public approaches, source lanes and partial journeys remain open.",
+        "Selective avoidance and conditional OBE/electric-vehicle discounts require further verification.",
+        "National inventory and release certification remain open."
+      ],
+      "validatedCorpus": {
+        "directedGeneralJourneys": 16,
+        "retainedUnconstrainedAlternatives": 3,
+        "nightGeneralTariffChecked": true
+      }
     },
     {
       "catalogId": "es-artxanda",
@@ -649,5 +667,17 @@
         "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
       ]
     }
-  ]
+  ],
+  "integrationAudit": {
+    "candidate": "pricing-candidates/spain-integration.json",
+    "report": "audit/2026-09-16/spain-integration-results.json",
+    "releaseCertified": false,
+    "scope": "Combined retained reference routes; not exhaustive national inventory, access, eligibility or avoidance certification.",
+    "retainedRoutes": 1459,
+    "catalogOrdersChecked": 2,
+    "passed": 1458,
+    "unresolved": [
+      "es-c32-vallcarca"
+    ]
+  }
 }

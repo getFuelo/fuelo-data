@@ -2,7 +2,7 @@
 """Explicit, sequential public-server probes for a candidate's full OD table."""
 import argparse,json,time,urllib.request,urllib.parse
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2];parser=argparse.ArgumentParser();parser.add_argument('family',choices=['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57','r3','r5','r4']);args=parser.parse_args();family=args.family
+ROOT=Path(__file__).resolve().parents[2];parser=argparse.ArgumentParser();parser.add_argument('family',choices=['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57','r3','r5','r4','ap9-frontera','ap9-centro','ap9-sur','ap9-ferrol','ap9-norte']);args=parser.parse_args();family=args.family
 catalog=json.loads((ROOT/f'pricing-candidates/{family}.json').read_text());net=catalog['pricing'][0];provenance=json.loads((ROOT/f'audit/2026-09-16/networks/{family}/provenance.json').read_text());locations=provenance['probeLocations'];out=ROOT/f'pricing-candidates/{family}-routes';out.mkdir(exist_ok=True)
 for fare in net['pricing']['fares']:
  if any(gate.removesuffix('-entry').removesuffix('-exit') not in provenance.get('canonicalProbeZones',locations) for gate in (fare['from'],fare['to'])):continue

@@ -1,0 +1,97 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "PUXEIROS",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 91617365,
+      "version": 5,
+      "node": 1039336765,
+      "outsideNode": 1039336859
+    },
+    {
+      "zone": "PUXEIROS",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 91617393,
+      "version": 4,
+      "node": 442075588,
+      "outsideNode": 442075589
+    },
+    {
+      "zone": "PORRIÑO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1160820724,
+      "version": 1,
+      "node": 1482106893,
+      "outsideNode": 10796547344
+    },
+    {
+      "zone": "PORRIÑO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1160820721,
+      "version": 1,
+      "node": 1482124533,
+      "outsideNode": 10796547345
+    },
+    {
+      "zone": "TUI",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 342973178,
+      "version": 6,
+      "node": 4878457700,
+      "outsideNode": 3499091176
+    },
+    {
+      "zone": "TUI",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 134876275,
+      "version": 7,
+      "node": 1482120324,
+      "outsideNode": 1482120022
+    }
+  ],
+  "probeLocations": {
+    "PUXEIROS": {
+      "entry": {
+        "lat": 42.1605056,
+        "lng": -8.6445973
+      },
+      "exit": {
+        "lat": 42.1605479,
+        "lng": -8.6444606
+      }
+    },
+    "PORRIÑO": {
+      "entry": {
+        "lat": 42.1474014,
+        "lng": -8.6364233
+      },
+      "exit": {
+        "lat": 42.1472688,
+        "lng": -8.6363405
+      }
+    },
+    "TUI": {
+      "entry": {
+        "lat": 42.0704502,
+        "lng": -8.6397619
+      },
+      "exit": {
+        "lat": 42.070774,
+        "lng": -8.6398119
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "PORRIÑO",
+    "PUXEIROS",
+    "TUI"
+  ],
+  "status": "candidate_pending_real_routes"
+}

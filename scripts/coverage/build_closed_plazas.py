@@ -9,7 +9,61 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 # zone, booth group, source entry way, entry booth, reversed source direction,
 # outside entry node, outside exit node. Published zone names are preserved.
-SPECS = {'r4': {'ref':'R-4','bbox':[39.935,-3.77,40.28,-3.53], 'expectedDirectedFares':34,
+SPECS = {'ap9-norte': {'ref':'AP-9','additionalRefs':['AP-9F','AP-9FS','AP-9SF','AP-9M','AP-9 M'],'tariffFamily':'ap9','tollId':'es-ap9','bbox':[42.95,-8.48,43.34,-8.19],
+    'filterFareZones':['A CORUÑA O A BARCALA','GUISAMO O STA MARTA','GUISAMO/STA MARTA','MACENDA','ORDES','SIGUEIRO','SIGÜEIRO','SANTIAGO'],
+    'tariffZoneAliases':{'A CORUÑA O A BARCALA':'CORUNA','GUISAMO O STA MARTA':'GUISAMO','GUISAMO/STA MARTA':'GUISAMO','SIGÜEIRO':'SIGUEIRO'},
+    'excludeSelfPairs':True,'expectedDirectedFares':30,'viaTUnknownHistory':True,
+    'zoneAliases':{'SIGUEIRO-norte':'SIGUEIRO'},'reverseSideSuffix':'-norte',
+    'orderedZones':['CORUNA','GUISAMO','MACENDA','ORDES','SIGUEIRO','SANTIAGO'],
+    'additionalSources':['https://www.audasa.es/la-autopista/descuentos-vehiculos-ligeros/','https://www.boe.es/buscar/doc.php?id=BOE-A-2021-12683'],
+    'accesses':[],'logicalAccesses':[
+      ('CORUNA',(29005426,99409315,99409314),(16269917,99407891,99407895)),
+      ('GUISAMO',(16269923,91192201,91192199),(213896080,91190560,91190561)),
+      ('MACENDA',(327163132,3338864531,2437664581),(327163130,280713390,2161602701)),
+      ('ORDES',(104380819,1204265500,1204265289,True),(104380819,1204265500,1204265289)),
+      ('SIGUEIRO',(800780746,7489986831,5015243648),(541031753,7489978570,5058979556)),
+      ('SIGUEIRO-norte',(518664033,5363242806,5232642799),(800780745,145964805,3848910790)),
+      ('SANTIAGO',(29007630,162290969,162290960),(29007625,162292691,162292678)),
+    ]}, 'ap9-ferrol': {'ref':'AP-9F','tariffFamily':'ap9','tollId':'es-ap9','bbox':[43.30,-8.26,43.454,-8.13],
+    'filterFareZones':['FENE','CABANAS','MIÑO','GUISAMO'],
+    'expectedDirectedFares':12,'viaTUnknownHistory':True,
+    'additionalSources':['https://www.audasa.es/la-autopista/descuentos-vehiculos-ligeros/','https://www.boe.es/buscar/doc.php?id=BOE-A-2021-12683'],
+    'accesses':[],'logicalAccesses':[
+      ('FENE',(70068615,85896100,85896085),(210247221,91191193,91191209)),
+      ('CABANAS',(589618367,5630313125,2232445389),(589618365,280711541,186952299)),
+      ('MIÑO',(25744037,1808337567,106147362),(25744037,1808337567,106147362,True)),
+      ('GUISAMO',(213896080,91190560,1830693710),(16269923,91192201,1830693689)),
+    ]}, 'ap9-sur': {'ref':'AP-9','tariffFamily':'ap9','tollId':'es-ap9','bbox':[42.257,-8.68,42.414,-8.62],
+    'filterFareZones':['PONTEVEDRA','VILABOA','MORRAZO','RANDE','VIGO / PUXEIROS'],
+    'expectedDirectedFares':8,'viaTUnknownHistory':True,'tariffZoneAliases':{'VIGO / PUXEIROS':'VIGO-PUXEIROS'},
+    'freePairs':[('MORRAZO','VIGO-PUXEIROS','https://www.audasa.es/wp-content/uploads/pdf/tarifas/2026/Tarifas-20260101.pdf')],
+    'additionalSources':['https://www.audasa.es/la-autopista/descuentos-vehiculos-ligeros/','https://www.boe.es/buscar/doc.php?id=BOE-A-2021-12683'],
+    'accesses':[],'logicalAccesses':[
+      ('PONTEVEDRA',(697601807,29968117,29969292),(29015006,29957622,29959502)),
+      ('VILABOA',(233911039,8639722480,2422259426),(23968275,259836284,259836285)),
+      ('MORRAZO',(24621813,3607096712,3739153838),(683328151,5075691312,3739153838)),
+      ('RANDE',(136733859,1428333959,1428333977),(136276193,1495150357,1428333973)),
+      ('VIGO-PUXEIROS',(29016054,29958917,29962724),(29016043,29969136,29965495)),
+    ]}, 'ap9-centro': {'ref':'AP-9','tariffFamily':'ap9','tollId':'es-ap9','bbox':[42.435,-8.71,42.827,-8.53],
+    'filterFareZones':['SANTIAGO','PADRON','CARRACEDO','CALDAS DE REIS','CURRO','PONTEVEDRA'],
+    'excludeSelfPairs':True,'expectedDirectedFares':26,'viaTUnknownHistory':True,
+    'extraCoverageWays':[154415948,230997178],
+    'additionalSources':['https://www.audasa.es/la-autopista/descuentos-vehiculos-ligeros/','https://www.boe.es/buscar/doc.php?id=BOE-A-2021-12683'],
+    'accesses':[],'logicalAccesses':[
+      ('SANTIAGO',(29012981,56442327,56441486),(29012989,56441266,56443060)),
+      ('PADRON',(7742864,56443726,940926782),(375673552,56442215,940926782)),
+      ('CARRACEDO',(7656093,29969841,55481169),(7656087,29961779,55481160)),
+      ('CALDAS DE REIS',(1254326178,1665300957,417759231,True),(1254326178,1665300957,417759231)),
+      ('CURRO',(154415948,2371176644,1586329833),(230997178,1586329830,1586329842)),
+      ('PONTEVEDRA',(697599414,29962630,29957044),(697601809,29968733,29960841)),
+    ]}, 'ap9-frontera' : {'ref':'AP-9','tariffFamily':'ap9','tollId':'es-ap9','bbox':[42.069,-8.66,42.175,-8.62],
+    'filterFareZones':['PUXEIROS','PORRIÑO','TUI'],'viaTUnknownHistory':True,
+    'additionalSources':['https://www.audasa.es/la-autopista/descuentos-vehiculos-ligeros/','https://www.boe.es/buscar/doc.php?id=BOE-A-2021-12683'],
+    'accesses':[],'logicalAccesses':[
+      ('PUXEIROS',(91617365,1039336765,1039336859),(91617393,442075588,442075589)),
+      ('PORRIÑO',(1160820724,1482106893,10796547344),(1160820721,1482124533,10796547345)),
+      ('TUI',(342973178,4878457700,3499091176),(134876275,1482120324,1482120022)),
+    ]}, 'r4' : {'ref':'R-4','bbox':[39.935,-3.77,40.28,-3.53], 'expectedDirectedFares':34,
     'tariffZoneAliases':{'M-50':'M50','Pinto-Parla':'Pinto','Valdemoro':'Valdemoro','Seseña':'Sesena','Villaseca Sagra (CM-4001)':'Villaseca','Aranjuez':'Aranjuez','Ontígola':'Ontigola','Ocaña / A-40':'Ocana'},
     'zoneAliases':{'Valdemoro-madrid':'Valdemoro'},'reverseSideSuffix':'-madrid',
     'orderedZones':['M50','Pinto','Valdemoro','Sesena','Villaseca','Aranjuez','Ontigola','Ocana'],'accesses':[],
@@ -193,16 +247,18 @@ for family, spec in SPECS.items():
             locations[zone][role] = point(outside)
             evidence.append({'zone': zone, 'role': role, 'kind': 'logical-terminal-cut', 'way': wid,
                              'version': way['version'], 'node': node, 'outsideNode': outside, **({'reverseSourceDirection':True} if reverse else {})})
-    refs = json.loads((ROOT / f'pricing-candidates/{family}-tariffs.json').read_text())
+    tariff_family = spec.get('tariffFamily',family)
+    refs = json.loads((ROOT / f'pricing-candidates/{tariff_family}-tariffs.json').read_text())
     fares = []
     for row in refs['ods']:
+        if spec.get('excludeSelfPairs') and row['from']==row['to']:continue
         if spec.get('filterFareZones') and not all(row[k] in spec['filterFareZones'] for k in ('from','to')):
             continue
         normalize = lambda zone: spec.get('tariffZoneAliases',{}).get(zone,zone)
         pairs = [(normalize(row['from']), normalize(row['to']))]
         if row.get('bidirectional') or spec.get('bidirectionalRows'):
             pairs.append((normalize(row['to']), normalize(row['from'])))
-        fares.extend({'from': a+'-entry', 'to': b+'-exit', 'tariff': row['tariff']} for a,b in pairs)
+        fares.extend({'from': a+'-entry', 'to': b+'-exit', 'tariff': ({'baseCents':row['tariff']['baseCents'],'bands':[{'cents':0,'maxCents':row['tariff']['baseCents'],'requires':['payment:via-t']}]} if spec.get('viaTUnknownHistory') else row['tariff'])} for a,b in pairs)
     assert len(fares) == spec.get('expectedDirectedFares',len(locations)*(len(locations)-1))
     for a,b,source in spec.get('freePairs',[]):
         fares.extend({'from':origin+'-entry','to':destination+'-exit','tariff':{'baseCents':0,'bands':[]}} for origin,destination in [(a,b),(b,a)])
@@ -212,12 +268,12 @@ for family, spec in SPECS.items():
         origins = [fare['from']] + [alias+'-entry' for alias,zone in aliases.items() if fare['from']==zone+'-entry']
         destinations = [fare['to']] + [alias+'-exit' for alias,zone in aliases.items() if fare['to']==zone+'-exit']
         fares.extend({**fare,'from':a,'to':b} for a in origins for b in destinations if (a,b)!=(fare['from'],fare['to']))
-    net = {'id': 'es-'+family, 'tollId': 'es-'+family, 'validFrom': refs['validFrom'], 'validThrough': refs['validThrough'],
+    net = {'id': 'es-'+family, 'tollId': spec.get('tollId','es-'+family), 'validFrom': refs['validFrom'], 'validThrough': refs['validThrough'],
            'timeZone': 'Europe/Madrid', 'gates': gates,
            'pricing': {'kind': 'od', 'chargedAt': 'exit', 'entries': [g['id'] for g in gates if g['id'].endswith('-entry')],
                        'exits': [g['id'] for g in gates if g['id'].endswith('-exit')], 'fares': fares},
            'coverageWays': [{'id': str(wid), 'version': ways[wid]['version'], 'line': [point(n) for n in ways[wid]['nodes']]} for wid in sorted(selected)],
-           'evidence': {'checked': '2026-09-16', 'tariffSources': [refs['source']]+([refs['discountSource']['url']] if refs.get('discountSource') else [])+[p[2] for p in spec.get('freePairs',[])], 'geometrySource': 'https://www.openstreetmap.org/copyright'}}
+           'evidence': {'checked': '2026-09-16', 'tariffSources': [refs['source']]+([refs['discountSource']['url']] if refs.get('discountSource') else [])+[p[2] for p in spec.get('freePairs',[])]+spec.get('additionalSources',[]), 'geometrySource': 'https://www.openstreetmap.org/copyright'}}
     if family == 'ap66':
         net['avoidanceGateIds'] = [g['id'] for g in gates if g['id'].endswith('-entry')]
     if family == 'r2':
@@ -230,7 +286,7 @@ for family, spec in SPECS.items():
         if int(way['id']) in spec.get('freeApproachWays',[]):
             assert ways[int(way['id'])]['tags'].get('toll') != 'yes'
             way['freeTravelSource'] = 'https://www.openstreetmap.org/way/'+way['id']+'/history'
-    toll = next(t for t in json.loads((ROOT / 'tolls-es.json').read_text())['tolls'] if t['id'] == 'es-'+family)
+    toll = next(t for t in json.loads((ROOT / 'tolls-es.json').read_text())['tolls'] if t['id'] == spec.get('tollId','es-'+family))
     schema = 3 if spec.get('freeApproachWays') or any('maxCents' in band for fare in fares for band in fare['tariff']['bands']) else 2
     doc = {'schema': schema, 'generated': '2026-09-16', 'currency': 'EUR', 'complete': False, 'tolls': [toll], 'pricing': [net],
            'notes_global': 'Disabled closed-system candidate. Explicit source-way access associations and published OD rows; route checks are required separately. © OpenStreetMap contributors.'}
@@ -248,3 +304,10 @@ for family, spec in SPECS.items():
             journeys[a+'--'+b] = {'entry':locations[entry]['entry'],'exit':locations[exit]['exit'], 'expectedGates':[entry+'-entry',exit+'-exit']}
     (out / 'provenance.json').write_text(json.dumps({'source': '../../spain-graph/provenance.json', 'gates': evidence, 'probeLocations': locations, 'canonicalProbeZones':sorted({f['from'].removesuffix('-entry') for f in canonical_fares}), **({'probeJourneys':journeys} if journeys else {}), 'status': 'candidate_pending_real_routes'}, ensure_ascii=False, indent=2)+'\n')
     print(family, len(gates), 'gates', len(fares), 'OD fares', len(selected), 'ways')
+
+# Regenerate the combined candidate offline with the five audited subsystems.
+families = ['ap9-ferrol','ap9-norte','ap9-centro','ap9-sur','ap9-frontera']
+docs = [json.loads((ROOT/f'pricing-candidates/{f}.json').read_text()) for f in families]
+combined = {**docs[0], 'pricing':[n for d in docs for n in d['pricing']]}
+combined['notes_global'] = 'Disabled combined AP-9 candidate. Whole-network probes use published journey totals; local access and release review remain open. © OpenStreetMap contributors.'
+(ROOT/'pricing-candidates/ap9.json').write_text(json.dumps(combined,ensure_ascii=False,indent=2)+'\n')

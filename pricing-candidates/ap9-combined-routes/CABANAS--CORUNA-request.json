@@ -1,0 +1,29 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 43.4137788,
+        "lon": -8.1582365
+      },
+      {
+        "lat": 43.2926373,
+        "lon": -8.2973096
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedGeneralCents": 465,
+  "sourceRow": {
+    "page": 1,
+    "line": 25,
+    "printed": "CABANAS - A CORUÑA                              4,65           4,15          5,50"
+  }
+}

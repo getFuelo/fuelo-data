@@ -1,0 +1,185 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "SANTIAGO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 29012981,
+      "version": 8,
+      "node": 56442327,
+      "outsideNode": 56441486
+    },
+    {
+      "zone": "SANTIAGO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 29012989,
+      "version": 9,
+      "node": 56441266,
+      "outsideNode": 56443060
+    },
+    {
+      "zone": "PADRON",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 7742864,
+      "version": 7,
+      "node": 56443726,
+      "outsideNode": 940926782
+    },
+    {
+      "zone": "PADRON",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 375673552,
+      "version": 2,
+      "node": 56442215,
+      "outsideNode": 940926782
+    },
+    {
+      "zone": "CARRACEDO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 7656093,
+      "version": 5,
+      "node": 29969841,
+      "outsideNode": 55481169
+    },
+    {
+      "zone": "CARRACEDO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 7656087,
+      "version": 5,
+      "node": 29961779,
+      "outsideNode": 55481160
+    },
+    {
+      "zone": "CALDAS DE REIS",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1254326178,
+      "version": 1,
+      "node": 1665300957,
+      "outsideNode": 417759231,
+      "reverseSourceDirection": true
+    },
+    {
+      "zone": "CALDAS DE REIS",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1254326178,
+      "version": 1,
+      "node": 1665300957,
+      "outsideNode": 417759231
+    },
+    {
+      "zone": "CURRO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 154415948,
+      "version": 7,
+      "node": 2371176644,
+      "outsideNode": 1586329833
+    },
+    {
+      "zone": "CURRO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 230997178,
+      "version": 4,
+      "node": 1586329830,
+      "outsideNode": 1586329842
+    },
+    {
+      "zone": "PONTEVEDRA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 697599414,
+      "version": 4,
+      "node": 29962630,
+      "outsideNode": 29957044
+    },
+    {
+      "zone": "PONTEVEDRA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 697601809,
+      "version": 6,
+      "node": 29968733,
+      "outsideNode": 29960841
+    }
+  ],
+  "probeLocations": {
+    "SANTIAGO": {
+      "entry": {
+        "lat": 42.8263865,
+        "lng": -8.5714413
+      },
+      "exit": {
+        "lat": 42.8264415,
+        "lng": -8.5713041
+      }
+    },
+    "PADRON": {
+      "entry": {
+        "lat": 42.731781,
+        "lng": -8.6411818
+      },
+      "exit": {
+        "lat": 42.731781,
+        "lng": -8.6411818
+      }
+    },
+    "CARRACEDO": {
+      "entry": {
+        "lat": 42.6468705,
+        "lng": -8.6514567
+      },
+      "exit": {
+        "lat": 42.6463249,
+        "lng": -8.6510768
+      }
+    },
+    "CALDAS DE REIS": {
+      "entry": {
+        "lat": 42.5989109,
+        "lng": -8.6778646
+      },
+      "exit": {
+        "lat": 42.5989109,
+        "lng": -8.6778646
+      }
+    },
+    "CURRO": {
+      "entry": {
+        "lat": 42.5190247,
+        "lng": -8.6778373
+      },
+      "exit": {
+        "lat": 42.5193855,
+        "lng": -8.6767264
+      }
+    },
+    "PONTEVEDRA": {
+      "entry": {
+        "lat": 42.4419629,
+        "lng": -8.6481493
+      },
+      "exit": {
+        "lat": 42.4360045,
+        "lng": -8.6514068
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "CALDAS DE REIS",
+    "CARRACEDO",
+    "CURRO",
+    "PADRON",
+    "PONTEVEDRA",
+    "SANTIAGO"
+  ],
+  "status": "candidate_pending_real_routes"
+}

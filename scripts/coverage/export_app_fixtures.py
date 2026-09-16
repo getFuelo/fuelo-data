@@ -58,7 +58,7 @@ if (ROOT/'pricing-candidates/ap53.json').exists():
    request=json.loads(path.read_text());terminal_cases.append({'name':path.stem.removesuffix('-request'),'expectedCents':request['expectedCents'],'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
   (target/'terminals.json').write_text(json.dumps(terminal_cases,separators=(',',':'),ensure_ascii=False)+'\n')
 
-for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57','r3','r5','r4']:
+for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag57','r3','r5','r4','ap9-frontera','ap9-centro','ap9-sur','ap9-ferrol','ap9-norte']:
  if not (ROOT/f'pricing-candidates/{family}.json').exists():continue
  import shutil
  target=out/family;target.mkdir(exist_ok=True);catalog=json.loads((ROOT/f'pricing-candidates/{family}.json').read_text());shutil.copy(ROOT/f'pricing-candidates/{family}.json',target/'catalog.json');rows=[]
@@ -81,3 +81,11 @@ for family in ['ap41','ap71','ap36','ap7-cartagena-vera','ap66','r2','ag55','ag5
   for path in sorted((ROOT/'pricing-candidates/ag55-port-routes').glob('*-request.json')):
    req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
   (target/'port.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
+
+if (ROOT/'pricing-candidates/ap9.json').exists():
+ import shutil
+ target=out/'ap9-combined';target.mkdir(exist_ok=True)
+ shutil.copy(ROOT/'pricing-candidates/ap9.json',target/'catalog.json');rows=[]
+ for path in sorted((ROOT/'pricing-candidates/ap9-combined-routes').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (target/'cases.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')

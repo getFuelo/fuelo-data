@@ -1,0 +1,16 @@
+{
+  "checked": "2026-09-16",
+  "sources": [
+    {
+      "file": "audasa-2026.pdf",
+      "url": "https://www.audasa.es/wp-content/uploads/pdf/tarifas/2026/Tarifas-20260101.pdf",
+      "sha256": "cbb66724bc3ec34547ae63aef463c01c8a6840438d1b1ffcce8c2026ae8e5549"
+    },
+    {
+      "file": "es-ap9.pdf",
+      "url": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-9,-ferrol---frontera-portuguesa-2026.pdf",
+      "sha256": "db30ec2a1d61f226d22354663e6d0408693e3a9994f4a310578ca70b441be006"
+    }
+  ],
+  "discountConditions": "https://www.audasa.es/la-autopista/descuentos-vehiculos-ligeros/"
+}

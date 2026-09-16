@@ -142,3 +142,11 @@ match their expected gates and general/Via-T/night prices. Close-ramp false
 crossings are corrected without widening matching tolerance. Original failing
 probes are retained. Access, avoidance and national-release work remains open;
 these three candidates remain disabled.
+
+### AP-9 ordinary published journeys (2026-09-16)
+
+Five subsystem candidates retain 84 single-system routes, including the free
+Morrazo–Vigo pair. Six independent Coruña totals verify Ferrol/Norte composition
+and catalog-order invariance. Unknown Via-T history is a bounded price. Two
+same-origin/destination rows and the documented access, free-section, avoidance
+and release checks remain open. Spain remains disabled; all work is local.

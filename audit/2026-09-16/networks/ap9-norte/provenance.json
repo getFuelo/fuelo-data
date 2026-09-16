@@ -1,0 +1,635 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "CORUNA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 29005426,
+      "version": 15,
+      "node": 99409315,
+      "outsideNode": 99409314
+    },
+    {
+      "zone": "CORUNA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 16269917,
+      "version": 24,
+      "node": 99407891,
+      "outsideNode": 99407895
+    },
+    {
+      "zone": "GUISAMO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 16269923,
+      "version": 18,
+      "node": 91192201,
+      "outsideNode": 91192199
+    },
+    {
+      "zone": "GUISAMO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 213896080,
+      "version": 8,
+      "node": 91190560,
+      "outsideNode": 91190561
+    },
+    {
+      "zone": "MACENDA",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 327163132,
+      "version": 5,
+      "node": 3338864531,
+      "outsideNode": 2437664581
+    },
+    {
+      "zone": "MACENDA",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 327163130,
+      "version": 5,
+      "node": 280713390,
+      "outsideNode": 2161602701
+    },
+    {
+      "zone": "ORDES",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 104380819,
+      "version": 4,
+      "node": 1204265500,
+      "outsideNode": 1204265289,
+      "reverseSourceDirection": true
+    },
+    {
+      "zone": "ORDES",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 104380819,
+      "version": 4,
+      "node": 1204265500,
+      "outsideNode": 1204265289
+    },
+    {
+      "zone": "SIGUEIRO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 800780746,
+      "version": 4,
+      "node": 7489986831,
+      "outsideNode": 5015243648
+    },
+    {
+      "zone": "SIGUEIRO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 541031753,
+      "version": 8,
+      "node": 7489978570,
+      "outsideNode": 5058979556
+    },
+    {
+      "zone": "SIGUEIRO-norte",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 518664033,
+      "version": 5,
+      "node": 5363242806,
+      "outsideNode": 5232642799
+    },
+    {
+      "zone": "SIGUEIRO-norte",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 800780745,
+      "version": 3,
+      "node": 145964805,
+      "outsideNode": 3848910790
+    },
+    {
+      "zone": "SANTIAGO",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 29007630,
+      "version": 10,
+      "node": 162290969,
+      "outsideNode": 162290960
+    },
+    {
+      "zone": "SANTIAGO",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 29007625,
+      "version": 10,
+      "node": 162292691,
+      "outsideNode": 162292678
+    }
+  ],
+  "probeLocations": {
+    "CORUNA": {
+      "entry": {
+        "lat": 43.2928223,
+        "lng": -8.2978405
+      },
+      "exit": {
+        "lat": 43.2926373,
+        "lng": -8.2973096
+      }
+    },
+    "GUISAMO": {
+      "entry": {
+        "lat": 43.3190365,
+        "lng": -8.2185409
+      },
+      "exit": {
+        "lat": 43.3189617,
+        "lng": -8.21844
+      }
+    },
+    "MACENDA": {
+      "entry": {
+        "lat": 43.2741707,
+        "lng": -8.2530543
+      },
+      "exit": {
+        "lat": 43.2741495,
+        "lng": -8.253379
+      }
+    },
+    "ORDES": {
+      "entry": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "exit": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      }
+    },
+    "SIGUEIRO": {
+      "entry": {
+        "lat": 42.9786173,
+        "lng": -8.4400502
+      },
+      "exit": {
+        "lat": 42.9774016,
+        "lng": -8.4400879
+      }
+    },
+    "SIGUEIRO-norte": {
+      "entry": {
+        "lat": 42.9789676,
+        "lng": -8.4386906
+      },
+      "exit": {
+        "lat": 42.9763394,
+        "lng": -8.442396
+      }
+    },
+    "SANTIAGO": {
+      "entry": {
+        "lat": 42.9613821,
+        "lng": -8.4562536
+      },
+      "exit": {
+        "lat": 42.9614526,
+        "lng": -8.45645
+      }
+    }
+  },
+  "canonicalProbeZones": [
+    "CORUNA",
+    "GUISAMO",
+    "MACENDA",
+    "ORDES",
+    "SANTIAGO",
+    "SIGUEIRO"
+  ],
+  "probeJourneys": {
+    "GUISAMO--MACENDA": {
+      "entry": {
+        "lat": 43.3190365,
+        "lng": -8.2185409
+      },
+      "exit": {
+        "lat": 43.2741495,
+        "lng": -8.253379
+      },
+      "expectedGates": [
+        "GUISAMO-entry",
+        "MACENDA-exit"
+      ]
+    },
+    "MACENDA--GUISAMO": {
+      "entry": {
+        "lat": 43.2741707,
+        "lng": -8.2530543
+      },
+      "exit": {
+        "lat": 43.3189617,
+        "lng": -8.21844
+      },
+      "expectedGates": [
+        "MACENDA-entry",
+        "GUISAMO-exit"
+      ]
+    },
+    "GUISAMO--ORDES": {
+      "entry": {
+        "lat": 43.3190365,
+        "lng": -8.2185409
+      },
+      "exit": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "expectedGates": [
+        "GUISAMO-entry",
+        "ORDES-exit"
+      ]
+    },
+    "ORDES--GUISAMO": {
+      "entry": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "exit": {
+        "lat": 43.3189617,
+        "lng": -8.21844
+      },
+      "expectedGates": [
+        "ORDES-entry",
+        "GUISAMO-exit"
+      ]
+    },
+    "GUISAMO--SIGUEIRO": {
+      "entry": {
+        "lat": 43.3190365,
+        "lng": -8.2185409
+      },
+      "exit": {
+        "lat": 42.9763394,
+        "lng": -8.442396
+      },
+      "expectedGates": [
+        "GUISAMO-entry",
+        "SIGUEIRO-norte-exit"
+      ]
+    },
+    "SIGUEIRO--GUISAMO": {
+      "entry": {
+        "lat": 42.9789676,
+        "lng": -8.4386906
+      },
+      "exit": {
+        "lat": 43.3189617,
+        "lng": -8.21844
+      },
+      "expectedGates": [
+        "SIGUEIRO-norte-entry",
+        "GUISAMO-exit"
+      ]
+    },
+    "GUISAMO--SANTIAGO": {
+      "entry": {
+        "lat": 43.3190365,
+        "lng": -8.2185409
+      },
+      "exit": {
+        "lat": 42.9614526,
+        "lng": -8.45645
+      },
+      "expectedGates": [
+        "GUISAMO-entry",
+        "SANTIAGO-exit"
+      ]
+    },
+    "SANTIAGO--GUISAMO": {
+      "entry": {
+        "lat": 42.9613821,
+        "lng": -8.4562536
+      },
+      "exit": {
+        "lat": 43.3189617,
+        "lng": -8.21844
+      },
+      "expectedGates": [
+        "SANTIAGO-entry",
+        "GUISAMO-exit"
+      ]
+    },
+    "CORUNA--GUISAMO": {
+      "entry": {
+        "lat": 43.2928223,
+        "lng": -8.2978405
+      },
+      "exit": {
+        "lat": 43.3189617,
+        "lng": -8.21844
+      },
+      "expectedGates": [
+        "CORUNA-entry",
+        "GUISAMO-exit"
+      ]
+    },
+    "GUISAMO--CORUNA": {
+      "entry": {
+        "lat": 43.3190365,
+        "lng": -8.2185409
+      },
+      "exit": {
+        "lat": 43.2926373,
+        "lng": -8.2973096
+      },
+      "expectedGates": [
+        "GUISAMO-entry",
+        "CORUNA-exit"
+      ]
+    },
+    "CORUNA--MACENDA": {
+      "entry": {
+        "lat": 43.2928223,
+        "lng": -8.2978405
+      },
+      "exit": {
+        "lat": 43.2741495,
+        "lng": -8.253379
+      },
+      "expectedGates": [
+        "CORUNA-entry",
+        "MACENDA-exit"
+      ]
+    },
+    "MACENDA--CORUNA": {
+      "entry": {
+        "lat": 43.2741707,
+        "lng": -8.2530543
+      },
+      "exit": {
+        "lat": 43.2926373,
+        "lng": -8.2973096
+      },
+      "expectedGates": [
+        "MACENDA-entry",
+        "CORUNA-exit"
+      ]
+    },
+    "CORUNA--ORDES": {
+      "entry": {
+        "lat": 43.2928223,
+        "lng": -8.2978405
+      },
+      "exit": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "expectedGates": [
+        "CORUNA-entry",
+        "ORDES-exit"
+      ]
+    },
+    "ORDES--CORUNA": {
+      "entry": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "exit": {
+        "lat": 43.2926373,
+        "lng": -8.2973096
+      },
+      "expectedGates": [
+        "ORDES-entry",
+        "CORUNA-exit"
+      ]
+    },
+    "CORUNA--SIGUEIRO": {
+      "entry": {
+        "lat": 43.2928223,
+        "lng": -8.2978405
+      },
+      "exit": {
+        "lat": 42.9763394,
+        "lng": -8.442396
+      },
+      "expectedGates": [
+        "CORUNA-entry",
+        "SIGUEIRO-norte-exit"
+      ]
+    },
+    "SIGUEIRO--CORUNA": {
+      "entry": {
+        "lat": 42.9789676,
+        "lng": -8.4386906
+      },
+      "exit": {
+        "lat": 43.2926373,
+        "lng": -8.2973096
+      },
+      "expectedGates": [
+        "SIGUEIRO-norte-entry",
+        "CORUNA-exit"
+      ]
+    },
+    "CORUNA--SANTIAGO": {
+      "entry": {
+        "lat": 43.2928223,
+        "lng": -8.2978405
+      },
+      "exit": {
+        "lat": 42.9614526,
+        "lng": -8.45645
+      },
+      "expectedGates": [
+        "CORUNA-entry",
+        "SANTIAGO-exit"
+      ]
+    },
+    "SANTIAGO--CORUNA": {
+      "entry": {
+        "lat": 42.9613821,
+        "lng": -8.4562536
+      },
+      "exit": {
+        "lat": 43.2926373,
+        "lng": -8.2973096
+      },
+      "expectedGates": [
+        "SANTIAGO-entry",
+        "CORUNA-exit"
+      ]
+    },
+    "MACENDA--ORDES": {
+      "entry": {
+        "lat": 43.2741707,
+        "lng": -8.2530543
+      },
+      "exit": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "expectedGates": [
+        "MACENDA-entry",
+        "ORDES-exit"
+      ]
+    },
+    "ORDES--MACENDA": {
+      "entry": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "exit": {
+        "lat": 43.2741495,
+        "lng": -8.253379
+      },
+      "expectedGates": [
+        "ORDES-entry",
+        "MACENDA-exit"
+      ]
+    },
+    "MACENDA--SIGUEIRO": {
+      "entry": {
+        "lat": 43.2741707,
+        "lng": -8.2530543
+      },
+      "exit": {
+        "lat": 42.9763394,
+        "lng": -8.442396
+      },
+      "expectedGates": [
+        "MACENDA-entry",
+        "SIGUEIRO-norte-exit"
+      ]
+    },
+    "SIGUEIRO--MACENDA": {
+      "entry": {
+        "lat": 42.9789676,
+        "lng": -8.4386906
+      },
+      "exit": {
+        "lat": 43.2741495,
+        "lng": -8.253379
+      },
+      "expectedGates": [
+        "SIGUEIRO-norte-entry",
+        "MACENDA-exit"
+      ]
+    },
+    "MACENDA--SANTIAGO": {
+      "entry": {
+        "lat": 43.2741707,
+        "lng": -8.2530543
+      },
+      "exit": {
+        "lat": 42.9614526,
+        "lng": -8.45645
+      },
+      "expectedGates": [
+        "MACENDA-entry",
+        "SANTIAGO-exit"
+      ]
+    },
+    "SANTIAGO--MACENDA": {
+      "entry": {
+        "lat": 42.9613821,
+        "lng": -8.4562536
+      },
+      "exit": {
+        "lat": 43.2741495,
+        "lng": -8.253379
+      },
+      "expectedGates": [
+        "SANTIAGO-entry",
+        "MACENDA-exit"
+      ]
+    },
+    "ORDES--SIGUEIRO": {
+      "entry": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "exit": {
+        "lat": 42.9763394,
+        "lng": -8.442396
+      },
+      "expectedGates": [
+        "ORDES-entry",
+        "SIGUEIRO-norte-exit"
+      ]
+    },
+    "SIGUEIRO--ORDES": {
+      "entry": {
+        "lat": 42.9789676,
+        "lng": -8.4386906
+      },
+      "exit": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "expectedGates": [
+        "SIGUEIRO-norte-entry",
+        "ORDES-exit"
+      ]
+    },
+    "ORDES--SANTIAGO": {
+      "entry": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "exit": {
+        "lat": 42.9614526,
+        "lng": -8.45645
+      },
+      "expectedGates": [
+        "ORDES-entry",
+        "SANTIAGO-exit"
+      ]
+    },
+    "SANTIAGO--ORDES": {
+      "entry": {
+        "lat": 42.9613821,
+        "lng": -8.4562536
+      },
+      "exit": {
+        "lat": 43.0811568,
+        "lng": -8.363522
+      },
+      "expectedGates": [
+        "SANTIAGO-entry",
+        "ORDES-exit"
+      ]
+    },
+    "SIGUEIRO--SANTIAGO": {
+      "entry": {
+        "lat": 42.9786173,
+        "lng": -8.4400502
+      },
+      "exit": {
+        "lat": 42.9614526,
+        "lng": -8.45645
+      },
+      "expectedGates": [
+        "SIGUEIRO-entry",
+        "SANTIAGO-exit"
+      ]
+    },
+    "SANTIAGO--SIGUEIRO": {
+      "entry": {
+        "lat": 42.9613821,
+        "lng": -8.4562536
+      },
+      "exit": {
+        "lat": 42.9774016,
+        "lng": -8.4400879
+      },
+      "expectedGates": [
+        "SANTIAGO-entry",
+        "SIGUEIRO-exit"
+      ]
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

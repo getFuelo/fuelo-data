@@ -24,10 +24,17 @@ def validate(catalogs, audit, geometry, sources):
     if set(ids) != set(reviewed) or set(ids) != set(geo):
         errors.append('Every catalog entry needs tariff and geometry audit records')
     for country, catalog in catalogs.items():
-        if catalog['schema'] != 1 or catalog['currency'] != 'EUR':
+        if catalog['schema'] not in [1, 2] or catalog['currency'] != 'EUR':
             errors.append(f'{country}: unsupported schema/currency')
         if catalog['complete'] and any(r['blockers'] for r in rows if r['country'] == country):
             errors.append(f'{country}: complete=true contradicts unresolved audit blockers')
+        if catalog['schema'] == 2:
+            pricing = catalog.get('pricing', [])
+            if {n.get('tollId') for n in pricing} != {t['id'] for t in catalog['tolls']}:
+                errors.append(f'{country}: missing schema-2 pricing networks')
+            for network in pricing:
+                if not network.get('coverageWays') or not network.get('gates') or not network.get('evidence', {}).get('tariffSources'):
+                    errors.append(f'{country}: schema-2 network lacks geometry/tariff provenance')
         for t in catalog['tolls']:
             r = reviewed.get(t['id'])
             if r is None:

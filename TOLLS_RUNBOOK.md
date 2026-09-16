@@ -72,3 +72,19 @@ transition; do not infer that the whole corridor becomes free. Remove temporary
 road-closure claims unless their current operational status is independently
 verified. Full current per-entry findings are in the linked audit, not duplicated
 in this runbook.
+
+## Schema-2 local candidate checkpoint (2026-09-16)
+
+`tolls-ad.json` now includes verified pricing networks: finite directed gates,
+integer-cent tariffs, validity/timezone, OSM way versions and geometry provenance.
+Envalira has real route tests in both directions plus the free mountain route and
+an exact polygon exclusion. See `audit/2026-09-16/envalira-v2/README.md`.
+This supersedes the earlier note that both directions were still untested.
+
+`pricing-candidates/` contains incomplete M-12 and AP-51 work, never country
+coverage. Spain stays `complete: false`. Schema 1 scalar prices remain audit
+references; the new app will not present them as verified route totals.
+
+Run the offline catalog validator and the app's schema/route/tariff tests before
+any future publication. Device validation and explicit release remain separate.
+No CDN update is part of this checkpoint.

@@ -1,0 +1,204 @@
+{
+  "source": "../../spain-graph/provenance.json",
+  "gates": [
+    {
+      "zone": "Vigo",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 30639427,
+      "version": 10,
+      "node": 4724254267,
+      "outsideNode": 338860633
+    },
+    {
+      "zone": "Vigo",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 252789015,
+      "version": 3,
+      "node": 68834794,
+      "outsideNode": 338860640
+    },
+    {
+      "zone": "Vincios",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 52669356,
+      "version": 6,
+      "node": 338860923,
+      "outsideNode": 338860945
+    },
+    {
+      "zone": "Vincios",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 769030907,
+      "version": 2,
+      "node": 338860959,
+      "outsideNode": 338860806
+    },
+    {
+      "zone": "Gondomar",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 206870568,
+      "version": 5,
+      "node": 2169170655,
+      "outsideNode": 2169170644
+    },
+    {
+      "zone": "Gondomar",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 38330023,
+      "version": 7,
+      "node": 12896459204,
+      "outsideNode": 452591581
+    },
+    {
+      "zone": "Nigrán",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 71903229,
+      "version": 8,
+      "node": 68831665,
+      "outsideNode": 68832322
+    },
+    {
+      "zone": "Nigrán",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 9218874,
+      "version": 12,
+      "node": 68830118,
+      "outsideNode": 10083886434
+    },
+    {
+      "zone": "A Ramallosa",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 1422200349,
+      "version": 1,
+      "node": 1784646933,
+      "outsideNode": 1783752107
+    },
+    {
+      "zone": "A Ramallosa",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1422183083,
+      "version": 2,
+      "node": 13069862060,
+      "outsideNode": 1783752105
+    },
+    {
+      "zone": "A Ramallosa-sur",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 167095504,
+      "version": 5,
+      "node": 1784976698,
+      "outsideNode": 1783752072
+    },
+    {
+      "zone": "A Ramallosa-sur",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1101960214,
+      "version": 2,
+      "node": 13069962967,
+      "outsideNode": 1783752070
+    },
+    {
+      "zone": "Baiona",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "way": 167096006,
+      "version": 5,
+      "node": 107983618,
+      "outsideNode": 1784981675
+    },
+    {
+      "zone": "Baiona",
+      "role": "exit",
+      "kind": "logical-terminal-cut",
+      "way": 1101960216,
+      "version": 4,
+      "node": 13069962968,
+      "outsideNode": 1784981676
+    }
+  ],
+  "probeLocations": {
+    "Vigo": {
+      "entry": {
+        "lat": 42.1585231,
+        "lng": -8.7050524
+      },
+      "exit": {
+        "lat": 42.158503,
+        "lng": -8.704863
+      }
+    },
+    "Vincios": {
+      "entry": {
+        "lat": 42.1541681,
+        "lng": -8.7194602
+      },
+      "exit": {
+        "lat": 42.1541783,
+        "lng": -8.7193211
+      }
+    },
+    "Gondomar": {
+      "entry": {
+        "lat": 42.1209225,
+        "lng": -8.7726794
+      },
+      "exit": {
+        "lat": 42.1228814,
+        "lng": -8.7720135
+      }
+    },
+    "Nigrán": {
+      "entry": {
+        "lat": 42.1312734,
+        "lng": -8.8009291
+      },
+      "exit": {
+        "lat": 42.1315168,
+        "lng": -8.8015152
+      }
+    },
+    "A Ramallosa": {
+      "entry": {
+        "lat": 42.1140933,
+        "lng": -8.7893913
+      },
+      "exit": {
+        "lat": 42.1140786,
+        "lng": -8.7898365
+      }
+    },
+    "A Ramallosa-sur": {
+      "entry": {
+        "lat": 42.1137676,
+        "lng": -8.7898792
+      },
+      "exit": {
+        "lat": 42.1137323,
+        "lng": -8.7893651
+      }
+    },
+    "Baiona": {
+      "entry": {
+        "lat": 42.1073872,
+        "lng": -8.7933254
+      },
+      "exit": {
+        "lat": 42.107427,
+        "lng": -8.7934764
+      }
+    }
+  },
+  "status": "candidate_pending_real_routes"
+}

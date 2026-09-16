@@ -19,7 +19,30 @@
       "to": "Vincios",
       "tariff": {
         "baseCents": 40,
-        "bands": []
+        "bands": [
+          {
+            "cents": 20,
+            "maxCents": 40,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 10,
+            "maxCents": 20,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 2
     },
@@ -28,7 +51,30 @@
       "to": "Gondomar",
       "tariff": {
         "baseCents": 90,
-        "bands": []
+        "bands": [
+          {
+            "cents": 45,
+            "maxCents": 90,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 22,
+            "maxCents": 45,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 3
     },
@@ -37,7 +83,30 @@
       "to": "Nigrán",
       "tariff": {
         "baseCents": 120,
-        "bands": []
+        "bands": [
+          {
+            "cents": 60,
+            "maxCents": 120,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 30,
+            "maxCents": 60,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 4
     },
@@ -46,7 +115,30 @@
       "to": "A Ramallosa",
       "tariff": {
         "baseCents": 105,
-        "bands": []
+        "bands": [
+          {
+            "cents": 52,
+            "maxCents": 105,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 26,
+            "maxCents": 53,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 5
     },
@@ -55,7 +147,30 @@
       "to": "Baiona",
       "tariff": {
         "baseCents": 175,
-        "bands": []
+        "bands": [
+          {
+            "cents": 87,
+            "maxCents": 175,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 43,
+            "maxCents": 88,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 6
     },
@@ -64,7 +179,30 @@
       "to": "Gondomar",
       "tariff": {
         "baseCents": 55,
-        "bands": []
+        "bands": [
+          {
+            "cents": 27,
+            "maxCents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 13,
+            "maxCents": 28,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 7
     },
@@ -73,7 +211,30 @@
       "to": "Nigrán",
       "tariff": {
         "baseCents": 85,
-        "bands": []
+        "bands": [
+          {
+            "cents": 42,
+            "maxCents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 21,
+            "maxCents": 43,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 8
     },
@@ -82,7 +243,30 @@
       "to": "A Ramallosa",
       "tariff": {
         "baseCents": 70,
-        "bands": []
+        "bands": [
+          {
+            "cents": 35,
+            "maxCents": 70,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 17,
+            "maxCents": 35,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 9
     },
@@ -91,7 +275,30 @@
       "to": "Baiona",
       "tariff": {
         "baseCents": 140,
-        "bands": []
+        "bands": [
+          {
+            "cents": 70,
+            "maxCents": 140,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 35,
+            "maxCents": 70,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 10
     },
@@ -100,7 +307,30 @@
       "to": "Baiona",
       "tariff": {
         "baseCents": 70,
-        "bands": []
+        "bands": [
+          {
+            "cents": 35,
+            "maxCents": 70,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 17,
+            "maxCents": 35,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 11
     },
@@ -109,7 +339,30 @@
       "to": "Baiona",
       "tariff": {
         "baseCents": 120,
-        "bands": []
+        "bands": [
+          {
+            "cents": 60,
+            "maxCents": 120,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 30,
+            "maxCents": 60,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 12
     },
@@ -118,10 +371,38 @@
       "to": "A Ramallosa",
       "tariff": {
         "baseCents": 35,
-        "bands": []
+        "bands": [
+          {
+            "cents": 17,
+            "maxCents": 35,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 8,
+            "maxCents": 18,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 13
     }
   ],
-  "unpricedPublishedRows": []
+  "unpricedPublishedRows": [],
+  "discountSource": {
+    "url": "https://www.xunta.gal/dog/Publicados/2025/20251231/AnuncioG0765-291225-0001_es.html",
+    "sha256": "fee56c75680e51d82430bdc22ef8c882732b8b350d89bcd89c74725edc87fbb1"
+  },
+  "discountReview": "Generic valid Via-T only: unknown same-vehicle return history; night 50% then return 25/50%. Outward whole-cent bounds retain unresolved settlement rounding. Registered large-family eligibility is not assumed."
 }

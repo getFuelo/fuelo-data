@@ -20,7 +20,22 @@ def main():
    a,b=re.split(r'\s+[–-]\s+',cols[0],maxsplit=1)
    if not re.fullmatch(r'\d+,\d{2}',cols[1]):missing.append({'from':a,'to':b,'printed':cols[1]});continue
    rows.append({'from':a,'to':b,'tariff':{'baseCents':cents(cols[1]),'bands':[]},'sourceRow':i})
-  assert len(rows)==expected;d.update(ods=rows,unpricedPublishedRows=missing);write(name,d);print(name,len(rows),'rows')
+  assert len(rows)==expected
+  discount_path=D/'ag55-ag57-discounts.html'
+  discount_source='https://www.xunta.gal/dog/Publicados/2025/20251231/AnuncioG0765-291225-0001_es.html'
+  assert hashlib.sha256(discount_path.read_bytes()).hexdigest()==json.loads((ROOT/'scripts/coverage/source-lock.json').read_text())[discount_path.name]
+  for row in rows:
+   if 'Porto Exterior' in (row['from'],row['to']):continue
+   price=row['tariff']['baseCents']
+   # Unknown return history: 50..100% by day; night reduction is applied first,
+   # then any eligible return rebate. Outward integer bounds preserve unresolved
+   # sub-cent settlement rounding; they are not invented published exact fares.
+   row['tariff']['bands']=[{'cents':price//2,'maxCents':price,'minutes':[360,1440],'requires':['payment:via-t']},
+                           {'cents':price//4,'maxCents':(price+1)//2,'minutes':[0,360],'requires':['payment:via-t']}]
+  d.update(ods=rows,unpricedPublishedRows=missing,discountSource={'url':discount_source,'sha256':hashlib.sha256(discount_path.read_bytes()).hexdigest()},
+           discountReview='Generic valid Via-T only: unknown same-vehicle return history; night 50% then return 25/50%. Outward whole-cent bounds retain unresolved settlement rounding. Registered large-family eligibility is not assumed.')
+  if name=='ag55':d['portAccessReview']={'source':'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-490','status':'Published port movement tariffs are not proof of direct user liability: the AC-15 agreement compensates exempt traffic. Separate mapped bypass and current-scope verification required.'}
+  write(name,d);print(name,len(rows),'rows')
  path=D/'arabat.html';table=BeautifulSoup(path.read_text(),'html.parser').find('table');raw=table.find_all('tr');dest=[c.get_text(' ',strip=True) for c in raw[0].find_all('th')][1:];rows=[];origin=None
  for i,row in enumerate(raw[1:],2):
   cols=row.find_all(['th','td'],recursive=False)

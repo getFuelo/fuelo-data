@@ -9,7 +9,26 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 # zone, booth group, source entry way, entry booth, reversed source direction,
 # outside entry node, outside exit node. Published zone names are preserved.
-SPECS = {'r2': {'ref':'R-2','bbox':[40.49,-3.50,40.80,-3.10],
+SPECS = {'ag57': {'ref':'AG-57','additionalRefs':['AG-57N'], 'bbox':[42.105,-8.805,42.165,-8.70],
+    'bidirectionalRows':True,'expectedDirectedFares':24,
+    'zoneAliases':{'A Ramallosa-sur':'A Ramallosa'},'accesses':[],
+    'logicalAccesses':[
+        ('Vigo',(30639427,4724254267,338860633),(252789015,68834794,338860640)),
+        ('Vincios',(52669356,338860923,338860945),(769030907,338860959,338860806)),
+        ('Gondomar',(206870568,2169170655,2169170644),(38330023,12896459204,452591581)),
+        ('Nigrán',(71903229,68831665,68832322),(9218874,68830118,10083886434)),
+        ('A Ramallosa',(1422200349,1784646933,1783752107),(1422183083,13069862060,1783752105)),
+        ('A Ramallosa-sur',(167095504,1784976698,1783752072),(1101960214,13069962967,1783752070)),
+        ('Baiona',(167096006,107983618,1784981675),(1101960216,13069962968,1784981676)),
+    ]}, 'ag55' : {'ref':'AG-55','bbox':[43.20,-8.68,43.322,-8.47],
+    'excludeCoverageWays':[795695668,795695678],
+    'filterFareZones':['Arteixo','Paiosaco','Laracha','Carballo'],'bidirectionalRows':True,'accesses':[],
+    'logicalAccesses':[
+        ('Arteixo',(769028620,285118382,285118318),(1465177144,285172019,285172032)),
+        ('Paiosaco',(188413423,1037453360,1990432049),(188413423,1037453360,1990432050,True)),
+        ('Laracha',(39473216,1871156571,4553788387),(461221636,1687779465,1871156594)),
+        ('Carballo',(156543952,691690003,699045240),(176397986,970590197,285118558)),
+    ]}, 'r2': {'ref':'R-2','bbox':[40.49,-3.50,40.80,-3.10],
     'freeApproachWays':[329573260,329573259,329573253,57700096], 'accesses':[
     ('Ajalvir','osm-review-161872278',329280725,161872278,False,None,(28699460,-1)),
     ('Alcalá','osm-review-409505056',37520682,439206819,False,(329573260,1),(329573259,1)),
@@ -65,19 +84,23 @@ def point(node):
 for family, spec in SPECS.items():
     bounds = spec.get('bbox', [-90, -180, 90, 180])
     inside = lambda w: all(bounds[0] <= nodes[str(n)][0] <= bounds[2] and bounds[1] <= nodes[str(n)][1] <= bounds[3] for n in w['nodes'])
-    selected = {w['id'] for w in ways.values() if (w['tags'].get('ref') == spec['ref'] or (family == 'ap66' and w['tags'].get('nat_ref') == 'AP-66')) and inside(w)}
+    selected = {w['id'] for w in ways.values() if (w['tags'].get('ref') in [spec['ref']]+spec.get('additionalRefs',[]) or (family == 'ap66' and w['tags'].get('nat_ref') == 'AP-66')) and inside(w)}
     for _ in range(20):
         added = set()
         for wid in selected:
             for node in ways[wid]['nodes']:
                 for other in at[node] - selected:
                     tags = ways[other]['tags']
-                    if tags.get('ref') in (None, spec['ref']) and tags.get('highway') == 'motorway_link' and inside(ways[other]):
+                    if tags.get('ref') in [None, spec['ref']]+spec.get('additionalRefs',[]) and tags.get('highway') == 'motorway_link' and inside(ways[other]):
                         added.add(other)
         selected.update(added)
         if not added:
             break
     selected.update(spec.get('freeApproachWays',[]))
+    # Arteixo public slip roads belong to the independent Pastoriza section.
+    # Duplicating them in the closed system invents missing OD context on
+    # exempt port movements and makes the result depend on catalog order.
+    selected.difference_update(spec.get('excludeCoverageWays',[]))
     gates, locations, evidence = [], {}, []
     for zone, groupid, wid, booth, reverse, outside_entry, outside_exit in spec['accesses']:
         way, group = ways[wid], groups[groupid]
@@ -108,7 +131,9 @@ for family, spec in SPECS.items():
     # on collection booths that adjacent-access trips may also cross.
     for zone, entry, exit in spec.get('logicalAccesses', []):
         locations[zone] = {}
-        for role, (wid, node, outside) in [('entry', entry), ('exit', exit)]:
+        for role, cut in [('entry', entry), ('exit', exit)]:
+            wid, node, outside = cut[:3]
+            reverse = len(cut)>3 and cut[3]
             way = ways[wid]
             i = way['nodes'].index(node)
             a, center, b = [point(n) for n in way['nodes'][i-1:i+2]]
@@ -118,24 +143,33 @@ for family, spec in SPECS.items():
             px, py = -dy/length, dx/length
             line = [{'lat': center['lat']+v*py/111195, 'lng': center['lng']+v*px/111195/cos} for v in (-8, 8)]
             cross = lambda p: (line[1]['lng']-line[0]['lng'])*(p['lat']-line[0]['lat']) - (line[1]['lat']-line[0]['lat'])*(p['lng']-line[0]['lng'])
-            gates.append({'id': zone+'-'+role, 'line': line, 'direction': 'positive' if cross(b)>cross(a) else 'negative'})
+            positive = cross(b)>cross(a)
+            gates.append({'id': zone+'-'+role, 'line': line, 'direction': 'positive' if positive != reverse else 'negative'})
             locations[zone][role] = point(outside)
             evidence.append({'zone': zone, 'role': role, 'kind': 'logical-terminal-cut', 'way': wid,
-                             'version': way['version'], 'node': node, 'outsideNode': outside})
+                             'version': way['version'], 'node': node, 'outsideNode': outside, **({'reverseSourceDirection':True} if reverse else {})})
     refs = json.loads((ROOT / f'pricing-candidates/{family}-tariffs.json').read_text())
     fares = []
     for row in refs['ods']:
+        if spec.get('filterFareZones') and not all(row[k] in spec['filterFareZones'] for k in ('from','to')):
+            continue
         pairs = [(row['from'], row['to'])]
-        if row.get('bidirectional'):
+        if row.get('bidirectional') or spec.get('bidirectionalRows'):
             pairs.append((row['to'], row['from']))
         fares.extend({'from': a+'-entry', 'to': b+'-exit', 'tariff': row['tariff']} for a,b in pairs)
-    assert len(fares) == len(locations)*(len(locations)-1)
+    assert len(fares) == spec.get('expectedDirectedFares',len(locations)*(len(locations)-1))
+    canonical_fares = list(fares)
+    aliases = spec.get('zoneAliases',{})
+    for fare in canonical_fares:
+        origins = [fare['from']] + [alias+'-entry' for alias,zone in aliases.items() if fare['from']==zone+'-entry']
+        destinations = [fare['to']] + [alias+'-exit' for alias,zone in aliases.items() if fare['to']==zone+'-exit']
+        fares.extend({**fare,'from':a,'to':b} for a in origins for b in destinations if (a,b)!=(fare['from'],fare['to']))
     net = {'id': 'es-'+family, 'tollId': 'es-'+family, 'validFrom': refs['validFrom'], 'validThrough': refs['validThrough'],
            'timeZone': 'Europe/Madrid', 'gates': gates,
            'pricing': {'kind': 'od', 'chargedAt': 'exit', 'entries': [g['id'] for g in gates if g['id'].endswith('-entry')],
                        'exits': [g['id'] for g in gates if g['id'].endswith('-exit')], 'fares': fares},
            'coverageWays': [{'id': str(wid), 'version': ways[wid]['version'], 'line': [point(n) for n in ways[wid]['nodes']]} for wid in sorted(selected)],
-           'evidence': {'checked': '2026-09-16', 'tariffSources': [refs['source']], 'geometrySource': 'https://www.openstreetmap.org/copyright'}}
+           'evidence': {'checked': '2026-09-16', 'tariffSources': [refs['source']]+([refs['discountSource']['url']] if refs.get('discountSource') else []), 'geometrySource': 'https://www.openstreetmap.org/copyright'}}
     if family == 'ap66':
         net['avoidanceGateIds'] = [g['id'] for g in gates if g['id'].endswith('-entry')]
     if family == 'r2':

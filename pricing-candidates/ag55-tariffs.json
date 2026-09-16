@@ -19,7 +19,30 @@
       "to": "Arteixo",
       "tariff": {
         "baseCents": 55,
-        "bands": []
+        "bands": [
+          {
+            "cents": 27,
+            "maxCents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 13,
+            "maxCents": 28,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 2
     },
@@ -28,7 +51,30 @@
       "to": "Paiosaco",
       "tariff": {
         "baseCents": 75,
-        "bands": []
+        "bands": [
+          {
+            "cents": 37,
+            "maxCents": 75,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 18,
+            "maxCents": 38,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 3
     },
@@ -37,7 +83,30 @@
       "to": "Laracha",
       "tariff": {
         "baseCents": 130,
-        "bands": []
+        "bands": [
+          {
+            "cents": 65,
+            "maxCents": 130,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 32,
+            "maxCents": 65,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 4
     },
@@ -46,7 +115,30 @@
       "to": "Carballo",
       "tariff": {
         "baseCents": 205,
-        "bands": []
+        "bands": [
+          {
+            "cents": 102,
+            "maxCents": 205,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 51,
+            "maxCents": 103,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 5
     },
@@ -55,7 +147,30 @@
       "to": "Laracha",
       "tariff": {
         "baseCents": 55,
-        "bands": []
+        "bands": [
+          {
+            "cents": 27,
+            "maxCents": 55,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 13,
+            "maxCents": 28,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 6
     },
@@ -64,7 +179,30 @@
       "to": "Carballo",
       "tariff": {
         "baseCents": 135,
-        "bands": []
+        "bands": [
+          {
+            "cents": 67,
+            "maxCents": 135,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 33,
+            "maxCents": 68,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 7
     },
@@ -73,7 +211,30 @@
       "to": "Carballo",
       "tariff": {
         "baseCents": 85,
-        "bands": []
+        "bands": [
+          {
+            "cents": 42,
+            "maxCents": 85,
+            "minutes": [
+              360,
+              1440
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          },
+          {
+            "cents": 21,
+            "maxCents": 43,
+            "minutes": [
+              0,
+              360
+            ],
+            "requires": [
+              "payment:via-t"
+            ]
+          }
+        ]
       },
       "sourceRow": 8
     },
@@ -107,5 +268,14 @@
       "to": "Porto Exterior",
       "printed": "–"
     }
-  ]
+  ],
+  "discountSource": {
+    "url": "https://www.xunta.gal/dog/Publicados/2025/20251231/AnuncioG0765-291225-0001_es.html",
+    "sha256": "fee56c75680e51d82430bdc22ef8c882732b8b350d89bcd89c74725edc87fbb1"
+  },
+  "discountReview": "Generic valid Via-T only: unknown same-vehicle return history; night 50% then return 25/50%. Outward whole-cent bounds retain unresolved settlement rounding. Registered large-family eligibility is not assumed.",
+  "portAccessReview": {
+    "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-490",
+    "status": "Published port movement tariffs are not proof of direct user liability: the AC-15 agreement compensates exempt traffic. Separate mapped bypass and current-scope verification required."
+  }
 }

@@ -409,22 +409,46 @@
       "tariffArtifacts": [
         "pricing-candidates/ag55-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ag55.json",
+        "pricing-candidates/ag55-pastoriza.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Complete all-lane/public-approach, partial boundary, repeated journey and avoidance corpus.",
+        "Keep current AC-15 exemption scope and early termination conditions under review.",
+        "Registered large-family eligibility and precise sub-cent Via-T settlement need separate support.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 12,
+        "realPastorizaTraversals": 3,
+        "individualPastorizaLaneTraversals": 2,
+        "portExemptDirections": 4,
+        "combinedWholeJourneys": 2,
+        "viaTUnknownHistoryAndRoundingIntervals": true
+      }
     },
     {
       "catalogId": "es-ag57",
       "tariffArtifacts": [
         "pricing-candidates/ag57-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ag57.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Complete all-lane/public-approach, free terminal, partial boundary, repeated journey and avoidance corpus.",
+        "Registered large-family eligibility and precise sub-cent Via-T settlement need separate support.",
+        "Country inventory and release integration remain incomplete."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 24,
+        "physicalDirectedGates": 14,
+        "expandedPhysicalGateFares": 32,
+        "viaTUnknownHistoryAndRoundingIntervals": true
+      }
     },
     {
       "catalogId": "es-ap15",

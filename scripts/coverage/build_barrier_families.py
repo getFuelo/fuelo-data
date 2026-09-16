@@ -8,6 +8,9 @@ import collections,gzip,json,math
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];SOURCE=ROOT/'audit/2026-09-16/spain-graph'
 FAMILIES={
+ 'ag55-pastoriza':{'ref':'AG-55','coverageRefs':['AG-55','AC-15'],'lat':[43.308,43.355],'lng':[-8.50,-8.43],
+  'parent':'es-ag55','tariffFamily':'ag55','tariffOD':['A Coruña','Arteixo'],'groups':[
+  ('osm-review-1125611755','es-ag55-pastoriza','Pastoriza',55)]},
  'r2-open':{'ref':'R-2','coverageRefs':['R-2','M-50'],'lat':[40.48,40.57],'lng':[-3.68,-3.488],'parent':'es-r2','tariffFamily':'r2','groups':[
   ('osm-review-258368527','es-r2-alcobendas','Alcobendas',60),
   ('osm-review-353332722','es-r2-aeropuerto','Aeropuerto',60)]},
@@ -76,7 +79,9 @@ def main():
    values=[(p['lng']-center['lng'])*cos*px+(p['lat']-center['lat'])*py for p in booths]
    line=[{'lat':center['lat']+v*py,'lng':center['lng']+v*px/cos} for v in [min(values)-8/111195,max(values)+8/111195]]
    old=legacy[id] if id in legacy else legacy[spec.get('parent','es-c32-castelldefels-vendrell' if family=='c32' else 'es-ap15')]
-   tariff=next(row['tariff'] for row in tariff_reference['barriers'] if row.get('name',row.get('from'))==name) if tariff_reference else {'baseCents':price,'bands':[]}
+   if spec.get('tariffOD'):
+    tariff=next(row['tariff'] for row in tariff_reference['ods'] if [row['from'],row['to']]==spec['tariffOD'])
+   else:tariff=next(row['tariff'] for row in tariff_reference['barriers'] if row.get('name',row.get('from'))==name) if tariff_reference else {'baseCents':price,'bands':[]}
    if family=='vallvidrera':
     reference=json.loads((ROOT/'pricing-candidates/vallvidrera-tariffs.json').read_text())['generalReference']
     # The operator does not identify its applicable holiday calendar. Preserve
@@ -88,6 +93,7 @@ def main():
    if tariff_reference:toll['source']=tariff_reference['source']
    tolls.append(toll)
    gate={'id':id+'-plaza','line':line,'direction':'both'};networks.append({'id':id,'tollId':id,'validFrom':'2026-01-01','validThrough':'2026-12-31','timeZone':'Europe/Madrid','gates':[gate],'pricing':{'kind':'gates','fares':{gate['id']:tariff}},'coverageWays':coverage,'evidence':{'checked':'2026-09-16','tariffSources':[toll['source']],'geometrySource':'https://www.openstreetmap.org/copyright'}})
+   if tariff_reference and tariff_reference.get('discountSource'):networks[-1]['evidence']['tariffSources'].append(tariff_reference['discountSource']['url'])
    evidence.append({'network':id,'reviewGroup':groupid,'booths':group['pointIds'],'laneWays':sorted(lane_ways),'method':'Single plane through booth group center, normal to the mean unoriented lane tangent; spans all booth centers plus 8m at each end. Must validate real routes and individual lane crossings.'})
    for booth in booths:
     incoming=[];outgoing=[]
@@ -120,5 +126,6 @@ def main():
        if len(choices)!=1:break
        wid,seq=choices[0];used.add(wid);refs+=seq[1:]
       probes.append({'network':id,'booth':booth['id'],'way':str(a)+'/'+str(b),'versions':[ways[a]['version'],ways[b]['version']],'traversedWays':[{'id':wid,'version':ways[wid]['version']} for wid in sorted(used)],'geometry':[{'lat':nodes[str(n)][0],'lng':nodes[str(n)][1]} for n in refs]})
-  doc={'generated':'2026-09-16','schema':3 if family=='vallvidrera' else 2,'currency':'EUR','complete':False,'notes_global':'Development candidate only; © OpenStreetMap contributors, ODbL 1.0. No claim of national coverage.','tolls':tolls,'pricing':networks};(ROOT/'pricing-candidates'/f'{family}.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n');out=ROOT/'audit/2026-09-16/networks'/family;out.mkdir(parents=True,exist_ok=True);(out/'provenance.json').write_text(json.dumps({'source':'../../spain-graph/provenance.json','gates':evidence,'coverageWayCount':len(coverage),'reviewStatus':'candidate_pending_routes'},ensure_ascii=False,indent=2)+'\n');(out/'lane-probes.json').write_text(json.dumps(probes,separators=(',',':'))+'\n');print(family,len(networks),'plazas',len(coverage),'ways',len(probes),'lane probes')
+  extended=any('maxCents' in b for n in networks for t in n['pricing']['fares'].values() for b in t['bands'])
+  doc={'generated':'2026-09-16','schema':3 if extended else 2,'currency':'EUR','complete':False,'notes_global':'Development candidate only; © OpenStreetMap contributors, ODbL 1.0. No claim of national coverage.','tolls':tolls,'pricing':networks};(ROOT/'pricing-candidates'/f'{family}.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n');out=ROOT/'audit/2026-09-16/networks'/family;out.mkdir(parents=True,exist_ok=True);(out/'provenance.json').write_text(json.dumps({'source':'../../spain-graph/provenance.json','gates':evidence,'coverageWayCount':len(coverage),'reviewStatus':'candidate_pending_routes'},ensure_ascii=False,indent=2)+'\n');(out/'lane-probes.json').write_text(json.dumps(probes,separators=(',',':'))+'\n');print(family,len(networks),'plazas',len(coverage),'ways',len(probes),'lane probes')
 if __name__=='__main__':main()

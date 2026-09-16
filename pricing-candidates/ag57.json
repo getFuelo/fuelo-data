@@ -1,0 +1,4925 @@
+{
+  "schema": 3,
+  "generated": "2026-09-16",
+  "currency": "EUR",
+  "complete": false,
+  "tolls": [
+    {
+      "id": "es-ag57",
+      "country": "es",
+      "name": "AG-57 Vigo – Baiona (Val Miñor)",
+      "road": "AG-57",
+      "operator": "Autoestradas de Galicia (autonómica, Xunta)",
+      "lat": 42.12238,
+      "lng": -8.77414,
+      "model": "ticket",
+      "vehicle_class": "light",
+      "price": 1.75,
+      "price_high": null,
+      "variable": false,
+      "source": "https://www.autoestradas.com/la-autopista/tarifas/",
+      "verified": "2026-09-16",
+      "notes": "2026 audit: 1.75 general. Vigo–Vincios 0.40, Vigo–Gondomar 0.90, Vigo–Nigrán 1.20. No aplicar beneficios personales automáticamente."
+    }
+  ],
+  "pricing": [
+    {
+      "id": "es-ag57",
+      "tollId": "es-ag57",
+      "validFrom": "2026-01-01",
+      "validThrough": "2026-12-31",
+      "timeZone": "Europe/Madrid",
+      "gates": [
+        {
+          "id": "Vigo-entry",
+          "line": [
+            {
+              "lat": 42.15831059869242,
+              "lng": -8.705533328827311
+            },
+            {
+              "lat": 42.15819800130759,
+              "lng": -8.70541247117269
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "Vigo-exit",
+          "line": [
+            {
+              "lat": 42.1582033769754,
+              "lng": -8.70513844304206
+            },
+            {
+              "lat": 42.1583146230246,
+              "lng": -8.70526155695794
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "Vincios-entry",
+          "line": [
+            {
+              "lat": 42.15389558123542,
+              "lng": -8.719518119824752
+            },
+            {
+              "lat": 42.15389901876458,
+              "lng": -8.719324080175248
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "Vincios-exit",
+          "line": [
+            {
+              "lat": 42.15409186649535,
+              "lng": -8.719229717212356
+            },
+            {
+              "lat": 42.15409713350465,
+              "lng": -8.719423682787644
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "Gondomar-entry",
+          "line": [
+            {
+              "lat": 42.121217987467396,
+              "lng": -8.772327350801124
+            },
+            {
+              "lat": 42.12130261253261,
+              "lng": -8.772484249198875
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "Gondomar-exit",
+          "line": [
+            {
+              "lat": 42.12244999182217,
+              "lng": -8.774119111150174
+            },
+            {
+              "lat": 42.122310608177834,
+              "lng": -8.774167288849824
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "Nigrán-entry",
+          "line": [
+            {
+              "lat": 42.12993418299794,
+              "lng": -8.79424089319842
+            },
+            {
+              "lat": 42.130073217002064,
+              "lng": -8.794190906801578
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "Nigrán-exit",
+          "line": [
+            {
+              "lat": 42.13012955501837,
+              "lng": -8.79390821764524
+            },
+            {
+              "lat": 42.12999104498162,
+              "lng": -8.79396078235476
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "A Ramallosa-entry",
+          "line": [
+            {
+              "lat": 42.114480227910306,
+              "lng": -8.78923531494512
+            },
+            {
+              "lat": 42.1144811720897,
+              "lng": -8.78942928505488
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "A Ramallosa-exit",
+          "line": [
+            {
+              "lat": 42.114754260166656,
+              "lng": -8.79007658648006
+            },
+            {
+              "lat": 42.11475493983334,
+              "lng": -8.789882613519941
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "A Ramallosa-sur-entry",
+          "line": [
+            {
+              "lat": 42.113457227258024,
+              "lng": -8.789928630061636
+            },
+            {
+              "lat": 42.11346537274197,
+              "lng": -8.789734969938364
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "A Ramallosa-sur-exit",
+          "line": [
+            {
+              "lat": 42.11313560428366,
+              "lng": -8.789245316381862
+            },
+            {
+              "lat": 42.11313639571633,
+              "lng": -8.789439283618137
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "Baiona-entry",
+          "line": [
+            {
+              "lat": 42.11015921476354,
+              "lng": -8.791593107971144
+            },
+            {
+              "lat": 42.110240785236456,
+              "lng": -8.791752892028855
+            }
+          ],
+          "direction": "negative"
+        },
+        {
+          "id": "Baiona-exit",
+          "line": [
+            {
+              "lat": 42.110292570543415,
+              "lng": -8.79192682607487
+            },
+            {
+              "lat": 42.11021042945658,
+              "lng": -8.791767573925128
+            }
+          ],
+          "direction": "negative"
+        }
+      ],
+      "pricing": {
+        "kind": "od",
+        "chargedAt": "exit",
+        "entries": [
+          "Vigo-entry",
+          "Vincios-entry",
+          "Gondomar-entry",
+          "Nigrán-entry",
+          "A Ramallosa-entry",
+          "A Ramallosa-sur-entry",
+          "Baiona-entry"
+        ],
+        "exits": [
+          "Vigo-exit",
+          "Vincios-exit",
+          "Gondomar-exit",
+          "Nigrán-exit",
+          "A Ramallosa-exit",
+          "A Ramallosa-sur-exit",
+          "Baiona-exit"
+        ],
+        "fares": [
+          {
+            "from": "Vigo-entry",
+            "to": "Vincios-exit",
+            "tariff": {
+              "baseCents": 40,
+              "bands": [
+                {
+                  "cents": 20,
+                  "maxCents": 40,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 10,
+                  "maxCents": 20,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vincios-entry",
+            "to": "Vigo-exit",
+            "tariff": {
+              "baseCents": 40,
+              "bands": [
+                {
+                  "cents": 20,
+                  "maxCents": 40,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 10,
+                  "maxCents": 20,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vigo-entry",
+            "to": "Gondomar-exit",
+            "tariff": {
+              "baseCents": 90,
+              "bands": [
+                {
+                  "cents": 45,
+                  "maxCents": 90,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 22,
+                  "maxCents": 45,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Gondomar-entry",
+            "to": "Vigo-exit",
+            "tariff": {
+              "baseCents": 90,
+              "bands": [
+                {
+                  "cents": 45,
+                  "maxCents": 90,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 22,
+                  "maxCents": 45,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vigo-entry",
+            "to": "Nigrán-exit",
+            "tariff": {
+              "baseCents": 120,
+              "bands": [
+                {
+                  "cents": 60,
+                  "maxCents": 120,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 30,
+                  "maxCents": 60,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Nigrán-entry",
+            "to": "Vigo-exit",
+            "tariff": {
+              "baseCents": 120,
+              "bands": [
+                {
+                  "cents": 60,
+                  "maxCents": 120,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 30,
+                  "maxCents": 60,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vigo-entry",
+            "to": "A Ramallosa-exit",
+            "tariff": {
+              "baseCents": 105,
+              "bands": [
+                {
+                  "cents": 52,
+                  "maxCents": 105,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 26,
+                  "maxCents": 53,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "A Ramallosa-entry",
+            "to": "Vigo-exit",
+            "tariff": {
+              "baseCents": 105,
+              "bands": [
+                {
+                  "cents": 52,
+                  "maxCents": 105,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 26,
+                  "maxCents": 53,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vigo-entry",
+            "to": "Baiona-exit",
+            "tariff": {
+              "baseCents": 175,
+              "bands": [
+                {
+                  "cents": 87,
+                  "maxCents": 175,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 43,
+                  "maxCents": 88,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Baiona-entry",
+            "to": "Vigo-exit",
+            "tariff": {
+              "baseCents": 175,
+              "bands": [
+                {
+                  "cents": 87,
+                  "maxCents": 175,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 43,
+                  "maxCents": 88,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vincios-entry",
+            "to": "Gondomar-exit",
+            "tariff": {
+              "baseCents": 55,
+              "bands": [
+                {
+                  "cents": 27,
+                  "maxCents": 55,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 13,
+                  "maxCents": 28,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Gondomar-entry",
+            "to": "Vincios-exit",
+            "tariff": {
+              "baseCents": 55,
+              "bands": [
+                {
+                  "cents": 27,
+                  "maxCents": 55,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 13,
+                  "maxCents": 28,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vincios-entry",
+            "to": "Nigrán-exit",
+            "tariff": {
+              "baseCents": 85,
+              "bands": [
+                {
+                  "cents": 42,
+                  "maxCents": 85,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 21,
+                  "maxCents": 43,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Nigrán-entry",
+            "to": "Vincios-exit",
+            "tariff": {
+              "baseCents": 85,
+              "bands": [
+                {
+                  "cents": 42,
+                  "maxCents": 85,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 21,
+                  "maxCents": 43,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vincios-entry",
+            "to": "A Ramallosa-exit",
+            "tariff": {
+              "baseCents": 70,
+              "bands": [
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "A Ramallosa-entry",
+            "to": "Vincios-exit",
+            "tariff": {
+              "baseCents": 70,
+              "bands": [
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vincios-entry",
+            "to": "Baiona-exit",
+            "tariff": {
+              "baseCents": 140,
+              "bands": [
+                {
+                  "cents": 70,
+                  "maxCents": 140,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Baiona-entry",
+            "to": "Vincios-exit",
+            "tariff": {
+              "baseCents": 140,
+              "bands": [
+                {
+                  "cents": 70,
+                  "maxCents": 140,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "A Ramallosa-entry",
+            "to": "Baiona-exit",
+            "tariff": {
+              "baseCents": 70,
+              "bands": [
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Baiona-entry",
+            "to": "A Ramallosa-exit",
+            "tariff": {
+              "baseCents": 70,
+              "bands": [
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Nigrán-entry",
+            "to": "Baiona-exit",
+            "tariff": {
+              "baseCents": 120,
+              "bands": [
+                {
+                  "cents": 60,
+                  "maxCents": 120,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 30,
+                  "maxCents": 60,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Baiona-entry",
+            "to": "Nigrán-exit",
+            "tariff": {
+              "baseCents": 120,
+              "bands": [
+                {
+                  "cents": 60,
+                  "maxCents": 120,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 30,
+                  "maxCents": 60,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Nigrán-entry",
+            "to": "A Ramallosa-exit",
+            "tariff": {
+              "baseCents": 35,
+              "bands": [
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 8,
+                  "maxCents": 18,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "A Ramallosa-entry",
+            "to": "Nigrán-exit",
+            "tariff": {
+              "baseCents": 35,
+              "bands": [
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 8,
+                  "maxCents": 18,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vigo-entry",
+            "to": "A Ramallosa-sur-exit",
+            "tariff": {
+              "baseCents": 105,
+              "bands": [
+                {
+                  "cents": 52,
+                  "maxCents": 105,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 26,
+                  "maxCents": 53,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "A Ramallosa-sur-entry",
+            "to": "Vigo-exit",
+            "tariff": {
+              "baseCents": 105,
+              "bands": [
+                {
+                  "cents": 52,
+                  "maxCents": 105,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 26,
+                  "maxCents": 53,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Vincios-entry",
+            "to": "A Ramallosa-sur-exit",
+            "tariff": {
+              "baseCents": 70,
+              "bands": [
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "A Ramallosa-sur-entry",
+            "to": "Vincios-exit",
+            "tariff": {
+              "baseCents": 70,
+              "bands": [
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "A Ramallosa-sur-entry",
+            "to": "Baiona-exit",
+            "tariff": {
+              "baseCents": 70,
+              "bands": [
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Baiona-entry",
+            "to": "A Ramallosa-sur-exit",
+            "tariff": {
+              "baseCents": 70,
+              "bands": [
+                {
+                  "cents": 35,
+                  "maxCents": 70,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "Nigrán-entry",
+            "to": "A Ramallosa-sur-exit",
+            "tariff": {
+              "baseCents": 35,
+              "bands": [
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 8,
+                  "maxCents": 18,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "from": "A Ramallosa-sur-entry",
+            "to": "Nigrán-exit",
+            "tariff": {
+              "baseCents": 35,
+              "bands": [
+                {
+                  "cents": 17,
+                  "maxCents": 35,
+                  "minutes": [
+                    360,
+                    1440
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                },
+                {
+                  "cents": 8,
+                  "maxCents": 18,
+                  "minutes": [
+                    0,
+                    360
+                  ],
+                  "requires": [
+                    "payment:via-t"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "coverageWays": [
+        {
+          "id": "9218832",
+          "version": 15,
+          "line": [
+            {
+              "lat": 42.1225005,
+              "lng": -8.7687254
+            },
+            {
+              "lat": 42.1227879,
+              "lng": -8.7681351
+            },
+            {
+              "lat": 42.1229427,
+              "lng": -8.7678717
+            },
+            {
+              "lat": 42.1232394,
+              "lng": -8.7674167
+            },
+            {
+              "lat": 42.123536,
+              "lng": -8.7670269
+            },
+            {
+              "lat": 42.1239345,
+              "lng": -8.766567
+            }
+          ]
+        },
+        {
+          "id": "9218874",
+          "version": 12,
+          "line": [
+            {
+              "lat": 42.1220262,
+              "lng": -8.770985
+            },
+            {
+              "lat": 42.1219842,
+              "lng": -8.771679
+            },
+            {
+              "lat": 42.121975,
+              "lng": -8.7718732
+            },
+            {
+              "lat": 42.1219869,
+              "lng": -8.772311
+            },
+            {
+              "lat": 42.1220232,
+              "lng": -8.7725911
+            },
+            {
+              "lat": 42.1220456,
+              "lng": -8.7727466
+            },
+            {
+              "lat": 42.1221193,
+              "lng": -8.773302
+            },
+            {
+              "lat": 42.1221598,
+              "lng": -8.7735397
+            },
+            {
+              "lat": 42.1222585,
+              "lng": -8.7740092
+            },
+            {
+              "lat": 42.1222881,
+              "lng": -8.7741574
+            },
+            {
+              "lat": 42.1223277,
+              "lng": -8.7743124
+            },
+            {
+              "lat": 42.1223787,
+              "lng": -8.7745374
+            },
+            {
+              "lat": 42.122454,
+              "lng": -8.7748324
+            },
+            {
+              "lat": 42.122611,
+              "lng": -8.775358
+            },
+            {
+              "lat": 42.122956,
+              "lng": -8.77638
+            },
+            {
+              "lat": 42.124008,
+              "lng": -8.779305
+            },
+            {
+              "lat": 42.124258,
+              "lng": -8.780066
+            },
+            {
+              "lat": 42.124406,
+              "lng": -8.780606
+            },
+            {
+              "lat": 42.124466,
+              "lng": -8.780888
+            },
+            {
+              "lat": 42.124555,
+              "lng": -8.781475
+            },
+            {
+              "lat": 42.1245811,
+              "lng": -8.7820784
+            },
+            {
+              "lat": 42.1246199,
+              "lng": -8.7831053
+            },
+            {
+              "lat": 42.1246351,
+              "lng": -8.7835064
+            },
+            {
+              "lat": 42.1246931,
+              "lng": -8.7848294
+            },
+            {
+              "lat": 42.1247431,
+              "lng": -8.7854497
+            },
+            {
+              "lat": 42.12481,
+              "lng": -8.7858164
+            },
+            {
+              "lat": 42.124941,
+              "lng": -8.786338
+            },
+            {
+              "lat": 42.1250459,
+              "lng": -8.7866129
+            },
+            {
+              "lat": 42.1252834,
+              "lng": -8.7871162
+            },
+            {
+              "lat": 42.1254429,
+              "lng": -8.7873495
+            },
+            {
+              "lat": 42.1257759,
+              "lng": -8.7877527
+            },
+            {
+              "lat": 42.1259758,
+              "lng": -8.7879173
+            },
+            {
+              "lat": 42.1263749,
+              "lng": -8.788213
+            },
+            {
+              "lat": 42.1273773,
+              "lng": -8.788758
+            },
+            {
+              "lat": 42.1276739,
+              "lng": -8.7889641
+            },
+            {
+              "lat": 42.1282673,
+              "lng": -8.7895564
+            },
+            {
+              "lat": 42.128595,
+              "lng": -8.790064
+            },
+            {
+              "lat": 42.128746,
+              "lng": -8.790325
+            },
+            {
+              "lat": 42.1290012,
+              "lng": -8.7909017
+            },
+            {
+              "lat": 42.1292328,
+              "lng": -8.7914867
+            },
+            {
+              "lat": 42.1297985,
+              "lng": -8.7929756
+            },
+            {
+              "lat": 42.1299851,
+              "lng": -8.7936094
+            },
+            {
+              "lat": 42.1300603,
+              "lng": -8.7939345
+            },
+            {
+              "lat": 42.1302606,
+              "lng": -8.7949293
+            },
+            {
+              "lat": 42.131258,
+              "lng": -8.8002597
+            },
+            {
+              "lat": 42.1314592,
+              "lng": -8.8012372
+            },
+            {
+              "lat": 42.1315168,
+              "lng": -8.8015152
+            }
+          ]
+        },
+        {
+          "id": "10157041",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.1241576,
+              "lng": -8.7819584
+            },
+            {
+              "lat": 42.1233291,
+              "lng": -8.7800378
+            }
+          ]
+        },
+        {
+          "id": "10157042",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.1233291,
+              "lng": -8.7800378
+            },
+            {
+              "lat": 42.12315,
+              "lng": -8.779524
+            },
+            {
+              "lat": 42.122833,
+              "lng": -8.778628
+            },
+            {
+              "lat": 42.12258,
+              "lng": -8.777756
+            },
+            {
+              "lat": 42.122305,
+              "lng": -8.776645
+            },
+            {
+              "lat": 42.1218805,
+              "lng": -8.7743008
+            },
+            {
+              "lat": 42.121796,
+              "lng": -8.7736085
+            },
+            {
+              "lat": 42.1217553,
+              "lng": -8.773105
+            },
+            {
+              "lat": 42.1217415,
+              "lng": -8.772581
+            },
+            {
+              "lat": 42.121761,
+              "lng": -8.772035
+            }
+          ]
+        },
+        {
+          "id": "11977887",
+          "version": 13,
+          "line": [
+            {
+              "lat": 42.1220262,
+              "lng": -8.770985
+            },
+            {
+              "lat": 42.1219577,
+              "lng": -8.7712973
+            },
+            {
+              "lat": 42.1218971,
+              "lng": -8.771895
+            },
+            {
+              "lat": 42.1218809,
+              "lng": -8.7724549
+            },
+            {
+              "lat": 42.1218985,
+              "lng": -8.7728541
+            },
+            {
+              "lat": 42.1219442,
+              "lng": -8.7734659
+            },
+            {
+              "lat": 42.1220172,
+              "lng": -8.7740337
+            },
+            {
+              "lat": 42.1221479,
+              "lng": -8.7746722
+            },
+            {
+              "lat": 42.1223179,
+              "lng": -8.7753236
+            },
+            {
+              "lat": 42.1224497,
+              "lng": -8.7756703
+            },
+            {
+              "lat": 42.1229959,
+              "lng": -8.7771808
+            },
+            {
+              "lat": 42.1232386,
+              "lng": -8.7778392
+            },
+            {
+              "lat": 42.1233817,
+              "lng": -8.7783885
+            },
+            {
+              "lat": 42.1234782,
+              "lng": -8.7789273
+            },
+            {
+              "lat": 42.123521,
+              "lng": -8.7792385
+            },
+            {
+              "lat": 42.123551,
+              "lng": -8.7796518
+            },
+            {
+              "lat": 42.1235707,
+              "lng": -8.7801553
+            },
+            {
+              "lat": 42.1235654,
+              "lng": -8.7806588
+            },
+            {
+              "lat": 42.1235275,
+              "lng": -8.781002
+            },
+            {
+              "lat": 42.1234843,
+              "lng": -8.781381
+            },
+            {
+              "lat": 42.1233553,
+              "lng": -8.782073
+            },
+            {
+              "lat": 42.1231723,
+              "lng": -8.7827557
+            },
+            {
+              "lat": 42.123047,
+              "lng": -8.783109
+            }
+          ]
+        },
+        {
+          "id": "30639425",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.1587586,
+              "lng": -8.7047272
+            },
+            {
+              "lat": 42.1585231,
+              "lng": -8.7050524
+            }
+          ]
+        },
+        {
+          "id": "30639427",
+          "version": 10,
+          "line": [
+            {
+              "lat": 42.1585231,
+              "lng": -8.7050524
+            },
+            {
+              "lat": 42.1582543,
+              "lng": -8.7054729
+            },
+            {
+              "lat": 42.1580487,
+              "lng": -8.7058567
+            },
+            {
+              "lat": 42.1578444,
+              "lng": -8.7063052
+            }
+          ]
+        },
+        {
+          "id": "30639431",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.158503,
+              "lng": -8.704863
+            },
+            {
+              "lat": 42.1586948,
+              "lng": -8.7045981
+            }
+          ]
+        },
+        {
+          "id": "30639446",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.1541783,
+              "lng": -8.7193211
+            },
+            {
+              "lat": 42.1542965,
+              "lng": -8.7193146
+            }
+          ]
+        },
+        {
+          "id": "30639448",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1544708,
+              "lng": -8.7155036
+            },
+            {
+              "lat": 42.1543434,
+              "lng": -8.7159629
+            },
+            {
+              "lat": 42.1539799,
+              "lng": -8.716818
+            },
+            {
+              "lat": 42.1536427,
+              "lng": -8.717653
+            },
+            {
+              "lat": 42.1533161,
+              "lng": -8.7187406
+            },
+            {
+              "lat": 42.1533062,
+              "lng": -8.7189145
+            },
+            {
+              "lat": 42.1533412,
+              "lng": -8.7190575
+            },
+            {
+              "lat": 42.1534047,
+              "lng": -8.7191542
+            },
+            {
+              "lat": 42.1534936,
+              "lng": -8.7191968
+            },
+            {
+              "lat": 42.1536746,
+              "lng": -8.7192716
+            },
+            {
+              "lat": 42.1538909,
+              "lng": -8.7193353
+            }
+          ]
+        },
+        {
+          "id": "30639450",
+          "version": 11,
+          "line": [
+            {
+              "lat": 42.1519722,
+              "lng": -8.7239231
+            },
+            {
+              "lat": 42.1519769,
+              "lng": -8.7236339
+            },
+            {
+              "lat": 42.1521156,
+              "lng": -8.7227256
+            },
+            {
+              "lat": 42.1521092,
+              "lng": -8.7224595
+            },
+            {
+              "lat": 42.1520647,
+              "lng": -8.7221677
+            },
+            {
+              "lat": 42.1518674,
+              "lng": -8.7216613
+            },
+            {
+              "lat": 42.1518102,
+              "lng": -8.7213866
+            },
+            {
+              "lat": 42.1518292,
+              "lng": -8.7211205
+            },
+            {
+              "lat": 42.1520329,
+              "lng": -8.7200219
+            },
+            {
+              "lat": 42.1521283,
+              "lng": -8.7197301
+            },
+            {
+              "lat": 42.1523001,
+              "lng": -8.7194897
+            },
+            {
+              "lat": 42.1524656,
+              "lng": -8.719361
+            },
+            {
+              "lat": 42.1527074,
+              "lng": -8.7193009
+            },
+            {
+              "lat": 42.1538909,
+              "lng": -8.7193353
+            }
+          ]
+        },
+        {
+          "id": "30639453",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.152835,
+              "lng": -8.719491
+            },
+            {
+              "lat": 42.1529225,
+              "lng": -8.719103
+            }
+          ]
+        },
+        {
+          "id": "30639455",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.1529225,
+              "lng": -8.719103
+            },
+            {
+              "lat": 42.153028,
+              "lng": -8.718635
+            },
+            {
+              "lat": 42.153283,
+              "lng": -8.717831
+            },
+            {
+              "lat": 42.153545,
+              "lng": -8.71719
+            },
+            {
+              "lat": 42.154093,
+              "lng": -8.716061
+            },
+            {
+              "lat": 42.15431,
+              "lng": -8.715563
+            },
+            {
+              "lat": 42.15459,
+              "lng": -8.714768
+            },
+            {
+              "lat": 42.154772,
+              "lng": -8.7140909
+            }
+          ]
+        },
+        {
+          "id": "30639459",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1538973,
+              "lng": -8.7194211
+            },
+            {
+              "lat": 42.15342,
+              "lng": -8.7195327
+            },
+            {
+              "lat": 42.1532164,
+              "lng": -8.7196528
+            },
+            {
+              "lat": 42.1530701,
+              "lng": -8.7198846
+            },
+            {
+              "lat": 42.1530001,
+              "lng": -8.720082
+            },
+            {
+              "lat": 42.1528537,
+              "lng": -8.7209746
+            },
+            {
+              "lat": 42.15257,
+              "lng": -8.721905
+            }
+          ]
+        },
+        {
+          "id": "30639464",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.1530029,
+              "lng": -8.7191989
+            },
+            {
+              "lat": 42.1529377,
+              "lng": -8.7195515
+            }
+          ]
+        },
+        {
+          "id": "30639465",
+          "version": 9,
+          "line": [
+            {
+              "lat": 42.1529377,
+              "lng": -8.7195515
+            },
+            {
+              "lat": 42.152839,
+              "lng": -8.720194
+            },
+            {
+              "lat": 42.1527548,
+              "lng": -8.7208268
+            },
+            {
+              "lat": 42.1526677,
+              "lng": -8.7213995
+            },
+            {
+              "lat": 42.15257,
+              "lng": -8.721905
+            },
+            {
+              "lat": 42.152504,
+              "lng": -8.722203
+            },
+            {
+              "lat": 42.1524092,
+              "lng": -8.7225981
+            },
+            {
+              "lat": 42.1522082,
+              "lng": -8.7233921
+            },
+            {
+              "lat": 42.1521226,
+              "lng": -8.7237767
+            },
+            {
+              "lat": 42.1520494,
+              "lng": -8.7241811
+            },
+            {
+              "lat": 42.1519943,
+              "lng": -8.724603
+            },
+            {
+              "lat": 42.1519607,
+              "lng": -8.7250132
+            },
+            {
+              "lat": 42.151951,
+              "lng": -8.7254095
+            },
+            {
+              "lat": 42.15196,
+              "lng": -8.7258155
+            },
+            {
+              "lat": 42.1519839,
+              "lng": -8.7262275
+            },
+            {
+              "lat": 42.1520304,
+              "lng": -8.7266366
+            },
+            {
+              "lat": 42.152106,
+              "lng": -8.7271177
+            }
+          ]
+        },
+        {
+          "id": "38330023",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.1220456,
+              "lng": -8.7727466
+            },
+            {
+              "lat": 42.1221206,
+              "lng": -8.7730254
+            },
+            {
+              "lat": 42.1221784,
+              "lng": -8.7733205
+            },
+            {
+              "lat": 42.1222263,
+              "lng": -8.7735112
+            },
+            {
+              "lat": 42.1222887,
+              "lng": -8.7737096
+            },
+            {
+              "lat": 42.1223431,
+              "lng": -8.773951
+            },
+            {
+              "lat": 42.1223803,
+              "lng": -8.7741432
+            },
+            {
+              "lat": 42.1224107,
+              "lng": -8.7743065
+            },
+            {
+              "lat": 42.1224555,
+              "lng": -8.7744377
+            },
+            {
+              "lat": 42.1225173,
+              "lng": -8.7745483
+            },
+            {
+              "lat": 42.1225892,
+              "lng": -8.7746211
+            },
+            {
+              "lat": 42.1226381,
+              "lng": -8.7746445
+            },
+            {
+              "lat": 42.1227236,
+              "lng": -8.7746495
+            },
+            {
+              "lat": 42.1228151,
+              "lng": -8.7746194
+            },
+            {
+              "lat": 42.1228909,
+              "lng": -8.7745666
+            },
+            {
+              "lat": 42.1229604,
+              "lng": -8.7744855
+            },
+            {
+              "lat": 42.1230068,
+              "lng": -8.7743946
+            },
+            {
+              "lat": 42.1230404,
+              "lng": -8.7742984
+            },
+            {
+              "lat": 42.1230569,
+              "lng": -8.7741904
+            },
+            {
+              "lat": 42.1230573,
+              "lng": -8.7740787
+            },
+            {
+              "lat": 42.1229714,
+              "lng": -8.7729147
+            },
+            {
+              "lat": 42.1229162,
+              "lng": -8.7723176
+            },
+            {
+              "lat": 42.1228988,
+              "lng": -8.7721656
+            },
+            {
+              "lat": 42.1228814,
+              "lng": -8.7720135
+            }
+          ]
+        },
+        {
+          "id": "52669354",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1542965,
+              "lng": -8.7193146
+            },
+            {
+              "lat": 42.1544563,
+              "lng": -8.7192522
+            },
+            {
+              "lat": 42.1545373,
+              "lng": -8.7192074
+            },
+            {
+              "lat": 42.1546024,
+              "lng": -8.7191547
+            },
+            {
+              "lat": 42.1546937,
+              "lng": -8.7190638
+            },
+            {
+              "lat": 42.1547401,
+              "lng": -8.7190176
+            }
+          ]
+        },
+        {
+          "id": "52669356",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.1541681,
+              "lng": -8.7194602
+            },
+            {
+              "lat": 42.1538973,
+              "lng": -8.7194211
+            },
+            {
+              "lat": 42.1526883,
+              "lng": -8.7194125
+            },
+            {
+              "lat": 42.1524719,
+              "lng": -8.7194983
+            },
+            {
+              "lat": 42.1523256,
+              "lng": -8.7196357
+            },
+            {
+              "lat": 42.1521856,
+              "lng": -8.7198245
+            },
+            {
+              "lat": 42.1520838,
+              "lng": -8.7200648
+            },
+            {
+              "lat": 42.1518929,
+              "lng": -8.7211806
+            },
+            {
+              "lat": 42.1518992,
+              "lng": -8.7214038
+            },
+            {
+              "lat": 42.1519568,
+              "lng": -8.7216123
+            },
+            {
+              "lat": 42.1520567,
+              "lng": -8.7217205
+            },
+            {
+              "lat": 42.1521879,
+              "lng": -8.7217575
+            },
+            {
+              "lat": 42.1523202,
+              "lng": -8.7217149
+            },
+            {
+              "lat": 42.1524015,
+              "lng": -8.721603
+            },
+            {
+              "lat": 42.1524677,
+              "lng": -8.7214262
+            },
+            {
+              "lat": 42.1525476,
+              "lng": -8.721218
+            }
+          ]
+        },
+        {
+          "id": "52669362",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1545378,
+              "lng": -8.7194556
+            },
+            {
+              "lat": 42.1545478,
+              "lng": -8.719493
+            },
+            {
+              "lat": 42.1545539,
+              "lng": -8.7195676
+            }
+          ]
+        },
+        {
+          "id": "52669363",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1542965,
+              "lng": -8.7193146
+            },
+            {
+              "lat": 42.1544503,
+              "lng": -8.7193474
+            },
+            {
+              "lat": 42.1544911,
+              "lng": -8.7193823
+            },
+            {
+              "lat": 42.1545205,
+              "lng": -8.719423
+            },
+            {
+              "lat": 42.1545378,
+              "lng": -8.7194556
+            }
+          ]
+        },
+        {
+          "id": "69063177",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.1109843,
+              "lng": -8.7908569
+            },
+            {
+              "lat": 42.1112016,
+              "lng": -8.7906431
+            },
+            {
+              "lat": 42.1118298,
+              "lng": -8.7901549
+            },
+            {
+              "lat": 42.1123193,
+              "lng": -8.7898708
+            },
+            {
+              "lat": 42.1128294,
+              "lng": -8.7896632
+            },
+            {
+              "lat": 42.113453,
+              "lng": -8.789523
+            },
+            {
+              "lat": 42.1139578,
+              "lng": -8.7894984
+            },
+            {
+              "lat": 42.1143447,
+              "lng": -8.7895132
+            }
+          ]
+        },
+        {
+          "id": "69063179",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.1240314,
+              "lng": -8.7666592
+            },
+            {
+              "lat": 42.1236806,
+              "lng": -8.7670546
+            },
+            {
+              "lat": 42.1231344,
+              "lng": -8.7677839
+            },
+            {
+              "lat": 42.1229752,
+              "lng": -8.7680754
+            },
+            {
+              "lat": 42.1226432,
+              "lng": -8.768733
+            }
+          ]
+        },
+        {
+          "id": "69063180",
+          "version": 8,
+          "line": [
+            {
+              "lat": 42.1253793,
+              "lng": -8.7656035
+            },
+            {
+              "lat": 42.125871,
+              "lng": -8.7654806
+            },
+            {
+              "lat": 42.1262662,
+              "lng": -8.7654247
+            },
+            {
+              "lat": 42.1267501,
+              "lng": -8.7654487
+            },
+            {
+              "lat": 42.1270751,
+              "lng": -8.7655033
+            },
+            {
+              "lat": 42.1273362,
+              "lng": -8.7655849
+            },
+            {
+              "lat": 42.127616,
+              "lng": -8.7656944
+            },
+            {
+              "lat": 42.1278706,
+              "lng": -8.7658111
+            },
+            {
+              "lat": 42.1281583,
+              "lng": -8.7659436
+            },
+            {
+              "lat": 42.1284201,
+              "lng": -8.7660728
+            },
+            {
+              "lat": 42.128637,
+              "lng": -8.7661647
+            },
+            {
+              "lat": 42.1287915,
+              "lng": -8.766213
+            },
+            {
+              "lat": 42.1289725,
+              "lng": -8.766263
+            },
+            {
+              "lat": 42.1291643,
+              "lng": -8.7663054
+            },
+            {
+              "lat": 42.1295409,
+              "lng": -8.7663649
+            },
+            {
+              "lat": 42.129998,
+              "lng": -8.7663951
+            },
+            {
+              "lat": 42.133885,
+              "lng": -8.766131
+            },
+            {
+              "lat": 42.134393,
+              "lng": -8.766066
+            },
+            {
+              "lat": 42.134905,
+              "lng": -8.765936
+            },
+            {
+              "lat": 42.135403,
+              "lng": -8.765736
+            },
+            {
+              "lat": 42.13589,
+              "lng": -8.76548
+            },
+            {
+              "lat": 42.139751,
+              "lng": -8.763201
+            },
+            {
+              "lat": 42.141171,
+              "lng": -8.762238
+            },
+            {
+              "lat": 42.142061,
+              "lng": -8.761494
+            },
+            {
+              "lat": 42.142888,
+              "lng": -8.760656
+            },
+            {
+              "lat": 42.143656,
+              "lng": -8.75977
+            },
+            {
+              "lat": 42.14402,
+              "lng": -8.759301
+            },
+            {
+              "lat": 42.1442903,
+              "lng": -8.75891
+            },
+            {
+              "lat": 42.144528,
+              "lng": -8.758566
+            },
+            {
+              "lat": 42.145139,
+              "lng": -8.757555
+            },
+            {
+              "lat": 42.145589,
+              "lng": -8.7567227
+            },
+            {
+              "lat": 42.145986,
+              "lng": -8.7558677
+            },
+            {
+              "lat": 42.1462223,
+              "lng": -8.7552808
+            },
+            {
+              "lat": 42.1463889,
+              "lng": -8.7548558
+            },
+            {
+              "lat": 42.1465351,
+              "lng": -8.7544598
+            },
+            {
+              "lat": 42.146709,
+              "lng": -8.7539476
+            },
+            {
+              "lat": 42.1468575,
+              "lng": -8.753484
+            },
+            {
+              "lat": 42.1470053,
+              "lng": -8.7529773
+            },
+            {
+              "lat": 42.147216,
+              "lng": -8.7521796
+            },
+            {
+              "lat": 42.1474914,
+              "lng": -8.7510448
+            },
+            {
+              "lat": 42.1476184,
+              "lng": -8.750577
+            },
+            {
+              "lat": 42.1477843,
+              "lng": -8.7500401
+            },
+            {
+              "lat": 42.1479296,
+              "lng": -8.7496518
+            },
+            {
+              "lat": 42.1480563,
+              "lng": -8.7493468
+            },
+            {
+              "lat": 42.1482047,
+              "lng": -8.7490353
+            },
+            {
+              "lat": 42.1483354,
+              "lng": -8.7487815
+            },
+            {
+              "lat": 42.1485589,
+              "lng": -8.7484005
+            },
+            {
+              "lat": 42.148833,
+              "lng": -8.7479902
+            },
+            {
+              "lat": 42.148976,
+              "lng": -8.7478059
+            },
+            {
+              "lat": 42.149135,
+              "lng": -8.7476106
+            },
+            {
+              "lat": 42.1493181,
+              "lng": -8.747404
+            },
+            {
+              "lat": 42.1494987,
+              "lng": -8.7472157
+            },
+            {
+              "lat": 42.149721,
+              "lng": -8.7470049
+            },
+            {
+              "lat": 42.1506132,
+              "lng": -8.7462369
+            },
+            {
+              "lat": 42.1508398,
+              "lng": -8.7460139
+            },
+            {
+              "lat": 42.1510178,
+              "lng": -8.7458259
+            },
+            {
+              "lat": 42.1512318,
+              "lng": -8.7455723
+            },
+            {
+              "lat": 42.15146,
+              "lng": -8.7452563
+            },
+            {
+              "lat": 42.1516316,
+              "lng": -8.744982
+            },
+            {
+              "lat": 42.1518259,
+              "lng": -8.7446318
+            },
+            {
+              "lat": 42.1520047,
+              "lng": -8.7442452
+            },
+            {
+              "lat": 42.1521511,
+              "lng": -8.7438824
+            },
+            {
+              "lat": 42.1522849,
+              "lng": -8.7434681
+            },
+            {
+              "lat": 42.1523922,
+              "lng": -8.7430808
+            },
+            {
+              "lat": 42.1524758,
+              "lng": -8.7427033
+            },
+            {
+              "lat": 42.1525425,
+              "lng": -8.7422425
+            },
+            {
+              "lat": 42.1525862,
+              "lng": -8.7418627
+            },
+            {
+              "lat": 42.1526028,
+              "lng": -8.7414404
+            },
+            {
+              "lat": 42.1526076,
+              "lng": -8.7410561
+            },
+            {
+              "lat": 42.1525887,
+              "lng": -8.7406697
+            },
+            {
+              "lat": 42.152548,
+              "lng": -8.7402424
+            },
+            {
+              "lat": 42.1524296,
+              "lng": -8.7392475
+            },
+            {
+              "lat": 42.1523551,
+              "lng": -8.7384251
+            },
+            {
+              "lat": 42.152351,
+              "lng": -8.7380326
+            },
+            {
+              "lat": 42.1523534,
+              "lng": -8.737663
+            },
+            {
+              "lat": 42.1523715,
+              "lng": -8.7372746
+            },
+            {
+              "lat": 42.1523993,
+              "lng": -8.7369691
+            },
+            {
+              "lat": 42.1524454,
+              "lng": -8.7365952
+            },
+            {
+              "lat": 42.1525083,
+              "lng": -8.7362269
+            },
+            {
+              "lat": 42.1525853,
+              "lng": -8.7358278
+            },
+            {
+              "lat": 42.1527839,
+              "lng": -8.7350091
+            },
+            {
+              "lat": 42.1528909,
+              "lng": -8.7345568
+            },
+            {
+              "lat": 42.1529581,
+              "lng": -8.7342374
+            },
+            {
+              "lat": 42.1530271,
+              "lng": -8.7338359
+            },
+            {
+              "lat": 42.1530823,
+              "lng": -8.7334331
+            },
+            {
+              "lat": 42.1531095,
+              "lng": -8.7330742
+            },
+            {
+              "lat": 42.153128,
+              "lng": -8.7327046
+            },
+            {
+              "lat": 42.1531337,
+              "lng": -8.7323566
+            },
+            {
+              "lat": 42.153122,
+              "lng": -8.7320058
+            },
+            {
+              "lat": 42.1531044,
+              "lng": -8.7316983
+            },
+            {
+              "lat": 42.1530895,
+              "lng": -8.7315053
+            },
+            {
+              "lat": 42.1530653,
+              "lng": -8.7312895
+            }
+          ]
+        },
+        {
+          "id": "69063182",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1254063,
+              "lng": -8.7657423
+            },
+            {
+              "lat": 42.1247704,
+              "lng": -8.7660601
+            },
+            {
+              "lat": 42.1246412,
+              "lng": -8.766149
+            }
+          ]
+        },
+        {
+          "id": "69063190",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1246145,
+              "lng": -8.7659914
+            },
+            {
+              "lat": 42.1248221,
+              "lng": -8.7658578
+            },
+            {
+              "lat": 42.1252398,
+              "lng": -8.7656622
+            },
+            {
+              "lat": 42.1253793,
+              "lng": -8.7656035
+            }
+          ]
+        },
+        {
+          "id": "69063191",
+          "version": 9,
+          "line": [
+            {
+              "lat": 42.10985,
+              "lng": -8.7922235
+            },
+            {
+              "lat": 42.1092162,
+              "lng": -8.7925033
+            },
+            {
+              "lat": 42.107427,
+              "lng": -8.7934764
+            }
+          ]
+        },
+        {
+          "id": "69063195",
+          "version": 8,
+          "line": [
+            {
+              "lat": 42.1143447,
+              "lng": -8.7895132
+            },
+            {
+              "lat": 42.1151459,
+              "lng": -8.7895736
+            },
+            {
+              "lat": 42.1155943,
+              "lng": -8.7895705
+            },
+            {
+              "lat": 42.1159614,
+              "lng": -8.7894988
+            },
+            {
+              "lat": 42.1164555,
+              "lng": -8.7893478
+            },
+            {
+              "lat": 42.1166457,
+              "lng": -8.789251
+            },
+            {
+              "lat": 42.116834,
+              "lng": -8.7891476
+            },
+            {
+              "lat": 42.1171079,
+              "lng": -8.7889378
+            }
+          ]
+        },
+        {
+          "id": "69063197",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.1143534,
+              "lng": -8.7896581
+            },
+            {
+              "lat": 42.1139595,
+              "lng": -8.7896351
+            },
+            {
+              "lat": 42.1134748,
+              "lng": -8.7896659
+            },
+            {
+              "lat": 42.1128439,
+              "lng": -8.7898195
+            },
+            {
+              "lat": 42.1123593,
+              "lng": -8.7900094
+            },
+            {
+              "lat": 42.1118925,
+              "lng": -8.7902645
+            },
+            {
+              "lat": 42.1115714,
+              "lng": -8.7904946
+            },
+            {
+              "lat": 42.1112704,
+              "lng": -8.7907639
+            },
+            {
+              "lat": 42.1110604,
+              "lng": -8.790975
+            }
+          ]
+        },
+        {
+          "id": "71903229",
+          "version": 8,
+          "line": [
+            {
+              "lat": 42.1312734,
+              "lng": -8.8009291
+            },
+            {
+              "lat": 42.1306783,
+              "lng": -8.7977973
+            },
+            {
+              "lat": 42.1306497,
+              "lng": -8.7976531
+            },
+            {
+              "lat": 42.1300037,
+              "lng": -8.7942159
+            },
+            {
+              "lat": 42.1298037,
+              "lng": -8.7933748
+            },
+            {
+              "lat": 42.129626,
+              "lng": -8.792861
+            },
+            {
+              "lat": 42.12903,
+              "lng": -8.791305
+            },
+            {
+              "lat": 42.1287122,
+              "lng": -8.790551
+            },
+            {
+              "lat": 42.1285939,
+              "lng": -8.790316
+            },
+            {
+              "lat": 42.1281974,
+              "lng": -8.789673
+            },
+            {
+              "lat": 42.127701,
+              "lng": -8.789173
+            },
+            {
+              "lat": 42.127341,
+              "lng": -8.788911
+            },
+            {
+              "lat": 42.126218,
+              "lng": -8.788275
+            },
+            {
+              "lat": 42.125688,
+              "lng": -8.78786
+            },
+            {
+              "lat": 42.125521,
+              "lng": -8.787693
+            },
+            {
+              "lat": 42.1252354,
+              "lng": -8.7872677
+            },
+            {
+              "lat": 42.1250053,
+              "lng": -8.7868315
+            },
+            {
+              "lat": 42.1248212,
+              "lng": -8.7863346
+            },
+            {
+              "lat": 42.1247432,
+              "lng": -8.7860445
+            },
+            {
+              "lat": 42.1246376,
+              "lng": -8.7855147
+            },
+            {
+              "lat": 42.1246046,
+              "lng": -8.7852063
+            },
+            {
+              "lat": 42.1245674,
+              "lng": -8.7846055
+            },
+            {
+              "lat": 42.1245498,
+              "lng": -8.78417
+            },
+            {
+              "lat": 42.1245309,
+              "lng": -8.7836823
+            },
+            {
+              "lat": 42.1244746,
+              "lng": -8.7830576
+            },
+            {
+              "lat": 42.1243517,
+              "lng": -8.7824736
+            },
+            {
+              "lat": 42.1241576,
+              "lng": -8.7819584
+            }
+          ]
+        },
+        {
+          "id": "71903652",
+          "version": 10,
+          "line": [
+            {
+              "lat": 42.1315828,
+              "lng": -8.80184
+            },
+            {
+              "lat": 42.1316308,
+              "lng": -8.8020799
+            },
+            {
+              "lat": 42.1317557,
+              "lng": -8.802539
+            },
+            {
+              "lat": 42.1318644,
+              "lng": -8.8027872
+            },
+            {
+              "lat": 42.1320111,
+              "lng": -8.803003
+            }
+          ]
+        },
+        {
+          "id": "71904031",
+          "version": 8,
+          "line": [
+            {
+              "lat": 42.1317468,
+              "lng": -8.8032192
+            },
+            {
+              "lat": 42.1316915,
+              "lng": -8.8028747
+            },
+            {
+              "lat": 42.1315745,
+              "lng": -8.8023606
+            },
+            {
+              "lat": 42.1314601,
+              "lng": -8.8018748
+            },
+            {
+              "lat": 42.1313643,
+              "lng": -8.8014281
+            },
+            {
+              "lat": 42.1312734,
+              "lng": -8.8009291
+            }
+          ]
+        },
+        {
+          "id": "167057758",
+          "version": 7,
+          "line": [
+            {
+              "lat": 42.1203965,
+              "lng": -8.7864412
+            },
+            {
+              "lat": 42.1202987,
+              "lng": -8.7865937
+            },
+            {
+              "lat": 42.119688,
+              "lng": -8.7872421
+            },
+            {
+              "lat": 42.1192416,
+              "lng": -8.7876923
+            },
+            {
+              "lat": 42.1185574,
+              "lng": -8.7882868
+            },
+            {
+              "lat": 42.1176687,
+              "lng": -8.7890584
+            },
+            {
+              "lat": 42.1173436,
+              "lng": -8.7893397
+            }
+          ]
+        },
+        {
+          "id": "167057877",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.1147559,
+              "lng": -8.7893613
+            },
+            {
+              "lat": 42.1153186,
+              "lng": -8.7894419
+            },
+            {
+              "lat": 42.115688,
+              "lng": -8.7894457
+            },
+            {
+              "lat": 42.1160664,
+              "lng": -8.7893969
+            },
+            {
+              "lat": 42.1164386,
+              "lng": -8.7893026
+            },
+            {
+              "lat": 42.1166457,
+              "lng": -8.789251
+            }
+          ]
+        },
+        {
+          "id": "167095202",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.1097147,
+              "lng": -8.7920447
+            },
+            {
+              "lat": 42.1101038,
+              "lng": -8.7916693
+            },
+            {
+              "lat": 42.110264,
+              "lng": -8.7914985
+            },
+            {
+              "lat": 42.1104505,
+              "lng": -8.7912756
+            },
+            {
+              "lat": 42.1106458,
+              "lng": -8.790998
+            },
+            {
+              "lat": 42.1108513,
+              "lng": -8.7906969
+            }
+          ]
+        },
+        {
+          "id": "167095504",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.1137676,
+              "lng": -8.7898792
+            },
+            {
+              "lat": 42.1136629,
+              "lng": -8.7898553
+            },
+            {
+              "lat": 42.1134613,
+              "lng": -8.7898318
+            },
+            {
+              "lat": 42.1133332,
+              "lng": -8.7898301
+            },
+            {
+              "lat": 42.1128255,
+              "lng": -8.7899521
+            }
+          ]
+        },
+        {
+          "id": "167096004",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.107427,
+              "lng": -8.7934764
+            },
+            {
+              "lat": 42.106764,
+              "lng": -8.7938681
+            }
+          ]
+        },
+        {
+          "id": "167096005",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.1067175,
+              "lng": -8.7937236
+            },
+            {
+              "lat": 42.1073872,
+              "lng": -8.7933254
+            }
+          ]
+        },
+        {
+          "id": "167096006",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.1073872,
+              "lng": -8.7933254
+            },
+            {
+              "lat": 42.1092132,
+              "lng": -8.7923537
+            },
+            {
+              "lat": 42.1097147,
+              "lng": -8.7920447
+            },
+            {
+              "lat": 42.1102,
+              "lng": -8.791673
+            },
+            {
+              "lat": 42.1108666,
+              "lng": -8.7909762
+            },
+            {
+              "lat": 42.1109843,
+              "lng": -8.7908569
+            }
+          ]
+        },
+        {
+          "id": "167096139",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.1245498,
+              "lng": -8.78417
+            },
+            {
+              "lat": 42.1245076,
+              "lng": -8.7838427
+            },
+            {
+              "lat": 42.1243961,
+              "lng": -8.7829824
+            },
+            {
+              "lat": 42.124335,
+              "lng": -8.7827116
+            },
+            {
+              "lat": 42.1242874,
+              "lng": -8.7825776
+            },
+            {
+              "lat": 42.124235,
+              "lng": -8.78245
+            },
+            {
+              "lat": 42.1241664,
+              "lng": -8.7823179
+            },
+            {
+              "lat": 42.1240625,
+              "lng": -8.7821728
+            },
+            {
+              "lat": 42.1239729,
+              "lng": -8.7820801
+            },
+            {
+              "lat": 42.1238777,
+              "lng": -8.782021
+            },
+            {
+              "lat": 42.1237994,
+              "lng": -8.7820005
+            },
+            {
+              "lat": 42.1237183,
+              "lng": -8.7820005
+            },
+            {
+              "lat": 42.1236305,
+              "lng": -8.7820252
+            },
+            {
+              "lat": 42.1235399,
+              "lng": -8.7820779
+            },
+            {
+              "lat": 42.1234498,
+              "lng": -8.7821781
+            },
+            {
+              "lat": 42.1233962,
+              "lng": -8.7822614
+            },
+            {
+              "lat": 42.1233497,
+              "lng": -8.7823567
+            },
+            {
+              "lat": 42.1231678,
+              "lng": -8.7829089
+            },
+            {
+              "lat": 42.123047,
+              "lng": -8.783109
+            }
+          ]
+        },
+        {
+          "id": "167096338",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1233869,
+              "lng": -8.7770709
+            },
+            {
+              "lat": 42.1236625,
+              "lng": -8.7771133
+            },
+            {
+              "lat": 42.1240829,
+              "lng": -8.7773316
+            },
+            {
+              "lat": 42.1244278,
+              "lng": -8.7777253
+            },
+            {
+              "lat": 42.1246125,
+              "lng": -8.7780977
+            },
+            {
+              "lat": 42.124762,
+              "lng": -8.7785864
+            },
+            {
+              "lat": 42.1247972,
+              "lng": -8.778992
+            },
+            {
+              "lat": 42.1247779,
+              "lng": -8.7793762
+            },
+            {
+              "lat": 42.124718,
+              "lng": -8.7799574
+            },
+            {
+              "lat": 42.1246565,
+              "lng": -8.780465
+            },
+            {
+              "lat": 42.124616,
+              "lng": -8.7811434
+            },
+            {
+              "lat": 42.1246142,
+              "lng": -8.7816344
+            },
+            {
+              "lat": 42.1246424,
+              "lng": -8.7822796
+            },
+            {
+              "lat": 42.1246512,
+              "lng": -8.7827421
+            },
+            {
+              "lat": 42.1246199,
+              "lng": -8.7831053
+            }
+          ]
+        },
+        {
+          "id": "167096339",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.1227721,
+              "lng": -8.7834512
+            },
+            {
+              "lat": 42.1228356,
+              "lng": -8.783181
+            },
+            {
+              "lat": 42.1229658,
+              "lng": -8.7828228
+            },
+            {
+              "lat": 42.1230608,
+              "lng": -8.7824148
+            },
+            {
+              "lat": 42.1230889,
+              "lng": -8.7820234
+            },
+            {
+              "lat": 42.1230291,
+              "lng": -8.7816225
+            },
+            {
+              "lat": 42.1228954,
+              "lng": -8.7812573
+            },
+            {
+              "lat": 42.1225787,
+              "lng": -8.7807971
+            },
+            {
+              "lat": 42.122262,
+              "lng": -8.7804081
+            },
+            {
+              "lat": 42.1220157,
+              "lng": -8.7799432
+            },
+            {
+              "lat": 42.121889,
+              "lng": -8.7794735
+            },
+            {
+              "lat": 42.1218644,
+              "lng": -8.778935
+            },
+            {
+              "lat": 42.1219013,
+              "lng": -8.778611
+            },
+            {
+              "lat": 42.1219541,
+              "lng": -8.7783871
+            },
+            {
+              "lat": 42.1220544,
+              "lng": -8.7780574
+            },
+            {
+              "lat": 42.1222479,
+              "lng": -8.7777206
+            },
+            {
+              "lat": 42.122369,
+              "lng": -8.7775755
+            }
+          ]
+        },
+        {
+          "id": "167096340",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.122369,
+              "lng": -8.7775755
+            },
+            {
+              "lat": 42.1225131,
+              "lng": -8.7774183
+            },
+            {
+              "lat": 42.1226712,
+              "lng": -8.7772879
+            },
+            {
+              "lat": 42.1228406,
+              "lng": -8.7771864
+            },
+            {
+              "lat": 42.1230184,
+              "lng": -8.7771157
+            },
+            {
+              "lat": 42.1232015,
+              "lng": -8.777077
+            },
+            {
+              "lat": 42.1233869,
+              "lng": -8.7770709
+            }
+          ]
+        },
+        {
+          "id": "167329925",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1316308,
+              "lng": -8.8020799
+            },
+            {
+              "lat": 42.1317654,
+              "lng": -8.8023045
+            },
+            {
+              "lat": 42.1319475,
+              "lng": -8.8025805
+            },
+            {
+              "lat": 42.1321658,
+              "lng": -8.8026865
+            },
+            {
+              "lat": 42.1322724,
+              "lng": -8.802703
+            },
+            {
+              "lat": 42.1324732,
+              "lng": -8.8026512
+            },
+            {
+              "lat": 42.1326567,
+              "lng": -8.8024981
+            },
+            {
+              "lat": 42.1327653,
+              "lng": -8.802457
+            }
+          ]
+        },
+        {
+          "id": "184750068",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.152106,
+              "lng": -8.7271177
+            },
+            {
+              "lat": 42.152208,
+              "lng": -8.7275889
+            },
+            {
+              "lat": 42.1523064,
+              "lng": -8.727974
+            },
+            {
+              "lat": 42.1524058,
+              "lng": -8.7283059
+            },
+            {
+              "lat": 42.1526591,
+              "lng": -8.7290961
+            },
+            {
+              "lat": 42.1528271,
+              "lng": -8.7296203
+            },
+            {
+              "lat": 42.1529551,
+              "lng": -8.7300803
+            },
+            {
+              "lat": 42.1530443,
+              "lng": -8.7304736
+            },
+            {
+              "lat": 42.1531098,
+              "lng": -8.7308529
+            },
+            {
+              "lat": 42.1531766,
+              "lng": -8.7313032
+            }
+          ]
+        },
+        {
+          "id": "184750069",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.1519996,
+              "lng": -8.7271412
+            },
+            {
+              "lat": 42.1519517,
+              "lng": -8.726853
+            },
+            {
+              "lat": 42.15191,
+              "lng": -8.7265462
+            },
+            {
+              "lat": 42.151841,
+              "lng": -8.725816
+            },
+            {
+              "lat": 42.1518367,
+              "lng": -8.7250588
+            },
+            {
+              "lat": 42.1518669,
+              "lng": -8.724729
+            },
+            {
+              "lat": 42.1519122,
+              "lng": -8.7243283
+            },
+            {
+              "lat": 42.1519722,
+              "lng": -8.7239231
+            }
+          ]
+        },
+        {
+          "id": "184750076",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.1531766,
+              "lng": -8.7313032
+            },
+            {
+              "lat": 42.1532117,
+              "lng": -8.7316869
+            },
+            {
+              "lat": 42.153231,
+              "lng": -8.7320648
+            },
+            {
+              "lat": 42.1532408,
+              "lng": -8.7325138
+            },
+            {
+              "lat": 42.1532281,
+              "lng": -8.7329011
+            },
+            {
+              "lat": 42.1531996,
+              "lng": -8.7333234
+            },
+            {
+              "lat": 42.1531526,
+              "lng": -8.7337324
+            },
+            {
+              "lat": 42.153088,
+              "lng": -8.7341345
+            },
+            {
+              "lat": 42.1530098,
+              "lng": -8.7345442
+            },
+            {
+              "lat": 42.1528182,
+              "lng": -8.7353424
+            },
+            {
+              "lat": 42.1527177,
+              "lng": -8.7357496
+            },
+            {
+              "lat": 42.1526358,
+              "lng": -8.7361568
+            },
+            {
+              "lat": 42.1525642,
+              "lng": -8.7365559
+            },
+            {
+              "lat": 42.1525111,
+              "lng": -8.7369548
+            },
+            {
+              "lat": 42.1524765,
+              "lng": -8.7373701
+            },
+            {
+              "lat": 42.1524591,
+              "lng": -8.7377991
+            },
+            {
+              "lat": 42.1524628,
+              "lng": -8.7382281
+            },
+            {
+              "lat": 42.1524825,
+              "lng": -8.7386367
+            },
+            {
+              "lat": 42.1525175,
+              "lng": -8.7390496
+            },
+            {
+              "lat": 42.1525611,
+              "lng": -8.7394237
+            },
+            {
+              "lat": 42.1526125,
+              "lng": -8.7398404
+            },
+            {
+              "lat": 42.1526582,
+              "lng": -8.7402451
+            },
+            {
+              "lat": 42.1526923,
+              "lng": -8.7406362
+            },
+            {
+              "lat": 42.152708,
+              "lng": -8.7409068
+            },
+            {
+              "lat": 42.1527131,
+              "lng": -8.7412902
+            },
+            {
+              "lat": 42.1527016,
+              "lng": -8.7417048
+            },
+            {
+              "lat": 42.1526694,
+              "lng": -8.7421077
+            },
+            {
+              "lat": 42.1526112,
+              "lng": -8.7425419
+            },
+            {
+              "lat": 42.1525375,
+              "lng": -8.7429435
+            },
+            {
+              "lat": 42.1524384,
+              "lng": -8.7433402
+            },
+            {
+              "lat": 42.1523219,
+              "lng": -8.7437308
+            },
+            {
+              "lat": 42.1522019,
+              "lng": -8.7440723
+            },
+            {
+              "lat": 42.1520381,
+              "lng": -8.7444612
+            },
+            {
+              "lat": 42.1518693,
+              "lng": -8.7448053
+            },
+            {
+              "lat": 42.1516785,
+              "lng": -8.7451391
+            },
+            {
+              "lat": 42.1514724,
+              "lng": -8.7454498
+            },
+            {
+              "lat": 42.1512542,
+              "lng": -8.7457395
+            },
+            {
+              "lat": 42.1510118,
+              "lng": -8.7460246
+            },
+            {
+              "lat": 42.1507659,
+              "lng": -8.7462696
+            },
+            {
+              "lat": 42.1503691,
+              "lng": -8.7466192
+            },
+            {
+              "lat": 42.1498389,
+              "lng": -8.7470738
+            },
+            {
+              "lat": 42.1494605,
+              "lng": -8.7474367
+            },
+            {
+              "lat": 42.149219,
+              "lng": -8.7477012
+            },
+            {
+              "lat": 42.1489895,
+              "lng": -8.7479868
+            },
+            {
+              "lat": 42.1487783,
+              "lng": -8.748286
+            },
+            {
+              "lat": 42.1485636,
+              "lng": -8.7486133
+            },
+            {
+              "lat": 42.1482969,
+              "lng": -8.749109
+            },
+            {
+              "lat": 42.1481373,
+              "lng": -8.7494545
+            },
+            {
+              "lat": 42.1479709,
+              "lng": -8.7498527
+            },
+            {
+              "lat": 42.1478392,
+              "lng": -8.7502322
+            },
+            {
+              "lat": 42.1476993,
+              "lng": -8.7506944
+            },
+            {
+              "lat": 42.1470344,
+              "lng": -8.7532913
+            },
+            {
+              "lat": 42.1468623,
+              "lng": -8.7538339
+            },
+            {
+              "lat": 42.1466902,
+              "lng": -8.7543624
+            },
+            {
+              "lat": 42.1464792,
+              "lng": -8.7549338
+            },
+            {
+              "lat": 42.1461798,
+              "lng": -8.7556829
+            },
+            {
+              "lat": 42.1458622,
+              "lng": -8.756389
+            },
+            {
+              "lat": 42.1455414,
+              "lng": -8.757041
+            },
+            {
+              "lat": 42.1450779,
+              "lng": -8.7578951
+            },
+            {
+              "lat": 42.1446467,
+              "lng": -8.7585806
+            },
+            {
+              "lat": 42.143655,
+              "lng": -8.760045
+            },
+            {
+              "lat": 42.142811,
+              "lng": -8.761003
+            },
+            {
+              "lat": 42.141888,
+              "lng": -8.761876
+            },
+            {
+              "lat": 42.140925,
+              "lng": -8.762661
+            },
+            {
+              "lat": 42.140171,
+              "lng": -8.763165
+            },
+            {
+              "lat": 42.136055,
+              "lng": -8.765548
+            },
+            {
+              "lat": 42.135298,
+              "lng": -8.765953
+            },
+            {
+              "lat": 42.134783,
+              "lng": -8.766151
+            },
+            {
+              "lat": 42.134248,
+              "lng": -8.766278
+            },
+            {
+              "lat": 42.133431,
+              "lng": -8.766371
+            },
+            {
+              "lat": 42.130478,
+              "lng": -8.766526
+            },
+            {
+              "lat": 42.129425,
+              "lng": -8.766531
+            },
+            {
+              "lat": 42.128643,
+              "lng": -8.766366
+            },
+            {
+              "lat": 42.127111,
+              "lng": -8.765696
+            },
+            {
+              "lat": 42.126583,
+              "lng": -8.765586
+            },
+            {
+              "lat": 42.126313,
+              "lng": -8.765576
+            },
+            {
+              "lat": 42.1258955,
+              "lng": -8.7656194
+            },
+            {
+              "lat": 42.125516,
+              "lng": -8.7657014
+            },
+            {
+              "lat": 42.1254063,
+              "lng": -8.7657423
+            }
+          ]
+        },
+        {
+          "id": "184750077",
+          "version": 6,
+          "line": [
+            {
+              "lat": 42.1530653,
+              "lng": -8.7312895
+            },
+            {
+              "lat": 42.1530071,
+              "lng": -8.7308969
+            },
+            {
+              "lat": 42.1529492,
+              "lng": -8.730565
+            },
+            {
+              "lat": 42.1528619,
+              "lng": -8.7301581
+            },
+            {
+              "lat": 42.1527622,
+              "lng": -8.7297813
+            },
+            {
+              "lat": 42.1526289,
+              "lng": -8.7293509
+            },
+            {
+              "lat": 42.1523915,
+              "lng": -8.728613
+            },
+            {
+              "lat": 42.1522492,
+              "lng": -8.7281672
+            },
+            {
+              "lat": 42.1521679,
+              "lng": -8.7278842
+            },
+            {
+              "lat": 42.1520841,
+              "lng": -8.7275714
+            },
+            {
+              "lat": 42.1519996,
+              "lng": -8.7271412
+            }
+          ]
+        },
+        {
+          "id": "206870568",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.1209225,
+              "lng": -8.7726794
+            },
+            {
+              "lat": 42.1211075,
+              "lng": -8.772531
+            },
+            {
+              "lat": 42.1212603,
+              "lng": -8.7724058
+            },
+            {
+              "lat": 42.121454,
+              "lng": -8.7721913
+            },
+            {
+              "lat": 42.1215645,
+              "lng": -8.7720565
+            },
+            {
+              "lat": 42.1216651,
+              "lng": -8.771877
+            },
+            {
+              "lat": 42.1217272,
+              "lng": -8.7716754
+            },
+            {
+              "lat": 42.1217723,
+              "lng": -8.7714609
+            },
+            {
+              "lat": 42.1218377,
+              "lng": -8.7709707
+            },
+            {
+              "lat": 42.1219009,
+              "lng": -8.7706046
+            },
+            {
+              "lat": 42.1220431,
+              "lng": -8.7701848
+            }
+          ]
+        },
+        {
+          "id": "252789011",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1575964,
+              "lng": -8.7065918
+            },
+            {
+              "lat": 42.157774,
+              "lng": -8.7061613
+            }
+          ]
+        },
+        {
+          "id": "252789012",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1578444,
+              "lng": -8.7063052
+            },
+            {
+              "lat": 42.1577342,
+              "lng": -8.7065702
+            },
+            {
+              "lat": 42.157644,
+              "lng": -8.7068119
+            }
+          ]
+        },
+        {
+          "id": "252789013",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.155233,
+              "lng": -8.7129275
+            },
+            {
+              "lat": 42.1550816,
+              "lng": -8.7133725
+            },
+            {
+              "lat": 42.1548682,
+              "lng": -8.7141472
+            }
+          ]
+        },
+        {
+          "id": "252789014",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.154772,
+              "lng": -8.7140909
+            },
+            {
+              "lat": 42.154963,
+              "lng": -8.71338
+            },
+            {
+              "lat": 42.1551256,
+              "lng": -8.7128583
+            }
+          ]
+        },
+        {
+          "id": "252789015",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.157774,
+              "lng": -8.7061613
+            },
+            {
+              "lat": 42.15798,
+              "lng": -8.705723
+            },
+            {
+              "lat": 42.158259,
+              "lng": -8.7052
+            },
+            {
+              "lat": 42.158503,
+              "lng": -8.704863
+            }
+          ]
+        },
+        {
+          "id": "252789016",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1548682,
+              "lng": -8.7141472
+            },
+            {
+              "lat": 42.1546576,
+              "lng": -8.7149345
+            },
+            {
+              "lat": 42.1545713,
+              "lng": -8.7152106
+            },
+            {
+              "lat": 42.1544708,
+              "lng": -8.7155036
+            },
+            {
+              "lat": 42.1540673,
+              "lng": -8.7164364
+            },
+            {
+              "lat": 42.1537191,
+              "lng": -8.7171307
+            },
+            {
+              "lat": 42.1534903,
+              "lng": -8.7176425
+            },
+            {
+              "lat": 42.1533445,
+              "lng": -8.7180088
+            },
+            {
+              "lat": 42.153223,
+              "lng": -8.7183751
+            },
+            {
+              "lat": 42.1531036,
+              "lng": -8.718788
+            },
+            {
+              "lat": 42.1530029,
+              "lng": -8.7191989
+            }
+          ]
+        },
+        {
+          "id": "252789017",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1551256,
+              "lng": -8.7128583
+            },
+            {
+              "lat": 42.155329,
+              "lng": -8.712333
+            },
+            {
+              "lat": 42.155681,
+              "lng": -8.711585
+            },
+            {
+              "lat": 42.156375,
+              "lng": -8.710345
+            },
+            {
+              "lat": 42.1566969,
+              "lng": -8.7095763
+            },
+            {
+              "lat": 42.1569393,
+              "lng": -8.7087923
+            },
+            {
+              "lat": 42.1573459,
+              "lng": -8.7072331
+            },
+            {
+              "lat": 42.1575964,
+              "lng": -8.7065918
+            }
+          ]
+        },
+        {
+          "id": "252789018",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.157644,
+              "lng": -8.7068119
+            },
+            {
+              "lat": 42.1575231,
+              "lng": -8.7071597
+            },
+            {
+              "lat": 42.1574108,
+              "lng": -8.7075268
+            },
+            {
+              "lat": 42.1572998,
+              "lng": -8.7079293
+            },
+            {
+              "lat": 42.1570842,
+              "lng": -8.7087309
+            },
+            {
+              "lat": 42.1569277,
+              "lng": -8.7092724
+            },
+            {
+              "lat": 42.1567936,
+              "lng": -8.7096804
+            },
+            {
+              "lat": 42.1566493,
+              "lng": -8.7100406
+            },
+            {
+              "lat": 42.1564935,
+              "lng": -8.710397
+            },
+            {
+              "lat": 42.1563173,
+              "lng": -8.7107405
+            },
+            {
+              "lat": 42.1560349,
+              "lng": -8.7112556
+            },
+            {
+              "lat": 42.1556705,
+              "lng": -8.7119181
+            },
+            {
+              "lat": 42.1554993,
+              "lng": -8.7122688
+            },
+            {
+              "lat": 42.155331,
+              "lng": -8.712668
+            },
+            {
+              "lat": 42.155233,
+              "lng": -8.7129275
+            }
+          ]
+        },
+        {
+          "id": "370191205",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1171682,
+              "lng": -8.7894725
+            },
+            {
+              "lat": 42.1170349,
+              "lng": -8.7895655
+            },
+            {
+              "lat": 42.1167911,
+              "lng": -8.7896982
+            },
+            {
+              "lat": 42.116332,
+              "lng": -8.7898643
+            },
+            {
+              "lat": 42.1158653,
+              "lng": -8.7899783
+            },
+            {
+              "lat": 42.1153753,
+              "lng": -8.7899941
+            },
+            {
+              "lat": 42.1151508,
+              "lng": -8.7899882
+            }
+          ]
+        },
+        {
+          "id": "370191206",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1173816,
+              "lng": -8.7889157
+            },
+            {
+              "lat": 42.1171366,
+              "lng": -8.7890987
+            }
+          ]
+        },
+        {
+          "id": "370191207",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1173436,
+              "lng": -8.7893397
+            },
+            {
+              "lat": 42.1171682,
+              "lng": -8.7894725
+            }
+          ]
+        },
+        {
+          "id": "370191208",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1171079,
+              "lng": -8.7889378
+            },
+            {
+              "lat": 42.1173397,
+              "lng": -8.7887579
+            }
+          ]
+        },
+        {
+          "id": "370191209",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1227721,
+              "lng": -8.7834512
+            },
+            {
+              "lat": 42.1230149,
+              "lng": -8.7828511
+            },
+            {
+              "lat": 42.1231989,
+              "lng": -8.7822594
+            },
+            {
+              "lat": 42.1233314,
+              "lng": -8.7816508
+            },
+            {
+              "lat": 42.1233836,
+              "lng": -8.7813308
+            },
+            {
+              "lat": 42.1234475,
+              "lng": -8.7807137
+            },
+            {
+              "lat": 42.1234537,
+              "lng": -8.7800946
+            },
+            {
+              "lat": 42.1234568,
+              "lng": -8.7797587
+            },
+            {
+              "lat": 42.1234005,
+              "lng": -8.7791751
+            },
+            {
+              "lat": 42.1233069,
+              "lng": -8.7785796
+            },
+            {
+              "lat": 42.12325,
+              "lng": -8.7782641
+            },
+            {
+              "lat": 42.122843,
+              "lng": -8.777035
+            },
+            {
+              "lat": 42.122288,
+              "lng": -8.775593
+            },
+            {
+              "lat": 42.12211,
+              "lng": -8.775026
+            },
+            {
+              "lat": 42.121969,
+              "lng": -8.774439
+            },
+            {
+              "lat": 42.121861,
+              "lng": -8.773828
+            },
+            {
+              "lat": 42.121793,
+              "lng": -8.77321
+            },
+            {
+              "lat": 42.121761,
+              "lng": -8.772571
+            },
+            {
+              "lat": 42.121761,
+              "lng": -8.772035
+            }
+          ]
+        },
+        {
+          "id": "370191210",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1171366,
+              "lng": -8.7890987
+            },
+            {
+              "lat": 42.1169144,
+              "lng": -8.7892683
+            },
+            {
+              "lat": 42.1164967,
+              "lng": -8.7894758
+            },
+            {
+              "lat": 42.116092,
+              "lng": -8.7896279
+            },
+            {
+              "lat": 42.115799,
+              "lng": -8.7896708
+            },
+            {
+              "lat": 42.1155363,
+              "lng": -8.7897004
+            },
+            {
+              "lat": 42.1153338,
+              "lng": -8.7897222
+            },
+            {
+              "lat": 42.1151344,
+              "lng": -8.7897248
+            },
+            {
+              "lat": 42.1143534,
+              "lng": -8.7896581
+            }
+          ]
+        },
+        {
+          "id": "432576635",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1108513,
+              "lng": -8.7906969
+            },
+            {
+              "lat": 42.1112283,
+              "lng": -8.790178
+            },
+            {
+              "lat": 42.1116119,
+              "lng": -8.7898002
+            },
+            {
+              "lat": 42.1118829,
+              "lng": -8.7896175
+            },
+            {
+              "lat": 42.1123509,
+              "lng": -8.7894159
+            },
+            {
+              "lat": 42.1124549,
+              "lng": -8.7893948
+            },
+            {
+              "lat": 42.1127257,
+              "lng": -8.78934
+            }
+          ]
+        },
+        {
+          "id": "432576636",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1135249,
+              "lng": -8.7893394
+            },
+            {
+              "lat": 42.1137323,
+              "lng": -8.7893651
+            }
+          ]
+        },
+        {
+          "id": "479718536",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1543268,
+              "lng": -8.7199202
+            },
+            {
+              "lat": 42.1543261,
+              "lng": -8.7197405
+            },
+            {
+              "lat": 42.1543107,
+              "lng": -8.71963
+            },
+            {
+              "lat": 42.1542731,
+              "lng": -8.7195493
+            },
+            {
+              "lat": 42.1542243,
+              "lng": -8.7194898
+            },
+            {
+              "lat": 42.1541681,
+              "lng": -8.7194602
+            }
+          ]
+        },
+        {
+          "id": "586479267",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1111047,
+              "lng": -8.7910831
+            },
+            {
+              "lat": 42.110882,
+              "lng": -8.7913196
+            },
+            {
+              "lat": 42.1107907,
+              "lng": -8.7914121
+            },
+            {
+              "lat": 42.1106638,
+              "lng": -8.7914608
+            }
+          ]
+        },
+        {
+          "id": "586479268",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1128255,
+              "lng": -8.7899521
+            },
+            {
+              "lat": 42.1123875,
+              "lng": -8.7901318
+            },
+            {
+              "lat": 42.1119061,
+              "lng": -8.7904103
+            },
+            {
+              "lat": 42.1114273,
+              "lng": -8.7907731
+            },
+            {
+              "lat": 42.1111047,
+              "lng": -8.7910831
+            }
+          ]
+        },
+        {
+          "id": "629303150",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1239345,
+              "lng": -8.766567
+            },
+            {
+              "lat": 42.1242448,
+              "lng": -8.7662755
+            },
+            {
+              "lat": 42.1246145,
+              "lng": -8.7659914
+            }
+          ]
+        },
+        {
+          "id": "629303151",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1246412,
+              "lng": -8.766149
+            },
+            {
+              "lat": 42.1240314,
+              "lng": -8.7666592
+            }
+          ]
+        },
+        {
+          "id": "629303152",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1226432,
+              "lng": -8.768733
+            },
+            {
+              "lat": 42.1224436,
+              "lng": -8.7693205
+            },
+            {
+              "lat": 42.122133,
+              "lng": -8.770366
+            },
+            {
+              "lat": 42.1220262,
+              "lng": -8.770985
+            }
+          ]
+        },
+        {
+          "id": "629303153",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.121761,
+              "lng": -8.772035
+            },
+            {
+              "lat": 42.1218644,
+              "lng": -8.7711595
+            },
+            {
+              "lat": 42.1219482,
+              "lng": -8.7706301
+            },
+            {
+              "lat": 42.1220431,
+              "lng": -8.7701848
+            }
+          ]
+        },
+        {
+          "id": "769030248",
+          "version": 5,
+          "line": [
+            {
+              "lat": 42.1519722,
+              "lng": -8.7239231
+            },
+            {
+              "lat": 42.1523454,
+              "lng": -8.7223596
+            },
+            {
+              "lat": 42.1524534,
+              "lng": -8.7218287
+            },
+            {
+              "lat": 42.1525476,
+              "lng": -8.721218
+            },
+            {
+              "lat": 42.1525798,
+              "lng": -8.7209873
+            }
+          ]
+        },
+        {
+          "id": "769030907",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1538909,
+              "lng": -8.7193353
+            },
+            {
+              "lat": 42.1540945,
+              "lng": -8.7193267
+            },
+            {
+              "lat": 42.1541783,
+              "lng": -8.7193211
+            }
+          ]
+        },
+        {
+          "id": "769031726",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1220431,
+              "lng": -8.7701848
+            },
+            {
+              "lat": 42.1221324,
+              "lng": -8.7697787
+            },
+            {
+              "lat": 42.1222168,
+              "lng": -8.7694809
+            },
+            {
+              "lat": 42.1223154,
+              "lng": -8.7691832
+            },
+            {
+              "lat": 42.1225005,
+              "lng": -8.7687254
+            }
+          ]
+        },
+        {
+          "id": "769035985",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.123047,
+              "lng": -8.783109
+            },
+            {
+              "lat": 42.1228362,
+              "lng": -8.7835945
+            },
+            {
+              "lat": 42.1224561,
+              "lng": -8.784366
+            },
+            {
+              "lat": 42.1218755,
+              "lng": -8.7851004
+            },
+            {
+              "lat": 42.1215059,
+              "lng": -8.7854974
+            },
+            {
+              "lat": 42.1203965,
+              "lng": -8.7864412
+            },
+            {
+              "lat": 42.1178462,
+              "lng": -8.7885698
+            },
+            {
+              "lat": 42.1173816,
+              "lng": -8.7889157
+            }
+          ]
+        },
+        {
+          "id": "769035986",
+          "version": 3,
+          "line": [
+            {
+              "lat": 42.1173397,
+              "lng": -8.7887579
+            },
+            {
+              "lat": 42.1177714,
+              "lng": -8.7884362
+            },
+            {
+              "lat": 42.1214353,
+              "lng": -8.7853579
+            },
+            {
+              "lat": 42.1218271,
+              "lng": -8.7849591
+            },
+            {
+              "lat": 42.1223573,
+              "lng": -8.7842373
+            },
+            {
+              "lat": 42.1225062,
+              "lng": -8.7839866
+            },
+            {
+              "lat": 42.1227721,
+              "lng": -8.7834512
+            }
+          ]
+        },
+        {
+          "id": "1101960213",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1127257,
+              "lng": -8.78934
+            },
+            {
+              "lat": 42.1129045,
+              "lng": -8.789344
+            }
+          ]
+        },
+        {
+          "id": "1101960214",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1129045,
+              "lng": -8.789344
+            },
+            {
+              "lat": 42.113136,
+              "lng": -8.7893423
+            },
+            {
+              "lat": 42.1135249,
+              "lng": -8.7893394
+            }
+          ]
+        },
+        {
+          "id": "1101960215",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1110604,
+              "lng": -8.790975
+            },
+            {
+              "lat": 42.1109039,
+              "lng": -8.7911246
+            },
+            {
+              "lat": 42.1106638,
+              "lng": -8.7914608
+            }
+          ]
+        },
+        {
+          "id": "1101960216",
+          "version": 4,
+          "line": [
+            {
+              "lat": 42.1106638,
+              "lng": -8.7914608
+            },
+            {
+              "lat": 42.1102515,
+              "lng": -8.7918472
+            },
+            {
+              "lat": 42.10985,
+              "lng": -8.7922235
+            }
+          ]
+        },
+        {
+          "id": "1101966760",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1315168,
+              "lng": -8.8015152
+            },
+            {
+              "lat": 42.1315828,
+              "lng": -8.80184
+            }
+          ]
+        },
+        {
+          "id": "1422181973",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1527287,
+              "lng": -8.7199112
+            },
+            {
+              "lat": 42.152835,
+              "lng": -8.719491
+            }
+          ]
+        },
+        {
+          "id": "1422181974",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1525798,
+              "lng": -8.7209873
+            },
+            {
+              "lat": 42.1526677,
+              "lng": -8.7203414
+            },
+            {
+              "lat": 42.1527287,
+              "lng": -8.7199112
+            }
+          ]
+        },
+        {
+          "id": "1422183082",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1144441,
+              "lng": -8.7899837
+            },
+            {
+              "lat": 42.1143047,
+              "lng": -8.7899206
+            },
+            {
+              "lat": 42.1141831,
+              "lng": -8.7898537
+            },
+            {
+              "lat": 42.1140786,
+              "lng": -8.7898365
+            }
+          ]
+        },
+        {
+          "id": "1422183083",
+          "version": 2,
+          "line": [
+            {
+              "lat": 42.1151508,
+              "lng": -8.7899882
+            },
+            {
+              "lat": 42.1147546,
+              "lng": -8.7899796
+            },
+            {
+              "lat": 42.1144441,
+              "lng": -8.7899837
+            }
+          ]
+        },
+        {
+          "id": "1422200349",
+          "version": 1,
+          "line": [
+            {
+              "lat": 42.1140933,
+              "lng": -8.7893913
+            },
+            {
+              "lat": 42.1142811,
+              "lng": -8.7893655
+            },
+            {
+              "lat": 42.1144807,
+              "lng": -8.7893323
+            },
+            {
+              "lat": 42.1147559,
+              "lng": -8.7893613
+            }
+          ]
+        }
+      ],
+      "evidence": {
+        "checked": "2026-09-16",
+        "tariffSources": [
+          "https://www.autoestradas.com/la-autopista/tarifas/",
+          "https://www.xunta.gal/dog/Publicados/2025/20251231/AnuncioG0765-291225-0001_es.html"
+        ],
+        "geometrySource": "https://www.openstreetmap.org/copyright"
+      }
+    }
+  ],
+  "notes_global": "Disabled closed-system candidate. Explicit source-way access associations and published OD rows; route checks are required separately. © OpenStreetMap contributors."
+}

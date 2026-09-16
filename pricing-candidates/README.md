@@ -126,3 +126,11 @@ blocked, all networks remain not-ready, and Spain stays disabled. Local only.
 Validation: all 656 tests in 34 suites and TypeScript pass; 47 candidate JSON
 files and 36 original snapshot records pass offline integrity. National release
 remains blocked. All changes are local; no country activation or publication.
+
+### AG-55 / AG-57 candidate checkpoint (2026-09-16)
+
+AG-55 now has 12 closed-system OD routes, independent Pastoriza pricing and
+four source-backed exempt AC-15 directions; combined trips are invariant under
+network order. AG-57 adds 24 directed OD routes with separate Ramallosa ramp
+gates. Both preserve unknown Via-T return history as bounded prices. All remain
+disabled pending the explicit access, avoidance and national release worklist.

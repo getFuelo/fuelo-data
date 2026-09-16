@@ -1,8 +1,8 @@
 {
   "catalogOrdersChecked": 2,
   "complete": false,
-  "total": 1493,
-  "passed": 1493,
+  "total": 1497,
+  "passed": 1497,
   "safelyUnavailable": 8,
   "unresolvedPassages": [],
   "failures": [],
@@ -185,6 +185,10 @@
     },
     "c32-whole-journey": {
       "passed": 2,
+      "failed": 0
+    },
+    "general-acceptance": {
+      "passed": 4,
       "failed": 0
     }
   }

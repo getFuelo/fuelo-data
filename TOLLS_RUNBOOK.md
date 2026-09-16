@@ -18,6 +18,20 @@ old cheaper-common-case convention. Historical details remain in Git history.
   off. Publishing `complete:false` will disable ES tolls in clients honoring it.
 - A successful source audit or validator run does not establish exact route prices.
 
+## General-fare release scope — 2026-09-16
+
+Product decision: quote the general light passenger-car fare without a driver
+profile. Personal residency, registration, trip-history and Via-T discounts are
+future work, not release blockers. Keep original tariff sources/candidates for
+traceability, but the assembled national candidate removes eligibility bands.
+Date/time and route-dependent general fares remain in scope. This does not
+waive public-access, geometry, national-inventory or avoidance verification.
+
+`python3 scripts/coverage/audit_access_inventory.py` reconciles the retained
+mainland/Balearic and Canary booth inventories with source records and catalog
+roads. Every point retains its exact reason and evidence. Source linkage or
+membership of a catalog road is NOT a lane-crossing/price certificate.
+
 ## Schema 1 and conventions
 
 `generated` is the data revision date, not an app fetch date. IDs are stable.
@@ -140,3 +154,17 @@ pass in both orders, eight partial-journey safeguards, no unresolved passage in
 this retained corpus, exit 0. Focused regressions: 194 passed. All 76 catalog
 integrity checks and TypeScript pass. Spain readiness remains false pending
 the other documented coverage checks and device acceptance. No push or OSM edit.
+
+### General-fare coverage follow-up
+
+- General-only assembly passes 1,497 retained journeys in both catalog orders;
+  eight intentionally incomplete journeys remain explicitly unavailable.
+- Puigcerdà–Berga exposed missing GIV-4034 entrance geometry at Cadí. Run
+  `python3 scripts/coverage/build_cadi_approaches.py` after the fixed-network and
+  free-corridor builders, before assembling Spain. The gate/fare/tolerance stay
+  unchanged. Four public-endpoint paid/avoided cases are retained.
+- The operator's 2026 AP-6/AP-51/AP-61 matrix marks starred cross-branch cells
+  as non-realizable; they are not missing prices to invent or add together.
+- Access reconciliation currently leaves 39 point records to review across the
+  mainland/Balearic and Canary extracts. Reconciled source/road links are NOT
+  exhaustive access/route certification. Spain remains incomplete.

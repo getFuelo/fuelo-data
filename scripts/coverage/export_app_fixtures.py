@@ -170,3 +170,11 @@ if (ROOT/'audit/2026-09-16/networks/c32/whole-journeys.json').exists():
  target=out/'c32-whole';target.mkdir(exist_ok=True)
  for source,name in [('audit/2026-09-16/networks/c32/whole-journeys.json','cases.json'),('pricing-candidates/c32.json','catalog.json')]:
   (target/name).write_text(json.dumps(json.loads((ROOT/source).read_text()),separators=(',',':'))+'\n')
+
+acceptance = ROOT/'pricing-candidates/general-acceptance'
+if acceptance.exists():
+ rows=[]
+ for request in sorted(acceptance.glob('cadi-*-request.json')):
+  item=json.loads(request.read_text());name=request.stem.removesuffix('-request')
+  rows.append({'name':name,'expectedCents':item['expectedCents'],'response':json.loads((acceptance/(name+'.json')).read_text())})
+ (out/'cadi/general-acceptance.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')

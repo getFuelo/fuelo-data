@@ -4,7 +4,7 @@
   "complete": false,
   "scope": "35 existing catalog entries; this list alone is not proof of the national inventory.",
   "nationalBlockers": [
-    "294 OSM access review groups are not yet all classified; review private/parking/obsolete booths separately.",
+    "Access inventory reconciliation is recorded in audit/2026-09-16/access-inventory-reconciliation.json; source/road linkage is not a lane or pricing certificate.",
     "Canary Islands extract now inventoried separately: nine booth nodes, no mapped major-road tollways. Tourist/parking access fees require explicit scope and classification; do not infer all island access is free.",
     "Release requires all access mappings, applicable tariffs and real route cases; tariff imports alone are insufficient."
   ],
@@ -21,13 +21,16 @@
       ],
       "ready": false,
       "blockers": [
-        "AP-6/AP-51/AP-61 shared settlement passes 58 published public journeys. Remaining public approaches and unlisted cross-branch tariffs are not certified.",
+        "AP-6/AP-51/AP-61 shared settlement passes 58 published public journeys. Remaining public approaches are not certified.",
         "Reversible tunnel lane operational state, all public approaches, complete free access and avoidance remain open."
       ],
       "validatedCorpus": {
         "jointPublicJourneys": 58,
         "internalBoundarySafetyCases": 8
-      }
+      },
+      "resolvedFindings": [
+        "Operator 2026 matrix identifies direct AP-51/AP-61 cross-branch cells as non-realizable, not missing tariffs; see networks/iberpistas-ap61/operator-scope.json."
+      ]
     },
     {
       "catalogId": "es-ap51",
@@ -41,13 +44,16 @@
       ],
       "ready": false,
       "blockers": [
-        "AP-6/AP-51/AP-61 shared settlement passes 58 published public journeys. Remaining public approaches and unlisted cross-branch tariffs are not certified.",
-        "All public approaches, habitual-user eligibility and avoidance remain open."
+        "AP-6/AP-51/AP-61 shared settlement passes 58 published public journeys. Remaining public approaches are not certified.",
+        "All public approaches and avoidance remain open."
       ],
       "validatedCorpus": {
         "jointPublicJourneys": 58,
         "internalBoundarySafetyCases": 8
-      }
+      },
+      "resolvedFindings": [
+        "Operator 2026 matrix identifies direct AP-51/AP-61 cross-branch cells as non-realizable, not missing tariffs; see networks/iberpistas-ap61/operator-scope.json."
+      ]
     },
     {
       "catalogId": "es-ap61",
@@ -60,13 +66,15 @@
       ],
       "ready": false,
       "blockers": [
-        "All published Villalba/San Rafael joint rows and local public journeys pass. Other cross-branch journeys have no mapped published total; do not derive one by summing unrelated rows.",
-        "All public approaches, habitual-user eligibility and avoidance remain open."
+        "All public approaches and avoidance remain open."
       ],
       "validatedCorpus": {
         "jointPublicJourneys": 58,
         "internalBoundarySafetyCases": 8
-      }
+      },
+      "resolvedFindings": [
+        "Operator 2026 matrix identifies direct AP-51/AP-61 cross-branch cells as non-realizable, not missing tariffs; see networks/iberpistas-ap61/operator-scope.json."
+      ]
     },
     {
       "catalogId": "es-ap53",
@@ -121,7 +129,7 @@
       ],
       "ready": false,
       "blockers": [
-        "Ordinary OD geometry mapped; special service-area turnaround tariff, all lane/public/free access checks, regional discounts and avoidance remain open.",
+        "Ordinary OD geometry mapped; special service-area turnaround tariff, all lane/public/free access checks, avoidance remain open.",
         "One committed Alagón 272 reverse endpoint produces a Gallur loop; do not certify that loop as the direct 335-cent journey.",
         "Current tariff validity ends with the concession on 2026-11-10; post-concession charges/free status require new evidence."
       ]
@@ -165,8 +173,7 @@
       "blockers": [
         "Two published same-origin/destination rows need exact access semantics.",
         "Guísamo N-6 public approaches now pass across Ferrol/norte together; Santa Marta, Coruña/Barcala and all free urban approaches remain open.",
-        "All-lane and repeated-trip checks, complete combined journeys and avoidance remain open.",
-        "Unknown Via-T trip history retains a range; national release stays blocked."
+        "All-lane and repeated-trip checks, complete combined journeys and avoidance remain open."
       ],
       "validatedCorpus": {
         "nativeDirectedJourneys": 84,
@@ -418,7 +425,16 @@
       "ready": false,
       "blockers": [
         "Exhaustive approach/partial/reverse/free-road/avoidance route verification remains open."
-      ]
+      ],
+      "resolvedFindings": [
+        "Public Puigcerdà–Berga tests found and fixed GIV-4034 approach way 372179846; both directions quote 1456 cents and both exclusions quote zero."
+      ],
+      "validatedCorpus": {
+        "publicPaidDirections": 2,
+        "publicAvoidedDirections": 2,
+        "originalPlazaDirections": 2,
+        "wholeAndorraBarcelonaJourneys": true
+      }
     },
     {
       "catalogId": "es-vallvidrera",
@@ -495,7 +511,6 @@
       "blockers": [
         "Complete all-lane/public-approach, partial boundary, repeated journey and avoidance corpus.",
         "Keep current AC-15 exemption scope and early termination conditions under review.",
-        "Registered large-family eligibility and precise sub-cent Via-T settlement need separate support.",
         "Country inventory and release integration remain incomplete."
       ],
       "validatedCorpus": {
@@ -518,7 +533,6 @@
       "ready": false,
       "blockers": [
         "Complete all-lane/public-approach, free terminal, partial boundary, repeated journey and avoidance corpus.",
-        "Registered large-family eligibility and precise sub-cent Via-T settlement need separate support.",
         "Country inventory and release integration remain incomplete."
       ],
       "validatedCorpus": {
@@ -558,7 +572,7 @@
       "ready": false,
       "blockers": [
         "Eastern general rows pass twelve journeys, and Orio/Zarautz east pass six source lanes and six real traversals. Combined full AP-8 corridor, local free approaches and conditional Oñaurre remain open.",
-        "Every public approach, alternate lane, special same-zone tariff and discount eligibility require further verification.",
+        "Every public approach, alternate lane, special same-zone general tariff require further verification.",
         "Selective avoidance and national release integration remain open."
       ],
       "validatedCorpus": {
@@ -583,7 +597,7 @@
       ],
       "ready": false,
       "blockers": [
-        "Every public approach, alternate lane, special same-zone tariff and discount eligibility require further verification.",
+        "Every public approach, alternate lane, special same-zone general tariff require further verification.",
         "Selective avoidance and national release integration remain open."
       ],
       "validatedCorpus": {
@@ -604,7 +618,6 @@
       "ready": false,
       "blockers": [
         "Complete public approach, alternate ramp, boundary and repeated-crossing corpus.",
-        "Registered Abiatu monthly discount eligibility/history requires separate profile support.",
         "Country inventory and release integration remain incomplete."
       ],
       "validatedCorpus": {
@@ -628,7 +641,7 @@
       ],
       "ready": false,
       "blockers": [
-        "Every public approach, alternate lane, special same-zone tariff and discount eligibility require further verification.",
+        "Every public approach, alternate lane, special same-zone general tariff require further verification.",
         "Selective avoidance and national release integration remain open."
       ],
       "validatedCorpus": {
@@ -649,7 +662,7 @@
       "ready": false,
       "blockers": [
         "All sixteen directed general rows pass with physical/logical access cuts; exhaustive public approaches, source lanes and partial journeys remain open.",
-        "Selective avoidance and conditional OBE/electric-vehicle discounts require further verification.",
+        "Selective avoidance requires further verification.",
         "National inventory and release certification remain open."
       ],
       "validatedCorpus": {
@@ -690,11 +703,56 @@
     "report": "audit/2026-09-16/spain-integration-results.json",
     "releaseCertified": false,
     "scope": "Combined retained reference routes; not exhaustive national inventory, access, eligibility or avoidance certification.",
-    "retainedRoutes": 1488,
+    "retainedRoutes": 1497,
     "catalogOrdersChecked": 2,
-    "passed": 1488,
+    "passed": 1497,
     "unresolved": [],
     "safelyUnavailable": 8,
     "schema": 5
+  },
+  "tariffPolicy": {
+    "vehicle": "general passenger car",
+    "payment": "cash/card general reference",
+    "personalDiscounts": "Deferred by product decision; no residency, plate, enrollment or trip-history inputs.",
+    "retainedConditions": [
+      "entry/exit",
+      "date",
+      "time"
+    ],
+    "decisionDate": "2026-09-16"
+  },
+  "deferredPersonalDiscounts": [
+    {
+      "catalogId": "es-ap9",
+      "deferred": "Unknown Via-T trip history retains a range; national release stays blocked."
+    },
+    {
+      "catalogId": "es-ag55",
+      "deferred": "Registered large-family eligibility and precise sub-cent Via-T settlement need separate support."
+    },
+    {
+      "catalogId": "es-ag57",
+      "deferred": "Registered large-family eligibility and precise sub-cent Via-T settlement need separate support."
+    },
+    {
+      "catalogId": "es-ap636",
+      "deferred": "Registered Abiatu monthly discount eligibility/history requires separate profile support."
+    }
+  ],
+  "inventoryAudit": {
+    "report": "audit/2026-09-16/access-inventory-reconciliation.json",
+    "points": 765,
+    "pointStatusCounts": {
+      "catalog_road_linked": 223,
+      "source_linked": 382,
+      "scope_excluded": 78,
+      "catalog_geometry_linked": 43,
+      "needs_review": 39
+    },
+    "groups": {
+      "inventory_reconciled": 263,
+      "needs_review": 31
+    },
+    "pricingCertified": false
   }
 }

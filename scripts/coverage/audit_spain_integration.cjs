@@ -45,6 +45,12 @@ for (const [family, file] of [['ap61','free-n603'],['ap8-ap1-shared','free-local
 for (const c of cases) if (c.family === 'ap61' && c.name.split('--').includes('AP6')) c.expectedUnavailable = c.name.startsWith('AP6--') ? 'missing_entry' : 'missing_exit';
 for (const c of read(path.join(fixtures, 'cadi/andorra-barcelona.json'))) cases.push({...c, family:'cadi-whole-journey', expected:c.expectedCents});
 for (const c of read(path.join(fixtures, 'c32-whole/cases.json'))) cases.push({...c, family:'c32-whole-journey', expected:c.expectedCents});
+// Public general-fare acceptance cases retain requests and independent amounts.
+for (const name of ['cadi-south-general','cadi-south-avoided','cadi-north-general','cadi-north-avoided']) {
+ const base = path.join(root, 'pricing-candidates/general-acceptance', name);
+ const request = read(base + '-request.json');
+ cases.push({family:'general-acceptance', name, expected:request.expectedCents, response:read(base + '.json')});
+}
 const catalogs = [catalog, {...catalog, pricing: [...catalog.pricing].reverse()}];
 const report = {catalogOrdersChecked: 2, complete: false, total: cases.length, passed: 0, safelyUnavailable: 0, unresolvedPassages: [], failures: [], byFamily: {}};
 for (const c of cases) {

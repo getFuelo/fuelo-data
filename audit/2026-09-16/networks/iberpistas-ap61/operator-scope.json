@@ -1,0 +1,11 @@
+{
+  "checked": "2026-09-16",
+  "source": "https://www.autopistas.com/wp-content/uploads/2025/12/26_004-Castellana-AP6_AP51_AP61-T26.pdf",
+  "finding": "The operator explicitly marks starred cells as non-realizable journeys. AP-51 Avila/Vicolozano to AP-61 Otero/Ortigosa/Hontoria/Segovia are starred, not missing zero-price or summable tariff rows.",
+  "effect": "Do not require invented cross-branch fares to close general-fare scope. A route that leaves and re-enters must settle the separately observed complete journeys. Retain fail-closed behavior for an impossible direct OD.",
+  "unchangedRequirements": [
+    "public approach geometry",
+    "valid entry/exit sequences",
+    "actual avoidance behavior"
+  ]
+}

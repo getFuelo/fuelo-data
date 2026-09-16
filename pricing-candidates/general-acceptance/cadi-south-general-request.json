@@ -1,0 +1,26 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.4312,
+        "lon": 1.9284
+      },
+      {
+        "lat": 42.1044,
+        "lon": 1.8461
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "expectedCents": 1456,
+  "source": "https://tunels.cat/es/tunel-del-cadi/",
+  "scope": "General light car, public endpoints Puigcerdà–Berga; explicit Cadí exclusion in avoided cases."
+}

@@ -1,0 +1,109 @@
+{
+  "checked": "2026-09-16",
+  "scope": "Public-road tolls for general passenger cars; classification does not mean zero total trip expenses. Parking and facility admission are separate charges.",
+  "decisions": [
+    {
+      "id": "ap7-alicante-free",
+      "nodes": [
+        386569760,
+        1371923207,
+        1371923210,
+        1371985349,
+        2161291586,
+        2473353129,
+        2473353403
+      ],
+      "category": "free_public_road",
+      "source": "https://boe.es/buscar/doc.php?id=BOE-A-2025-25961",
+      "reason": "AP-7 Circunvalación de Alicante has zero general fare; source node names identify its four former plazas. This does not apply to Alicante–Cartagena."
+    },
+    {
+      "id": "bilbao-express",
+      "nodes": [
+        264162992,
+        12488386728
+      ],
+      "category": "parking",
+      "source": "https://www.aena.es/es/bilbao/parking/nt/express-salidas.html",
+      "reason": "Both source points are on the departures express parking roadway Irteerak; payment is for parking duration, not a through-road toll."
+    },
+    {
+      "id": "mercamadrid",
+      "nodes": [
+        307715006,
+        308624229,
+        316808467,
+        316808468,
+        385221704,
+        385221705,
+        385221744
+      ],
+      "category": "facility_admission",
+      "source": "https://www.mercamadrid.es/tarifas-acceso-unidad-alimentaria/",
+      "reason": "Source ways are internal Mercamadrid access lanes. The operator describes access, weighing and parking fees; these are not public-road tolls."
+    },
+    {
+      "id": "gipuzkoa-hgv-access",
+      "nodes": [
+        10315534782,
+        10820230137,
+        10820230138,
+        10820230140,
+        10820230141
+      ],
+      "category": "heavy_goods_only",
+      "source": "https://www.euskadi.eus/bopv2/datos/2023/01/2300167a.shtml",
+      "reason": "Source nodes explicitly identify heavy-goods gantries and link the N-I/A-15 operator tariff. General passenger cars are outside this canon."
+    },
+    {
+      "id": "albergaria-portugal",
+      "nodes": [
+        2387826394
+      ],
+      "category": "outside_spain",
+      "source": "https://dre.pt/pdf1sdip/2007/01/00500/01140114.PDF",
+      "reason": "The dated Spain extract overlaps the Portuguese Mata de Albergaria access; the point identifies the Portuguese operator and legal source."
+    },
+    {
+      "id": "barajas-parking",
+      "nodes": [
+        21068588,
+        299285083,
+        364900137,
+        1013505851,
+        1013505892,
+        1697685126,
+        5372669865,
+        13205124970
+      ],
+      "category": "parking",
+      "source": "https://www.aena.es/doc/detalleprensa/medios-transporte-acceso-mad.pdf",
+      "reason": "T1/T2 express and T4 parking entry/exit lanes of Madrid-Barajas; retained node coordinates and local source context identify the airport parking areas."
+    },
+    {
+      "id": "cabarceno-admission",
+      "nodes": [
+        670744564,
+        1895935725,
+        1895935743,
+        3632368540,
+        6025322514,
+        6025322518,
+        12311443304,
+        12311443310
+      ],
+      "category": "facility_admission",
+      "source": "https://entradas.parquedecabarceno.com/home/condicionesventa",
+      "reason": "Obregón and Cabárceno entrances to the zoo, source area way 177670320. These are admission-ticket controls, not public-road toll plazas."
+    },
+    {
+      "id": "tenerife-sur-parking",
+      "nodes": [
+        11560220394
+      ],
+      "category": "parking",
+      "source": "https://www.aena.es/es/tenerife-sur/parking/parking-del-aeropuerto.html",
+      "reason": "Retained point on airport parking access way 235094323; Aena describes the general parking ticket and exit barrier."
+    }
+  ]
+}

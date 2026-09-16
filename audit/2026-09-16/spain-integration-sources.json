@@ -38,6 +38,7 @@
   ],
   "networks": 56,
   "roads": 35,
+  "tariffPolicy": "General light passenger car; no Via-T, residency, registration or trip-history discounts. Date/time bands retained.",
   "roadNormalization": {
     "ap15": "es-ap15",
     "ap636": "es-ap636",

@@ -1,0 +1,2111 @@
+{
+  "sources": [
+    "spain-graph/provenance.json",
+    "canary-islands-graph/provenance.json"
+  ],
+  "method": "Named facility context within 0.003 latitude / 0.004 longitude of retained nodes from the same dated PBFs. Context aids manual scope review; proximity alone never establishes toll ownership or a free fare.",
+  "points": [
+    {
+      "node": 21068588,
+      "nearbyFeatures": [
+        {
+          "id": 167025457,
+          "tags": {
+            "aerodrome": "international",
+            "aerodrome:type": "public",
+            "aeroway": "aerodrome",
+            "contact:facebook": "https://www.facebook.com/aena.es/",
+            "contact:instagram": "https://www.instagram.com/aena.es/",
+            "contact:linkedin": "https://www.linkedin.com/company/aena",
+            "contact:vhf": "118.080",
+            "ele": "610",
+            "iata": "MAD",
+            "icao": "LEMD",
+            "internet_access": "wlan",
+            "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:ar": "مطار مدريد باراخاس الدولي",
+            "name:da": "Adolfo Suárez Madrid-Barajas Lufthavn",
+            "name:de": "Flughafen Adolfo Suárez Madrid-Barajas",
+            "name:en": "Adolfo Suárez Madrid-Barajas Airport",
+            "name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:etymology:wikidata": "Q214367",
+            "name:etymology:wikipedia": "es:Adolfo Suárez",
+            "name:fr": "Aéroport Adolfo Suárez Madrid-Barajas",
+            "name:he": "נמל התעופה מדריד-בראחס",
+            "name:it": "Aeroporto Adolfo Suárez Madrid-Barajas",
+            "name:zh": "马德里-巴拉哈斯机场",
+            "official_name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "official_name:ar": "مطار مدريد باراخاس أدولفو سواريز",
+            "official_name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "operator": "Aena",
+            "rank_aci:2016": "25",
+            "start_date": "1931-04-22",
+            "twitter": "https://x.com/aena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            "website": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "website:en": "https://www.aena.es/en/adolfo-suarez-madrid-barajas.html",
+            "website:es": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "wheelchair": "yes",
+            "wikidata": "Q166276",
+            "wikipedia": "es:Aeropuerto Adolfo Suárez Madrid-Barajas"
+          }
+        },
+        {
+          "id": 556423322,
+          "tags": {
+            "amenity": "parking"
+          }
+        },
+        {
+          "id": 556423335,
+          "tags": {
+            "amenity": "parking"
+          }
+        },
+        {
+          "id": 1058823827,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1058823828,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1058823829,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1058823830,
+          "tags": {
+            "access": "customers",
+            "access:disabled": "designated",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1058823831,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1216841595,
+          "tags": {
+            "amenity": "parking",
+            "building": "yes",
+            "building:levels": "0;1;2;3;t;4",
+            "fee": "yes",
+            "layer": "-1",
+            "name": "Parking Barajas T4 D",
+            "parking": "multi-storey",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1216841596,
+          "tags": {
+            "amenity": "parking",
+            "building": "yes",
+            "name": "Parking Barajas T4 E",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 1216841597,
+          "tags": {
+            "amenity": "parking",
+            "building": "yes",
+            "name": "Parking Barajas T4 F",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 60029051,
+          "tags": {
+            "amenity": "parking_entrance",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 60029060,
+          "tags": {
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 60029391,
+          "tags": {
+            "amenity": "parking_entrance",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 60029398,
+          "tags": {
+            "amenity": "parking_entrance",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 60029408,
+          "tags": {
+            "amenity": "parking_entrance",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 60029416,
+          "tags": {
+            "amenity": "parking_entrance",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 364910497,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "capacity:disabled": "yes",
+            "fee": "yes",
+            "name": "D",
+            "opening_hours": "24/7",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 364910508,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "capacity:disabled": "yes",
+            "fee": "yes",
+            "name": "E",
+            "opening_hours": "24/7",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 364910516,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "capacity:disabled": "yes",
+            "fee": "yes",
+            "name": "F",
+            "opening_hours": "24/7",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 1449632134,
+          "tags": {
+            "amenity": "parking",
+            "fee": "no",
+            "maxstay": "15 minutes",
+            "name": "Aeropuerto T4 Salidas",
+            "name:en": "Airport T4 Departures",
+            "name:es": "Aeropuerto T4 Salidas",
+            "parking": "lane"
+          }
+        },
+        {
+          "id": 6918950518,
+          "tags": {
+            "amenity": "parking",
+            "fee": "no",
+            "maxstay": "15 minutes",
+            "name": "Aeropuerto T4 Salidas",
+            "name:en": "Airport T4 Departures",
+            "name:es": "Aeropuerto T4 Salidas",
+            "parking": "lane"
+          }
+        },
+        {
+          "id": 6918950519,
+          "tags": {
+            "amenity": "parking",
+            "fee": "no",
+            "maxstay": "15 minutes",
+            "name": "Aeropuerto T4 Salidas",
+            "name:en": "Airport T4 Departures",
+            "name:es": "Aeropuerto T4 Salidas",
+            "parking": "lane"
+          }
+        }
+      ]
+    },
+    {
+      "node": 299285083,
+      "nearbyFeatures": [
+        {
+          "id": 23339374,
+          "tags": {
+            "amenity": "parking",
+            "description": "bolsa de taxis",
+            "name": "Bolsa de Taxis",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 23704629,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "building": "parking",
+            "fee": "yes",
+            "name": "Parking P2",
+            "opening_hours": "Mo-Su,PH 00:00-00:00",
+            "parking": "multi-storey",
+            "source": "PNOA"
+          }
+        },
+        {
+          "id": 23704759,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking P1",
+            "opening_hours": "24/7",
+            "parking": "multi-storey",
+            "source": "PNOA",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "id": 33583159,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking P2",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 157431412,
+          "tags": {
+            "amenity": "parking",
+            "name": "Parking de Empleados",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 157526921,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking Express Salidas T2",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 164371301,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "name": "Alquiler de Estacionamiento de Vehículos",
+            "name:en": "Rental car parking",
+            "name:es": "Alquiler de Estacionamiento de Vehículos"
+          }
+        },
+        {
+          "id": 167025457,
+          "tags": {
+            "aerodrome": "international",
+            "aerodrome:type": "public",
+            "aeroway": "aerodrome",
+            "contact:facebook": "https://www.facebook.com/aena.es/",
+            "contact:instagram": "https://www.instagram.com/aena.es/",
+            "contact:linkedin": "https://www.linkedin.com/company/aena",
+            "contact:vhf": "118.080",
+            "ele": "610",
+            "iata": "MAD",
+            "icao": "LEMD",
+            "internet_access": "wlan",
+            "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:ar": "مطار مدريد باراخاس الدولي",
+            "name:da": "Adolfo Suárez Madrid-Barajas Lufthavn",
+            "name:de": "Flughafen Adolfo Suárez Madrid-Barajas",
+            "name:en": "Adolfo Suárez Madrid-Barajas Airport",
+            "name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:etymology:wikidata": "Q214367",
+            "name:etymology:wikipedia": "es:Adolfo Suárez",
+            "name:fr": "Aéroport Adolfo Suárez Madrid-Barajas",
+            "name:he": "נמל התעופה מדריד-בראחס",
+            "name:it": "Aeroporto Adolfo Suárez Madrid-Barajas",
+            "name:zh": "马德里-巴拉哈斯机场",
+            "official_name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "official_name:ar": "مطار مدريد باراخاس أدولفو سواريز",
+            "official_name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "operator": "Aena",
+            "rank_aci:2016": "25",
+            "start_date": "1931-04-22",
+            "twitter": "https://x.com/aena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            "website": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "website:en": "https://www.aena.es/en/adolfo-suarez-madrid-barajas.html",
+            "website:es": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "wheelchair": "yes",
+            "wikidata": "Q166276",
+            "wikipedia": "es:Aeropuerto Adolfo Suárez Madrid-Barajas"
+          }
+        },
+        {
+          "id": 395308834,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Madrid Movilidad - Base de Barajas.",
+            "operator": "Ayuntamiento de Madrid.",
+            "operator:type": "government",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1280906800,
+          "tags": {
+            "access": "private",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking Express T2",
+            "parking": "surface",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1436702854,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "level": "1",
+            "name": "Parking T1 Salidas (dropoff)",
+            "name:en": "Parking T1 Departures  (dropoff)",
+            "name:es": "Parking T1 Salidas (dropoff)",
+            "orientation": "parallel",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1697727960,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124949,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124958,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "surface"
+          }
+        }
+      ]
+    },
+    {
+      "node": 364900137,
+      "nearbyFeatures": [
+        {
+          "id": 167025457,
+          "tags": {
+            "aerodrome": "international",
+            "aerodrome:type": "public",
+            "aeroway": "aerodrome",
+            "contact:facebook": "https://www.facebook.com/aena.es/",
+            "contact:instagram": "https://www.instagram.com/aena.es/",
+            "contact:linkedin": "https://www.linkedin.com/company/aena",
+            "contact:vhf": "118.080",
+            "ele": "610",
+            "iata": "MAD",
+            "icao": "LEMD",
+            "internet_access": "wlan",
+            "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:ar": "مطار مدريد باراخاس الدولي",
+            "name:da": "Adolfo Suárez Madrid-Barajas Lufthavn",
+            "name:de": "Flughafen Adolfo Suárez Madrid-Barajas",
+            "name:en": "Adolfo Suárez Madrid-Barajas Airport",
+            "name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:etymology:wikidata": "Q214367",
+            "name:etymology:wikipedia": "es:Adolfo Suárez",
+            "name:fr": "Aéroport Adolfo Suárez Madrid-Barajas",
+            "name:he": "נמל התעופה מדריד-בראחס",
+            "name:it": "Aeroporto Adolfo Suárez Madrid-Barajas",
+            "name:zh": "马德里-巴拉哈斯机场",
+            "official_name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "official_name:ar": "مطار مدريد باراخاس أدولفو سواريز",
+            "official_name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "operator": "Aena",
+            "rank_aci:2016": "25",
+            "start_date": "1931-04-22",
+            "twitter": "https://x.com/aena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            "website": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "website:en": "https://www.aena.es/en/adolfo-suarez-madrid-barajas.html",
+            "website:es": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "wheelchair": "yes",
+            "wikidata": "Q166276",
+            "wikipedia": "es:Aeropuerto Adolfo Suárez Madrid-Barajas"
+          }
+        },
+        {
+          "id": 1216841585,
+          "tags": {
+            "amenity": "parking",
+            "building": "yes",
+            "building:levels": "0;1;2;3;t;4",
+            "fee": "yes",
+            "layer": "-1",
+            "name": "Parking Barajas T4 A",
+            "parking": "multi-storey",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1216841586,
+          "tags": {
+            "amenity": "parking",
+            "building": "yes",
+            "building:levels": "0;1;2;3;t;4",
+            "fee": "yes",
+            "layer": "-1",
+            "name": "Parking Barajas T4 B",
+            "parking": "multi-storey",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1216841590,
+          "tags": {
+            "amenity": "parking",
+            "building": "yes",
+            "building:levels": "0;1;2;3;t;4",
+            "fee": "yes",
+            "layer": "-1",
+            "name": "Parking Barajas T4 C",
+            "parking": "multi-storey",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 60028860,
+          "tags": {
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 60028891,
+          "tags": {
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 60028904,
+          "tags": {
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 364910487,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "capacity:disabled": "yes",
+            "fee": "yes",
+            "name": "A",
+            "opening_hours": "24/7",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 364910491,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "capacity:disabled": "yes",
+            "fee": "yes",
+            "name": "B",
+            "opening_hours": "24/7",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 364910494,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "capacity:disabled": "yes",
+            "fee": "yes",
+            "name": "C",
+            "opening_hours": "24/7",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 2543002471,
+          "tags": {
+            "amenity": "parking",
+            "fee": "no",
+            "maxstay": "15 minutes",
+            "name": "Aeropuerto T4 Salidas",
+            "name:en": "Airport T4 Departures",
+            "name:es": "Aeropuerto T4 Salidas",
+            "parking": "lane"
+          }
+        },
+        {
+          "id": 3608739347,
+          "tags": {
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 3608739350,
+          "tags": {
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 4499580617,
+          "tags": {
+            "amenity": "parking_entrance",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 6918950512,
+          "tags": {
+            "amenity": "parking",
+            "fee": "no",
+            "maxstay": "15 minutes",
+            "name": "Aeropuerto T4 Salidas",
+            "name:en": "Airport T4 Departures",
+            "name:es": "Aeropuerto T4 Salidas",
+            "parking": "lane"
+          }
+        },
+        {
+          "id": 6918950513,
+          "tags": {
+            "amenity": "parking",
+            "fee": "no",
+            "maxstay": "15 minutes",
+            "name": "Aeropuerto T4 Salidas",
+            "name:en": "Airport T4 Departures",
+            "name:es": "Aeropuerto T4 Salidas",
+            "parking": "lane"
+          }
+        }
+      ]
+    },
+    {
+      "node": 670744564,
+      "nearbyFeatures": [
+        {
+          "id": 177670320,
+          "tags": {
+            "addr:city": "Obregón",
+            "addr:postcode": "39690",
+            "drive_through": "yes",
+            "emergency:phone": "+34 676 70 22 94",
+            "name": "Parque de la Naturaleza de Cabárceno",
+            "name:en": "Cabarceno Natural Park",
+            "name:es": "Parque de la Naturaleza de Cabárceno",
+            "name:fr": "Cabarceno parc naturel",
+            "name:pt": "Parque Natural Cabarceno",
+            "opening_hours": "Mar 01-Nov 01: Mo-Su 09:30-18:00; Nov 02-Feb 28: Mo-Fr 09:30-17:00; Sa,Su,PH 09:30-18:00",
+            "opening_hours:url": "https://www.parquedecabarceno.com/info/horarios",
+            "operator": "Cantur S. A.",
+            "phone": "+34 942 310 708",
+            "tourism": "zoo",
+            "website": "https://parquedecabarceno.com/",
+            "wheelchair": "limited",
+            "wikidata": "Q2678981",
+            "wikipedia": "es:Parque de la Naturaleza de Cabárceno",
+            "zoo": "safari_park"
+          }
+        },
+        {
+          "id": 257974651,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974652,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 358294677,
+          "tags": {
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1288899440,
+          "tags": {
+            "amenity": "parking"
+          }
+        }
+      ]
+    },
+    {
+      "node": 1013505851,
+      "nearbyFeatures": [
+        {
+          "id": 23704759,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking P1",
+            "opening_hours": "24/7",
+            "parking": "multi-storey",
+            "source": "PNOA",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "id": 164371301,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "name": "Alquiler de Estacionamiento de Vehículos",
+            "name:en": "Rental car parking",
+            "name:es": "Alquiler de Estacionamiento de Vehículos"
+          }
+        },
+        {
+          "id": 167025457,
+          "tags": {
+            "aerodrome": "international",
+            "aerodrome:type": "public",
+            "aeroway": "aerodrome",
+            "contact:facebook": "https://www.facebook.com/aena.es/",
+            "contact:instagram": "https://www.instagram.com/aena.es/",
+            "contact:linkedin": "https://www.linkedin.com/company/aena",
+            "contact:vhf": "118.080",
+            "ele": "610",
+            "iata": "MAD",
+            "icao": "LEMD",
+            "internet_access": "wlan",
+            "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:ar": "مطار مدريد باراخاس الدولي",
+            "name:da": "Adolfo Suárez Madrid-Barajas Lufthavn",
+            "name:de": "Flughafen Adolfo Suárez Madrid-Barajas",
+            "name:en": "Adolfo Suárez Madrid-Barajas Airport",
+            "name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:etymology:wikidata": "Q214367",
+            "name:etymology:wikipedia": "es:Adolfo Suárez",
+            "name:fr": "Aéroport Adolfo Suárez Madrid-Barajas",
+            "name:he": "נמל התעופה מדריד-בראחס",
+            "name:it": "Aeroporto Adolfo Suárez Madrid-Barajas",
+            "name:zh": "马德里-巴拉哈斯机场",
+            "official_name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "official_name:ar": "مطار مدريد باراخاس أدولفو سواريز",
+            "official_name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "operator": "Aena",
+            "rank_aci:2016": "25",
+            "start_date": "1931-04-22",
+            "twitter": "https://x.com/aena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            "website": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "website:en": "https://www.aena.es/en/adolfo-suarez-madrid-barajas.html",
+            "website:es": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "wheelchair": "yes",
+            "wikidata": "Q166276",
+            "wikipedia": "es:Aeropuerto Adolfo Suárez Madrid-Barajas"
+          }
+        },
+        {
+          "id": 557036901,
+          "tags": {
+            "amenity": "parking",
+            "building": "yes",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 1436702854,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "level": "1",
+            "name": "Parking T1 Salidas (dropoff)",
+            "name:en": "Parking T1 Departures  (dropoff)",
+            "name:es": "Parking T1 Salidas (dropoff)",
+            "orientation": "parallel",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 5372653976,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 5372653994,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124949,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124958,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "surface"
+          }
+        }
+      ]
+    },
+    {
+      "node": 1013505892,
+      "nearbyFeatures": [
+        {
+          "id": 23339374,
+          "tags": {
+            "amenity": "parking",
+            "description": "bolsa de taxis",
+            "name": "Bolsa de Taxis",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 23704629,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "building": "parking",
+            "fee": "yes",
+            "name": "Parking P2",
+            "opening_hours": "Mo-Su,PH 00:00-00:00",
+            "parking": "multi-storey",
+            "source": "PNOA"
+          }
+        },
+        {
+          "id": 23704759,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking P1",
+            "opening_hours": "24/7",
+            "parking": "multi-storey",
+            "source": "PNOA",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "id": 33583159,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking P2",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 157431412,
+          "tags": {
+            "amenity": "parking",
+            "name": "Parking de Empleados",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 157526921,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking Express Salidas T2",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 164371301,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "name": "Alquiler de Estacionamiento de Vehículos",
+            "name:en": "Rental car parking",
+            "name:es": "Alquiler de Estacionamiento de Vehículos"
+          }
+        },
+        {
+          "id": 167025457,
+          "tags": {
+            "aerodrome": "international",
+            "aerodrome:type": "public",
+            "aeroway": "aerodrome",
+            "contact:facebook": "https://www.facebook.com/aena.es/",
+            "contact:instagram": "https://www.instagram.com/aena.es/",
+            "contact:linkedin": "https://www.linkedin.com/company/aena",
+            "contact:vhf": "118.080",
+            "ele": "610",
+            "iata": "MAD",
+            "icao": "LEMD",
+            "internet_access": "wlan",
+            "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:ar": "مطار مدريد باراخاس الدولي",
+            "name:da": "Adolfo Suárez Madrid-Barajas Lufthavn",
+            "name:de": "Flughafen Adolfo Suárez Madrid-Barajas",
+            "name:en": "Adolfo Suárez Madrid-Barajas Airport",
+            "name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:etymology:wikidata": "Q214367",
+            "name:etymology:wikipedia": "es:Adolfo Suárez",
+            "name:fr": "Aéroport Adolfo Suárez Madrid-Barajas",
+            "name:he": "נמל התעופה מדריד-בראחס",
+            "name:it": "Aeroporto Adolfo Suárez Madrid-Barajas",
+            "name:zh": "马德里-巴拉哈斯机场",
+            "official_name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "official_name:ar": "مطار مدريد باراخاس أدولفو سواريز",
+            "official_name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "operator": "Aena",
+            "rank_aci:2016": "25",
+            "start_date": "1931-04-22",
+            "twitter": "https://x.com/aena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            "website": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "website:en": "https://www.aena.es/en/adolfo-suarez-madrid-barajas.html",
+            "website:es": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "wheelchair": "yes",
+            "wikidata": "Q166276",
+            "wikipedia": "es:Aeropuerto Adolfo Suárez Madrid-Barajas"
+          }
+        },
+        {
+          "id": 395308834,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Madrid Movilidad - Base de Barajas.",
+            "operator": "Ayuntamiento de Madrid.",
+            "operator:type": "government",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1280906800,
+          "tags": {
+            "access": "private",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking Express T2",
+            "parking": "surface",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1436702854,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "level": "1",
+            "name": "Parking T1 Salidas (dropoff)",
+            "name:en": "Parking T1 Departures  (dropoff)",
+            "name:es": "Parking T1 Salidas (dropoff)",
+            "orientation": "parallel",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1697727960,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124949,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124958,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "surface"
+          }
+        }
+      ]
+    },
+    {
+      "node": 1697685126,
+      "nearbyFeatures": [
+        {
+          "id": 23704629,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "building": "parking",
+            "fee": "yes",
+            "name": "Parking P2",
+            "opening_hours": "Mo-Su,PH 00:00-00:00",
+            "parking": "multi-storey",
+            "source": "PNOA"
+          }
+        },
+        {
+          "id": 33583159,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking P2",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 157525305,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "description": "Mercado Urbano los sábados y Recito Ferial en Fiestas",
+            "fee": "yes",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 157526921,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking Express Salidas T2",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 157551749,
+          "tags": {
+            "access": "no",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 167025457,
+          "tags": {
+            "aerodrome": "international",
+            "aerodrome:type": "public",
+            "aeroway": "aerodrome",
+            "contact:facebook": "https://www.facebook.com/aena.es/",
+            "contact:instagram": "https://www.instagram.com/aena.es/",
+            "contact:linkedin": "https://www.linkedin.com/company/aena",
+            "contact:vhf": "118.080",
+            "ele": "610",
+            "iata": "MAD",
+            "icao": "LEMD",
+            "internet_access": "wlan",
+            "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:ar": "مطار مدريد باراخاس الدولي",
+            "name:da": "Adolfo Suárez Madrid-Barajas Lufthavn",
+            "name:de": "Flughafen Adolfo Suárez Madrid-Barajas",
+            "name:en": "Adolfo Suárez Madrid-Barajas Airport",
+            "name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:etymology:wikidata": "Q214367",
+            "name:etymology:wikipedia": "es:Adolfo Suárez",
+            "name:fr": "Aéroport Adolfo Suárez Madrid-Barajas",
+            "name:he": "נמל התעופה מדריד-בראחס",
+            "name:it": "Aeroporto Adolfo Suárez Madrid-Barajas",
+            "name:zh": "马德里-巴拉哈斯机场",
+            "official_name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "official_name:ar": "مطار مدريد باراخاس أدولفو سواريز",
+            "official_name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "operator": "Aena",
+            "rank_aci:2016": "25",
+            "start_date": "1931-04-22",
+            "twitter": "https://x.com/aena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            "website": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "website:en": "https://www.aena.es/en/adolfo-suarez-madrid-barajas.html",
+            "website:es": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "wheelchair": "yes",
+            "wikidata": "Q166276",
+            "wikipedia": "es:Aeropuerto Adolfo Suárez Madrid-Barajas"
+          }
+        },
+        {
+          "id": 1280906800,
+          "tags": {
+            "access": "private",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking Express T2",
+            "parking": "surface",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 383763446,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 383764208,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 1697727960,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        }
+      ]
+    },
+    {
+      "node": 1895935725,
+      "nearbyFeatures": [
+        {
+          "id": 177670320,
+          "tags": {
+            "addr:city": "Obregón",
+            "addr:postcode": "39690",
+            "drive_through": "yes",
+            "emergency:phone": "+34 676 70 22 94",
+            "name": "Parque de la Naturaleza de Cabárceno",
+            "name:en": "Cabarceno Natural Park",
+            "name:es": "Parque de la Naturaleza de Cabárceno",
+            "name:fr": "Cabarceno parc naturel",
+            "name:pt": "Parque Natural Cabarceno",
+            "opening_hours": "Mar 01-Nov 01: Mo-Su 09:30-18:00; Nov 02-Feb 28: Mo-Fr 09:30-17:00; Sa,Su,PH 09:30-18:00",
+            "opening_hours:url": "https://www.parquedecabarceno.com/info/horarios",
+            "operator": "Cantur S. A.",
+            "phone": "+34 942 310 708",
+            "tourism": "zoo",
+            "website": "https://parquedecabarceno.com/",
+            "wheelchair": "limited",
+            "wikidata": "Q2678981",
+            "wikipedia": "es:Parque de la Naturaleza de Cabárceno",
+            "zoo": "safari_park"
+          }
+        },
+        {
+          "id": 257974651,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974652,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 358294677,
+          "tags": {
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1288899440,
+          "tags": {
+            "amenity": "parking"
+          }
+        }
+      ]
+    },
+    {
+      "node": 1895935743,
+      "nearbyFeatures": [
+        {
+          "id": 177670320,
+          "tags": {
+            "addr:city": "Obregón",
+            "addr:postcode": "39690",
+            "drive_through": "yes",
+            "emergency:phone": "+34 676 70 22 94",
+            "name": "Parque de la Naturaleza de Cabárceno",
+            "name:en": "Cabarceno Natural Park",
+            "name:es": "Parque de la Naturaleza de Cabárceno",
+            "name:fr": "Cabarceno parc naturel",
+            "name:pt": "Parque Natural Cabarceno",
+            "opening_hours": "Mar 01-Nov 01: Mo-Su 09:30-18:00; Nov 02-Feb 28: Mo-Fr 09:30-17:00; Sa,Su,PH 09:30-18:00",
+            "opening_hours:url": "https://www.parquedecabarceno.com/info/horarios",
+            "operator": "Cantur S. A.",
+            "phone": "+34 942 310 708",
+            "tourism": "zoo",
+            "website": "https://parquedecabarceno.com/",
+            "wheelchair": "limited",
+            "wikidata": "Q2678981",
+            "wikipedia": "es:Parque de la Naturaleza de Cabárceno",
+            "zoo": "safari_park"
+          }
+        },
+        {
+          "id": 257974651,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974652,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 358294677,
+          "tags": {
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1288899440,
+          "tags": {
+            "amenity": "parking"
+          }
+        }
+      ]
+    },
+    {
+      "node": 3632368540,
+      "nearbyFeatures": [
+        {
+          "id": 177670320,
+          "tags": {
+            "addr:city": "Obregón",
+            "addr:postcode": "39690",
+            "drive_through": "yes",
+            "emergency:phone": "+34 676 70 22 94",
+            "name": "Parque de la Naturaleza de Cabárceno",
+            "name:en": "Cabarceno Natural Park",
+            "name:es": "Parque de la Naturaleza de Cabárceno",
+            "name:fr": "Cabarceno parc naturel",
+            "name:pt": "Parque Natural Cabarceno",
+            "opening_hours": "Mar 01-Nov 01: Mo-Su 09:30-18:00; Nov 02-Feb 28: Mo-Fr 09:30-17:00; Sa,Su,PH 09:30-18:00",
+            "opening_hours:url": "https://www.parquedecabarceno.com/info/horarios",
+            "operator": "Cantur S. A.",
+            "phone": "+34 942 310 708",
+            "tourism": "zoo",
+            "website": "https://parquedecabarceno.com/",
+            "wheelchair": "limited",
+            "wikidata": "Q2678981",
+            "wikipedia": "es:Parque de la Naturaleza de Cabárceno",
+            "zoo": "safari_park"
+          }
+        },
+        {
+          "id": 257974651,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974652,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 358294677,
+          "tags": {
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1288899440,
+          "tags": {
+            "amenity": "parking"
+          }
+        }
+      ]
+    },
+    {
+      "node": 5372669865,
+      "nearbyFeatures": [
+        {
+          "id": 23339374,
+          "tags": {
+            "amenity": "parking",
+            "description": "bolsa de taxis",
+            "name": "Bolsa de Taxis",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 23704629,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "building": "parking",
+            "fee": "yes",
+            "name": "Parking P2",
+            "opening_hours": "Mo-Su,PH 00:00-00:00",
+            "parking": "multi-storey",
+            "source": "PNOA"
+          }
+        },
+        {
+          "id": 23704759,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking P1",
+            "opening_hours": "24/7",
+            "parking": "multi-storey",
+            "source": "PNOA",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "id": 33583159,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking P2",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 157431412,
+          "tags": {
+            "amenity": "parking",
+            "name": "Parking de Empleados",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 157526921,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking Express Salidas T2",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 164371301,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "name": "Alquiler de Estacionamiento de Vehículos",
+            "name:en": "Rental car parking",
+            "name:es": "Alquiler de Estacionamiento de Vehículos"
+          }
+        },
+        {
+          "id": 167025457,
+          "tags": {
+            "aerodrome": "international",
+            "aerodrome:type": "public",
+            "aeroway": "aerodrome",
+            "contact:facebook": "https://www.facebook.com/aena.es/",
+            "contact:instagram": "https://www.instagram.com/aena.es/",
+            "contact:linkedin": "https://www.linkedin.com/company/aena",
+            "contact:vhf": "118.080",
+            "ele": "610",
+            "iata": "MAD",
+            "icao": "LEMD",
+            "internet_access": "wlan",
+            "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:ar": "مطار مدريد باراخاس الدولي",
+            "name:da": "Adolfo Suárez Madrid-Barajas Lufthavn",
+            "name:de": "Flughafen Adolfo Suárez Madrid-Barajas",
+            "name:en": "Adolfo Suárez Madrid-Barajas Airport",
+            "name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:etymology:wikidata": "Q214367",
+            "name:etymology:wikipedia": "es:Adolfo Suárez",
+            "name:fr": "Aéroport Adolfo Suárez Madrid-Barajas",
+            "name:he": "נמל התעופה מדריד-בראחס",
+            "name:it": "Aeroporto Adolfo Suárez Madrid-Barajas",
+            "name:zh": "马德里-巴拉哈斯机场",
+            "official_name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "official_name:ar": "مطار مدريد باراخاس أدولفو سواريز",
+            "official_name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "operator": "Aena",
+            "rank_aci:2016": "25",
+            "start_date": "1931-04-22",
+            "twitter": "https://x.com/aena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            "website": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "website:en": "https://www.aena.es/en/adolfo-suarez-madrid-barajas.html",
+            "website:es": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "wheelchair": "yes",
+            "wikidata": "Q166276",
+            "wikipedia": "es:Aeropuerto Adolfo Suárez Madrid-Barajas"
+          }
+        },
+        {
+          "id": 395308834,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Madrid Movilidad - Base de Barajas.",
+            "operator": "Ayuntamiento de Madrid.",
+            "operator:type": "government",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1280906800,
+          "tags": {
+            "access": "private",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking Express T2",
+            "parking": "surface",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1436702854,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "level": "1",
+            "name": "Parking T1 Salidas (dropoff)",
+            "name:en": "Parking T1 Departures  (dropoff)",
+            "name:es": "Parking T1 Salidas (dropoff)",
+            "orientation": "parallel",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 1697727960,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124949,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124958,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "surface"
+          }
+        }
+      ]
+    },
+    {
+      "node": 6025322514,
+      "nearbyFeatures": [
+        {
+          "id": 177670320,
+          "tags": {
+            "addr:city": "Obregón",
+            "addr:postcode": "39690",
+            "drive_through": "yes",
+            "emergency:phone": "+34 676 70 22 94",
+            "name": "Parque de la Naturaleza de Cabárceno",
+            "name:en": "Cabarceno Natural Park",
+            "name:es": "Parque de la Naturaleza de Cabárceno",
+            "name:fr": "Cabarceno parc naturel",
+            "name:pt": "Parque Natural Cabarceno",
+            "opening_hours": "Mar 01-Nov 01: Mo-Su 09:30-18:00; Nov 02-Feb 28: Mo-Fr 09:30-17:00; Sa,Su,PH 09:30-18:00",
+            "opening_hours:url": "https://www.parquedecabarceno.com/info/horarios",
+            "operator": "Cantur S. A.",
+            "phone": "+34 942 310 708",
+            "tourism": "zoo",
+            "website": "https://parquedecabarceno.com/",
+            "wheelchair": "limited",
+            "wikidata": "Q2678981",
+            "wikipedia": "es:Parque de la Naturaleza de Cabárceno",
+            "zoo": "safari_park"
+          }
+        },
+        {
+          "id": 257974642,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974644,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974645,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 258031759,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 258033334,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "highway": "residential",
+            "name": "Calle Corraliza",
+            "parking": "street_side",
+            "source": "PNOA",
+            "source:date": "2014",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 462766004,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "Cabarceno Aire",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 513677049,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "capacity": "62",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 592712277,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        }
+      ]
+    },
+    {
+      "node": 6025322518,
+      "nearbyFeatures": [
+        {
+          "id": 177670320,
+          "tags": {
+            "addr:city": "Obregón",
+            "addr:postcode": "39690",
+            "drive_through": "yes",
+            "emergency:phone": "+34 676 70 22 94",
+            "name": "Parque de la Naturaleza de Cabárceno",
+            "name:en": "Cabarceno Natural Park",
+            "name:es": "Parque de la Naturaleza de Cabárceno",
+            "name:fr": "Cabarceno parc naturel",
+            "name:pt": "Parque Natural Cabarceno",
+            "opening_hours": "Mar 01-Nov 01: Mo-Su 09:30-18:00; Nov 02-Feb 28: Mo-Fr 09:30-17:00; Sa,Su,PH 09:30-18:00",
+            "opening_hours:url": "https://www.parquedecabarceno.com/info/horarios",
+            "operator": "Cantur S. A.",
+            "phone": "+34 942 310 708",
+            "tourism": "zoo",
+            "website": "https://parquedecabarceno.com/",
+            "wheelchair": "limited",
+            "wikidata": "Q2678981",
+            "wikipedia": "es:Parque de la Naturaleza de Cabárceno",
+            "zoo": "safari_park"
+          }
+        },
+        {
+          "id": 257974642,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974644,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974645,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 258031759,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 258033334,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "highway": "residential",
+            "name": "Calle Corraliza",
+            "parking": "street_side",
+            "source": "PNOA",
+            "source:date": "2014",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 462766004,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "Cabarceno Aire",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 513677049,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "capacity": "62",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 592712277,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        }
+      ]
+    },
+    {
+      "node": 12311443304,
+      "nearbyFeatures": [
+        {
+          "id": 177670320,
+          "tags": {
+            "addr:city": "Obregón",
+            "addr:postcode": "39690",
+            "drive_through": "yes",
+            "emergency:phone": "+34 676 70 22 94",
+            "name": "Parque de la Naturaleza de Cabárceno",
+            "name:en": "Cabarceno Natural Park",
+            "name:es": "Parque de la Naturaleza de Cabárceno",
+            "name:fr": "Cabarceno parc naturel",
+            "name:pt": "Parque Natural Cabarceno",
+            "opening_hours": "Mar 01-Nov 01: Mo-Su 09:30-18:00; Nov 02-Feb 28: Mo-Fr 09:30-17:00; Sa,Su,PH 09:30-18:00",
+            "opening_hours:url": "https://www.parquedecabarceno.com/info/horarios",
+            "operator": "Cantur S. A.",
+            "phone": "+34 942 310 708",
+            "tourism": "zoo",
+            "website": "https://parquedecabarceno.com/",
+            "wheelchair": "limited",
+            "wikidata": "Q2678981",
+            "wikipedia": "es:Parque de la Naturaleza de Cabárceno",
+            "zoo": "safari_park"
+          }
+        },
+        {
+          "id": 257974644,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974645,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 258033334,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "highway": "residential",
+            "name": "Calle Corraliza",
+            "parking": "street_side",
+            "source": "PNOA",
+            "source:date": "2014",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 462766004,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "Cabarceno Aire",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 513677049,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "capacity": "62",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 592712277,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        }
+      ]
+    },
+    {
+      "node": 12311443310,
+      "nearbyFeatures": [
+        {
+          "id": 177670320,
+          "tags": {
+            "addr:city": "Obregón",
+            "addr:postcode": "39690",
+            "drive_through": "yes",
+            "emergency:phone": "+34 676 70 22 94",
+            "name": "Parque de la Naturaleza de Cabárceno",
+            "name:en": "Cabarceno Natural Park",
+            "name:es": "Parque de la Naturaleza de Cabárceno",
+            "name:fr": "Cabarceno parc naturel",
+            "name:pt": "Parque Natural Cabarceno",
+            "opening_hours": "Mar 01-Nov 01: Mo-Su 09:30-18:00; Nov 02-Feb 28: Mo-Fr 09:30-17:00; Sa,Su,PH 09:30-18:00",
+            "opening_hours:url": "https://www.parquedecabarceno.com/info/horarios",
+            "operator": "Cantur S. A.",
+            "phone": "+34 942 310 708",
+            "tourism": "zoo",
+            "website": "https://parquedecabarceno.com/",
+            "wheelchair": "limited",
+            "wikidata": "Q2678981",
+            "wikipedia": "es:Parque de la Naturaleza de Cabárceno",
+            "zoo": "safari_park"
+          }
+        },
+        {
+          "id": 257974644,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 257974645,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 258033334,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "highway": "residential",
+            "name": "Calle Corraliza",
+            "parking": "street_side",
+            "source": "PNOA",
+            "source:date": "2014",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 462766004,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "Cabarceno Aire",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 513677049,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "capacity": "62",
+            "fee": "no",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 592712277,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "no",
+            "parking": "surface"
+          }
+        }
+      ]
+    },
+    {
+      "node": 13205124970,
+      "nearbyFeatures": [
+        {
+          "id": 23704759,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "Parking P1",
+            "opening_hours": "24/7",
+            "parking": "multi-storey",
+            "source": "PNOA",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "id": 164371301,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "name": "Alquiler de Estacionamiento de Vehículos",
+            "name:en": "Rental car parking",
+            "name:es": "Alquiler de Estacionamiento de Vehículos"
+          }
+        },
+        {
+          "id": 167025457,
+          "tags": {
+            "aerodrome": "international",
+            "aerodrome:type": "public",
+            "aeroway": "aerodrome",
+            "contact:facebook": "https://www.facebook.com/aena.es/",
+            "contact:instagram": "https://www.instagram.com/aena.es/",
+            "contact:linkedin": "https://www.linkedin.com/company/aena",
+            "contact:vhf": "118.080",
+            "ele": "610",
+            "iata": "MAD",
+            "icao": "LEMD",
+            "internet_access": "wlan",
+            "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:ar": "مطار مدريد باراخاس الدولي",
+            "name:da": "Adolfo Suárez Madrid-Barajas Lufthavn",
+            "name:de": "Flughafen Adolfo Suárez Madrid-Barajas",
+            "name:en": "Adolfo Suárez Madrid-Barajas Airport",
+            "name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "name:etymology:wikidata": "Q214367",
+            "name:etymology:wikipedia": "es:Adolfo Suárez",
+            "name:fr": "Aéroport Adolfo Suárez Madrid-Barajas",
+            "name:he": "נמל התעופה מדריד-בראחס",
+            "name:it": "Aeroporto Adolfo Suárez Madrid-Barajas",
+            "name:zh": "马德里-巴拉哈斯机场",
+            "official_name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "official_name:ar": "مطار مدريد باراخاس أدولفو سواريز",
+            "official_name:es": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+            "operator": "Aena",
+            "rank_aci:2016": "25",
+            "start_date": "1931-04-22",
+            "twitter": "https://x.com/aena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            "website": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "website:en": "https://www.aena.es/en/adolfo-suarez-madrid-barajas.html",
+            "website:es": "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+            "wheelchair": "yes",
+            "wikidata": "Q166276",
+            "wikipedia": "es:Aeropuerto Adolfo Suárez Madrid-Barajas"
+          }
+        },
+        {
+          "id": 557036901,
+          "tags": {
+            "amenity": "parking",
+            "building": "yes",
+            "parking": "multi-storey"
+          }
+        },
+        {
+          "id": 1436702854,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "level": "1",
+            "name": "Parking T1 Salidas (dropoff)",
+            "name:en": "Parking T1 Departures  (dropoff)",
+            "name:es": "Parking T1 Salidas (dropoff)",
+            "orientation": "parallel",
+            "parking": "street_side",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "id": 5372653976,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 5372653994,
+          "tags": {
+            "access": "customers",
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124949,
+          "tags": {
+            "amenity": "parking_entrance"
+          }
+        },
+        {
+          "id": 13205124958,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking_entrance",
+            "level": "0",
+            "parking": "surface"
+          }
+        }
+      ]
+    },
+    {
+      "node": 11560220394,
+      "nearbyFeatures": [
+        {
+          "id": 171699537,
+          "tags": {
+            "access": "private",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 482903476,
+          "tags": {
+            "aerodrome": "international",
+            "aerodrome:type": "international",
+            "aeroway": "aerodrome",
+            "ele": "64",
+            "iata": "TFS",
+            "icao": "GCTS",
+            "internet_access": "wlan",
+            "internet_access:ssid": "AIRPORT FREE WIFI AENA",
+            "name": "Aeropuerto de Tenerife Sur - Reina Sofia",
+            "name:da": "Tenerife Syd Lufthavn",
+            "name:de": "Flughafen Teneriffa Süd",
+            "name:en": "Tenerife South Airport",
+            "name:es": "Aeropuerto de Tenerife Sur - Reina Sofia",
+            "name:fi": "Teneriffan eteläinen lentoasema",
+            "name:fr": "Aéroport de Tenerife-Sud",
+            "name:it": "Aeroporto di Tenerife-Sud",
+            "name:nl": "Aeropuerto de Tenerife Sur",
+            "name:pl": "Port lotniczy Aeropuerto de Tenerife Sur",
+            "name:ru": "Аэропорт Тенерифе-Южный",
+            "name:sv": "Teneriffas södra flygplats",
+            "name:tr": "Tenerife Güney Havalimanı",
+            "website": "https://www.aena.es/es/tenerife-sur.html",
+            "wheelchair": "yes",
+            "wikidata": "Q821984",
+            "wikipedia": "es:Aeropuerto de Tenerife Sur"
+          }
+        },
+        {
+          "id": 564373459,
+          "tags": {
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1017542200,
+          "tags": {
+            "amenity": "parking",
+            "name": "PA",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1153971655,
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "B2",
+            "parking": "surface",
+            "ref": "B2"
+          }
+        },
+        {
+          "id": 1153971656,
+          "tags": {
+            "amenity": "parking",
+            "name": "B1",
+            "ref": "B1"
+          }
+        },
+        {
+          "id": 1243795346,
+          "tags": {
+            "access": "unknown",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1243795347,
+          "tags": {
+            "access": "unknown",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        },
+        {
+          "id": 1243795348,
+          "tags": {
+            "access": "unknown",
+            "amenity": "parking",
+            "parking": "surface"
+          }
+        }
+      ]
+    }
+  ]
+}

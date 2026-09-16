@@ -42,6 +42,15 @@ def check():
                     require(all(math.isfinite(p[k]) for k in ('lat','lng')) and abs(p['lat'])<=90 and abs(p['lng'])<=180,prefix+': invalid coordinate')
             if n['pricing']['kind']=='gates':
                 require(set(n['pricing']['fares'])==set(ids),prefix+': missing or orphan gate fare')
+            elif n['pricing']['kind']=='od':
+                pricing=n['pricing'];entries=pricing['entries'];exits=pricing['exits']
+                require(not set(entries)&set(exits) and set(entries+exits)==set(ids),prefix+': invalid OD roles')
+                pairs=[(f['from'],f['to']) for f in pricing['fares']]
+                require(len(set(pairs))==len(pairs),prefix+': duplicate OD fare')
+                require(all(a in entries and b in exits for a,b in pairs),prefix+': orphan OD fare')
+                require(pricing['chargedAt'] in ('entry','exit'),prefix+': invalid charge timing')
+            else:
+                require(False,prefix+': unsupported pricing model')
     manifest=json.loads((ROOT/'pricing-candidates/coverage-status.json').read_text()) if (ROOT/'pricing-candidates/coverage-status.json').exists() else None
     if manifest:
         expected={t['id'] for t in json.loads((ROOT/'tolls-es.json').read_text())['tolls']}

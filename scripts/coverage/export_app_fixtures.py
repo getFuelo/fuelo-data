@@ -16,3 +16,13 @@ for family in ['autema','c32','ap15']:
  routes.append({'family':family,'catalog':catalog,'routes':rows})
 for name,value in [('open-barrier-lanes',lanes),('open-barrier-routes',routes)]:
  (out/(name+'.json')).write_text(json.dumps(value,separators=(',',':'))+'\n')
+
+# Closed-system corpus: preserve every request's independently selected tariff.
+if (ROOT/'pricing-candidates/ap53.json').exists():
+ import shutil
+ target=out/'ap53';target.mkdir(exist_ok=True)
+ shutil.copy(ROOT/'pricing-candidates/ap53.json',target/'catalog.json');cases=[]
+ for path in sorted((ROOT/'pricing-candidates/ap53-routes').glob('*-request.json')):
+  req=json.loads(path.read_text());response=json.loads(path.with_name(path.name.replace('-request','')).read_text())
+  cases.append({'name':path.stem.removesuffix('-request'),'expectedCents':req.get('expectedCents',req.get('expectedIfPaidRouteCents')),'response':response})
+ (target/'cases.json').write_text(json.dumps(cases,separators=(',',':'),ensure_ascii=False)+'\n')

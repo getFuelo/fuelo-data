@@ -64,3 +64,9 @@ Outstanding work includes closed-system entry/exit mapping and joint settlement,
 AP-636 partial trips, eastern Gipuzkoa tariffs, Vallvidrera holidays, recurrence
 eligibility, inventory classification and exhaustive free-road/avoidance cases.
 No national dataset is ready for publication or device release.
+
+The AP-53 follow-up now adds a mapped OD candidate and 22 real reference routes
+(20 general paid zone pairs and two nearby N-525 alternatives). See
+`audit/2026-09-16/networks/ap53/README.md` for source identities, reproduction and
+remaining terminal-zone, eligibility and avoidance gaps. This does not change
+Spain's incomplete status.

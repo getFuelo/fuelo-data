@@ -50,11 +50,20 @@
       "tariffArtifacts": [
         "pricing-candidates/ap53-tariffs.json"
       ],
-      "geometryCandidates": [],
+      "geometryCandidates": [
+        "pricing-candidates/ap53.json"
+      ],
       "ready": false,
       "blockers": [
-        "Physical entry/exit or barrier association and real route corpus remain open."
-      ]
+        "Validate individual Lal\u00edn/Tras do Eixo access journeys and entirely free terminal-zone movements.",
+        "Model return-trip/monthly recurrence eligibility for Via-T without assuming trip history.",
+        "Complete exclusion/avoidance and all-lane approach corpus."
+      ],
+      "validatedCorpus": {
+        "generalDirectedZonePairs": 20,
+        "nearbyFreeRoutes": 2,
+        "missingEntryRegression": true
+      }
     },
     {
       "catalogId": "es-ap66",

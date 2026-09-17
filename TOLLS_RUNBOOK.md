@@ -6,7 +6,32 @@ Read [the complete audit](audit/2026-09-16/README.md) and its `entries.json` bef
 editing or publishing. It supersedes the July 2026 full-build claims and the
 old cheaper-common-case convention. Historical details remain in Git history.
 
-## Current publication status
+## Current scope — approved 2026-09-17
+
+The user explicitly replaced the former “100% country or off” rule with
+representative validation of road tolls for passenger cars at general fares.
+Parking, monument admission and tourist/forest access fees are outside this
+release. Personal, residency, frequent-user and Via-T discounts are deferred.
+Date/time tariff bands remain supported. Unclassified local access points are
+not asserted to be free and do not block reviewed motorway/tunnel journeys.
+
+`tolls-es-reviewed.json` is the schema-6 release consumed by the updated app.
+It deliberately retains `complete:false`, with explicit coverage policy:
+`verified_routes`, `road_tolls`, `light`, `general`. This is not an arbitrary
+partial-data bypass: malformed data, unknown schemas, missing policy and expired
+fares remain rejected. Actual journeys still need covered geometry, valid entry
+and exit, and an applicable fare. Unknown prices must not produce exact savings.
+
+The older `tolls-es.json`, candidate `coverage-status.json`, and exhaustive
+inventory reports remain historical evidence, not the current release gate.
+Do not set their completeness flags to conceal unresolved cases.
+
+Release checks and exceptions: [SCOPED_RELEASE.md](SCOPED_RELEASE.md).
+Publish the reviewed data before distributing the updated app; this local work
+has not published either artifact. Old apps continue using the old endpoint.
+
+## Historical publication status (superseded scope)
+
 
 - Branch `feat/toll-catalog-audit`: repository PR and merge authorized on
   2026-09-16. The experimental national catalog remains a candidate; merging

@@ -1,5 +1,6 @@
 {
-  "catalogOrdersChecked": 2,
+  "catalogOrdersChecked": 4,
+  "productionPathChecked": true,
   "complete": false,
   "total": 1647,
   "passed": 1647,

@@ -32,3 +32,10 @@ doc={'schema':5,**({'unresolvedPassages':unresolved} if unresolved else {}),'gen
 (ROOT/'pricing-candidates/spain-integration.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n')
 (ROOT/'audit/2026-09-16/spain-integration-sources.json').write_text(json.dumps({'complete':False,'sources':sources,'networks':len(pricing),'roads':len(tolls),'tariffPolicy':'General light passenger car; no Via-T, residency, registration or trip-history discounts. Date/time bands retained.','roadNormalization':PARENTS,'passageReview':'audit/2026-09-16/networks/c32/valhalla-mismatch.json','unresolvedPassagesSource':'audit/2026-09-16/networks/c32/unresolved-passages.json' if unresolved else None},indent=2)+'\n')
 print(len(pricing),'settlement networks;',len(tolls),'catalog roads; release disabled')
+
+# Explicit scoped release; the exhaustive inventory candidate remains disabled.
+reviewed = {**doc, 'schema': 6, 'coverage': {
+ 'mode': 'verified_routes', 'vehicle': 'light', 'fare': 'general', 'scope': 'road_tolls'},
+ 'notes_global': 'General passenger-car road tolls. Each journey requires mapped crossings and a valid fare. Unknown journeys remain unavailable. Excludes parking, visitor/forest admission and personal discounts. © OpenStreetMap contributors.'}
+(ROOT/'tolls-es-reviewed.json').write_text(json.dumps(reviewed, ensure_ascii=False, indent=2)+'\n')
+print('Built schema-6 reviewed road-toll release; complete remains false')

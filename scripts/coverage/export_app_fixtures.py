@@ -108,6 +108,12 @@ if (ROOT/'pricing-candidates/ap68-public-approaches').exists():
   req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
  (out/'ap68/public-approaches.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')
 
+if (ROOT/'pricing-candidates/ap53-public').exists():
+ rows=[]
+ for path in sorted((ROOT/'pricing-candidates/ap53-public').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (out/'ap53/public.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')
+
 # Joint AP-8/AP-1 prices include all participating roads exactly once.
 if (ROOT/'pricing-candidates/ap8-ap1-shared.json').exists():
  import shutil
@@ -170,3 +176,29 @@ if (ROOT/'audit/2026-09-16/networks/c32/whole-journeys.json').exists():
  target=out/'c32-whole';target.mkdir(exist_ok=True)
  for source,name in [('audit/2026-09-16/networks/c32/whole-journeys.json','cases.json'),('pricing-candidates/c32.json','catalog.json')]:
   (target/name).write_text(json.dumps(json.loads((ROOT/source).read_text()),separators=(',',':'))+'\n')
+
+acceptance = ROOT/'pricing-candidates/general-acceptance'
+service_area = ROOT/'pricing-candidates/ap68-service-area'
+if service_area.exists():
+ rows=[]
+ for path in sorted(service_area.glob('*-request.json')):
+  request=json.loads(path.read_text());name=path.name.removesuffix('-request.json')
+  rows.append({'name':name,'expectedCents':request['expectedCents'],'response':json.loads((service_area/(name+'.json')).read_text())})
+ (out/'ap68/service-area.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')
+if acceptance.exists():
+ rows=[]
+ for request in sorted(acceptance.glob('cadi-*-request.json')):
+  item=json.loads(request.read_text());name=request.stem.removesuffix('-request')
+  rows.append({'name':name,'expectedCents':item['expectedCents'],'response':json.loads((acceptance/(name+'.json')).read_text())})
+ (out/'cadi/general-acceptance.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
+
+# Keep public exclusion responses alongside the source catalogs. Price totals
+# across adjacent roads are checked against the assembled national candidate.
+for family in ['ap36','ap41','ap7-cartagena-vera','r4','r5','supersur','ag57','ag55','ap8-gipuzkoa-east','r3']:
+ rows=[]
+ for path in sorted((ROOT/'pricing-candidates/general-avoidance').glob(f'{family}-public-*-request.json')):
+  response=path.with_name(path.name.replace('-request.json','.json'))
+  if response.exists():rows.append({'name':path.stem.removesuffix('-request'),'response':json.loads(response.read_text())})
+ if rows:(out/f'{family}/public-avoidance.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
+path=ROOT/'audit/2026-09-16/networks/supersur/missed-western-entry/before.json'
+if path.exists():(out/'supersur/western-entry.json').write_text(json.dumps(json.loads(path.read_text()),separators=(',',':'))+'\n')

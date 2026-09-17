@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (3498733 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="43.4397586" minlon="-3.8663864" maxlat="43.4417586" maxlon="-3.8643864"/>
+ <node id="27421622" visible="true" version="3" changeset="18931098" timestamp="2013-11-16T11:28:05Z" user="catastro_cantabria" uid="617016" lat="43.4440090" lon="-3.8641406"/>
+ <node id="27421623" visible="true" version="3" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4427101" lon="-3.8625307"/>
+ <node id="27421627" visible="true" version="3" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4406327" lon="-3.8656296"/>
+ <node id="27421628" visible="true" version="2" changeset="18198711" timestamp="2013-10-05T16:48:21Z" user="catastro_cantabria" uid="617016" lat="43.4404675" lon="-3.8659920"/>
+ <node id="27421629" visible="true" version="2" changeset="18198711" timestamp="2013-10-05T16:48:21Z" user="catastro_cantabria" uid="617016" lat="43.4405088" lon="-3.8661410"/>
+ <node id="27421630" visible="true" version="2" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4416289" lon="-3.8675130"/>
+ <node id="27421631" visible="true" version="2" changeset="18931143" timestamp="2013-11-16T11:30:31Z" user="catastro_cantabria" uid="617016" lat="43.4423462" lon="-3.8682233"/>
+ <node id="27421632" visible="true" version="1" changeset="16971" timestamp="2007-04-17T13:13:06Z" user="Emilio Gomez" uid="2904" lat="43.4424110" lon="-3.8682709"/>
+ <node id="27421633" visible="true" version="2" changeset="18931143" timestamp="2013-11-16T11:30:31Z" user="catastro_cantabria" uid="617016" lat="43.4424886" lon="-3.8682399"/>
+ <node id="27421634" visible="true" version="2" changeset="18931143" timestamp="2013-11-16T11:30:31Z" user="catastro_cantabria" uid="617016" lat="43.4434271" lon="-3.8661773"/>
+ <node id="27421635" visible="true" version="3" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4434227" lon="-3.8660660"/>
+ <node id="27421636" visible="true" version="2" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4432494" lon="-3.8658471"/>
+ <node id="27421637" visible="true" version="2" changeset="365745" timestamp="2008-08-22T15:06:45Z" user="Emilio Gomez" uid="2904" lat="43.4412630" lon="-3.8647261"/>
+ <node id="27421639" visible="true" version="2" changeset="18931143" timestamp="2013-11-16T11:30:31Z" user="catastro_cantabria" uid="617016" lat="43.4430721" lon="-3.8669678"/>
+ <node id="27422286" visible="true" version="2" changeset="365745" timestamp="2008-08-22T15:05:41Z" user="Emilio Gomez" uid="2904" lat="43.4417461" lon="-3.8639827"/>
+ <node id="27422287" visible="true" version="2" changeset="365745" timestamp="2008-08-22T15:05:41Z" user="Emilio Gomez" uid="2904" lat="43.4430797" lon="-3.8619234"/>
+ <node id="27422288" visible="true" version="2" changeset="365745" timestamp="2008-08-22T15:05:40Z" user="Emilio Gomez" uid="2904" lat="43.4431499" lon="-3.8618434"/>
+ <node id="27422289" visible="true" version="2" changeset="365745" timestamp="2008-08-22T15:05:41Z" user="Emilio Gomez" uid="2904" lat="43.4432408" lon="-3.8618570"/>
+ <node id="27422290" visible="true" version="2" changeset="18554602" timestamp="2013-10-26T17:09:54Z" user="catastro_cantabria" uid="617016" lat="43.4444410" lon="-3.8633134"/>
+ <node id="27422291" visible="true" version="2" changeset="18554602" timestamp="2013-10-26T17:09:54Z" user="catastro_cantabria" uid="617016" lat="43.4444716" lon="-3.8634343"/>
+ <node id="27422292" visible="true" version="2" changeset="18554602" timestamp="2013-10-26T17:09:54Z" user="catastro_cantabria" uid="617016" lat="43.4444003" lon="-3.8635866"/>
+ <node id="27422293" visible="true" version="3" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4430550" lon="-3.8656029"/>
+ <node id="253037043" visible="true" version="4" changeset="18619690" timestamp="2013-10-30T16:08:29Z" user="catastro_cantabria" uid="617016" lat="43.4395085" lon="-3.8651041"/>
+ <node id="290159916" visible="true" version="2" changeset="18931098" timestamp="2013-11-16T11:28:05Z" user="catastro_cantabria" uid="617016" lat="43.4395723" lon="-3.8649478"/>
+ <node id="290159918" visible="true" version="2" changeset="18198711" timestamp="2013-10-05T16:48:22Z" user="catastro_cantabria" uid="617016" lat="43.4394365" lon="-3.8666114"/>
+ <node id="290159919" visible="true" version="4" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4410717" lon="-3.8670456"/>
+ <node id="290159923" visible="true" version="2" changeset="18198711" timestamp="2013-10-05T16:48:22Z" user="catastro_cantabria" uid="617016" lat="43.4426422" lon="-3.8684004"/>
+ <node id="290159925" visible="true" version="2" changeset="18198711" timestamp="2013-10-05T16:48:22Z" user="catastro_cantabria" uid="617016" lat="43.4437368" lon="-3.8658141"/>
+ <node id="290159926" visible="true" version="1" changeset="365745" timestamp="2008-08-22T15:05:06Z" user="Emilio Gomez" uid="2904" lat="43.4442948" lon="-3.8642582"/>
+ <node id="290159927" visible="true" version="2" changeset="18198711" timestamp="2013-10-05T16:48:22Z" user="catastro_cantabria" uid="617016" lat="43.4446394" lon="-3.8634616"/>
+ <node id="290159928" visible="true" version="2" changeset="18198711" timestamp="2013-10-05T16:48:22Z" user="catastro_cantabria" uid="617016" lat="43.4447076" lon="-3.8631863"/>
+ <node id="290159930" visible="true" version="2" changeset="18198711" timestamp="2013-10-05T16:48:22Z" user="catastro_cantabria" uid="617016" lat="43.4434074" lon="-3.8617950"/>
+ <node id="290159931" visible="true" version="1" changeset="365745" timestamp="2008-08-22T15:05:07Z" user="Emilio Gomez" uid="2904" lat="43.4433002" lon="-3.8617663"/>
+ <node id="290159933" visible="true" version="1" changeset="365745" timestamp="2008-08-22T15:05:08Z" user="Emilio Gomez" uid="2904" lat="43.4431972" lon="-3.8617246"/>
+ <node id="290159934" visible="true" version="2" changeset="18554602" timestamp="2013-10-26T17:09:55Z" user="catastro_cantabria" uid="617016" lat="43.4430915" lon="-3.8616822"/>
+ <node id="290159947" visible="true" version="2" changeset="18198711" timestamp="2013-10-05T16:48:22Z" user="catastro_cantabria" uid="617016" lat="43.4429197" lon="-3.8616481"/>
+ <node id="290159950" visible="true" version="2" changeset="18930802" timestamp="2013-11-16T11:10:08Z" user="catastro_cantabria" uid="617016" lat="43.4426885" lon="-3.8619370"/>
+ <node id="290159954" visible="true" version="2" changeset="18619704" timestamp="2013-10-30T16:09:15Z" user="catastro_cantabria" uid="617016" lat="43.4396617" lon="-3.8642977"/>
+ <node id="290160432" visible="true" version="1" changeset="365745" timestamp="2008-08-22T15:06:44Z" user="Emilio Gomez" uid="2904" lat="43.4406350" lon="-3.8639797"/>
+ <node id="2483848203" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4394570" lon="-3.8672064"/>
+ <node id="2483848206" visible="true" version="2" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4395052" lon="-3.8673850"/>
+ <node id="2483848212" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4395531" lon="-3.8647179"/>
+ <node id="2483848215" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4395648" lon="-3.8645827"/>
+ <node id="2483848221" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4395925" lon="-3.8661427"/>
+ <node id="2483848230" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4396289" lon="-3.8655585"/>
+ <node id="2483848239" visible="true" version="3" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4396882" lon="-3.8674202"/>
+ <node id="2483848242" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4397186" lon="-3.8648384"/>
+ <node id="2483848248" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4397494" lon="-3.8653334"/>
+ <node id="2483848251" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4397629" lon="-3.8647452"/>
+ <node id="2483848253" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4397770" lon="-3.8661415"/>
+ <node id="2483848256" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4397989" lon="-3.8653912"/>
+ <node id="2483848265" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:02Z" user="catastro_cantabria" uid="617016" lat="43.4399007" lon="-3.8655099"/>
+ <node id="2483848271" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4399460" lon="-3.8661404"/>
+ <node id="2483848274" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4399571" lon="-3.8656046"/>
+ <node id="2483848278" visible="true" version="3" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4400068" lon="-3.8673379"/>
+ <node id="2483848282" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4401078" lon="-3.8650913"/>
+ <node id="2483848286" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4401122" lon="-3.8649807"/>
+ <node id="2483848298" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4402752" lon="-3.8661382"/>
+ <node id="2483848302" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4403460" lon="-3.8652604"/>
+ <node id="2483848306" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4403737" lon="-3.8651819"/>
+ <node id="2483848346" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4404366" lon="-3.8653610"/>
+ <node id="2483848354" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4404526" lon="-3.8652544"/>
+ <node id="2483848363" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4404772" lon="-3.8660871"/>
+ <node id="2483848367" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:03Z" user="catastro_cantabria" uid="617016" lat="43.4405026" lon="-3.8659067"/>
+ <node id="2483848395" visible="true" version="3" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4406054" lon="-3.8671875"/>
+ <node id="2483848400" visible="true" version="2" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4407137" lon="-3.8656293"/>
+ <node id="2483848481" visible="true" version="2" changeset="18931098" timestamp="2013-11-16T11:28:05Z" user="catastro_cantabria" uid="617016" lat="43.4423962" lon="-3.8684842"/>
+ <node id="2483848504" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:04Z" user="catastro_cantabria" uid="617016" lat="43.4435692" lon="-3.8618051"/>
+ <node id="2483848516" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:04Z" user="catastro_cantabria" uid="617016" lat="43.4440641" lon="-3.8614643"/>
+ <node id="2514086429" visible="true" version="1" changeset="18619704" timestamp="2013-10-30T16:09:14Z" user="catastro_cantabria" uid="617016" lat="43.4395711" lon="-3.8644795"/>
+ <node id="2514086432" visible="true" version="1" changeset="18619704" timestamp="2013-10-30T16:09:14Z" user="catastro_cantabria" uid="617016" lat="43.4396925" lon="-3.8644913"/>
+ <node id="2514086434" visible="true" version="1" changeset="18619704" timestamp="2013-10-30T16:09:14Z" user="catastro_cantabria" uid="617016" lat="43.4398965" lon="-3.8644538"/>
+ <node id="2514086436" visible="true" version="1" changeset="18619704" timestamp="2013-10-30T16:09:14Z" user="catastro_cantabria" uid="617016" lat="43.4399733" lon="-3.8643668"/>
+ <node id="2514086438" visible="true" version="1" changeset="18619704" timestamp="2013-10-30T16:09:14Z" user="catastro_cantabria" uid="617016" lat="43.4400203" lon="-3.8644013"/>
+ <node id="2514086440" visible="true" version="2" changeset="18930802" timestamp="2013-11-16T11:10:08Z" user="catastro_cantabria" uid="617016" lat="43.4400705" lon="-3.8643791"/>
+ <node id="2532333905" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:08Z" user="catastro_cantabria" uid="617016" lat="43.4397929" lon="-3.8652536"/>
+ <node id="2532333908" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:09Z" user="catastro_cantabria" uid="617016" lat="43.4398484" lon="-3.8651847"/>
+ <node id="2532333914" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4399072" lon="-3.8646711"/>
+ <node id="2532333937" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4399730" lon="-3.8647529"/>
+ <node id="2532333972" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:10Z" user="catastro_cantabria" uid="617016" lat="43.4400031" lon="-3.8654202"/>
+ <node id="2532333984" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4400001" lon="-3.8647115"/>
+ <node id="2532333996" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:11Z" user="catastro_cantabria" uid="617016" lat="43.4400345" lon="-3.8653521"/>
+ <node id="2532334006" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:11Z" user="catastro_cantabria" uid="617016" lat="43.4400435" lon="-3.8653682"/>
+ <node id="2532334021" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4400468" lon="-3.8647695"/>
+ <node id="2532334040" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:12Z" user="catastro_cantabria" uid="617016" lat="43.4400727" lon="-3.8653050"/>
+ <node id="2532334057" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:12Z" user="catastro_cantabria" uid="617016" lat="43.4400826" lon="-3.8653201"/>
+ <node id="2532334068" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4400757" lon="-3.8644138"/>
+ <node id="2532334083" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4400848" lon="-3.8645858"/>
+ <node id="2532334141" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:14Z" user="catastro_cantabria" uid="617016" lat="43.4401362" lon="-3.8652538"/>
+ <node id="2532334142" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4401257" lon="-3.8648579"/>
+ <node id="2532334143" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4401302" lon="-3.8646422"/>
+ <node id="2532334151" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:15Z" user="catastro_cantabria" uid="617016" lat="43.4401422" lon="-3.8657808"/>
+ <node id="2532334168" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4401429" lon="-3.8644972"/>
+ <node id="2532334220" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:17Z" user="catastro_cantabria" uid="617016" lat="43.4401966" lon="-3.8657809"/>
+ <node id="2532334253" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:17Z" user="catastro_cantabria" uid="617016" lat="43.4402141" lon="-3.8653706"/>
+ <node id="2532334260" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4402039" lon="-3.8647385"/>
+ <node id="2532334308" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:19Z" user="catastro_cantabria" uid="617016" lat="43.4402412" lon="-3.8653374"/>
+ <node id="2532334421" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:21Z" user="catastro_cantabria" uid="617016" lat="43.4402974" lon="-3.8654253"/>
+ <node id="2532334431" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:22Z" user="catastro_cantabria" uid="617016" lat="43.4403052" lon="-3.8659462"/>
+ <node id="2532334513" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:24Z" user="catastro_cantabria" uid="617016" lat="43.4403521" lon="-3.8653590"/>
+ <node id="2532334583" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:26Z" user="catastro_cantabria" uid="617016" lat="43.4403964" lon="-3.8650494"/>
+ <node id="2532334598" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:26Z" user="catastro_cantabria" uid="617016" lat="43.4404103" lon="-3.8654482"/>
+ <node id="2532334610" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:26Z" user="catastro_cantabria" uid="617016" lat="43.4404173" lon="-3.8655078"/>
+ <node id="2532334777" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:31Z" user="catastro_cantabria" uid="617016" lat="43.4405259" lon="-3.8656731"/>
+ <node id="2532334840" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:32Z" user="catastro_cantabria" uid="617016" lat="43.4405686" lon="-3.8661067"/>
+ <node id="2532334913" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:34Z" user="catastro_cantabria" uid="617016" lat="43.4406116" lon="-3.8660415"/>
+ <node id="2532334964" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:35Z" user="catastro_cantabria" uid="617016" lat="43.4406328" lon="-3.8653334"/>
+ <node id="2532334989" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:35Z" user="catastro_cantabria" uid="617016" lat="43.4406522" lon="-3.8647869"/>
+ <node id="2532334994" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4406549" lon="-3.8646440"/>
+ <node id="2532334999" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4406615" lon="-3.8653555"/>
+ <node id="2532335012" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407051" lon="-3.8647042"/>
+ <node id="2532335014" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407184" lon="-3.8652671"/>
+ <node id="2532335015" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407194" lon="-3.8658640"/>
+ <node id="2532335016" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407222" lon="-3.8658746"/>
+ <node id="2532335017" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407223" lon="-3.8658343"/>
+ <node id="2532335018" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407262" lon="-3.8658178"/>
+ <node id="2532335019" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407269" lon="-3.8658473"/>
+ <node id="2532335022" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407325" lon="-3.8663100"/>
+ <node id="2532335027" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407383" lon="-3.8658107"/>
+ <node id="2532335031" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407476" lon="-3.8658155"/>
+ <node id="2532335036" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:36Z" user="catastro_cantabria" uid="617016" lat="43.4407755" lon="-3.8662448"/>
+ <node id="2532335037" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:37Z" user="catastro_cantabria" uid="617016" lat="43.4407782" lon="-3.8657488"/>
+ <node id="2532335041" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:37Z" user="catastro_cantabria" uid="617016" lat="43.4407821" lon="-3.8657322"/>
+ <node id="2532335042" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:37Z" user="catastro_cantabria" uid="617016" lat="43.4407828" lon="-3.8657617"/>
+ <node id="2532335050" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:37Z" user="catastro_cantabria" uid="617016" lat="43.4407943" lon="-3.8657251"/>
+ <node id="2532335052" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:37Z" user="catastro_cantabria" uid="617016" lat="43.4408036" lon="-3.8657300"/>
+ <node id="2532335070" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:37Z" user="catastro_cantabria" uid="617016" lat="43.4408233" lon="-3.8643799"/>
+ <node id="2532335081" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:38Z" user="catastro_cantabria" uid="617016" lat="43.4408345" lon="-3.8656629"/>
+ <node id="2532335082" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:38Z" user="catastro_cantabria" uid="617016" lat="43.4408384" lon="-3.8656463"/>
+ <node id="2532335083" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:38Z" user="catastro_cantabria" uid="617016" lat="43.4408386" lon="-3.8650107"/>
+ <node id="2532335084" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:38Z" user="catastro_cantabria" uid="617016" lat="43.4408391" lon="-3.8656757"/>
+ <node id="2532335087" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:38Z" user="catastro_cantabria" uid="617016" lat="43.4408426" lon="-3.8660231"/>
+ <node id="2532335093" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:38Z" user="catastro_cantabria" uid="617016" lat="43.4408491" lon="-3.8655862"/>
+ <node id="2532335095" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:38Z" user="catastro_cantabria" uid="617016" lat="43.4408505" lon="-3.8656392"/>
+ <node id="2532335112" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:38Z" user="catastro_cantabria" uid="617016" lat="43.4408599" lon="-3.8656440"/>
+ <node id="2532335126" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:39Z" user="catastro_cantabria" uid="617016" lat="43.4408740" lon="-3.8656238"/>
+ <node id="2532335135" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:39Z" user="catastro_cantabria" uid="617016" lat="43.4408816" lon="-3.8656239"/>
+ <node id="2532335138" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:39Z" user="catastro_cantabria" uid="617016" lat="43.4408841" lon="-3.8656271"/>
+ <node id="2532335149" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:39Z" user="catastro_cantabria" uid="617016" lat="43.4409059" lon="-3.8654980"/>
+ <node id="2532335169" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:40Z" user="catastro_cantabria" uid="617016" lat="43.4409562" lon="-3.8655166"/>
+ <node id="2532335179" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:40Z" user="catastro_cantabria" uid="617016" lat="43.4409859" lon="-3.8645753"/>
+ <node id="2532335180" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:40Z" user="catastro_cantabria" uid="617016" lat="43.4409879" lon="-3.8642062"/>
+ <node id="2532335184" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:40Z" user="catastro_cantabria" uid="617016" lat="43.4409930" lon="-3.8645641"/>
+ <node id="2532335188" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:41Z" user="catastro_cantabria" uid="617016" lat="43.4410047" lon="-3.8657757"/>
+ <node id="2532335192" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:41Z" user="catastro_cantabria" uid="617016" lat="43.4410238" lon="-3.8647201"/>
+ <node id="2532335193" visible="true" version="2" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4410104" lon="-3.8651112"/>
+ <node id="2532335195" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:41Z" user="catastro_cantabria" uid="617016" lat="43.4410324" lon="-3.8647295"/>
+ <node id="2532335201" visible="true" version="2" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4410230" lon="-3.8651257"/>
+ <node id="2532335206" visible="true" version="2" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4410390" lon="-3.8650662"/>
+ <node id="2532335208" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:41Z" user="catastro_cantabria" uid="617016" lat="43.4410598" lon="-3.8646639"/>
+ <node id="2532335212" visible="true" version="2" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4410524" lon="-3.8650807"/>
+ <node id="2532335215" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:42Z" user="catastro_cantabria" uid="617016" lat="43.4410750" lon="-3.8646627"/>
+ <node id="2532335220" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:42Z" user="catastro_cantabria" uid="617016" lat="43.4410930" lon="-3.8640464"/>
+ <node id="2532335250" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:43Z" user="catastro_cantabria" uid="617016" lat="43.4412225" lon="-3.8644971"/>
+ <node id="2532335251" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:43Z" user="catastro_cantabria" uid="617016" lat="43.4412257" lon="-3.8660481"/>
+ <node id="2532335294" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:44Z" user="catastro_cantabria" uid="617016" lat="43.4413171" lon="-3.8649652"/>
+ <node id="2532335301" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:44Z" user="catastro_cantabria" uid="617016" lat="43.4413270" lon="-3.8643364"/>
+ <node id="2532335303" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:44Z" user="catastro_cantabria" uid="617016" lat="43.4413280" lon="-3.8658919"/>
+ <node id="2532335357" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:45Z" user="catastro_cantabria" uid="617016" lat="43.4413902" lon="-3.8659685"/>
+ <node id="2532335447" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:48Z" user="catastro_cantabria" uid="617016" lat="43.4414638" lon="-3.8646510"/>
+ <node id="2532335463" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:48Z" user="catastro_cantabria" uid="617016" lat="43.4414805" lon="-3.8658306"/>
+ <node id="2532335532" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:50Z" user="catastro_cantabria" uid="617016" lat="43.4415525" lon="-3.8629442"/>
+ <node id="2532335562" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:51Z" user="catastro_cantabria" uid="617016" lat="43.4415790" lon="-3.8659521"/>
+ <node id="2532335586" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:51Z" user="catastro_cantabria" uid="617016" lat="43.4415899" lon="-3.8629106"/>
+ <node id="2532335730" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:53Z" user="catastro_cantabria" uid="617016" lat="43.4416440" lon="-3.8661378"/>
+ <node id="2532335868" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:56Z" user="catastro_cantabria" uid="617016" lat="43.4417035" lon="-3.8660453"/>
+ <node id="2532335880" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:56Z" user="catastro_cantabria" uid="617016" lat="43.4417141" lon="-3.8642647"/>
+ <node id="2532335947" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:15:58Z" user="catastro_cantabria" uid="617016" lat="43.4417702" lon="-3.8662908"/>
+ <node id="2532336013" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:16:00Z" user="catastro_cantabria" uid="617016" lat="43.4418197" lon="-3.8655843"/>
+ <node id="2532336019" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:16:00Z" user="catastro_cantabria" uid="617016" lat="43.4418256" lon="-3.8660308"/>
+ <node id="2532336058" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:16:01Z" user="catastro_cantabria" uid="617016" lat="43.4418543" lon="-3.8651308"/>
+ <node id="2532336091" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:16:02Z" user="catastro_cantabria" uid="617016" lat="43.4418917" lon="-3.8661110"/>
+ <node id="2532336095" visible="true" version="2" changeset="18930802" timestamp="2013-11-16T11:10:08Z" user="catastro_cantabria" uid="617016" lat="43.4418970" lon="-3.8626303"/>
+ <node id="2532336372" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:16:11Z" user="catastro_cantabria" uid="617016" lat="43.4421046" lon="-3.8647446"/>
+ <node id="2532336416" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:16:11Z" user="catastro_cantabria" uid="617016" lat="43.4421273" lon="-3.8624221"/>
+ <node id="2534813089" visible="true" version="1" changeset="18930802" timestamp="2013-11-16T11:10:03Z" user="catastro_cantabria" uid="617016" lat="43.4399453" lon="-3.8648682"/>
+ <node id="2534813090" visible="true" version="1" changeset="18930802" timestamp="2013-11-16T11:10:03Z" user="catastro_cantabria" uid="617016" lat="43.4401773" lon="-3.8645158"/>
+ <node id="2534823369" visible="true" version="2" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4394276" lon="-3.8669592"/>
+ <node id="2534823371" visible="true" version="2" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4394716" lon="-3.8673397"/>
+ <node id="2534823379" visible="true" version="1" changeset="18931098" timestamp="2013-11-16T11:28:01Z" user="catastro_cantabria" uid="617016" lat="43.4419345" lon="-3.8637011">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="2534823388" visible="true" version="1" changeset="18931098" timestamp="2013-11-16T11:28:01Z" user="catastro_cantabria" uid="617016" lat="43.4422468" lon="-3.8632341"/>
+ <node id="8380303585" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4409593" lon="-3.8651291"/>
+ <node id="8380303586" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4409789" lon="-3.8651534"/>
+ <node id="8380303587" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4410521" lon="-3.8649878"/>
+ <node id="8380303588" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4410716" lon="-3.8650121"/>
+ <node id="8380303589" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4408429" lon="-3.8652527"/>
+ <node id="8380303590" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4409264" lon="-3.8653556"/>
+ <node id="8380303591" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4409701" lon="-3.8651425"/>
+ <node id="8380303592" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4410644" lon="-3.8650032"/>
+ <node id="8380303593" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4410531" lon="-3.8649196"/>
+ <node id="8380303594" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4407586" lon="-3.8653864">
+  <tag k="barrier" v="toll_booth"/>
+ </node>
+ <node id="8380303595" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4407042" lon="-3.8654691"/>
+ <node id="8380303596" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4406275" lon="-3.8654659"/>
+ <node id="8380303597" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4408335" lon="-3.8655089">
+  <tag k="barrier" v="toll_booth"/>
+ </node>
+ <node id="8380303598" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4411195" lon="-3.8650372"/>
+ <node id="8380303599" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389" lat="43.4411583" lon="-3.8648680"/>
+ <node id="9413049503" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4400081" lon="-3.8644557"/>
+ <node id="9413049504" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4398990" lon="-3.8647306"/>
+ <node id="9413049505" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4398611" lon="-3.8645670"/>
+ <node id="9413049506" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4397608" lon="-3.8645013"/>
+ <node id="9413049507" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4401181" lon="-3.8643806"/>
+ <node id="9413049508" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4401327" lon="-3.8644047"/>
+ <node id="9413049509" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4401824" lon="-3.8644047"/>
+ <node id="9413049510" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4402214" lon="-3.8643672"/>
+ <node id="9413049511" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4402710" lon="-3.8641995"/>
+ <node id="9413049512" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4404473" lon="-3.8644128"/>
+ <node id="9413049513" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4401152" lon="-3.8649049"/>
+ <node id="9413049514" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4398981" lon="-3.8647601"/>
+ <node id="9413049515" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4401261" lon="-3.8646417"/>
+ <node id="9413049516" visible="true" version="1" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019" lat="43.4400478" lon="-3.8647611"/>
+ <node id="9899361681" visible="true" version="1" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4408453" lon="-3.8667743"/>
+ <node id="9899361682" visible="true" version="1" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4405943" lon="-3.8664344"/>
+ <node id="9899361683" visible="true" version="1" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4395991" lon="-3.8674143"/>
+ <node id="9899361684" visible="true" version="1" changeset="123842640" timestamp="2022-07-20T09:45:00Z" user="Emilio Gomez" uid="2904" lat="43.4398496" lon="-3.8673856"/>
+ <node id="11019615727" visible="true" version="1" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4434334" lon="-3.8661217"/>
+ <node id="11019615728" visible="true" version="1" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4431805" lon="-3.8654106">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="11019615729" visible="true" version="1" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4413831" lon="-3.8658328">
+  <tag k="name" v="Copaga"/>
+  <tag k="shop" v="wholesale"/>
+ </node>
+ <node id="11019615730" visible="true" version="1" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4405642" lon="-3.8657754"/>
+ <node id="11019615731" visible="true" version="1" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4406485" lon="-3.8659780">
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="11019615732" visible="true" version="1" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4408424" lon="-3.8661951"/>
+ <node id="11019615733" visible="true" version="1" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4414328" lon="-3.8660665"/>
+ <node id="11019615734" visible="true" version="1" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389" lat="43.4406206" lon="-3.8660331">
+  <tag k="emergency" v="assembly_point"/>
+ </node>
+ <way id="4473704" visible="true" version="8" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389">
+  <nd ref="8380303599"/>
+  <nd ref="8380303598"/>
+  <nd ref="8380303590"/>
+  <nd ref="8380303597"/>
+  <nd ref="2483848400"/>
+  <nd ref="27421627"/>
+  <nd ref="11019615730"/>
+  <nd ref="2483848367"/>
+  <nd ref="27421628"/>
+  <nd ref="2483848363"/>
+  <nd ref="27421629"/>
+  <nd ref="27421630"/>
+  <nd ref="27421631"/>
+  <nd ref="27421632"/>
+  <nd ref="27421633"/>
+  <nd ref="27421639"/>
+  <nd ref="27421634"/>
+  <nd ref="11019615727"/>
+  <nd ref="27421635"/>
+  <nd ref="27421636"/>
+  <nd ref="27422293"/>
+  <nd ref="11019615728"/>
+  <nd ref="27421622"/>
+  <nd ref="27422292"/>
+  <nd ref="27422291"/>
+  <nd ref="27422290"/>
+  <nd ref="27422289"/>
+  <nd ref="27422288"/>
+  <nd ref="27422287"/>
+  <nd ref="27421623"/>
+  <nd ref="2534823388"/>
+  <nd ref="2534823379"/>
+  <nd ref="27422286"/>
+  <nd ref="27421637"/>
+  <tag k="highway" v="residential"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="postal_code" v="39011"/>
+ </way>
+ <way id="4473705" visible="true" version="5" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389">
+  <nd ref="290160432"/>
+  <nd ref="27421637"/>
+  <nd ref="27421639"/>
+  <tag k="highway" v="residential"/>
+  <tag k="oneway" v="no"/>
+  <tag k="postal_code" v="39011"/>
+ </way>
+ <way id="26476054" visible="true" version="13" changeset="162307656" timestamp="2025-02-09T10:10:39Z" user="kapazao_import" uid="8770019">
+  <nd ref="290159916"/>
+  <nd ref="290159918"/>
+  <nd ref="2534823369"/>
+  <nd ref="2483848203"/>
+  <nd ref="2534823371"/>
+  <nd ref="2483848206"/>
+  <nd ref="9899361683"/>
+  <nd ref="2483848239"/>
+  <nd ref="9899361684"/>
+  <nd ref="2483848278"/>
+  <nd ref="2483848395"/>
+  <nd ref="290159919"/>
+  <nd ref="9899361681"/>
+  <nd ref="9899361682"/>
+  <nd ref="2532334151"/>
+  <nd ref="2532333905"/>
+  <nd ref="290159916"/>
+  <tag k="addr:city" v="Peñacastillo"/>
+  <tag k="brand" v="Covirán"/>
+  <tag k="brand:website" v="https://www.coviran.es"/>
+  <tag k="brand:wikidata" v="Q61070539"/>
+  <tag k="brand:wikipedia" v="es:Covirán"/>
+  <tag k="landuse" v="commercial"/>
+  <tag k="name" v="Covirán"/>
+  <tag k="name:es" v="Covirán"/>
+  <tag k="name:pt" v="Coviran"/>
+  <tag k="postal_code" v="39011"/>
+  <tag k="shop" v="supermarket"/>
+ </way>
+ <way id="240673612" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:09Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2483848256"/>
+  <nd ref="2483848230"/>
+  <nd ref="2483848221"/>
+  <nd ref="2483848253"/>
+  <nd ref="2483848271"/>
+  <nd ref="2483848298"/>
+  <nd ref="2483848274"/>
+  <nd ref="2483848265"/>
+  <nd ref="2483848256"/>
+  <nd ref="2483848248"/>
+  <nd ref="253037043"/>
+  <tag k="highway" v="service"/>
+  <tag k="service" v="driveway"/>
+ </way>
+ <way id="240673613" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:09Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2483848271"/>
+  <nd ref="2483848274"/>
+  <tag k="highway" v="service"/>
+  <tag k="service" v="parking_aisle"/>
+ </way>
+ <way id="240673614" visible="true" version="1" changeset="18198711" timestamp="2013-10-05T16:48:10Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2483848253"/>
+  <nd ref="2483848256"/>
+  <tag k="highway" v="service"/>
+  <tag k="service" v="parking_aisle"/>
+ </way>
+ <way id="240673618" visible="true" version="7" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389">
+  <nd ref="2483848215"/>
+  <nd ref="2483848251"/>
+  <nd ref="2534813089"/>
+  <nd ref="2483848286"/>
+  <nd ref="2483848306"/>
+  <nd ref="2483848354"/>
+  <nd ref="8380303596"/>
+  <nd ref="8380303595"/>
+  <nd ref="8380303594"/>
+  <nd ref="8380303589"/>
+  <nd ref="8380303593"/>
+  <nd ref="8380303599"/>
+  <tag k="highway" v="residential"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="postal_code" v="39011"/>
+ </way>
+ <way id="240673619" visible="true" version="5" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389">
+  <nd ref="27421627"/>
+  <nd ref="2483848346"/>
+  <nd ref="2483848302"/>
+  <nd ref="2483848282"/>
+  <nd ref="2483848242"/>
+  <nd ref="2483848212"/>
+  <tag k="highway" v="residential"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="postal_code" v="39011"/>
+ </way>
+ <way id="244053921" visible="true" version="4" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389">
+  <nd ref="2514086429"/>
+  <nd ref="2514086432"/>
+  <nd ref="2514086434"/>
+  <nd ref="2514086438"/>
+  <nd ref="2514086440"/>
+  <nd ref="2534813090"/>
+  <nd ref="2534813089"/>
+  <tag k="highway" v="service"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="246157774" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:16:52Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2532335169"/>
+  <nd ref="2532335138"/>
+  <nd ref="2532335188"/>
+  <nd ref="2532335251"/>
+  <nd ref="2532335303"/>
+  <nd ref="2532335357"/>
+  <nd ref="2532335463"/>
+  <nd ref="2532335562"/>
+  <nd ref="2532336013"/>
+  <nd ref="2532335294"/>
+  <nd ref="2532335169"/>
+  <tag k="building" v="warehouse"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246157856" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:16:59Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2532334151"/>
+  <nd ref="2532334598"/>
+  <nd ref="2532334513"/>
+  <nd ref="2532334421"/>
+  <nd ref="2532334308"/>
+  <nd ref="2532334253"/>
+  <nd ref="2532334141"/>
+  <nd ref="2532334057"/>
+  <nd ref="2532334040"/>
+  <nd ref="2532333996"/>
+  <nd ref="2532334006"/>
+  <nd ref="2532333972"/>
+  <nd ref="2532333908"/>
+  <nd ref="2532333905"/>
+  <nd ref="2532334151"/>
+  <tag k="building" v="warehouse"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246157917" visible="true" version="2" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389">
+  <nd ref="2532335016"/>
+  <nd ref="2532335138"/>
+  <nd ref="2532335135"/>
+  <nd ref="2532335126"/>
+  <nd ref="2532335112"/>
+  <nd ref="2532335095"/>
+  <nd ref="2532335082"/>
+  <nd ref="2532335081"/>
+  <nd ref="2532335084"/>
+  <nd ref="2532335052"/>
+  <nd ref="2532335050"/>
+  <nd ref="2532335041"/>
+  <nd ref="2532335037"/>
+  <nd ref="2532335042"/>
+  <nd ref="2532335031"/>
+  <nd ref="2532335027"/>
+  <nd ref="2532335018"/>
+  <nd ref="2532335017"/>
+  <nd ref="2532335019"/>
+  <nd ref="2532335015"/>
+  <nd ref="2532335016"/>
+  <tag k="building:levels" v="3"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246157975" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:17:08Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2532335022"/>
+  <nd ref="2532335036"/>
+  <nd ref="2532334913"/>
+  <nd ref="2532334840"/>
+  <nd ref="2532335022"/>
+  <tag k="building" v="warehouse"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246158038" visible="true" version="5" changeset="173105318" timestamp="2025-10-10T17:07:42Z" user="kapazao" uid="7543375">
+  <nd ref="2532336372"/>
+  <nd ref="2532335880"/>
+  <nd ref="2532335447"/>
+  <nd ref="2532336058"/>
+  <nd ref="2532336372"/>
+  <tag k="addr:city" v="Peñacastillo"/>
+  <tag k="addr:housename" v="Pabellón de Polivalencia de MercaSantander"/>
+  <tag k="addr:housenumber" v="6"/>
+  <tag k="addr:postcode" v="39011"/>
+  <tag k="addr:street" v="Calle de Joaquín Salas"/>
+  <tag k="building" v="warehouse"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="name" v="Pabellón de Polivalencia de Mercasantander"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246158059" visible="true" version="6" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389">
+  <nd ref="2532335087"/>
+  <nd ref="2532335188"/>
+  <nd ref="2532335138"/>
+  <nd ref="2532335016"/>
+  <nd ref="2532335087"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="building:part" v="warehouse"/>
+ </way>
+ <way id="246158083" visible="true" version="2" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389">
+  <nd ref="2532335014"/>
+  <nd ref="2532334999"/>
+  <nd ref="2532335093"/>
+  <nd ref="2532335149"/>
+  <nd ref="2532335014"/>
+  <tag k="building" v="roof"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="layer" v="1"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246158155" visible="true" version="7" changeset="173105318" timestamp="2025-10-10T17:07:42Z" user="kapazao" uid="7543375">
+  <nd ref="2532334431"/>
+  <nd ref="2532334777"/>
+  <nd ref="2532334610"/>
+  <nd ref="2532334220"/>
+  <nd ref="2532334431"/>
+  <tag k="addr:city" v="Peñacastillo"/>
+  <tag k="addr:housenumber" v="6"/>
+  <tag k="addr:postcode" v="39011"/>
+  <tag k="addr:street" v="Calle de Joaquín Salas"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="name" v="Mondesa"/>
+ </way>
+ <way id="246158172" visible="true" version="2" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389">
+  <nd ref="2532335201"/>
+  <nd ref="2532335212"/>
+  <nd ref="2532335206"/>
+  <nd ref="2532335193"/>
+  <nd ref="2532335201"/>
+  <tag k="building" v="service"/>
+  <tag k="building:levels" v="1"/>
+ </way>
+ <way id="246158176" visible="true" version="9" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019">
+  <nd ref="9413049516"/>
+  <nd ref="2532334142"/>
+  <nd ref="2532334260"/>
+  <nd ref="9413049515"/>
+  <nd ref="9413049516"/>
+  <tag k="addr:city" v="Peñacastillo"/>
+  <tag k="addr:housenumber" v="6"/>
+  <tag k="addr:street" v="Calle de Joaquín Salas"/>
+  <tag k="building" v="commercial"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="operator" v="BP"/>
+  <tag k="shop" v="convenience"/>
+ </way>
+ <way id="246158183" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:17:19Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2532335250"/>
+  <nd ref="2532335301"/>
+  <nd ref="2532335220"/>
+  <nd ref="2532335180"/>
+  <nd ref="2532335250"/>
+  <tag k="building" v="warehouse"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246158247" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:17:26Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2532336091"/>
+  <nd ref="2532336019"/>
+  <nd ref="2532335868"/>
+  <nd ref="2532335730"/>
+  <nd ref="2532335947"/>
+  <nd ref="2532336091"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246158333" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:17:34Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2532335195"/>
+  <nd ref="2532335215"/>
+  <nd ref="2532335184"/>
+  <nd ref="2532335179"/>
+  <nd ref="2532335208"/>
+  <nd ref="2532335192"/>
+  <nd ref="2532335195"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246158346" visible="true" version="6" changeset="173105318" timestamp="2025-10-10T17:07:42Z" user="kapazao" uid="7543375">
+  <nd ref="2532334964"/>
+  <nd ref="2532335083"/>
+  <nd ref="2532334989"/>
+  <nd ref="2532335012"/>
+  <nd ref="2532334994"/>
+  <nd ref="2532334583"/>
+  <nd ref="2532334964"/>
+  <tag k="addr:city" v="Peñacastillo"/>
+  <tag k="addr:housename" v="Salami"/>
+  <tag k="addr:housenumber" v="6"/>
+  <tag k="addr:postcode" v="39011"/>
+  <tag k="addr:street" v="Calle de Joaquín Salas"/>
+  <tag k="building" v="warehouse"/>
+  <tag k="building:levels" v="2"/>
+  <tag k="email" v="info@salami-sa.com"/>
+  <tag k="fax" v="+34 942334455"/>
+  <tag k="name" v="Salami"/>
+  <tag k="phone" v="+34 942339421"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+  <tag k="website" v="http://www.salami-sa.com"/>
+ </way>
+ <way id="246158374" visible="true" version="2" changeset="116072068" timestamp="2022-01-12T15:42:04Z" user="kapazao_import" uid="8770019">
+  <nd ref="2532334083"/>
+  <nd ref="2532334168"/>
+  <nd ref="2532334068"/>
+  <nd ref="2532333914"/>
+  <nd ref="2532333937"/>
+  <nd ref="2532333984"/>
+  <nd ref="2532334021"/>
+  <nd ref="2532334143"/>
+  <nd ref="2532334083"/>
+  <tag k="building" v="roof"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="layer" v="1"/>
+ </way>
+ <way id="246158393" visible="true" version="1" changeset="18896333" timestamp="2013-11-14T16:17:42Z" user="catastro_cantabria" uid="617016">
+  <nd ref="2532335192"/>
+  <nd ref="2532335208"/>
+  <nd ref="2532335179"/>
+  <nd ref="2532335070"/>
+  <nd ref="2532334994"/>
+  <nd ref="2532335012"/>
+  <nd ref="2532334989"/>
+  <nd ref="2532335083"/>
+  <nd ref="2532335192"/>
+  <tag k="building" v="warehouse"/>
+  <tag k="building:levels" v="2"/>
+  <tag k="source" v="catastro"/>
+  <tag k="source:date" v="2013-01"/>
+ </way>
+ <way id="246437343" visible="true" version="6" changeset="174834983" timestamp="2025-11-18T21:54:35Z" user="sanchi" uid="170106">
+  <nd ref="290159919"/>
+  <nd ref="2483848481"/>
+  <nd ref="290159923"/>
+  <nd ref="290159925"/>
+  <nd ref="290159926"/>
+  <nd ref="290159927"/>
+  <nd ref="290159928"/>
+  <nd ref="2483848516"/>
+  <nd ref="2483848504"/>
+  <nd ref="290159930"/>
+  <nd ref="290159931"/>
+  <nd ref="290159933"/>
+  <nd ref="290159934"/>
+  <nd ref="290159947"/>
+  <nd ref="290159950"/>
+  <nd ref="2532336416"/>
+  <nd ref="2532336095"/>
+  <nd ref="2532335586"/>
+  <nd ref="2532335532"/>
+  <nd ref="2514086436"/>
+  <nd ref="290159954"/>
+  <nd ref="290159916"/>
+  <nd ref="2532333905"/>
+  <nd ref="2532334151"/>
+  <nd ref="290159919"/>
+  <tag k="addr:city" v="Peñacastillo"/>
+  <tag k="addr:housenumber" v="6"/>
+  <tag k="addr:postcode" v="39011"/>
+  <tag k="addr:street" v="Calle de Joaquín Salas"/>
+  <tag k="fax" v="+34 942337804"/>
+  <tag k="landuse" v="commercial"/>
+  <tag k="name" v="Mercasantander"/>
+  <tag k="phone" v="+34 942330400"/>
+  <tag k="website" v="https://www.mercasantander.es/"/>
+ </way>
+ <way id="902225754" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389">
+  <nd ref="8380303587"/>
+  <nd ref="8380303585"/>
+  <nd ref="8380303591"/>
+  <nd ref="8380303586"/>
+  <nd ref="8380303588"/>
+  <nd ref="8380303592"/>
+  <nd ref="8380303587"/>
+  <tag k="amenity" v="weighbridge"/>
+ </way>
+ <way id="902225755" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389">
+  <nd ref="8380303591"/>
+  <nd ref="8380303590"/>
+  <tag k="highway" v="service"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="902225756" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389">
+  <nd ref="8380303589"/>
+  <nd ref="8380303591"/>
+  <tag k="highway" v="service"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="902225757" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389">
+  <nd ref="8380303599"/>
+  <nd ref="8380303592"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="902225758" visible="true" version="1" changeset="98442002" timestamp="2021-01-31T10:27:40Z" user="Jesús Gómez" uid="6389">
+  <nd ref="27421637"/>
+  <nd ref="8380303599"/>
+  <tag k="highway" v="service"/>
+  <tag k="oneway" v="no"/>
+  <tag k="postal_code" v="39011"/>
+ </way>
+ <way id="902225759" visible="true" version="2" changeset="173105392" timestamp="2025-10-10T17:09:56Z" user="kapazao" uid="7543375">
+  <nd ref="2532335138"/>
+  <nd ref="2532335135"/>
+  <nd ref="2532335126"/>
+  <nd ref="2532335112"/>
+  <nd ref="2532335095"/>
+  <nd ref="2532335082"/>
+  <nd ref="2532335081"/>
+  <nd ref="2532335084"/>
+  <nd ref="2532335052"/>
+  <nd ref="2532335050"/>
+  <nd ref="2532335041"/>
+  <nd ref="2532335037"/>
+  <nd ref="2532335042"/>
+  <nd ref="2532335031"/>
+  <nd ref="2532335027"/>
+  <nd ref="2532335018"/>
+  <nd ref="2532335017"/>
+  <nd ref="2532335019"/>
+  <nd ref="2532335015"/>
+  <nd ref="2532335016"/>
+  <nd ref="2532335087"/>
+  <nd ref="2532335188"/>
+  <nd ref="2532335138"/>
+  <tag k="addr:city" v="Peñacastillo"/>
+  <tag k="addr:housenumber" v="6"/>
+  <tag k="addr:postcode" v="39011"/>
+  <tag k="addr:street" v="Calle de Joaquín Salas"/>
+  <tag k="building" v="office"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="name" v="XPO Logistics"/>
+  <tag k="phone" v="+34 942352352"/>
+  <tag k="website" v="https://europe.xpo.com/es/"/>
+ </way>
+ <way id="1020589599" visible="true" version="3" changeset="178184730" timestamp="2026-02-06T12:12:07Z" user="kapazao_import" uid="8770019">
+  <nd ref="9413049514"/>
+  <nd ref="9413049513"/>
+  <nd ref="9413049512"/>
+  <nd ref="9413049511"/>
+  <nd ref="9413049510"/>
+  <nd ref="9413049509"/>
+  <nd ref="9413049508"/>
+  <nd ref="9413049507"/>
+  <nd ref="9413049503"/>
+  <nd ref="9413049506"/>
+  <nd ref="9413049505"/>
+  <nd ref="9413049504"/>
+  <nd ref="9413049514"/>
+  <tag k="addr:housenumber" v="6"/>
+  <tag k="addr:street" v="Calle de Joaquín Salas"/>
+  <tag k="amenity" v="fuel"/>
+  <tag k="brand" v="BP"/>
+  <tag k="brand:website" v="https://www.bp.com"/>
+  <tag k="brand:wikidata" v="Q152057"/>
+  <tag k="brand:wikipedia" v="es:BP"/>
+  <tag k="fuel:adblue" v="yes"/>
+  <tag k="fuel:diesel" v="yes"/>
+  <tag k="fuel:GTL_diesel" v="yes"/>
+  <tag k="fuel:octane_95" v="yes"/>
+  <tag k="landuse" v="retail"/>
+  <tag k="name" v="Estación de Servicio BP Mercasanta"/>
+  <tag k="opening_hours" v="Mo-Sa 07:00-21:00"/>
+  <tag k="phone" v="+34 942 07 92 72"/>
+ </way>
+ <way id="1186450620" visible="true" version="1" changeset="138014709" timestamp="2023-07-02T08:33:00Z" user="Jesús Gómez" uid="6389">
+  <nd ref="11019615730"/>
+  <nd ref="11019615731"/>
+  <nd ref="11019615732"/>
+  <nd ref="11019615733"/>
+  <tag k="highway" v="service"/>
+ </way>
+</osm>

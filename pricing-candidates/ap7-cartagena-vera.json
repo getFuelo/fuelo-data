@@ -22999,7 +22999,18 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_ap7cv_2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "Cartagena-entry",
+        "Las Palas-entry",
+        "Mazarrón-entry",
+        "Ramonete-entry",
+        "Cabo Cope-entry",
+        "Águilas-entry",
+        "Pulpí-entry",
+        "Cuevas del Almanzora-entry",
+        "Vera-entry"
+      ]
     }
   ],
   "notes_global": "Disabled closed-system candidate. Explicit source-way access associations and published OD rows; route checks are required separately. © OpenStreetMap contributors."

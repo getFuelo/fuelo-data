@@ -1,0 +1,55 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 42.3312541,
+        "lon": -1.7231405,
+        "heading": 9
+      },
+      {
+        "lat": 42.3313713,
+        "lon": -1.7231156,
+        "heading": 7,
+        "type": "through"
+      },
+      {
+        "lat": 42.3314793,
+        "lon": -1.7231021,
+        "heading": 5
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap15",
+  "network": "es-ap15-marcilla-enlace",
+  "expectedCents": 345,
+  "sourceProbe": {
+    "network": "es-ap15-marcilla-enlace",
+    "booth": 243896089,
+    "way": "706641843/1393856305",
+    "versions": [
+      4,
+      2
+    ],
+    "traversedWays": [
+      {
+        "id": 706641843,
+        "version": 4
+      },
+      {
+        "id": 1393856305,
+        "version": 2
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 36.5065031,
+        "lon": -4.7211554,
+        "heading": 105
+      },
+      {
+        "lat": 36.505648,
+        "lon": -4.7178825,
+        "heading": 108,
+        "type": "through"
+      },
+      {
+        "lat": 36.5556746,
+        "lon": -4.656062,
+        "heading": 359
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap7-malaga-estepona",
+  "network": "es-ap7-calahonda-troncal",
+  "expectedCents": 925,
+  "sourceProbe": {
+    "network": "es-ap7-calahonda-troncal",
+    "booth": 349121963,
+    "way": "1148740592/1148740592",
+    "versions": [
+      4,
+      4
+    ],
+    "traversedWays": [
+      {
+        "id": 45584874,
+        "version": 15
+      },
+      {
+        "id": 45584875,
+        "version": 9
+      },
+      {
+        "id": 60438930,
+        "version": 11
+      },
+      {
+        "id": 92502922,
+        "version": 6
+      },
+      {
+        "id": 92502931,
+        "version": 13
+      },
+      {
+        "id": 185630134,
+        "version": 7
+      },
+      {
+        "id": 185630137,
+        "version": 9
+      },
+      {
+        "id": 230864926,
+        "version": 8
+      },
+      {
+        "id": 1148740592,
+        "version": 4
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

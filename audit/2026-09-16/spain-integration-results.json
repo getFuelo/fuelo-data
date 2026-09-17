@@ -1,8 +1,9 @@
 {
-  "catalogOrdersChecked": 2,
+  "catalogOrdersChecked": 4,
+  "productionPathChecked": true,
   "complete": false,
-  "total": 1493,
-  "passed": 1493,
+  "total": 1647,
+  "passed": 1647,
   "safelyUnavailable": 8,
   "unresolvedPassages": [],
   "failures": [],
@@ -100,7 +101,7 @@
       "failed": 0
     },
     "ap53": {
-      "passed": 48,
+      "passed": 52,
       "failed": 0
     },
     "ap636": {
@@ -185,6 +186,46 @@
     },
     "c32-whole-journey": {
       "passed": 2,
+      "failed": 0
+    },
+    "general-acceptance": {
+      "passed": 4,
+      "failed": 0
+    },
+    "ap68-service-area": {
+      "passed": 1,
+      "failed": 0
+    },
+    "open-lane/ag55-pastoriza": {
+      "passed": 2,
+      "failed": 0
+    },
+    "open-lane/ap15": {
+      "passed": 24,
+      "failed": 0
+    },
+    "open-lane/ap7-alicante-cartagena": {
+      "passed": 6,
+      "failed": 0
+    },
+    "open-lane/ap7-estepona-guadiaro": {
+      "passed": 20,
+      "failed": 0
+    },
+    "open-lane/ap7-malaga-estepona": {
+      "passed": 15,
+      "failed": 0
+    },
+    "open-lane/autema": {
+      "passed": 25,
+      "failed": 0
+    },
+    "open-lane/c32": {
+      "passed": 49,
+      "failed": 0
+    },
+    "open-lane/r2-open": {
+      "passed": 4,
       "failed": 0
     }
   }

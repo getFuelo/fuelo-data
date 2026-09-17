@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 41.2050462,
+        "lon": 1.6633157,
+        "heading": 271
+      },
+      {
+        "lat": 41.2062951,
+        "lon": 1.6588698,
+        "heading": 333,
+        "type": "through"
+      },
+      {
+        "lat": 41.2094053,
+        "lon": 1.5918644,
+        "heading": 272
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "c32",
+  "network": "es-c32-cubelles-acceso",
+  "expectedCents": 269,
+  "sourceProbe": {
+    "network": "es-c32-cubelles-acceso",
+    "booth": 976032374,
+    "way": "34125936/34125936",
+    "versions": [
+      18,
+      18
+    ],
+    "traversedWays": [
+      {
+        "id": 34125931,
+        "version": 12
+      },
+      {
+        "id": 34125934,
+        "version": 9
+      },
+      {
+        "id": 34125935,
+        "version": 16
+      },
+      {
+        "id": 34125936,
+        "version": 18
+      },
+      {
+        "id": 49850361,
+        "version": 11
+      },
+      {
+        "id": 49850362,
+        "version": 13
+      },
+      {
+        "id": 83840266,
+        "version": 11
+      },
+      {
+        "id": 83840275,
+        "version": 9
+      },
+      {
+        "id": 265688455,
+        "version": 13
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

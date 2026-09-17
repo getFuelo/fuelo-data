@@ -6,7 +6,32 @@ Read [the complete audit](audit/2026-09-16/README.md) and its `entries.json` bef
 editing or publishing. It supersedes the July 2026 full-build claims and the
 old cheaper-common-case convention. Historical details remain in Git history.
 
-## Current publication status
+## Current scope — approved 2026-09-17
+
+The user explicitly replaced the former “100% country or off” rule with
+representative validation of road tolls for passenger cars at general fares.
+Parking, monument admission and tourist/forest access fees are outside this
+release. Personal, residency, frequent-user and Via-T discounts are deferred.
+Date/time tariff bands remain supported. Unclassified local access points are
+not asserted to be free and do not block reviewed motorway/tunnel journeys.
+
+`tolls-es-reviewed.json` is the schema-6 release consumed by the updated app.
+It deliberately retains `complete:false`, with explicit coverage policy:
+`verified_routes`, `road_tolls`, `light`, `general`. This is not an arbitrary
+partial-data bypass: malformed data, unknown schemas, missing policy and expired
+fares remain rejected. Actual journeys still need covered geometry, valid entry
+and exit, and an applicable fare. Unknown prices must not produce exact savings.
+
+The older `tolls-es.json`, candidate `coverage-status.json`, and exhaustive
+inventory reports remain historical evidence, not the current release gate.
+Do not set their completeness flags to conceal unresolved cases.
+
+Release checks and exceptions: [SCOPED_RELEASE.md](SCOPED_RELEASE.md).
+Publish the reviewed data before distributing the updated app; this local work
+has not published either artifact. Old apps continue using the old endpoint.
+
+## Historical publication status (superseded scope)
+
 
 - Branch `feat/toll-catalog-audit`: repository PR and merge authorized on
   2026-09-16. The experimental national catalog remains a candidate; merging
@@ -17,6 +42,20 @@ old cheaper-common-case convention. Historical details remain in Git history.
 - **Pedro's coverage rule:** 100% coverage for a country or its toll feature is
   off. Publishing `complete:false` will disable ES tolls in clients honoring it.
 - A successful source audit or validator run does not establish exact route prices.
+
+## General-fare release scope — 2026-09-16
+
+Product decision: quote the general light passenger-car fare without a driver
+profile. Personal residency, registration, trip-history and Via-T discounts are
+future work, not release blockers. Keep original tariff sources/candidates for
+traceability, but the assembled national candidate removes eligibility bands.
+Date/time and route-dependent general fares remain in scope. This does not
+waive public-access, geometry, national-inventory or avoidance verification.
+
+`python3 scripts/coverage/audit_access_inventory.py` reconciles the retained
+mainland/Balearic and Canary booth inventories with source records and catalog
+roads. Every point retains its exact reason and evidence. Source linkage or
+membership of a catalog road is NOT a lane-crossing/price certificate.
 
 ## Schema 1 and conventions
 
@@ -140,3 +179,79 @@ pass in both orders, eight partial-journey safeguards, no unresolved passage in
 this retained corpus, exit 0. Focused regressions: 194 passed. All 76 catalog
 integrity checks and TypeScript pass. Spain readiness remains false pending
 the other documented coverage checks and device acceptance. No push or OSM edit.
+
+### General-fare coverage follow-up
+
+- General-only assembly passes 1,497 retained journeys in both catalog orders;
+  eight intentionally incomplete journeys remain explicitly unavailable.
+- Puigcerdà–Berga exposed missing GIV-4034 entrance geometry at Cadí. Run
+  `python3 scripts/coverage/build_cadi_approaches.py` after the fixed-network and
+  free-corridor builders, before assembling Spain. The gate/fare/tolerance stay
+  unchanged. Four public-endpoint paid/avoided cases are retained.
+- The operator's 2026 AP-6/AP-51/AP-61 matrix marks starred cross-branch cells
+  as non-realizable; they are not missing prices to invent or add together.
+- Access reconciliation currently leaves 39 point records to review across the
+  mainland/Balearic and Canary extracts. Reconciled source/road links are NOT
+  exhaustive access/route certification. Spain remains incomplete.
+
+### AP-68 service-area and AP-53 urban acceptance
+
+AP-68 now prices the published Bilbao–Arrigorriaga service area–Bilbao return
+at 235 cents. The physical booth settles the outbound journey and a downstream
+logical cut opens the already-paid continuation to Bilbao. No generic same-origin
+fare is added; unknown entries still fail closed. Run `build_ap68_service_area.py`
+after `build_closed_plazas.py`, before country assembly. Its retained local graph
+contains the source road, booth and versions. Public A-8 approach geometry is
+marked free only on the three reviewed source ways.
+
+Public Santiago–Silleda routes now verify 435 cents, or zero with exact app
+exclusions, in both directions. National integration passes 1,502/1,502 cases
+in both catalog orders; eight intentionally partial journeys remain unavailable.
+AP-68 regressions: 467 passed. AP-53 regressions: 54 passed. TypeScript and
+76 candidate integrity checks pass. No release, push or device install.
+
+Access review now retains all incident ways (including local roads) and their
+node tags, rather than relying on the major-road extract alone. The current
+report has 13 remaining unclassified points; linked points do not by themselves
+certify a route total. Spain remains incomplete.
+
+Cadí general-fare network acceptance is now closed: source-backed single plaza,
+both public paid/avoided directions, GIV-4034 approach, partial travel after the
+plaza, missing provider flag, and repeated-crossing composition. The last three
+are pricing regressions over retained geometry, not new live driving trials.
+`fixedNetworkBoundaries.test.ts`: ten checks pass for Cadí and AP-46. Spain
+publication remains blocked by other network/inventory entries.
+
+## Public avoidance checkpoint — 2026-09-16
+
+- 145 additional retained provider lane traversals pass against the assembled
+  candidate, including exactly one expected financial event per open barrier.
+- 20 public-endpoint selective-avoidance responses cover ten systems in both
+  directions. Exclusions now call the app's `roadAvoidanceLines` against the
+  assembled catalog: AG-55 includes Pastoriza; Gipuzkoa includes shared AP-8/AP-1
+  boundaries and independent open plazas. Regional fences alone are insufficient.
+- Santurtzi entry moved after its western ramp merge. Oiartzun AP-8 exit moved
+  before the local-road merge, preserving all twelve published eastern journeys.
+- The GI-20 entry is explicitly mapped but has no fabricated OD fares. A route
+  requiring that unsupported fare must remain unavailable. This is still an
+  eastern-corridor pricing blocker, even though the public avoidance cases pass.
+- AP-68 Bilbao service-area return closes at its physical booth for 235 cents,
+  then opens an already-paid zero-additional continuation; no generic self fare.
+- Inventory now has nine unclassified source points. Country readiness remains
+  false; these changes do not satisfy every other road's release checklist.
+
+After rebuilding base candidates, run the postprocessors in this order:
+
+```sh
+python3 scripts/coverage/build_ap68_service_area.py
+python3 scripts/coverage/build_reviewed_terminal_cuts.py
+python3 scripts/coverage/build_pastoriza_urban_approach.py
+python3 scripts/coverage/build_general_avoidance.py
+python3 scripts/coverage/build_spain_candidate.py
+python3 scripts/coverage/export_app_fixtures.py /path/to/app
+```
+
+Run `audit_general_avoidance.cjs /path/to/app` separately from the independent
+published-fare integration audit. Its route totals are diagnostic; its assertions
+are full-road exclusion, no target pricing events, and available pricing of the
+result. Avoiding Supersur can legitimately retain a different AP-68 charge.

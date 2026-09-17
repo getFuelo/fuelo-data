@@ -1,0 +1,12 @@
+{
+  "scope": "road_tolls/general/light",
+  "status": "validated_local_not_published",
+  "catalogSha256": "8842f4558efc42a1d109d0ddc313bf57b2d2d2e672089f1f2c5d009306926065",
+  "integration": "audit/2026-09-16/spain-integration-results.json",
+  "avoidance": "audit/2026-09-16/general-avoidance-results.json",
+  "exceptions": "SCOPED_RELEASE.md",
+  "nationalCases": 1647,
+  "safelyUnavailable": 8,
+  "avoidanceCases": 20,
+  "appRegressionTests": 62
+}

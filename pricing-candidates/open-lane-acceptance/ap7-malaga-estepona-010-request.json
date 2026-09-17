@@ -1,0 +1,55 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 36.4988896,
+        "lon": -5.0012107,
+        "heading": 284
+      },
+      {
+        "lat": 36.4989079,
+        "lon": -5.0016399,
+        "heading": 253,
+        "type": "through"
+      },
+      {
+        "lat": 36.4985967,
+        "lon": -5.0026114,
+        "heading": 232
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap7-malaga-estepona",
+  "network": "es-ap7-san-pedro-acceso",
+  "expectedCents": 360,
+  "sourceProbe": {
+    "network": "es-ap7-san-pedro-acceso",
+    "booth": 5667807573,
+    "way": "594349482/594349482",
+    "versions": [
+      3,
+      3
+    ],
+    "traversedWays": [
+      {
+        "id": 594349482,
+        "version": 3
+      },
+      {
+        "id": 594349483,
+        "version": 4
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

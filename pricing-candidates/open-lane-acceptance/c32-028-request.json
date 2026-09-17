@@ -1,0 +1,79 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 41.2089224,
+        "lon": 1.5690731,
+        "heading": 210
+      },
+      {
+        "lat": 41.2086114,
+        "lon": 1.5688359,
+        "heading": 209,
+        "type": "through"
+      },
+      {
+        "lat": 41.1945693,
+        "lon": 1.5378312,
+        "heading": 242
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "c32",
+  "network": "es-c32-calafell-acceso",
+  "expectedCents": 79,
+  "sourceProbe": {
+    "network": "es-c32-calafell-acceso",
+    "booth": 981188045,
+    "way": "885658163/885658163",
+    "versions": [
+      5,
+      5
+    ],
+    "traversedWays": [
+      {
+        "id": 84406722,
+        "version": 8
+      },
+      {
+        "id": 137459989,
+        "version": 10
+      },
+      {
+        "id": 304380169,
+        "version": 11
+      },
+      {
+        "id": 639512672,
+        "version": 6
+      },
+      {
+        "id": 639512683,
+        "version": 6
+      },
+      {
+        "id": 885658163,
+        "version": 5
+      },
+      {
+        "id": 887439058,
+        "version": 5
+      },
+      {
+        "id": 887439063,
+        "version": 5
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

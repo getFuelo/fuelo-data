@@ -50,9 +50,9 @@
       "zone": "OIARTZUN",
       "role": "exit",
       "kind": "logical-terminal-cut",
-      "way": 173622832,
-      "version": 4,
-      "node": 13950758715,
+      "way": 997126261,
+      "version": 2,
+      "node": 2814306535,
       "outsideNode": 278535218
     },
     {
@@ -108,6 +108,16 @@
       "version": 6,
       "node": 13960156544,
       "outsideNode": 13960156583
+    },
+    {
+      "zone": "GI20",
+      "role": "entry",
+      "kind": "logical-terminal-cut",
+      "outsideNode": 563708,
+      "tariffStatus": "Unmapped general GI-20 entry fare; fail closed until sourced. Avoidance may use the physical entry.",
+      "way": 31233054,
+      "version": 22,
+      "node": 13793505493
     }
   ],
   "probeLocations": {

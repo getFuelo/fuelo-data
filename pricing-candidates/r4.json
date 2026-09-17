@@ -10675,7 +10675,18 @@
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifas_r4_2026_0.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "M50-entry",
+        "Pinto-entry",
+        "Valdemoro-entry",
+        "Valdemoro-madrid-entry",
+        "Sesena-entry",
+        "Villaseca-entry",
+        "Aranjuez-entry",
+        "Ontigola-entry",
+        "Ocana-entry"
+      ]
     }
   ],
   "notes_global": "Disabled closed-system candidate. Explicit source-way access associations and published OD rows; route checks are required separately. © OpenStreetMap contributors."

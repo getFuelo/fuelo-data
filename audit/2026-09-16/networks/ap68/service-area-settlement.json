@@ -1,0 +1,17 @@
+{
+  "source": "https://www.arabat.eus/wp-content/uploads/2026/02/26_003-Avasa-AP68-Bilbao_Zaragoza-T26.pdf",
+  "booth": 3241643071,
+  "way": 231764143,
+  "version": 3,
+  "publishedJourney": "Bilbao – A. Serv. Arrigorriaga – Bilbao",
+  "cents": 235,
+  "continuation": "Downstream logical entry closes at Bilbao for 0 additional cents. Only complete supported journeys are priced.",
+  "freeApproachWays": [
+    107527587,
+    297261481,
+    107527586
+  ],
+  "freeApproachSource": "https://interbiak.bizkaia.eus/es/pago-por-uso-ppu",
+  "generalCarScope": "A-8 Bilbao approach is outside passenger-car tolling; freeTravel applies only to these exact source ways.",
+  "regression": "pricing-candidates/ap68-service-area/bilbao-service-bilbao.json"
+}

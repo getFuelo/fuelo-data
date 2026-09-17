@@ -146,12 +146,12 @@
           "id": "SANTURTZI-entry",
           "line": [
             {
-              "lat": 43.31397161077488,
-              "lng": -3.045257141437037
+              "lat": 43.31249152887496,
+              "lng": -3.0381682944361716
             },
             {
-              "lat": 43.314114989225125,
-              "lng": -3.045240458562963
+              "lat": 43.31262987112504,
+              "lng": -3.038113905563828
             }
           ],
           "direction": "negative"
@@ -8323,7 +8323,14 @@
           "https://interbiak.bizkaia.eus/fitxategiak/Dokumentuak/Tarifas/Bidesariak%20VSM%2001-01-2026.pdf"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "ARRIGORRIAGA-entry",
+        "BILBAO-ESTE-entry",
+        "BILBAO-SUR-entry",
+        "ORTUELLA-entry",
+        "SANTURTZI-entry"
+      ]
     }
   ],
   "notes_global": "Disabled closed-system candidate. Explicit source-way access associations and published OD rows; route checks are required separately. © OpenStreetMap contributors."

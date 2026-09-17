@@ -11600,7 +11600,19 @@
           "https://ayto-velilla.es/la-direccion-general-de-carreteras-incluira-la-m-208-en-su-tramo-proximo-a-la-calle-frascuelo-en-los-planes-de-accion-contra-el-ruido/"
         ],
         "geometrySource": "https://www.openstreetmap.org/copyright"
-      }
+      },
+      "avoidanceGateIds": [
+        "M40-entry",
+        "M45-entry",
+        "M45-oeste-entry",
+        "M300-entry",
+        "A3-entry",
+        "M40-exit",
+        "M45-exit",
+        "M45-oeste-exit",
+        "M300-exit",
+        "A3-exit"
+      ]
     }
   ],
   "notes_global": "Disabled closed-system candidate. Explicit source-way access associations and published OD rows; route checks are required separately. © OpenStreetMap contributors."

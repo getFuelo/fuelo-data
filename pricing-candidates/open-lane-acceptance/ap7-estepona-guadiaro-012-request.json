@@ -1,0 +1,55 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 36.3792813,
+        "lon": -5.2655666,
+        "heading": 351
+      },
+      {
+        "lat": 36.380325,
+        "lon": -5.2654416,
+        "heading": 24,
+        "type": "through"
+      },
+      {
+        "lat": 36.381109,
+        "lon": -5.2642009,
+        "heading": 92
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "ap7-estepona-guadiaro",
+  "network": "es-ap7-manilva-acceso",
+  "expectedCents": 200,
+  "sourceProbe": {
+    "network": "es-ap7-manilva-acceso",
+    "booth": 302819538,
+    "way": "39633897/27579933",
+    "versions": [
+      8,
+      10
+    ],
+    "traversedWays": [
+      {
+        "id": 27579933,
+        "version": 10
+      },
+      {
+        "id": 39633897,
+        "version": 8
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

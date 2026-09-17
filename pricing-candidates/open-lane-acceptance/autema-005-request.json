@@ -1,0 +1,55 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 41.6494911,
+        "lon": 1.8615163,
+        "heading": 277
+      },
+      {
+        "lat": 41.6495999,
+        "lon": 1.8606647,
+        "heading": 285,
+        "type": "through"
+      },
+      {
+        "lat": 41.6497747,
+        "lon": 1.8598258,
+        "heading": 272
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "autema",
+  "network": "es-c16-sant-vicenc-c55",
+  "expectedCents": 490,
+  "sourceProbe": {
+    "network": "es-c16-sant-vicenc-c55",
+    "booth": 2024620551,
+    "way": "191901032/191901032",
+    "versions": [
+      3,
+      3
+    ],
+    "traversedWays": [
+      {
+        "id": 191901032,
+        "version": 3
+      },
+      {
+        "id": 515278836,
+        "version": 3
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

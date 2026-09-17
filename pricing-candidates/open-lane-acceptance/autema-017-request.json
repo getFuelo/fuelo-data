@@ -1,0 +1,83 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 41.6525212,
+        "lon": 1.8657154,
+        "heading": 221
+      },
+      {
+        "lat": 41.6518193,
+        "lon": 1.8646563,
+        "heading": 232,
+        "type": "through"
+      },
+      {
+        "lat": 41.6197361,
+        "lon": 1.8819088,
+        "heading": 133
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "family": "autema",
+  "network": "es-c16-terrassa-manresa",
+  "expectedCents": 976,
+  "sourceProbe": {
+    "network": "es-c16-terrassa-manresa",
+    "booth": 2024647223,
+    "way": "191903486/191903486",
+    "versions": [
+      4,
+      4
+    ],
+    "traversedWays": [
+      {
+        "id": 97695878,
+        "version": 7
+      },
+      {
+        "id": 191901009,
+        "version": 8
+      },
+      {
+        "id": 191901010,
+        "version": 13
+      },
+      {
+        "id": 191903486,
+        "version": 4
+      },
+      {
+        "id": 427346568,
+        "version": 6
+      },
+      {
+        "id": 1233552413,
+        "version": 5
+      },
+      {
+        "id": 1303879830,
+        "version": 4
+      },
+      {
+        "id": 1356910029,
+        "version": 3
+      },
+      {
+        "id": 1356910030,
+        "version": 3
+      }
+    ]
+  },
+  "tariffReference": "app:src/lib/__tests__/fixtures/open-barrier-routes.json",
+  "at": "2026-09-16T10:00:00Z"
+}

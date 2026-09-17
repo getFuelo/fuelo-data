@@ -1,0 +1,34 @@
+{
+  "checked": "2026-09-16",
+  "source": "audit/2026-09-16/spain-graph/graph.json.gz",
+  "sha256": "be3149ce816029df2292acb466f9cd46b3c3d4c9b55614d2d61e2bcf1d451eb4",
+  "way": {
+    "id": 372179846,
+    "version": 5,
+    "nodes": [
+      148708018,
+      148708019,
+      148708021,
+      148708022,
+      148708023,
+      148708024,
+      148708025,
+      148708027,
+      148708028,
+      3757127952,
+      148708029
+    ],
+    "tags": {
+      "highway": "trunk_link",
+      "int_ref": "E 09",
+      "lanes": "1",
+      "maxspeed": "40",
+      "oneway": "yes",
+      "ref": "GIV-4034",
+      "surface": "asphalt"
+    }
+  },
+  "finding": "Puigcerdà–Berga enters via GIV-4034; eight vertices of the provider toll maneuver were outside the original C-16 relation.",
+  "regression": "pricing-candidates/general-acceptance/cadi-south-general.json",
+  "change": "Include the versioned connected approach. Existing toll gate, 1456-cent general fare and 12m tolerance are unchanged."
+}

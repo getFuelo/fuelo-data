@@ -1,0 +1,70 @@
+name: Announce app release
+
+# Publishes a distributed app version to app-config.json so older installs see
+# the soft-update banner. The release skill runs this only after the build is
+# installable by every reader of the policy. minimum_version is never touched.
+on:
+  workflow_dispatch:
+    inputs:
+      latest_version:
+        description: "Version now installable by every reader of this policy (X.Y.Z)"
+        required: true
+        type: string
+      update_url:
+        description: "HTTPS link where that audience installs it (Firebase tester release URL during beta)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: announce-release
+  cancel-in-progress: false
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      # Inputs go through env, never interpolated into shell source.
+      LATEST_VERSION: ${{ inputs.latest_version }}
+      UPDATE_URL: ${{ inputs.update_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test announce rules
+        run: python3 -m unittest discover -s scripts -p "test_announce*"
+
+      - name: Update app-config.json
+        run: python3 scripts/announce_release.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "fuelo-data bot"
+          git config user.email "bot@fuelo.app"
+          git add app-config.json
+          git commit -m "chore: announce app v${LATEST_VERSION}"
+          # The refresh workflow also pushes to main; rebase and retry on a race.
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            sleep $((attempt * 5))
+            git pull --rebase
+          done
+          echo "::error::could not push the announcement"
+          exit 1
+
+      - name: Verify what the app reads
+        # The app fetches raw.githubusercontent.com (≈5 min cache), not jsDelivr.
+        run: |
+          url="https://raw.githubusercontent.com/getFuelo/fuelo-data/main/app-config.json"
+          for attempt in $(seq 1 40); do
+            got=$(curl -fsS "$url" | python3 -c "import json,sys; print(json.load(sys.stdin).get('latest_version'))" || true)
+            if [ "$got" = "$LATEST_VERSION" ]; then
+              echo "App policy now serves $got"
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::error::raw.githubusercontent.com still serves '$got' after 10 minutes"
+          exit 1

@@ -13,8 +13,10 @@ from __future__ import annotations
 import json
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -88,6 +90,41 @@ def prices_dict(items: dict[str, float | None]) -> dict[str, float]:
     return {k: v for k, v in items.items() if v is not None}
 
 
+# ── Source dates ─────────────────────────────────────────────────────────────
+# Every station carries `sourceUpdatedAt` (ISO 8601, UTC): when the official
+# source published the snapshot it comes from. Spain's reuse terms (Ley
+# 37/2007, art. 8) require citing the date of the last update, and the app's
+# freshness label must describe the data, not the download. It lives on each
+# station (identical within a file) so it can never drift from the prices the
+# CDN serves; gzip absorbs the repetition (~2-3 %), and older apps ignore the
+# unknown field.
+
+def now_utc() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def iso_utc(dt: datetime) -> str:
+    return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def stamp_source_date(stations: list[dict[str, Any]], when: datetime) -> list[dict[str, Any]]:
+    value = iso_utc(when)
+    for station in stations:
+        station["sourceUpdatedAt"] = value
+    return stations
+
+
+def parse_es_fecha(value: Any) -> datetime | None:
+    """The Ministry's dataset-level "Fecha", e.g. "10/10/2026 9:13:41", is
+    Spanish local time."""
+    try:
+        return datetime.strptime(str(value).strip(), "%d/%m/%Y %H:%M:%S").replace(
+            tzinfo=ZoneInfo("Europe/Madrid")
+        )
+    except (TypeError, ValueError):
+        return None
+
+
 # ── Spain (Ministerio para la Transición Ecológica) ──────────────────────────
 
 ES_URL = (
@@ -136,6 +173,10 @@ def fetch_es() -> list[dict[str, Any]]:
         )
     if not out:
         raise ValueError("Spain API returned no valid stations; preserving previous snapshot")
+    published = parse_es_fecha(payload.get("Fecha"))
+    if published is None:
+        print("[es] no usable 'Fecha' in the response; using the fetch time", file=sys.stderr)
+    stamp_source_date(out, published or now_utc())
     print(f"[es] {len(out):,} stations in {time.time() - t:.1f}s")
     return out
 
@@ -146,6 +187,22 @@ FR_URL = (
     "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/"
     "prix-des-carburants-en-france-flux-instantane-v2/exports/json"
 )
+# Dataset metadata: `data_processed` is when the portal last refreshed it.
+FR_META_URL = (
+    "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/"
+    "prix-des-carburants-en-france-flux-instantane-v2"
+)
+
+
+def fr_processed_at() -> datetime | None:
+    try:
+        res = SESSION.get(FR_META_URL, timeout=TIMEOUT, headers={"Accept": "application/json"})
+        res.raise_for_status()
+        value = res.json()["metas"]["default"]["data_processed"]
+        parsed = datetime.fromisoformat(str(value))
+        return parsed if parsed.tzinfo else None
+    except Exception:  # noqa: BLE001 - metadata is best effort; fall back to fetch time
+        return None
 
 
 def fetch_fr() -> list[dict[str, Any]]:
@@ -187,6 +244,10 @@ def fetch_fr() -> list[dict[str, Any]]:
                 ),
             }
         )
+    processed = fr_processed_at()
+    if processed is None:
+        print("[fr] no dataset processing date; using the fetch time", file=sys.stderr)
+    stamp_source_date(out, processed or now_utc())
     print(f"[fr] {len(out):,} stations in {time.time() - t:.1f}s")
     return out
 
@@ -294,6 +355,8 @@ def fetch_ad() -> list[dict[str, Any]]:
                 "prices": prices,
             }
         )
+    # The Govern's live service has no snapshot timestamp: the read is the snapshot.
+    stamp_source_date(out, now_utc())
     print(f"[ad] {len(out):,} stations in {time.time() - t:.1f}s")
     return out
 
@@ -402,6 +465,8 @@ def fetch_pt() -> list[dict[str, Any]]:
                 "prices": prices,
             }
         )
+    # DGEG's search API has no snapshot timestamp: the read is the snapshot.
+    stamp_source_date(out, now_utc())
     print(f"[pt] {len(out):,} stations in {time.time() - t:.1f}s")
     return out
 

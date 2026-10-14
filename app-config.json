@@ -4,5 +4,7 @@
   "latest_version": "1.2.0",
   "update_url": null,
   "message_es": "Esta versión de Fuelo ya no es compatible. Actualízala para seguir usándola.",
-  "soft_update_message_es": "Hay una nueva versión de Fuelo con mejoras."
+  "soft_update_message_es": "Hay una nueva versión de Fuelo con mejoras.",
+  "_comment_portugal": "portugal_prices_enabled: Portuguese stations and prices (DGEG) are off unless true. DGEG's site forbids commercial use; set true only with DGEG's written authorisation. Apps treat a missing key as false.",
+  "portugal_prices_enabled": false
 }

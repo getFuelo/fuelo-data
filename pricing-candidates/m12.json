@@ -3770,6 +3770,102 @@
               "lng": -3.5994404
             }
           ]
+        },
+        {
+          "id": "35137579",
+          "version": 6,
+          "line": [
+            {
+              "lat": 40.4785503,
+              "lng": -3.6014383
+            },
+            {
+              "lat": 40.4790151,
+              "lng": -3.6013224
+            },
+            {
+              "lat": 40.4793165,
+              "lng": -3.601272
+            },
+            {
+              "lat": 40.479545,
+              "lng": -3.6012746
+            }
+          ]
+        },
+        {
+          "id": "96758345",
+          "version": 5,
+          "line": [
+            {
+              "lat": 40.4532007,
+              "lng": -3.6057069
+            },
+            {
+              "lat": 40.4536935,
+              "lng": -3.6064186
+            },
+            {
+              "lat": 40.4540092,
+              "lng": -3.6069851
+            },
+            {
+              "lat": 40.4542186,
+              "lng": -3.6074718
+            },
+            {
+              "lat": 40.454475,
+              "lng": -3.6083014
+            },
+            {
+              "lat": 40.4547281,
+              "lng": -3.6091456
+            },
+            {
+              "lat": 40.4549848,
+              "lng": -3.6099534
+            }
+          ]
+        },
+        {
+          "id": "96758348",
+          "version": 9,
+          "line": [
+            {
+              "lat": 40.4524596,
+              "lng": -3.604925
+            },
+            {
+              "lat": 40.4525876,
+              "lng": -3.6049807
+            },
+            {
+              "lat": 40.4528504,
+              "lng": -3.6052449
+            },
+            {
+              "lat": 40.4532007,
+              "lng": -3.6057069
+            }
+          ]
+        },
+        {
+          "id": "1057864363",
+          "version": 2,
+          "line": [
+            {
+              "lat": 40.479545,
+              "lng": -3.6012746
+            },
+            {
+              "lat": 40.4797031,
+              "lng": -3.6012746
+            },
+            {
+              "lat": 40.4798125,
+              "lng": -3.6012529
+            }
+          ]
         }
       ],
       "evidence": {
@@ -3777,7 +3873,10 @@
         "tariffSources": [
           "https://cdn.transportes.gob.es/portal-web-seitt/media/document/tarifa_m12_2026.pdf"
         ],
-        "geometrySource": "https://www.openstreetmap.org/copyright"
+        "geometrySource": "https://www.openstreetmap.org/copyright",
+        "coverageSources": [
+          "audit/area-coverage/m12-barajas.json"
+        ]
       }
     },
     {

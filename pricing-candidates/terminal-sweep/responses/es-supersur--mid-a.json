@@ -1,0 +1,36 @@
+{
+ "request": {
+  "locations": [
+   {
+    "lat": 43.295372,
+    "lon": -2.951227
+   },
+   {
+    "lat": 43.397014,
+    "lon": -3.160624
+   }
+  ],
+  "costing": "auto",
+  "costing_options": {
+   "auto": {
+    "use_tolls": 1
+   }
+  },
+  "directions_options": {
+   "units": "kilometers"
+  }
+ },
+ "trip": {
+  "summary": {
+   "length": 26.97540283203125,
+   "time": 1243.631103515625,
+   "has_toll": false
+  },
+  "legs": [
+   {
+    "shape": "ohpqqA~_csDi@R[Te@x@c@nACn@FlBb@rBp@jB|@hDe@Z{H~CcJjAaCLgBJq\\T{KO_KYwHRqPjB_ATYHu@`CyAtJeAfEaGfOuAzD?~Cl@zFpBzEtCfCx`@lPlIj@|JYhFo@vEoBfLaMbCiDrEuBbEqBzGaIbD{BrJeBxD_AxF_@lCd@fBnA`AzB~@~CB~DkBWqEByDxA}EvEeArAgAhBoBjFwApEcGpSkC`I}@jCw@j@o@|@k@~AWlB@pBVjBd@bAd@`Af@d@rAh@vAFtA_@jAaAn@oAf@aCDyBUuBo@gB}@iAiAm@H}LbGqSvAqEnBkFfAiBdAsAzFwBvCa@fDl@jBdBlAnBn@`DF`BC|BWtBeAhCmBxBqB`AcCLkS]sJm@iDEqERgF\\yDd@qDn@gD|@eIhC_KzCiHtAsHl@ck@fD_q@lD}PBoBUsC]kE_AkDwAaDmBsA{@oHwKgDgH{CcL{AqMMeNd@iLhBwHtCyFvEgEnDs@rEd@`D|@dD`DtCtEtAnGRhG]~IsLf{@cOrt@iM~o@o]~bBwHx\\oBrHiDxKoBnFqD~IwErKaa@zr@uGnL}E|J_GdRcCnI_EzNiH`YqC|NoCnQuAdQyAfVe@xRWzSGzJDfL^lN~AhRdDxP|EnT~CdKrChHhFxLnHzL~JnMpWnUdPlKnNdGhBv@rKjElVnHrOvEfg@`PtO|FjK~F~SpNzItJnFzGpFpHjJ~N|J`RtLjXfJtW|G~UvHh^fEpVpCxVvx@~aI@F~\\xfD|Exc@lFpd@tC~SjEtXhFzXnDdQrEpRfDzN`E~NdCbIhGrQpSri@nIlS|DpJhKdUpCxFnIlNjG`JlKtNrJ`KrGfGjFtExFlDpNtI~FjDrKfFrIvDtEdB`HxBlDr@zFpAdDt@pV`FhYzDjUzBj^nDrb@hF~SvCnNxB|OnCjOvChKjCnJnErDlC`HvEbF~DhHfHbJpLhH~L~FjMpDxJzBrHlCzKpCvOnCxTdBlQ~AhR|BfXrAnOhBxSlAfKdBfLtEdZhE~WpCbRvB~PxAxOvAtTxC`l@D|LGhNUdO[tJqAhSu@|IcAbKwBzPaCjPqC~NaBrHyFtUwF`ScFdPgCbI}FfQyAtEyT|n@gSdl@kGlQaFrOoFpPoH~SiCpHm\\b`Amc@xoAkL~\\et@luB{JrYkPdf@iAdDsMx`@qe@ptAmKr]e\\x_AkFhPmJ|YwVvx@sUvy@qTb~@eOro@_Ij[eFnP{Kd[iBlFaE`LmFdN{EhLoE`KgFbLgGbMyH~NiGbLoFhJuH|LeElGwHxKaIvK{IhLyInKaIzIyFhGaK`KgDdDqG~FuOxMmH`GqGzEuF|DgEvCqLvHuMxHcDjBkMnGaD|AcF~B}FpCcJ~DgJxDua@fPkObH{KrFkUlMuf@v[sN~JoZjTiKdHcLtG}LbHcFvC{WbLkJxBeNfDuGzAgFt@eYxBuWlBoIz@iSbDmJ`C_JtCgSrIqKzF}IxFaOlKaMlKwKnNgGjFmLlNwVz]sd@rv@kMpSgIrL_HhJ_W`ZgJtJiUtS}VlRqSjOgRnOsDzDiH`GsHtHgOpPwR|YkS`]gOzZsG|OqHjRyHvTkLl`@aDvMkEnRiElSiFh[uFxa@yB|RmCn[uHp~@uJpjAuEna@uJdq@sKpl@qJze@_Mbm@gN~s@gFfWwJpe@kLhj@oIha@cHt\\oEpRkHjYoN~f@_N`_@iN`\\cLpVuWnd@}Zfc@sYl]o[v[uVtScRfLql@l]{SjL}ExCoChBol@xd@aYxWqZr^sNtSgFdHqMxUgK~RgNtYyKjY{JzYmGhSmE~PkG`XsFjVmKtf@cKxg@wJne@}Mbo@qQdy@gVdbA}ZdiAoHzVgLf_@qW`v@cKv[sOvd@_ItSmJhV}GdQmmAnzCgV|m@wWlr@uTbn@yItWwT~p@_JnYaMbd@{Jdb@}EhXmBxL_ChQyAzNeBvUsAbVeAb_@OfPFjQ^fZl@tQzAjYbBpTvCvXfEp\\~I|r@dC`UxAtPxAfWn@|YN|UStTk@dT{ArXgBrTcDt[_Hlr@_C~ZiAlZg@dk@x@pg@rC`a@rEr`@xEfXnClM`EfQhGnS`Nv`@|Ybu@hMb_@`J`]`Idb@hEz\\pCr\\|Ava@Pdg@qAph@oCh^mCvUkEnYoH`]mF~RwLt]uI~R_PrYoVt\\um@dz@ofAfsA_yAlhBce@ji@cd@je@se@f`@_U`NwS|L{XvNoYnKwXnJoX~GmTjGwQnEoFpAeKtCkMzEuIdDwOlIqNlKwNpL}MpOaM|PqL~RqI~QeHdR}GrTqFjWqEtY}Cx\\wArUm@tUUvRd@pWlAjUdBpTxB`R`DtPtFrW|GbVxGbUxGzTfIjXnEfRpDxQtCfTjBfQhAfQl@jQVpP?|KWdUmAxX_Cr[gFb\\oD|OuE`RqGxRcI~QoGrLkLrS_Uf\\iI|KgJfNiKdPwHlOiGhPkFbO}CrKiCjLkBvJgBjKoAdKsArM{@`Lq@tMa@tMMtJ@jLSrKXdKVpFh@zLrArRdFnn@dDla@vCh`@tCx\\pG`_AfA|R`ApTt@|Rb@bQj@xXf@rb@Dr_@GxXW|Xw@hc@cDz|@gDzi@{Cz_@oE|d@oFpd@eKpt@}I|l@yI`n@wFti@oC|_@cBd]mAna@eAjc@QdFo@nRkAbXwA|WcB~UuFtt@{Bn]g@rOUlTT~YpA`ZdCpZxEp\\zErUxHbYnIzUzH~QbPp]zHvQbIhUzGhWdDbP|ChTzB`VpAzU\\pUMdUy@|UoAnQwBfSwC`R_GxZoCbLoEvOwE|PkE~NaRhj@iSzh@yNv[iOlZuOrXePlWuO|U_e@`m@uu@t}@gYj^mJfMm\\dg@sIrO_M|UgYfj@iQva@_Rha@cOxZsPfZ{OfViP`U_]z`@uNtN}NlMoOlMmTjPoe@`^ed@l]}QfNmKxJsKpKiG`IgFhHgF|HaExH}JvSuLx\\_FfQ_ExQyDlXwBxQiCra@o@jY_AvVQr[fAzb@l@pUKdJm@xKqAjIwEnFoFpD}FrCmAfAw@vAsBlH_Vpm@sA~CoAdBgAdCoAzE}AjHa@vAuA\\{@h@u@`Ai@hA]nBElC\\hC|@pBfDdK~BzMdCjItDhIbAtAzNrSjFxGvRxQnIjJbDhFlAzDj@`CNpDOxDcApHgO~e@sBpGgB~He@bGHbFj@rEtPdt@dSn|@bAlEVdFCtECdC}@zEaB~DqBvBiCvAcQdDoxAbVcN|CmLhFeInEaJpGySjTkUxUyN~LiSjNmOxJeOhJkP~Lc`@pa@iOfP_OdPyCtDkCdEuB|EqB|F{C`MeBhNWfDSpJHzIDpIc@nFoAvFqCdCcE|AeGbBqCvBcClCyKrPkGlKiDjDeB|@eBPiAGiAUgAk@kA_AeAyAm@yA_@eBO{AEoBBiBTgB\\yAf@qAx@eA|@_ApAy@`Bu@`DsCzA{Bz@iCt@aELiDIwCWwAMi@w@_B]q@_AoA_LePqEaHuDyFcj@{x@yJeNqCkDoBmAyAU{@H{@Nu@r@m@~@]xAEzAF|AVrAzApCtBfCq@jAe@z@}@VgAOoDy@_FcAuFo@kEyAyBwBsAgC{@mCwBqLaB{CwGmHeMiJmCkBcPeF{E|PuGn@qGr@??",
+    "toll_segments": []
+   }
+  ]
+ }
+}

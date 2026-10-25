@@ -1,0 +1,124 @@
+{
+ "area": "m12-barajas",
+ "network": "es-m12-barajas",
+ "snapshot": "2026-09-15T20:20:37Z",
+ "source": "https://overpass-api.de/api/interpreter (attic query at the snapshot)",
+ "query": "[out:json][timeout:120][date:\"2026-09-15T20:20:37Z\"];way(around:25,40.452460,-3.604925,40.452588,-3.604981,40.452850,-3.605245,40.453201,-3.605707,40.453693,-3.606419,40.454009,-3.606985,40.454219,-3.607472,40.454475,-3.608301,40.454728,-3.609146,40.479015,-3.601322,40.479316,-3.601272,40.479545,-3.601275,40.479703,-3.601275,40.479812,-3.601253,40.479812,-3.601253)[highway][toll=yes];out meta geom;node(w)[~\"^(barrier|highway)$\"~\"^(toll_booth|toll_gantry)$\"];out meta;",
+ "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+ "reason": "Ways tagged toll=yes beyond the mapped cuts, with no booth or gantry: the journey settles at the existing gates.",
+ "journeys": [
+  "seed--madrid-barajas-t4"
+ ],
+ "checks": {
+  "runs": 2,
+  "routePointsOnWays": true,
+  "chargingPointsOnWays": 0,
+  "joinsNetworkCoverage": true
+ },
+ "ways": [
+  {
+   "id": "35137579",
+   "version": 6,
+   "ref": null,
+   "highway": "motorway_link",
+   "line": [
+    {
+     "lat": 40.4785503,
+     "lng": -3.6014383
+    },
+    {
+     "lat": 40.4790151,
+     "lng": -3.6013224
+    },
+    {
+     "lat": 40.4793165,
+     "lng": -3.601272
+    },
+    {
+     "lat": 40.479545,
+     "lng": -3.6012746
+    }
+   ]
+  },
+  {
+   "id": "96758345",
+   "version": 5,
+   "ref": null,
+   "highway": "motorway_link",
+   "line": [
+    {
+     "lat": 40.4532007,
+     "lng": -3.6057069
+    },
+    {
+     "lat": 40.4536935,
+     "lng": -3.6064186
+    },
+    {
+     "lat": 40.4540092,
+     "lng": -3.6069851
+    },
+    {
+     "lat": 40.4542186,
+     "lng": -3.6074718
+    },
+    {
+     "lat": 40.454475,
+     "lng": -3.6083014
+    },
+    {
+     "lat": 40.4547281,
+     "lng": -3.6091456
+    },
+    {
+     "lat": 40.4549848,
+     "lng": -3.6099534
+    }
+   ]
+  },
+  {
+   "id": "96758348",
+   "version": 9,
+   "ref": null,
+   "highway": "motorway_link",
+   "line": [
+    {
+     "lat": 40.4524596,
+     "lng": -3.604925
+    },
+    {
+     "lat": 40.4525876,
+     "lng": -3.6049807
+    },
+    {
+     "lat": 40.4528504,
+     "lng": -3.6052449
+    },
+    {
+     "lat": 40.4532007,
+     "lng": -3.6057069
+    }
+   ]
+  },
+  {
+   "id": "1057864363",
+   "version": 2,
+   "ref": null,
+   "highway": "motorway_link",
+   "line": [
+    {
+     "lat": 40.479545,
+     "lng": -3.6012746
+    },
+    {
+     "lat": 40.4797031,
+     "lng": -3.6012746
+    },
+    {
+     "lat": 40.4798125,
+     "lng": -3.6012529
+    }
+   ]
+  }
+ ]
+}

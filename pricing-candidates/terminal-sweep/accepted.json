@@ -1,0 +1,1094 @@
+{
+ "es-ap6--through-ab": {
+  "status": "unavailable:missing_exit",
+  "reason": "AP-51 at Villacastín: the journey leaves/joins through the Villacastín access, mapped only for SC-SG-13 (build_iberpistas.py: other public approaches pending). Fare unknown, fail closed."
+ },
+ "es-ap6--through-ba": {
+  "status": "unavailable:missing_entry",
+  "reason": "AP-51 at Villacastín: the journey leaves/joins through the Villacastín access, mapped only for SC-SG-13 (build_iberpistas.py: other public approaches pending). Fare unknown, fail closed."
+ },
+ "es-ap6--mid-a": {
+  "status": "unavailable:missing_entry",
+  "reason": "AP-51 at Villacastín: the journey leaves/joins through the Villacastín access, mapped only for SC-SG-13 (build_iberpistas.py: other public approaches pending). Fare unknown, fail closed."
+ },
+ "es-ap6--a-mid": {
+  "status": "unavailable:missing_exit",
+  "reason": "AP-51 at Villacastín: the journey leaves/joins through the Villacastín access, mapped only for SC-SG-13 (build_iberpistas.py: other public approaches pending). Fare unknown, fail closed."
+ },
+ "es-ap9--through-ab": {
+  "status": "quoted",
+  "cents": [
+   2810,
+   2810
+  ]
+ },
+ "es-ap9--through-ba": {
+  "status": "quoted",
+  "cents": [
+   2810,
+   2810
+  ]
+ },
+ "es-ap9--mid-a": {
+  "status": "quoted",
+  "cents": [
+   1355,
+   1355
+  ]
+ },
+ "es-ap9--a-mid": {
+  "status": "quoted",
+  "cents": [
+   1355,
+   1355
+  ]
+ },
+ "es-ap9--mid-b": {
+  "status": "quoted",
+  "cents": [
+   1195,
+   1195
+  ]
+ },
+ "es-ap9--b-mid": {
+  "status": "quoted",
+  "cents": [
+   1195,
+   1195
+  ]
+ },
+ "es-ap68--through-ab": {
+  "status": "unavailable:missing_entry",
+  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao: no gate or fare for the road-to-road transfer. Fail closed."
+ },
+ "es-ap68--through-ba": {
+  "status": "unavailable:missing_exit",
+  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao: no gate or fare for the road-to-road transfer. Fail closed."
+ },
+ "es-ap68--mid-a": {
+  "status": "unavailable:missing_exit",
+  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao: no gate or fare for the road-to-road transfer. Fail closed."
+ },
+ "es-ap68--a-mid": {
+  "status": "unavailable:missing_entry",
+  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao: no gate or fare for the road-to-road transfer. Fail closed."
+ },
+ "es-ap68--mid-b": {
+  "status": "quoted",
+  "cents": [
+   1935,
+   1935
+  ]
+ },
+ "es-ap68--b-mid": {
+  "status": "quoted",
+  "cents": [
+   1935,
+   1935
+  ]
+ },
+ "es-ap8-bizkaia--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1687,
+   1687
+  ]
+ },
+ "es-ap8-bizkaia--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1687,
+   1687
+  ]
+ },
+ "es-ap8-bizkaia--mid-a": {
+  "status": "quoted",
+  "cents": [
+   679,
+   679
+  ]
+ },
+ "es-ap8-bizkaia--a-mid": {
+  "status": "quoted",
+  "cents": [
+   679,
+   679
+  ]
+ },
+ "es-ap8-bizkaia--mid-b": {
+  "status": "quoted",
+  "cents": [
+   743,
+   743
+  ]
+ },
+ "es-ap8-bizkaia--b-mid": {
+  "status": "quoted",
+  "cents": [
+   743,
+   743
+  ]
+ },
+ "es-ap8-gipuzkoa--through-ab": {
+  "status": "unavailable:toll_geometry_outside_catalog",
+  "reason": "Continues into France on the A-63 to the Biriatou plaza (43.34,-1.75 -> 43.37,-1.68). French tolls are not in the catalog. Fail closed."
+ },
+ "es-ap8-gipuzkoa--through-ba": {
+  "status": "unavailable:toll_geometry_outside_catalog",
+  "reason": "Continues into France on the A-63 to the Biriatou plaza (43.34,-1.75 -> 43.37,-1.68). French tolls are not in the catalog. Fail closed."
+ },
+ "es-ap8-gipuzkoa--mid-a": {
+  "status": "quoted",
+  "cents": [
+   441,
+   441
+  ]
+ },
+ "es-ap8-gipuzkoa--a-mid": {
+  "status": "quoted",
+  "cents": [
+   441,
+   441
+  ]
+ },
+ "es-ap8-gipuzkoa--mid-b": {
+  "status": "unavailable:toll_geometry_outside_catalog",
+  "reason": "Continues into France on the A-63 to the Biriatou plaza (43.34,-1.75 -> 43.37,-1.68). French tolls are not in the catalog. Fail closed."
+ },
+ "es-ap8-gipuzkoa--b-mid": {
+  "status": "unavailable:toll_geometry_outside_catalog",
+  "reason": "Continues into France on the A-63 to the Biriatou plaza (43.34,-1.75 -> 43.37,-1.68). French tolls are not in the catalog. Fail closed."
+ },
+ "es-supersur--through-ab": {
+  "status": "unavailable:missing_exit",
+  "reason": "Supersur to AP-68 transfer at Bilbao (same as AP-68): no transfer fare. Fail closed."
+ },
+ "es-supersur--through-ba": {
+  "status": "quoted",
+  "cents": [
+   185,
+   185
+  ]
+ },
+ "es-ap636--through-ab": {
+  "status": "no_route",
+  "reason": "Generated end point 12 km beyond the AP-636 has no road the router can reach (no_route); not a catalog result."
+ },
+ "es-ap636--through-ba": {
+  "status": "no_route",
+  "reason": "Generated end point 12 km beyond the AP-636 has no road the router can reach (no_route); not a catalog result."
+ },
+ "es-ap636--mid-a": {
+  "status": "quoted",
+  "cents": [
+   334,
+   334
+  ]
+ },
+ "es-ap636--a-mid": {
+  "status": "quoted",
+  "cents": [
+   334,
+   334
+  ]
+ },
+ "es-ap636--mid-b": {
+  "status": "no_route",
+  "reason": "Generated end point 12 km beyond the AP-636 has no road the router can reach (no_route); not a catalog result."
+ },
+ "es-ap636--b-mid": {
+  "status": "no_route",
+  "reason": "Generated end point 12 km beyond the AP-636 has no road the router can reach (no_route); not a catalog result."
+ },
+ "es-ap15--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1405,
+   1405
+  ]
+ },
+ "es-ap15--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1575,
+   1575
+  ]
+ },
+ "es-ap15--mid-a": {
+  "status": "quoted",
+  "cents": [
+   265,
+   265
+  ]
+ },
+ "es-ap15--a-mid": {
+  "status": "quoted",
+  "cents": [
+   265,
+   265
+  ]
+ },
+ "es-ap15--mid-b": {
+  "status": "quoted",
+  "cents": [
+   685,
+   685
+  ]
+ },
+ "es-ap15--b-mid": {
+  "status": "quoted",
+  "cents": [
+   855,
+   855
+  ]
+ },
+ "es-ap36--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1385,
+   1385
+  ]
+ },
+ "es-ap36--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1385,
+   1385
+  ]
+ },
+ "es-ap36--mid-a": {
+  "status": "quoted",
+  "cents": [
+   590,
+   590
+  ]
+ },
+ "es-ap36--a-mid": {
+  "status": "quoted",
+  "cents": [
+   590,
+   590
+  ]
+ },
+ "es-ap36--mid-b": {
+  "status": "quoted",
+  "cents": [
+   560,
+   560
+  ]
+ },
+ "es-ap36--b-mid": {
+  "status": "quoted",
+  "cents": [
+   560,
+   560
+  ]
+ },
+ "es-ap46--through-ba": {
+  "status": "quoted",
+  "cents": [
+   660,
+   660
+  ]
+ },
+ "es-ap53--through-ab": {
+  "status": "quoted",
+  "cents": [
+   725,
+   725
+  ]
+ },
+ "es-ap53--through-ba": {
+  "status": "quoted",
+  "cents": [
+   725,
+   725
+  ]
+ },
+ "es-ap53--mid-a": {
+  "status": "quoted",
+  "cents": [
+   435,
+   435
+  ]
+ },
+ "es-ap53--a-mid": {
+  "status": "quoted",
+  "cents": [
+   435,
+   435
+  ]
+ },
+ "es-ap53--mid-b": {
+  "status": "quoted",
+  "cents": [
+   300,
+   300
+  ]
+ },
+ "es-ap53--b-mid": {
+  "status": "quoted",
+  "cents": [
+   300,
+   300
+  ]
+ },
+ "es-ap66--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1620,
+   1620
+  ]
+ },
+ "es-ap66--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1620,
+   1620
+  ]
+ },
+ "es-ap66--mid-a": {
+  "status": "quoted",
+  "cents": [
+   1020,
+   1020
+  ]
+ },
+ "es-ap66--a-mid": {
+  "status": "quoted",
+  "cents": [
+   1020,
+   1020
+  ]
+ },
+ "es-ap66--mid-b": {
+  "status": "quoted",
+  "cents": [
+   630,
+   630
+  ]
+ },
+ "es-ap66--b-mid": {
+  "status": "quoted",
+  "cents": [
+   630,
+   630
+  ]
+ },
+ "es-ap71--through-ab": {
+  "status": "quoted",
+  "cents": [
+   620,
+   620
+  ]
+ },
+ "es-ap71--through-ba": {
+  "status": "quoted",
+  "cents": [
+   620,
+   620
+  ]
+ },
+ "es-ap71--mid-a": {
+  "status": "quoted",
+  "cents": [
+   235,
+   235
+  ]
+ },
+ "es-ap71--a-mid": {
+  "status": "quoted",
+  "cents": [
+   235,
+   235
+  ]
+ },
+ "es-ap71--mid-b": {
+  "status": "quoted",
+  "cents": [
+   175,
+   175
+  ]
+ },
+ "es-ap71--b-mid": {
+  "status": "quoted",
+  "cents": [
+   175,
+   175
+  ]
+ },
+ "es-ap7-alicante-cartagena--through-ab": {
+  "status": "quoted",
+  "cents": [
+   570,
+   570
+  ]
+ },
+ "es-ap7-alicante-cartagena--through-ba": {
+  "status": "quoted",
+  "cents": [
+   570,
+   570
+  ]
+ },
+ "es-ap7-alicante-cartagena--mid-b": {
+  "status": "quoted",
+  "cents": [
+   570,
+   570
+  ]
+ },
+ "es-ap7-alicante-cartagena--b-mid": {
+  "status": "quoted",
+  "cents": [
+   570,
+   570
+  ]
+ },
+ "es-ap7-cartagena-vera--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1135,
+   1135
+  ]
+ },
+ "es-ap7-cartagena-vera--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1135,
+   1135
+  ]
+ },
+ "es-ap7-cartagena-vera--mid-a": {
+  "status": "quoted",
+  "cents": [
+   645,
+   645
+  ]
+ },
+ "es-ap7-cartagena-vera--a-mid": {
+  "status": "quoted",
+  "cents": [
+   645,
+   645
+  ]
+ },
+ "es-ap7-cartagena-vera--mid-b": {
+  "status": "quoted",
+  "cents": [
+   355,
+   355
+  ]
+ },
+ "es-ap7-cartagena-vera--b-mid": {
+  "status": "quoted",
+  "cents": [
+   355,
+   355
+  ]
+ },
+ "es-ap7-estepona-guadiaro--through-ab": {
+  "status": "quoted",
+  "cents": [
+   245,
+   245
+  ]
+ },
+ "es-ap7-estepona-guadiaro--through-ba": {
+  "status": "quoted",
+  "cents": [
+   245,
+   245
+  ]
+ },
+ "es-ap7-estepona-guadiaro--mid-a": {
+  "status": "quoted",
+  "cents": [
+   365,
+   365
+  ]
+ },
+ "es-ap7-estepona-guadiaro--a-mid": {
+  "status": "quoted",
+  "cents": [
+   120,
+   120
+  ]
+ },
+ "es-ap7-estepona-guadiaro--mid-b": {
+  "status": "quoted",
+  "cents": [
+   120,
+   120
+  ]
+ },
+ "es-ap7-estepona-guadiaro--b-mid": {
+  "status": "quoted",
+  "cents": [
+   120,
+   120
+  ]
+ },
+ "es-ap7-malaga-estepona--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1075,
+   1075
+  ]
+ },
+ "es-ap7-malaga-estepona--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1075,
+   1075
+  ]
+ },
+ "es-ap7-malaga-estepona--mid-a": {
+  "status": "quoted",
+  "cents": [
+   505,
+   505
+  ]
+ },
+ "es-ap7-malaga-estepona--a-mid": {
+  "status": "quoted",
+  "cents": [
+   505,
+   505
+  ]
+ },
+ "es-ap7-malaga-estepona--mid-b": {
+  "status": "quoted",
+  "cents": [
+   570,
+   570
+  ]
+ },
+ "es-ap7-malaga-estepona--b-mid": {
+  "status": "quoted",
+  "cents": [
+   570,
+   570
+  ]
+ },
+ "es-ag55--through-ab": {
+  "status": "quoted",
+  "cents": [
+   205,
+   205
+  ]
+ },
+ "es-ag55--through-ba": {
+  "status": "quoted",
+  "cents": [
+   205,
+   205
+  ]
+ },
+ "es-ag55--mid-a": {
+  "status": "quoted",
+  "cents": [
+   135,
+   135
+  ]
+ },
+ "es-ag55--a-mid": {
+  "status": "quoted",
+  "cents": [
+   135,
+   135
+  ]
+ },
+ "es-ag57--through-ab": {
+  "status": "quoted",
+  "cents": [
+   175,
+   175
+  ]
+ },
+ "es-ag57--through-ba": {
+  "status": "quoted",
+  "cents": [
+   175,
+   175
+  ]
+ },
+ "es-artxanda--through-ab": {
+  "status": "quoted",
+  "cents": [
+   105,
+   105
+  ]
+ },
+ "es-artxanda--through-ba": {
+  "status": "quoted",
+  "cents": [
+   105,
+   105
+  ]
+ },
+ "es-c16-sant-vicenc-c55--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1765,
+   1765
+  ]
+ },
+ "es-c16-sant-vicenc-c55--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1765,
+   1765
+  ]
+ },
+ "es-c16-sant-vicenc-c55--mid-a": {
+  "status": "quoted",
+  "cents": [
+   976,
+   976
+  ]
+ },
+ "es-c16-sant-vicenc-c55--a-mid": {
+  "status": "quoted",
+  "cents": [
+   976,
+   976
+  ]
+ },
+ "es-c16-sant-vicenc-c55--mid-b": {
+  "status": "quoted",
+  "cents": [
+   789,
+   789
+  ]
+ },
+ "es-c16-sant-vicenc-c55--b-mid": {
+  "status": "quoted",
+  "cents": [
+   789,
+   789
+  ]
+ },
+ "es-c16-terrassa-manresa--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1765,
+   1765
+  ]
+ },
+ "es-c16-terrassa-manresa--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1765,
+   1765
+  ]
+ },
+ "es-c16-terrassa-manresa--mid-a": {
+  "status": "quoted",
+  "cents": [
+   976,
+   976
+  ]
+ },
+ "es-c16-terrassa-manresa--a-mid": {
+  "status": "quoted",
+  "cents": [
+   976,
+   976
+  ]
+ },
+ "es-c16-terrassa-manresa--mid-b": {
+  "status": "quoted",
+  "cents": [
+   789,
+   789
+  ]
+ },
+ "es-c16-terrassa-manresa--b-mid": {
+  "status": "quoted",
+  "cents": [
+   789,
+   789
+  ]
+ },
+ "es-c16-sant-cugat-terrassa--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1765,
+   1765
+  ]
+ },
+ "es-c16-sant-cugat-terrassa--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1765,
+   1765
+  ]
+ },
+ "es-c16-sant-cugat-terrassa--mid-a": {
+  "status": "quoted",
+  "cents": [
+   976,
+   976
+  ]
+ },
+ "es-c16-sant-cugat-terrassa--a-mid": {
+  "status": "quoted",
+  "cents": [
+   976,
+   976
+  ]
+ },
+ "es-c16-sant-cugat-terrassa--mid-b": {
+  "status": "quoted",
+  "cents": [
+   789,
+   789
+  ]
+ },
+ "es-c16-sant-cugat-terrassa--b-mid": {
+  "status": "quoted",
+  "cents": [
+   789,
+   789
+  ]
+ },
+ "es-c32-castelldefels-vendrell--through-ab": {
+  "status": "quoted",
+  "cents": [
+   1345,
+   1345
+  ]
+ },
+ "es-c32-castelldefels-vendrell--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1345,
+   1345
+  ]
+ },
+ "es-c32-castelldefels-vendrell--mid-a": {
+  "status": "quoted",
+  "cents": [
+   503,
+   503
+  ]
+ },
+ "es-c32-castelldefels-vendrell--a-mid": {
+  "status": "quoted",
+  "cents": [
+   503,
+   503
+  ]
+ },
+ "es-c32-castelldefels-vendrell--mid-b": {
+  "status": "quoted",
+  "cents": [
+   842,
+   842
+  ]
+ },
+ "es-c32-castelldefels-vendrell--b-mid": {
+  "status": "quoted",
+  "cents": [
+   842,
+   842
+  ]
+ },
+ "es-cadi--through-ab": {
+  "status": "quoted",
+  "cents": [
+   2922,
+   2922
+  ]
+ },
+ "es-cadi--through-ba": {
+  "status": "quoted",
+  "cents": [
+   1946,
+   1946
+  ]
+ },
+ "es-cadi--mid-a": {
+  "status": "quoted",
+  "cents": [
+   490,
+   490
+  ]
+ },
+ "es-cadi--a-mid": {
+  "status": "quoted",
+  "cents": [
+   1466,
+   1466
+  ]
+ },
+ "es-cadi--mid-b": {
+  "status": "quoted",
+  "cents": [
+   1456,
+   1456
+  ]
+ },
+ "es-cadi--b-mid": {
+  "status": "quoted",
+  "cents": [
+   1456,
+   1456
+  ]
+ },
+ "es-r2--through-ab": {
+  "status": "quoted",
+  "cents": [
+   640,
+   640
+  ]
+ },
+ "es-r2--through-ba": {
+  "status": "quoted",
+  "cents": [
+   640,
+   640
+  ]
+ },
+ "es-r3--mid-b": {
+  "status": "quoted",
+  "cents": [
+   245,
+   245
+  ]
+ },
+ "es-r3--b-mid": {
+  "status": "quoted",
+  "cents": [
+   245,
+   245
+  ]
+ },
+ "es-r5--through-ba": {
+  "status": "quoted",
+  "cents": [
+   50,
+   50
+  ]
+ },
+ "es-r5--b-mid": {
+  "status": "quoted",
+  "cents": [
+   50,
+   50
+  ]
+ },
+ "es-vallvidrera--a-mid": {
+  "status": "quoted",
+  "cents": [
+   319,
+   319
+  ]
+ },
+ "seed--madrid-valladolid": {
+  "status": "quoted",
+  "cents": [
+   1570,
+   1570
+  ]
+ },
+ "seed--madrid-a-coruna": {
+  "status": "quoted",
+  "cents": [
+   1815,
+   1815
+  ]
+ },
+ "seed--a-coruna-santiago": {
+  "status": "quoted",
+  "cents": [
+   880,
+   880
+  ]
+ },
+ "seed--santiago-a-coruna": {
+  "status": "quoted",
+  "cents": [
+   880,
+   880
+  ]
+ },
+ "seed--ferrol-a-coruna": {
+  "status": "quoted",
+  "cents": [
+   615,
+   615
+  ]
+ },
+ "seed--a-coruna-ferrol": {
+  "status": "quoted",
+  "cents": [
+   615,
+   615
+  ]
+ },
+ "seed--santiago-pontevedra": {
+  "status": "quoted",
+  "cents": [
+   755,
+   755
+  ]
+ },
+ "seed--pontevedra-santiago": {
+  "status": "quoted",
+  "cents": [
+   755,
+   755
+  ]
+ },
+ "seed--a-coruna-vigo": {
+  "status": "quoted",
+  "cents": [
+   2140,
+   2140
+  ]
+ },
+ "seed--bilbao-san-sebastian": {
+  "status": "unavailable:toll_geometry_outside_catalog",
+  "reason": "Artxanda (BI-626): the router crosses the plaza on a chord between booth lanes that the ±8 m gate lines do not reach; covering it needs a reviewed redesign of the Artxanda gates. Left unavailable (no coverage added) so it cannot be under-charged."
+ },
+ "seed--san-sebastian-bilbao": {
+  "status": "unavailable:toll_geometry_outside_catalog",
+  "reason": "Artxanda, as seed--bilbao-san-sebastian."
+ },
+ "seed--irun-san-sebastian": {
+  "status": "unavailable:missing_exit",
+  "reason": "Leaves the AP-8 at the GI-20 (Errenteria): GI-20 general OD fare not sourced (build_reviewed_terminal_cuts.py). Fail closed."
+ },
+ "seed--san-sebastian-irun": {
+  "status": "unavailable:missing_or_duplicate_od_fare",
+  "reason": "Joins the AP-8 at the GI-20 entry: GI-20 general OD fare not sourced. Fail closed."
+ },
+ "seed--bilbao-vitoria": {
+  "status": "quoted",
+  "cents": [
+   685,
+   685
+  ]
+ },
+ "seed--leon-astorga": {
+  "status": "quoted",
+  "cents": [
+   620,
+   620
+  ]
+ },
+ "seed--santiago-ourense": {
+  "status": "quoted",
+  "cents": [
+   725,
+   725
+  ]
+ },
+ "seed--madrid-segovia": {
+  "status": "quoted",
+  "cents": [
+   1045,
+   1045
+  ]
+ },
+ "seed--madrid-avila": {
+  "status": "quoted",
+  "cents": [
+   1300,
+   1300
+  ]
+ },
+ "seed--andorra-barcelona": {
+  "status": "quoted",
+  "cents": [
+   2432,
+   2432
+  ]
+ },
+ "seed--barcelona-manresa": {
+  "status": "quoted",
+  "cents": [
+   976,
+   976
+  ]
+ },
+ "seed--barcelona-sitges": {
+  "status": "quoted",
+  "cents": [
+   842,
+   842
+  ]
+ },
+ "seed--malaga-marbella": {
+  "status": "quoted",
+  "cents": [
+   570,
+   570
+  ]
+ },
+ "seed--marbella-algeciras": {
+  "status": "quoted",
+  "cents": [
+   630,
+   630
+  ]
+ },
+ "seed--alicante-cartagena": {
+  "status": "quoted",
+  "cents": [
+   570,
+   570
+  ]
+ },
+ "seed--cartagena-almeria": {
+  "status": "quoted",
+  "cents": [
+   1135,
+   1135
+  ]
+ },
+ "seed--pamplona-tudela": {
+  "status": "quoted",
+  "cents": [
+   1140,
+   1140
+  ]
+ },
+ "seed--zaragoza-bilbao": {
+  "status": "quoted",
+  "cents": [
+   3990,
+   3990
+  ]
+ },
+ "seed--oviedo-leon": {
+  "status": "quoted",
+  "cents": [
+   1620,
+   1620
+  ]
+ },
+ "seed--madrid-barajas-t4": {
+  "status": "quoted",
+  "cents": [
+   100,
+   100
+  ]
+ },
+ "seed--andorra-la-seu-cadi": {
+  "status": "quoted",
+  "cents": [
+   1456,
+   1456
+  ]
+ },
+ "seed--pas-de-la-casa-andorra": {
+  "status": "quoted",
+  "cents": [
+   810,
+   810
+  ]
+ }
+}

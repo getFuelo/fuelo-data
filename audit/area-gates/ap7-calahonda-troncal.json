@@ -1,0 +1,131 @@
+{
+ "name": "ap7-calahonda-troncal",
+ "network": "es-ap7-calahonda-troncal",
+ "gate": "es-ap7-calahonda-troncal-plaza",
+ "snapshot": "2026-09-15T20:20:37Z",
+ "source": "https://overpass-api.de/api/interpreter (attic query at the snapshot)",
+ "query": "[out:json][timeout:60][date:\"2026-09-15T20:20:37Z\"];way(around:80,36.5057325,-4.7178575)[highway];out meta geom;",
+ "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+ "reason": "Booth lanes mapped as separate ways reach beyond the ±8 m line; routes through outer lanes passed the plaza uncrossed.",
+ "previousLine": [
+  {
+   "lat": 36.505581654620485,
+   "lng": -4.71791816138385
+  },
+  {
+   "lat": 36.505883345379516,
+   "lng": -4.71779683861615
+  }
+ ],
+ "line": [
+  {
+   "lat": 36.505401396,
+   "lng": -4.717990651
+  },
+  {
+   "lat": 36.506063604,
+   "lng": -4.717724349
+  }
+ ],
+ "halfLengthM": 38.5,
+ "lanes": [
+  {
+   "way": "1341092955",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": -29.1
+  },
+  {
+   "way": "1341092956",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": -24.5
+  },
+  {
+   "way": "1341092957",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": -24.5
+  },
+  {
+   "way": "1341092958",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": -19.1
+  },
+  {
+   "way": "1341092959",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": -14.2
+  },
+  {
+   "way": "1148740592",
+   "version": 4,
+   "highway": "motorway",
+   "ref": "AP-7",
+   "offsetM": -9.5
+  },
+  {
+   "way": "1341092960",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": -4.2
+  },
+  {
+   "way": "1341092961",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": 0.0
+  },
+  {
+   "way": "1341092962",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": 4.5
+  },
+  {
+   "way": "29048485",
+   "version": 15,
+   "highway": "motorway",
+   "ref": "AP-7",
+   "offsetM": 9.6
+  },
+  {
+   "way": "1341092963",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": 14.1
+  },
+  {
+   "way": "1341092964",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": 19.6
+  },
+  {
+   "way": "1341092966",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": 24.6
+  },
+  {
+   "way": "1341092965",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": null,
+   "offsetM": 30.5
+  }
+ ]
+}

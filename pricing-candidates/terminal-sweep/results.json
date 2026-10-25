@@ -4,8 +4,8 @@
   "unavailable:missing_exit": 6,
   "unavailable:missing_entry": 4,
   "no_tolls": 66,
-  "quoted": 144,
-  "unavailable:toll_geometry_outside_catalog": 6,
+  "quoted": 146,
+  "unavailable:toll_geometry_outside_catalog": 4,
   "no_route": 4,
   "unavailable:missing_or_duplicate_od_fare": 1
  },
@@ -21,8 +21,8 @@
     "lng": -1.679911
    },
    "points": 78,
-   "begin": 1703,
-   "end": 1780
+   "begin": 1743,
+   "end": 1820
   },
   {
    "journey": "es-ap8-gipuzkoa--through-ba",
@@ -35,8 +35,8 @@
     "lng": -1.749493
    },
    "points": 73,
-   "begin": 197,
-   "end": 269
+   "begin": 449,
+   "end": 521
   },
   {
    "journey": "es-ap8-gipuzkoa--mid-b",
@@ -49,8 +49,8 @@
     "lng": -1.679911
    },
    "points": 78,
-   "begin": 909,
-   "end": 986
+   "begin": 712,
+   "end": 789
   },
   {
    "journey": "es-ap8-gipuzkoa--b-mid",
@@ -63,36 +63,8 @@
     "lng": -1.749493
    },
    "points": 73,
-   "begin": 197,
-   "end": 269
-  },
-  {
-   "journey": "seed--bilbao-san-sebastian",
-   "from": {
-    "lat": 43.269513,
-    "lng": -2.931583
-   },
-   "to": {
-    "lat": 43.272314,
-    "lng": -2.93207
-   },
-   "points": 23,
-   "begin": 52,
-   "end": 74
-  },
-  {
-   "journey": "seed--san-sebastian-bilbao",
-   "from": {
-    "lat": 43.272314,
-    "lng": -2.93207
-   },
-   "to": {
-    "lat": 43.270069,
-    "lng": -2.931335
-   },
-   "points": 18,
-   "begin": 3344,
-   "end": 3361
+   "begin": 449,
+   "end": 521
   }
  ],
  "nearMisses": [],
@@ -149,7 +121,7 @@
     2810,
     2810
    ],
-   "km": 220
+   "km": 221
   },
   {
    "name": "es-ap9--through-ba",
@@ -159,27 +131,27 @@
     2810,
     2810
    ],
-   "km": 223
+   "km": 224
   },
   {
    "name": "es-ap9--mid-a",
    "road": "es-ap9",
    "status": "quoted",
    "cents": [
-    1355,
-    1355
+    1615,
+    1615
    ],
-   "km": 115
+   "km": 125
   },
   {
    "name": "es-ap9--a-mid",
    "road": "es-ap9",
    "status": "quoted",
    "cents": [
-    1355,
-    1355
+    1615,
+    1615
    ],
-   "km": 116
+   "km": 126
   },
   {
    "name": "es-ap9--mid-b",
@@ -189,7 +161,7 @@
     1195,
     1195
    ],
-   "km": 109
+   "km": 110
   },
   {
    "name": "es-ap9--b-mid",
@@ -199,7 +171,7 @@
     1195,
     1195
    ],
-   "km": 113
+   "km": 114
   },
   {
    "name": "es-ap68--through-ab",
@@ -309,7 +281,7 @@
    "name": "es-ap8-gipuzkoa--through-ab",
    "road": "es-ap8-gipuzkoa",
    "status": "unavailable:toll_geometry_outside_catalog",
-   "km": 67,
+   "km": 72,
    "uncovered": [
     {
      "from": {
@@ -321,8 +293,8 @@
       "lng": -1.679911
      },
      "points": 78,
-     "begin": 1703,
-     "end": 1780
+     "begin": 1743,
+     "end": 1820
     }
    ]
   },
@@ -330,7 +302,7 @@
    "name": "es-ap8-gipuzkoa--through-ba",
    "road": "es-ap8-gipuzkoa",
    "status": "unavailable:toll_geometry_outside_catalog",
-   "km": 66,
+   "km": 71,
    "uncovered": [
     {
      "from": {
@@ -342,8 +314,8 @@
       "lng": -1.749493
      },
      "points": 73,
-     "begin": 197,
-     "end": 269
+     "begin": 449,
+     "end": 521
     }
    ]
   },
@@ -355,7 +327,7 @@
     441,
     441
    ],
-   "km": 46
+   "km": 38
   },
   {
    "name": "es-ap8-gipuzkoa--a-mid",
@@ -365,13 +337,13 @@
     441,
     441
    ],
-   "km": 46
+   "km": 39
   },
   {
    "name": "es-ap8-gipuzkoa--mid-b",
    "road": "es-ap8-gipuzkoa",
    "status": "unavailable:toll_geometry_outside_catalog",
-   "km": 34,
+   "km": 39,
    "uncovered": [
     {
      "from": {
@@ -383,8 +355,8 @@
       "lng": -1.679911
      },
      "points": 78,
-     "begin": 909,
-     "end": 986
+     "begin": 712,
+     "end": 789
     }
    ]
   },
@@ -392,7 +364,7 @@
    "name": "es-ap8-gipuzkoa--b-mid",
    "road": "es-ap8-gipuzkoa",
    "status": "unavailable:toll_geometry_outside_catalog",
-   "km": 34,
+   "km": 38,
    "uncovered": [
     {
      "from": {
@@ -404,8 +376,8 @@
       "lng": -1.749493
      },
      "points": 73,
-     "begin": 197,
-     "end": 269
+     "begin": 449,
+     "end": 521
     }
    ]
   },
@@ -513,7 +485,7 @@
     1405,
     1405
    ],
-   "km": 144
+   "km": 149
   },
   {
    "name": "es-ap15--through-ba",
@@ -523,7 +495,7 @@
     1575,
     1575
    ],
-   "km": 146
+   "km": 150
   },
   {
    "name": "es-ap15--mid-a",
@@ -553,7 +525,7 @@
     685,
     685
    ],
-   "km": 83
+   "km": 87
   },
   {
    "name": "es-ap15--b-mid",
@@ -563,7 +535,7 @@
     855,
     855
    ],
-   "km": 85
+   "km": 89
   },
   {
    "name": "es-ap36--through-ab",
@@ -1233,7 +1205,7 @@
     175,
     175
    ],
-   "km": 53
+   "km": 52
   },
   {
    "name": "es-ag57--through-ba",
@@ -1243,7 +1215,7 @@
     175,
     175
    ],
-   "km": 53
+   "km": 52
   },
   {
    "name": "es-ag57--mid-a",
@@ -1253,7 +1225,7 @@
     0,
     0
    ],
-   "km": 24
+   "km": 26
   },
   {
    "name": "es-ag57--a-mid",
@@ -1263,7 +1235,7 @@
     0,
     0
    ],
-   "km": 26
+   "km": 27
   },
   {
    "name": "es-ag57--mid-b",
@@ -1273,7 +1245,7 @@
     0,
     0
    ],
-   "km": 32
+   "km": 29
   },
   {
    "name": "es-ag57--b-mid",
@@ -1283,7 +1255,7 @@
     0,
     0
    ],
-   "km": 32
+   "km": 30
   },
   {
    "name": "es-artxanda--through-ab",
@@ -1293,7 +1265,7 @@
     105,
     105
    ],
-   "km": 38
+   "km": 37
   },
   {
    "name": "es-artxanda--through-ba",
@@ -1303,7 +1275,7 @@
     105,
     105
    ],
-   "km": 38
+   "km": 37
   },
   {
    "name": "es-artxanda--mid-a",
@@ -1323,7 +1295,7 @@
     0,
     0
    ],
-   "km": 24
+   "km": 23
   },
   {
    "name": "es-artxanda--mid-b",
@@ -1333,7 +1305,7 @@
     0,
     0
    ],
-   "km": 33
+   "km": 29
   },
   {
    "name": "es-artxanda--b-mid",
@@ -1343,7 +1315,7 @@
     0,
     0
    ],
-   "km": 33
+   "km": 29
   },
   {
    "name": "es-c16-sant-vicenc-c55--through-ab",
@@ -1673,7 +1645,7 @@
     0,
     0
    ],
-   "km": 25
+   "km": 24
   },
   {
    "name": "es-m12--a-mid",
@@ -1683,7 +1655,7 @@
     0,
     0
    ],
-   "km": 25
+   "km": 24
   },
   {
    "name": "es-m12--mid-b",
@@ -1693,7 +1665,7 @@
     0,
     0
    ],
-   "km": 40
+   "km": 39
   },
   {
    "name": "es-m12--b-mid",
@@ -1703,7 +1675,7 @@
     0,
     0
    ],
-   "km": 32
+   "km": 30
   },
   {
    "name": "es-r2--through-ab",
@@ -2108,68 +2080,22 @@
   {
    "name": "seed--bilbao-san-sebastian",
    "road": "seed",
-   "status": "unavailable:toll_geometry_outside_catalog",
-   "km": 102,
-   "uncovered": [
-    {
-     "from": {
-      "lat": 43.269513,
-      "lng": -2.931583
-     },
-     "to": {
-      "lat": 43.272314,
-      "lng": -2.93207
-     },
-     "points": 23,
-     "begin": 52,
-     "end": 74
-    }
+   "status": "quoted",
+   "cents": [
+    1536,
+    1536
    ],
-   "nearMisses": [
-    {
-     "network": "es-artxanda",
-     "gate": "artxanda-inbound",
-     "metres": 24
-    },
-    {
-     "network": "es-artxanda",
-     "gate": "artxanda-outbound",
-     "metres": 24
-    }
-   ]
+   "km": 102
   },
   {
    "name": "seed--san-sebastian-bilbao",
    "road": "seed",
-   "status": "unavailable:toll_geometry_outside_catalog",
-   "km": 102,
-   "uncovered": [
-    {
-     "from": {
-      "lat": 43.272314,
-      "lng": -2.93207
-     },
-     "to": {
-      "lat": 43.270069,
-      "lng": -2.931335
-     },
-     "points": 18,
-     "begin": 3344,
-     "end": 3361
-    }
+   "status": "quoted",
+   "cents": [
+    1536,
+    1536
    ],
-   "nearMisses": [
-    {
-     "network": "es-artxanda",
-     "gate": "artxanda-inbound",
-     "metres": 24
-    },
-    {
-     "network": "es-artxanda",
-     "gate": "artxanda-outbound",
-     "metres": 24
-    }
-   ]
+   "km": 102
   },
   {
    "name": "seed--irun-san-sebastian",

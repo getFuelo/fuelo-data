@@ -75,72 +75,72 @@
   "name": "es-ap9--through-ab",
   "road": "es-ap9",
   "from": {
-   "lat": 41.965794,
-   "lng": -8.681849
+   "lat": 41.962802,
+   "lng": -8.681804
   },
   "to": {
-   "lat": 43.556688,
-   "lng": -8.128399
+   "lat": 43.561852,
+   "lng": -8.123574
   }
  },
  {
   "name": "es-ap9--through-ba",
   "road": "es-ap9",
   "from": {
-   "lat": 43.556688,
-   "lng": -8.128399
+   "lat": 43.561852,
+   "lng": -8.123574
   },
   "to": {
-   "lat": 41.965794,
-   "lng": -8.681849
+   "lat": 41.962802,
+   "lng": -8.681804
   }
  },
  {
   "name": "es-ap9--mid-a",
   "road": "es-ap9",
   "from": {
-   "lat": 42.839656,
-   "lng": -8.630172
+   "lat": 42.869351,
+   "lng": -8.623343
   },
   "to": {
-   "lat": 41.965794,
-   "lng": -8.681849
+   "lat": 41.962802,
+   "lng": -8.681804
   }
  },
  {
   "name": "es-ap9--a-mid",
   "road": "es-ap9",
   "from": {
-   "lat": 41.965794,
-   "lng": -8.681849
+   "lat": 41.962802,
+   "lng": -8.681804
   },
   "to": {
-   "lat": 42.839656,
-   "lng": -8.630172
+   "lat": 42.869351,
+   "lng": -8.623343
   }
  },
  {
   "name": "es-ap9--mid-b",
   "road": "es-ap9",
   "from": {
-   "lat": 42.839656,
-   "lng": -8.630172
+   "lat": 42.869351,
+   "lng": -8.623343
   },
   "to": {
-   "lat": 43.556688,
-   "lng": -8.128399
+   "lat": 43.561852,
+   "lng": -8.123574
   }
  },
  {
   "name": "es-ap9--b-mid",
   "road": "es-ap9",
   "from": {
-   "lat": 43.556688,
-   "lng": -8.128399
+   "lat": 43.561852,
+   "lng": -8.123574
   },
   "to": {
-   "lat": 42.839656,
-   "lng": -8.630172
+   "lat": 42.869351,
+   "lng": -8.623343
   }
  },
  {
@@ -291,72 +291,72 @@
   "name": "es-ap8-gipuzkoa--through-ab",
   "road": "es-ap8-gipuzkoa",
   "from": {
-   "lat": 43.26119,
-   "lng": -2.303585
+   "lat": 43.258943,
+   "lng": -2.303024
   },
   "to": {
-   "lat": 43.343771,
-   "lng": -1.670357
+   "lat": 43.359478,
+   "lng": -1.609995
   }
  },
  {
   "name": "es-ap8-gipuzkoa--through-ba",
   "road": "es-ap8-gipuzkoa",
   "from": {
-   "lat": 43.343771,
-   "lng": -1.670357
+   "lat": 43.359478,
+   "lng": -1.609995
   },
   "to": {
-   "lat": 43.26119,
-   "lng": -2.303585
+   "lat": 43.258943,
+   "lng": -2.303024
   }
  },
  {
   "name": "es-ap8-gipuzkoa--mid-a",
   "road": "es-ap8-gipuzkoa",
   "from": {
-   "lat": 43.332564,
-   "lng": -1.914334
+   "lat": 43.327338,
+   "lng": -1.929854
   },
   "to": {
-   "lat": 43.26119,
-   "lng": -2.303585
+   "lat": 43.258943,
+   "lng": -2.303024
   }
  },
  {
   "name": "es-ap8-gipuzkoa--a-mid",
   "road": "es-ap8-gipuzkoa",
   "from": {
-   "lat": 43.26119,
-   "lng": -2.303585
+   "lat": 43.258943,
+   "lng": -2.303024
   },
   "to": {
-   "lat": 43.332564,
-   "lng": -1.914334
+   "lat": 43.327338,
+   "lng": -1.929854
   }
  },
  {
   "name": "es-ap8-gipuzkoa--mid-b",
   "road": "es-ap8-gipuzkoa",
   "from": {
-   "lat": 43.332564,
-   "lng": -1.914334
+   "lat": 43.327338,
+   "lng": -1.929854
   },
   "to": {
-   "lat": 43.343771,
-   "lng": -1.670357
+   "lat": 43.359478,
+   "lng": -1.609995
   }
  },
  {
   "name": "es-ap8-gipuzkoa--b-mid",
   "road": "es-ap8-gipuzkoa",
   "from": {
-   "lat": 43.343771,
-   "lng": -1.670357
+   "lat": 43.359478,
+   "lng": -1.609995
   },
   "to": {
-   "lat": 43.332564,
-   "lng": -1.914334
+   "lat": 43.327338,
+   "lng": -1.929854
   }
  },
  {
@@ -507,72 +507,72 @@
   "name": "es-ap15--through-ab",
   "road": "es-ap15",
   "from": {
-   "lat": 43.020294,
-   "lng": -1.842676
+   "lat": 43.020307,
+   "lng": -1.842297
   },
   "to": {
-   "lat": 42.032223,
-   "lng": -1.678911
+   "lat": 42.002427,
+   "lng": -1.706378
   }
  },
  {
   "name": "es-ap15--through-ba",
   "road": "es-ap15",
   "from": {
-   "lat": 42.032223,
-   "lng": -1.678911
+   "lat": 42.002427,
+   "lng": -1.706378
   },
   "to": {
-   "lat": 43.020294,
-   "lng": -1.842676
+   "lat": 43.020307,
+   "lng": -1.842297
   }
  },
  {
   "name": "es-ap15--mid-a",
   "road": "es-ap15",
   "from": {
-   "lat": 42.614315,
-   "lng": -1.576045
+   "lat": 42.60953,
+   "lng": -1.576673
   },
   "to": {
-   "lat": 43.020294,
-   "lng": -1.842676
+   "lat": 43.020307,
+   "lng": -1.842297
   }
  },
  {
   "name": "es-ap15--a-mid",
   "road": "es-ap15",
   "from": {
-   "lat": 43.020294,
-   "lng": -1.842676
+   "lat": 43.020307,
+   "lng": -1.842297
   },
   "to": {
-   "lat": 42.614315,
-   "lng": -1.576045
+   "lat": 42.60953,
+   "lng": -1.576673
   }
  },
  {
   "name": "es-ap15--mid-b",
   "road": "es-ap15",
   "from": {
-   "lat": 42.614315,
-   "lng": -1.576045
+   "lat": 42.60953,
+   "lng": -1.576673
   },
   "to": {
-   "lat": 42.032223,
-   "lng": -1.678911
+   "lat": 42.002427,
+   "lng": -1.706378
   }
  },
  {
   "name": "es-ap15--b-mid",
   "road": "es-ap15",
   "from": {
-   "lat": 42.032223,
-   "lng": -1.678911
+   "lat": 42.002427,
+   "lng": -1.706378
   },
   "to": {
-   "lat": 42.614315,
-   "lng": -1.576045
+   "lat": 42.60953,
+   "lng": -1.576673
   }
  },
  {
@@ -1155,144 +1155,144 @@
   "name": "es-ap7-estepona-guadiaro--through-ab",
   "road": "es-ap7-estepona-guadiaro",
   "from": {
-   "lat": 36.211522,
-   "lng": -5.370692
+   "lat": 36.211619,
+   "lng": -5.370843
   },
   "to": {
-   "lat": 36.536844,
-   "lng": -5.043218
+   "lat": 36.536747,
+   "lng": -5.043067
   }
  },
  {
   "name": "es-ap7-estepona-guadiaro--through-ba",
   "road": "es-ap7-estepona-guadiaro",
   "from": {
-   "lat": 36.536844,
-   "lng": -5.043218
+   "lat": 36.536747,
+   "lng": -5.043067
   },
   "to": {
-   "lat": 36.211522,
-   "lng": -5.370692
+   "lat": 36.211619,
+   "lng": -5.370843
   }
  },
  {
   "name": "es-ap7-estepona-guadiaro--mid-a",
   "road": "es-ap7-estepona-guadiaro",
   "from": {
-   "lat": 36.418734,
-   "lng": -5.299666
+   "lat": 36.41887,
+   "lng": -5.299812
   },
   "to": {
-   "lat": 36.211522,
-   "lng": -5.370692
+   "lat": 36.211619,
+   "lng": -5.370843
   }
  },
  {
   "name": "es-ap7-estepona-guadiaro--a-mid",
   "road": "es-ap7-estepona-guadiaro",
   "from": {
-   "lat": 36.211522,
-   "lng": -5.370692
+   "lat": 36.211619,
+   "lng": -5.370843
   },
   "to": {
-   "lat": 36.418734,
-   "lng": -5.299666
+   "lat": 36.41887,
+   "lng": -5.299812
   }
  },
  {
   "name": "es-ap7-estepona-guadiaro--mid-b",
   "road": "es-ap7-estepona-guadiaro",
   "from": {
-   "lat": 36.418734,
-   "lng": -5.299666
+   "lat": 36.41887,
+   "lng": -5.299812
   },
   "to": {
-   "lat": 36.536844,
-   "lng": -5.043218
+   "lat": 36.536747,
+   "lng": -5.043067
   }
  },
  {
   "name": "es-ap7-estepona-guadiaro--b-mid",
   "road": "es-ap7-estepona-guadiaro",
   "from": {
-   "lat": 36.536844,
-   "lng": -5.043218
+   "lat": 36.536747,
+   "lng": -5.043067
   },
   "to": {
-   "lat": 36.418734,
-   "lng": -5.299666
+   "lat": 36.41887,
+   "lng": -5.299812
   }
  },
  {
   "name": "es-ap7-malaga-estepona--through-ab",
   "road": "es-ap7-malaga-estepona",
   "from": {
-   "lat": 36.415372,
-   "lng": -5.275642
+   "lat": 36.415367,
+   "lng": -5.275641
   },
   "to": {
-   "lat": 36.595847,
-   "lng": -4.48613
+   "lat": 36.595852,
+   "lng": -4.486131
   }
  },
  {
   "name": "es-ap7-malaga-estepona--through-ba",
   "road": "es-ap7-malaga-estepona",
   "from": {
-   "lat": 36.595847,
-   "lng": -4.48613
+   "lat": 36.595852,
+   "lng": -4.486131
   },
   "to": {
-   "lat": 36.415372,
-   "lng": -5.275642
+   "lat": 36.415367,
+   "lng": -5.275641
   }
  },
  {
   "name": "es-ap7-malaga-estepona--mid-a",
   "road": "es-ap7-malaga-estepona",
   "from": {
-   "lat": 36.564083,
-   "lng": -4.885764
+   "lat": 36.564082,
+   "lng": -4.885766
   },
   "to": {
-   "lat": 36.415372,
-   "lng": -5.275642
+   "lat": 36.415367,
+   "lng": -5.275641
   }
  },
  {
   "name": "es-ap7-malaga-estepona--a-mid",
   "road": "es-ap7-malaga-estepona",
   "from": {
-   "lat": 36.415372,
-   "lng": -5.275642
+   "lat": 36.415367,
+   "lng": -5.275641
   },
   "to": {
-   "lat": 36.564083,
-   "lng": -4.885764
+   "lat": 36.564082,
+   "lng": -4.885766
   }
  },
  {
   "name": "es-ap7-malaga-estepona--mid-b",
   "road": "es-ap7-malaga-estepona",
   "from": {
-   "lat": 36.564083,
-   "lng": -4.885764
+   "lat": 36.564082,
+   "lng": -4.885766
   },
   "to": {
-   "lat": 36.595847,
-   "lng": -4.48613
+   "lat": 36.595852,
+   "lng": -4.486131
   }
  },
  {
   "name": "es-ap7-malaga-estepona--b-mid",
   "road": "es-ap7-malaga-estepona",
   "from": {
-   "lat": 36.595847,
-   "lng": -4.48613
+   "lat": 36.595852,
+   "lng": -4.486131
   },
   "to": {
-   "lat": 36.564083,
-   "lng": -4.885764
+   "lat": 36.564082,
+   "lng": -4.885766
   }
  },
  {
@@ -1371,144 +1371,144 @@
   "name": "es-ag57--through-ab",
   "road": "es-ag57",
   "from": {
-   "lat": 42.043264,
-   "lng": -8.911537
+   "lat": 42.032968,
+   "lng": -8.942567
   },
   "to": {
-   "lat": 42.222194,
-   "lng": -8.586929
+   "lat": 42.252674,
+   "lng": -8.572229
   }
  },
  {
   "name": "es-ag57--through-ba",
   "road": "es-ag57",
   "from": {
-   "lat": 42.222194,
-   "lng": -8.586929
+   "lat": 42.252674,
+   "lng": -8.572229
   },
   "to": {
-   "lat": 42.043264,
-   "lng": -8.911537
+   "lat": 42.032968,
+   "lng": -8.942567
   }
  },
  {
   "name": "es-ag57--mid-a",
   "road": "es-ag57",
   "from": {
-   "lat": 42.176109,
-   "lng": -8.79888
+   "lat": 42.17684,
+   "lng": -8.799931
   },
   "to": {
-   "lat": 42.043264,
-   "lng": -8.911537
+   "lat": 42.032968,
+   "lng": -8.942567
   }
  },
  {
   "name": "es-ag57--a-mid",
   "road": "es-ag57",
   "from": {
-   "lat": 42.043264,
-   "lng": -8.911537
+   "lat": 42.032968,
+   "lng": -8.942567
   },
   "to": {
-   "lat": 42.176109,
-   "lng": -8.79888
+   "lat": 42.17684,
+   "lng": -8.799931
   }
  },
  {
   "name": "es-ag57--mid-b",
   "road": "es-ag57",
   "from": {
-   "lat": 42.176109,
-   "lng": -8.79888
+   "lat": 42.17684,
+   "lng": -8.799931
   },
   "to": {
-   "lat": 42.222194,
-   "lng": -8.586929
+   "lat": 42.252674,
+   "lng": -8.572229
   }
  },
  {
   "name": "es-ag57--b-mid",
   "road": "es-ag57",
   "from": {
-   "lat": 42.222194,
-   "lng": -8.586929
+   "lat": 42.252674,
+   "lng": -8.572229
   },
   "to": {
-   "lat": 42.176109,
-   "lng": -8.79888
+   "lat": 42.17684,
+   "lng": -8.799931
   }
  },
  {
   "name": "es-artxanda--through-ab",
   "road": "es-artxanda",
   "from": {
-   "lat": 43.38993,
-   "lng": -2.988348
+   "lat": 43.393362,
+   "lng": -2.971583
   },
   "to": {
-   "lat": 43.170455,
-   "lng": -2.883635
+   "lat": 43.164089,
+   "lng": -2.899899
   }
  },
  {
   "name": "es-artxanda--through-ba",
   "road": "es-artxanda",
   "from": {
-   "lat": 43.170455,
-   "lng": -2.883635
+   "lat": 43.164089,
+   "lng": -2.899899
   },
   "to": {
-   "lat": 43.38993,
-   "lng": -2.988348
+   "lat": 43.393362,
+   "lng": -2.971583
   }
  },
  {
   "name": "es-artxanda--mid-a",
   "road": "es-artxanda",
   "from": {
-   "lat": 43.3009,
-   "lng": -2.875309
+   "lat": 43.292102,
+   "lng": -2.872945
   },
   "to": {
-   "lat": 43.38993,
-   "lng": -2.988348
+   "lat": 43.393362,
+   "lng": -2.971583
   }
  },
  {
   "name": "es-artxanda--a-mid",
   "road": "es-artxanda",
   "from": {
-   "lat": 43.38993,
-   "lng": -2.988348
+   "lat": 43.393362,
+   "lng": -2.971583
   },
   "to": {
-   "lat": 43.3009,
-   "lng": -2.875309
+   "lat": 43.292102,
+   "lng": -2.872945
   }
  },
  {
   "name": "es-artxanda--mid-b",
   "road": "es-artxanda",
   "from": {
-   "lat": 43.3009,
-   "lng": -2.875309
+   "lat": 43.292102,
+   "lng": -2.872945
   },
   "to": {
-   "lat": 43.170455,
-   "lng": -2.883635
+   "lat": 43.164089,
+   "lng": -2.899899
   }
  },
  {
   "name": "es-artxanda--b-mid",
   "road": "es-artxanda",
   "from": {
-   "lat": 43.170455,
-   "lng": -2.883635
+   "lat": 43.164089,
+   "lng": -2.899899
   },
   "to": {
-   "lat": 43.3009,
-   "lng": -2.875309
+   "lat": 43.292102,
+   "lng": -2.872945
   }
  },
  {
@@ -1587,72 +1587,72 @@
   "name": "es-c16-terrassa-manresa--through-ab",
   "road": "es-c16-terrassa-manresa",
   "from": {
-   "lat": 41.886982,
-   "lng": 1.820132
+   "lat": 41.886969,
+   "lng": 1.820106
   },
   "to": {
-   "lat": 41.374499,
-   "lng": 2.142685
+   "lat": 41.374512,
+   "lng": 2.142711
   }
  },
  {
   "name": "es-c16-terrassa-manresa--through-ba",
   "road": "es-c16-terrassa-manresa",
   "from": {
-   "lat": 41.374499,
-   "lng": 2.142685
+   "lat": 41.374512,
+   "lng": 2.142711
   },
   "to": {
-   "lat": 41.886982,
-   "lng": 1.820132
+   "lat": 41.886969,
+   "lng": 1.820106
   }
  },
  {
   "name": "es-c16-terrassa-manresa--mid-a",
   "road": "es-c16-terrassa-manresa",
   "from": {
-   "lat": 41.611769,
-   "lng": 1.963054
+   "lat": 41.611777,
+   "lng": 1.963046
   },
   "to": {
-   "lat": 41.886982,
-   "lng": 1.820132
+   "lat": 41.886969,
+   "lng": 1.820106
   }
  },
  {
   "name": "es-c16-terrassa-manresa--a-mid",
   "road": "es-c16-terrassa-manresa",
   "from": {
-   "lat": 41.886982,
-   "lng": 1.820132
+   "lat": 41.886969,
+   "lng": 1.820106
   },
   "to": {
-   "lat": 41.611769,
-   "lng": 1.963054
+   "lat": 41.611777,
+   "lng": 1.963046
   }
  },
  {
   "name": "es-c16-terrassa-manresa--mid-b",
   "road": "es-c16-terrassa-manresa",
   "from": {
-   "lat": 41.611769,
-   "lng": 1.963054
+   "lat": 41.611777,
+   "lng": 1.963046
   },
   "to": {
-   "lat": 41.374499,
-   "lng": 2.142685
+   "lat": 41.374512,
+   "lng": 2.142711
   }
  },
  {
   "name": "es-c16-terrassa-manresa--b-mid",
   "road": "es-c16-terrassa-manresa",
   "from": {
-   "lat": 41.374499,
-   "lng": 2.142685
+   "lat": 41.374512,
+   "lng": 2.142711
   },
   "to": {
-   "lat": 41.611769,
-   "lng": 1.963054
+   "lat": 41.611777,
+   "lng": 1.963046
   }
  },
  {
@@ -1875,72 +1875,72 @@
   "name": "es-m12--through-ab",
   "road": "es-m12",
   "from": {
-   "lat": 40.640567,
-   "lng": -3.618877
+   "lat": 40.640573,
+   "lng": -3.618089
   },
   "to": {
-   "lat": 40.346015,
-   "lng": -3.607179
+   "lat": 40.344544,
+   "lng": -3.603791
   }
  },
  {
   "name": "es-m12--through-ba",
   "road": "es-m12",
   "from": {
-   "lat": 40.346015,
-   "lng": -3.607179
+   "lat": 40.344544,
+   "lng": -3.603791
   },
   "to": {
-   "lat": 40.640567,
-   "lng": -3.618877
+   "lat": 40.640573,
+   "lng": -3.618089
   }
  },
  {
   "name": "es-m12--mid-a",
   "road": "es-m12",
   "from": {
-   "lat": 40.497539,
-   "lng": -3.535851
+   "lat": 40.496496,
+   "lng": -3.540253
   },
   "to": {
-   "lat": 40.640567,
-   "lng": -3.618877
+   "lat": 40.640573,
+   "lng": -3.618089
   }
  },
  {
   "name": "es-m12--a-mid",
   "road": "es-m12",
   "from": {
-   "lat": 40.640567,
-   "lng": -3.618877
+   "lat": 40.640573,
+   "lng": -3.618089
   },
   "to": {
-   "lat": 40.497539,
-   "lng": -3.535851
+   "lat": 40.496496,
+   "lng": -3.540253
   }
  },
  {
   "name": "es-m12--mid-b",
   "road": "es-m12",
   "from": {
-   "lat": 40.497539,
-   "lng": -3.535851
+   "lat": 40.496496,
+   "lng": -3.540253
   },
   "to": {
-   "lat": 40.346015,
-   "lng": -3.607179
+   "lat": 40.344544,
+   "lng": -3.603791
   }
  },
  {
   "name": "es-m12--b-mid",
   "road": "es-m12",
   "from": {
-   "lat": 40.346015,
-   "lng": -3.607179
+   "lat": 40.344544,
+   "lng": -3.603791
   },
   "to": {
-   "lat": 40.497539,
-   "lng": -3.535851
+   "lat": 40.496496,
+   "lng": -3.540253
   }
  },
  {

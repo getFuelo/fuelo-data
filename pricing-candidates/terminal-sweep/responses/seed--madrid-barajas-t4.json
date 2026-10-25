@@ -1,0 +1,41 @@
+{
+ "request": {
+  "locations": [
+   {
+    "lat": 40.4168,
+    "lon": -3.7038
+   },
+   {
+    "lat": 40.491,
+    "lon": -3.593
+   }
+  ],
+  "costing": "auto",
+  "costing_options": {
+   "auto": {
+    "use_tolls": 1
+   }
+  },
+  "directions_options": {
+   "units": "kilometers"
+  }
+ },
+ "trip": {
+  "summary": {
+   "length": 19.0712833404541,
+   "time": 1072.7774658203125,
+   "has_toll": true
+  },
+  "legs": [
+   {
+    "shape": "_s{alAbu`aFw@eCu@kBaB}A_h@mWcBq@mHbVgDlMy@bDi@`A{AZcCs@w@}@_CuDkLcLe@oAOy@GaBBy@b@}DF_AAk@I_AUaAOa@Wa@o@y@sAeAkm@o`@yAgAuBwANgFFqBFqBH}Cv@iX@_@HiILcLFqDBy@ZiJj@}Kf@oHP}Bf@}Fx@yHt@mG~@uG~C}QpA_Hf@gCf@iC~@aFtOcy@bB{I`Lul@lEqUTkALi@^aCbA_C^y@~E_Mf@mAl@{AbC_FaBmImA{IqBwOkAiKOmAa@kDm@}EGe@[eCeEm`@{B{To@cGe@aFQkD?K?s@A_DHwBBiANoBHs@RmBVwEb@iLPyH@eGMaFa@oD_BwFgFqMkEcJq@eEcBeNU_CeLs}AcGuv@UeCGqJz@gKdC_CdBsCbAoCr@oDZwECuDm@qFgBsFs@cAsAoBaBuASOsCgBiBuBqCiGs@wB[kAaAuEaW}mB_AqG}Har@cJ}n@uBsNiFwd@wAcMyB}SaCcWm@kGuIm|@_A}I}Pc`BYeRfDybBb[wxOdGsg@~Jwo@vQohA`Kql@fGeZvAcIvG}b@`PcbApHif@lRynAxN}}@jCmPzNw}@hB{KpLsq@nC}PdSkwAjAyHfYwdBjQgbA~rAqtFv@_D`@eBzG}XbDcNxd@ydCzPirA`KwaA|Ewn@fDgn@tDgdB^gxAyBigAsC}p@aFk_AoGo~@cBaV_Mo~AEw`@q@ij@Lci@N{TtCw|@vAoVlBaWxJit@rL_p@n^kzAnOol@vAcFhGwVrAeFpOe|@hFe]tJweAfDge@|Fgc@jN}p@vDaTvAsPvAkYSqZsCi^aIgb@_Oo^aOkTcOcLaP_IuPqDuNuAwPUuSy@eKkAcKoC}E}AmMiJoK}M}J}QcGoVmK_b@}n@coBukActEmXcfAaSaw@iTw{@eYejA}nAm~EuUa|@e\\qs@o[ac@i\\kZ}h@aZqr@oTw~Bqg@gb@eLa|Au]ys@eRkX_Hsv@qTm{@y[qj@yVoq@g^cf@yUod@_Uym@_U}\\cL{h@}MmUuFqUmEqZeCy\\sFap@gIgSa@sNBmI\\yHb@mUlCca@vKcd@jT{_@`[k[j_@{Xtd@cWlh@{Pv[c[dk@oO~XcNtVqVpd@wGvJo[fl@mq@tmAcSl^yNbWyLpPeLrNkRxRsQvOoTrN}LxGwKjEoJpDiObE{NvCcZnEqLzAoEh@eXvC_Y~C{[lEk[fGgOdF_LnE{JzEwRzM}HpGuJhI_GnBkOnO}Tz[w]nk@wRjb@cLl]_Oxr@yNxs@aOlq@wMx_@cRp^s]bb@kq@dc@_a@hLie@xDgfA}AqgA{Kk{@uSsp@{Uwp@qe@{dAo`A{hAipAc`AuhBwr@}kAsiAitAqwA}uAcCmByHgFyFiDyPaKaImEcUkK_j@oRgVeFeSyDeYkDk[}Bk[q@q[s@}MO}MKiMKcb@uDyXIwQOqlAp@mEB_KF}CVa`@xCu]vCa\\gFyQcBiMD{H?yEk@qQOga@Ome@k@iNe@iXc@aRCkGyA{OE_]k@wb@Q__@S}V[gTo@wPwAaPsCsHsC{GeD_FoCeFiD}F_F_FgGiDwFaDkG_BeDwCiKoA{HcAyLEkK`@}YH{AxCki@`G}gA`@kHfAyRb@oVDuLSwL}@sLiBuKyEcQqIiRyHkLiKwMsGmEyKwF{PsIsRgGqMgEcIcBoDw@cO}B_OoB}LgAaMs@mRq@_VOiN@sI@aQ@oK@",
+    "toll_segments": [
+     {
+      "begin_shape_index": 295,
+      "end_shape_index": 351
+     }
+    ]
+   }
+  ]
+ }
+}

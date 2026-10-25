@@ -1,0 +1,2437 @@
+{
+ "departure": "2026-10-25T10:00:00Z",
+ "byStatus": {
+  "unavailable:missing_exit": 6,
+  "unavailable:missing_entry": 4,
+  "no_tolls": 66,
+  "quoted": 144,
+  "unavailable:toll_geometry_outside_catalog": 6,
+  "no_route": 4,
+  "unavailable:missing_or_duplicate_od_fare": 1
+ },
+ "gaps": [
+  {
+   "journey": "es-ap8-gipuzkoa--through-ab",
+   "from": {
+    "lat": 43.341053,
+    "lng": -1.749237
+   },
+   "to": {
+    "lat": 43.370419,
+    "lng": -1.679911
+   },
+   "points": 78,
+   "begin": 1703,
+   "end": 1780
+  },
+  {
+   "journey": "es-ap8-gipuzkoa--through-ba",
+   "from": {
+    "lat": 43.370725,
+    "lng": -1.679568
+   },
+   "to": {
+    "lat": 43.34132,
+    "lng": -1.749493
+   },
+   "points": 73,
+   "begin": 197,
+   "end": 269
+  },
+  {
+   "journey": "es-ap8-gipuzkoa--mid-b",
+   "from": {
+    "lat": 43.341053,
+    "lng": -1.749237
+   },
+   "to": {
+    "lat": 43.370419,
+    "lng": -1.679911
+   },
+   "points": 78,
+   "begin": 909,
+   "end": 986
+  },
+  {
+   "journey": "es-ap8-gipuzkoa--b-mid",
+   "from": {
+    "lat": 43.370725,
+    "lng": -1.679568
+   },
+   "to": {
+    "lat": 43.34132,
+    "lng": -1.749493
+   },
+   "points": 73,
+   "begin": 197,
+   "end": 269
+  },
+  {
+   "journey": "seed--bilbao-san-sebastian",
+   "from": {
+    "lat": 43.269513,
+    "lng": -2.931583
+   },
+   "to": {
+    "lat": 43.272314,
+    "lng": -2.93207
+   },
+   "points": 23,
+   "begin": 52,
+   "end": 74
+  },
+  {
+   "journey": "seed--san-sebastian-bilbao",
+   "from": {
+    "lat": 43.272314,
+    "lng": -2.93207
+   },
+   "to": {
+    "lat": 43.270069,
+    "lng": -2.931335
+   },
+   "points": 18,
+   "begin": 3344,
+   "end": 3361
+  }
+ ],
+ "nearMisses": [],
+ "results": [
+  {
+   "name": "es-ap6--through-ab",
+   "road": "es-ap6",
+   "status": "unavailable:missing_exit",
+   "km": 86
+  },
+  {
+   "name": "es-ap6--through-ba",
+   "road": "es-ap6",
+   "status": "unavailable:missing_entry",
+   "km": 86
+  },
+  {
+   "name": "es-ap6--mid-a",
+   "road": "es-ap6",
+   "status": "unavailable:missing_entry",
+   "km": 54
+  },
+  {
+   "name": "es-ap6--a-mid",
+   "road": "es-ap6",
+   "status": "unavailable:missing_exit",
+   "km": 53
+  },
+  {
+   "name": "es-ap6--mid-b",
+   "road": "es-ap6",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 42
+  },
+  {
+   "name": "es-ap6--b-mid",
+   "road": "es-ap6",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 42
+  },
+  {
+   "name": "es-ap9--through-ab",
+   "road": "es-ap9",
+   "status": "quoted",
+   "cents": [
+    2810,
+    2810
+   ],
+   "km": 220
+  },
+  {
+   "name": "es-ap9--through-ba",
+   "road": "es-ap9",
+   "status": "quoted",
+   "cents": [
+    2810,
+    2810
+   ],
+   "km": 223
+  },
+  {
+   "name": "es-ap9--mid-a",
+   "road": "es-ap9",
+   "status": "quoted",
+   "cents": [
+    1355,
+    1355
+   ],
+   "km": 115
+  },
+  {
+   "name": "es-ap9--a-mid",
+   "road": "es-ap9",
+   "status": "quoted",
+   "cents": [
+    1355,
+    1355
+   ],
+   "km": 116
+  },
+  {
+   "name": "es-ap9--mid-b",
+   "road": "es-ap9",
+   "status": "quoted",
+   "cents": [
+    1195,
+    1195
+   ],
+   "km": 109
+  },
+  {
+   "name": "es-ap9--b-mid",
+   "road": "es-ap9",
+   "status": "quoted",
+   "cents": [
+    1195,
+    1195
+   ],
+   "km": 113
+  },
+  {
+   "name": "es-ap68--through-ab",
+   "road": "es-ap68",
+   "status": "unavailable:missing_entry",
+   "km": 330
+  },
+  {
+   "name": "es-ap68--through-ba",
+   "road": "es-ap68",
+   "status": "unavailable:missing_exit",
+   "km": 327
+  },
+  {
+   "name": "es-ap68--mid-a",
+   "road": "es-ap68",
+   "status": "unavailable:missing_exit",
+   "km": 159
+  },
+  {
+   "name": "es-ap68--a-mid",
+   "road": "es-ap68",
+   "status": "unavailable:missing_entry",
+   "km": 164
+  },
+  {
+   "name": "es-ap68--mid-b",
+   "road": "es-ap68",
+   "status": "quoted",
+   "cents": [
+    1935,
+    1935
+   ],
+   "km": 183
+  },
+  {
+   "name": "es-ap68--b-mid",
+   "road": "es-ap68",
+   "status": "quoted",
+   "cents": [
+    1935,
+    1935
+   ],
+   "km": 183
+  },
+  {
+   "name": "es-ap8-bizkaia--through-ab",
+   "road": "es-ap8-bizkaia",
+   "status": "quoted",
+   "cents": [
+    1687,
+    1687
+   ],
+   "km": 119
+  },
+  {
+   "name": "es-ap8-bizkaia--through-ba",
+   "road": "es-ap8-bizkaia",
+   "status": "quoted",
+   "cents": [
+    1687,
+    1687
+   ],
+   "km": 119
+  },
+  {
+   "name": "es-ap8-bizkaia--mid-a",
+   "road": "es-ap8-bizkaia",
+   "status": "quoted",
+   "cents": [
+    679,
+    679
+   ],
+   "km": 68
+  },
+  {
+   "name": "es-ap8-bizkaia--a-mid",
+   "road": "es-ap8-bizkaia",
+   "status": "quoted",
+   "cents": [
+    679,
+    679
+   ],
+   "km": 68
+  },
+  {
+   "name": "es-ap8-bizkaia--mid-b",
+   "road": "es-ap8-bizkaia",
+   "status": "quoted",
+   "cents": [
+    743,
+    743
+   ],
+   "km": 65
+  },
+  {
+   "name": "es-ap8-bizkaia--b-mid",
+   "road": "es-ap8-bizkaia",
+   "status": "quoted",
+   "cents": [
+    743,
+    743
+   ],
+   "km": 65
+  },
+  {
+   "name": "es-ap8-gipuzkoa--through-ab",
+   "road": "es-ap8-gipuzkoa",
+   "status": "unavailable:toll_geometry_outside_catalog",
+   "km": 67,
+   "uncovered": [
+    {
+     "from": {
+      "lat": 43.341053,
+      "lng": -1.749237
+     },
+     "to": {
+      "lat": 43.370419,
+      "lng": -1.679911
+     },
+     "points": 78,
+     "begin": 1703,
+     "end": 1780
+    }
+   ]
+  },
+  {
+   "name": "es-ap8-gipuzkoa--through-ba",
+   "road": "es-ap8-gipuzkoa",
+   "status": "unavailable:toll_geometry_outside_catalog",
+   "km": 66,
+   "uncovered": [
+    {
+     "from": {
+      "lat": 43.370725,
+      "lng": -1.679568
+     },
+     "to": {
+      "lat": 43.34132,
+      "lng": -1.749493
+     },
+     "points": 73,
+     "begin": 197,
+     "end": 269
+    }
+   ]
+  },
+  {
+   "name": "es-ap8-gipuzkoa--mid-a",
+   "road": "es-ap8-gipuzkoa",
+   "status": "quoted",
+   "cents": [
+    441,
+    441
+   ],
+   "km": 46
+  },
+  {
+   "name": "es-ap8-gipuzkoa--a-mid",
+   "road": "es-ap8-gipuzkoa",
+   "status": "quoted",
+   "cents": [
+    441,
+    441
+   ],
+   "km": 46
+  },
+  {
+   "name": "es-ap8-gipuzkoa--mid-b",
+   "road": "es-ap8-gipuzkoa",
+   "status": "unavailable:toll_geometry_outside_catalog",
+   "km": 34,
+   "uncovered": [
+    {
+     "from": {
+      "lat": 43.341053,
+      "lng": -1.749237
+     },
+     "to": {
+      "lat": 43.370419,
+      "lng": -1.679911
+     },
+     "points": 78,
+     "begin": 909,
+     "end": 986
+    }
+   ]
+  },
+  {
+   "name": "es-ap8-gipuzkoa--b-mid",
+   "road": "es-ap8-gipuzkoa",
+   "status": "unavailable:toll_geometry_outside_catalog",
+   "km": 34,
+   "uncovered": [
+    {
+     "from": {
+      "lat": 43.370725,
+      "lng": -1.679568
+     },
+     "to": {
+      "lat": 43.34132,
+      "lng": -1.749493
+     },
+     "points": 73,
+     "begin": 197,
+     "end": 269
+    }
+   ]
+  },
+  {
+   "name": "es-supersur--through-ab",
+   "road": "es-supersur",
+   "status": "unavailable:missing_exit",
+   "km": 54
+  },
+  {
+   "name": "es-supersur--through-ba",
+   "road": "es-supersur",
+   "status": "quoted",
+   "cents": [
+    185,
+    185
+   ],
+   "km": 54
+  },
+  {
+   "name": "es-supersur--mid-a",
+   "road": "es-supersur",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 27
+  },
+  {
+   "name": "es-supersur--a-mid",
+   "road": "es-supersur",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 27
+  },
+  {
+   "name": "es-supersur--mid-b",
+   "road": "es-supersur",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 34
+  },
+  {
+   "name": "es-supersur--b-mid",
+   "road": "es-supersur",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 34
+  },
+  {
+   "name": "es-ap636--through-ab",
+   "road": "es-ap636",
+   "status": "no_route"
+  },
+  {
+   "name": "es-ap636--through-ba",
+   "road": "es-ap636",
+   "status": "no_route"
+  },
+  {
+   "name": "es-ap636--mid-a",
+   "road": "es-ap636",
+   "status": "quoted",
+   "cents": [
+    334,
+    334
+   ],
+   "km": 55
+  },
+  {
+   "name": "es-ap636--a-mid",
+   "road": "es-ap636",
+   "status": "quoted",
+   "cents": [
+    334,
+    334
+   ],
+   "km": 53
+  },
+  {
+   "name": "es-ap636--mid-b",
+   "road": "es-ap636",
+   "status": "no_route"
+  },
+  {
+   "name": "es-ap636--b-mid",
+   "road": "es-ap636",
+   "status": "no_route"
+  },
+  {
+   "name": "es-ap15--through-ab",
+   "road": "es-ap15",
+   "status": "quoted",
+   "cents": [
+    1405,
+    1405
+   ],
+   "km": 144
+  },
+  {
+   "name": "es-ap15--through-ba",
+   "road": "es-ap15",
+   "status": "quoted",
+   "cents": [
+    1575,
+    1575
+   ],
+   "km": 146
+  },
+  {
+   "name": "es-ap15--mid-a",
+   "road": "es-ap15",
+   "status": "quoted",
+   "cents": [
+    265,
+    265
+   ],
+   "km": 75
+  },
+  {
+   "name": "es-ap15--a-mid",
+   "road": "es-ap15",
+   "status": "quoted",
+   "cents": [
+    265,
+    265
+   ],
+   "km": 75
+  },
+  {
+   "name": "es-ap15--mid-b",
+   "road": "es-ap15",
+   "status": "quoted",
+   "cents": [
+    685,
+    685
+   ],
+   "km": 83
+  },
+  {
+   "name": "es-ap15--b-mid",
+   "road": "es-ap15",
+   "status": "quoted",
+   "cents": [
+    855,
+    855
+   ],
+   "km": 85
+  },
+  {
+   "name": "es-ap36--through-ab",
+   "road": "es-ap36",
+   "status": "quoted",
+   "cents": [
+    1385,
+    1385
+   ],
+   "km": 194
+  },
+  {
+   "name": "es-ap36--through-ba",
+   "road": "es-ap36",
+   "status": "quoted",
+   "cents": [
+    1385,
+    1385
+   ],
+   "km": 193
+  },
+  {
+   "name": "es-ap36--mid-a",
+   "road": "es-ap36",
+   "status": "quoted",
+   "cents": [
+    590,
+    590
+   ],
+   "km": 84
+  },
+  {
+   "name": "es-ap36--a-mid",
+   "road": "es-ap36",
+   "status": "quoted",
+   "cents": [
+    590,
+    590
+   ],
+   "km": 85
+  },
+  {
+   "name": "es-ap36--mid-b",
+   "road": "es-ap36",
+   "status": "quoted",
+   "cents": [
+    560,
+    560
+   ],
+   "km": 114
+  },
+  {
+   "name": "es-ap36--b-mid",
+   "road": "es-ap36",
+   "status": "quoted",
+   "cents": [
+    560,
+    560
+   ],
+   "km": 114
+  },
+  {
+   "name": "es-ap41--through-ab",
+   "road": "es-ap41",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 91
+  },
+  {
+   "name": "es-ap41--through-ba",
+   "road": "es-ap41",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 91
+  },
+  {
+   "name": "es-ap41--mid-a",
+   "road": "es-ap41",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 49
+  },
+  {
+   "name": "es-ap41--a-mid",
+   "road": "es-ap41",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 49
+  },
+  {
+   "name": "es-ap41--mid-b",
+   "road": "es-ap41",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 58
+  },
+  {
+   "name": "es-ap41--b-mid",
+   "road": "es-ap41",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 57
+  },
+  {
+   "name": "es-ap46--through-ab",
+   "road": "es-ap46",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 65
+  },
+  {
+   "name": "es-ap46--through-ba",
+   "road": "es-ap46",
+   "status": "quoted",
+   "cents": [
+    660,
+    660
+   ],
+   "km": 61
+  },
+  {
+   "name": "es-ap46--mid-a",
+   "road": "es-ap46",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 32
+  },
+  {
+   "name": "es-ap46--a-mid",
+   "road": "es-ap46",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 33
+  },
+  {
+   "name": "es-ap46--mid-b",
+   "road": "es-ap46",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 49
+  },
+  {
+   "name": "es-ap46--b-mid",
+   "road": "es-ap46",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 49
+  },
+  {
+   "name": "es-ap53--through-ab",
+   "road": "es-ap53",
+   "status": "quoted",
+   "cents": [
+    725,
+    725
+   ],
+   "km": 100
+  },
+  {
+   "name": "es-ap53--through-ba",
+   "road": "es-ap53",
+   "status": "quoted",
+   "cents": [
+    725,
+    725
+   ],
+   "km": 99
+  },
+  {
+   "name": "es-ap53--mid-a",
+   "road": "es-ap53",
+   "status": "quoted",
+   "cents": [
+    435,
+    435
+   ],
+   "km": 58
+  },
+  {
+   "name": "es-ap53--a-mid",
+   "road": "es-ap53",
+   "status": "quoted",
+   "cents": [
+    435,
+    435
+   ],
+   "km": 58
+  },
+  {
+   "name": "es-ap53--mid-b",
+   "road": "es-ap53",
+   "status": "quoted",
+   "cents": [
+    300,
+    300
+   ],
+   "km": 58
+  },
+  {
+   "name": "es-ap53--b-mid",
+   "road": "es-ap53",
+   "status": "quoted",
+   "cents": [
+    300,
+    300
+   ],
+   "km": 58
+  },
+  {
+   "name": "es-ap66--through-ab",
+   "road": "es-ap66",
+   "status": "quoted",
+   "cents": [
+    1620,
+    1620
+   ],
+   "km": 120
+  },
+  {
+   "name": "es-ap66--through-ba",
+   "road": "es-ap66",
+   "status": "quoted",
+   "cents": [
+    1620,
+    1620
+   ],
+   "km": 120
+  },
+  {
+   "name": "es-ap66--mid-a",
+   "road": "es-ap66",
+   "status": "quoted",
+   "cents": [
+    1020,
+    1020
+   ],
+   "km": 83
+  },
+  {
+   "name": "es-ap66--a-mid",
+   "road": "es-ap66",
+   "status": "quoted",
+   "cents": [
+    1020,
+    1020
+   ],
+   "km": 83
+  },
+  {
+   "name": "es-ap66--mid-b",
+   "road": "es-ap66",
+   "status": "quoted",
+   "cents": [
+    630,
+    630
+   ],
+   "km": 57
+  },
+  {
+   "name": "es-ap66--b-mid",
+   "road": "es-ap66",
+   "status": "quoted",
+   "cents": [
+    630,
+    630
+   ],
+   "km": 57
+  },
+  {
+   "name": "es-ap71--through-ab",
+   "road": "es-ap71",
+   "status": "quoted",
+   "cents": [
+    620,
+    620
+   ],
+   "km": 72
+  },
+  {
+   "name": "es-ap71--through-ba",
+   "road": "es-ap71",
+   "status": "quoted",
+   "cents": [
+    620,
+    620
+   ],
+   "km": 72
+  },
+  {
+   "name": "es-ap71--mid-a",
+   "road": "es-ap71",
+   "status": "quoted",
+   "cents": [
+    235,
+    235
+   ],
+   "km": 42
+  },
+  {
+   "name": "es-ap71--a-mid",
+   "road": "es-ap71",
+   "status": "quoted",
+   "cents": [
+    235,
+    235
+   ],
+   "km": 42
+  },
+  {
+   "name": "es-ap71--mid-b",
+   "road": "es-ap71",
+   "status": "quoted",
+   "cents": [
+    175,
+    175
+   ],
+   "km": 44
+  },
+  {
+   "name": "es-ap71--b-mid",
+   "road": "es-ap71",
+   "status": "quoted",
+   "cents": [
+    175,
+    175
+   ],
+   "km": 44
+  },
+  {
+   "name": "es-ap7-alicante-cartagena--through-ab",
+   "road": "es-ap7-alicante-cartagena",
+   "status": "quoted",
+   "cents": [
+    570,
+    570
+   ],
+   "km": 104
+  },
+  {
+   "name": "es-ap7-alicante-cartagena--through-ba",
+   "road": "es-ap7-alicante-cartagena",
+   "status": "quoted",
+   "cents": [
+    570,
+    570
+   ],
+   "km": 106
+  },
+  {
+   "name": "es-ap7-alicante-cartagena--mid-a",
+   "road": "es-ap7-alicante-cartagena",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-ap7-alicante-cartagena--a-mid",
+   "road": "es-ap7-alicante-cartagena",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 50
+  },
+  {
+   "name": "es-ap7-alicante-cartagena--mid-b",
+   "road": "es-ap7-alicante-cartagena",
+   "status": "quoted",
+   "cents": [
+    570,
+    570
+   ],
+   "km": 68
+  },
+  {
+   "name": "es-ap7-alicante-cartagena--b-mid",
+   "road": "es-ap7-alicante-cartagena",
+   "status": "quoted",
+   "cents": [
+    570,
+    570
+   ],
+   "km": 68
+  },
+  {
+   "name": "es-ap7-cartagena-vera--through-ab",
+   "road": "es-ap7-cartagena-vera",
+   "status": "quoted",
+   "cents": [
+    1135,
+    1135
+   ],
+   "km": 145
+  },
+  {
+   "name": "es-ap7-cartagena-vera--through-ba",
+   "road": "es-ap7-cartagena-vera",
+   "status": "quoted",
+   "cents": [
+    1135,
+    1135
+   ],
+   "km": 146
+  },
+  {
+   "name": "es-ap7-cartagena-vera--mid-a",
+   "road": "es-ap7-cartagena-vera",
+   "status": "quoted",
+   "cents": [
+    645,
+    645
+   ],
+   "km": 92
+  },
+  {
+   "name": "es-ap7-cartagena-vera--a-mid",
+   "road": "es-ap7-cartagena-vera",
+   "status": "quoted",
+   "cents": [
+    645,
+    645
+   ],
+   "km": 91
+  },
+  {
+   "name": "es-ap7-cartagena-vera--mid-b",
+   "road": "es-ap7-cartagena-vera",
+   "status": "quoted",
+   "cents": [
+    355,
+    355
+   ],
+   "km": 67
+  },
+  {
+   "name": "es-ap7-cartagena-vera--b-mid",
+   "road": "es-ap7-cartagena-vera",
+   "status": "quoted",
+   "cents": [
+    355,
+    355
+   ],
+   "km": 67
+  },
+  {
+   "name": "es-ap7-estepona-guadiaro--through-ab",
+   "road": "es-ap7-estepona-guadiaro",
+   "status": "quoted",
+   "cents": [
+    245,
+    245
+   ],
+   "km": 62
+  },
+  {
+   "name": "es-ap7-estepona-guadiaro--through-ba",
+   "road": "es-ap7-estepona-guadiaro",
+   "status": "quoted",
+   "cents": [
+    245,
+    245
+   ],
+   "km": 63
+  },
+  {
+   "name": "es-ap7-estepona-guadiaro--mid-a",
+   "road": "es-ap7-estepona-guadiaro",
+   "status": "quoted",
+   "cents": [
+    365,
+    365
+   ],
+   "km": 36
+  },
+  {
+   "name": "es-ap7-estepona-guadiaro--a-mid",
+   "road": "es-ap7-estepona-guadiaro",
+   "status": "quoted",
+   "cents": [
+    120,
+    120
+   ],
+   "km": 36
+  },
+  {
+   "name": "es-ap7-estepona-guadiaro--mid-b",
+   "road": "es-ap7-estepona-guadiaro",
+   "status": "quoted",
+   "cents": [
+    120,
+    120
+   ],
+   "km": 46
+  },
+  {
+   "name": "es-ap7-estepona-guadiaro--b-mid",
+   "road": "es-ap7-estepona-guadiaro",
+   "status": "quoted",
+   "cents": [
+    120,
+    120
+   ],
+   "km": 46
+  },
+  {
+   "name": "es-ap7-malaga-estepona--through-ab",
+   "road": "es-ap7-malaga-estepona",
+   "status": "quoted",
+   "cents": [
+    1075,
+    1075
+   ],
+   "km": 98
+  },
+  {
+   "name": "es-ap7-malaga-estepona--through-ba",
+   "road": "es-ap7-malaga-estepona",
+   "status": "quoted",
+   "cents": [
+    1075,
+    1075
+   ],
+   "km": 93
+  },
+  {
+   "name": "es-ap7-malaga-estepona--mid-a",
+   "road": "es-ap7-malaga-estepona",
+   "status": "quoted",
+   "cents": [
+    505,
+    505
+   ],
+   "km": 66
+  },
+  {
+   "name": "es-ap7-malaga-estepona--a-mid",
+   "road": "es-ap7-malaga-estepona",
+   "status": "quoted",
+   "cents": [
+    505,
+    505
+   ],
+   "km": 66
+  },
+  {
+   "name": "es-ap7-malaga-estepona--mid-b",
+   "road": "es-ap7-malaga-estepona",
+   "status": "quoted",
+   "cents": [
+    570,
+    570
+   ],
+   "km": 65
+  },
+  {
+   "name": "es-ap7-malaga-estepona--b-mid",
+   "road": "es-ap7-malaga-estepona",
+   "status": "quoted",
+   "cents": [
+    570,
+    570
+   ],
+   "km": 60
+  },
+  {
+   "name": "es-ag55--through-ab",
+   "road": "es-ag55",
+   "status": "quoted",
+   "cents": [
+    205,
+    205
+   ],
+   "km": 70
+  },
+  {
+   "name": "es-ag55--through-ba",
+   "road": "es-ag55",
+   "status": "quoted",
+   "cents": [
+    205,
+    205
+   ],
+   "km": 70
+  },
+  {
+   "name": "es-ag55--mid-a",
+   "road": "es-ag55",
+   "status": "quoted",
+   "cents": [
+    135,
+    135
+   ],
+   "km": 40
+  },
+  {
+   "name": "es-ag55--a-mid",
+   "road": "es-ag55",
+   "status": "quoted",
+   "cents": [
+    135,
+    135
+   ],
+   "km": 40
+  },
+  {
+   "name": "es-ag55--mid-b",
+   "road": "es-ag55",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 40
+  },
+  {
+   "name": "es-ag55--b-mid",
+   "road": "es-ag55",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 40
+  },
+  {
+   "name": "es-ag57--through-ab",
+   "road": "es-ag57",
+   "status": "quoted",
+   "cents": [
+    175,
+    175
+   ],
+   "km": 53
+  },
+  {
+   "name": "es-ag57--through-ba",
+   "road": "es-ag57",
+   "status": "quoted",
+   "cents": [
+    175,
+    175
+   ],
+   "km": 53
+  },
+  {
+   "name": "es-ag57--mid-a",
+   "road": "es-ag57",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 24
+  },
+  {
+   "name": "es-ag57--a-mid",
+   "road": "es-ag57",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 26
+  },
+  {
+   "name": "es-ag57--mid-b",
+   "road": "es-ag57",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 32
+  },
+  {
+   "name": "es-ag57--b-mid",
+   "road": "es-ag57",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 32
+  },
+  {
+   "name": "es-artxanda--through-ab",
+   "road": "es-artxanda",
+   "status": "quoted",
+   "cents": [
+    105,
+    105
+   ],
+   "km": 38
+  },
+  {
+   "name": "es-artxanda--through-ba",
+   "road": "es-artxanda",
+   "status": "quoted",
+   "cents": [
+    105,
+    105
+   ],
+   "km": 38
+  },
+  {
+   "name": "es-artxanda--mid-a",
+   "road": "es-artxanda",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 23
+  },
+  {
+   "name": "es-artxanda--a-mid",
+   "road": "es-artxanda",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 24
+  },
+  {
+   "name": "es-artxanda--mid-b",
+   "road": "es-artxanda",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 33
+  },
+  {
+   "name": "es-artxanda--b-mid",
+   "road": "es-artxanda",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 33
+  },
+  {
+   "name": "es-c16-sant-vicenc-c55--through-ab",
+   "road": "es-c16-sant-vicenc-c55",
+   "status": "quoted",
+   "cents": [
+    1765,
+    1765
+   ],
+   "km": 80
+  },
+  {
+   "name": "es-c16-sant-vicenc-c55--through-ba",
+   "road": "es-c16-sant-vicenc-c55",
+   "status": "quoted",
+   "cents": [
+    1765,
+    1765
+   ],
+   "km": 80
+  },
+  {
+   "name": "es-c16-sant-vicenc-c55--mid-a",
+   "road": "es-c16-sant-vicenc-c55",
+   "status": "quoted",
+   "cents": [
+    976,
+    976
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-c16-sant-vicenc-c55--a-mid",
+   "road": "es-c16-sant-vicenc-c55",
+   "status": "quoted",
+   "cents": [
+    976,
+    976
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-c16-sant-vicenc-c55--mid-b",
+   "road": "es-c16-sant-vicenc-c55",
+   "status": "quoted",
+   "cents": [
+    789,
+    789
+   ],
+   "km": 38
+  },
+  {
+   "name": "es-c16-sant-vicenc-c55--b-mid",
+   "road": "es-c16-sant-vicenc-c55",
+   "status": "quoted",
+   "cents": [
+    789,
+    789
+   ],
+   "km": 38
+  },
+  {
+   "name": "es-c16-terrassa-manresa--through-ab",
+   "road": "es-c16-terrassa-manresa",
+   "status": "quoted",
+   "cents": [
+    1765,
+    1765
+   ],
+   "km": 80
+  },
+  {
+   "name": "es-c16-terrassa-manresa--through-ba",
+   "road": "es-c16-terrassa-manresa",
+   "status": "quoted",
+   "cents": [
+    1765,
+    1765
+   ],
+   "km": 80
+  },
+  {
+   "name": "es-c16-terrassa-manresa--mid-a",
+   "road": "es-c16-terrassa-manresa",
+   "status": "quoted",
+   "cents": [
+    976,
+    976
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-c16-terrassa-manresa--a-mid",
+   "road": "es-c16-terrassa-manresa",
+   "status": "quoted",
+   "cents": [
+    976,
+    976
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-c16-terrassa-manresa--mid-b",
+   "road": "es-c16-terrassa-manresa",
+   "status": "quoted",
+   "cents": [
+    789,
+    789
+   ],
+   "km": 38
+  },
+  {
+   "name": "es-c16-terrassa-manresa--b-mid",
+   "road": "es-c16-terrassa-manresa",
+   "status": "quoted",
+   "cents": [
+    789,
+    789
+   ],
+   "km": 38
+  },
+  {
+   "name": "es-c16-sant-cugat-terrassa--through-ab",
+   "road": "es-c16-sant-cugat-terrassa",
+   "status": "quoted",
+   "cents": [
+    1765,
+    1765
+   ],
+   "km": 80
+  },
+  {
+   "name": "es-c16-sant-cugat-terrassa--through-ba",
+   "road": "es-c16-sant-cugat-terrassa",
+   "status": "quoted",
+   "cents": [
+    1765,
+    1765
+   ],
+   "km": 80
+  },
+  {
+   "name": "es-c16-sant-cugat-terrassa--mid-a",
+   "road": "es-c16-sant-cugat-terrassa",
+   "status": "quoted",
+   "cents": [
+    976,
+    976
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-c16-sant-cugat-terrassa--a-mid",
+   "road": "es-c16-sant-cugat-terrassa",
+   "status": "quoted",
+   "cents": [
+    976,
+    976
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-c16-sant-cugat-terrassa--mid-b",
+   "road": "es-c16-sant-cugat-terrassa",
+   "status": "quoted",
+   "cents": [
+    789,
+    789
+   ],
+   "km": 38
+  },
+  {
+   "name": "es-c16-sant-cugat-terrassa--b-mid",
+   "road": "es-c16-sant-cugat-terrassa",
+   "status": "quoted",
+   "cents": [
+    789,
+    789
+   ],
+   "km": 38
+  },
+  {
+   "name": "es-c32-castelldefels-vendrell--through-ab",
+   "road": "es-c32-castelldefels-vendrell",
+   "status": "quoted",
+   "cents": [
+    1345,
+    1345
+   ],
+   "km": 90
+  },
+  {
+   "name": "es-c32-castelldefels-vendrell--through-ba",
+   "road": "es-c32-castelldefels-vendrell",
+   "status": "quoted",
+   "cents": [
+    1345,
+    1345
+   ],
+   "km": 90
+  },
+  {
+   "name": "es-c32-castelldefels-vendrell--mid-a",
+   "road": "es-c32-castelldefels-vendrell",
+   "status": "quoted",
+   "cents": [
+    503,
+    503
+   ],
+   "km": 50
+  },
+  {
+   "name": "es-c32-castelldefels-vendrell--a-mid",
+   "road": "es-c32-castelldefels-vendrell",
+   "status": "quoted",
+   "cents": [
+    503,
+    503
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-c32-castelldefels-vendrell--mid-b",
+   "road": "es-c32-castelldefels-vendrell",
+   "status": "quoted",
+   "cents": [
+    842,
+    842
+   ],
+   "km": 54
+  },
+  {
+   "name": "es-c32-castelldefels-vendrell--b-mid",
+   "road": "es-c32-castelldefels-vendrell",
+   "status": "quoted",
+   "cents": [
+    842,
+    842
+   ],
+   "km": 54
+  },
+  {
+   "name": "es-cadi--through-ab",
+   "road": "es-cadi",
+   "status": "quoted",
+   "cents": [
+    2922,
+    2922
+   ],
+   "km": 162
+  },
+  {
+   "name": "es-cadi--through-ba",
+   "road": "es-cadi",
+   "status": "quoted",
+   "cents": [
+    1946,
+    1946
+   ],
+   "km": 162
+  },
+  {
+   "name": "es-cadi--mid-a",
+   "road": "es-cadi",
+   "status": "quoted",
+   "cents": [
+    490,
+    490
+   ],
+   "km": 81
+  },
+  {
+   "name": "es-cadi--a-mid",
+   "road": "es-cadi",
+   "status": "quoted",
+   "cents": [
+    1466,
+    1466
+   ],
+   "km": 81
+  },
+  {
+   "name": "es-cadi--mid-b",
+   "road": "es-cadi",
+   "status": "quoted",
+   "cents": [
+    1456,
+    1456
+   ],
+   "km": 95
+  },
+  {
+   "name": "es-cadi--b-mid",
+   "road": "es-cadi",
+   "status": "quoted",
+   "cents": [
+    1456,
+    1456
+   ],
+   "km": 95
+  },
+  {
+   "name": "es-m12--through-ab",
+   "road": "es-m12",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-m12--through-ba",
+   "road": "es-m12",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 56
+  },
+  {
+   "name": "es-m12--mid-a",
+   "road": "es-m12",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 25
+  },
+  {
+   "name": "es-m12--a-mid",
+   "road": "es-m12",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 25
+  },
+  {
+   "name": "es-m12--mid-b",
+   "road": "es-m12",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 40
+  },
+  {
+   "name": "es-m12--b-mid",
+   "road": "es-m12",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 32
+  },
+  {
+   "name": "es-r2--through-ab",
+   "road": "es-r2",
+   "status": "quoted",
+   "cents": [
+    640,
+    640
+   ],
+   "km": 107
+  },
+  {
+   "name": "es-r2--through-ba",
+   "road": "es-r2",
+   "status": "quoted",
+   "cents": [
+    640,
+    640
+   ],
+   "km": 105
+  },
+  {
+   "name": "es-r2--mid-a",
+   "road": "es-r2",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 61
+  },
+  {
+   "name": "es-r2--a-mid",
+   "road": "es-r2",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-r2--mid-b",
+   "road": "es-r2",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 63
+  },
+  {
+   "name": "es-r2--b-mid",
+   "road": "es-r2",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 64
+  },
+  {
+   "name": "es-r3--through-ab",
+   "road": "es-r3",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 84
+  },
+  {
+   "name": "es-r3--through-ba",
+   "road": "es-r3",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 69
+  },
+  {
+   "name": "es-r3--mid-a",
+   "road": "es-r3",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 27
+  },
+  {
+   "name": "es-r3--a-mid",
+   "road": "es-r3",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 43
+  },
+  {
+   "name": "es-r3--mid-b",
+   "road": "es-r3",
+   "status": "quoted",
+   "cents": [
+    245,
+    245
+   ],
+   "km": 50
+  },
+  {
+   "name": "es-r3--b-mid",
+   "road": "es-r3",
+   "status": "quoted",
+   "cents": [
+    245,
+    245
+   ],
+   "km": 51
+  },
+  {
+   "name": "es-r4--through-ab",
+   "road": "es-r4",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 82
+  },
+  {
+   "name": "es-r4--through-ba",
+   "road": "es-r4",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 86
+  },
+  {
+   "name": "es-r4--mid-a",
+   "road": "es-r4",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 42
+  },
+  {
+   "name": "es-r4--a-mid",
+   "road": "es-r4",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 44
+  },
+  {
+   "name": "es-r4--mid-b",
+   "road": "es-r4",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 47
+  },
+  {
+   "name": "es-r4--b-mid",
+   "road": "es-r4",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 52
+  },
+  {
+   "name": "es-r5--through-ab",
+   "road": "es-r5",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 73
+  },
+  {
+   "name": "es-r5--through-ba",
+   "road": "es-r5",
+   "status": "quoted",
+   "cents": [
+    50,
+    50
+   ],
+   "km": 86
+  },
+  {
+   "name": "es-r5--mid-a",
+   "road": "es-r5",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 50
+  },
+  {
+   "name": "es-r5--a-mid",
+   "road": "es-r5",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 42
+  },
+  {
+   "name": "es-r5--mid-b",
+   "road": "es-r5",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 32
+  },
+  {
+   "name": "es-r5--b-mid",
+   "road": "es-r5",
+   "status": "quoted",
+   "cents": [
+    50,
+    50
+   ],
+   "km": 38
+  },
+  {
+   "name": "es-vallvidrera--through-ab",
+   "road": "es-vallvidrera",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 61
+  },
+  {
+   "name": "es-vallvidrera--through-ba",
+   "road": "es-vallvidrera",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 60
+  },
+  {
+   "name": "es-vallvidrera--mid-a",
+   "road": "es-vallvidrera",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 37
+  },
+  {
+   "name": "es-vallvidrera--a-mid",
+   "road": "es-vallvidrera",
+   "status": "quoted",
+   "cents": [
+    319,
+    319
+   ],
+   "km": 36
+  },
+  {
+   "name": "es-vallvidrera--mid-b",
+   "road": "es-vallvidrera",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 36
+  },
+  {
+   "name": "es-vallvidrera--b-mid",
+   "road": "es-vallvidrera",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 36
+  },
+  {
+   "name": "seed--madrid-valladolid",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    1570,
+    1570
+   ],
+   "km": 210
+  },
+  {
+   "name": "seed--madrid-a-coruna",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    1815,
+    1815
+   ],
+   "km": 591
+  },
+  {
+   "name": "seed--a-coruna-santiago",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    880,
+    880
+   ],
+   "km": 74
+  },
+  {
+   "name": "seed--santiago-a-coruna",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    880,
+    880
+   ],
+   "km": 74
+  },
+  {
+   "name": "seed--ferrol-a-coruna",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    615,
+    615
+   ],
+   "km": 56
+  },
+  {
+   "name": "seed--a-coruna-ferrol",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    615,
+    615
+   ],
+   "km": 54
+  },
+  {
+   "name": "seed--santiago-pontevedra",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    755,
+    755
+   ],
+   "km": 65
+  },
+  {
+   "name": "seed--pontevedra-santiago",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    755,
+    755
+   ],
+   "km": 65
+  },
+  {
+   "name": "seed--a-coruna-vigo",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    2140,
+    2140
+   ],
+   "km": 158
+  },
+  {
+   "name": "seed--vigo-tui",
+   "road": "seed",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 31
+  },
+  {
+   "name": "seed--bilbao-san-sebastian",
+   "road": "seed",
+   "status": "unavailable:toll_geometry_outside_catalog",
+   "km": 102,
+   "uncovered": [
+    {
+     "from": {
+      "lat": 43.269513,
+      "lng": -2.931583
+     },
+     "to": {
+      "lat": 43.272314,
+      "lng": -2.93207
+     },
+     "points": 23,
+     "begin": 52,
+     "end": 74
+    }
+   ],
+   "nearMisses": [
+    {
+     "network": "es-artxanda",
+     "gate": "artxanda-inbound",
+     "metres": 24
+    },
+    {
+     "network": "es-artxanda",
+     "gate": "artxanda-outbound",
+     "metres": 24
+    }
+   ]
+  },
+  {
+   "name": "seed--san-sebastian-bilbao",
+   "road": "seed",
+   "status": "unavailable:toll_geometry_outside_catalog",
+   "km": 102,
+   "uncovered": [
+    {
+     "from": {
+      "lat": 43.272314,
+      "lng": -2.93207
+     },
+     "to": {
+      "lat": 43.270069,
+      "lng": -2.931335
+     },
+     "points": 18,
+     "begin": 3344,
+     "end": 3361
+    }
+   ],
+   "nearMisses": [
+    {
+     "network": "es-artxanda",
+     "gate": "artxanda-inbound",
+     "metres": 24
+    },
+    {
+     "network": "es-artxanda",
+     "gate": "artxanda-outbound",
+     "metres": 24
+    }
+   ]
+  },
+  {
+   "name": "seed--irun-san-sebastian",
+   "road": "seed",
+   "status": "unavailable:missing_exit",
+   "km": 21
+  },
+  {
+   "name": "seed--san-sebastian-irun",
+   "road": "seed",
+   "status": "unavailable:missing_or_duplicate_od_fare",
+   "km": 19
+  },
+  {
+   "name": "seed--bilbao-vitoria",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    685,
+    685
+   ],
+   "km": 64
+  },
+  {
+   "name": "seed--leon-astorga",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    620,
+    620
+   ],
+   "km": 52
+  },
+  {
+   "name": "seed--santiago-ourense",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    725,
+    725
+   ],
+   "km": 104
+  },
+  {
+   "name": "seed--madrid-segovia",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    1045,
+    1045
+   ],
+   "km": 92
+  },
+  {
+   "name": "seed--madrid-avila",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    1300,
+    1300
+   ],
+   "km": 108
+  },
+  {
+   "name": "seed--andorra-barcelona",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    2432,
+    2432
+   ],
+   "km": 199
+  },
+  {
+   "name": "seed--barcelona-manresa",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    976,
+    976
+   ],
+   "km": 68
+  },
+  {
+   "name": "seed--barcelona-sitges",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    842,
+    842
+   ],
+   "km": 41
+  },
+  {
+   "name": "seed--malaga-marbella",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    570,
+    570
+   ],
+   "km": 59
+  },
+  {
+   "name": "seed--marbella-algeciras",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    630,
+    630
+   ],
+   "km": 81
+  },
+  {
+   "name": "seed--alicante-cartagena",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    570,
+    570
+   ],
+   "km": 127
+  },
+  {
+   "name": "seed--cartagena-almeria",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    1135,
+    1135
+   ],
+   "km": 195
+  },
+  {
+   "name": "seed--pamplona-tudela",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    1140,
+    1140
+   ],
+   "km": 97
+  },
+  {
+   "name": "seed--zaragoza-bilbao",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    3990,
+    3990
+   ],
+   "km": 304
+  },
+  {
+   "name": "seed--oviedo-leon",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    1620,
+    1620
+   ],
+   "km": 128
+  },
+  {
+   "name": "seed--toledo-madrid",
+   "road": "seed",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 74
+  },
+  {
+   "name": "seed--madrid-guadalajara-r2",
+   "road": "seed",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 60
+  },
+  {
+   "name": "seed--madrid-arganda",
+   "road": "seed",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 31
+  },
+  {
+   "name": "seed--madrid-aranjuez",
+   "road": "seed",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 50
+  },
+  {
+   "name": "seed--madrid-navalcarnero",
+   "road": "seed",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 37
+  },
+  {
+   "name": "seed--madrid-barajas-t4",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    100,
+    100
+   ],
+   "km": 19
+  },
+  {
+   "name": "seed--madrid-ocana",
+   "road": "seed",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 66
+  },
+  {
+   "name": "seed--burgos-vitoria",
+   "road": "seed",
+   "status": "no_tolls",
+   "cents": [
+    0,
+    0
+   ],
+   "km": 115
+  },
+  {
+   "name": "seed--andorra-la-seu-cadi",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    1456,
+    1456
+   ],
+   "km": 95
+  },
+  {
+   "name": "seed--pas-de-la-casa-andorra",
+   "road": "seed",
+   "status": "quoted",
+   "cents": [
+    810,
+    810
+   ],
+   "km": 28
+  }
+ ]
+}

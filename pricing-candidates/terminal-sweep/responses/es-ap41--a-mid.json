@@ -1,0 +1,36 @@
+{
+ "request": {
+  "locations": [
+   {
+    "lat": 40.382613,
+    "lon": -3.890277
+   },
+   {
+    "lat": 40.092467,
+    "lon": -3.782481
+   }
+  ],
+  "costing": "auto",
+  "costing_options": {
+   "auto": {
+    "use_tolls": 1
+   }
+  },
+  "directions_options": {
+   "units": "kilometers"
+  }
+ },
+ "trip": {
+  "summary": {
+   "length": 48.870849609375,
+   "time": 6253.08544921875,
+   "has_toll": false
+  },
+  "legs": [
+   {
+    "shape": "yev_lAl|mlFpQsn@r[keAlFkH~C_AfC~@xUhSr\\hRtG`FfE~B|EfGjCvH`DzHbEhFtDx@rf@lLd_@pAnOh@pYdIhMtI`NlI|ClBD|DpJrLxIhMhCvD~Gna@pFdhAhAxg@rGzl@@tPrBj\\tSdoA`AbP|c@piApJxb@xOpe@zCxRKth@vA|TqB|^GhOl]Nzx@bUba@~LfQpJlHjDvFFx{@gB~Cf@|BjBvArCf@rCfA~CdIfKpUra@dTp]~OhSnXgKju@_a@|`@uPfvBi@`MVze@d@xWdBfK~CdUpMpJ`C~DXhWr@~WQrTfEjO{BpReC~IuD`H_GfIeIpFiFtCaAbC@zBtArM~IlAj@xBzFg@pCoNrYgBrFq@jE{@fH~S_Y`c@_[yOkg@d_@{s@`k@{Jni@sTfF_Cp\\{PvRwKbGaE|AiAlXqLrCmAnj@gXlEkBxCZbDgBd@]vE|A\\~Ar@nA`At@dATdAAbA]x@s@j@gAZuAF{AlDo@x^kVv_@{OfLwF`HaFvHoHp@y@bC}CjVya@zByE~IgR|P_\\xJsR`EaJxEuOhEuRbBeJ`BaH`B_EjByAzAo@pAAr@D~@r@t@h@d@tCnAtBpAv@zAPvBa@`B_B|@kCHaDg@wCuAuBh@kGpAyJvCg\\f@we@Og[JmjA@gCAoCLkEj@{HNu@Vq@b@c@l@Ih@Gh@Bj@JdCF|@xAdAjAnA~@rAl@lCd@lCEhCo@~BwAjB}BhAgCr@yC^cGa@aGgBsF_DwDeEeByEuKkBoI{@qPaHcfCkBujAc@}f@Ikc@b@wfBz@uoB\\}QxA{Mx@uHpCgBvByCdA_C^wBPyBD{D[yDo@mCcA}BsAkBaBsAqBoQq@iO`AekBJmm@?gRa@gYaBuXeJ{v@ovAqqK_DaVea@}{CeE{^yC_TAkJd@gIdCwDtAcFZgHq@aHyByFuDsDyEsAeFoOmDiN_CoQiBoj@bAoQvD{PxHgN|JkJpJeEjKuBlTaCzRm@bs@dAbHw@vXNhz@Dhw@yCld@}Ehm@aLdKoBz`@qLze@oPjq@gXrd@sWzRkNfFcD~[gWnKoOdIcHj]a\\|j@_o@|KaRl]{i@lGuKxM}R`L}Tt`@wh@x{@ikAhv@odAts@_aAx`@of@lRqTbPwP~RkR`SeQfa@aZbVaP`RqKfe@mThk@uTdt@uTjRkEzdCmt@b`@{Mrt@}Zd|@ge@vk@u`@fu@wq@ll@ir@ph@uv@vNgWrKcS~LkWhLaXt]a_Ap_@_sAnQqt@xGwYfj@qkCzZ_|Atu@}pDtp@sdDtd@euBzUk`AnGkUxVy`Avd@}}A~]_hAxd@etAvp@ciBzn@mbBxu@esBxTqn@|Osg@|Rir@lM}i@vTebAhQigAdVskB`SinB`UsbCfWiqCfJcbA~Ie{@|NiiA`Go`@dV}sAhHsYvOep@v]}rA~GiWbPem@j}B_jIf[}eAdXcgAbRku@lTys@|Skt@xPmm@rUq}@j^imAf_@gvAx^{kAvl@wjBpc@}kAho@}xA~t@uzAzx@{tAtLgSjc@mq@`r@a`A|Q}Ul`@sg@rbA{jAjo@ip@`^o\\f_Aiw@z}A_hAxkAsq@joAoq@zgAwg@jD_BpKuA~PkIjSiKxh@aWbc@iSzL{DvMyCfY_FlVoHpL_GnLkIfIwHhKiLhJeM~KoOr]ma@bTkWhP}Q`SyTfWk[nb@gj@nTk]nPuX~U}c@fb@q}@nNyU`LcOxJkJ~LwJpRcIts@qVr^cMlNsBtMm@`Hl@hSbEdRpGpLnGtStGfv@`d@bcB`aAzw@bf@|l@t^tfB|dAjyBpqApmG`vDfl@~\\n^fVt~@zi@tn@j_@fJ`GrGxDhp@f_@xh@xW|Al@r@Z`z@vV~Z~Jve@hMdeAb^hL`FnL|GfWrOhOpKdObMpQ|PpP|R`M`QzJtOfLjTpMrX~IdUvKz\\bM~f@tPvz@hJji@zQzeAj]pqB~Kxk@~P~r@rO~e@xNh_@xIhS`JbRxSn]xTnYpQrRnN|MrTbObYzRxd@vTb^dNrm@pPxdBra@rf@vLzdA|Tlp@bP`nA|W`jAhXbfCnk@lqBbe@bcAxS|l@rJzp@jIhUfBz~@vG`tCxNn}BtMf`@dAvXtArcBtIbNf@dn@hDx^~Bld@nEzc@~G~d@zK`a@rMf]hOn[nOhWnOxN`Kx~@vq@h_@fZfzBnfBxu@rl@zjAb_A`]rV|OlJfMjGlMvFlWpIb_@pHp`@hE`p@x@zSw@~k@iH``GueAh|FacAjRcC|ReAb^YhLHfQ~A~K`BfL`ClLrDzN|EbPlHlNxHjPrLjNbMxKlMzDfFvArB|HpKvIxMpOnXdLtXpNz`@|~EzfOnUjr@|JvWzQnb@hHvNjLfSfXj`@vMrOvOvPn]zYjFfFb`@vU~dR|cHxYfKt_@nM|WtJdp@dV~`B`m@nbE~zAxHpCpoA~d@he@dQh}@v\\lJbDd`Ax]r}B`{@xMtFvNzGdm@r[zNvHj`@bQ``@bOx{@p[ti@hRrQ|FjRlF|YjHlYlGf]zKjOtFxLdD~k@hSdm@bUrwAdi@fb@lQdbCj|@xWzKzb@xTrTzKbE~BdIvEjSnK|R~IfSzIxShIdLfEzRnHz\\~Mn}A`l@lYnKlv@tXzc@pMrUlGn`@|Jfo@lMxQzC|RvCjw@hKpXnDhXjEvj@bKxR`E|`@pJdS`F~u@nSrg@zPd^~L~c@fQvd@|RxfAfg@xw@t[v[dMl\\jLl_Cxw@d`Blj@vp@dUzT|NfLjLzJrMlRp]nK`QvMdM~SvLlRdHpf@dSWfC@fEh@~DjAjD|@tAj@x@~BfBpCz@vCHtCe@hDqBtAcBbAqBx@oC^yCF_E]_E{@mDcAeEc@mDg@kESoD?_G~@aGzKko@hDwSXaBfC_EhAuA|DiBvCsDbBkFb@iG_@iG_BkFy@}PjA_Pjl@e~CpJaP`Cq@vAuAnA_EH{BeAiFOmIj@sPvDoUfHwc@zAeMxAeR^aRCsQwA}XGiI_MkeBkCah@W{NJsOl@qQfAkL|CkThD{OnHoUd^{`ApI_VjFoPlFcRvFqU|GiYlDwSlDmTdCg\\pB}StBqXlIcbCZqIdAq\\`BoZzBwS`DgSjGu\\|AqJ|BkNnBaSz@}TJmd@q@ax@OgRG}UGydAFgd@H}f@?GBeRdBcRPoBRwBpAuCTeAZoBHkJS{Eg@_BM]YQY{BUgBi@kE}@mPd@s{BBuSB}o@p@wJHqWGw`@oBs`@R_KrA}Jz@iCRyC`Byi@t@uTtDui@xJomAvIa~@x@qIxMqvAxMcwAbAyKfHgu@hBcTGiGdAoSd@gWKsNYgLcA{\\o@ia@Mo]Pq\\|AwVfCiUlGm\\xFkUfFyNxIuStHeNvKiQrQw[pY{c@pK_PhTk\\lDyCvTy]lFgKxLiZfV_m@~B{DbByFfD_IrNqXfFyIbGoInPkWzVi^tKgR|RmXrOcT`DgB`HqIpLoNfQ{QnFiFvLwJvWaQ~DeAfDeD`W_MbCaAlLqEnWiHfO}D|^gHxHiClW{Cd[qAl^Eh_@pAj_@~Cng@~IfDl@fUrDbhBd\\fj@dJ|VnDnZfDdNl@pKLvLL~PKxGc@|[uB~MgBxNiCzSgEvUyGxL}D`PoGp\\iQbRgMpQeNz]k\\vTcVbPuQxLsLdEaDvCIvEHbH~BvEzCdNvKnHjK|I|PbExQnMr^rC~HxR`k@`Vhz@xNxa@xNnT~PrS`L`PdLfOnCtIhFtBbXpOvRxPrHtJfRdPtG|CbPxDrP`BpQjF~IpGnOrOtDtEvBzCpC|KrIzj@bDn^",
+    "toll_segments": []
+   }
+  ]
+ }
+}

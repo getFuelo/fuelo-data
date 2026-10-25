@@ -1,0 +1,2774 @@
+[
+ {
+  "name": "es-ap6--through-ab",
+  "road": "es-ap6",
+  "from": {
+   "lat": 40.662594,
+   "lng": -4.788969
+  },
+  "to": {
+   "lat": 40.919652,
+   "lng": -3.961041
+  }
+ },
+ {
+  "name": "es-ap6--through-ba",
+  "road": "es-ap6",
+  "from": {
+   "lat": 40.919652,
+   "lng": -3.961041
+  },
+  "to": {
+   "lat": 40.662594,
+   "lng": -4.788969
+  }
+ },
+ {
+  "name": "es-ap6--mid-a",
+  "road": "es-ap6",
+  "from": {
+   "lat": 40.789224,
+   "lng": -4.314616
+  },
+  "to": {
+   "lat": 40.662594,
+   "lng": -4.788969
+  }
+ },
+ {
+  "name": "es-ap6--a-mid",
+  "road": "es-ap6",
+  "from": {
+   "lat": 40.662594,
+   "lng": -4.788969
+  },
+  "to": {
+   "lat": 40.789224,
+   "lng": -4.314616
+  }
+ },
+ {
+  "name": "es-ap6--mid-b",
+  "road": "es-ap6",
+  "from": {
+   "lat": 40.789224,
+   "lng": -4.314616
+  },
+  "to": {
+   "lat": 40.919652,
+   "lng": -3.961041
+  }
+ },
+ {
+  "name": "es-ap6--b-mid",
+  "road": "es-ap6",
+  "from": {
+   "lat": 40.919652,
+   "lng": -3.961041
+  },
+  "to": {
+   "lat": 40.789224,
+   "lng": -4.314616
+  }
+ },
+ {
+  "name": "es-ap9--through-ab",
+  "road": "es-ap9",
+  "from": {
+   "lat": 41.965794,
+   "lng": -8.681849
+  },
+  "to": {
+   "lat": 43.556688,
+   "lng": -8.128399
+  }
+ },
+ {
+  "name": "es-ap9--through-ba",
+  "road": "es-ap9",
+  "from": {
+   "lat": 43.556688,
+   "lng": -8.128399
+  },
+  "to": {
+   "lat": 41.965794,
+   "lng": -8.681849
+  }
+ },
+ {
+  "name": "es-ap9--mid-a",
+  "road": "es-ap9",
+  "from": {
+   "lat": 42.839656,
+   "lng": -8.630172
+  },
+  "to": {
+   "lat": 41.965794,
+   "lng": -8.681849
+  }
+ },
+ {
+  "name": "es-ap9--a-mid",
+  "road": "es-ap9",
+  "from": {
+   "lat": 41.965794,
+   "lng": -8.681849
+  },
+  "to": {
+   "lat": 42.839656,
+   "lng": -8.630172
+  }
+ },
+ {
+  "name": "es-ap9--mid-b",
+  "road": "es-ap9",
+  "from": {
+   "lat": 42.839656,
+   "lng": -8.630172
+  },
+  "to": {
+   "lat": 43.556688,
+   "lng": -8.128399
+  }
+ },
+ {
+  "name": "es-ap9--b-mid",
+  "road": "es-ap9",
+  "from": {
+   "lat": 43.556688,
+   "lng": -8.128399
+  },
+  "to": {
+   "lat": 42.839656,
+   "lng": -8.630172
+  }
+ },
+ {
+  "name": "es-ap68--through-ab",
+  "road": "es-ap68",
+  "from": {
+   "lat": 43.31428,
+   "lng": -3.035265
+  },
+  "to": {
+   "lat": 41.597931,
+   "lng": -0.817326
+  }
+ },
+ {
+  "name": "es-ap68--through-ba",
+  "road": "es-ap68",
+  "from": {
+   "lat": 41.597931,
+   "lng": -0.817326
+  },
+  "to": {
+   "lat": 43.31428,
+   "lng": -3.035265
+  }
+ },
+ {
+  "name": "es-ap68--mid-a",
+  "road": "es-ap68",
+  "from": {
+   "lat": 42.486358,
+   "lng": -2.346412
+  },
+  "to": {
+   "lat": 43.31428,
+   "lng": -3.035265
+  }
+ },
+ {
+  "name": "es-ap68--a-mid",
+  "road": "es-ap68",
+  "from": {
+   "lat": 43.31428,
+   "lng": -3.035265
+  },
+  "to": {
+   "lat": 42.486358,
+   "lng": -2.346412
+  }
+ },
+ {
+  "name": "es-ap68--mid-b",
+  "road": "es-ap68",
+  "from": {
+   "lat": 42.486358,
+   "lng": -2.346412
+  },
+  "to": {
+   "lat": 41.597931,
+   "lng": -0.817326
+  }
+ },
+ {
+  "name": "es-ap68--b-mid",
+  "road": "es-ap68",
+  "from": {
+   "lat": 41.597931,
+   "lng": -0.817326
+  },
+  "to": {
+   "lat": 42.486358,
+   "lng": -2.346412
+  }
+ },
+ {
+  "name": "es-ap8-bizkaia--through-ab",
+  "road": "es-ap8-bizkaia",
+  "from": {
+   "lat": 42.843964,
+   "lng": -2.844863
+  },
+  "to": {
+   "lat": 43.338582,
+   "lng": -2.000071
+  }
+ },
+ {
+  "name": "es-ap8-bizkaia--through-ba",
+  "road": "es-ap8-bizkaia",
+  "from": {
+   "lat": 43.338582,
+   "lng": -2.000071
+  },
+  "to": {
+   "lat": 42.843964,
+   "lng": -2.844863
+  }
+ },
+ {
+  "name": "es-ap8-bizkaia--mid-a",
+  "road": "es-ap8-bizkaia",
+  "from": {
+   "lat": 43.149122,
+   "lng": -2.464348
+  },
+  "to": {
+   "lat": 42.843964,
+   "lng": -2.844863
+  }
+ },
+ {
+  "name": "es-ap8-bizkaia--a-mid",
+  "road": "es-ap8-bizkaia",
+  "from": {
+   "lat": 42.843964,
+   "lng": -2.844863
+  },
+  "to": {
+   "lat": 43.149122,
+   "lng": -2.464348
+  }
+ },
+ {
+  "name": "es-ap8-bizkaia--mid-b",
+  "road": "es-ap8-bizkaia",
+  "from": {
+   "lat": 43.149122,
+   "lng": -2.464348
+  },
+  "to": {
+   "lat": 43.338582,
+   "lng": -2.000071
+  }
+ },
+ {
+  "name": "es-ap8-bizkaia--b-mid",
+  "road": "es-ap8-bizkaia",
+  "from": {
+   "lat": 43.338582,
+   "lng": -2.000071
+  },
+  "to": {
+   "lat": 43.149122,
+   "lng": -2.464348
+  }
+ },
+ {
+  "name": "es-ap8-gipuzkoa--through-ab",
+  "road": "es-ap8-gipuzkoa",
+  "from": {
+   "lat": 43.26119,
+   "lng": -2.303585
+  },
+  "to": {
+   "lat": 43.343771,
+   "lng": -1.670357
+  }
+ },
+ {
+  "name": "es-ap8-gipuzkoa--through-ba",
+  "road": "es-ap8-gipuzkoa",
+  "from": {
+   "lat": 43.343771,
+   "lng": -1.670357
+  },
+  "to": {
+   "lat": 43.26119,
+   "lng": -2.303585
+  }
+ },
+ {
+  "name": "es-ap8-gipuzkoa--mid-a",
+  "road": "es-ap8-gipuzkoa",
+  "from": {
+   "lat": 43.332564,
+   "lng": -1.914334
+  },
+  "to": {
+   "lat": 43.26119,
+   "lng": -2.303585
+  }
+ },
+ {
+  "name": "es-ap8-gipuzkoa--a-mid",
+  "road": "es-ap8-gipuzkoa",
+  "from": {
+   "lat": 43.26119,
+   "lng": -2.303585
+  },
+  "to": {
+   "lat": 43.332564,
+   "lng": -1.914334
+  }
+ },
+ {
+  "name": "es-ap8-gipuzkoa--mid-b",
+  "road": "es-ap8-gipuzkoa",
+  "from": {
+   "lat": 43.332564,
+   "lng": -1.914334
+  },
+  "to": {
+   "lat": 43.343771,
+   "lng": -1.670357
+  }
+ },
+ {
+  "name": "es-ap8-gipuzkoa--b-mid",
+  "road": "es-ap8-gipuzkoa",
+  "from": {
+   "lat": 43.343771,
+   "lng": -1.670357
+  },
+  "to": {
+   "lat": 43.332564,
+   "lng": -1.914334
+  }
+ },
+ {
+  "name": "es-supersur--through-ab",
+  "road": "es-supersur",
+  "from": {
+   "lat": 43.397014,
+   "lng": -3.160624
+  },
+  "to": {
+   "lat": 43.142061,
+   "lng": -2.798114
+  }
+ },
+ {
+  "name": "es-supersur--through-ba",
+  "road": "es-supersur",
+  "from": {
+   "lat": 43.142061,
+   "lng": -2.798114
+  },
+  "to": {
+   "lat": 43.397014,
+   "lng": -3.160624
+  }
+ },
+ {
+  "name": "es-supersur--mid-a",
+  "road": "es-supersur",
+  "from": {
+   "lat": 43.295372,
+   "lng": -2.951227
+  },
+  "to": {
+   "lat": 43.397014,
+   "lng": -3.160624
+  }
+ },
+ {
+  "name": "es-supersur--a-mid",
+  "road": "es-supersur",
+  "from": {
+   "lat": 43.397014,
+   "lng": -3.160624
+  },
+  "to": {
+   "lat": 43.295372,
+   "lng": -2.951227
+  }
+ },
+ {
+  "name": "es-supersur--mid-b",
+  "road": "es-supersur",
+  "from": {
+   "lat": 43.295372,
+   "lng": -2.951227
+  },
+  "to": {
+   "lat": 43.142061,
+   "lng": -2.798114
+  }
+ },
+ {
+  "name": "es-supersur--b-mid",
+  "road": "es-supersur",
+  "from": {
+   "lat": 43.142061,
+   "lng": -2.798114
+  },
+  "to": {
+   "lat": 43.295372,
+   "lng": -2.951227
+  }
+ },
+ {
+  "name": "es-ap636--through-ab",
+  "road": "es-ap636",
+  "from": {
+   "lat": 43.139306,
+   "lng": -2.564079
+  },
+  "to": {
+   "lat": 42.997651,
+   "lng": -2.078272
+  }
+ },
+ {
+  "name": "es-ap636--through-ba",
+  "road": "es-ap636",
+  "from": {
+   "lat": 42.997651,
+   "lng": -2.078272
+  },
+  "to": {
+   "lat": 43.139306,
+   "lng": -2.564079
+  }
+ },
+ {
+  "name": "es-ap636--mid-a",
+  "road": "es-ap636",
+  "from": {
+   "lat": 43.115035,
+   "lng": -2.269987
+  },
+  "to": {
+   "lat": 43.139306,
+   "lng": -2.564079
+  }
+ },
+ {
+  "name": "es-ap636--a-mid",
+  "road": "es-ap636",
+  "from": {
+   "lat": 43.139306,
+   "lng": -2.564079
+  },
+  "to": {
+   "lat": 43.115035,
+   "lng": -2.269987
+  }
+ },
+ {
+  "name": "es-ap636--mid-b",
+  "road": "es-ap636",
+  "from": {
+   "lat": 43.115035,
+   "lng": -2.269987
+  },
+  "to": {
+   "lat": 42.997651,
+   "lng": -2.078272
+  }
+ },
+ {
+  "name": "es-ap636--b-mid",
+  "road": "es-ap636",
+  "from": {
+   "lat": 42.997651,
+   "lng": -2.078272
+  },
+  "to": {
+   "lat": 43.115035,
+   "lng": -2.269987
+  }
+ },
+ {
+  "name": "es-ap15--through-ab",
+  "road": "es-ap15",
+  "from": {
+   "lat": 43.020294,
+   "lng": -1.842676
+  },
+  "to": {
+   "lat": 42.032223,
+   "lng": -1.678911
+  }
+ },
+ {
+  "name": "es-ap15--through-ba",
+  "road": "es-ap15",
+  "from": {
+   "lat": 42.032223,
+   "lng": -1.678911
+  },
+  "to": {
+   "lat": 43.020294,
+   "lng": -1.842676
+  }
+ },
+ {
+  "name": "es-ap15--mid-a",
+  "road": "es-ap15",
+  "from": {
+   "lat": 42.614315,
+   "lng": -1.576045
+  },
+  "to": {
+   "lat": 43.020294,
+   "lng": -1.842676
+  }
+ },
+ {
+  "name": "es-ap15--a-mid",
+  "road": "es-ap15",
+  "from": {
+   "lat": 43.020294,
+   "lng": -1.842676
+  },
+  "to": {
+   "lat": 42.614315,
+   "lng": -1.576045
+  }
+ },
+ {
+  "name": "es-ap15--mid-b",
+  "road": "es-ap15",
+  "from": {
+   "lat": 42.614315,
+   "lng": -1.576045
+  },
+  "to": {
+   "lat": 42.032223,
+   "lng": -1.678911
+  }
+ },
+ {
+  "name": "es-ap15--b-mid",
+  "road": "es-ap15",
+  "from": {
+   "lat": 42.032223,
+   "lng": -1.678911
+  },
+  "to": {
+   "lat": 42.614315,
+   "lng": -1.576045
+  }
+ },
+ {
+  "name": "es-ap36--through-ab",
+  "road": "es-ap36",
+  "from": {
+   "lat": 40.017644,
+   "lng": -3.630806
+  },
+  "to": {
+   "lat": 39.18197,
+   "lng": -2.089546
+  }
+ },
+ {
+  "name": "es-ap36--through-ba",
+  "road": "es-ap36",
+  "from": {
+   "lat": 39.18197,
+   "lng": -2.089546
+  },
+  "to": {
+   "lat": 40.017644,
+   "lng": -3.630806
+  }
+ },
+ {
+  "name": "es-ap36--mid-a",
+  "road": "es-ap36",
+  "from": {
+   "lat": 39.600841,
+   "lng": -3.008177
+  },
+  "to": {
+   "lat": 40.017644,
+   "lng": -3.630806
+  }
+ },
+ {
+  "name": "es-ap36--a-mid",
+  "road": "es-ap36",
+  "from": {
+   "lat": 40.017644,
+   "lng": -3.630806
+  },
+  "to": {
+   "lat": 39.600841,
+   "lng": -3.008177
+  }
+ },
+ {
+  "name": "es-ap36--mid-b",
+  "road": "es-ap36",
+  "from": {
+   "lat": 39.600841,
+   "lng": -3.008177
+  },
+  "to": {
+   "lat": 39.18197,
+   "lng": -2.089546
+  }
+ },
+ {
+  "name": "es-ap36--b-mid",
+  "road": "es-ap36",
+  "from": {
+   "lat": 39.18197,
+   "lng": -2.089546
+  },
+  "to": {
+   "lat": 39.600841,
+   "lng": -3.008177
+  }
+ },
+ {
+  "name": "es-ap41--through-ab",
+  "road": "es-ap41",
+  "from": {
+   "lat": 40.382613,
+   "lng": -3.890277
+  },
+  "to": {
+   "lat": 39.813634,
+   "lng": -3.920964
+  }
+ },
+ {
+  "name": "es-ap41--through-ba",
+  "road": "es-ap41",
+  "from": {
+   "lat": 39.813634,
+   "lng": -3.920964
+  },
+  "to": {
+   "lat": 40.382613,
+   "lng": -3.890277
+  }
+ },
+ {
+  "name": "es-ap41--mid-a",
+  "road": "es-ap41",
+  "from": {
+   "lat": 40.092467,
+   "lng": -3.782481
+  },
+  "to": {
+   "lat": 40.382613,
+   "lng": -3.890277
+  }
+ },
+ {
+  "name": "es-ap41--a-mid",
+  "road": "es-ap41",
+  "from": {
+   "lat": 40.382613,
+   "lng": -3.890277
+  },
+  "to": {
+   "lat": 40.092467,
+   "lng": -3.782481
+  }
+ },
+ {
+  "name": "es-ap41--mid-b",
+  "road": "es-ap41",
+  "from": {
+   "lat": 40.092467,
+   "lng": -3.782481
+  },
+  "to": {
+   "lat": 39.813634,
+   "lng": -3.920964
+  }
+ },
+ {
+  "name": "es-ap41--b-mid",
+  "road": "es-ap41",
+  "from": {
+   "lat": 39.813634,
+   "lng": -3.920964
+  },
+  "to": {
+   "lat": 40.092467,
+   "lng": -3.782481
+  }
+ },
+ {
+  "name": "es-ap46--through-ab",
+  "road": "es-ap46",
+  "from": {
+   "lat": 36.644231,
+   "lng": -4.516628
+  },
+  "to": {
+   "lat": 37.059069,
+   "lng": -4.421642
+  }
+ },
+ {
+  "name": "es-ap46--through-ba",
+  "road": "es-ap46",
+  "from": {
+   "lat": 37.059069,
+   "lng": -4.421642
+  },
+  "to": {
+   "lat": 36.644231,
+   "lng": -4.516628
+  }
+ },
+ {
+  "name": "es-ap46--mid-a",
+  "road": "es-ap46",
+  "from": {
+   "lat": 36.849121,
+   "lng": -4.538588
+  },
+  "to": {
+   "lat": 36.644231,
+   "lng": -4.516628
+  }
+ },
+ {
+  "name": "es-ap46--a-mid",
+  "road": "es-ap46",
+  "from": {
+   "lat": 36.644231,
+   "lng": -4.516628
+  },
+  "to": {
+   "lat": 36.849121,
+   "lng": -4.538588
+  }
+ },
+ {
+  "name": "es-ap46--mid-b",
+  "road": "es-ap46",
+  "from": {
+   "lat": 36.849121,
+   "lng": -4.538588
+  },
+  "to": {
+   "lat": 37.059069,
+   "lng": -4.421642
+  }
+ },
+ {
+  "name": "es-ap46--b-mid",
+  "road": "es-ap46",
+  "from": {
+   "lat": 37.059069,
+   "lng": -4.421642
+  },
+  "to": {
+   "lat": 36.849121,
+   "lng": -4.538588
+  }
+ },
+ {
+  "name": "es-ap53--through-ab",
+  "road": "es-ap53",
+  "from": {
+   "lat": 42.912535,
+   "lng": -8.655353
+  },
+  "to": {
+   "lat": 42.518326,
+   "lng": -7.936503
+  }
+ },
+ {
+  "name": "es-ap53--through-ba",
+  "road": "es-ap53",
+  "from": {
+   "lat": 42.518326,
+   "lng": -7.936503
+  },
+  "to": {
+   "lat": 42.912535,
+   "lng": -8.655353
+  }
+ },
+ {
+  "name": "es-ap53--mid-a",
+  "road": "es-ap53",
+  "from": {
+   "lat": 42.75785,
+   "lng": -8.244145
+  },
+  "to": {
+   "lat": 42.912535,
+   "lng": -8.655353
+  }
+ },
+ {
+  "name": "es-ap53--a-mid",
+  "road": "es-ap53",
+  "from": {
+   "lat": 42.912535,
+   "lng": -8.655353
+  },
+  "to": {
+   "lat": 42.75785,
+   "lng": -8.244145
+  }
+ },
+ {
+  "name": "es-ap53--mid-b",
+  "road": "es-ap53",
+  "from": {
+   "lat": 42.75785,
+   "lng": -8.244145
+  },
+  "to": {
+   "lat": 42.518326,
+   "lng": -7.936503
+  }
+ },
+ {
+  "name": "es-ap53--b-mid",
+  "road": "es-ap53",
+  "from": {
+   "lat": 42.518326,
+   "lng": -7.936503
+  },
+  "to": {
+   "lat": 42.75785,
+   "lng": -8.244145
+  }
+ },
+ {
+  "name": "es-ap66--through-ab",
+  "road": "es-ap66",
+  "from": {
+   "lat": 43.223082,
+   "lng": -5.852191
+  },
+  "to": {
+   "lat": 42.458552,
+   "lng": -5.611718
+  }
+ },
+ {
+  "name": "es-ap66--through-ba",
+  "road": "es-ap66",
+  "from": {
+   "lat": 42.458552,
+   "lng": -5.611718
+  },
+  "to": {
+   "lat": 43.223082,
+   "lng": -5.852191
+  }
+ },
+ {
+  "name": "es-ap66--mid-a",
+  "road": "es-ap66",
+  "from": {
+   "lat": 42.835706,
+   "lng": -5.810699
+  },
+  "to": {
+   "lat": 43.223082,
+   "lng": -5.852191
+  }
+ },
+ {
+  "name": "es-ap66--a-mid",
+  "road": "es-ap66",
+  "from": {
+   "lat": 43.223082,
+   "lng": -5.852191
+  },
+  "to": {
+   "lat": 42.835706,
+   "lng": -5.810699
+  }
+ },
+ {
+  "name": "es-ap66--mid-b",
+  "road": "es-ap66",
+  "from": {
+   "lat": 42.835706,
+   "lng": -5.810699
+  },
+  "to": {
+   "lat": 42.458552,
+   "lng": -5.611718
+  }
+ },
+ {
+  "name": "es-ap66--b-mid",
+  "road": "es-ap66",
+  "from": {
+   "lat": 42.458552,
+   "lng": -5.611718
+  },
+  "to": {
+   "lat": 42.835706,
+   "lng": -5.810699
+  }
+ },
+ {
+  "name": "es-ap71--through-ab",
+  "road": "es-ap71",
+  "from": {
+   "lat": 42.389373,
+   "lng": -6.186149
+  },
+  "to": {
+   "lat": 42.619668,
+   "lng": -5.509241
+  }
+ },
+ {
+  "name": "es-ap71--through-ba",
+  "road": "es-ap71",
+  "from": {
+   "lat": 42.619668,
+   "lng": -5.509241
+  },
+  "to": {
+   "lat": 42.389373,
+   "lng": -6.186149
+  }
+ },
+ {
+  "name": "es-ap71--mid-a",
+  "road": "es-ap71",
+  "from": {
+   "lat": 42.52527,
+   "lng": -5.833888
+  },
+  "to": {
+   "lat": 42.389373,
+   "lng": -6.186149
+  }
+ },
+ {
+  "name": "es-ap71--a-mid",
+  "road": "es-ap71",
+  "from": {
+   "lat": 42.389373,
+   "lng": -6.186149
+  },
+  "to": {
+   "lat": 42.52527,
+   "lng": -5.833888
+  }
+ },
+ {
+  "name": "es-ap71--mid-b",
+  "road": "es-ap71",
+  "from": {
+   "lat": 42.52527,
+   "lng": -5.833888
+  },
+  "to": {
+   "lat": 42.619668,
+   "lng": -5.509241
+  }
+ },
+ {
+  "name": "es-ap71--b-mid",
+  "road": "es-ap71",
+  "from": {
+   "lat": 42.619668,
+   "lng": -5.509241
+  },
+  "to": {
+   "lat": 42.52527,
+   "lng": -5.833888
+  }
+ },
+ {
+  "name": "es-ap7-alicante-cartagena--through-ab",
+  "road": "es-ap7-alicante-cartagena",
+  "from": {
+   "lat": 37.554934,
+   "lng": -0.938191
+  },
+  "to": {
+   "lat": 38.237559,
+   "lng": -0.758856
+  }
+ },
+ {
+  "name": "es-ap7-alicante-cartagena--through-ba",
+  "road": "es-ap7-alicante-cartagena",
+  "from": {
+   "lat": 38.237559,
+   "lng": -0.758856
+  },
+  "to": {
+   "lat": 37.554934,
+   "lng": -0.938191
+  }
+ },
+ {
+  "name": "es-ap7-alicante-cartagena--mid-a",
+  "road": "es-ap7-alicante-cartagena",
+  "from": {
+   "lat": 37.871235,
+   "lng": -0.833898
+  },
+  "to": {
+   "lat": 37.554934,
+   "lng": -0.938191
+  }
+ },
+ {
+  "name": "es-ap7-alicante-cartagena--a-mid",
+  "road": "es-ap7-alicante-cartagena",
+  "from": {
+   "lat": 37.554934,
+   "lng": -0.938191
+  },
+  "to": {
+   "lat": 37.871235,
+   "lng": -0.833898
+  }
+ },
+ {
+  "name": "es-ap7-alicante-cartagena--mid-b",
+  "road": "es-ap7-alicante-cartagena",
+  "from": {
+   "lat": 37.871235,
+   "lng": -0.833898
+  },
+  "to": {
+   "lat": 38.237559,
+   "lng": -0.758856
+  }
+ },
+ {
+  "name": "es-ap7-alicante-cartagena--b-mid",
+  "road": "es-ap7-alicante-cartagena",
+  "from": {
+   "lat": 38.237559,
+   "lng": -0.758856
+  },
+  "to": {
+   "lat": 37.871235,
+   "lng": -0.833898
+  }
+ },
+ {
+  "name": "es-ap7-cartagena-vera--through-ab",
+  "road": "es-ap7-cartagena-vera",
+  "from": {
+   "lat": 37.190604,
+   "lng": -2.014326
+  },
+  "to": {
+   "lat": 37.734385,
+   "lng": -0.882079
+  }
+ },
+ {
+  "name": "es-ap7-cartagena-vera--through-ba",
+  "road": "es-ap7-cartagena-vera",
+  "from": {
+   "lat": 37.734385,
+   "lng": -0.882079
+  },
+  "to": {
+   "lat": 37.190604,
+   "lng": -2.014326
+  }
+ },
+ {
+  "name": "es-ap7-cartagena-vera--mid-a",
+  "road": "es-ap7-cartagena-vera",
+  "from": {
+   "lat": 37.583223,
+   "lng": -1.459823
+  },
+  "to": {
+   "lat": 37.190604,
+   "lng": -2.014326
+  }
+ },
+ {
+  "name": "es-ap7-cartagena-vera--a-mid",
+  "road": "es-ap7-cartagena-vera",
+  "from": {
+   "lat": 37.190604,
+   "lng": -2.014326
+  },
+  "to": {
+   "lat": 37.583223,
+   "lng": -1.459823
+  }
+ },
+ {
+  "name": "es-ap7-cartagena-vera--mid-b",
+  "road": "es-ap7-cartagena-vera",
+  "from": {
+   "lat": 37.583223,
+   "lng": -1.459823
+  },
+  "to": {
+   "lat": 37.734385,
+   "lng": -0.882079
+  }
+ },
+ {
+  "name": "es-ap7-cartagena-vera--b-mid",
+  "road": "es-ap7-cartagena-vera",
+  "from": {
+   "lat": 37.734385,
+   "lng": -0.882079
+  },
+  "to": {
+   "lat": 37.583223,
+   "lng": -1.459823
+  }
+ },
+ {
+  "name": "es-ap7-estepona-guadiaro--through-ab",
+  "road": "es-ap7-estepona-guadiaro",
+  "from": {
+   "lat": 36.211522,
+   "lng": -5.370692
+  },
+  "to": {
+   "lat": 36.536844,
+   "lng": -5.043218
+  }
+ },
+ {
+  "name": "es-ap7-estepona-guadiaro--through-ba",
+  "road": "es-ap7-estepona-guadiaro",
+  "from": {
+   "lat": 36.536844,
+   "lng": -5.043218
+  },
+  "to": {
+   "lat": 36.211522,
+   "lng": -5.370692
+  }
+ },
+ {
+  "name": "es-ap7-estepona-guadiaro--mid-a",
+  "road": "es-ap7-estepona-guadiaro",
+  "from": {
+   "lat": 36.418734,
+   "lng": -5.299666
+  },
+  "to": {
+   "lat": 36.211522,
+   "lng": -5.370692
+  }
+ },
+ {
+  "name": "es-ap7-estepona-guadiaro--a-mid",
+  "road": "es-ap7-estepona-guadiaro",
+  "from": {
+   "lat": 36.211522,
+   "lng": -5.370692
+  },
+  "to": {
+   "lat": 36.418734,
+   "lng": -5.299666
+  }
+ },
+ {
+  "name": "es-ap7-estepona-guadiaro--mid-b",
+  "road": "es-ap7-estepona-guadiaro",
+  "from": {
+   "lat": 36.418734,
+   "lng": -5.299666
+  },
+  "to": {
+   "lat": 36.536844,
+   "lng": -5.043218
+  }
+ },
+ {
+  "name": "es-ap7-estepona-guadiaro--b-mid",
+  "road": "es-ap7-estepona-guadiaro",
+  "from": {
+   "lat": 36.536844,
+   "lng": -5.043218
+  },
+  "to": {
+   "lat": 36.418734,
+   "lng": -5.299666
+  }
+ },
+ {
+  "name": "es-ap7-malaga-estepona--through-ab",
+  "road": "es-ap7-malaga-estepona",
+  "from": {
+   "lat": 36.415372,
+   "lng": -5.275642
+  },
+  "to": {
+   "lat": 36.595847,
+   "lng": -4.48613
+  }
+ },
+ {
+  "name": "es-ap7-malaga-estepona--through-ba",
+  "road": "es-ap7-malaga-estepona",
+  "from": {
+   "lat": 36.595847,
+   "lng": -4.48613
+  },
+  "to": {
+   "lat": 36.415372,
+   "lng": -5.275642
+  }
+ },
+ {
+  "name": "es-ap7-malaga-estepona--mid-a",
+  "road": "es-ap7-malaga-estepona",
+  "from": {
+   "lat": 36.564083,
+   "lng": -4.885764
+  },
+  "to": {
+   "lat": 36.415372,
+   "lng": -5.275642
+  }
+ },
+ {
+  "name": "es-ap7-malaga-estepona--a-mid",
+  "road": "es-ap7-malaga-estepona",
+  "from": {
+   "lat": 36.415372,
+   "lng": -5.275642
+  },
+  "to": {
+   "lat": 36.564083,
+   "lng": -4.885764
+  }
+ },
+ {
+  "name": "es-ap7-malaga-estepona--mid-b",
+  "road": "es-ap7-malaga-estepona",
+  "from": {
+   "lat": 36.564083,
+   "lng": -4.885764
+  },
+  "to": {
+   "lat": 36.595847,
+   "lng": -4.48613
+  }
+ },
+ {
+  "name": "es-ap7-malaga-estepona--b-mid",
+  "road": "es-ap7-malaga-estepona",
+  "from": {
+   "lat": 36.595847,
+   "lng": -4.48613
+  },
+  "to": {
+   "lat": 36.564083,
+   "lng": -4.885764
+  }
+ },
+ {
+  "name": "es-ag55--through-ab",
+  "road": "es-ag55",
+  "from": {
+   "lat": 43.183414,
+   "lng": -8.803904
+  },
+  "to": {
+   "lat": 43.403208,
+   "lng": -8.30057
+  }
+ },
+ {
+  "name": "es-ag55--through-ba",
+  "road": "es-ag55",
+  "from": {
+   "lat": 43.403208,
+   "lng": -8.30057
+  },
+  "to": {
+   "lat": 43.183414,
+   "lng": -8.803904
+  }
+ },
+ {
+  "name": "es-ag55--mid-a",
+  "road": "es-ag55",
+  "from": {
+   "lat": 43.320627,
+   "lng": -8.55723
+  },
+  "to": {
+   "lat": 43.183414,
+   "lng": -8.803904
+  }
+ },
+ {
+  "name": "es-ag55--a-mid",
+  "road": "es-ag55",
+  "from": {
+   "lat": 43.183414,
+   "lng": -8.803904
+  },
+  "to": {
+   "lat": 43.320627,
+   "lng": -8.55723
+  }
+ },
+ {
+  "name": "es-ag55--mid-b",
+  "road": "es-ag55",
+  "from": {
+   "lat": 43.320627,
+   "lng": -8.55723
+  },
+  "to": {
+   "lat": 43.403208,
+   "lng": -8.30057
+  }
+ },
+ {
+  "name": "es-ag55--b-mid",
+  "road": "es-ag55",
+  "from": {
+   "lat": 43.403208,
+   "lng": -8.30057
+  },
+  "to": {
+   "lat": 43.320627,
+   "lng": -8.55723
+  }
+ },
+ {
+  "name": "es-ag57--through-ab",
+  "road": "es-ag57",
+  "from": {
+   "lat": 42.043264,
+   "lng": -8.911537
+  },
+  "to": {
+   "lat": 42.222194,
+   "lng": -8.586929
+  }
+ },
+ {
+  "name": "es-ag57--through-ba",
+  "road": "es-ag57",
+  "from": {
+   "lat": 42.222194,
+   "lng": -8.586929
+  },
+  "to": {
+   "lat": 42.043264,
+   "lng": -8.911537
+  }
+ },
+ {
+  "name": "es-ag57--mid-a",
+  "road": "es-ag57",
+  "from": {
+   "lat": 42.176109,
+   "lng": -8.79888
+  },
+  "to": {
+   "lat": 42.043264,
+   "lng": -8.911537
+  }
+ },
+ {
+  "name": "es-ag57--a-mid",
+  "road": "es-ag57",
+  "from": {
+   "lat": 42.043264,
+   "lng": -8.911537
+  },
+  "to": {
+   "lat": 42.176109,
+   "lng": -8.79888
+  }
+ },
+ {
+  "name": "es-ag57--mid-b",
+  "road": "es-ag57",
+  "from": {
+   "lat": 42.176109,
+   "lng": -8.79888
+  },
+  "to": {
+   "lat": 42.222194,
+   "lng": -8.586929
+  }
+ },
+ {
+  "name": "es-ag57--b-mid",
+  "road": "es-ag57",
+  "from": {
+   "lat": 42.222194,
+   "lng": -8.586929
+  },
+  "to": {
+   "lat": 42.176109,
+   "lng": -8.79888
+  }
+ },
+ {
+  "name": "es-artxanda--through-ab",
+  "road": "es-artxanda",
+  "from": {
+   "lat": 43.38993,
+   "lng": -2.988348
+  },
+  "to": {
+   "lat": 43.170455,
+   "lng": -2.883635
+  }
+ },
+ {
+  "name": "es-artxanda--through-ba",
+  "road": "es-artxanda",
+  "from": {
+   "lat": 43.170455,
+   "lng": -2.883635
+  },
+  "to": {
+   "lat": 43.38993,
+   "lng": -2.988348
+  }
+ },
+ {
+  "name": "es-artxanda--mid-a",
+  "road": "es-artxanda",
+  "from": {
+   "lat": 43.3009,
+   "lng": -2.875309
+  },
+  "to": {
+   "lat": 43.38993,
+   "lng": -2.988348
+  }
+ },
+ {
+  "name": "es-artxanda--a-mid",
+  "road": "es-artxanda",
+  "from": {
+   "lat": 43.38993,
+   "lng": -2.988348
+  },
+  "to": {
+   "lat": 43.3009,
+   "lng": -2.875309
+  }
+ },
+ {
+  "name": "es-artxanda--mid-b",
+  "road": "es-artxanda",
+  "from": {
+   "lat": 43.3009,
+   "lng": -2.875309
+  },
+  "to": {
+   "lat": 43.170455,
+   "lng": -2.883635
+  }
+ },
+ {
+  "name": "es-artxanda--b-mid",
+  "road": "es-artxanda",
+  "from": {
+   "lat": 43.170455,
+   "lng": -2.883635
+  },
+  "to": {
+   "lat": 43.3009,
+   "lng": -2.875309
+  }
+ },
+ {
+  "name": "es-c16-sant-vicenc-c55--through-ab",
+  "road": "es-c16-sant-vicenc-c55",
+  "from": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  },
+  "to": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  }
+ },
+ {
+  "name": "es-c16-sant-vicenc-c55--through-ba",
+  "road": "es-c16-sant-vicenc-c55",
+  "from": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  },
+  "to": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  }
+ },
+ {
+  "name": "es-c16-sant-vicenc-c55--mid-a",
+  "road": "es-c16-sant-vicenc-c55",
+  "from": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  },
+  "to": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  }
+ },
+ {
+  "name": "es-c16-sant-vicenc-c55--a-mid",
+  "road": "es-c16-sant-vicenc-c55",
+  "from": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  },
+  "to": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  }
+ },
+ {
+  "name": "es-c16-sant-vicenc-c55--mid-b",
+  "road": "es-c16-sant-vicenc-c55",
+  "from": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  },
+  "to": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  }
+ },
+ {
+  "name": "es-c16-sant-vicenc-c55--b-mid",
+  "road": "es-c16-sant-vicenc-c55",
+  "from": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  },
+  "to": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  }
+ },
+ {
+  "name": "es-c16-terrassa-manresa--through-ab",
+  "road": "es-c16-terrassa-manresa",
+  "from": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  },
+  "to": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  }
+ },
+ {
+  "name": "es-c16-terrassa-manresa--through-ba",
+  "road": "es-c16-terrassa-manresa",
+  "from": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  },
+  "to": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  }
+ },
+ {
+  "name": "es-c16-terrassa-manresa--mid-a",
+  "road": "es-c16-terrassa-manresa",
+  "from": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  },
+  "to": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  }
+ },
+ {
+  "name": "es-c16-terrassa-manresa--a-mid",
+  "road": "es-c16-terrassa-manresa",
+  "from": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  },
+  "to": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  }
+ },
+ {
+  "name": "es-c16-terrassa-manresa--mid-b",
+  "road": "es-c16-terrassa-manresa",
+  "from": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  },
+  "to": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  }
+ },
+ {
+  "name": "es-c16-terrassa-manresa--b-mid",
+  "road": "es-c16-terrassa-manresa",
+  "from": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  },
+  "to": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  }
+ },
+ {
+  "name": "es-c16-sant-cugat-terrassa--through-ab",
+  "road": "es-c16-sant-cugat-terrassa",
+  "from": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  },
+  "to": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  }
+ },
+ {
+  "name": "es-c16-sant-cugat-terrassa--through-ba",
+  "road": "es-c16-sant-cugat-terrassa",
+  "from": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  },
+  "to": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  }
+ },
+ {
+  "name": "es-c16-sant-cugat-terrassa--mid-a",
+  "road": "es-c16-sant-cugat-terrassa",
+  "from": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  },
+  "to": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  }
+ },
+ {
+  "name": "es-c16-sant-cugat-terrassa--a-mid",
+  "road": "es-c16-sant-cugat-terrassa",
+  "from": {
+   "lat": 41.886982,
+   "lng": 1.820132
+  },
+  "to": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  }
+ },
+ {
+  "name": "es-c16-sant-cugat-terrassa--mid-b",
+  "road": "es-c16-sant-cugat-terrassa",
+  "from": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  },
+  "to": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  }
+ },
+ {
+  "name": "es-c16-sant-cugat-terrassa--b-mid",
+  "road": "es-c16-sant-cugat-terrassa",
+  "from": {
+   "lat": 41.374499,
+   "lng": 2.142685
+  },
+  "to": {
+   "lat": 41.611769,
+   "lng": 1.963054
+  }
+ },
+ {
+  "name": "es-c32-castelldefels-vendrell--through-ab",
+  "road": "es-c32-castelldefels-vendrell",
+  "from": {
+   "lat": 41.165651,
+   "lng": 1.361331
+  },
+  "to": {
+   "lat": 41.409038,
+   "lng": 2.234003
+  }
+ },
+ {
+  "name": "es-c32-castelldefels-vendrell--through-ba",
+  "road": "es-c32-castelldefels-vendrell",
+  "from": {
+   "lat": 41.409038,
+   "lng": 2.234003
+  },
+  "to": {
+   "lat": 41.165651,
+   "lng": 1.361331
+  }
+ },
+ {
+  "name": "es-c32-castelldefels-vendrell--mid-a",
+  "road": "es-c32-castelldefels-vendrell",
+  "from": {
+   "lat": 41.295988,
+   "lng": 1.776256
+  },
+  "to": {
+   "lat": 41.165651,
+   "lng": 1.361331
+  }
+ },
+ {
+  "name": "es-c32-castelldefels-vendrell--a-mid",
+  "road": "es-c32-castelldefels-vendrell",
+  "from": {
+   "lat": 41.165651,
+   "lng": 1.361331
+  },
+  "to": {
+   "lat": 41.295988,
+   "lng": 1.776256
+  }
+ },
+ {
+  "name": "es-c32-castelldefels-vendrell--mid-b",
+  "road": "es-c32-castelldefels-vendrell",
+  "from": {
+   "lat": 41.295988,
+   "lng": 1.776256
+  },
+  "to": {
+   "lat": 41.409038,
+   "lng": 2.234003
+  }
+ },
+ {
+  "name": "es-c32-castelldefels-vendrell--b-mid",
+  "road": "es-c32-castelldefels-vendrell",
+  "from": {
+   "lat": 41.409038,
+   "lng": 2.234003
+  },
+  "to": {
+   "lat": 41.295988,
+   "lng": 1.776256
+  }
+ },
+ {
+  "name": "es-cadi--through-ab",
+  "road": "es-cadi",
+  "from": {
+   "lat": 41.407501,
+   "lng": 1.898078
+  },
+  "to": {
+   "lat": 42.471391,
+   "lng": 1.816062
+  }
+ },
+ {
+  "name": "es-cadi--through-ba",
+  "road": "es-cadi",
+  "from": {
+   "lat": 42.471391,
+   "lng": 1.816062
+  },
+  "to": {
+   "lat": 41.407501,
+   "lng": 1.898078
+  }
+ },
+ {
+  "name": "es-cadi--mid-a",
+  "road": "es-cadi",
+  "from": {
+   "lat": 41.897741,
+   "lng": 1.80909
+  },
+  "to": {
+   "lat": 41.407501,
+   "lng": 1.898078
+  }
+ },
+ {
+  "name": "es-cadi--a-mid",
+  "road": "es-cadi",
+  "from": {
+   "lat": 41.407501,
+   "lng": 1.898078
+  },
+  "to": {
+   "lat": 41.897741,
+   "lng": 1.80909
+  }
+ },
+ {
+  "name": "es-cadi--mid-b",
+  "road": "es-cadi",
+  "from": {
+   "lat": 41.897741,
+   "lng": 1.80909
+  },
+  "to": {
+   "lat": 42.471391,
+   "lng": 1.816062
+  }
+ },
+ {
+  "name": "es-cadi--b-mid",
+  "road": "es-cadi",
+  "from": {
+   "lat": 42.471391,
+   "lng": 1.816062
+  },
+  "to": {
+   "lat": 41.897741,
+   "lng": 1.80909
+  }
+ },
+ {
+  "name": "es-m12--through-ab",
+  "road": "es-m12",
+  "from": {
+   "lat": 40.640567,
+   "lng": -3.618877
+  },
+  "to": {
+   "lat": 40.346015,
+   "lng": -3.607179
+  }
+ },
+ {
+  "name": "es-m12--through-ba",
+  "road": "es-m12",
+  "from": {
+   "lat": 40.346015,
+   "lng": -3.607179
+  },
+  "to": {
+   "lat": 40.640567,
+   "lng": -3.618877
+  }
+ },
+ {
+  "name": "es-m12--mid-a",
+  "road": "es-m12",
+  "from": {
+   "lat": 40.497539,
+   "lng": -3.535851
+  },
+  "to": {
+   "lat": 40.640567,
+   "lng": -3.618877
+  }
+ },
+ {
+  "name": "es-m12--a-mid",
+  "road": "es-m12",
+  "from": {
+   "lat": 40.640567,
+   "lng": -3.618877
+  },
+  "to": {
+   "lat": 40.497539,
+   "lng": -3.535851
+  }
+ },
+ {
+  "name": "es-m12--mid-b",
+  "road": "es-m12",
+  "from": {
+   "lat": 40.497539,
+   "lng": -3.535851
+  },
+  "to": {
+   "lat": 40.346015,
+   "lng": -3.607179
+  }
+ },
+ {
+  "name": "es-m12--b-mid",
+  "road": "es-m12",
+  "from": {
+   "lat": 40.346015,
+   "lng": -3.607179
+  },
+  "to": {
+   "lat": 40.497539,
+   "lng": -3.535851
+  }
+ },
+ {
+  "name": "es-r2--through-ab",
+  "road": "es-r2",
+  "from": {
+   "lat": 40.437636,
+   "lng": -3.773178
+  },
+  "to": {
+   "lat": 40.713969,
+   "lng": -2.977672
+  }
+ },
+ {
+  "name": "es-r2--through-ba",
+  "road": "es-r2",
+  "from": {
+   "lat": 40.713969,
+   "lng": -2.977672
+  },
+  "to": {
+   "lat": 40.437636,
+   "lng": -3.773178
+  }
+ },
+ {
+  "name": "es-r2--mid-a",
+  "road": "es-r2",
+  "from": {
+   "lat": 40.566206,
+   "lng": -3.390856
+  },
+  "to": {
+   "lat": 40.437636,
+   "lng": -3.773178
+  }
+ },
+ {
+  "name": "es-r2--a-mid",
+  "road": "es-r2",
+  "from": {
+   "lat": 40.437636,
+   "lng": -3.773178
+  },
+  "to": {
+   "lat": 40.566206,
+   "lng": -3.390856
+  }
+ },
+ {
+  "name": "es-r2--mid-b",
+  "road": "es-r2",
+  "from": {
+   "lat": 40.566206,
+   "lng": -3.390856
+  },
+  "to": {
+   "lat": 40.713969,
+   "lng": -2.977672
+  }
+ },
+ {
+  "name": "es-r2--b-mid",
+  "road": "es-r2",
+  "from": {
+   "lat": 40.713969,
+   "lng": -2.977672
+  },
+  "to": {
+   "lat": 40.566206,
+   "lng": -3.390856
+  }
+ },
+ {
+  "name": "es-r3--through-ab",
+  "road": "es-r3",
+  "from": {
+   "lat": 40.477425,
+   "lng": -3.752608
+  },
+  "to": {
+   "lat": 40.200686,
+   "lng": -3.271518
+  }
+ },
+ {
+  "name": "es-r3--through-ba",
+  "road": "es-r3",
+  "from": {
+   "lat": 40.200686,
+   "lng": -3.271518
+  },
+  "to": {
+   "lat": 40.477425,
+   "lng": -3.752608
+  }
+ },
+ {
+  "name": "es-r3--mid-a",
+  "road": "es-r3",
+  "from": {
+   "lat": 40.431266,
+   "lng": -3.492629
+  },
+  "to": {
+   "lat": 40.477425,
+   "lng": -3.752608
+  }
+ },
+ {
+  "name": "es-r3--a-mid",
+  "road": "es-r3",
+  "from": {
+   "lat": 40.477425,
+   "lng": -3.752608
+  },
+  "to": {
+   "lat": 40.431266,
+   "lng": -3.492629
+  }
+ },
+ {
+  "name": "es-r3--mid-b",
+  "road": "es-r3",
+  "from": {
+   "lat": 40.431266,
+   "lng": -3.492629
+  },
+  "to": {
+   "lat": 40.200686,
+   "lng": -3.271518
+  }
+ },
+ {
+  "name": "es-r3--b-mid",
+  "road": "es-r3",
+  "from": {
+   "lat": 40.200686,
+   "lng": -3.271518
+  },
+  "to": {
+   "lat": 40.431266,
+   "lng": -3.492629
+  }
+ },
+ {
+  "name": "es-r4--through-ab",
+  "road": "es-r4",
+  "from": {
+   "lat": 40.37819,
+   "lng": -3.777323
+  },
+  "to": {
+   "lat": 39.838949,
+   "lng": -3.4881
+  }
+ },
+ {
+  "name": "es-r4--through-ba",
+  "road": "es-r4",
+  "from": {
+   "lat": 39.838949,
+   "lng": -3.4881
+  },
+  "to": {
+   "lat": 40.37819,
+   "lng": -3.777323
+  }
+ },
+ {
+  "name": "es-r4--mid-a",
+  "road": "es-r4",
+  "from": {
+   "lat": 40.129222,
+   "lng": -3.618257
+  },
+  "to": {
+   "lat": 40.37819,
+   "lng": -3.777323
+  }
+ },
+ {
+  "name": "es-r4--a-mid",
+  "road": "es-r4",
+  "from": {
+   "lat": 40.37819,
+   "lng": -3.777323
+  },
+  "to": {
+   "lat": 40.129222,
+   "lng": -3.618257
+  }
+ },
+ {
+  "name": "es-r4--mid-b",
+  "road": "es-r4",
+  "from": {
+   "lat": 40.129222,
+   "lng": -3.618257
+  },
+  "to": {
+   "lat": 39.838949,
+   "lng": -3.4881
+  }
+ },
+ {
+  "name": "es-r4--b-mid",
+  "road": "es-r4",
+  "from": {
+   "lat": 39.838949,
+   "lng": -3.4881
+  },
+  "to": {
+   "lat": 40.129222,
+   "lng": -3.618257
+  }
+ },
+ {
+  "name": "es-r5--through-ab",
+  "road": "es-r5",
+  "from": {
+   "lat": 40.204358,
+   "lng": -4.166831
+  },
+  "to": {
+   "lat": 40.417082,
+   "lng": -3.614454
+  }
+ },
+ {
+  "name": "es-r5--through-ba",
+  "road": "es-r5",
+  "from": {
+   "lat": 40.417082,
+   "lng": -3.614454
+  },
+  "to": {
+   "lat": 40.204358,
+   "lng": -4.166831
+  }
+ },
+ {
+  "name": "es-r5--mid-a",
+  "road": "es-r5",
+  "from": {
+   "lat": 40.343088,
+   "lng": -3.876355
+  },
+  "to": {
+   "lat": 40.204358,
+   "lng": -4.166831
+  }
+ },
+ {
+  "name": "es-r5--a-mid",
+  "road": "es-r5",
+  "from": {
+   "lat": 40.204358,
+   "lng": -4.166831
+  },
+  "to": {
+   "lat": 40.343088,
+   "lng": -3.876355
+  }
+ },
+ {
+  "name": "es-r5--mid-b",
+  "road": "es-r5",
+  "from": {
+   "lat": 40.343088,
+   "lng": -3.876355
+  },
+  "to": {
+   "lat": 40.417082,
+   "lng": -3.614454
+  }
+ },
+ {
+  "name": "es-r5--b-mid",
+  "road": "es-r5",
+  "from": {
+   "lat": 40.417082,
+   "lng": -3.614454
+  },
+  "to": {
+   "lat": 40.343088,
+   "lng": -3.876355
+  }
+ },
+ {
+  "name": "es-vallvidrera--through-ab",
+  "road": "es-vallvidrera",
+  "from": {
+   "lat": 41.598411,
+   "lng": 1.992684
+  },
+  "to": {
+   "lat": 41.300387,
+   "lng": 2.180483
+  }
+ },
+ {
+  "name": "es-vallvidrera--through-ba",
+  "road": "es-vallvidrera",
+  "from": {
+   "lat": 41.300387,
+   "lng": 2.180483
+  },
+  "to": {
+   "lat": 41.598411,
+   "lng": 1.992684
+  }
+ },
+ {
+  "name": "es-vallvidrera--mid-a",
+  "road": "es-vallvidrera",
+  "from": {
+   "lat": 41.472646,
+   "lng": 2.122746
+  },
+  "to": {
+   "lat": 41.598411,
+   "lng": 1.992684
+  }
+ },
+ {
+  "name": "es-vallvidrera--a-mid",
+  "road": "es-vallvidrera",
+  "from": {
+   "lat": 41.598411,
+   "lng": 1.992684
+  },
+  "to": {
+   "lat": 41.472646,
+   "lng": 2.122746
+  }
+ },
+ {
+  "name": "es-vallvidrera--mid-b",
+  "road": "es-vallvidrera",
+  "from": {
+   "lat": 41.472646,
+   "lng": 2.122746
+  },
+  "to": {
+   "lat": 41.300387,
+   "lng": 2.180483
+  }
+ },
+ {
+  "name": "es-vallvidrera--b-mid",
+  "road": "es-vallvidrera",
+  "from": {
+   "lat": 41.300387,
+   "lng": 2.180483
+  },
+  "to": {
+   "lat": 41.472646,
+   "lng": 2.122746
+  }
+ },
+ {
+  "name": "seed--madrid-valladolid",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 41.6523,
+   "lng": -4.7245
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--madrid-a-coruna",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 43.3623,
+   "lng": -8.4115
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--a-coruna-santiago",
+  "from": {
+   "lat": 43.3623,
+   "lng": -8.4115
+  },
+  "to": {
+   "lat": 42.8782,
+   "lng": -8.5448
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--santiago-a-coruna",
+  "from": {
+   "lat": 42.8782,
+   "lng": -8.5448
+  },
+  "to": {
+   "lat": 43.3623,
+   "lng": -8.4115
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--ferrol-a-coruna",
+  "from": {
+   "lat": 43.4832,
+   "lng": -8.2369
+  },
+  "to": {
+   "lat": 43.3623,
+   "lng": -8.4115
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--a-coruna-ferrol",
+  "from": {
+   "lat": 43.3623,
+   "lng": -8.4115
+  },
+  "to": {
+   "lat": 43.4832,
+   "lng": -8.2369
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--santiago-pontevedra",
+  "from": {
+   "lat": 42.8782,
+   "lng": -8.5448
+  },
+  "to": {
+   "lat": 42.431,
+   "lng": -8.6444
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--pontevedra-santiago",
+  "from": {
+   "lat": 42.431,
+   "lng": -8.6444
+  },
+  "to": {
+   "lat": 42.8782,
+   "lng": -8.5448
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--a-coruna-vigo",
+  "from": {
+   "lat": 43.3623,
+   "lng": -8.4115
+  },
+  "to": {
+   "lat": 42.2406,
+   "lng": -8.7207
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--vigo-tui",
+  "from": {
+   "lat": 42.2406,
+   "lng": -8.7207
+  },
+  "to": {
+   "lat": 42.047,
+   "lng": -8.644
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--bilbao-san-sebastian",
+  "from": {
+   "lat": 43.263,
+   "lng": -2.935
+  },
+  "to": {
+   "lat": 43.3183,
+   "lng": -1.9812
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--san-sebastian-bilbao",
+  "from": {
+   "lat": 43.3183,
+   "lng": -1.9812
+  },
+  "to": {
+   "lat": 43.263,
+   "lng": -2.935
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--irun-san-sebastian",
+  "from": {
+   "lat": 43.339,
+   "lng": -1.789
+  },
+  "to": {
+   "lat": 43.3183,
+   "lng": -1.9812
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--san-sebastian-irun",
+  "from": {
+   "lat": 43.3183,
+   "lng": -1.9812
+  },
+  "to": {
+   "lat": 43.339,
+   "lng": -1.789
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--bilbao-vitoria",
+  "from": {
+   "lat": 43.263,
+   "lng": -2.935
+  },
+  "to": {
+   "lat": 42.8467,
+   "lng": -2.6716
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--leon-astorga",
+  "from": {
+   "lat": 42.5987,
+   "lng": -5.5671
+  },
+  "to": {
+   "lat": 42.4589,
+   "lng": -6.0563
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--santiago-ourense",
+  "from": {
+   "lat": 42.8782,
+   "lng": -8.5448
+  },
+  "to": {
+   "lat": 42.3358,
+   "lng": -7.8639
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--madrid-segovia",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 40.9429,
+   "lng": -4.1088
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--madrid-avila",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 40.6565,
+   "lng": -4.6818
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--andorra-barcelona",
+  "from": {
+   "lat": 42.5063,
+   "lng": 1.5218
+  },
+  "to": {
+   "lat": 41.3851,
+   "lng": 2.1734
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--barcelona-manresa",
+  "from": {
+   "lat": 41.3851,
+   "lng": 2.1734
+  },
+  "to": {
+   "lat": 41.729,
+   "lng": 1.824
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--barcelona-sitges",
+  "from": {
+   "lat": 41.3851,
+   "lng": 2.1734
+  },
+  "to": {
+   "lat": 41.237,
+   "lng": 1.8059
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--malaga-marbella",
+  "from": {
+   "lat": 36.7213,
+   "lng": -4.4214
+  },
+  "to": {
+   "lat": 36.5101,
+   "lng": -4.8825
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--marbella-algeciras",
+  "from": {
+   "lat": 36.5101,
+   "lng": -4.8825
+  },
+  "to": {
+   "lat": 36.1408,
+   "lng": -5.4562
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--alicante-cartagena",
+  "from": {
+   "lat": 38.3452,
+   "lng": -0.481
+  },
+  "to": {
+   "lat": 37.6257,
+   "lng": -0.9966
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--cartagena-almeria",
+  "from": {
+   "lat": 37.6257,
+   "lng": -0.9966
+  },
+  "to": {
+   "lat": 36.834,
+   "lng": -2.4637
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--pamplona-tudela",
+  "from": {
+   "lat": 42.8125,
+   "lng": -1.6458
+  },
+  "to": {
+   "lat": 42.0617,
+   "lng": -1.6045
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--zaragoza-bilbao",
+  "from": {
+   "lat": 41.6488,
+   "lng": -0.8891
+  },
+  "to": {
+   "lat": 43.263,
+   "lng": -2.935
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--oviedo-leon",
+  "from": {
+   "lat": 43.3614,
+   "lng": -5.8494
+  },
+  "to": {
+   "lat": 42.5987,
+   "lng": -5.5671
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--toledo-madrid",
+  "from": {
+   "lat": 39.8628,
+   "lng": -4.0273
+  },
+  "to": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--madrid-guadalajara-r2",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 40.633,
+   "lng": -3.167
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--madrid-arganda",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 40.3008,
+   "lng": -3.438
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--madrid-aranjuez",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 40.0318,
+   "lng": -3.6045
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--madrid-navalcarnero",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 40.287,
+   "lng": -4.0136
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--madrid-barajas-t4",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 40.491,
+   "lng": -3.593
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--madrid-ocana",
+  "from": {
+   "lat": 40.4168,
+   "lng": -3.7038
+  },
+  "to": {
+   "lat": 39.958,
+   "lng": -3.498
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--burgos-vitoria",
+  "from": {
+   "lat": 42.3439,
+   "lng": -3.6969
+  },
+  "to": {
+   "lat": 42.8467,
+   "lng": -2.6716
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--andorra-la-seu-cadi",
+  "from": {
+   "lat": 42.358,
+   "lng": 1.459
+  },
+  "to": {
+   "lat": 41.98,
+   "lng": 1.73
+  },
+  "road": "seed"
+ },
+ {
+  "name": "seed--pas-de-la-casa-andorra",
+  "from": {
+   "lat": 42.542,
+   "lng": 1.733
+  },
+  "to": {
+   "lat": 42.5063,
+   "lng": 1.5218
+  },
+  "road": "seed"
+ }
+]

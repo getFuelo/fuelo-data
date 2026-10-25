@@ -1,0 +1,36 @@
+{
+ "request": {
+  "locations": [
+   {
+    "lat": 40.437636,
+    "lon": -3.773178
+   },
+   {
+    "lat": 40.566206,
+    "lon": -3.390856
+   }
+  ],
+  "costing": "auto",
+  "costing_options": {
+   "auto": {
+    "use_tolls": 1
+   }
+  },
+  "directions_options": {
+   "units": "kilometers"
+  }
+ },
+ "trip": {
+  "summary": {
+   "length": 50.89501953125,
+   "time": 4159.53515625,
+   "has_toll": false
+  },
+  "legs": [
+   {
+    "shape": "atbclA|iheF`Q`TpG|L~CxJdJn]VbA`DfN|C`HvK~OdVhYzQzOnR`Odd@d]pGrHxBzEdJx[dAfG|Ah^lE|w@?~Me@bOwNzoA~FGtJqA|GmBrMwDxv@{UBlFb@vw@UjScClO}Kt\\wHzOiJjP{MvOiO`K}C~AmK|Fe@kB}@wAmA{@wA[yAHsAj@eAjAo@bBWrB@tB\\nB\\x@d@r@h@f@n@\\p@Rt@DyB~Jy@hLKlASbBm@zJMxBiAMkABgAVcAj@{@r@wCtByBrAcEjBiJfBgEQaDg@{DgAk_@yLcOiE_dC_v@y@Waj@uPiE_CuJeI}DaEgEkFkDiGuC_HyBcHwAkIuA{Hu@eM}@ma@}Ay]wBafA}B_b@wBqVwCi`@uDa[uG_[qFcZyF}WyFeUiGoTiJiYiKaXyKkViLyUkLaS}LyRgOkS}NyQkmCy`DykBmzBee@gl@cMyQsNgYaLiXcJmX{N_g@oG{U{AgImOol@{BuL_AyMS{LRwL\\mDhBoLhDaOzL{a@rOwm@fKm_@bH{SfFsP`EuQhtDqsK`Vus@tx@k`CpQ_h@|IwT~JsTjRw[po@q`AtjAqcBj|@mqAfu@sgA~JaOfWe_@x\\sb@r^u`@pR{Opb@u[rc@s\\|[aXdGcGnHqItJcOrHkPlGuPjHiY|F}^r@_GlAwUrAs[t@a^t@sh@HmYd@}RJqYQkSeA{SoBwTyNe|@eS_fAaD_Qu@eEQd@UZe@^gFpAiInCgm@zRkGrBu@VmExAqH|Bws@vTsf@jO}@Z{CBoAMiCk@qAaAaAaB}EcLqFuLiAcDoB{H}@oFgIwg@eFk[iDiSeIwi@}]g|Bs@oETeDAmB]}FDoH|AeC`A_D^oD~CiHz@{Ah@_A~_@cl@h_@{i@lIgLjEgG`JuO~D}HvD}H|BmGlDwJpLmXtCaLtB{FvOg^`Oo]dCyGbCiJdAaJEcHq@qIeB{GkBqE{C{EyD_DyRuP}GsGmB{AsB}BcEwFyJyMwJkPgz@awAaGqK{DiN{AaNy@eQMgQdIq|EjAeoAbByjAf@}RFuEXyRFcFPqMpAux@VwU@cAFoEjA{hAHqGHsH@sAJ_NHkGp@qg@@UdAqpA@{@BmAFwGJkJ@gA`@uQlAes@@uAZoJvCmaB|@}YDqDBoAN}IDkDLeGBqATkKf@uWBcADoDhAel@FeDf@yXLsF@kAPoItBmsA@kAH{Fh@kYrBgfABeANiGrCiaBB_AFcCrA{~@^{PB{AhDoOf@{Dd@{EN}ApAoLNqCDwBAqCOaFu@wICaI?cG@gAl@cEfAqs@lAgl@?{BOqECeB?iDx@sk@z@ko@@eALqEVaEHsAZmIv@{c@TeQFoF@{@bAms@`@gZN{O@gE?oBMkN@g@ViIFsBz@i[n@q]Bu@LqGpBgcABeANaG~Ain@^aQMqC?KP_JDyBDgCNmHDwA|BicADyAHgD]aEqA{Ia@yC}@eCoBsFw@wBwEuJ{@}AyK{RmR}^aIcO{Om[cEeJyAyE}BmLwAmI{AcNkDkb@sAaQaCoV{Eke@sAuKcCsPoE{WgE{SuFwU{Ks_@uJgWiGmNyFkLkKwRwTwc@iRu_@qQq_@}NsZsZel@kb@i{@uHwPiO}`@sHyTcEgNwH}XqDoOgBuLwa@_eBwJ_a@{I}^qG{U_DmLgDiMqUg`AoTocAeK}b@gh@uqBqJu]sVgx@cg@a}A{g@acBqJyZqy@siC_GsUqDeQeC{RwAaQm@eNCwNRkTdAcUlBkUrHy{@|d@imF~Ha}@t@sIlBiTrDcg@tAsb@Nyl@q@k_@{A{c@yDkg@yAkPyA{P}YwjDgCmc@kAga@uAyc@sCwvCmA{kA_@{WmBciC_EcpEMga@a@keBTkxEDyF~AunHF_pBoA{iCI{JyC{iAkAcXuBe]q@qNqEs~@uHobBk@gc@Jkf@|@knAlCi_Ex@soAhAi`C^su@\\at@FcPZul@^aw@NmkARkh@JipHBumBv@qtAhAycBj@saA|BmfDHejBbD_eHLcUj@umAjIceKFoHLgMh@ki@t@kWtD{rA|HwmBlFycAr[{xF`@gHlAcTvEay@~XcdF|AwX`BgYzA_Y|AiY|A_YzA_YzAyXpAsUN_CbBcYfFm{@~@qP~AgYt@_Nj@iJj@aJh@sGPyBzB}S~ByQvHyd@xLyp@bGo_@lE_[jBwTf@}PW{]g@wO_B_PoIyi@{G{a@kVkzAmAiH{CqQkZuiBoe@usCyMsp@cJwe@aWmjAyPax@as@maD}]ozAwfAy|Es\\_xAc^{uAi^goA_[wx@c^aw@mIoP{yAkkCedAujB}mAi}Bq{@anBmj@}wAyo@qkBk]wkAcQ}t@gZseBmUi}AaQogAmc@afCih@edDkc@q}Cia@arCeVacBaOciAgF}d@oc@muDcM{yA}Jy|AkEcdA}BqdAeC_`BQifBRyv@Vge@b@}d@jSwvLvAaxAH}GBcyAw@u}AsDyiBkGm~BwGegBuMepDqGwdB}E{bAePioBs]kqDaYywC}IweA_Iy`AaH}v@{T{mBgNm~@e[ckBqVqrAw\\acBmf@{gCwM_v@{i@ieDgWy_BkEmX{OwaA}TktAiEyTiH_^yZipAmYu`AeSom@k\\q}@e`@k{@sQo_@cq@anA{u@chAu`@}g@eRgUcM_NiToU_UaUg_@i^ag@cf@ynAkmAy[{Z}aAgaAmh@eg@iWaWc`@cb@}PyQcQwZsb@ah@{c@sm@mPyYq]kl@iP{Vap@gaA}\\gg@o^mj@yWka@qVo^ce@kr@}`@mo@eVo`@iW_b@c`AcaBeTea@aTs`@gO_Y_e@scAuAsCon@qvAmG}NcOi^gEcQuXct@aJ{XmGmTmKkf@{FmQeIsR{DmJgHyPwCsEYc@MQmA}AmAqAoCfA_[dOmD|AsIKgCMiBMeBgB{Bs@aCD_CfAcB~By@fDcDxCkDtA{FTuKh@uI@kKHoMHgK?gW]cMOoCG_c@eAaOq@}FoDqUc@kKOoGSeIQcFM{HwCo@gB}@{AgAiAoAy@wAg@{AQ{AByAVuAj@mA|@eAnAy@~AUr@sF|@{DVq^i@yJOsj@s@yr@cA_l@cAq^YqF[{EkDs@oBaAaBoAoAwA{@_Bc@aBMcBH}Ab@yAv@oAlAcA~Au@lBc@xBIbAkHdEcz@|M_H~@av@zK}x@|LoXpDeGj@gGPeBOgAa@cA_@cA{@cEeFqAoDsBgCwC{AcD]eDd@mD~BaChEaAvFaDdJwChFyDpIeJnBqrCd`@eq@jIkyAtT_jAlPyh@fGs~@dN}LtAwh@|EcUv@{h@|Bcg@hBi_@lBmg@rDgKn@qlAjLiTfAiSz@wHF{ODq^]mg@u@my@qB{[cDiGs@gF{EyBaFoDwCoEs@gCT_C`AoBhBkBtDaIfC{f@dAslAyC{cCcHcwA_Dqs@aBwpBoF_`DgJq\\mA_ToCcGoA{DuBgBmBsBi@uBLiBbAuA~Bg@xCDdDv@rCZj@b@`Ex@fDhC`FxGfF|WbQtEnG~`AjrCbd@bjArXj_ApDbl@r@fLxFz}@ZpLjC|aAsp@bfCqZpfA}Hh]uBne@Pvd@bGzpAbFh^tHl`@lR~~@nDbTj@fDcGNmzD{Mo_Xs~@epCoJ_lJkM{^sDceJ_fH~zBarAn|A}bA",
+    "toll_segments": []
+   }
+  ]
+ }
+}

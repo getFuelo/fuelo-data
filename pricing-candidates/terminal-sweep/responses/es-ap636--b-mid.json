@@ -1,0 +1,24 @@
+{
+ "error": "Valhalla could not calculate this route",
+ "request": {
+  "locations": [
+   {
+    "lat": 42.997651,
+    "lon": -2.078272
+   },
+   {
+    "lat": 43.115035,
+    "lon": -2.269987
+   }
+  ],
+  "costing": "auto",
+  "costing_options": {
+   "auto": {
+    "use_tolls": 1
+   }
+  },
+  "directions_options": {
+   "units": "kilometers"
+  }
+ }
+}

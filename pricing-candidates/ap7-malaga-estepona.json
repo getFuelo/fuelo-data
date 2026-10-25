@@ -86,12 +86,12 @@
           "id": "es-ap7-calahonda-troncal-plaza",
           "line": [
             {
-              "lat": 36.505581654620485,
-              "lng": -4.71791816138385
+              "lat": 36.505401396,
+              "lng": -4.717990651
             },
             {
-              "lat": 36.505883345379516,
-              "lng": -4.71779683861615
+              "lat": 36.506063604,
+              "lng": -4.717724349
             }
           ],
           "direction": "both"
@@ -7844,7 +7844,10 @@
         "tariffSources": [
           "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-malaga---estepona-2026.pdf"
         ],
-        "geometrySource": "https://www.openstreetmap.org/copyright"
+        "geometrySource": "https://www.openstreetmap.org/copyright",
+        "gateSources": [
+          "audit/area-gates/ap7-calahonda-troncal.json"
+        ]
       }
     },
     {
@@ -23381,6 +23384,64 @@
               "lng": -4.9452439
             }
           ]
+        },
+        {
+          "id": "77913416",
+          "version": 8,
+          "line": [
+            {
+              "lat": 36.5211296,
+              "lng": -4.8651616
+            },
+            {
+              "lat": 36.5211504,
+              "lng": -4.8655305
+            },
+            {
+              "lat": 36.5210765,
+              "lng": -4.8664932
+            },
+            {
+              "lat": 36.5209783,
+              "lng": -4.867585
+            },
+            {
+              "lat": 36.5208349,
+              "lng": -4.8690213
+            },
+            {
+              "lat": 36.5207293,
+              "lng": -4.8700852
+            },
+            {
+              "lat": 36.5206816,
+              "lng": -4.8707469
+            },
+            {
+              "lat": 36.5206356,
+              "lng": -4.8712537
+            },
+            {
+              "lat": 36.520591,
+              "lng": -4.8717016
+            },
+            {
+              "lat": 36.520485,
+              "lng": -4.8723075
+            },
+            {
+              "lat": 36.5201593,
+              "lng": -4.8735572
+            },
+            {
+              "lat": 36.5201042,
+              "lng": -4.8738569
+            },
+            {
+              "lat": 36.5200451,
+              "lng": -4.8740401
+            }
+          ]
         }
       ],
       "evidence": {
@@ -23388,7 +23449,10 @@
         "tariffSources": [
           "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-malaga---estepona-2026.pdf"
         ],
-        "geometrySource": "https://www.openstreetmap.org/copyright"
+        "geometrySource": "https://www.openstreetmap.org/copyright",
+        "coverageSources": [
+          "audit/area-coverage/ap7-san-pedro.json"
+        ]
       }
     },
     {

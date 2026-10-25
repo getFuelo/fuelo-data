@@ -1,0 +1,17 @@
+{
+ "seed--a-coruna-santiago": ["ap9-santiago-norte"],
+ "seed--santiago-a-coruna": ["ap9-santiago-norte"],
+ "seed--ferrol-a-coruna": ["ap9-ferrol-fene"],
+ "seed--santiago-pontevedra": ["ap9-santiago-sur"],
+ "seed--a-coruna-vigo": ["ap9-santiago-norte", "ap9-santiago-sur"],
+ "es-ap9--through-ab": ["ap9-tui", "ap9-vigo-puxeiros"],
+ "es-ag57--through-ab": ["ag57-baiona", "ag57-vigo"],
+ "es-ap15--through-ba": ["ap15-tudela"],
+ "es-ap7-estepona-guadiaro--b-mid": ["ap7-manilva"],
+ "es-ap7-malaga-estepona--b-mid": ["ap7-san-pedro"],
+ "es-c16-terrassa-manresa--mid-a": ["c16-terrassa"],
+ "es-ap8-gipuzkoa--mid-a": ["ap8-orio-donostia"],
+ "seed--madrid-barajas-t4": ["m12-barajas"],
+ "seed--malaga-marbella": ["gate:ap7-calahonda-troncal"],
+ "es-ap7-malaga-estepona--through-ab": ["gate:ap7-calahonda-troncal"]
+}

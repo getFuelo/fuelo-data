@@ -5465,6 +5465,108 @@
               "lng": -5.269534
             }
           ]
+        },
+        {
+          "id": "27579932",
+          "version": 11,
+          "line": [
+            {
+              "lat": 36.3822035,
+              "lng": -5.2621672
+            },
+            {
+              "lat": 36.3820454,
+              "lng": -5.2622527
+            },
+            {
+              "lat": 36.3816124,
+              "lng": -5.2623358
+            },
+            {
+              "lat": 36.3811182,
+              "lng": -5.262481
+            },
+            {
+              "lat": 36.3807811,
+              "lng": -5.2626148
+            },
+            {
+              "lat": 36.3803762,
+              "lng": -5.262816
+            },
+            {
+              "lat": 36.3800998,
+              "lng": -5.262989
+            },
+            {
+              "lat": 36.3798266,
+              "lng": -5.2631848
+            },
+            {
+              "lat": 36.3795577,
+              "lng": -5.2633873
+            },
+            {
+              "lat": 36.379307,
+              "lng": -5.263617
+            },
+            {
+              "lat": 36.3790589,
+              "lng": -5.2638768
+            },
+            {
+              "lat": 36.3788244,
+              "lng": -5.2641597
+            },
+            {
+              "lat": 36.3787555,
+              "lng": -5.264267
+            },
+            {
+              "lat": 36.3786995,
+              "lng": -5.2643748
+            },
+            {
+              "lat": 36.3786648,
+              "lng": -5.2644655
+            },
+            {
+              "lat": 36.3786465,
+              "lng": -5.2645642
+            },
+            {
+              "lat": 36.3786335,
+              "lng": -5.264672
+            },
+            {
+              "lat": 36.3786354,
+              "lng": -5.2647593
+            },
+            {
+              "lat": 36.3786443,
+              "lng": -5.2648745
+            },
+            {
+              "lat": 36.3786643,
+              "lng": -5.2649684
+            },
+            {
+              "lat": 36.3787718,
+              "lng": -5.2652025
+            },
+            {
+              "lat": 36.3788451,
+              "lng": -5.2653024
+            },
+            {
+              "lat": 36.3789142,
+              "lng": -5.2653708
+            },
+            {
+              "lat": 36.3791008,
+              "lng": -5.2655054
+            }
+          ]
         }
       ],
       "evidence": {
@@ -5472,7 +5574,10 @@
         "tariffSources": [
           "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-estepona---guadiaro-2026.pdf"
         ],
-        "geometrySource": "https://www.openstreetmap.org/copyright"
+        "geometrySource": "https://www.openstreetmap.org/copyright",
+        "coverageSources": [
+          "audit/area-coverage/ap7-manilva.json"
+        ]
       }
     },
     {

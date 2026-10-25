@@ -1,0 +1,80 @@
+{
+ "area": "ap7-san-pedro",
+ "network": "es-ap7-san-pedro-troncal",
+ "snapshot": "2026-09-15T20:20:37Z",
+ "source": "https://overpass-api.de/api/interpreter (attic query at the snapshot)",
+ "query": "[out:json][timeout:120][date:\"2026-09-15T20:20:37Z\"];way(around:25,36.520835,-4.869021,36.520729,-4.870085,36.520682,-4.870747,36.520636,-4.871254,36.520591,-4.871702,36.520485,-4.872308,36.520159,-4.873557,36.520104,-4.873857,36.520045,-4.874040,36.520045,-4.874040)[highway][toll=yes];out meta geom;node(w)[~\"^(barrier|highway)$\"~\"^(toll_booth|toll_gantry)$\"];out meta;",
+ "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+ "reason": "Ways tagged toll=yes beyond the mapped cuts, with no booth or gantry: the journey settles at the existing gates.",
+ "journeys": [
+  "es-ap7-malaga-estepona--b-mid"
+ ],
+ "checks": {
+  "runs": 1,
+  "routePointsOnWays": true,
+  "chargingPointsOnWays": 0,
+  "joinsNetworkCoverage": true
+ },
+ "ways": [
+  {
+   "id": "77913416",
+   "version": 8,
+   "ref": null,
+   "highway": "motorway_link",
+   "line": [
+    {
+     "lat": 36.5211296,
+     "lng": -4.8651616
+    },
+    {
+     "lat": 36.5211504,
+     "lng": -4.8655305
+    },
+    {
+     "lat": 36.5210765,
+     "lng": -4.8664932
+    },
+    {
+     "lat": 36.5209783,
+     "lng": -4.867585
+    },
+    {
+     "lat": 36.5208349,
+     "lng": -4.8690213
+    },
+    {
+     "lat": 36.5207293,
+     "lng": -4.8700852
+    },
+    {
+     "lat": 36.5206816,
+     "lng": -4.8707469
+    },
+    {
+     "lat": 36.5206356,
+     "lng": -4.8712537
+    },
+    {
+     "lat": 36.520591,
+     "lng": -4.8717016
+    },
+    {
+     "lat": 36.520485,
+     "lng": -4.8723075
+    },
+    {
+     "lat": 36.5201593,
+     "lng": -4.8735572
+    },
+    {
+     "lat": 36.5201042,
+     "lng": -4.8738569
+    },
+    {
+     "lat": 36.5200451,
+     "lng": -4.8740401
+    }
+   ]
+  }
+ ]
+}

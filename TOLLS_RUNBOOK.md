@@ -1,5 +1,49 @@
 # Tolls dataset — audit and refresh runbook
 
+## How to update
+
+One command rebuilds and checks everything. It needs no map data: the catalog
+and its evidence are committed. Takes about 3 minutes (5 with `--refresh-routes`).
+
+```sh
+git clone https://github.com/getFuelo/fuelo-app && (cd fuelo-app && npm ci)   # once
+scripts/tolls/update.sh ../fuelo-app --refresh-routes
+```
+
+It applies the per-area evidence, assembles `tolls-es-reviewed.json`, runs the
+validators and unit tests, flags tariffs expired or expiring within 60 days,
+replays the retained national and avoidance journeys, and runs the terminal
+sweep (real router journeys past every road end). It ends with `ALL PASS` or a
+`NEEDS REVIEW` list.
+
+**What to check when something fails**
+
+- *Tariff validity*: a new year (January) or a concession end date. Download the
+  operator/Ministry tables, update `scripts/coverage/source-lock.json` hashes,
+  run the matching `scripts/coverage/import_*.py`, carry the new fares and
+  `validFrom`/`validThrough` into the network in `pricing-candidates/`, rerun.
+  A road that becomes free leaves the catalog (its journeys then have no toll).
+- *Sweep `GAP`* (coordinates printed): a road tagged toll=yes past the mapped
+  cuts. `python3 scripts/coverage/fetch_area_coverage.py NAME --network ID --bbox S,W,N,E`
+  freezes it if it carries no booth or gantry; otherwise it is an unmapped
+  charging point and stays unavailable (add a reason in
+  `pricing-candidates/terminal-sweep/accepted.json`).
+- *Sweep `NEAR MISS`*: a priced journey drives through a main-line plaza without
+  crossing its gate (under-charge). `python3 scripts/coverage/fetch_plaza_gate.py NAME --network ID --gate GATE`.
+- *Sweep `NOT ACCEPTED`*: a changed price or a newly unavailable journey. If it
+  is expected (new tariffs), record it with
+  `node scripts/coverage/sweep_terminals.cjs accept ../fuelo-app`; it refuses
+  while any unavailable journey lacks a written reason.
+- *National replay*: a retained journey's price changed; check the tariff edit.
+
+**Release**: review the diff, commit on a branch, open a PR. Merging to `main`
+publishes `tolls-es-reviewed.json` to the app through the CDN. If you used
+`--export`, open the matching fuelo-app PR with the updated fixtures.
+
+The September 2026 national build (scripts that need the no longer kept national
+OSM graph) is described in `scripts/coverage/README.md`; it is not part of
+routine updates.
+
 Last tariff audit: **2026-09-16**, all 36 existing ES/AD entries, tariff year 2026.
 
 Read [the complete audit](audit/2026-09-16/README.md) and its `entries.json` before

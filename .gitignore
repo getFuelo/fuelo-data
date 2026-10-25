@@ -1,6 +1,8 @@
 __pycache__/
 *.pyc
 
-# Reproducible national OSM extract; source hash/provenance is versioned.
+# National OSM graphs used once for the September 2026 build (see
+# scripts/coverage/README.md). Not kept and no longer needed: the dated
+# Geofabrik extract is gone and new work uses committed per-area evidence.
 audit/2026-09-16/spain-graph/graph.json.gz
 audit/2026-09-16/canary-islands-graph/graph.json.gz

@@ -207,3 +207,39 @@ for family in ['ap36','ap41','ap7-cartagena-vera','r4','r5','supersur','ag57','a
  if rows:(out/f'{family}/public-avoidance.json').write_text(json.dumps(rows,separators=(',',':'))+'\n')
 path=ROOT/'audit/2026-09-16/networks/supersur/missed-western-entry/before.json'
 if path.exists():(out/'supersur/western-entry.json').write_text(json.dumps(json.loads(path.read_text()),separators=(',',':'))+'\n')
+
+# Terminal sweep: real journeys priced only thanks to per-area evidence
+# (audit/area-coverage, audit/area-gates), with the reviewed price from the
+# sweep baseline. Only the networks near each route are exported.
+sweep=ROOT/'pricing-candidates/terminal-sweep'
+if (sweep/'app-cases.json').exists():
+ import math
+ reviewed=json.loads((ROOT/'tolls-es-reviewed.json').read_text())
+ accepted=json.loads((sweep/'accepted.json').read_text())
+ def decode(s):
+  out,i,lat,lng=[],0,0,0
+  while i<len(s):
+   for k in (0,1):
+    sh=r=0
+    while True:
+     b=ord(s[i])-63;i+=1;r|=(b&0x1f)<<sh;sh+=5
+     if b<0x20:break
+    v=~(r>>1) if r&1 else r>>1
+    if k==0:lat+=v
+    else:lng+=v
+   out.append((lat/1e6,lng/1e6))
+  return out
+ cases,keep=[],set()
+ for name,areas in json.loads((sweep/'app-cases.json').read_text()).items():
+  response=json.loads((sweep/'responses'/(name+'.json')).read_text())
+  pts=[p for leg in response['trip']['legs'] for p in decode(leg['shape'])]
+  cells={(round(p[0],1),round(p[1],1)) for p in pts}
+  for n in reviewed['pricing']:
+   if any((round(v['lat'],1),round(v['lng'],1)) in cells for w in n['coverageWays'] for v in w['line'][:1]): keep.add(n['id'])
+  ways=[w['id'] for a in areas if not a.startswith('gate:') for w in json.loads((ROOT/f'audit/area-coverage/{a}.json').read_text())['ways']]
+  gates=[json.loads((ROOT/f'audit/area-gates/{a[5:]}.json').read_text()) for a in areas if a.startswith('gate:')]
+  cases.append({'name':name,'areas':areas,'expectedCents':accepted[name]['cents'][0],'areaWays':ways,
+   'previousGates':[{'network':g['network'],'gate':g['gate'],'line':g['previousLine']} for g in gates],'response':response})
+ target=out/'terminal-sweep';target.mkdir(exist_ok=True)
+ (target/'catalog.json').write_text(json.dumps({**reviewed,'pricing':[n for n in reviewed['pricing'] if n['id'] in keep]},separators=(',',':'),ensure_ascii=False)+'\n')
+ (target/'cases.json').write_text(json.dumps(cases,separators=(',',':'),ensure_ascii=False)+'\n')

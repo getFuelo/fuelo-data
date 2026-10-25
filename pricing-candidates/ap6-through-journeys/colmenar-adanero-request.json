@@ -1,0 +1,30 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.6587,
+        "lon": -3.7656
+      },
+      {
+        "lat": 40.9437,
+        "lon": -4.6058
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "endpoint": "https://routing.fuelo.agilitza.com/route",
+  "fetched": "2026-10-25",
+  "responseFormat": "production (toll_segments, no maneuvers)",
+  "expectedCents": 1570,
+  "fareRow": "VILLALBA–ADANERO",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+  "scope": "General light car. Northbound, leaving at the Adanero junction right after the plaza."
+}

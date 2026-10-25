@@ -22,6 +22,11 @@ or per-station tariff requests.
 - Vallvidrera can return a tariff range where the holiday rule is unresolved.
 - Some road families still lack verified whole-road avoidance boundaries;
   retain the app's unsupported state rather than inventing a polygon.
+- Terminal continuations: OSM can tag a motorway toll=yes past its last plaza
+  (AP-6 runs ~7 km past Adanero to the A-6). The router then reports a tolled
+  span beyond the mapped cuts. AP-6 is covered since 2026-10-25 and retained in
+  `pricing-candidates/ap6-through-journeys` (production toll_segments format);
+  other terminals with the same pattern stay unavailable until reviewed.
 - Uncovered provider toll geometry, missing entries/exits, expired tariff data
   and ambiguous charging passages remain unavailable, never an exact saving.
 - Local parking/tourist/forest fees are outside the product scope. The remaining
@@ -32,7 +37,10 @@ Provider routing errors and stale OSM data cannot be eliminated by a tariff file
 
 ## Reproduce release checks
 
-1. `python3 scripts/coverage/build_spain_candidate.py`
+1. `python3 scripts/coverage/build_ap6_adanero_terminal.py` (graph-free; adds the
+   AP-6 carriageways between the Adanero plaza and the A-6 merge, frozen by
+   `fetch_ap6_adanero_terminal.py` at the graph snapshot), then
+   `python3 scripts/coverage/build_spain_candidate.py`
 2. `python3 scripts/coverage/validate_candidates.py`
 3. `python3 scripts/validate_tolls.py`
 4. `python3 -m unittest discover -s scripts/coverage/tests -v`

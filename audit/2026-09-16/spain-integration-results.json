@@ -2,8 +2,8 @@
   "catalogOrdersChecked": 4,
   "productionPathChecked": true,
   "complete": false,
-  "total": 1647,
-  "passed": 1647,
+  "total": 1652,
+  "passed": 1652,
   "safelyUnavailable": 8,
   "unresolvedPassages": [],
   "failures": [],
@@ -226,6 +226,10 @@
     },
     "open-lane/r2-open": {
       "passed": 4,
+      "failed": 0
+    },
+    "ap6-through-journeys": {
+      "passed": 5,
       "failed": 0
     }
   }

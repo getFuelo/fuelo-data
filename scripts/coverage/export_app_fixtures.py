@@ -148,6 +148,11 @@ if (ROOT/'pricing-candidates/iberpistas-ap61.json').exists():
  for path in sorted((ROOT/'pricing-candidates/iberpistas-ap61-routes').glob('*-request.json')):
   req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
  (target/'cases.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')
+ # Production-format journeys through the Adanero plaza onto the A-6 merge.
+ rows=[]
+ for path in sorted((ROOT/'pricing-candidates/ap6-through-journeys').glob('*-request.json')):
+  req=json.loads(path.read_text());rows.append({'name':path.stem.removesuffix('-request'),**req,'response':json.loads(path.with_name(path.name.replace('-request','')).read_text())})
+ (target/'through-journeys.json').write_text(json.dumps(rows,separators=(',',':'),ensure_ascii=False)+'\n')
 
 if (ROOT/'audit/2026-09-16/networks/c32/unresolved-passages.json').exists():
  import shutil

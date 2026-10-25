@@ -1,0 +1,62 @@
+{
+ "name": "artxanda-inbound",
+ "network": "es-artxanda",
+ "gate": "artxanda-inbound",
+ "snapshot": "2026-09-15T20:20:37Z",
+ "source": "https://overpass-api.de/api/interpreter (attic query at the snapshot)",
+ "query": "[out:json][timeout:60][date:\"2026-09-15T20:20:37Z\"];way(around:80,43.2854611,-2.9360354)[highway];out meta geom;",
+ "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+ "reason": "Booth lanes mapped as separate ways reach beyond the ±8 m line; routes through outer lanes passed the plaza uncrossed.",
+ "previousLine": [
+  {
+   "lat": 43.28532251701346,
+   "lng": -2.936189103604809
+  },
+  {
+   "lat": 43.28559975350163,
+   "lng": -2.9358816571518367
+  }
+ ],
+ "line": [
+  {
+   "lat": 43.285237249,
+   "lng": -2.936283663
+  },
+  {
+   "lat": 43.285685021,
+   "lng": -2.935787098
+  }
+ ],
+ "halfLengthM": 31.9,
+ "maxLaneGapM": 25.0,
+ "lanes": [
+  {
+   "way": "1448677684",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": "BI-626",
+   "offsetM": -23.9
+  },
+  {
+   "way": "11505078",
+   "version": 18,
+   "highway": "motorway_link",
+   "ref": "BI-626",
+   "offsetM": -5.7
+  },
+  {
+   "way": "28193390",
+   "version": 15,
+   "highway": "motorway_link",
+   "ref": "BI-626",
+   "offsetM": 4.5
+  },
+  {
+   "way": "1448677685",
+   "version": 1,
+   "highway": "motorway_link",
+   "ref": "BI-626",
+   "offsetM": 23.8
+  }
+ ]
+}

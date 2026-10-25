@@ -1,19 +1,19 @@
 {
  "es-ap6--through-ab": {
   "status": "unavailable:missing_exit",
-  "reason": "AP-51 at Villacastín: the journey leaves/joins through the Villacastín access, mapped only for SC-SG-13 (build_iberpistas.py: other public approaches pending). Fare unknown, fail closed."
+  "reason": "AP-51 at Villacastín: the journey leaves/joins via the N-110 north of the junction. Reviewed 2026-10-25: the single Villacastín booth plaza (8 booths, OSM 12959297335..360) is also used by AP-6<->AP-51 connection traffic, which exits, U-turns on the N-110 roundabout and re-enters (joint fares, e.g. Adanero-Ávila 5,70 €), so gating the plaza or its N-110 links splits those fares; a logical cut on the free N-110 beyond the roundabout makes toll-free N-110 drives 'sin confirmar' because the app evaluates gates on toll-free routes. Needs an app change (ignore gate crossings outside tolled spans) before this approach can be cut. Fail closed."
  },
  "es-ap6--through-ba": {
   "status": "unavailable:missing_entry",
-  "reason": "AP-51 at Villacastín: the journey leaves/joins through the Villacastín access, mapped only for SC-SG-13 (build_iberpistas.py: other public approaches pending). Fare unknown, fail closed."
+  "reason": "AP-51 at Villacastín: the journey leaves/joins via the N-110 north of the junction. Reviewed 2026-10-25: the single Villacastín booth plaza (8 booths, OSM 12959297335..360) is also used by AP-6<->AP-51 connection traffic, which exits, U-turns on the N-110 roundabout and re-enters (joint fares, e.g. Adanero-Ávila 5,70 €), so gating the plaza or its N-110 links splits those fares; a logical cut on the free N-110 beyond the roundabout makes toll-free N-110 drives 'sin confirmar' because the app evaluates gates on toll-free routes. Needs an app change (ignore gate crossings outside tolled spans) before this approach can be cut. Fail closed."
  },
  "es-ap6--mid-a": {
   "status": "unavailable:missing_entry",
-  "reason": "AP-51 at Villacastín: the journey leaves/joins through the Villacastín access, mapped only for SC-SG-13 (build_iberpistas.py: other public approaches pending). Fare unknown, fail closed."
+  "reason": "AP-51 at Villacastín: the journey leaves/joins via the N-110 north of the junction. Reviewed 2026-10-25: the single Villacastín booth plaza (8 booths, OSM 12959297335..360) is also used by AP-6<->AP-51 connection traffic, which exits, U-turns on the N-110 roundabout and re-enters (joint fares, e.g. Adanero-Ávila 5,70 €), so gating the plaza or its N-110 links splits those fares; a logical cut on the free N-110 beyond the roundabout makes toll-free N-110 drives 'sin confirmar' because the app evaluates gates on toll-free routes. Needs an app change (ignore gate crossings outside tolled spans) before this approach can be cut. Fail closed."
  },
  "es-ap6--a-mid": {
   "status": "unavailable:missing_exit",
-  "reason": "AP-51 at Villacastín: the journey leaves/joins through the Villacastín access, mapped only for SC-SG-13 (build_iberpistas.py: other public approaches pending). Fare unknown, fail closed."
+  "reason": "AP-51 at Villacastín: the journey leaves/joins via the N-110 north of the junction. Reviewed 2026-10-25: the single Villacastín booth plaza (8 booths, OSM 12959297335..360) is also used by AP-6<->AP-51 connection traffic, which exits, U-turns on the N-110 roundabout and re-enters (joint fares, e.g. Adanero-Ávila 5,70 €), so gating the plaza or its N-110 links splits those fares; a logical cut on the free N-110 beyond the roundabout makes toll-free N-110 drives 'sin confirmar' because the app evaluates gates on toll-free routes. Needs an app change (ignore gate crossings outside tolled spans) before this approach can be cut. Fail closed."
  },
  "es-ap9--through-ab": {
   "status": "quoted",
@@ -32,15 +32,15 @@
  "es-ap9--mid-a": {
   "status": "quoted",
   "cents": [
-   1355,
-   1355
+   1615,
+   1615
   ]
  },
  "es-ap9--a-mid": {
   "status": "quoted",
   "cents": [
-   1355,
-   1355
+   1615,
+   1615
   ]
  },
  "es-ap9--mid-b": {
@@ -59,19 +59,19 @@
  },
  "es-ap68--through-ab": {
   "status": "unavailable:missing_entry",
-  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao: no gate or fare for the road-to-road transfer. Fail closed."
+  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao. Checked 2026-10-25: no official fare published for the road-to-road transfer (Bizkaia/Interbiak announcements cover the AP-68 handover on 11 Nov 2026 and 2027 caps only). No gate or fare: fail closed."
  },
  "es-ap68--through-ba": {
   "status": "unavailable:missing_exit",
-  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao: no gate or fare for the road-to-road transfer. Fail closed."
+  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao. Checked 2026-10-25: no official fare published for the road-to-road transfer (Bizkaia/Interbiak announcements cover the AP-68 handover on 11 Nov 2026 and 2027 caps only). No gate or fare: fail closed."
  },
  "es-ap68--mid-a": {
   "status": "unavailable:missing_exit",
-  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao: no gate or fare for the road-to-road transfer. Fail closed."
+  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao. Checked 2026-10-25: no official fare published for the road-to-road transfer (Bizkaia/Interbiak announcements cover the AP-68 handover on 11 Nov 2026 and 2027 caps only). No gate or fare: fail closed."
  },
  "es-ap68--a-mid": {
   "status": "unavailable:missing_entry",
-  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao: no gate or fare for the road-to-road transfer. Fail closed."
+  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao. Checked 2026-10-25: no official fare published for the road-to-road transfer (Bizkaia/Interbiak announcements cover the AP-68 handover on 11 Nov 2026 and 2027 caps only). No gate or fare: fail closed."
  },
  "es-ap68--mid-b": {
   "status": "quoted",
@@ -161,7 +161,7 @@
  },
  "es-supersur--through-ab": {
   "status": "unavailable:missing_exit",
-  "reason": "Supersur to AP-68 transfer at Bilbao (same as AP-68): no transfer fare. Fail closed."
+  "reason": "Direct AP-68 <-> Supersur transfer at Arrigorriaga/Bilbao. Checked 2026-10-25: no official fare published for the road-to-road transfer (Bizkaia/Interbiak announcements cover the AP-68 handover on 11 Nov 2026 and 2027 caps only). No gate or fare: fail closed."
  },
  "es-supersur--through-ba": {
   "status": "quoted",
@@ -950,20 +950,26 @@
   ]
  },
  "seed--bilbao-san-sebastian": {
-  "status": "unavailable:toll_geometry_outside_catalog",
-  "reason": "Artxanda (BI-626): the router crosses the plaza on a chord between booth lanes that the ±8 m gate lines do not reach; covering it needs a reviewed redesign of the Artxanda gates. Left unavailable (no coverage added) so it cannot be under-charged."
+  "status": "quoted",
+  "cents": [
+   1536,
+   1536
+  ]
  },
  "seed--san-sebastian-bilbao": {
-  "status": "unavailable:toll_geometry_outside_catalog",
-  "reason": "Artxanda, as seed--bilbao-san-sebastian."
+  "status": "quoted",
+  "cents": [
+   1536,
+   1536
+  ]
  },
  "seed--irun-san-sebastian": {
   "status": "unavailable:missing_exit",
-  "reason": "Leaves the AP-8 at the GI-20 (Errenteria): GI-20 general OD fare not sourced (build_reviewed_terminal_cuts.py). Fail closed."
+  "reason": "Leaves/joins the AP-8 at the GI-20 (Errenteria). Checked 2026-10-25: the official Bidegi 2026 AP-8/AP-1/AP-636 tariff (https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5, sha256 388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c) has no GI-20 row (only Donostia-Este, Oiartzun, Irun, Oñaurre telepeaje-only, Behobia). No official fare: fail closed."
  },
  "seed--san-sebastian-irun": {
   "status": "unavailable:missing_or_duplicate_od_fare",
-  "reason": "Joins the AP-8 at the GI-20 entry: GI-20 general OD fare not sourced. Fail closed."
+  "reason": "Leaves/joins the AP-8 at the GI-20 (Errenteria). Checked 2026-10-25: the official Bidegi 2026 AP-8/AP-1/AP-636 tariff (https://www.bidegi.eus/documents/42696171/0/2026__AP-8_AP-1_AP-636_tarifak.pdf/0c9dbcf3-f3e7-e6f6-709b-8cbb7d9da9d5, sha256 388a37fc0551616d943a97b98d112de97019a879ae5d18fc55aee70431462b2c) has no GI-20 row (only Donostia-Este, Oiartzun, Irun, Oñaurre telepeaje-only, Behobia). No official fare: fail closed."
  },
  "seed--bilbao-vitoria": {
   "status": "quoted",

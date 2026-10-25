@@ -31,7 +31,7 @@ const dir = path.join(root, 'pricing-candidates/terminal-sweep');
 const read = p => JSON.parse(fs.readFileSync(p));
 const write = (p, v) => { fs.mkdirSync(path.dirname(p), {recursive: true}); fs.writeFileSync(p, JSON.stringify(v, null, 1) + '\n'); };
 const ROUTER = process.env.FUELO_ROUTER || 'https://routing.fuelo.agilitza.com/route';
-const BEYOND_KM = 12, SIDE_KM = 5, NEAR_GATE_KM = .04, TOLERANCE_KM = .012, DEPARTURE = '2026-10-25T10:00:00Z';
+const BEYOND_KM = 12, SIDE_KM = 5, NEAR_GATE_KM = .04, SAME_PLAZA_KM = .06, TOLERANCE_KM = .012, DEPARTURE = '2026-10-25T10:00:00Z';
 const [mode = 'check', appArg] = process.argv.slice(2);
 
 const R = 6371;
@@ -160,14 +160,25 @@ function check(appDir) {
   if (tollSegments.length) {
    // A plaza's entry and exit lines sit on opposite carriageways, so crossing
    // one always passes near the other: judge plazas (zones), not lines.
+   // Directional pairs without the suffix (e.g. Artxanda inbound/outbound) are
+   // matched by position: lines of one network whose centres lie within
+   // SAME_PLAZA_KM belong to the same plaza.
    const zone = id => id.replace(/-(entry|exit)$/, '');
-   const crossed = new Set(findGateCrossings(geometry, files.es.pricing).map(e => e.networkId + '/' + zone(e.gateId)));
+   const centre = g => ({lat: (g.line[0].lat + g.line[1].lat) / 2, lng: (g.line[0].lng + g.line[1].lng) / 2});
+   const apart = (p, q) => Math.hypot((p.lng - q.lng) * Math.cos(p.lat * Math.PI / 180) * 111.32, (p.lat - q.lat) * 110.57);
+   const crossings = findGateCrossings(geometry, files.es.pricing);
+   const crossed = new Set(crossings.map(e => e.networkId + '/' + zone(e.gateId)));
+   const crossedAt = crossings.map(e => {
+    const g = files.es.pricing.find(n => n.id === e.networkId)?.gates.find(x => x.id === e.gateId);
+    return g?.line ? {network: e.networkId, at: centre(g)} : null;
+   }).filter(Boolean);
    for (const n of files.es.pricing) for (const g of n.gates) {
     // Only main-carriageway plazas: a slip-road gate runs alongside the
     // carriageway, so passing it uncrossed is normal.
     const mainline = n.pricing.kind === 'gates' || /troncal/i.test(g.id);
     if (!mainline || !g.line || crossed.has(n.id + '/' + zone(g.id))) continue;
-    const c = {lat: (g.line[0].lat + g.line[1].lat) / 2, lng: (g.line[0].lng + g.line[1].lng) / 2};
+    const c = centre(g);
+    if (crossedAt.some(x => x.network === n.id && apart(x.at, c) <= SAME_PLAZA_KM)) continue;
     const k = Math.cos(c.lat * Math.PI / 180) * 111.32;
     let best = Infinity;
     for (let i = 1; i < geometry.length; i++) {

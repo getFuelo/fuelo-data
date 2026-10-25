@@ -8,10 +8,12 @@ sweep_terminals.cjs as a NEAR MISS). Same per-area, graph-free approach as
 fetch_area_coverage.py: only the plaza is fetched, from Overpass at the catalog
 snapshot, and frozen as evidence; build_area_coverage.py applies it.
 
-    python3 scripts/coverage/fetch_plaza_gate.py NAME --network ID --gate GATE
+    python3 scripts/coverage/fetch_plaza_gate.py NAME --network ID --gate GATE [--max-lane-gap M]
 
 The line keeps its centre and orientation (so crossing direction semantics are
-unchanged) and grows over consecutive lane crossings (gaps of at most 15 m) plus 8 m. Refused if
+unchanged) and grows over consecutive lane crossings (gaps of at most 15 m, or
+--max-lane-gap where the plaza fans its lanes wider; recorded in the evidence) plus 8 m.
+It never shrinks an existing line. Refused if
 the widened line would cut any way that is not a motorway/trunk carriageway or
 link: a parallel free road must never be charged.
 """
@@ -26,6 +28,7 @@ LANES = {'motorway', 'motorway_link', 'trunk', 'trunk_link'}
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('name'); ap.add_argument('--network', required=True); ap.add_argument('--gate', required=True)
+    ap.add_argument('--max-lane-gap', type=float, default=MAX_LANE_GAP_M)
     args = ap.parse_args()
     catalog = json.loads((ROOT / 'tolls-es-reviewed.json').read_text())
     net = next(n for n in catalog['pricing'] if n['id'] == args.network)
@@ -60,10 +63,11 @@ def main():
     for side in (1, -1):
         edge = 0
         for x in sorted((x for x in cuts if x['highway'] in LANES and x['offsetM'] * side >= 0), key=lambda x: abs(x['offsetM'])):
-            if abs(x['offsetM']) - edge > MAX_LANE_GAP_M: break
+            if abs(x['offsetM']) - edge > args.max_lane_gap: break
             edge = abs(x['offsetM'])
         reach[side] = edge
-    half = max(reach.values()) + MARGIN_M
+    previous_half = math.hypot(*(to_xy(b)[i] - to_xy(a)[i] for i in (0, 1))) / 2
+    half = max(max(reach.values()) + MARGIN_M, previous_half)
     # Only lanes within the widened span matter; a non-lane way there is refused.
     blocking = [x for x in refused if abs(x['offsetM']) <= half]
     if blocking:
@@ -76,7 +80,7 @@ def main():
         'source': 'https://overpass-api.de/api/interpreter (attic query at the snapshot)', 'query': query,
         'attribution': '© OpenStreetMap contributors, ODbL 1.0',
         'reason': 'Booth lanes mapped as separate ways reach beyond the ±8 m line; routes through outer lanes passed the plaza uncrossed.',
-        'previousLine': gate['line'], 'line': line, 'halfLengthM': round(half, 1),
+        'previousLine': gate['line'], 'line': line, 'halfLengthM': round(half, 1), 'maxLaneGapM': args.max_lane_gap,
         'lanes': sorted([x for x in cuts if abs(x['offsetM']) <= half], key=lambda x: x['offsetM']),
     }, ensure_ascii=False, indent=1) + '\n')
     print(f'{args.name}: {args.network}/{args.gate} widened to ±{half:.0f} m over {len([x for x in cuts if abs(x["offsetM"]) <= half])} lane crossings')

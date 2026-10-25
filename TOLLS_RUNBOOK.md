@@ -29,7 +29,14 @@ sweep (real router journeys past every road end). It ends with `ALL PASS` or a
   charging point and stays unavailable (add a reason in
   `pricing-candidates/terminal-sweep/accepted.json`).
 - *Sweep `NEAR MISS`*: a priced journey drives through a main-line plaza without
-  crossing its gate (under-charge). `python3 scripts/coverage/fetch_plaza_gate.py NAME --network ID --gate GATE`.
+  crossing its gate (under-charge). `python3 scripts/coverage/fetch_plaza_gate.py NAME --network ID --gate GATE`
+  (add `--max-lane-gap M` where the plaza fans its lanes wider than 15 m, as at Artxanda).
+- *Sweep `missing_entry` / `missing_exit`* at a zone that has official fares: the
+  journey uses an approach of that zone that has no gate. Before gating it, check
+  (a) the plaza is not also used by connection traffic between two motorways
+  (then a cut there splits joint fares; see Villacastín in the sweep reasons) and
+  (b) the cut is not on a free public road: the app evaluates gates on toll-free
+  routes too, so a cut on a free through-road makes free drives "sin confirmar".
 - *Sweep `NOT ACCEPTED`*: a changed price or a newly unavailable journey. If it
   is expected (new tariffs), record it with
   `node scripts/coverage/sweep_terminals.cjs accept ../fuelo-app`; it refuses

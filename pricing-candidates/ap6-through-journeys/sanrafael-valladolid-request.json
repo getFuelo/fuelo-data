@@ -1,0 +1,30 @@
+{
+  "request": {
+    "locations": [
+      {
+        "lat": 40.7225,
+        "lon": -4.2155
+      },
+      {
+        "lat": 41.6523,
+        "lon": -4.7245
+      }
+    ],
+    "costing": "auto",
+    "costing_options": {
+      "auto": {
+        "use_tolls": 1
+      }
+    },
+    "directions_options": {
+      "units": "kilometers"
+    }
+  },
+  "endpoint": "https://routing.fuelo.agilitza.com/route",
+  "fetched": "2026-10-25",
+  "responseFormat": "production (toll_segments, no maneuvers)",
+  "expectedCents": 905,
+  "fareRow": "SAN RAFAEL–ADANERO",
+  "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+  "scope": "General light car. Northbound from San Rafael onto the A-6."
+}

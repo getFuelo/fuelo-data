@@ -66,11 +66,18 @@ for (const file of fs.readdirSync(path.join(root, 'pricing-candidates/open-lane-
  cases.push({family:'open-lane/' + request.family, name, expected:request.expectedCents, expectedNetwork:request.network,
   response:read(path.join(root, 'pricing-candidates/open-lane-acceptance', name + '.json'))});
 }
+// Production-format (toll_segments) through-journeys past the Adanero plaza:
+// the router's tolled span runs on to the A-6 merge, beyond the ADANERO cuts.
+for (const file of fs.readdirSync(path.join(root, 'pricing-candidates/ap6-through-journeys')).filter(f => f.endsWith('-request.json'))) {
+ const name = file.replace('-request.json', '');
+ const request = read(path.join(root, 'pricing-candidates/ap6-through-journeys', file));
+ cases.push({family:'ap6-through-journeys', name, expected:request.expectedCents, response:read(path.join(root, 'pricing-candidates/ap6-through-journeys', name + '.json'))});
+}
 const report = {catalogOrdersChecked: 4, productionPathChecked: true, complete: false, total: cases.length, passed: 0, safelyUnavailable: 0, unresolvedPassages: [], failures: [], byFamily: {}};
 for (const c of cases) {
  if (!Number.isInteger(c.expected)) throw Error(`Missing independent expectation: ${c.family}/${c.name}`);
  const {trip} = c.response, leg = trip.legs[0];
- const route = {geometry: decodePolyline6(leg.shape), durationMin: trip.summary.time / 60, distanceKm: trip.summary.length, hasTolls: trip.summary.has_toll, degraded: false, tollSegments: leg.maneuvers.filter(m => m.toll).map(m => ({beginIdx: m.begin_shape_index, endIdx: m.end_shape_index}))};
+ const route = {geometry: decodePolyline6(leg.shape), durationMin: trip.summary.time / 60, distanceKm: trip.summary.length, hasTolls: trip.summary.has_toll, degraded: false, tollSegments: leg.toll_segments ? leg.toll_segments.map(t => ({beginIdx: t.begin_shape_index, endIdx: t.end_shape_index})) : leg.maneuvers.filter(m => m.toll).map(m => ({beginIdx: m.begin_shape_index, endIdx: m.end_shape_index}))};
  const results = catalogs.map(file => file.schema === 6 ? priceVerifiedRoute(route, {es: file}, '2026-09-16T10:00:00Z') : auditMappedRoute(route, file, '2026-09-16T10:00:00Z'));
  const matches = result => c.expectedUnavailable ? result.quote.status === 'unavailable' && result.quote.reasons.includes(c.expectedUnavailable) : result.quote.status === 'quoted' && result.quote.minCents === c.expected && result.quote.maxCents === c.expected;
  const matchesExpected = result => matches(result) && (!c.expectedNetwork || (result.events.length === 1 && result.events[0].networkId === c.expectedNetwork));
